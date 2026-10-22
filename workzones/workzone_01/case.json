@@ -1,0 +1,29 @@
+{
+  "schema": "workzone_case_v1",
+  "case_id": "workzone_01",
+  "number": 1,
+  "name": "Workzone 1",
+  "raw_case": "Case_00",
+  "scene_id": "scene-CATS-01",
+  "camera": "CAM_FRONT",
+  "input_window_s": null,
+  "layout": "TA-30",
+  "duration": "over_3_days",
+  "raw_root": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_00",
+  "paths": {
+    "scene": "workzones/workzone_01/inputs/scene.json",
+    "processed": "workzones/workzone_01/inputs/processed",
+    "detections": "workzones/workzone_01/inputs/detections.json",
+    "config": "workzones/workzone_01/config",
+    "bev": "workzones/workzone_01/outputs/bev/data",
+    "viewer": "workzones/workzone_01/outputs/bev/viewer.html",
+    "report": "workzones/workzone_01/outputs/report/result.json",
+    "report_module": "workzones/workzone_01/outputs/report/module.html",
+    "stages": "workzones/workzone_01/stages"
+  },
+  "provenance": {
+    "assessment_origin": "Final PDF conclusions including later completed geometric assessments; no new assessment in this reorganization.",
+    "historical_artifacts": "experiments/agentic_inspection/artifacts/workzone_01",
+    "historical_reports": "experiments/agentic_inspection/reports/workzone_01"
+  }
+}

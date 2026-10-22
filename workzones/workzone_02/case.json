@@ -1,0 +1,29 @@
+{
+  "schema": "workzone_case_v1",
+  "case_id": "workzone_02",
+  "number": 2,
+  "name": "Workzone 2",
+  "raw_case": "Case_18",
+  "scene_id": "scene-CATS-19",
+  "camera": "CAM_FRONT",
+  "input_window_s": null,
+  "layout": "TA-22",
+  "duration": "over_3_days",
+  "raw_root": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18",
+  "paths": {
+    "scene": "workzones/workzone_02/inputs/scene.json",
+    "processed": "workzones/workzone_02/inputs/processed",
+    "detections": "workzones/workzone_02/inputs/detections.json",
+    "config": "workzones/workzone_02/config",
+    "bev": "workzones/workzone_02/outputs/bev/data",
+    "viewer": "workzones/workzone_02/outputs/bev/viewer.html",
+    "report": "workzones/workzone_02/outputs/report/result.json",
+    "report_module": "workzones/workzone_02/outputs/report/module.html",
+    "stages": "workzones/workzone_02/stages"
+  },
+  "provenance": {
+    "assessment_origin": "Evidence reassessment and geometry repair after staged execution; 10% project tolerance is a display assessment policy.",
+    "historical_artifacts": "experiments/agentic_inspection/artifacts/workzone_02",
+    "historical_reports": "experiments/agentic_inspection/reports/workzone_02"
+  }
+}

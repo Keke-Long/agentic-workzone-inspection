@@ -1,0 +1,32 @@
+{
+  "schema": "workzone_case_v1",
+  "case_id": "workzone_03",
+  "number": 3,
+  "name": "Workzone 3",
+  "raw_case": "Case_14",
+  "scene_id": "scene-CATS-15",
+  "camera": "CAM_FRONT",
+  "input_window_s": [
+    61,
+    85
+  ],
+  "layout": "TA-19",
+  "duration": "under_3_days",
+  "raw_root": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14",
+  "paths": {
+    "scene": "workzones/workzone_03/inputs/scene.json",
+    "processed": "workzones/workzone_03/inputs/processed",
+    "detections": "workzones/workzone_03/inputs/detections.json",
+    "config": "workzones/workzone_03/config",
+    "bev": "workzones/workzone_03/outputs/bev/data",
+    "viewer": "workzones/workzone_03/outputs/bev/viewer.html",
+    "report": "workzones/workzone_03/outputs/report/result.json",
+    "report_module": "workzones/workzone_03/outputs/report/module.html",
+    "stages": "workzones/workzone_03/stages"
+  },
+  "provenance": {
+    "assessment_origin": "Stage 0–6 execution with recorded fixes and user-confirmed TA-19; retries retained.",
+    "historical_artifacts": "experiments/agentic_inspection/artifacts/workzone_03",
+    "historical_reports": "experiments/agentic_inspection/reports/workzone_03"
+  }
+}

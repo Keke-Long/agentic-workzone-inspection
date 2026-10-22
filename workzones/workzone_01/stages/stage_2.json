@@ -1,0 +1,10 @@
+{
+  "stage": 2,
+  "config": "experiments/agentic_inspection/config/workzone_01/stage1_kg_bm25.json",
+  "request": "experiments/agentic_inspection/artifacts/workzone_01/benchmark/stage1_stage2/kg_plus_bm25/scene-CATS-01/request_manifest.json",
+  "model_response": "experiments/agentic_inspection/artifacts/workzone_01/benchmark/stage1_stage2/kg_plus_bm25/scene-CATS-01/raw_responses.json",
+  "tool_trace": "experiments/agentic_inspection/artifacts/workzone_01/benchmark/stage1_stage2/kg_plus_bm25/scene-CATS-01/tool_trace.json",
+  "result": "experiments/agentic_inspection/artifacts/workzone_01/benchmark/stage1_stage2/kg_plus_bm25/scene-CATS-01/result.json",
+  "execution_group": "experiments/agentic_inspection/artifacts/workzone_01/benchmark/stage1_stage2/kg_plus_bm25/scene-CATS-01",
+  "record_status": "available"
+}

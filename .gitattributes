@@ -26,3 +26,4 @@ bev_full_scene/scene_evidence_current/all_mapped_nonbackground_elements.json fil
 "experiments/agentic_inspection/inputs/mutcd_structure_v1.json" filter=lfs diff=lfs merge=lfs -text
 "experiments/agentic_inspection/reports/workzone_01/bev/bev.html" filter=lfs diff=lfs merge=lfs -text
 "experiments/agentic_inspection/reports/workzone_02/ta22_user_selected/post_review_20261021/bev.html" filter=lfs diff=lfs merge=lfs -text
+workzones/*/outputs/bev/viewer.html filter=lfs diff=lfs merge=lfs -text

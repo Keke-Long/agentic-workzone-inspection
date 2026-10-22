@@ -1,0 +1,10 @@
+{
+  "stage": 2,
+  "config": "experiments/agentic_inspection/config/workzone_03/stage1_kg_bm25.json",
+  "request": "experiments/agentic_inspection/artifacts/workzone_03/agentic_final_review81/stage0_1_2/request_manifest.json",
+  "model_response": "experiments/agentic_inspection/artifacts/workzone_03/agentic_final_review81/stage0_1_2/raw_responses.json",
+  "tool_trace": "experiments/agentic_inspection/artifacts/workzone_03/agentic_final_review81/stage0_1_2/tool_trace.json",
+  "result": "experiments/agentic_inspection/artifacts/workzone_03/agentic_final_review81/stage0_1_2/result.json",
+  "execution_group": "experiments/agentic_inspection/artifacts/workzone_03/agentic_final_review81/stage0_1_2",
+  "record_status": "available"
+}

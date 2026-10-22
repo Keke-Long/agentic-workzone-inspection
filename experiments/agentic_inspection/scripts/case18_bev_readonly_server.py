@@ -6,25 +6,21 @@ import gzip
 import json
 import re
 
-REPORTS = Path(__file__).resolve().parents[1] / 'reports'
-CASES = {
-    1: REPORTS / 'workzone_01/bev',
-    2: REPORTS / 'workzone_02/ta22_user_selected/post_review_20261021',
-    3: REPORTS / 'workzone_03',
-}
+import sys
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+sys.path.insert(0, str(PROJECT_ROOT / 'tools'))
+from project_layout import load_cases
+CASE_CONFIGS = load_cases(PROJECT_ROOT)
+CASES = {n: c['resolved_paths']['viewer'].parent for n, c in CASE_CONFIGS.items()}
 ROUTES = {}
-for case, root in CASES.items():
-    bev = 'bev.html'
-    report = 'final/report.html' if case == 3 else 'report.html'
-    for suffix, filename in {'': bev, '/bev': bev, '/report': report,
-                             '/bev-overview.png': 'bev_overview.png',
-                             '/sensor_bev_preview.png': 'sensor_bev_preview.png'}.items():
-        ROUTES[f'/workzone{case}{suffix}'] = (case, root / filename)
-for url, filename in {'/': 'bev.html', '/bev': 'bev.html', '/report': 'report.html',
-                       '/bev-overview.png': 'bev_overview.png'}.items():
-    ROUTES[url] = (2, CASES[2] / filename)
-
-
+for number, case in CASE_CONFIGS.items():
+    for suffix in ['', '/bev']:
+        ROUTES[f'/workzone{number}{suffix}'] = (number, case['resolved_paths']['viewer'])
+    for suffix, filename in [('/bev-overview.png', 'bev_overview.png'), ('/sensor_bev_preview.png', 'sensor_bev_preview.png')]:
+        ROUTES[f'/workzone{number}{suffix}'] = (number, CASES[number] / filename)
+DEFAULT_CASE = min(CASE_CONFIGS)
+for route in ['/', '/bev']:
+    ROUTES[route] = (DEFAULT_CASE, CASE_CONFIGS[DEFAULT_CASE]['resolved_paths']['viewer'])
 
 
 def navigation(case, route):
@@ -32,8 +28,10 @@ def navigation(case, route):
         f'<a href="/workzone{i}/bev"'+(' aria-current="page"' if i == case else '')+
         f'>Workzone {i}</a>' for i in CASES
     )
-    status = {1: 'TA-30 · 最终 PDF：16 条通过 · 2 条未通过 · 1 条未评判', 2: '对象 BEV · 规范报告含证据限制',
-              3: 'TA-19 · Stage 0–6 已完成 · 报告含证据限制'}[case]
+    metadata = CASE_CONFIGS[case]
+    result = json.loads(metadata['resolved_paths']['report'].read_text())
+    labels = {'pass':'通过', 'fail':'未通过', 'unknown':'证据不足', 'pending':'待评判', 'na':'不适用'}
+    status = metadata['layout'] + ' · ' + ' · '.join(f"{count} 条{labels.get(key,key)}" for key,count in result['counts'].items())
     return '''<style>
 .wz-nav{box-sizing:border-box;display:flex;flex-wrap:wrap;align-items:center;gap:10px;padding:12px 20px;margin:0 0 12px;background:#142b42;color:#fff;font:14px/1.5 system-ui;border-radius:0}
 .wz-nav a{display:inline-block;padding:7px 12px;border:1px solid #8194a7;border-radius:6px;color:#fff;text-decoration:none;white-space:nowrap}
@@ -64,7 +62,7 @@ def add_navigation(data, case, route):
 
 def add_report_module(data, case):
     """Append the derived checklist directly to the BEV document."""
-    module = (REPORTS / f'workzone_{case:02d}/inspection_summary/module.html').read_text()
+    module = CASE_CONFIGS[case]['resolved_paths']['report_module'].read_text()
     text = data.decode('utf-8')
     marker = '</body>' if '</body>' in text else '</html>'
     return text.replace(marker, module + marker, 1).encode('utf-8')
@@ -86,9 +84,12 @@ class Handler(BaseHTTPRequestHandler):
 
     def serve(self, head=False):
         route = urlsplit(self.path).path.rstrip('/') or '/'
-        report_match = re.fullmatch(r'/workzone([123])/report', route)
+        report_match = re.fullmatch(r'/workzone([0-9]+)/report', route)
         if report_match or route == '/report':
-            case = int(report_match[1]) if report_match else 2
+            case = int(report_match[1]) if report_match else DEFAULT_CASE
+            if case not in CASE_CONFIGS:
+                self.send_error(404)
+                return
             self.send_response(302)
             self.send_header('Location', f'/workzone{case}/bev#case-report')
             self.send_header('Cache-Control', 'no-store')
@@ -108,7 +109,7 @@ class Handler(BaseHTTPRequestHandler):
             embedded_report = route.endswith('/report') and parse_qs(urlsplit(self.path).query).get('embed') == ['1']
             if not embedded_report:
                 data = add_navigation(data, case, route)
-            if path.name == 'bev.html':
+            if path == CASE_CONFIGS[case]['resolved_paths']['viewer']:
                 data = add_report_module(data, case)
         compressed = is_html and 'gzip' in self.headers.get('Accept-Encoding', '')
         if compressed:
