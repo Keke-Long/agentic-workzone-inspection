@@ -1,0 +1,78 @@
+{
+  "schema": "case_processing_index_v1",
+  "compiled_on": "2026-10-21",
+  "record_type": "retrospective_index_not_original_execution_log",
+  "path_base": "/home/klong23/workzone/experiments/agentic_inspection",
+  "case_id": "workzone_02",
+  "scene_id": "scene-CATS-19",
+  "user_confirmed_camera_scope": [
+    "camera0"
+  ],
+  "README": "cases/workzone_02/README.md",
+  "stages": [
+    {
+      "directory": "artifacts/workzone_02/ta22_user_selected/stage1_stage2/scene-CATS-19",
+      "files": {
+        "request_manifest.json": "artifacts/workzone_02/ta22_user_selected/stage1_stage2/scene-CATS-19/request_manifest.json",
+        "tool_trace.json": "artifacts/workzone_02/ta22_user_selected/stage1_stage2/scene-CATS-19/tool_trace.json",
+        "raw_responses.json": "artifacts/workzone_02/ta22_user_selected/stage1_stage2/scene-CATS-19/raw_responses.json",
+        "result.json": "artifacts/workzone_02/ta22_user_selected/stage1_stage2/scene-CATS-19/result.json",
+        "measurements.json": "artifacts/workzone_02/ta22_user_selected/stage1_stage2/scene-CATS-19/measurements.json",
+        "resource_usage.json": "artifacts/workzone_02/ta22_user_selected/stage1_stage2/scene-CATS-19/resource_usage.json"
+      }
+    },
+    {
+      "directory": "artifacts/workzone_02/ta22_user_selected/stage3/scene-CATS-19",
+      "files": {
+        "request_manifest.json": "artifacts/workzone_02/ta22_user_selected/stage3/scene-CATS-19/request_manifest.json",
+        "tool_trace.json": "artifacts/workzone_02/ta22_user_selected/stage3/scene-CATS-19/tool_trace.json",
+        "raw_responses.json": "artifacts/workzone_02/ta22_user_selected/stage3/scene-CATS-19/raw_responses.json",
+        "result.json": "artifacts/workzone_02/ta22_user_selected/stage3/scene-CATS-19/result.json",
+        "measurements.json": "artifacts/workzone_02/ta22_user_selected/stage3/scene-CATS-19/measurements.json",
+        "resource_usage.json": "artifacts/workzone_02/ta22_user_selected/stage3/scene-CATS-19/resource_usage.json"
+      }
+    },
+    {
+      "directory": "artifacts/workzone_02/ta22_user_selected/stage4/scene-CATS-19",
+      "files": {
+        "request_manifest.json": "artifacts/workzone_02/ta22_user_selected/stage4/scene-CATS-19/request_manifest.json",
+        "tool_trace.json": "artifacts/workzone_02/ta22_user_selected/stage4/scene-CATS-19/tool_trace.json",
+        "raw_responses.json": "artifacts/workzone_02/ta22_user_selected/stage4/scene-CATS-19/raw_responses.json",
+        "result.json": "artifacts/workzone_02/ta22_user_selected/stage4/scene-CATS-19/result.json",
+        "measurements.json": "artifacts/workzone_02/ta22_user_selected/stage4/scene-CATS-19/measurements.json",
+        "resource_usage.json": "artifacts/workzone_02/ta22_user_selected/stage4/scene-CATS-19/resource_usage.json"
+      }
+    },
+    {
+      "directory": "artifacts/workzone_02/ta22_user_selected/stage5/scene-CATS-19",
+      "files": {
+        "request_manifest.json": "artifacts/workzone_02/ta22_user_selected/stage5/scene-CATS-19/request_manifest.json",
+        "tool_trace.json": "artifacts/workzone_02/ta22_user_selected/stage5/scene-CATS-19/tool_trace.json",
+        "raw_responses.json": "artifacts/workzone_02/ta22_user_selected/stage5/scene-CATS-19/raw_responses.json",
+        "result.json": "artifacts/workzone_02/ta22_user_selected/stage5/scene-CATS-19/result.json",
+        "measurements.json": "artifacts/workzone_02/ta22_user_selected/stage5/scene-CATS-19/measurements.json",
+        "resource_usage.json": "artifacts/workzone_02/ta22_user_selected/stage5/scene-CATS-19/resource_usage.json"
+      }
+    },
+    {
+      "directory": "artifacts/workzone_02/ta22_user_selected/stage6/scene-CATS-19",
+      "files": {
+        "request_manifest.json": "artifacts/workzone_02/ta22_user_selected/stage6/scene-CATS-19/request_manifest.json",
+        "tool_trace.json": "artifacts/workzone_02/ta22_user_selected/stage6/scene-CATS-19/tool_trace.json",
+        "raw_responses.json": "artifacts/workzone_02/ta22_user_selected/stage6/scene-CATS-19/raw_responses.json",
+        "result.json": "artifacts/workzone_02/ta22_user_selected/stage6/scene-CATS-19/result.json",
+        "measurements.json": "artifacts/workzone_02/ta22_user_selected/stage6/scene-CATS-19/measurements.json",
+        "resource_usage.json": "artifacts/workzone_02/ta22_user_selected/stage6/scene-CATS-19/resource_usage.json"
+      }
+    }
+  ],
+  "status": "review_complete_registered_requirements_assessed_with_borderline_results",
+  "latest_report": "reports/workzone_02/ta22_user_selected/post_review_20261021/report.pdf",
+  "paper_case_id": "workzone_02",
+  "paper_case_name": "Workzone 2",
+  "raw_dataset_case": "Case_18",
+  "stage_index": "cases/workzone_02/stage_0_to_6_index.json",
+  "final_detection_input": "/home/klong23/workzone/data/workzone_02/detections/final_detections.json",
+  "detector_review_history_retained": false,
+  "user_reconfirmed_duration": "long_term_more_than_three_days"
+}

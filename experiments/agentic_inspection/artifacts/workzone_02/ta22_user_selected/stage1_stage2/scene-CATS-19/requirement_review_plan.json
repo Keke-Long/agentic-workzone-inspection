@@ -1,0 +1,484 @@
+{
+  "status": "awaiting_stage1_stage2_evaluation",
+  "stopped_after_requirement_registration": true,
+  "stopped_before_measurement": true,
+  "registered_requirement_count": 13,
+  "planned_inspection_count": 0,
+  "planned_normative_measurement_count": 0,
+  "requirements": [
+    {
+      "discovered_requirement_key": "req_6815a22fb45fcc9b",
+      "candidate_label": "Lane-closure warning sign present",
+      "subject": "advance warning system",
+      "modality": "shall",
+      "relation": "includes required Lane(s) Closed sign",
+      "threshold": "Sign is present upstream of the closed through lane",
+      "applicability_conditions": [
+        "One or more through lanes of a multilane roadway are closed",
+        "Scene has one right lane closed"
+      ],
+      "required_inputs": [
+        "camera0 view of approach signing"
+      ],
+      "source_locator": "SEC-6H.07 paragraph 01; PDF page 845",
+      "source_span": "The Lane(s) Closed sign (see Figure 6H-1) shall be used in advance of that point where one or more through lanes of a multi-lane roadway are closed.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_a3c3142666497ed5",
+      "candidate_label": "Single-lane closure legend",
+      "subject": "W20-5 Lane Closed sign",
+      "modality": "shall",
+      "relation": "uses the required directional legend",
+      "threshold": "Legend reads RIGHT LANE CLOSED for this single right-lane closure",
+      "applicability_conditions": [
+        "Exactly one lane is closed",
+        "Closed lane is the right lane"
+      ],
+      "required_inputs": [
+        "camera0 image of W20-5 sign legend"
+      ],
+      "source_locator": "SEC-6H.07 paragraph 02; PDF page 845",
+      "source_span": "For a single lane closure, the Lane Closed (W20-5) sign (see Figure 6H-1) shall use the legend RIGHT (LEFT) LANE CLOSED. Where two or more adjacent lanes are closed, the W20-5a sign (see Figure 6H-1) shall use the legend XX RIGHT (LEFT) LANES CLOSED.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_58bf494068de5718",
+      "candidate_label": "Urban advance-sign spacing",
+      "subject": "successive advance warning signs",
+      "modality": "should",
+      "relation": "are spaced at least",
+      "threshold": "100 ft between successive signs for urban low-speed conditions",
+      "applicability_conditions": [
+        "Urban roadway",
+        "Posted speed is 25 mph"
+      ],
+      "required_inputs": [
+        "camera0 sign locations",
+        "posted speed"
+      ],
+      "source_locator": "TABLE-6B-1; PDF page 813",
+      "source_span": "Table 6B-1. Recommended Advance Warning Sign Minimum Spacing. Urban (low speed): 100 feet, 100 feet, 100 feet. Urban (high speed): 350 feet, 350 feet, 350 feet. Rural: 500 feet, 500 feet, 500 feet. Expressway / Freeway: 1,000 feet, 1,500 feet, 2,640 feet. The column headings A, B, and C are the dimensions shown in Figures 6P-1 through 6P-54.",
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_sign_spacing",
+        "quantity": "distance between successive advance warning signs",
+        "thresholds": [
+          {
+            "condition": "urban low-speed sign spacing",
+            "value": 100,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_68ad827f58b92dd8",
+      "candidate_label": "Tangent channelizer spacing",
+      "subject": "channelizing devices in the tangent section",
+      "modality": "should",
+      "relation": "are spaced no more than",
+      "threshold": "2 times the posted speed in feet; at 25 mph, 50 ft maximum",
+      "applicability_conditions": [
+        "Channelizing devices are used for tangent channelization",
+        "Activated channelizing-device component is present"
+      ],
+      "required_inputs": [
+        "camera0 view of tangent channelizing devices",
+        "posted speed"
+      ],
+      "source_locator": "SEC-6K.01 paragraph 04; PDF page 855",
+      "source_span": "The spacing between cones, tubular markers, vertical panels, drums, and barricades should not exceed a distance in feet equal to 1 times the speed limit in mph when used for taper channelization, and should not exceed a distance in feet equal to 2 times the speed limit in mph when used for tangent channelization.",
+      "measurement_spec": {
+        "required": true,
+        "tool": "audit_channelizer_spacing",
+        "quantity": "maximum center-to-center spacing between adjacent tangent channelizing devices",
+        "thresholds": [
+          {
+            "condition": "tangent channelization at posted speed 25 mph",
+            "value": 50,
+            "unit": "ft",
+            "violation_when": "above_maximum",
+            "formula_parameter": "posted_speed_mph",
+            "multiplier": 2
+          }
+        ]
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_214d4569ff964d13",
+      "candidate_label": "Channelizing-device serviceability",
+      "subject": "channelizing devices",
+      "modality": "shall",
+      "relation": "are replaced when",
+      "threshold": "no longer serviceable",
+      "applicability_conditions": [
+        "Channelizing devices are deployed in the TTC zone",
+        "Activated channelizing-device component is present"
+      ],
+      "required_inputs": [
+        "camera0 view of deployed channelizing devices"
+      ],
+      "source_locator": "SEC-6K.01 paragraph 15; PDF page 855",
+      "source_span": "Channelizing devices that are no longer serviceable (see definition in Section 1C.02) shall be replaced.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_10195ba45a03e180",
+      "candidate_label": "TA-22 figure:sign:W4-2R: W4-2R sign in TA-22",
+      "subject": "W4-2R sign in TA-22",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "W4-2R is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-22 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_locator": "Figure 6P-22 (TA-22); PDF page 943; component sign:W4-2R; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-22. Right-Hand Lane Closure on the Far Side of an Intersection (TA-22) G20-2 W20-1 A (optional) (optional) W20-1 A G20-2 (optional) A A R3-7R G20-2 W20-1 (optional) L G20-2 (optional) (optional) A W4-2R B Notes: See Table 6P-2 for the meanings of the symbols used in this figure. W20-5R See Table 6B-1 for the meanings of C the letter codes used in this figure. See Table 6B-4 for formulas for calculating taper length (L). W20-1 Typical Application 22",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_9684dd549b406cb8",
+      "candidate_label": "SEC-6K.01 14: Particular attention",
+      "subject": "Particular attention",
+      "modality": "should",
+      "relation": "should_comply",
+      "threshold": "Particular attention should be given to maintaining the channelizing devices to keep them clean, visible, and properly positioned at all times.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images"
+      ],
+      "source_locator": "SEC-6K.01 paragraph 14; PDF page 855",
+      "source_span": "Particular attention should be given to maintaining the channelizing devices to keep them clean, visible, and properly positioned at all times.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_24a659011bbd18e3",
+      "candidate_label": "TABLE-6B-4 table: taper length L",
+      "subject": "taper length L",
+      "modality": "should",
+      "relation": "is_calculated",
+      "threshold": "For S of 40 mph or less, L = W*S^2/60; for S of 45 mph or more, L = W*S.",
+      "applicability_conditions": [
+        "a taper using dimension L is shown or required"
+      ],
+      "required_inputs": [
+        "posted_speed_mph",
+        "lateral_offset_width_ft",
+        "accepted_bbox_observations",
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "source_locator": "TABLE-6B-4; PDF page 815",
+      "source_span": "Table 6B-4. Formulas for Determining Taper Length. 40 mph or less: L = WS2/60. 45 mph or more: L = WS. Where L is taper length in feet, W is width of offset in feet, and S is posted speed limit, off-peak 85th-percentile speed prior to work starting, or anticipated operating speed in mph.",
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_taper_length",
+        "quantity": "actual taper length versus calculated L",
+        "thresholds": [
+          {
+            "condition": "posted speed 25 mph or less",
+            "value": null,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": "W*S^2/60",
+            "multiplier": null
+          }
+        ]
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_ece1d6f6ad0cff05",
+      "candidate_label": "SEC-6B.08 14: A taper having a minimum length of 50 feet and a maximum length of 100 feet with channelizing devices at approximately 2",
+      "subject": "A taper having a minimum length of 50 feet and a maximum length of 100 feet with channelizing devices at approximately 20-foot spacing",
+      "modality": "should",
+      "relation": "should_comply",
+      "threshold": "A taper having a minimum length of 50 feet and a maximum length of 100 feet with channelizing devices at approximately 20-foot spacing should be used to guide traffic into the one-lane section, and a downstream taper should be used to guide traffic back into their original lane.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations",
+        "ego_trajectory",
+        "lidar_points",
+        "closed_lane",
+        "roadway_configuration"
+      ],
+      "source_locator": "SEC-6B.08 paragraph 14; PDF page 816",
+      "source_span": "A taper having a minimum length of 50 feet and a maximum length of 100 feet with channelizing devices at approximately 20-foot spacing should be used to guide traffic into the one-lane section, and a downstream taper should be used to guide traffic back into their original lane.",
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_taper_length",
+        "quantity": "taper length",
+        "thresholds": [
+          {
+            "condition": "TA-22 one-lane section taper",
+            "value": 50,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          },
+          {
+            "condition": "TA-22 one-lane section taper",
+            "value": 100,
+            "unit": "ft",
+            "violation_when": "above_maximum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_99662450820aac97",
+      "candidate_label": "SEC-6H.03 01: The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions",
+      "subject": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions,",
+      "modality": "should",
+      "relation": "should_comply",
+      "threshold": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions, should be located in advance of the work space or any detour, on the road where the work is taking place.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images"
+      ],
+      "source_locator": "SEC-6H.03 paragraph 01; PDF page 842",
+      "source_span": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions, should be located in advance of the work space or any detour, on the road where the work is taking place.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_98efd6f104c2c3ef",
+      "candidate_label": "SEC-6B.08 06: A merging taper",
+      "subject": "A merging taper",
+      "modality": "should",
+      "relation": "should_comply",
+      "threshold": "A merging taper should be long enough to enable merging drivers to have adequate advance warning and sufficient length to adjust their speeds and merge into an adjacent lane before the downstream end of the transition.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images",
+        "posted_speed_mph",
+        "accepted_bbox_observations",
+        "ego_trajectory",
+        "lidar_points",
+        "closed_lane",
+        "roadway_configuration"
+      ],
+      "source_locator": "SEC-6B.08 paragraph 06; PDF page 816",
+      "source_span": "A merging taper should be long enough to enable merging drivers to have adequate advance warning and sufficient length to adjust their speeds and merge into an adjacent lane before the downstream end of the transition.",
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_taper_length",
+        "quantity": "merging taper length",
+        "thresholds": [
+          {
+            "condition": "merging taper",
+            "value": null,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": "adequate advance warning and sufficient distance to adjust speed and merge",
+            "multiplier": null
+          }
+        ]
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_fb03ed75e5c167ce",
+      "candidate_label": "SEC-6H.02 02: Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (",
+      "subject": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign",
+      "modality": "should",
+      "relation": "should_comply",
+      "threshold": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images"
+      ],
+      "source_locator": "SEC-6H.02 paragraph 02; PDF page 838",
+      "source_span": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_4855efffaf392da0",
+      "candidate_label": "SEC-6B.08 12: If used, a downstream taper",
+      "subject": "If used, a downstream taper",
+      "modality": "should",
+      "relation": "should_comply",
+      "threshold": "If used, a downstream taper should have a minimum length of 50 feet and a maximum length of 100 feet with devices placed at a spacing of approximately 20 feet.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations",
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "source_locator": "SEC-6B.08 paragraph 12; PDF page 816",
+      "source_span": "If used, a downstream taper should have a minimum length of 50 feet and a maximum length of 100 feet with devices placed at a spacing of approximately 20 feet.",
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_downstream_taper",
+        "quantity": "downstream taper length",
+        "thresholds": [
+          {
+            "condition": "downstream taper used in TA-22",
+            "value": 50,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          },
+          {
+            "condition": "downstream taper used in TA-22",
+            "value": 100,
+            "unit": "ft",
+            "violation_when": "above_maximum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    }
+  ]
+}

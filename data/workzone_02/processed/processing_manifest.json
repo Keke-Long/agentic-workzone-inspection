@@ -1,0 +1,65 @@
+{
+  "raw_root": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18",
+  "scene_id": "scene-CATS-19",
+  "source_sha256": {
+    "/home/data/workzone/work_zone_code/preprocess/nuScenes/undistort_cameras.py": "b3c2d3f7f3eb3d868023327e2cf0ea60ba68fce5801d14b8ac8744b98ad01cad",
+    "/home/data/workzone/work_zone_code/preprocess/nuScenes/deskew_lidar.py": "dc5783845d76c49cb6ac85e7d971c42e9f7f810b92c0c896f36516a8e5d931f8",
+    "/home/data/workzone/work_zone_code/preprocess/nuScenes/build_ego_pose.py": "b8d529774e0c76219c72ffddf853e490362d914ccf00b1b7a5d3dd44e4a93636",
+    "/home/data/workzone/Calibration/calib_black_camera0.json": "fe00ebf23244ef561f87764ac8c10d1bb2b467a1e9968a29ca718da9f4fa5dcc",
+    "/home/data/workzone/Calibration/calib_black_ins.json": "f0f50d179af16357e6d90aafb16c064c78e7b1a2fbc909439dc02c591ac58153"
+  },
+  "raw_manifest_sha256": "9480273296112be3e2b9b6f517b4cc05ac4a2edddc3cb3f57c986f3d4775f2c2",
+  "ins_sha256": "534cf649b16300e1b3b40fabc46826233648423a506eabebbd57cd2da31d0904",
+  "adapter_sha256": "d1600972227bb42ca47dea7038e2b0edb48d36ed99902abd2ed4ffa175a1ef8e",
+  "state": "historical_generation_record_lidar_outputs_removed",
+  "counts": {
+    "CAM_FRONT": 632,
+    "LIDAR_TOP": 632
+  },
+  "point_count": 253272386,
+  "metadata_root": "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/CATS_v1.0",
+  "calibration_authorization": "user_confirmed_black_vehicle_calibration_2026-10-20",
+  "reference_algorithms": [
+    "OpenCV getOptimalNewCameraMatrix alpha=0; INTER_LINEAR; JPEG quality=95",
+    "deskew_lidar.deskew; reference timestamp=PCD filename",
+    "ENU linear interpolation + quaternion SLERP",
+    "Camera->LiDAR->INS composition; nuScenes wxyz quaternion"
+  ],
+  "input_adaptations": [
+    "Keep all pre-extracted 10 Hz camera frames; old phase filter is inapplicable",
+    "Discover present channels; CAM_BACK absent",
+    "Case-specific paths and deterministic tokens; original per-sensor timestamps preserved",
+    "User-selected camera subset; all retained sensor bytes and per-sensor poses unchanged"
+  ],
+  "human_review_status": "pending; no observations promoted to human-reviewed",
+  "metadata_sha256": {
+    "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/CATS_v1.0/scene.json": "4093a2592f92366a0957f8f21b094f6e00f272c272b3aab923863df022e9b9c7",
+    "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/CATS_v1.0/ego_pose.json": "7c0b576a645dbfcdee4d0fcc3a98ce7f3bc36ba3194e9511800cf8a76d030126",
+    "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/CATS_v1.0/sensor.json": "7d9d99b1b8344f35910420d73c8b90f77667b5dd996f62150c5ba1a95dac8b84",
+    "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/CATS_v1.0/sample_data.json": "b2ae6f3d5c48914c0171ebbf084c98d982e8d275a1d0739ccd27c794f1edbf47",
+    "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/CATS_v1.0/calibrated_sensor.json": "618a3789c79b7d351b2566f0cf5619f5354b0c0d5c7f1f26106d584117bcdb12",
+    "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/CATS_v1.0/log.json": "f590d150bb1d881ec4bd2305a5a8ffcf9c25589dc652206649306cce1cced1d0",
+    "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/CATS_v1.0/sample.json": "9838598c6eb1e5eee40954c71cce1e31ad735860738eccc05a707b65523bdaf5"
+  },
+  "camera_selection": {
+    "camera_channels": [
+      "CAM_FRONT"
+    ],
+    "raw_cameras": [
+      "camera0"
+    ],
+    "excluded_camera_channels": [
+      "CAM_BACK_LEFT",
+      "CAM_BACK_RIGHT",
+      "CAM_FRONT_LEFT",
+      "CAM_FRONT_RIGHT"
+    ],
+    "reason": "User explicitly requested camera0 only because the other cameras have poor image quality.",
+    "source_prepared_root": "/home/data/workzone/klong23_agentic_inspection/case_18",
+    "source_processing_manifest_sha256": "191dc54828f05b0a26c0c38b62e2fd028652198a5a8bde0abc8c3c735925f5ea",
+    "source_validation_sha256": "282af2065be16c8e92e77d28ab62f20f7556552163d977145d6823d88b7e4b66",
+    "selector_sha256": "901f46440e70d1185f4b6aa388d7ccf4361035bd24aa7f8e6502260d14711569",
+    "sensor_bytes_preserved": true
+  },
+  "current_storage_manifest": "storage_manifest.json"
+}

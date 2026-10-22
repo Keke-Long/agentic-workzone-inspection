@@ -1,0 +1,27 @@
+{
+  "state": "complete",
+  "scene_id": "scene-CATS-15",
+  "raw_root": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14",
+  "cutoff_s": 61.0,
+  "end_s": 85.0,
+  "camera_images": 240,
+  "lidar_metadata_rows": 240,
+  "calibration_authorization": "explicit user confirmation: Workzone 3 black vehicle",
+  "calibration_sha256": {
+    "calib_black_ins.json": "f0f50d179af16357e6d90aafb16c064c78e7b1a2fbc909439dc02c591ac58153",
+    "calib_black_camera0.json": "fe00ebf23244ef561f87764ac8c10d1bb2b467a1e9968a29ca718da9f4fa5dcc"
+  },
+  "script_sha256": "71f8096a68572ea330f32fc909ef62e153452a21db0e0c18d5db8a9f008c288c",
+  "pose_convention": "NovAtel Y-forward: Rz(-azimuth) Rx(pitch) Ry(roll); position linear + attitude SLERP",
+  "images": "same reference OpenCV alpha=0 INTER_LINEAR JPEG95; no extra rotation/crop",
+  "lidar": "raw PCD external; no legacy processed bins; point timestamp in [61,85] required for geometry",
+  "metadata_sha256": {
+    "sensor": "81034fc210c7610bb953a6c0c8ef237f05e0918ade04ee542976e2490ae1a33b",
+    "calibrated_sensor": "6e11e342cf1b39be1b7e9368e967b7f8d14468034824b19e6f334d7f0cfeb2be",
+    "sample": "5ba43959c6da3421b3e6f66eadaccc92cb97fc0666c8820dcbd8c6827a0aa8f6",
+    "sample_data": "09f7c616693342a803036aef96e3860562583044ecdc50ab94ebb2575fb7f5af",
+    "ego_pose": "e6af8dc6364b56d60a8359a8aee021a5996edeb40f373165c1b28d05bea9cc71",
+    "scene": "1363601058b9c3a5fb91c7756e1a34edd77a2d170e82c74bd1a90b5b24b57263",
+    "log": "9fbc10fdc09d3242371234958ccdc2e0204ae77888581791137bc878bb1f076e"
+  }
+}

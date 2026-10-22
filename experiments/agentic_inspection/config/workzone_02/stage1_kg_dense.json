@@ -1,0 +1,74 @@
+{
+  "experiment_id": "workzone_18_stage1_kg_dense",
+  "status": "new_case_pilot_pending_independent_reference_and_bbox_review",
+  "method_id": "agentic_kg_dense",
+  "method_display_name": "KG-first inspection with E5 dense gap retrieval",
+  "method_role": "retrieval_variant_of_proposed_method",
+  "method_definition_version": "stage1_stage2_methods_v1",
+  "stage2_policy": {
+    "mode": "structured_candidate_decision_v1",
+    "candidate_scope": "initial_compilation_plus_unresolved_deterministic_kg_candidates",
+    "canonical_predicate_binding": true,
+    "explicit_candidate_disposition_required": true
+  },
+  "model": "gpt-5.6-luna",
+  "reasoning_effort": "medium",
+  "credential_config": "~/.config/workzone/openai_credentials.json",
+  "manual_structure_index": "inputs/mutcd_structure_v1.json",
+  "knowledge_graph_index": "inputs/mutcd_knowledge_graph_v2.json",
+  "scene_manifest": "cases/workzone_18/scene.json",
+  "public_scene_manifest": "cases/workzone_18/scene.json",
+  "frozen_autonomous_reference": "ground_truth/workzone_18/active_requirements.json",
+  "output_directory": "artifacts/workzone_18/benchmark/stage1_stage2/kg_plus_dense/scene-CATS-19",
+  "report_directory": "reports/workzone_18/pilot",
+  "stage1c_gap_retrieval": {
+    "architecture": "kg_plus_retrieval",
+    "method": "dense_e5",
+    "model_id": "intfloat/e5-large-v2",
+    "index": "inputs/mutcd_dense_gap_e5_large_v2.npz",
+    "manifest": "inputs/mutcd_dense_gap_e5_large_v2_manifest.json",
+    "candidate_limit_per_domain": 18
+  },
+  "single_tool_response_max_chars": 24000,
+  "registry_batch_size": 12,
+  "max_output_tokens_per_turn": 5000,
+  "emergency_controller_turn_ceiling": 48,
+  "emergency_stage0_turn_ceiling": 24,
+  "model_pricing_usd_per_million": {
+    "input": 0.2,
+    "cached_input": 0.02,
+    "output": 1.2,
+    "pricing_scope": "standard short-context Responses API pricing recorded for this checkpoint"
+  },
+  "budget_policy": {
+    "normal_total_retrieval_call_limit": null,
+    "normal_total_tool_call_limit": null,
+    "normal_total_retrieved_character_limit": null,
+    "stopping_is_state_based": true,
+    "emergency_ceiling_is_method_failure": true
+  },
+  "execution": {
+    "model_calls_enabled": true,
+    "authorized_runs": [
+      1
+    ],
+    "preflight_report": "inputs/preflight/workzone_18/stage1_kg_dense.json",
+    "critical_preflight_required": true,
+    "run_02_and_run_03_locked": true,
+    "scoped_stage1_stage2_test": true,
+    "simplified_inspection_checks": true,
+    "stop_after_requirement_registration": true,
+    "stop_before_measurement": false,
+    "resume_stage0_record": null,
+    "resume_registry_checkpoint": null,
+    "resume_tool_trace": null,
+    "lock_reason": "Case_18 pilot with the frozen method and isolated scene-specific inputs; independent scoring reference and human bbox review are pending."
+  },
+  "reporting": {
+    "reference_status": "Case_18 independent MUTCD audit pending; no reference-based scoring or cross-method claims allowed.",
+    "cross_method_claims_allowed": false,
+    "primary_evaluation": "Pilot execution and evidence availability; not scored against a pending reference.",
+    "secondary_evaluation": "tokens, time, recorded-checkpoint cost estimate",
+    "reason": "New raw case; human perception review pending."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read",
+  "status": "complete",
+  "outputDir": "/home/klong23/workzone/.docs-methodology/read-01",
+  "target": {
+    "documentId": "1e3KD9OhqH2JJFUhKSBKqXsOFD_YIzEOtp8wBPTfjZeQ",
+    "title": "workzone论文",
+    "revisionId": "ANLCKQlcFzVRsD-3bFFJPOdIo6syw1MACfSnsPUd58iVPbkVI6FvlIeH8jPxI4d4XI6gJr98w1COB2yDpWyDXanClcLv-py9HW6HsR8lHe0",
+    "documentUrl": "https://docs.google.com/document/d/1e3KD9OhqH2JJFUhKSBKqXsOFD_YIzEOtp8wBPTfjZeQ",
+    "selectedTabId": "t.0"
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {
+      "inlineObjectElement": 1
+    },
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "files": {
+    "document_result": {
+      "path": "/home/klong23/workzone/.docs-methodology/read-01/document-result.json",
+      "bytes": 101692,
+      "sha256": "622790af1f9f8b56b6d7663e799549b08d5994efd71196e3e44fc15fde51ee38"
+    },
+    "control_inventory": {
+      "path": "/home/klong23/workzone/.docs-methodology/read-01/control-inventory.json",
+      "bytes": 1683,
+      "sha256": "2df3143de3b20195b53596a173d281261baf30919e013d97900f2aa39f96d3c2"
+    },
+    "document_outline": {
+      "path": "/home/klong23/workzone/.docs-methodology/read-01/document-outline.json",
+      "bytes": 44995,
+      "sha256": "710816a597a828bf512ddc8042eae541fdbf2cb5adecca646b7dc9c19fc30a42"
+    },
+    "document_text": {
+      "path": "/home/klong23/workzone/.docs-methodology/read-01/document-text.md",
+      "bytes": 19240,
+      "sha256": "acfe914e11627946285980ceea38bed2e737a45b17cba580acdcc6e0b543c659"
+    },
+    "receipt": {
+      "path": "/home/klong23/workzone/.docs-methodology/read-01/receipt.json",
+      "bytes": 987,
+      "sha256": "40c673a00b6c96c941f5053b28eeb052a946a67c99e6fec8a2c4c05a2c655edd"
+    }
+  },
+  "error": null
+}

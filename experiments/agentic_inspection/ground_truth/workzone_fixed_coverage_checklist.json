@@ -1,0 +1,376 @@
+{
+  "schema_version": "workzone_fixed_coverage_checklist_v1",
+  "status": "canonical_user_approved_coverage_reference",
+  "scene_id": "scene-CATS-01",
+  "purpose": "Score whether an agent discovered every in-scope MUTCD work-zone requirement before inspection.",
+  "authority": "MUTCD 11th Edition (December 2023)",
+  "isolation_policy": {
+    "available_to_inspection_agent": false,
+    "available_to_evaluator_after_run": true,
+    "note": "This reference measures requirement-discovery completeness and must not be supplied to the inspection agent."
+  },
+  "reporting_policy": {
+    "normative_levels": {
+      "mandatory": {
+        "mutcd_heading": "Standard",
+        "operative_word": "shall",
+        "violation_label": "mandatory_noncompliance"
+      },
+      "guidance": {
+        "mutcd_heading": "Guidance",
+        "operative_word": "should",
+        "violation_label": "guidance_deviation"
+      }
+    },
+    "report_both_violation_types": true,
+    "allowed_finding_states": [
+      "compliant",
+      "mandatory_noncompliance",
+      "guidance_deviation",
+      "not_applicable",
+      "excluded_from_scope"
+    ],
+    "severity_is_independent_of_normative_level": true
+  },
+  "scope": {
+    "included_domains": [
+      "lane_closure_layout",
+      "advance_warning_sign_system",
+      "channelization_system",
+      "transition_and_taper_geometry",
+      "conditional_active_devices",
+      "conditional_termination_area"
+    ],
+    "excluded_domains": [
+      "pavement_markings",
+      "buffer_and_activity_area",
+      "positive_protection_and_attenuators",
+      "nighttime_visibility_and_illumination",
+      "pedestrian_bicycle_and_accessibility",
+      "opposing_direction_complete_layout",
+      "material_certification_and_full_crashworthiness_certification",
+      "sign_mounting_height_without_reliable_height_evidence"
+    ],
+    "explicitly_removed_requirement_ids": [
+      "LAYOUT-03",
+      "SIGN-07"
+    ]
+  },
+  "activation_facts": {
+    "roadway_configuration": "multilane_undivided",
+    "roadway_lane_count": 4,
+    "closed_lane": "left",
+    "lanes_closed": 1,
+    "work_duration_category": "long_term_more_than_three_days",
+    "posted_speed_mph": 30,
+    "inspection_period": "daytime",
+    "arrow_board_deployed": true,
+    "arrow_board_operating": null,
+    "arrow_board_display_mode": null,
+    "arrow_board_direction": null,
+    "arrow_board_at_merging_taper_start": null,
+    "pcms_deployed": null
+  },
+  "stage1_stage2_test_profile": {
+    "profile_id": "six_domains_current_scene_facts_ta30",
+    "agent_visible_inputs": [
+      "six coverage-domain names",
+      "current materialized scene_facts with unknown values preserved as null",
+      "primary Typical Application TA-30",
+      "structured MUTCD retrieval tools"
+    ],
+    "withheld_inputs": [
+      "this checklist",
+      "requirement IDs and target counts",
+      "accepted observation inventory and bounding boxes",
+      "images and measurement results"
+    ],
+    "expected_activated_requirement_ids": [
+      "LAYOUT-01",
+      "LAYOUT-02",
+      "SIGN-01",
+      "SIGN-02",
+      "SIGN-03",
+      "SIGN-04",
+      "SIGN-05",
+      "CHAN-02",
+      "CHAN-03",
+      "CHAN-04",
+      "CHAN-05",
+      "TAPER-04",
+      "ACTIVE-AB-01",
+      "ACTIVE-AB-02",
+      "ACTIVE-AB-03"
+    ],
+    "activation_note": "SIGN-04 is activated because TA-30 depicts multiple advance-warning signs. ACTIVE-AB-01 through ACTIVE-AB-03 are activated because the current scene facts contain user-confirmed Arrow Board presence; operating mode, direction, and exact placement remain inspection questions. Other conditional items are not scored as required because their predicates cannot be established from the allowed inputs."
+  },
+  "requirements": [
+    {
+      "id": "LAYOUT-01",
+      "domain": "lane_closure_layout",
+      "requirement": "A non-mobile lane closure on a multi-lane road shall use a transition area containing a merging taper.",
+      "normative_level": "mandatory",
+      "mutcd_sources": ["6N.11 paragraph 03"],
+      "activation": "active",
+      "evidence_strategy": ["temporal_images", "device_positions", "taper_geometry"],
+      "preferred_tools": ["inspect_temporal_images", "locate_device_in_scene", "measure_taper_length"]
+    },
+    {
+      "id": "LAYOUT-02",
+      "domain": "lane_closure_layout",
+      "requirement": "When only the left-hand lane is closed on an undivided road, channelizing devices shall be placed along the center line and along the adjacent lane.",
+      "normative_level": "mandatory",
+      "mutcd_sources": ["6N.11 paragraph 10"],
+      "activation": "active",
+      "evidence_strategy": ["temporal_images", "device_positions", "channelizer_line_topology"],
+      "preferred_tools": ["inspect_temporal_images", "locate_device_in_scene", "audit_channelizer_spacing"]
+    },
+    {
+      "id": "SIGN-01",
+      "domain": "advance_warning_sign_system",
+      "requirement": "A Lane Closed sign shall be used in advance of the point where the through lane is closed.",
+      "normative_level": "mandatory",
+      "mutcd_sources": ["6H.07 paragraph 01"],
+      "activation": "active",
+      "evidence_strategy": ["sign_presence", "sign_position_relative_to_closure"],
+      "preferred_tools": ["inspect_observation_images", "inspect_temporal_images", "locate_device_in_scene"]
+    },
+    {
+      "id": "SIGN-02",
+      "domain": "advance_warning_sign_system",
+      "requirement": "For this single left-lane closure, the W20-5 sign shall use the LEFT LANE CLOSED legend.",
+      "normative_level": "mandatory",
+      "mutcd_sources": ["6H.07 paragraph 02"],
+      "activation": "active",
+      "evidence_strategy": ["sign_face_reading"],
+      "preferred_tools": ["inspect_observation_images", "inspect_temporal_images"]
+    },
+    {
+      "id": "SIGN-03",
+      "domain": "advance_warning_sign_system",
+      "requirement": "A ROAD WORK W20-1 sign should be located in advance of the work space on the affected road.",
+      "normative_level": "guidance",
+      "mutcd_sources": ["6H.03 paragraph 01"],
+      "activation": "active",
+      "evidence_strategy": ["sign_presence", "sign_position_relative_to_work_space"],
+      "preferred_tools": ["inspect_observation_images", "inspect_temporal_images", "locate_device_in_scene"]
+    },
+    {
+      "id": "SIGN-04",
+      "domain": "advance_warning_sign_system",
+      "requirement": "When multiple advance-warning signs are used, ROAD WORK AHEAD W20-1 should be the first warning sign encountered.",
+      "normative_level": "guidance",
+      "mutcd_sources": ["6H.02 paragraph 02"],
+      "activation": "active_if_multiple_advance_warning_signs_are_present",
+      "evidence_strategy": ["sign_sequence"],
+      "preferred_tools": ["inspect_temporal_images", "locate_device_in_scene"]
+    },
+    {
+      "id": "SIGN-05",
+      "domain": "advance_warning_sign_system",
+      "requirement": "Directional sign legends used for the closure shall be consistent with the observed left-lane closure.",
+      "normative_level": "mandatory",
+      "mutcd_sources": ["6H.07 paragraph 02"],
+      "activation": "active",
+      "evidence_strategy": ["sign_face_reading", "closure_direction_consistency"],
+      "preferred_tools": ["inspect_observation_images", "inspect_temporal_images"]
+    },
+    {
+      "id": "SIGN-06",
+      "domain": "advance_warning_sign_system",
+      "requirement": "Advance-warning sign spacing should satisfy Table 6B-1 for the established roadway class.",
+      "normative_level": "guidance",
+      "mutcd_sources": ["6H.02 paragraph 01", "Table 6B-1"],
+      "activation": "active_only_if_roadway_class_is_established",
+      "evidence_strategy": ["roadway_class", "sign_sequence", "sign_spacing"],
+      "preferred_tools": ["inspect_temporal_images", "locate_device_in_scene", "measure_sign_spacing"]
+    },
+    {
+      "id": "CHAN-02",
+      "domain": "channelization_system",
+      "requirement": "Channelizing-device spacing in taper channelization should not exceed 30 feet at the posted 30 mph speed.",
+      "normative_level": "guidance",
+      "mutcd_sources": ["6K.01 paragraph 04"],
+      "activation": "active",
+      "evidence_strategy": ["deduplicated_channelizer_sequence", "taper_segment_classification", "adjacent_spacing"],
+      "preferred_tools": ["audit_channelizer_spacing"]
+    },
+    {
+      "id": "CHAN-03",
+      "domain": "channelization_system",
+      "requirement": "Channelizing-device spacing in tangent channelization should not exceed 60 feet at the posted 30 mph speed.",
+      "normative_level": "guidance",
+      "mutcd_sources": ["6K.01 paragraph 04"],
+      "activation": "active",
+      "evidence_strategy": ["deduplicated_channelizer_sequence", "tangent_segment_classification", "adjacent_spacing"],
+      "preferred_tools": ["audit_channelizer_spacing"]
+    },
+    {
+      "id": "CHAN-04",
+      "domain": "channelization_system",
+      "requirement": "Channelizing devices should be maintained clean, visible, and properly positioned.",
+      "normative_level": "guidance",
+      "mutcd_sources": ["6K.01 paragraph 14"],
+      "activation": "active",
+      "evidence_strategy": ["visual_device_condition", "device_position"],
+      "preferred_tools": ["inspect_observation_images", "inspect_temporal_images", "locate_device_in_scene"]
+    },
+    {
+      "id": "CHAN-05",
+      "domain": "channelization_system",
+      "requirement": "Channelizing devices that are visibly no longer serviceable shall be replaced.",
+      "normative_level": "mandatory",
+      "mutcd_sources": ["6K.01 paragraph 15"],
+      "activation": "active",
+      "evidence_strategy": ["visual_device_condition"],
+      "preferred_tools": ["inspect_observation_images", "inspect_temporal_images"]
+    },
+    {
+      "id": "CHAN-06",
+      "domain": "channelization_system",
+      "requirement": "Where a channelizing-device line could lead traffic out of the intended traffic space, it should extend 2S feet beyond the downstream end of the transition area.",
+      "normative_level": "guidance",
+      "mutcd_sources": ["6K.01 paragraph 05"],
+      "activation": "active_if_the_channelizer_alignment_can_lead_traffic_out_of_the_intended_space",
+      "evidence_strategy": ["channelizer_line_topology", "transition_end", "extension_length"],
+      "preferred_tools": ["inspect_temporal_images", "locate_device_in_scene", "measure_longitudinal_distance"]
+    },
+    {
+      "id": "TAPER-02",
+      "domain": "transition_and_taper_geometry",
+      "requirement": "The merging taper should have a length of at least L.",
+      "normative_level": "guidance",
+      "mutcd_sources": ["Table 6B-3", "6B.08 paragraph 04"],
+      "activation": "active_if_offset_width_is_reliably_available",
+      "evidence_strategy": ["offset_width", "taper_length"],
+      "preferred_tools": ["estimate_available_width", "measure_taper_length"]
+    },
+    {
+      "id": "TAPER-03",
+      "domain": "transition_and_taper_geometry",
+      "requirement": "At 30 mph, taper length L should be calculated as W times S squared divided by 60, which equals 15W.",
+      "normative_level": "guidance",
+      "mutcd_sources": ["Table 6B-4"],
+      "activation": "active_if_offset_width_is_reliably_available",
+      "evidence_strategy": ["posted_speed", "offset_width", "deterministic_formula"],
+      "preferred_tools": ["estimate_available_width", "measure_taper_length"]
+    },
+    {
+      "id": "TAPER-04",
+      "domain": "transition_and_taper_geometry",
+      "requirement": "The merging taper should provide adequate warning and sufficient length for drivers to adjust speed and merge before its downstream end.",
+      "normative_level": "guidance",
+      "mutcd_sources": ["6B.08 paragraph 06"],
+      "activation": "active",
+      "evidence_strategy": ["taper_geometry", "visual_path_continuity"],
+      "preferred_tools": ["inspect_temporal_images", "measure_taper_length"]
+    },
+    {
+      "id": "ACTIVE-AB-01",
+      "domain": "conditional_active_devices",
+      "requirement": "If an arrow board is present, its operating mode and indicated direction shall be valid for the observed lane closure and shall not indicate a lane shift.",
+      "normative_level": "mandatory",
+      "mutcd_sources": ["6L.06 paragraphs 17 and 25"],
+      "activation": "active_if_arrow_board_is_present",
+      "evidence_strategy": ["arrow_board_presence", "display_mode", "closure_direction"],
+      "preferred_tools": ["inspect_temporal_images", "inspect_observation_images"]
+    },
+    {
+      "id": "ACTIVE-AB-02",
+      "domain": "conditional_active_devices",
+      "requirement": "For a stationary lane closure, an arrow board should be located at the beginning of the merging taper.",
+      "normative_level": "guidance",
+      "mutcd_sources": ["6L.06 paragraph 19"],
+      "activation": "active_if_arrow_board_is_present",
+      "evidence_strategy": ["arrow_board_position", "merging_taper_start"],
+      "preferred_tools": ["locate_device_in_scene", "inspect_temporal_images"]
+    },
+    {
+      "id": "ACTIVE-AB-03",
+      "domain": "conditional_active_devices",
+      "requirement": "If used, an arrow board should be combined with appropriate signs, channelizing devices, or other TTC devices.",
+      "normative_level": "guidance",
+      "mutcd_sources": ["6L.06 paragraph 03"],
+      "activation": "active_if_arrow_board_is_present",
+      "evidence_strategy": ["arrow_board_presence", "associated_ttc_devices"],
+      "preferred_tools": ["inspect_temporal_images", "locate_device_in_scene"]
+    },
+    {
+      "id": "ACTIVE-PCMS-01",
+      "domain": "conditional_active_devices",
+      "requirement": "If a PCMS is present, it shall display only operational, regulatory, warning, or guidance information and shall not display advertising.",
+      "normative_level": "mandatory",
+      "mutcd_sources": ["6L.05 paragraph 07"],
+      "activation": "active_if_pcms_is_present",
+      "evidence_strategy": ["pcms_presence", "message_reading"],
+      "preferred_tools": ["inspect_temporal_images", "inspect_observation_images"]
+    },
+    {
+      "id": "ACTIVE-PCMS-02",
+      "domain": "conditional_active_devices",
+      "requirement": "Except when simulating an arrow-board display, a PCMS shall not use animation, rapid flashing, dissolving, exploding, scrolling, traveling, or similar dynamic effects.",
+      "normative_level": "mandatory",
+      "mutcd_sources": ["6L.05 paragraph 19"],
+      "activation": "active_if_pcms_is_present",
+      "evidence_strategy": ["temporal_display_sequence"],
+      "preferred_tools": ["inspect_temporal_images"]
+    },
+    {
+      "id": "ACTIVE-PCMS-03",
+      "domain": "conditional_active_devices",
+      "requirement": "A PCMS message should use no more than two phases and no more than three lines per phase, with each phase understandable by itself.",
+      "normative_level": "guidance",
+      "mutcd_sources": ["6L.05 paragraph 17"],
+      "activation": "active_if_pcms_is_present",
+      "evidence_strategy": ["temporal_display_sequence", "message_structure"],
+      "preferred_tools": ["inspect_temporal_images"]
+    },
+    {
+      "id": "ACTIVE-PCMS-04",
+      "domain": "conditional_active_devices",
+      "requirement": "A PCMS should supplement rather than substitute for conventional signs and should be sited and aligned for legibility and adequate response time.",
+      "normative_level": "guidance",
+      "mutcd_sources": ["6L.05 paragraphs 27 and 29"],
+      "activation": "active_if_pcms_is_present",
+      "evidence_strategy": ["pcms_position", "conventional_sign_presence", "visual_alignment"],
+      "preferred_tools": ["inspect_temporal_images", "locate_device_in_scene"]
+    },
+    {
+      "id": "TERM-01",
+      "domain": "conditional_termination_area",
+      "requirement": "If a downstream taper is used, it should be between 50 and 100 feet long.",
+      "normative_level": "guidance",
+      "mutcd_sources": ["6B.08 paragraph 12"],
+      "activation": "active_if_downstream_taper_is_present",
+      "evidence_strategy": ["downstream_taper_presence", "downstream_taper_length"],
+      "preferred_tools": ["inspect_temporal_images", "measure_downstream_taper"]
+    },
+    {
+      "id": "TERM-02",
+      "domain": "conditional_termination_area",
+      "requirement": "If a downstream taper is used, its devices should be spaced approximately 20 feet apart.",
+      "normative_level": "guidance",
+      "mutcd_sources": ["6B.08 paragraph 12"],
+      "activation": "active_if_downstream_taper_is_present",
+      "evidence_strategy": ["downstream_taper_devices", "device_spacing"],
+      "preferred_tools": ["measure_device_spacing"]
+    },
+    {
+      "id": "TERM-03",
+      "domain": "conditional_termination_area",
+      "requirement": "If an END ROAD WORK sign is present, its placement and orientation should be consistent with the point where road users resume normal operation.",
+      "normative_level": "guidance",
+      "mutcd_sources": ["6B.07 paragraphs 01 and 02", "6H.36"],
+      "activation": "active_if_end_road_work_sign_is_present",
+      "evidence_strategy": ["sign_presence", "sign_orientation", "termination_location"],
+      "preferred_tools": ["inspect_temporal_images", "inspect_observation_images", "locate_device_in_scene"]
+    }
+  ],
+  "coverage_scoring": {
+    "unit": "semantic_requirement",
+    "required_for_complete_discovery": "Every active requirement and every requirement whose activation predicate is satisfied must be discovered with the correct normative level.",
+    "conditional_requirements": "Do not penalize omission when the activation predicate is false or cannot be established from available evidence.",
+    "semantic_equivalence": "Equivalent wording and consolidated citations are accepted; exact identifier or string matching is not required.",
+    "excluded_scope": "Excluded domains and explicitly removed requirement IDs do not affect completeness scoring."
+  }
+}

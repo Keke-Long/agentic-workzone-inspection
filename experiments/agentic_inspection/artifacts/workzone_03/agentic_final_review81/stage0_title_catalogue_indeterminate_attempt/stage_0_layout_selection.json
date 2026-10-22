@@ -1,0 +1,70 @@
+{
+  "scene_id": "scene-CATS-15",
+  "layout_selection_status": "indeterminate",
+  "selected_layouts": [
+    {
+      "layout_code": "TA-24",
+      "layout_role": "cross_reference_only",
+      "source_locator": "TA-24 paragraph 01; PDF page 946; Figure 6P-24 on PDF page 947",
+      "matched_scene_facts": [
+        "Opposing-direction lane is fully closed while the ego-direction lane remains open.",
+        "The closure is adjacent to or terminates at a cross-street intersection.",
+        "Channelizers form a longitudinal separation and taper near the intersection."
+      ],
+      "conflicting_scene_facts": [
+        "The scene does not establish that the closure/work space is on the far side of the intersection, which is the defining location in the TA-24 title."
+      ]
+    },
+    {
+      "layout_code": "TA-21",
+      "layout_role": "cross_reference_only",
+      "source_locator": "TA-21 paragraphs 01-03; PDF pages 940-941; Figure 6P-21 on PDF page 941",
+      "matched_scene_facts": [
+        "The work-zone channelizers approach an intersection.",
+        "A lane closure near an intersection is a potentially relevant operation."
+      ],
+      "conflicting_scene_facts": [
+        "The scene does not establish that the closure is on the near side of the intersection or that traffic merges through the closed lane."
+      ]
+    },
+    {
+      "layout_code": "TA-7",
+      "layout_role": "cross_reference_only",
+      "source_locator": "TA-7 paragraphs 01-10; PDF pages 912-913; Figure 6P-7 on PDF page 913",
+      "matched_scene_facts": [
+        "Opposing traffic is prohibited and detours via other roads."
+      ],
+      "conflicting_scene_facts": [
+        "No temporary roadway or in/adjacent-to-right-of-way diversion is visible or confirmed; the open ego-direction lane is not used for opposing traffic."
+      ]
+    },
+    {
+      "layout_code": "TA-8",
+      "layout_role": "cross_reference_only",
+      "source_locator": "TA-8 paragraphs 01-05; PDF pages 914-915; Figure 6P-8 on PDF page 915",
+      "matched_scene_facts": [
+        "Opposing traffic is confirmed to use an off-site detour."
+      ],
+      "conflicting_scene_facts": [
+        "TA-8 depicts a road closure with the roadway closed, whereas the scene establishes only full closure of the opposing-direction lane and continued passage in the ego direction."
+      ]
+    },
+    {
+      "layout_code": "TA-13",
+      "layout_role": "cross_reference_only",
+      "source_locator": "TA-13 paragraphs 01-07; PDF pages 924-925; Figure 6P-13 on PDF page 925",
+      "matched_scene_facts": [
+        "The operation is daytime and shorter than three days."
+      ],
+      "conflicting_scene_facts": [
+        "TA-13 describes a planned temporary road closure not exceeding 20 minutes controlled by a flagger or law-enforcement officer; no such full roadway closure or flagging operation is established."
+      ]
+    }
+  ],
+  "missing_scene_fields": [
+    "Whether the closed opposing lane/work space is on the near side or far side of the intersection relative to the applicable traffic approach.",
+    "Whether the channelizer line continues beyond the intersection or ends at the intersection.",
+    "The exact longitudinal limits of the closed lane and work space."
+  ],
+  "selection_reason": "The directly applicable primary TA cannot be selected without resolving the intersection-side geometry. TA-24 is the most specific operational match for a half-road closure on the far side of an intersection, but TA-21 is the mutually exclusive near-side counterpart. The confirmed off-site detour does not by itself make TA-8 primary because the ego-direction roadway remains open, and TA-7 requires a temporary diversion rather than merely an off-site detour. The unresolved near-side/far-side fact is therefore layout-blocking; no primary TA is guessed."
+}

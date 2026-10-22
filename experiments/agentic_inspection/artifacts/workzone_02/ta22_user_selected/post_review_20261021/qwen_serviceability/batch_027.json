@@ -1,0 +1,50 @@
+{
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "image_sha256": "a2e36c2dbdb1caa7b8b1d7a15d2cbabd60f35ef89a24df0a19f6c800a3a96dde",
+  "response": {
+    "model": "qwen3-vl:4b-instruct",
+    "created_at": "2026-10-21T14:50:09.243919713Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"items\": [\n    {\n      \"id\": 1,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"The channelizing device is visible and appears intact with clear vertical orientation, no obvious breakage or missing parts; stripes are discernible despite low resolution.\"\n    },\n    {\n      \"id\": 2,\n      \"status\": \"visible_unserviceable\",\n      \"reason\": \"The device is heavily blurred and distorted, with indistinct stripes and unclear structure, suggesting significant damage that defeats its primary function of guiding traffic.\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 2231108345,
+    "load_duration": 173617632,
+    "prompt_eval_count": 1299,
+    "prompt_eval_duration": 559528000,
+    "eval_count": 120,
+    "eval_duration": 1316157000
+  },
+  "observations": [
+    {
+      "observation_id": "C18_F0547_CAM_FRONT_Q816",
+      "frame": 547,
+      "native_bbox": [
+        2833.7236,
+        1140.8794,
+        2951.8601,
+        1814.7349
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "The channelizing device is visible and appears intact with clear vertical orientation, no obvious breakage or missing parts; stripes are discernible despite low resolution."
+    },
+    {
+      "observation_id": "C18_F0564_CAM_FRONT_Q005",
+      "frame": 564,
+      "native_bbox": [
+        3622.7559,
+        962.5692,
+        3664.1289,
+        1060.0393
+      ],
+      "id": 2,
+      "status": "visible_unserviceable",
+      "reason": "The device is heavily blurred and distorted, with indistinct stripes and unclear structure, suggesting significant damage that defeats its primary function of guiding traffic."
+    }
+  ],
+  "human_confirmed_condition": false
+}

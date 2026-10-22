@@ -1,0 +1,20 @@
+{
+  "camera_channels": [
+    "CAM_FRONT"
+  ],
+  "raw_cameras": [
+    "camera0"
+  ],
+  "excluded_camera_channels": [
+    "CAM_BACK_LEFT",
+    "CAM_BACK_RIGHT",
+    "CAM_FRONT_LEFT",
+    "CAM_FRONT_RIGHT"
+  ],
+  "reason": "User explicitly requested camera0 only because the other cameras have poor image quality.",
+  "source_prepared_root": "/home/data/workzone/klong23_agentic_inspection/case_18",
+  "source_processing_manifest_sha256": "191dc54828f05b0a26c0c38b62e2fd028652198a5a8bde0abc8c3c735925f5ea",
+  "source_validation_sha256": "282af2065be16c8e92e77d28ab62f20f7556552163d977145d6823d88b7e4b66",
+  "selector_sha256": "901f46440e70d1185f4b6aa388d7ccf4361035bd24aa7f8e6502260d14711569",
+  "sensor_bytes_preserved": true
+}

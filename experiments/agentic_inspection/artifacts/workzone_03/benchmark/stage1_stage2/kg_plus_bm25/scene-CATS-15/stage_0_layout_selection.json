@@ -1,0 +1,42 @@
+{
+  "scene_id": "scene-CATS-15",
+  "layout_selection_status": "indeterminate",
+  "selected_layouts": [
+    {
+      "layout_code": "TA-7",
+      "layout_role": "cross_reference_only",
+      "source_locator": "MUTCD Section 6N.09; Figure 6P-7, TA-7, PDF pages 912-913 / printed pages 872-873",
+      "matched_scene_facts": [
+        "Two-lane urban roadway is visually apparent.",
+        "The opposing-direction lane is user-confirmed fully closed.",
+        "The manual identifies TA-7 for a roadway section closed with a temporary diversion.",
+        "The work duration is less than three days, consistent with a short-term work context but not determinative of TA-7."
+      ],
+      "conflicting_scene_facts": [
+        "No temporary on-site diversion or temporary roadway alignment is confirmed.",
+        "Actual opposing-traffic routing remains unconfirmed."
+      ]
+    },
+    {
+      "layout_code": "TA-8",
+      "layout_role": "cross_reference_only",
+      "source_locator": "MUTCD Section 6N.09; Figure 6P-8, TA-8, PDF pages 914-915 / printed pages 874-875",
+      "matched_scene_facts": [
+        "The opposing-direction lane is user-confirmed fully closed.",
+        "The scene is immediately before and alongside an intersection.",
+        "The manual identifies TA-8 for a road closure with an off-site detour."
+      ],
+      "conflicting_scene_facts": [
+        "An off-site detour is only expected or proposed, not confirmed.",
+        "The scene does not establish that the entire roadway or the relevant route is closed and signed for an off-site detour."
+      ]
+    }
+  ],
+  "missing_scene_fields": [
+    "Confirmed opposing-traffic routing: on-site temporary diversion, off-site detour, or another treatment",
+    "Whether a temporary roadway or alignment exists within or adjacent to the right-of-way",
+    "Whether the closure extends to the entire roadway/route or only the opposing-direction lane",
+    "Exact work-area limits relative to the all-way-stop intersection, if an intersection-specific Typical Application is intended"
+  ],
+  "selection_reason": "Manual evidence distinguishes TA-7 (Road Closure with a Diversion) from TA-8 (Road Closure with an Off-Site Detour). Section 6N.09 identifies both as applications for detouring or diverting road users on two-lane highways. The scene confirms the opposing-direction lane is fully closed, but it does not confirm whether opposing traffic is routed through an on-site temporary diversion, an off-site detour, or another arrangement. Because that unresolved routing condition determines the primary Typical Application, no primary TA can be selected without guessing. The apparent roadway form and short duration do not resolve this mutually exclusive choice."
+}

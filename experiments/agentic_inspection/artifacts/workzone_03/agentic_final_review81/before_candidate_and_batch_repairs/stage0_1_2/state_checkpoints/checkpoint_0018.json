@@ -1,0 +1,1376 @@
+{
+  "scene_id": "scene-CATS-15",
+  "selected_layouts": [
+    {
+      "layout_code": "TA-19",
+      "layout_role": "primary_applicable",
+      "source_locator": "TA-19, Figure 6P-19, PDF page 937 / printed page 897; source unit expanded from the full-manual index",
+      "matched_scene_facts": [
+        "Opposing traffic is explicitly prohibited from entering the closed direction and detours via other roads.",
+        "The ego-direction lane remains open; alternating one-way operation is not occurring.",
+        "The scene is an urban two-way street with one apparent lane in each direction.",
+        "The opposing-direction roadway portion is fully closed and separated by channelizing devices."
+      ],
+      "conflicting_scene_facts": [
+        "The exact off-site detour route and its signing are outside the camera scope.",
+        "Whether the street has a posted route number is unresolved; TA-19 guidance addresses streets without posted route numbers.",
+        "The precise local intersection geometry and limits of the closure are unresolved, but those facts are not needed to establish the directional-detour operation."
+      ]
+    },
+    {
+      "layout_code": "TA-24",
+      "layout_role": "cross_reference_only",
+      "source_locator": "TA-24, Figure 6P-24, PDF page 947 / printed page 907; source unit expanded from the full-manual index",
+      "matched_scene_facts": [
+        "One roadway direction is closed while the other direction remains open.",
+        "Channelizing devices approach and taper near a cross-street intersection."
+      ],
+      "conflicting_scene_facts": [
+        "The defining far-side condition of TA-24 is not established. The channelizer line may end at the intersection, continue beyond it, or turn into the cross street.",
+        "The precise work-space location and longitudinal limits of the opposing-direction closure are unresolved."
+      ]
+    },
+    {
+      "layout_code": "TA-8",
+      "layout_role": "cross_reference_only",
+      "source_locator": "TA-8, Figure 6P-8, PDF page 915 / printed page 875; source unit expanded from the full-manual index",
+      "matched_scene_facts": [
+        "An off-site detour for opposing traffic is explicitly confirmed.",
+        "The closure is associated with an intersection."
+      ],
+      "conflicting_scene_facts": [
+        "TA-8 depicts a road closure with an off-site detour, whereas the confirmed operation closes only one travel direction and leaves the ego-direction lane open.",
+        "The complete TA-8 road-closure and detour-signing arrangement is not established."
+      ]
+    },
+    {
+      "layout_code": "TA-20",
+      "layout_role": "cross_reference_only",
+      "source_locator": "TA-20, Figure 6P-20, PDF page 939 / printed page 899; source unit expanded from the full-manual index",
+      "matched_scene_facts": [
+        "An off-site detour for opposing traffic is explicitly confirmed.",
+        "The closure is near an intersection."
+      ],
+      "conflicting_scene_facts": [
+        "TA-20 addresses detour signing for a closed street, not the confirmed directional closure with the other travel direction remaining open.",
+        "Whether the street has a posted route number is unresolved, and the specific TA-20 signing arrangement is not covered."
+      ]
+    }
+  ],
+  "phase": "requirement_registration",
+  "region_coverage": {
+    "lane_closure_layout": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": [
+        "req_72d15edd230d1568",
+        "req_6cba0e7128bd99e4"
+      ]
+    },
+    "advance_warning_sign_system": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": [
+        "req_7f7323bcd37c5b84",
+        "req_81896520e0b032a5",
+        "req_d305824bda78ee20",
+        "req_d0158fecf5f63d40",
+        "req_994faca8507061a8",
+        "req_12b10ac1c3f92d53",
+        "req_07b36381ff33c89f",
+        "req_09c763900319cba8",
+        "req_f704cd7a2a19ed90",
+        "req_e33565395f6e7972",
+        "req_c22e4cc97e27c3e0",
+        "req_b027f3d259231de3",
+        "req_cba25d328142060c",
+        "req_cb1dccef74232ff1",
+        "req_6510f42c7262c82d",
+        "req_134633b407c8f805"
+      ]
+    },
+    "channelization_system": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "transition_and_taper_geometry": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "conditional_active_devices": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "conditional_termination_area": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    }
+  },
+  "requirements": [
+    {
+      "candidate_label": "Cover conflicting intersection devices in a closed directional roadway",
+      "subject": "Existing WRONG WAY signs, markings, and other conflicting traffic-control devices at intersections within the closed directional roadway",
+      "relation": "shall be covered, removed, or obliterated",
+      "threshold": "No inapplicable conflicting device remains exposed within the temporary closure/intersection area",
+      "applicability_conditions": [
+        "A directional roadway is closed",
+        "An intersection lies within the temporary two-lane/two-way operations or closure area"
+      ],
+      "required_inputs": [
+        "Field inventory of existing intersection traffic-control devices",
+        "Closure and intersection limits"
+      ],
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "activation_basis": {
+        "type": "scene_fact",
+        "fact_keys": [
+          "opposing_direction_lane_fully_closed"
+        ],
+        "evidence_source_node_ids": [],
+        "explanation": "The opposing-direction lane is explicitly confirmed fully closed and the scene includes an intersection; the device condition requires targeted field verification."
+      },
+      "source_node_ids": [
+        "src_0adab6a573f859041c12"
+      ],
+      "modality": "shall",
+      "source_locator": "SEC-6N.11 paragraph 14; PDF page 888",
+      "source_span": "When a directional roadway is closed, inapplicable WRONG WAY signs and markings, and other existing traffic control devices at intersections within the temporary two-lane, two-way operations section shall be covered, removed, or obliterated.",
+      "discovered_requirement_key": "req_72d15edd230d1568",
+      "region": "lane_closure_layout",
+      "requirement_fingerprint": "72d15edd230d1568d983c03046defefcfeee69a91618ac8cf759115d31b46704",
+      "registration_event_index": 2,
+      "registration_timestamp": "2026-10-22T02:58:40.332783+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "TA-19 figure:sign:M4-10R: M4-10R sign in TA-19",
+      "subject": "M4-10R sign in TA-19",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "M4-10R is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_node_ids": [
+        "src_772e91e4ee914179c320"
+      ],
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:M4-10R; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "model_extracted_source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_07444b821fab297359c8",
+          "src_0fff811036aadbfbf3d1",
+          "src_25ca6a92b2d05884a60b",
+          "src_25fdba13ca2e4d09742f",
+          "src_2978fd365bf247168e56",
+          "src_4e4a614234c55ae69bb4",
+          "src_5bbe78f326fb3bf0f71f",
+          "src_772e91e4ee914179c320",
+          "src_a57d0a34f9651ab2c7d5",
+          "src_a8822f2af49c09edf7fb",
+          "src_b48978b224cbded461d4",
+          "src_bbff52f9e380a6c8183d",
+          "src_cdc47d0d2384b1278442",
+          "src_ee3d6350ed5f6c524113",
+          "src_ff58c5005260c2206d6f"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "discovered_requirement_key": "req_7f7323bcd37c5b84",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "7f7323bcd37c5b841bd101e6c58c630af7301f6b285236b3873c3786da507b51",
+      "registration_event_index": 3,
+      "registration_timestamp": "2026-10-22T02:58:54.199429+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "TA-19 figure:sign:M4-8a: M4-8a sign in TA-19",
+      "subject": "M4-8a sign in TA-19",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "M4-8a is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_node_ids": [
+        "src_cdc47d0d2384b1278442"
+      ],
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:M4-8a; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "model_extracted_source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_07444b821fab297359c8",
+          "src_0fff811036aadbfbf3d1",
+          "src_25ca6a92b2d05884a60b",
+          "src_25fdba13ca2e4d09742f",
+          "src_2978fd365bf247168e56",
+          "src_4e4a614234c55ae69bb4",
+          "src_5bbe78f326fb3bf0f71f",
+          "src_772e91e4ee914179c320",
+          "src_a57d0a34f9651ab2c7d5",
+          "src_a8822f2af49c09edf7fb",
+          "src_b48978b224cbded461d4",
+          "src_bbff52f9e380a6c8183d",
+          "src_cdc47d0d2384b1278442",
+          "src_ee3d6350ed5f6c524113",
+          "src_ff58c5005260c2206d6f"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "discovered_requirement_key": "req_81896520e0b032a5",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "81896520e0b032a5e2557df7730d43f4342fd257c71109d8c349a006185aa6ae",
+      "registration_event_index": 4,
+      "registration_timestamp": "2026-10-22T02:58:54.199506+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "TA-19 figure:sign:M4-9L: M4-9L sign in TA-19",
+      "subject": "M4-9L sign in TA-19",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "M4-9L is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_node_ids": [
+        "src_2978fd365bf247168e56"
+      ],
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:M4-9L; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "model_extracted_source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_07444b821fab297359c8",
+          "src_0fff811036aadbfbf3d1",
+          "src_25ca6a92b2d05884a60b",
+          "src_25fdba13ca2e4d09742f",
+          "src_2978fd365bf247168e56",
+          "src_4e4a614234c55ae69bb4",
+          "src_5bbe78f326fb3bf0f71f",
+          "src_772e91e4ee914179c320",
+          "src_a57d0a34f9651ab2c7d5",
+          "src_a8822f2af49c09edf7fb",
+          "src_b48978b224cbded461d4",
+          "src_bbff52f9e380a6c8183d",
+          "src_cdc47d0d2384b1278442",
+          "src_ee3d6350ed5f6c524113",
+          "src_ff58c5005260c2206d6f"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "discovered_requirement_key": "req_d305824bda78ee20",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "d305824bda78ee202ef743e949571a64734dfb7656f087ec1a667018f222892b",
+      "registration_event_index": 5,
+      "registration_timestamp": "2026-10-22T02:58:54.199568+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "TA-19 figure:sign:M4-9R: M4-9R sign in TA-19",
+      "subject": "M4-9R sign in TA-19",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "M4-9R is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_node_ids": [
+        "src_25fdba13ca2e4d09742f"
+      ],
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:M4-9R; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "model_extracted_source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_07444b821fab297359c8",
+          "src_0fff811036aadbfbf3d1",
+          "src_25ca6a92b2d05884a60b",
+          "src_25fdba13ca2e4d09742f",
+          "src_2978fd365bf247168e56",
+          "src_4e4a614234c55ae69bb4",
+          "src_5bbe78f326fb3bf0f71f",
+          "src_772e91e4ee914179c320",
+          "src_a57d0a34f9651ab2c7d5",
+          "src_a8822f2af49c09edf7fb",
+          "src_b48978b224cbded461d4",
+          "src_bbff52f9e380a6c8183d",
+          "src_cdc47d0d2384b1278442",
+          "src_ee3d6350ed5f6c524113",
+          "src_ff58c5005260c2206d6f"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "discovered_requirement_key": "req_d0158fecf5f63d40",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "d0158fecf5f63d404c6a8f06f9a50327c83851d81c72661a4391913a2530719e",
+      "registration_event_index": 6,
+      "registration_timestamp": "2026-10-22T02:58:54.199625+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "TA-19 figure:sign:R11-2: R11-2 sign in TA-19",
+      "subject": "R11-2 sign in TA-19",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "R11-2 is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_node_ids": [
+        "src_5bbe78f326fb3bf0f71f"
+      ],
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R11-2; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "model_extracted_source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_07444b821fab297359c8",
+          "src_0fff811036aadbfbf3d1",
+          "src_25ca6a92b2d05884a60b",
+          "src_25fdba13ca2e4d09742f",
+          "src_2978fd365bf247168e56",
+          "src_4e4a614234c55ae69bb4",
+          "src_5bbe78f326fb3bf0f71f",
+          "src_772e91e4ee914179c320",
+          "src_a57d0a34f9651ab2c7d5",
+          "src_a8822f2af49c09edf7fb",
+          "src_b48978b224cbded461d4",
+          "src_bbff52f9e380a6c8183d",
+          "src_cdc47d0d2384b1278442",
+          "src_ee3d6350ed5f6c524113",
+          "src_ff58c5005260c2206d6f"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "discovered_requirement_key": "req_994faca8507061a8",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "994faca8507061a84ce9864396f1eca72f70caa83bcbdd60dcb941f248355db5",
+      "registration_event_index": 7,
+      "registration_timestamp": "2026-10-22T02:58:54.199679+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "TA-19 figure:sign:R11-4: R11-4 sign in TA-19",
+      "subject": "R11-4 sign in TA-19",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "R11-4 is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_node_ids": [
+        "src_4e4a614234c55ae69bb4"
+      ],
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R11-4; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "model_extracted_source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_07444b821fab297359c8",
+          "src_0fff811036aadbfbf3d1",
+          "src_25ca6a92b2d05884a60b",
+          "src_25fdba13ca2e4d09742f",
+          "src_2978fd365bf247168e56",
+          "src_4e4a614234c55ae69bb4",
+          "src_5bbe78f326fb3bf0f71f",
+          "src_772e91e4ee914179c320",
+          "src_a57d0a34f9651ab2c7d5",
+          "src_a8822f2af49c09edf7fb",
+          "src_b48978b224cbded461d4",
+          "src_bbff52f9e380a6c8183d",
+          "src_cdc47d0d2384b1278442",
+          "src_ee3d6350ed5f6c524113",
+          "src_ff58c5005260c2206d6f"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "discovered_requirement_key": "req_12b10ac1c3f92d53",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "12b10ac1c3f92d53beebe30f2778c947a22547a7372cce58e1504b349178fb2b",
+      "registration_event_index": 8,
+      "registration_timestamp": "2026-10-22T02:58:54.199732+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "TA-19 figure:sign:R3-1: R3-1 sign in TA-19",
+      "subject": "R3-1 sign in TA-19",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "R3-1 is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_node_ids": [
+        "src_a8822f2af49c09edf7fb"
+      ],
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R3-1; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "model_extracted_source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_07444b821fab297359c8",
+          "src_0fff811036aadbfbf3d1",
+          "src_25ca6a92b2d05884a60b",
+          "src_25fdba13ca2e4d09742f",
+          "src_2978fd365bf247168e56",
+          "src_4e4a614234c55ae69bb4",
+          "src_5bbe78f326fb3bf0f71f",
+          "src_772e91e4ee914179c320",
+          "src_a57d0a34f9651ab2c7d5",
+          "src_a8822f2af49c09edf7fb",
+          "src_b48978b224cbded461d4",
+          "src_bbff52f9e380a6c8183d",
+          "src_cdc47d0d2384b1278442",
+          "src_ee3d6350ed5f6c524113",
+          "src_ff58c5005260c2206d6f"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "discovered_requirement_key": "req_07b36381ff33c89f",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "07b36381ff33c89f58177e4229d18fd0622d7d5f9d3af0f19834a6eefe04267e",
+      "registration_event_index": 9,
+      "registration_timestamp": "2026-10-22T02:58:54.199786+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "TA-19 figure:sign:R3-2: R3-2 sign in TA-19",
+      "subject": "R3-2 sign in TA-19",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "R3-2 is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_node_ids": [
+        "src_ee3d6350ed5f6c524113"
+      ],
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R3-2; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "model_extracted_source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_07444b821fab297359c8",
+          "src_0fff811036aadbfbf3d1",
+          "src_25ca6a92b2d05884a60b",
+          "src_25fdba13ca2e4d09742f",
+          "src_2978fd365bf247168e56",
+          "src_4e4a614234c55ae69bb4",
+          "src_5bbe78f326fb3bf0f71f",
+          "src_772e91e4ee914179c320",
+          "src_a57d0a34f9651ab2c7d5",
+          "src_a8822f2af49c09edf7fb",
+          "src_b48978b224cbded461d4",
+          "src_bbff52f9e380a6c8183d",
+          "src_cdc47d0d2384b1278442",
+          "src_ee3d6350ed5f6c524113",
+          "src_ff58c5005260c2206d6f"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "discovered_requirement_key": "req_09c763900319cba8",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "09c763900319cba88da70900116e7a60a132abf2c01d04d37c7fc11837d2e91b",
+      "registration_event_index": 10,
+      "registration_timestamp": "2026-10-22T02:58:54.199839+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "TA-19 figure:sign:R5-1: R5-1 sign in TA-19",
+      "subject": "R5-1 sign in TA-19",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "R5-1 is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_node_ids": [
+        "src_0fff811036aadbfbf3d1"
+      ],
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R5-1; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "model_extracted_source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_07444b821fab297359c8",
+          "src_0fff811036aadbfbf3d1",
+          "src_25ca6a92b2d05884a60b",
+          "src_25fdba13ca2e4d09742f",
+          "src_2978fd365bf247168e56",
+          "src_4e4a614234c55ae69bb4",
+          "src_5bbe78f326fb3bf0f71f",
+          "src_772e91e4ee914179c320",
+          "src_a57d0a34f9651ab2c7d5",
+          "src_a8822f2af49c09edf7fb",
+          "src_b48978b224cbded461d4",
+          "src_bbff52f9e380a6c8183d",
+          "src_cdc47d0d2384b1278442",
+          "src_ee3d6350ed5f6c524113",
+          "src_ff58c5005260c2206d6f"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "discovered_requirement_key": "req_f704cd7a2a19ed90",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "f704cd7a2a19ed902aa0331a61ed64d190816809d2a8d474fe432817fd26908b",
+      "registration_event_index": 11,
+      "registration_timestamp": "2026-10-22T02:58:54.199890+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "TA-19 figure:sign:R6-1R: R6-1R sign in TA-19",
+      "subject": "R6-1R sign in TA-19",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "R6-1R is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_node_ids": [
+        "src_07444b821fab297359c8"
+      ],
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R6-1R; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "model_extracted_source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_07444b821fab297359c8",
+          "src_0fff811036aadbfbf3d1",
+          "src_25ca6a92b2d05884a60b",
+          "src_25fdba13ca2e4d09742f",
+          "src_2978fd365bf247168e56",
+          "src_4e4a614234c55ae69bb4",
+          "src_5bbe78f326fb3bf0f71f",
+          "src_772e91e4ee914179c320",
+          "src_a57d0a34f9651ab2c7d5",
+          "src_a8822f2af49c09edf7fb",
+          "src_b48978b224cbded461d4",
+          "src_bbff52f9e380a6c8183d",
+          "src_cdc47d0d2384b1278442",
+          "src_ee3d6350ed5f6c524113",
+          "src_ff58c5005260c2206d6f"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "discovered_requirement_key": "req_e33565395f6e7972",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "e33565395f6e79726b9db057570f91b26f82b652b18827dd17720236b1263cf7",
+      "registration_event_index": 12,
+      "registration_timestamp": "2026-10-22T02:58:54.199943+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "SEC-6H.03 01: The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions",
+      "subject": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions,",
+      "modality": "should",
+      "relation": "should_comply",
+      "threshold": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions, should be located in advance of the work space or any detour, on the road where the work is taking place.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images"
+      ],
+      "source_node_ids": [
+        "src_26bd048211769b2b09e8"
+      ],
+      "source_locator": "SEC-6H.03 paragraph 01; PDF page 842",
+      "source_span": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions, should be located in advance of the work space or any detour, on the road where the work is taking place.",
+      "model_extracted_source_span": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions, should be located in advance of the work space or any detour, on the road where the work is taking place.",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_07444b821fab297359c8",
+          "src_0fff811036aadbfbf3d1",
+          "src_25ca6a92b2d05884a60b",
+          "src_25fdba13ca2e4d09742f",
+          "src_2978fd365bf247168e56",
+          "src_4e4a614234c55ae69bb4",
+          "src_5bbe78f326fb3bf0f71f",
+          "src_772e91e4ee914179c320",
+          "src_a57d0a34f9651ab2c7d5",
+          "src_a8822f2af49c09edf7fb",
+          "src_b48978b224cbded461d4",
+          "src_bbff52f9e380a6c8183d",
+          "src_cdc47d0d2384b1278442",
+          "src_ee3d6350ed5f6c524113",
+          "src_ff58c5005260c2206d6f"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "discovered_requirement_key": "req_c22e4cc97e27c3e0",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "c22e4cc97e27c3e0a72da27932c79e3b77c63b1242c38dee02db36c93f241311",
+      "registration_event_index": 13,
+      "registration_timestamp": "2026-10-22T02:59:09.689563+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "SEC-6H.04 01: The DETOUR (W20-2) sign (see Figure 6H-1)",
+      "subject": "The DETOUR (W20-2) sign (see Figure 6H-1)",
+      "modality": "should",
+      "relation": "should_comply",
+      "threshold": "The DETOUR (W20-2) sign (see Figure 6H-1) should be used in advance of a road user detour over a different roadway or route.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images"
+      ],
+      "source_node_ids": [
+        "src_68cb61fa49e358701720"
+      ],
+      "source_locator": "SEC-6H.04 paragraph 01; PDF page 842",
+      "source_span": "The DETOUR (W20-2) sign (see Figure 6H-1) should be used in advance of a road user detour over a different roadway or route.",
+      "model_extracted_source_span": "The DETOUR (W20-2) sign (see Figure 6H-1) should be used in advance of a road user detour over a different roadway or route.",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_07444b821fab297359c8",
+          "src_0fff811036aadbfbf3d1",
+          "src_25ca6a92b2d05884a60b",
+          "src_25fdba13ca2e4d09742f",
+          "src_2978fd365bf247168e56",
+          "src_4e4a614234c55ae69bb4",
+          "src_5bbe78f326fb3bf0f71f",
+          "src_772e91e4ee914179c320",
+          "src_a57d0a34f9651ab2c7d5",
+          "src_a8822f2af49c09edf7fb",
+          "src_b48978b224cbded461d4",
+          "src_bbff52f9e380a6c8183d",
+          "src_cdc47d0d2384b1278442",
+          "src_ee3d6350ed5f6c524113",
+          "src_ff58c5005260c2206d6f"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "discovered_requirement_key": "req_b027f3d259231de3",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "b027f3d259231de33a93f4378cc797b41218f6da0438a7072e6c517187b2e682",
+      "registration_event_index": 14,
+      "registration_timestamp": "2026-10-22T02:59:09.689638+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "TABLE-6B-1 table: advance warning sign dimensions A, B, and C",
+      "subject": "advance warning sign dimensions A, B, and C",
+      "modality": "should",
+      "relation": "recommended_minimum_spacing",
+      "threshold": "Urban low speed: A=100 ft, B=100 ft, C=100 ft; urban high speed: A=350 ft, B=350 ft, C=350 ft; rural: A=500 ft, B=500 ft, C=500 ft; expressway/freeway: A=1,000 ft, B=1,500 ft, C=2,640 ft. A is restriction-to-first-sign distance, B first-to-second, and C second-to-third.",
+      "applicability_conditions": [
+        "road type and agency-determined speed category"
+      ],
+      "required_inputs": [
+        "roadway_configuration",
+        "posted_speed_mph",
+        "traffic_sign_observations",
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "source_node_ids": [
+        "src_6ee70d9c1617acd549c4"
+      ],
+      "source_locator": "TABLE-6B-1; PDF page 813",
+      "source_span": "Table 6B-1. Recommended Advance Warning Sign Minimum Spacing. Urban (low speed): 100 feet, 100 feet, 100 feet. Urban (high speed): 350 feet, 350 feet, 350 feet. Rural: 500 feet, 500 feet, 500 feet. Expressway / Freeway: 1,000 feet, 1,500 feet, 2,640 feet. The column headings A, B, and C are the dimensions shown in Figures 6P-1 through 6P-54.",
+      "model_extracted_source_span": "Table 6B-1. Recommended Advance Warning Sign Minimum Spacing. Urban (low speed): 100 feet, 100 feet, 100 feet. Urban (high speed): 350 feet, 350 feet, 350 feet. Rural: 500 feet, 500 feet, 500 feet. Expressway / Freeway: 1,000 feet, 1,500 feet, 2,640 feet. The column headings A, B, and C are the dimensions shown in Figures 6P-1 through 6P-54.",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_07444b821fab297359c8",
+          "src_0fff811036aadbfbf3d1",
+          "src_25ca6a92b2d05884a60b",
+          "src_25fdba13ca2e4d09742f",
+          "src_2978fd365bf247168e56",
+          "src_4e4a614234c55ae69bb4",
+          "src_5bbe78f326fb3bf0f71f",
+          "src_772e91e4ee914179c320",
+          "src_a57d0a34f9651ab2c7d5",
+          "src_a8822f2af49c09edf7fb",
+          "src_b48978b224cbded461d4",
+          "src_bbff52f9e380a6c8183d",
+          "src_cdc47d0d2384b1278442",
+          "src_ee3d6350ed5f6c524113",
+          "src_ff58c5005260c2206d6f"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_sign_spacing",
+        "quantity": "spacing between successive advance warning signs",
+        "thresholds": [
+          {
+            "condition": "urban low-speed advance warning sign spacing",
+            "value": 100,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "discovered_requirement_key": "req_cba25d328142060c",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "cba25d328142060cd9ffabc07ef979f11e2cd5f9f334d7c6480afb64cec9a826",
+      "registration_event_index": 15,
+      "registration_timestamp": "2026-10-22T02:59:09.689715+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "TA-19 08: When used, the Street Name sign",
+      "subject": "When used, the Street Name sign",
+      "modality": "shall",
+      "relation": "shall_comply",
+      "threshold": "When used, the Street Name sign shall be placed above the Detour sign. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 897",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images"
+      ],
+      "source_node_ids": [
+        "src_aca54136fd0666f6678c"
+      ],
+      "source_locator": "TA-19 paragraph 08; PDF page 936",
+      "source_span": "When used, the Street Name sign shall be placed above the Detour sign. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 897",
+      "model_extracted_source_span": "When used, the Street Name sign shall be placed above the Detour sign. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 897",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_07444b821fab297359c8",
+          "src_0fff811036aadbfbf3d1",
+          "src_25ca6a92b2d05884a60b",
+          "src_25fdba13ca2e4d09742f",
+          "src_2978fd365bf247168e56",
+          "src_4e4a614234c55ae69bb4",
+          "src_5bbe78f326fb3bf0f71f",
+          "src_772e91e4ee914179c320",
+          "src_a57d0a34f9651ab2c7d5",
+          "src_a8822f2af49c09edf7fb",
+          "src_b48978b224cbded461d4",
+          "src_bbff52f9e380a6c8183d",
+          "src_cdc47d0d2384b1278442",
+          "src_ee3d6350ed5f6c524113",
+          "src_ff58c5005260c2206d6f"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "discovered_requirement_key": "req_6cba0e7128bd99e4",
+      "region": "lane_closure_layout",
+      "requirement_fingerprint": "6cba0e7128bd99e49fd2dadd42743d978841c2c808bf23df4848de28c5ea4d4d",
+      "registration_event_index": 16,
+      "registration_timestamp": "2026-10-22T02:59:09.689807+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "SEC-6H.02 02: Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (",
+      "subject": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign",
+      "modality": "should",
+      "relation": "should_comply",
+      "threshold": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images"
+      ],
+      "source_node_ids": [
+        "src_eafd02c3dbce3f8109a1"
+      ],
+      "source_locator": "SEC-6H.02 paragraph 02; PDF page 838",
+      "source_span": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+      "model_extracted_source_span": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_07444b821fab297359c8",
+          "src_0fff811036aadbfbf3d1",
+          "src_25ca6a92b2d05884a60b",
+          "src_25fdba13ca2e4d09742f",
+          "src_2978fd365bf247168e56",
+          "src_4e4a614234c55ae69bb4",
+          "src_5bbe78f326fb3bf0f71f",
+          "src_772e91e4ee914179c320",
+          "src_a57d0a34f9651ab2c7d5",
+          "src_a8822f2af49c09edf7fb",
+          "src_b48978b224cbded461d4",
+          "src_bbff52f9e380a6c8183d",
+          "src_cdc47d0d2384b1278442",
+          "src_ee3d6350ed5f6c524113",
+          "src_ff58c5005260c2206d6f"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "discovered_requirement_key": "req_cb1dccef74232ff1",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "cb1dccef74232ff1b0c8c2e1f2c0b92e12117b87f5905eb17ed9bedc438b4a58",
+      "registration_event_index": 17,
+      "registration_timestamp": "2026-10-22T02:59:09.689888+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "SEC-6H.02 01: Where highway conditions permit, warning signs",
+      "subject": "Where highway conditions permit, warning signs",
+      "modality": "should",
+      "relation": "should_comply",
+      "threshold": "Where highway conditions permit, warning signs should be placed in advance of the transition and activity areas at varying distances depending on roadway type, condition, and posted speed. Table 6B-1 contains information regarding the spacing of advance warning signs. Where a series of two or more advance warning signs is used, the closest sign to the transition and activity areas should be placed approximately 100 feet for low-speed urban streets to 1,000 feet or more for freeways and expressways.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images",
+        "posted_speed_mph",
+        "accepted_bbox_observations",
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "source_node_ids": [
+        "src_7a245af2a19d44b87030"
+      ],
+      "source_locator": "SEC-6H.02 paragraph 01; PDF page 838",
+      "source_span": "Where highway conditions permit, warning signs should be placed in advance of the transition and activity areas at varying distances depending on roadway type, condition, and posted speed. Table 6B-1 contains information regarding the spacing of advance warning signs. Where a series of two or more advance warning signs is used, the closest sign to the transition and activity areas should be placed approximately 100 feet for low-speed urban streets to 1,000 feet or more for freeways and expressways.",
+      "model_extracted_source_span": "Where highway conditions permit, warning signs should be placed in advance of the transition and activity areas at varying distances depending on roadway type, condition, and posted speed. Table 6B-1 contains information regarding the spacing of advance warning signs. Where a series of two or more advance warning signs is used, the closest sign to the transition and activity areas should be placed approximately 100 feet for low-speed urban streets to 1,000 feet or more for freeways and expressways.",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_07444b821fab297359c8",
+          "src_0fff811036aadbfbf3d1",
+          "src_25ca6a92b2d05884a60b",
+          "src_25fdba13ca2e4d09742f",
+          "src_2978fd365bf247168e56",
+          "src_4e4a614234c55ae69bb4",
+          "src_5bbe78f326fb3bf0f71f",
+          "src_772e91e4ee914179c320",
+          "src_a57d0a34f9651ab2c7d5",
+          "src_a8822f2af49c09edf7fb",
+          "src_b48978b224cbded461d4",
+          "src_bbff52f9e380a6c8183d",
+          "src_cdc47d0d2384b1278442",
+          "src_ee3d6350ed5f6c524113",
+          "src_ff58c5005260c2206d6f"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_longitudinal_distance",
+        "quantity": "longitudinal distance from the closest advance-warning sign to the transition/activity area",
+        "thresholds": [
+          {
+            "condition": "closest advance-warning sign before an established transition/activity area",
+            "value": 100,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "discovered_requirement_key": "req_6510f42c7262c82d",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "6510f42c7262c82d10b76bc471cc0c4d38c3beff99d69f0330151cce182a901d",
+      "registration_event_index": 18,
+      "registration_timestamp": "2026-10-22T02:59:20.063141+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "TA-19 figure:sign:W20-2: W20-2 sign in TA-19",
+      "subject": "W20-2 sign in TA-19",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "W20-2 is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_node_ids": [
+        "src_ff58c5005260c2206d6f"
+      ],
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:W20-2; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "model_extracted_source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_07444b821fab297359c8",
+          "src_0fff811036aadbfbf3d1",
+          "src_25ca6a92b2d05884a60b",
+          "src_25fdba13ca2e4d09742f",
+          "src_2978fd365bf247168e56",
+          "src_4e4a614234c55ae69bb4",
+          "src_5bbe78f326fb3bf0f71f",
+          "src_772e91e4ee914179c320",
+          "src_a57d0a34f9651ab2c7d5",
+          "src_a8822f2af49c09edf7fb",
+          "src_b48978b224cbded461d4",
+          "src_bbff52f9e380a6c8183d",
+          "src_cdc47d0d2384b1278442",
+          "src_ee3d6350ed5f6c524113",
+          "src_ff58c5005260c2206d6f"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "discovered_requirement_key": "req_134633b407c8f805",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "134633b407c8f805f5de67fa806da1398a0595a368bfd466b17454d212a53d08",
+      "registration_event_index": 19,
+      "registration_timestamp": "2026-10-22T02:59:20.063224+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    }
+  ],
+  "data_availability": {},
+  "evidence_records": {},
+  "stage4_plan": null,
+  "inspection_bundles": {},
+  "acquisition_attempts": {},
+  "measurement_records": {},
+  "stage4_readiness": null,
+  "stage5_plan": null,
+  "conclusion_drafts": {},
+  "stage5_readiness": null,
+  "tool_calls": [],
+  "event_history": [
+    {
+      "event_index": 1,
+      "timestamp": "2026-10-22T02:58:31.024180+00:00",
+      "event_type": "phase_transition",
+      "phase": "requirement_discovery",
+      "from_phase": "requirement_discovery",
+      "to_phase": "requirement_registration"
+    },
+    {
+      "event_index": 2,
+      "timestamp": "2026-10-22T02:58:40.332783+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_72d15edd230d1568",
+      "candidate_label": "Cover conflicting intersection devices in a closed directional roadway",
+      "region": "lane_closure_layout",
+      "requirement_fingerprint": "72d15edd230d1568d983c03046defefcfeee69a91618ac8cf759115d31b46704"
+    },
+    {
+      "event_index": 3,
+      "timestamp": "2026-10-22T02:58:54.199429+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_7f7323bcd37c5b84",
+      "candidate_label": "TA-19 figure:sign:M4-10R: M4-10R sign in TA-19",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "7f7323bcd37c5b841bd101e6c58c630af7301f6b285236b3873c3786da507b51"
+    },
+    {
+      "event_index": 4,
+      "timestamp": "2026-10-22T02:58:54.199506+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_81896520e0b032a5",
+      "candidate_label": "TA-19 figure:sign:M4-8a: M4-8a sign in TA-19",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "81896520e0b032a5e2557df7730d43f4342fd257c71109d8c349a006185aa6ae"
+    },
+    {
+      "event_index": 5,
+      "timestamp": "2026-10-22T02:58:54.199568+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_d305824bda78ee20",
+      "candidate_label": "TA-19 figure:sign:M4-9L: M4-9L sign in TA-19",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "d305824bda78ee202ef743e949571a64734dfb7656f087ec1a667018f222892b"
+    },
+    {
+      "event_index": 6,
+      "timestamp": "2026-10-22T02:58:54.199625+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_d0158fecf5f63d40",
+      "candidate_label": "TA-19 figure:sign:M4-9R: M4-9R sign in TA-19",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "d0158fecf5f63d404c6a8f06f9a50327c83851d81c72661a4391913a2530719e"
+    },
+    {
+      "event_index": 7,
+      "timestamp": "2026-10-22T02:58:54.199679+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_994faca8507061a8",
+      "candidate_label": "TA-19 figure:sign:R11-2: R11-2 sign in TA-19",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "994faca8507061a84ce9864396f1eca72f70caa83bcbdd60dcb941f248355db5"
+    },
+    {
+      "event_index": 8,
+      "timestamp": "2026-10-22T02:58:54.199732+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_12b10ac1c3f92d53",
+      "candidate_label": "TA-19 figure:sign:R11-4: R11-4 sign in TA-19",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "12b10ac1c3f92d53beebe30f2778c947a22547a7372cce58e1504b349178fb2b"
+    },
+    {
+      "event_index": 9,
+      "timestamp": "2026-10-22T02:58:54.199786+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_07b36381ff33c89f",
+      "candidate_label": "TA-19 figure:sign:R3-1: R3-1 sign in TA-19",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "07b36381ff33c89f58177e4229d18fd0622d7d5f9d3af0f19834a6eefe04267e"
+    },
+    {
+      "event_index": 10,
+      "timestamp": "2026-10-22T02:58:54.199839+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_09c763900319cba8",
+      "candidate_label": "TA-19 figure:sign:R3-2: R3-2 sign in TA-19",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "09c763900319cba88da70900116e7a60a132abf2c01d04d37c7fc11837d2e91b"
+    },
+    {
+      "event_index": 11,
+      "timestamp": "2026-10-22T02:58:54.199890+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_f704cd7a2a19ed90",
+      "candidate_label": "TA-19 figure:sign:R5-1: R5-1 sign in TA-19",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "f704cd7a2a19ed902aa0331a61ed64d190816809d2a8d474fe432817fd26908b"
+    },
+    {
+      "event_index": 12,
+      "timestamp": "2026-10-22T02:58:54.199943+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_e33565395f6e7972",
+      "candidate_label": "TA-19 figure:sign:R6-1R: R6-1R sign in TA-19",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "e33565395f6e79726b9db057570f91b26f82b652b18827dd17720236b1263cf7"
+    },
+    {
+      "event_index": 13,
+      "timestamp": "2026-10-22T02:59:09.689563+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_c22e4cc97e27c3e0",
+      "candidate_label": "SEC-6H.03 01: The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "c22e4cc97e27c3e0a72da27932c79e3b77c63b1242c38dee02db36c93f241311"
+    },
+    {
+      "event_index": 14,
+      "timestamp": "2026-10-22T02:59:09.689638+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_b027f3d259231de3",
+      "candidate_label": "SEC-6H.04 01: The DETOUR (W20-2) sign (see Figure 6H-1)",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "b027f3d259231de33a93f4378cc797b41218f6da0438a7072e6c517187b2e682"
+    },
+    {
+      "event_index": 15,
+      "timestamp": "2026-10-22T02:59:09.689715+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_cba25d328142060c",
+      "candidate_label": "TABLE-6B-1 table: advance warning sign dimensions A, B, and C",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "cba25d328142060cd9ffabc07ef979f11e2cd5f9f334d7c6480afb64cec9a826"
+    },
+    {
+      "event_index": 16,
+      "timestamp": "2026-10-22T02:59:09.689807+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_6cba0e7128bd99e4",
+      "candidate_label": "TA-19 08: When used, the Street Name sign",
+      "region": "lane_closure_layout",
+      "requirement_fingerprint": "6cba0e7128bd99e49fd2dadd42743d978841c2c808bf23df4848de28c5ea4d4d"
+    },
+    {
+      "event_index": 17,
+      "timestamp": "2026-10-22T02:59:09.689888+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_cb1dccef74232ff1",
+      "candidate_label": "SEC-6H.02 02: Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "cb1dccef74232ff1b0c8c2e1f2c0b92e12117b87f5905eb17ed9bedc438b4a58"
+    },
+    {
+      "event_index": 18,
+      "timestamp": "2026-10-22T02:59:20.063141+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_6510f42c7262c82d",
+      "candidate_label": "SEC-6H.02 01: Where highway conditions permit, warning signs",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "6510f42c7262c82d10b76bc471cc0c4d38c3beff99d69f0330151cce182a901d"
+    },
+    {
+      "event_index": 19,
+      "timestamp": "2026-10-22T02:59:20.063224+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_134633b407c8f805",
+      "candidate_label": "TA-19 figure:sign:W20-2: W20-2 sign in TA-19",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "134633b407c8f805f5de67fa806da1398a0595a368bfd466b17454d212a53d08"
+    }
+  ],
+  "completion": null,
+  "finalized": false
+}

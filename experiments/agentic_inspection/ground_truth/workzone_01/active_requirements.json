@@ -1,0 +1,158 @@
+{
+  "schema": "workzone01_active_requirements_v2",
+  "status": "frozen_independently_reaudited_reference",
+  "scene_id": "scene-CATS-01",
+  "evaluator_only": true,
+  "selected_layout": "TA-30",
+  "manual": {
+    "edition": "MUTCD 11th Edition (December 2023)",
+    "sha256": "5221404db3c27ec302d04d202c0e4b3b297857acebe94c632933f91c210ff835"
+  },
+  "policy": "Independent content-first audit of all six project domains. This file is never exposed to the inspection agent and is not derived from a method output.",
+  "audit_report": "reports/workzone01_gold_reaudit.md",
+  "requirement_count": 15,
+  "normative_distribution": {"mandatory": 5, "guidance": 10},
+  "requirements": [
+    {
+      "id": "LC-01",
+      "region": "lane_closure_layout",
+      "normative_level": "mandatory",
+      "primary_source_node_id": "src_25baa4f2f2ea8a767a6a",
+      "source_node_ids": ["src_25baa4f2f2ea8a767a6a"],
+      "source_locator": "SEC-6N.11 paragraph 10; PDF page 888",
+      "requirement": "For a single left-hand lane closure on an undivided road, channelizing devices are placed along both the center line and the adjacent lane."
+    },
+    {
+      "id": "LC-02",
+      "region": "lane_closure_layout",
+      "normative_level": "mandatory",
+      "primary_source_node_id": "src_e65583438482e0520dd4",
+      "source_node_ids": ["src_e65583438482e0520dd4"],
+      "source_locator": "SEC-6N.11 paragraph 03; PDF page 887",
+      "requirement": "A non-mobile lane closure on a multi-lane road uses a transition area containing a merging taper."
+    },
+    {
+      "id": "AWS-01",
+      "region": "advance_warning_sign_system",
+      "normative_level": "mandatory",
+      "primary_source_node_id": "src_3a61a102f3394eb624c4",
+      "source_node_ids": ["src_3a61a102f3394eb624c4"],
+      "source_locator": "SEC-6H.07 paragraph 01; PDF page 845",
+      "requirement": "A Lane Closed warning sign is used in advance of the closed through lane."
+    },
+    {
+      "id": "AWS-02",
+      "region": "advance_warning_sign_system",
+      "normative_level": "guidance",
+      "primary_source_node_id": "src_26bd048211769b2b09e8",
+      "source_node_ids": ["src_26bd048211769b2b09e8"],
+      "source_locator": "SEC-6H.03 paragraph 01; PDF page 842",
+      "requirement": "A ROAD WORK sign is located in advance of the work space on the affected road."
+    },
+    {
+      "id": "AWS-03",
+      "region": "advance_warning_sign_system",
+      "normative_level": "mandatory",
+      "primary_source_node_id": "src_34c2cf162b6da3a055fe",
+      "source_node_ids": ["src_34c2cf162b6da3a055fe"],
+      "source_locator": "SEC-6H.07 paragraph 02; PDF page 845",
+      "requirement": "For this single left-lane closure, the W20-5 sign uses the LEFT LANE CLOSED legend."
+    },
+    {
+      "id": "AWS-04",
+      "region": "advance_warning_sign_system",
+      "normative_level": "guidance",
+      "primary_source_node_id": "src_eafd02c3dbce3f8109a1",
+      "source_node_ids": ["src_eafd02c3dbce3f8109a1"],
+      "source_locator": "SEC-6H.02 paragraph 02; PDF page 838",
+      "requirement": "In the depicted multi-sign approach, ROAD WORK AHEAD is the first warning sign encountered."
+    },
+    {
+      "id": "AWS-05",
+      "region": "advance_warning_sign_system",
+      "normative_level": "guidance",
+      "primary_source_node_id": "src_f4754637d8b58f23e636",
+      "source_node_ids": ["src_f4754637d8b58f23e636"],
+      "source_locator": "Figure 6P-30, PDF page 959; Guidance basis SEC-6P.01 paragraph 02",
+      "requirement": "The W4-2L Lane Ends sign is provided in the position and sequence depicted by the selected Typical Application."
+    },
+    {
+      "id": "AWS-06",
+      "region": "advance_warning_sign_system",
+      "normative_level": "guidance",
+      "primary_source_node_id": "src_6ee70d9c1617acd549c4",
+      "source_node_ids": ["src_6ee70d9c1617acd549c4", "src_7a245af2a19d44b87030"],
+      "source_locator": "SEC-6H.02 paragraph 01 and Table 6B-1; PDF pages 838 and 813",
+      "requirement": "The A, B, and C advance-warning sign positions follow the recommended spacing for the established roadway class."
+    },
+    {
+      "id": "CH-01",
+      "region": "channelization_system",
+      "normative_level": "guidance",
+      "primary_source_node_id": "src_2afdeb6d23fb7be10144",
+      "source_node_ids": ["src_2afdeb6d23fb7be10144"],
+      "source_locator": "SEC-6K.01 paragraph 04; PDF page 855",
+      "requirement": "Channelizing-device spacing does not exceed one times speed in taper channelization or two times speed in tangent channelization."
+    },
+    {
+      "id": "CH-02",
+      "region": "channelization_system",
+      "normative_level": "mandatory",
+      "primary_source_node_id": "src_65f8e6d2257292e4b29b",
+      "source_node_ids": ["src_65f8e6d2257292e4b29b"],
+      "source_locator": "SEC-6K.01 paragraph 15; PDF page 855",
+      "requirement": "Channelizing devices that are no longer serviceable are replaced."
+    },
+    {
+      "id": "CH-03",
+      "region": "channelization_system",
+      "normative_level": "guidance",
+      "primary_source_node_id": "src_c20be98384c5d0b17a53",
+      "source_node_ids": ["src_c20be98384c5d0b17a53"],
+      "source_locator": "SEC-6K.01 paragraph 14; PDF page 855",
+      "requirement": "Channelizing devices are maintained clean, visible, and properly positioned."
+    },
+    {
+      "id": "TT-03",
+      "region": "transition_and_taper_geometry",
+      "normative_level": "guidance",
+      "primary_source_node_id": "src_8830bc798575a0d34908",
+      "source_node_ids": ["src_8830bc798575a0d34908", "src_efd418222a3f416f1e38", "src_84bd10c92c883edc52f8"],
+      "source_locator": "SEC-6B.08 paragraph 04 and Tables 6B-3/6B-4; PDF pages 815-816",
+      "requirement": "The merging taper is at least L, with L calculated from speed and lateral offset using the applicable MUTCD taper formula."
+    },
+    {
+      "id": "TT-04",
+      "region": "transition_and_taper_geometry",
+      "normative_level": "guidance",
+      "primary_source_node_id": "src_4f2b68c743a6b9bd3723",
+      "source_node_ids": ["src_4f2b68c743a6b9bd3723"],
+      "source_locator": "SEC-6B.08 paragraph 06; PDF page 816",
+      "requirement": "The merging taper provides adequate warning and sufficient length for drivers to adjust speed and merge before its downstream end."
+    },
+    {
+      "id": "AD-01",
+      "region": "conditional_active_devices",
+      "normative_level": "guidance",
+      "primary_source_node_id": "src_221a2387ff9abfa9e69e",
+      "source_node_ids": ["src_221a2387ff9abfa9e69e"],
+      "source_locator": "SEC-6L.06 paragraph 19; PDF page 873",
+      "requirement": "For a stationary lane closure, the deployed Arrow Board is located on the shoulder at the beginning of the merging taper."
+    },
+    {
+      "id": "AD-03",
+      "region": "conditional_active_devices",
+      "normative_level": "guidance",
+      "primary_source_node_id": "src_7ef08d9dba4ab38ffa40",
+      "source_node_ids": ["src_7ef08d9dba4ab38ffa40"],
+      "source_locator": "SEC-6L.06 paragraph 03; PDF page 873",
+      "requirement": "Because an Arrow Board is deployed, it is used in combination with appropriate signs, channelizing devices, or other TTC devices."
+    }
+  ],
+  "excluded_invalid_activations": [
+    {"id": "LC-03R", "source_node_id": "src_6c5e6e478c3ea830a922", "reason": "The multiple-lane-closure condition is false."},
+    {"id": "TT-02", "source_node_id": "src_0782ada99cead9bb2cea", "reason": "The provision governs one-lane, two-way alternating traffic."},
+    {"id": "AD-02", "source_node_id": "src_773f5051c6890e5174a9", "reason": "The provision restricts Arrow Board use; it does not require an arrow or chevron display in this scene."},
+    {"id": "RETIRED-TT-01", "source_node_id": "src_1fd483916a1ddec9676d", "reason": "The permanent lane-reduction and pavement-marking provision does not govern this temporary lane closure."}
+  ]
+}

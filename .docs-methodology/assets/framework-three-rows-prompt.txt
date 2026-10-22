@@ -1,0 +1,26 @@
+Create a refined scientific architecture figure for a CS conference paper. Landscape 2:1 aspect ratio, high resolution, white background, clean vector-style outline icons, restrained navy/teal/purple/amber palette, clear readable typography. No photographs, no realistic renderings, no decorative illustrations, no big overall title. A balanced amount of text, short explanations plus explicit outputs, not paragraphs.
+
+MANDATORY COMPOSITION: exactly THREE HORIZONTAL ROWS.
+TOP ROW = ALL INPUTS, three compact boxes: "Camera + LiDAR" with camera/point-cloud icons and subtitle "Images • point clouds"; "Scene context" with map icon and subtitle "Layout cues • known conditions"; "MUTCD" with open-book icon and subtitle "TA library • structured sources".
+MIDDLE ROW = FOUR STAGES arranged LEFT TO RIGHT in a single horizontal row, with obvious rightward arrows 1 → 2 → 3 → 4. All four boxes top-aligned and bottom-aligned. Stage 2 slightly wider. Each stage has a colored numbered circle at its upper left, a heading, outline icons, short activity labels, and a small output strip at bottom.
+BOTTOM ROW = ONE FINAL OUTPUT, a wide compact report mockup centered below the stages, reached by a down arrow from Stage 4, routed in the whitespace to the report's right edge. No output before Stage 4, no fifth stage. Label the row subtly "OUTPUT". Top row can have small "INPUTS" label. No other rows.
+
+STAGE CONTENT:
+1 heading "Layout selection", small road/taper and document icons; text "Match scene to a Typical Application"; output strip "Selected TA + scene context".
+2 heading "Regulation-grounded planning", pale teal highlight. Three clear mini-modules stacked VERTICALLY INSIDE this stage card so there is room for text: connected graph + magnifier icon labelled "Structured RAG" with subline "TA / condition KG + gap retrieval"; checklist icon labelled "Requirements" with subline "Applicability + atomic checks"; clipboard/wrench icon labelled "Evidence plan" with subline "Data availability + tool selection". Small down arrows between mini-modules. Output strip "Requirements + acquisition plan".
+3 heading "Inspection & assessment", small bounding-box cone icon + ruler icon, then checklist status icon; two short activity labels "Acquire evidence & measure" and "Assess each requirement"; output strip "Evidence + judgments + source links".
+4 heading "Report synthesis", small report icon; text "Consolidate findings, citations and coverage gaps"; output strip "Traceable inspection report".
+
+INPUT CONNECTIONS — crucial, accurate and uncluttered:
+From Scene context, one downward routed arrow to Stage 1 top edge.
+From MUTCD, a thin regulatory bus with two downward branches, one to Stage 1 labelled "TA references", one to Stage 2 labelled "Regulatory sources". Use whitespace between input row and stage row. Do not draw through any text or icon.
+From Camera + LiDAR, a separate thin sensor-data connector routes above the stage row directly to Stage 3 top edge, labelled "Sensor evidence". It must NOT enter Stage 2. Camera+LiDAR can also connect to Scene context with a small rightward arrow in the top row.
+Choose positions of top inputs to minimize crossings; they need not align with stages. All connector arrows end clearly at target boxes. Normative source connections teal, sensor connector blue, scene connector gray. Arrange input boxes as Scene context on left, MUTCD in middle, Camera+LiDAR on right if that makes routing cleaner; omit Camera-to-Scene connector if it makes crossing clutter. This does not change the required connections to stages.
+Stage 1 output flows rightward to Stage 2; Stage 2 output flows rightward to Stage 3; Stage 3 output flows rightward to Stage 4.
+
+BOTTOM REPORT MOCKUP:
+Header "Inspection report". Three columns labelled "Requirement / source", "Evidence", "Status". Two or three thin schematic rows with gray placeholder lines (no fabricated content or numeric results), small evidence-thumbnail icons, and green check / red cross / gray dash. Beneath this compact table use three labeled legend items "Satisfied", "Deficient", "Not assessed". Report no larger than necessary, about half canvas width. It is an example schema, no experimental results. Do not add extra repeated report icons outside Stage 4 and this one final output.
+
+Overall look: precise academic diagram with concise functional labels, unobstructed arrows, plenty of padding but no huge blank gaps. Three rows clearly discernible. Horizontal pipeline is primary visual focus. Stage 2 method contribution prominent. Maintain all four numbered stages and top-to-middle-to-bottom hierarchy.
+
+Final repair: Solid white background; remove spurious MUTCD to Stage 3 connector. Keep MUTCD to stages 1 and 2, Scene context to stage 1, Camera + LiDAR to stage 3.

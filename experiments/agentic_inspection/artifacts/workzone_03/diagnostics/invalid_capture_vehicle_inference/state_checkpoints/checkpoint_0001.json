@@ -1,0 +1,71 @@
+{
+  "scene_id": "scene-CATS-15",
+  "selected_layouts": [
+    {
+      "layout_code": "TA-16",
+      "layout_role": "primary_applicable",
+      "source_locator": "TA-16, Figure 6P-16, MUTCD 11th Edition PDF pages 930-931 (printed pages 890-891)",
+      "matched_scene_facts": [
+        "User-confirmed survey vehicle is present.",
+        "The scoped area is a channelized work or obstruction area on an apparent urban two-way roadway.",
+        "The survey vehicle's forward travel lane remains usable while the channelized area is primarily along the left/opposing-direction side.",
+        "The inspection period is daytime, matching the depicted short-duration surveying context.",
+        "The posted speed is 20 mph, consistent with a low-speed roadway context."
+      ],
+      "conflicting_scene_facts": [
+        "The scene does not confirm that the channelizer line is exactly on the centerline.",
+        "The scene does not establish whether the opposing lane is fully closed.",
+        "No accepted detections are available; visual evidence is model-derived and unreviewed.",
+        "The exact work-area limits relative to the intersection are uncertain."
+      ]
+    }
+  ],
+  "phase": "requirement_discovery",
+  "region_coverage": {
+    "lane_closure_layout": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "advance_warning_sign_system": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "channelization_system": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "transition_and_taper_geometry": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "conditional_active_devices": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "conditional_termination_area": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    }
+  },
+  "requirements": [],
+  "data_availability": {},
+  "evidence_records": {},
+  "stage4_plan": null,
+  "inspection_bundles": {},
+  "acquisition_attempts": {},
+  "measurement_records": {},
+  "stage4_readiness": null,
+  "stage5_plan": null,
+  "conclusion_drafts": {},
+  "stage5_readiness": null,
+  "tool_calls": [],
+  "event_history": [],
+  "completion": null,
+  "finalized": false
+}

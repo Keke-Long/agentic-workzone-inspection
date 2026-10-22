@@ -1,0 +1,102 @@
+{
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "image_sha256": "d90378c34879223cc57d9641ba82d1469436fb1557ead7ad8e36a95be2e054b2",
+  "response": {
+    "model": "qwen3-vl:4b-instruct",
+    "created_at": "2026-10-21T14:49:19.446707129Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"items\": [\n    {\n      \"id\": 1,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"The cone is fully visible with intact stripes and no obvious damage or missing parts; appears functional for its purpose.\"\n    },\n    {\n      \"id\": 2,\n      \"status\": \"uncertain\",\n      \"reason\": \"Image is too blurred to discern any specific defects or serviceability issues; insufficient visual evidence.\"\n    },\n    {\n      \"id\": 3,\n      \"status\": \"visible_unserviceable\",\n      \"reason\": \"The cone appears heavily obscured and distorted, with no visible stripes or structural integrity; likely non-functional due to poor visibility and apparent damage.\"\n    },\n    {\n      \"id\": 4,\n      \"status\": \"uncertain\",\n      \"reason\": \"Image is blurry and lacks clear detail; cannot determine if the cones are serviceable or damaged based on visible evidence alone.\"\n    },\n    {\n      \"id\": 5,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"The cone is clearly visible with intact stripes, no missing parts, and appears to be standing upright and functional for channelizing traffic.\"\n    },\n    {\n      \"id\": 6,\n      \"status\": \"visible_unserviceable\",\n      \"reason\": \"The cone shows significant distortion and blurring; its orientation and condition suggest it may be damaged or improperly positioned, preventing clear assessment of serviceability.\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 3404535861,
+    "load_duration": 164810710,
+    "prompt_eval_count": 1299,
+    "prompt_eval_duration": 570594000,
+    "eval_count": 306,
+    "eval_duration": 2480825000
+  },
+  "observations": [
+    {
+      "observation_id": "C18_F0429_CAM_FRONT_Q001",
+      "frame": 429,
+      "native_bbox": [
+        2364.8813,
+        1198.9487,
+        2550.1003,
+        1519.4846
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "The cone is fully visible with intact stripes and no obvious damage or missing parts; appears functional for its purpose."
+    },
+    {
+      "observation_id": "C18_F0430_CAM_FRONT_Q021",
+      "frame": 430,
+      "native_bbox": [
+        2005.9248,
+        1139.0459,
+        2033.212,
+        1184.3447
+      ],
+      "id": 2,
+      "status": "uncertain",
+      "reason": "Image is too blurred to discern any specific defects or serviceability issues; insufficient visual evidence."
+    },
+    {
+      "observation_id": "C18_F0432_CAM_FRONT_Q031",
+      "frame": 432,
+      "native_bbox": [
+        2032.639,
+        1138.823,
+        2046.838,
+        1206.017
+      ],
+      "id": 3,
+      "status": "visible_unserviceable",
+      "reason": "The cone appears heavily obscured and distorted, with no visible stripes or structural integrity; likely non-functional due to poor visibility and apparent damage."
+    },
+    {
+      "observation_id": "C18_F0432_CAM_FRONT_Q058",
+      "frame": 432,
+      "native_bbox": [
+        2060.7397,
+        1154.9355,
+        2119.8364,
+        1265.0134
+      ],
+      "id": 4,
+      "status": "uncertain",
+      "reason": "Image is blurry and lacks clear detail; cannot determine if the cones are serviceable or damaged based on visible evidence alone."
+    },
+    {
+      "observation_id": "C18_F0433_CAM_FRONT_Q028",
+      "frame": 433,
+      "native_bbox": [
+        2106.1323,
+        1100.3512,
+        2304.6978,
+        1413.3091
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "The cone is clearly visible with intact stripes, no missing parts, and appears to be standing upright and functional for channelizing traffic."
+    },
+    {
+      "observation_id": "C18_F0435_CAM_FRONT_Q019",
+      "frame": 435,
+      "native_bbox": [
+        2087.094,
+        1149.3252,
+        2149.9312,
+        1288.6335
+      ],
+      "id": 6,
+      "status": "visible_unserviceable",
+      "reason": "The cone shows significant distortion and blurring; its orientation and condition suggest it may be damaged or improperly positioned, preventing clear assessment of serviceability."
+    }
+  ],
+  "human_confirmed_condition": false
+}

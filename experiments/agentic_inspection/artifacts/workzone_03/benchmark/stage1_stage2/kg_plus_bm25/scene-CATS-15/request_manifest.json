@@ -1,0 +1,149 @@
+{
+  "experiment_id": "workzone_03_stage1_kg_bm25",
+  "method_id": "kg_plus_bm25",
+  "run": 1,
+  "method_role": "primary_proposed_method",
+  "method_definition_version": "stage1_stage2_methods_v1",
+  "stage2_policy": {
+    "mode": "structured_candidate_decision_v1",
+    "candidate_scope": "initial_compilation_plus_unresolved_deterministic_kg_candidates",
+    "canonical_predicate_binding": true,
+    "explicit_candidate_disposition_required": true
+  },
+  "single_method_development_test": true,
+  "cross_method_comparison_valid": false,
+  "layout_selection_origin": "model_selected",
+  "correct_layout_page_region_or_target_supplied": false,
+  "hidden_requirement_id_supplied": false,
+  "scene_view": {
+    "scene_id": "scene-CATS-15",
+    "scene_facts": {
+      "posted_speed_mph": 20,
+      "posted_speed_provenance": "explicit_user_confirmation",
+      "work_duration_category": null,
+      "work_duration_days_less_than": 3,
+      "work_duration_description": "User: less than three days; subcategory unknown",
+      "opposite_direction_image_coverage": false,
+      "roadway_configuration": null,
+      "roadway_lane_count": null,
+      "closed_lane": null,
+      "lanes_closed": null,
+      "active_work": null,
+      "arrow_board_deployed": null,
+      "pcms_deployed": null,
+      "visual_scene_description": {
+        "scope": "Only the later channelized work area visible approximately 78-90 seconds is described. The approach view at 52 seconds is included only for potentially relevant warning-sign evidence; association with the later work area is unconfirmed.",
+        "evidence_status": "Model-derived visual evidence, not human-confirmed ground truth.",
+        "posted_speed": "20 mph, user-confirmed.",
+        "work_duration": "Strictly less than three days, user-confirmed; more precise duration unknown.",
+        "road_geometry": "Urban two-way roadway with one apparent lane in each direction and a centerline visible through much of the approach. The roadway is generally straight in the scoped segment and crosses an all-way-stop intersection near the end of the channelized area.",
+        "traffic_directions": "The data-recording ego vehicle travels forward in its apparent right-hand travel lane. Opposing traffic would use the lane to the left of the centerline.",
+        "closure_or_obstruction": "User-confirmed full closure of the opposing-direction lane in the selected later work area; data-recording ego direction remains visibly passable.",
+        "intersection_relationship": "The channelized area is encountered immediately before and alongside an all-way-stop-controlled intersection visible around 83.8-90.1 seconds. The exact work-area limits relative to the intersection are uncertain.",
+        "apparent_work_vehicles": "No clearly identifiable work vehicle is visible within the scoped channelized area. Vehicles visible near the intersection and beyond cannot be reliably classified as work vehicles.",
+        "apparent_workers": "No person is clearly identifiable as a worker actively performing traffic control or construction within the scoped area.",
+        "flagger_evidence": "No reliable evidence of a flagger directing traffic. High-visibility orange elements are attached to channelizers and signs; clothing alone would not establish flagger activity.",
+        "bicycle_lane": "A distinct bicycle-lane boundary is not confidently identifiable within the scoped 78-90 second segment. A bicycle marking visible after the scoped area is not used to characterize this work area.",
+        "separately_encountered_work_areas": "One later channelized work area is supported by the images. The orange warning sign visible during the 52-61 second approach may relate to this area, but that association is not assumed."
+      },
+      "visual_scene_description_provenance": "Model-derived 16 scoped camera0 images; artifacts/workzone_03/scene_understanding_later_area; uncertainty retained; capture-vehicle terminology corrected by assistant to prevent observer/activity conflation",
+      "layout_uncertainties": [
+        "Does the channelizer line lie directly on the centerline, or is it offset into the opposing lane?",
+        "What is the exact longitudinal start and end of the work area relative to the all-way-stop intersection?",
+        "Is any portion of a bicycle lane included in, displaced by, or outside the channelized area?",
+        "Are the visible ROAD WORK AHEAD signs associated with this later work area or with a separate work area farther along the route?",
+        "Were any workers or flaggers present outside the camera's visible field or between the sampled frames?",
+        "Are any vehicles near the intersection work-related, or are they ordinary traffic or parked vehicles?",
+        "Actual operation and routing of opposing traffic: user expects detour, not independently confirmed."
+      ],
+      "inspection_period": "daytime",
+      "inspection_period_provenance": "Daylit selected camera0 frames",
+      "inspection_scope": "User selects ONLY later channelized area approximately 78-90s. Approach warning signs from 52s are context with unconfirmed association; earlier work vehicles/personnel are excluded. User now confirms full closure of the opposing-direction lane.",
+      "capture_vehicle_role": "The black vehicle is ONLY the research sensor-recording ego vehicle. It is NOT a work-zone device or construction vehicle. Its presence is NOT evidence of surveying, mobile work, a shadow vehicle, or any construction activity. No surveying operation is established.",
+      "opposing_direction_lane_fully_closed": true,
+      "opposing_direction_lane_fully_closed_provenance": "User explicitly confirmed full closure of the opposing-direction lane in the later channelized area.",
+      "opposing_traffic_detour_confirmed": null,
+      "opposing_traffic_control_description": "User expects opposing vehicles to detour, but expressed this as should/probably; actual detour operation and route remain unconfirmed. Do not assert alternating one-way operation."
+    },
+    "scene_data_manifest": {
+      "scene_id": "scene-CATS-15",
+      "scene_description_redacted": true,
+      "available_direct": [
+        "scene_facts"
+      ],
+      "derivable_local": [
+        "full_temporal_images",
+        "lidar_points",
+        "ego_trajectory",
+        "sensor_calibration",
+        "device_global_position",
+        "longitudinal_distance",
+        "device_spacing",
+        "taper_length",
+        "buffer_length",
+        "sign_spacing",
+        "available_width",
+        "rule_based_channelizer_spacing_audit",
+        "posted_speed_from_visible_sign"
+      ],
+      "retrievable_external": [
+        "posted_speed_if_road_segment_can_be_geolocated"
+      ],
+      "counts": {
+        "samples": 427,
+        "lidar_frames": 426,
+        "camera_frames": 426,
+        "camera_frames_by_channel": {
+          "CAM_FRONT": 426
+        },
+        "ego_poses": 852,
+        "calibrated_sensors": 2,
+        "accepted_bbox_observations": 0,
+        "accepted_bbox_observations_by_class": {},
+        "accepted_pcms_observations": 0,
+        "accepted_arrow_board_observations": 0
+      },
+      "derived_scene_facts": {
+        "pcms_deployed": null,
+        "pcms_deployed_provenance": [],
+        "arrow_board_deployed": null,
+        "arrow_board_deployed_provenance": []
+      },
+      "trajectory": {
+        "start_timestamp_us": 52000061,
+        "end_timestamp_us": 94500124,
+        "path_length_m": 237.004048463419
+      },
+      "location": {
+        "dataset_location": "madison-wi-usa",
+        "road_name": null,
+        "latitude_longitude": null,
+        "external_speed_lookup_ready": false,
+        "reason": "Metadata identifies Madison, Wisconsin but contains no road name or geodetic coordinates."
+      },
+      "forbidden_metadata_removed": [
+        "scene.description"
+      ]
+    },
+    "accepted_bbox_count": 0,
+    "perception_evidence_policy": "No human-reviewed or accepted detections yet. Empty inventory means unprocessed/unknown, not absence. Model-derived scene descriptions retain separate provenance."
+  },
+  "config_path": "/home/data/workzone/klong23_agentic_ai_workzone/experiments/agentic_inspection/config/workzone_03/stage1_kg_bm25.json",
+  "config_sha256": "c4c41b6041d331c6ebee5209809c9afe3e2ff7596a66dba25d8f20189f76dcf0",
+  "model": "gpt-5.6-luna",
+  "reasoning_effort": "medium",
+  "resume_stage0_record": null,
+  "resume_registry_checkpoint": null,
+  "stage0_prompt_sha256": "9e36115f53a89b6221aba3e76685c8a6a021b19bb0514692d75fd422a1de51fb",
+  "workflow_prompt_template_sha256": "97828bdc473ad77c905efd18c068a6db9303c49caf5dccff327aec6e4d12e15d",
+  "scoped_stage1_stage2_test": true,
+  "simplified_inspection_checks": true,
+  "stage1c_gap_retrieval": {
+    "architecture": "kg_plus_retrieval",
+    "method": "bm25",
+    "candidate_selection": "top_k",
+    "candidate_limit_per_domain": 18
+  },
+  "stage1_architecture": "kg_plus_retrieval",
+  "executed": true
+}

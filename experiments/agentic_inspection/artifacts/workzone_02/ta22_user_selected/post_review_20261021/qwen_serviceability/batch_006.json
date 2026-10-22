@@ -1,0 +1,102 @@
+{
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "image_sha256": "ea7fc9ebf19c2737a142186bcd384aa95cd8a42847cbf6629129b9b57483f93e",
+  "response": {
+    "model": "qwen3-vl:4b-instruct",
+    "created_at": "2026-10-21T14:48:46.666633269Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"items\": [\n    {\n      \"id\": 1,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Multiple channelizing devices visible, intact with clear red and white stripes; no obvious damage or missing parts.\"\n    },\n    {\n      \"id\": 2,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Channelizing devices clearly visible with distinct alternating stripes; no signs of severe breakage, collapse, or major damage.\"\n    },\n    {\n      \"id\": 3,\n      \"status\": \"uncertain\",\n      \"reason\": \"Image too small and blurry to assess condition; insufficient visual evidence for serviceability determination.\"\n    },\n    {\n      \"id\": 4,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Devices visible with full stripes and no apparent structural damage or missing components; adequate visibility for function assessment.\"\n    },\n    {\n      \"id\": 5,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Channelizing devices appear intact, with clear alternating stripes and no obvious defects preventing function.\"\n    },\n    {\n      \"id\": 6,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Devices show full visible stripes and no signs of severe breakage or missing major parts; serviceability is not compromised.\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 4602110991,
+    "load_duration": 153256926,
+    "prompt_eval_count": 1299,
+    "prompt_eval_duration": 1119284000,
+    "eval_count": 280,
+    "eval_duration": 3132149000
+  },
+  "observations": [
+    {
+      "observation_id": "C18_F0364_CAM_FRONT_Q017",
+      "frame": 364,
+      "native_bbox": [
+        1992.8513,
+        1120.0748,
+        2024.1514,
+        1172.9023
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "Multiple channelizing devices visible, intact with clear red and white stripes; no obvious damage or missing parts."
+    },
+    {
+      "observation_id": "C18_F0364_CAM_FRONT_Q029",
+      "frame": 364,
+      "native_bbox": [
+        2183.834,
+        1124.1254,
+        2226.3491,
+        1201.8406
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "Channelizing devices clearly visible with distinct alternating stripes; no signs of severe breakage, collapse, or major damage."
+    },
+    {
+      "observation_id": "C18_F0365_CAM_FRONT_Q016",
+      "frame": 365,
+      "native_bbox": [
+        1957.39,
+        1125.471,
+        1963.429,
+        1158.46
+      ],
+      "id": 3,
+      "status": "uncertain",
+      "reason": "Image too small and blurry to assess condition; insufficient visual evidence for serviceability determination."
+    },
+    {
+      "observation_id": "C18_F0366_CAM_FRONT_Q013",
+      "frame": 366,
+      "native_bbox": [
+        2204.0078,
+        1134.5024,
+        2244.8821,
+        1211.3981
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "Devices visible with full stripes and no apparent structural damage or missing components; adequate visibility for function assessment."
+    },
+    {
+      "observation_id": "C18_F0366_CAM_FRONT_Q027",
+      "frame": 366,
+      "native_bbox": [
+        2224.6475,
+        1133.5366,
+        2262.1726,
+        1211.8265
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "Channelizing devices appear intact, with clear alternating stripes and no obvious defects preventing function."
+    },
+    {
+      "observation_id": "C18_F0366_CAM_FRONT_Q029",
+      "frame": 366,
+      "native_bbox": [
+        2182.49,
+        1138.7416,
+        2216.9211,
+        1204.6464
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "Devices show full visible stripes and no signs of severe breakage or missing major parts; serviceability is not compromised."
+    }
+  ],
+  "human_confirmed_condition": false
+}

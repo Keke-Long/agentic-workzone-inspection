@@ -1,0 +1,117 @@
+{
+  "scene_id": "scene-CATS-15",
+  "selected_layouts": [
+    {
+      "layout_code": "TA-19",
+      "layout_role": "primary_applicable",
+      "source_locator": "TA-19, Figure 6P-19, PDF page 937 / printed page 897; source unit expanded from the full-manual index",
+      "matched_scene_facts": [
+        "Opposing traffic is explicitly prohibited from entering the closed direction and detours via other roads.",
+        "The ego-direction lane remains open; alternating one-way operation is not occurring.",
+        "The scene is an urban two-way street with one apparent lane in each direction.",
+        "The opposing-direction roadway portion is fully closed and separated by channelizing devices."
+      ],
+      "conflicting_scene_facts": [
+        "The exact off-site detour route and its signing are outside the camera scope.",
+        "Whether the street has a posted route number is unresolved; TA-19 guidance addresses streets without posted route numbers.",
+        "The precise local intersection geometry and limits of the closure are unresolved, but those facts are not needed to establish the directional-detour operation."
+      ]
+    },
+    {
+      "layout_code": "TA-24",
+      "layout_role": "cross_reference_only",
+      "source_locator": "TA-24, Figure 6P-24, PDF page 947 / printed page 907; source unit expanded from the full-manual index",
+      "matched_scene_facts": [
+        "One roadway direction is closed while the other direction remains open.",
+        "Channelizing devices approach and taper near a cross-street intersection."
+      ],
+      "conflicting_scene_facts": [
+        "The defining far-side condition of TA-24 is not established. The channelizer line may end at the intersection, continue beyond it, or turn into the cross street.",
+        "The precise work-space location and longitudinal limits of the opposing-direction closure are unresolved."
+      ]
+    },
+    {
+      "layout_code": "TA-8",
+      "layout_role": "cross_reference_only",
+      "source_locator": "TA-8, Figure 6P-8, PDF page 915 / printed page 875; source unit expanded from the full-manual index",
+      "matched_scene_facts": [
+        "An off-site detour for opposing traffic is explicitly confirmed.",
+        "The closure is associated with an intersection."
+      ],
+      "conflicting_scene_facts": [
+        "TA-8 depicts a road closure with an off-site detour, whereas the confirmed operation closes only one travel direction and leaves the ego-direction lane open.",
+        "The complete TA-8 road-closure and detour-signing arrangement is not established."
+      ]
+    },
+    {
+      "layout_code": "TA-20",
+      "layout_role": "cross_reference_only",
+      "source_locator": "TA-20, Figure 6P-20, PDF page 939 / printed page 899; source unit expanded from the full-manual index",
+      "matched_scene_facts": [
+        "An off-site detour for opposing traffic is explicitly confirmed.",
+        "The closure is near an intersection."
+      ],
+      "conflicting_scene_facts": [
+        "TA-20 addresses detour signing for a closed street, not the confirmed directional closure with the other travel direction remaining open.",
+        "Whether the street has a posted route number is unresolved, and the specific TA-20 signing arrangement is not covered."
+      ]
+    }
+  ],
+  "phase": "requirement_registration",
+  "region_coverage": {
+    "lane_closure_layout": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "advance_warning_sign_system": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "channelization_system": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "transition_and_taper_geometry": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "conditional_active_devices": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "conditional_termination_area": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    }
+  },
+  "requirements": [],
+  "data_availability": {},
+  "evidence_records": {},
+  "stage4_plan": null,
+  "inspection_bundles": {},
+  "acquisition_attempts": {},
+  "measurement_records": {},
+  "stage4_readiness": null,
+  "stage5_plan": null,
+  "conclusion_drafts": {},
+  "stage5_readiness": null,
+  "tool_calls": [],
+  "event_history": [
+    {
+      "event_index": 1,
+      "timestamp": "2026-10-22T03:04:47.707987+00:00",
+      "event_type": "phase_transition",
+      "phase": "requirement_discovery",
+      "from_phase": "requirement_discovery",
+      "to_phase": "requirement_registration"
+    }
+  ],
+  "completion": null,
+  "finalized": false
+}

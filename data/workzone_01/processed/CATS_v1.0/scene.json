@@ -1,0 +1,11 @@
+[
+  {
+    "token": "d8563494d2284baa96b90aa84486d093",
+    "log_token": "83cb83ce2a4040a3b8625107338c3551",
+    "nbr_samples": 1027,
+    "first_sample_token": "ad8e7d87da104b5aafba86209d3d6452",
+    "last_sample_token": "32848d1f68fa4029aa78f08cf1cebdfb",
+    "name": "scene-CATS-01",
+    "description": "Work zone scene - One side of Left Lane Closure Multi-Lane Undivided Road - Work Zone Field Manual Page 85, Madison WI, 2026-04-28"
+  }
+]

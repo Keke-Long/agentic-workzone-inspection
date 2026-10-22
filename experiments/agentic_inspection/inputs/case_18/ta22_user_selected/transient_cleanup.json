@@ -1,0 +1,13 @@
+{
+  "sealed_canonical_artifacts_preserved": true,
+  "removed_transient_paths": [
+    "artifacts/workzone_18/ta22_user_selected/stage1_stage2/scene-CATS-19/stage_1_to_6_raw_responses_in_progress.json",
+    "artifacts/workzone_18/ta22_user_selected/stage1_stage2/scene-CATS-19/stage_1_to_6_tool_trace_in_progress.json",
+    "artifacts/workzone_18/ta22_user_selected/stage1_stage2/scene-CATS-19/payloads",
+    "artifacts/workzone_18/ta22_user_selected/stage1_stage2/scene-CATS-19/state_checkpoints",
+    "artifacts/workzone_18/ta22_user_selected/stage3/scene-CATS-19/stage_1_to_6_raw_responses_in_progress.json",
+    "artifacts/workzone_18/ta22_user_selected/stage3/scene-CATS-19/stage_1_to_6_tool_trace_in_progress.json",
+    "artifacts/workzone_18/ta22_user_selected/stage3/scene-CATS-19/payloads",
+    "artifacts/workzone_18/ta22_user_selected/stage3/scene-CATS-19/state_checkpoints"
+  ]
+}

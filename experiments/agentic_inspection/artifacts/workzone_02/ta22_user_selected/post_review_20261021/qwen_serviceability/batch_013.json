@@ -1,0 +1,102 @@
+{
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "image_sha256": "ae3b17880eda2f413d1680578b7bc11fec7ca9829a48952509e8cfc80e401f01",
+  "response": {
+    "model": "qwen3-vl:4b-instruct",
+    "created_at": "2026-10-21T14:49:12.507006721Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"items\": [\n    {\n      \"id\": 1,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Red and white stripes are intact and clearly visible; no signs of breakage, collapse, or missing major parts.\"\n    },\n    {\n      \"id\": 2,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Stripes are intact and legible; no obvious damage or functional defect visible.\"\n    },\n    {\n      \"id\": 3,\n      \"status\": \"visible_unserviceable\",\n      \"reason\": \"One device is visibly broken or collapsed, with stripes missing or distorted, indicating loss of function.\"\n    },\n    {\n      \"id\": 4,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Stripes are intact and clearly visible; no signs of damage or functional failure.\"\n    },\n    {\n      \"id\": 5,\n      \"status\": \"uncertain\",\n      \"reason\": \"Image is too blurry and low resolution to assess serviceability; objects appear as indistinct red shapes.\"\n    },\n    {\n      \"id\": 6,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Stripes are intact and clearly visible; no signs of breakage or functional defect.\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 2310134002,
+    "load_duration": 170944680,
+    "prompt_eval_count": 1299,
+    "prompt_eval_duration": 501331000,
+    "eval_count": 272,
+    "eval_duration": 1444451000
+  },
+  "observations": [
+    {
+      "observation_id": "C18_F0418_CAM_FRONT_Q007",
+      "frame": 418,
+      "native_bbox": [
+        2943.2705,
+        1061.1277,
+        3102.521,
+        1181.8384
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "Red and white stripes are intact and clearly visible; no signs of breakage, collapse, or missing major parts."
+    },
+    {
+      "observation_id": "C18_F0419_CAM_FRONT_Q004",
+      "frame": 419,
+      "native_bbox": [
+        3010.5479,
+        1060.6497,
+        3189.1824,
+        1181.7915
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "Stripes are intact and legible; no obvious damage or functional defect visible."
+    },
+    {
+      "observation_id": "C18_F0419_CAM_FRONT_Q009",
+      "frame": 419,
+      "native_bbox": [
+        2836.3118,
+        1055.2994,
+        3190.3379,
+        1188.6849
+      ],
+      "id": 3,
+      "status": "visible_unserviceable",
+      "reason": "One device is visibly broken or collapsed, with stripes missing or distorted, indicating loss of function."
+    },
+    {
+      "observation_id": "C18_F0420_CAM_FRONT_Q003",
+      "frame": 420,
+      "native_bbox": [
+        3088.1309,
+        1053.4492,
+        3290.6287,
+        1184.8451
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "Stripes are intact and clearly visible; no signs of damage or functional failure."
+    },
+    {
+      "observation_id": "C18_F0421_CAM_FRONT_Q016",
+      "frame": 421,
+      "native_bbox": [
+        1992.8362,
+        1141.5643,
+        2019.8231,
+        1184.6726
+      ],
+      "id": 5,
+      "status": "uncertain",
+      "reason": "Image is too blurry and low resolution to assess serviceability; objects appear as indistinct red shapes."
+    },
+    {
+      "observation_id": "C18_F0422_CAM_FRONT_Q003",
+      "frame": 422,
+      "native_bbox": [
+        3281.6812,
+        1041.1379,
+        3563.0337,
+        1192.6222
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "Stripes are intact and clearly visible; no signs of breakage or functional defect."
+    }
+  ],
+  "human_confirmed_condition": false
+}

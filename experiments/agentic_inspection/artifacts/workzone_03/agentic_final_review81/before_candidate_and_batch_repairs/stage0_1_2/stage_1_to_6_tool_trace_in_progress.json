@@ -1,0 +1,4477 @@
+[
+  {
+    "step": 1,
+    "phase": "requirement_discovery",
+    "tool": "load_ta_core_graph",
+    "arguments": {},
+    "result": {
+      "layer": "stage1a_ta_core",
+      "layout_code": "TA-19",
+      "ta": {
+        "ta_id": "ta:TA-19",
+        "source_unit_code": "TA-19",
+        "title": "Detour for One Travel Direction",
+        "figure_code": "6P-19"
+      },
+      "components": [
+        {
+          "component_id": "component:sign:R3-1",
+          "component_type": "traffic_sign",
+          "canonical_name": "R3-1",
+          "manual_identifier": "R3-1",
+          "depiction_relation": "depicts_guidance_component",
+          "provenance": {
+            "kind": "figure_component",
+            "source_node_id": "src_a8822f2af49c09edf7fb",
+            "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R3-1"
+          }
+        },
+        {
+          "component_id": "component:sign_spacing_dimensions:A-B",
+          "component_type": "sign_spacing_dimension",
+          "canonical_name": "sign spacing dimensions A-B",
+          "manual_identifier": "A-B",
+          "depiction_relation": "depicts_guidance_component",
+          "provenance": {
+            "kind": "figure_component",
+            "source_node_id": "src_a57d0a34f9651ab2c7d5",
+            "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component dimensions:A-B"
+          }
+        },
+        {
+          "component_id": "component:sign:R6-1R",
+          "component_type": "traffic_sign",
+          "canonical_name": "R6-1R",
+          "manual_identifier": "R6-1R",
+          "depiction_relation": "depicts_guidance_component",
+          "provenance": {
+            "kind": "figure_component",
+            "source_node_id": "src_07444b821fab297359c8",
+            "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R6-1R"
+          }
+        },
+        {
+          "component_id": "component:sign:W20-2",
+          "component_type": "traffic_sign",
+          "canonical_name": "W20-2",
+          "manual_identifier": "W20-2",
+          "depiction_relation": "depicts_guidance_component",
+          "provenance": {
+            "kind": "figure_component",
+            "source_node_id": "src_ff58c5005260c2206d6f",
+            "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:W20-2"
+          }
+        },
+        {
+          "component_id": "component:sign:R11-4",
+          "component_type": "traffic_sign",
+          "canonical_name": "R11-4",
+          "manual_identifier": "R11-4",
+          "depiction_relation": "depicts_guidance_component",
+          "provenance": {
+            "kind": "figure_component",
+            "source_node_id": "src_4e4a614234c55ae69bb4",
+            "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R11-4"
+          }
+        },
+        {
+          "component_id": "component:sign:W20-3",
+          "component_type": "traffic_sign",
+          "canonical_name": "W20-3",
+          "manual_identifier": "W20-3",
+          "depiction_relation": "depicts_guidance_component",
+          "provenance": {
+            "kind": "figure_component",
+            "source_node_id": "src_b48978b224cbded461d4",
+            "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:W20-3"
+          }
+        },
+        {
+          "component_id": "component:sign:R5-1",
+          "component_type": "traffic_sign",
+          "canonical_name": "R5-1",
+          "manual_identifier": "R5-1",
+          "depiction_relation": "depicts_guidance_component",
+          "provenance": {
+            "kind": "figure_component",
+            "source_node_id": "src_0fff811036aadbfbf3d1",
+            "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R5-1"
+          }
+        },
+        {
+          "component_id": "component:sign:R11-2",
+          "component_type": "traffic_sign",
+          "canonical_name": "R11-2",
+          "manual_identifier": "R11-2",
+          "depiction_relation": "depicts_guidance_component",
+          "provenance": {
+            "kind": "figure_component",
+            "source_node_id": "src_5bbe78f326fb3bf0f71f",
+            "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R11-2"
+          }
+        },
+        {
+          "component_id": "component:sign:M4-9L",
+          "component_type": "traffic_sign",
+          "canonical_name": "M4-9L",
+          "manual_identifier": "M4-9L",
+          "depiction_relation": "depicts_guidance_component",
+          "provenance": {
+            "kind": "figure_component",
+            "source_node_id": "src_2978fd365bf247168e56",
+            "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:M4-9L"
+          }
+        },
+        {
+          "component_id": "component:sign:R3-2",
+          "component_type": "traffic_sign",
+          "canonical_name": "R3-2",
+          "manual_identifier": "R3-2",
+          "depiction_relation": "depicts_guidance_component",
+          "provenance": {
+            "kind": "figure_component",
+            "source_node_id": "src_ee3d6350ed5f6c524113",
+            "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R3-2"
+          }
+        },
+        {
+          "component_id": "component:sign:M4-8A",
+          "component_type": "traffic_sign",
+          "canonical_name": "M4-8A",
+          "manual_identifier": "M4-8A",
+          "depiction_relation": "depicts_guidance_component",
+          "provenance": {
+            "kind": "figure_component",
+            "source_node_id": "src_cdc47d0d2384b1278442",
+            "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:M4-8a"
+          }
+        },
+        {
+          "component_id": "component:sign:W20-1",
+          "component_type": "traffic_sign",
+          "canonical_name": "W20-1",
+          "manual_identifier": "W20-1",
+          "depiction_relation": "depicts_guidance_component",
+          "provenance": {
+            "kind": "figure_component",
+            "source_node_id": "src_bbff52f9e380a6c8183d",
+            "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:W20-1"
+          }
+        },
+        {
+          "component_id": "component:sign:M4-10R",
+          "component_type": "traffic_sign",
+          "canonical_name": "M4-10R",
+          "manual_identifier": "M4-10R",
+          "depiction_relation": "depicts_guidance_component",
+          "provenance": {
+            "kind": "figure_component",
+            "source_node_id": "src_772e91e4ee914179c320",
+            "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:M4-10R"
+          }
+        },
+        {
+          "component_id": "component:sign:M4-9R",
+          "component_type": "traffic_sign",
+          "canonical_name": "M4-9R",
+          "manual_identifier": "M4-9R",
+          "depiction_relation": "depicts_guidance_component",
+          "provenance": {
+            "kind": "figure_component",
+            "source_node_id": "src_25fdba13ca2e4d09742f",
+            "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:M4-9R"
+          }
+        }
+      ],
+      "source_units": [
+        "SEC-6G.04",
+        "SEC-6G.05",
+        "SEC-6H.02",
+        "SEC-6H.03",
+        "SEC-6H.04",
+        "SEC-6H.05",
+        "SEC-6I.02",
+        "TA-19",
+        "TABLE-6B-1"
+      ],
+      "ta_evidence_node_ids": [
+        "src_25ca6a92b2d05884a60b",
+        "src_a57d0a34f9651ab2c7d5",
+        "src_772e91e4ee914179c320",
+        "src_cdc47d0d2384b1278442",
+        "src_2978fd365bf247168e56",
+        "src_25fdba13ca2e4d09742f",
+        "src_5bbe78f326fb3bf0f71f",
+        "src_4e4a614234c55ae69bb4",
+        "src_a8822f2af49c09edf7fb",
+        "src_ee3d6350ed5f6c524113",
+        "src_0fff811036aadbfbf3d1",
+        "src_07444b821fab297359c8",
+        "src_bbff52f9e380a6c8183d",
+        "src_ff58c5005260c2206d6f",
+        "src_b48978b224cbded461d4"
+      ],
+      "inferred_required_component_ids": [],
+      "candidate_count": 25,
+      "candidates": [
+        {
+          "source_node_id": "src_a8822f2af49c09edf7fb",
+          "source_unit_code": "TA-19",
+          "paragraph": "figure:sign:R3-1",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "high",
+          "source_excerpt": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+          "graph_paths": [
+            [
+              "TA-19 -> contains numbered normative TA notes"
+            ]
+          ]
+        },
+        {
+          "source_node_id": "src_ff58c5005260c2206d6f",
+          "source_unit_code": "TA-19",
+          "paragraph": "figure:sign:W20-2",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+          "graph_paths": [
+            [
+              "TA-19 -> contains numbered normative TA notes"
+            ]
+          ]
+        },
+        {
+          "source_node_id": "src_25fdba13ca2e4d09742f",
+          "source_unit_code": "TA-19",
+          "paragraph": "figure:sign:M4-9R",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "high",
+          "source_excerpt": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+          "graph_paths": [
+            [
+              "TA-19 -> contains numbered normative TA notes"
+            ]
+          ]
+        },
+        {
+          "source_node_id": "src_772e91e4ee914179c320",
+          "source_unit_code": "TA-19",
+          "paragraph": "figure:sign:M4-10R",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "high",
+          "source_excerpt": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+          "graph_paths": [
+            [
+              "TA-19 -> contains numbered normative TA notes"
+            ]
+          ]
+        },
+        {
+          "source_node_id": "src_b48978b224cbded461d4",
+          "source_unit_code": "TA-19",
+          "paragraph": "figure:sign:W20-3",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+          "graph_paths": [
+            [
+              "TA-19 -> contains numbered normative TA notes"
+            ]
+          ]
+        },
+        {
+          "source_node_id": "src_aca54136fd0666f6678c",
+          "source_unit_code": "TA-19",
+          "paragraph": "08",
+          "modality": "shall",
+          "domains": [
+            "advance_warning_sign_system",
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When used, the Street Name sign shall be placed above the Detour sign. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 897",
+          "graph_paths": [
+            [
+              "TA-19 -> contains numbered normative TA notes"
+            ]
+          ]
+        },
+        {
+          "source_node_id": "src_a57d0a34f9651ab2c7d5",
+          "source_unit_code": "TA-19",
+          "paragraph": "figure:dimensions:A-B",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+          "graph_paths": [
+            [
+              "TA-19 -> contains numbered normative TA notes"
+            ]
+          ]
+        },
+        {
+          "source_node_id": "src_2978fd365bf247168e56",
+          "source_unit_code": "TA-19",
+          "paragraph": "figure:sign:M4-9L",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "high",
+          "source_excerpt": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+          "graph_paths": [
+            [
+              "TA-19 -> contains numbered normative TA notes"
+            ]
+          ]
+        },
+        {
+          "source_node_id": "src_0fff811036aadbfbf3d1",
+          "source_unit_code": "TA-19",
+          "paragraph": "figure:sign:R5-1",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "high",
+          "source_excerpt": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+          "graph_paths": [
+            [
+              "TA-19 -> contains numbered normative TA notes"
+            ]
+          ]
+        },
+        {
+          "source_node_id": "src_5bbe78f326fb3bf0f71f",
+          "source_unit_code": "TA-19",
+          "paragraph": "figure:sign:R11-2",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "high",
+          "source_excerpt": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+          "graph_paths": [
+            [
+              "TA-19 -> contains numbered normative TA notes"
+            ]
+          ]
+        },
+        {
+          "source_node_id": "src_ff92896162b8a01b0836",
+          "source_unit_code": "TA-19",
+          "paragraph": "01",
+          "modality": "should",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "high",
+          "source_excerpt": "This plan should be used for streets without posted route numbers.",
+          "graph_paths": [
+            [
+              "TA-19 -> contains numbered normative TA notes"
+            ]
+          ]
+        },
+        {
+          "source_node_id": "src_bbff52f9e380a6c8183d",
+          "source_unit_code": "TA-19",
+          "paragraph": "figure:sign:W20-1",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+          "graph_paths": [
+            [
+              "TA-19 -> contains numbered normative TA notes"
+            ]
+          ]
+        },
+        {
+          "source_node_id": "src_cdc47d0d2384b1278442",
+          "source_unit_code": "TA-19",
+          "paragraph": "figure:sign:M4-8a",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "high",
+          "source_excerpt": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+          "graph_paths": [
+            [
+              "TA-19 -> contains numbered normative TA notes"
+            ]
+          ]
+        },
+        {
+          "source_node_id": "src_07444b821fab297359c8",
+          "source_unit_code": "TA-19",
+          "paragraph": "figure:sign:R6-1R",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "high",
+          "source_excerpt": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+          "graph_paths": [
+            [
+              "TA-19 -> contains numbered normative TA notes"
+            ]
+          ]
+        },
+        {
+          "source_node_id": "src_4e4a614234c55ae69bb4",
+          "source_unit_code": "TA-19",
+          "paragraph": "figure:sign:R11-4",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "high",
+          "source_excerpt": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+          "graph_paths": [
+            [
+              "TA-19 -> contains numbered normative TA notes"
+            ]
+          ]
+        },
+        {
+          "source_node_id": "src_645226502f4c2439e5fe",
+          "source_unit_code": "TA-19",
+          "paragraph": "02",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system",
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "high",
+          "source_excerpt": "On multi-lane streets, Detour signs with an Advance Turn Arrow should be used in advance of a turn.",
+          "graph_paths": [
+            [
+              "TA-19 -> contains numbered normative TA notes"
+            ]
+          ]
+        },
+        {
+          "source_node_id": "src_ee3d6350ed5f6c524113",
+          "source_unit_code": "TA-19",
+          "paragraph": "figure:sign:R3-2",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "high",
+          "source_excerpt": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+          "graph_paths": [
+            [
+              "TA-19 -> contains numbered normative TA notes"
+            ]
+          ]
+        },
+        {
+          "source_node_id": "src_7a245af2a19d44b87030",
+          "source_unit_code": "SEC-6H.02",
+          "paragraph": "01",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Where highway conditions permit, warning signs should be placed in advance of the transition and activity areas at varying distances depending on roadway type, condition, and posted speed. Table 6B-1 contains information regarding the spacing of advance warning signs. Where a series of two or more advance warning signs is used, the closest sign to the transition and activity areas should be placed approximately 100 f",
+          "graph_paths": [
+            [
+              "TA-19 -> depicts_guidance_component -> component:sign:R3-1",
+              "TA-19 -> depicts_guidance_component -> component:sign:R6-1R",
+              "TA-19 -> depicts_guidance_component -> component:sign:W20-2",
+              "TA-19 -> depicts_guidance_component -> component:sign:R11-4",
+              "TA-19 -> depicts_guidance_component -> component:sign:W20-3",
+              "TA-19 -> depicts_guidance_component -> component:sign:R5-1",
+              "TA-19 -> depicts_guidance_component -> component:sign:R11-2",
+              "TA-19 -> depicts_guidance_component -> component:sign:M4-9L",
+              "TA-19 -> depicts_guidance_component -> component:sign:R3-2",
+              "TA-19 -> depicts_guidance_component -> component:sign:M4-8A",
+              "TA-19 -> depicts_guidance_component -> component:sign:W20-1",
+              "TA-19 -> depicts_guidance_component -> component:sign:M4-10R",
+              "TA-19 -> depicts_guidance_component -> component:sign:M4-9R"
+            ]
+          ]
+        },
+        {
+          "source_node_id": "src_17d12869af1669b6d7f7",
+          "source_unit_code": "SEC-6H.02",
+          "paragraph": "07",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Utility, maintenance, and minor construction signing and TTC should be coordinated with appropriate authorities so that road users are not confused or misled by the additional TTC devices.",
+          "graph_paths": [
+            [
+              "TA-19 -> depicts_guidance_component -> component:sign:R3-1",
+              "TA-19 -> depicts_guidance_component -> component:sign:R6-1R",
+              "TA-19 -> depicts_guidance_component -> component:sign:W20-2",
+              "TA-19 -> depicts_guidance_component -> component:sign:R11-4",
+              "TA-19 -> depicts_guidance_component -> component:sign:W20-3",
+              "TA-19 -> depicts_guidance_component -> component:sign:R5-1",
+              "TA-19 -> depicts_guidance_component -> component:sign:R11-2",
+              "TA-19 -> depicts_guidance_component -> component:sign:M4-9L",
+              "TA-19 -> depicts_guidance_component -> component:sign:R3-2",
+              "TA-19 -> depicts_guidance_component -> component:sign:M4-8A",
+              "TA-19 -> depicts_guidance_component -> component:sign:W20-1",
+              "TA-19 -> depicts_guidance_component -> component:sign:M4-10R",
+              "TA-19 -> depicts_guidance_component -> component:sign:M4-9R"
+            ]
+          ]
+        },
+        {
+          "source_node_id": "src_eafd02c3dbce3f8109a1",
+          "source_unit_code": "SEC-6H.02",
+          "paragraph": "02",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+          "graph_paths": [
+            [
+              "TA-19 -> depicts_guidance_component -> component:sign:R3-1",
+              "TA-19 -> depicts_guidance_component -> component:sign:R6-1R",
+              "TA-19 -> depicts_guidance_component -> component:sign:W20-2",
+              "TA-19 -> depicts_guidance_component -> component:sign:R11-4",
+              "TA-19 -> depicts_guidance_component -> component:sign:W20-3",
+              "TA-19 -> depicts_guidance_component -> component:sign:R5-1",
+              "TA-19 -> depicts_guidance_component -> component:sign:R11-2",
+              "TA-19 -> depicts_guidance_component -> component:sign:M4-9L",
+              "TA-19 -> depicts_guidance_component -> component:sign:R3-2",
+              "TA-19 -> depicts_guidance_component -> component:sign:M4-8A",
+              "TA-19 -> depicts_guidance_component -> component:sign:W20-1",
+              "TA-19 -> depicts_guidance_component -> component:sign:M4-10R",
+              "TA-19 -> depicts_guidance_component -> component:sign:M4-9R"
+            ]
+          ]
+        },
+        {
+          "source_node_id": "src_6ee70d9c1617acd549c4",
+          "source_unit_code": "TABLE-6B-1",
+          "paragraph": "table",
+          "modality": "guidance",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "high",
+          "source_excerpt": "Table 6B-1. Recommended Advance Warning Sign Minimum Spacing. Urban (low speed): 100 feet, 100 feet, 100 feet. Urban (high speed): 350 feet, 350 feet, 350 feet. Rural: 500 feet, 500 feet, 500 feet. Expressway / Freeway: 1,000 feet, 1,500 feet, 2,640 feet. The column headings A, B, and C are the dimensions shown in Figures 6P-1 through 6P-54.",
+          "graph_paths": [
+            [
+              "TA-19 -> depicts_guidance_component -> component:sign_spacing_dimensions:A-B",
+              "TA-19 -> references_source_unit -> TABLE-6B-1"
+            ]
+          ]
+        },
+        {
+          "source_node_id": "src_68cb61fa49e358701720",
+          "source_unit_code": "SEC-6H.04",
+          "paragraph": "01",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The DETOUR (W20-2) sign (see Figure 6H-1) should be used in advance of a road user detour over a different roadway or route.",
+          "graph_paths": [
+            [
+              "TA-19 -> depicts_guidance_component -> component:sign:W20-2"
+            ]
+          ]
+        },
+        {
+          "source_node_id": "src_f542d01fac88c3bcd1a5",
+          "source_unit_code": "SEC-6H.05",
+          "paragraph": "01",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The ROAD (STREET) CLOSED (W20-3) sign (see Figure 6H-1) should be used in advance of the point where a highway is closed to all road users, or to all but local road users.",
+          "graph_paths": [
+            [
+              "TA-19 -> depicts_guidance_component -> component:sign:W20-3"
+            ]
+          ]
+        },
+        {
+          "source_node_id": "src_954e7e72c1c215bc571b",
+          "source_unit_code": "SEC-6H.03",
+          "paragraph": "02",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Where traffic can enter a TTC zone from a crossroad or a major (high-volume) driveway, an advance warning sign should be used on the crossroad or major driveway.",
+          "graph_paths": [
+            [
+              "TA-19 -> depicts_guidance_component -> component:sign:W20-1"
+            ]
+          ]
+        },
+        {
+          "source_node_id": "src_26bd048211769b2b09e8",
+          "source_unit_code": "SEC-6H.03",
+          "paragraph": "01",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1a_ta_core"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions, should be located in advance of the work space or any detour, on the road where the work is taking place.",
+          "graph_paths": [
+            [
+              "TA-19 -> depicts_guidance_component -> component:sign:W20-1"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "step": 2,
+    "phase": "requirement_discovery",
+    "tool": "load_scene_condition_graph",
+    "arguments": {},
+    "result": {
+      "layer": "stage1b_scene_condition",
+      "triggers": [],
+      "activated_component_ids": [],
+      "candidate_count": 0,
+      "candidates": []
+    }
+  },
+  {
+    "step": 3,
+    "phase": "requirement_discovery",
+    "tool": "load_domain_gap_candidates",
+    "arguments": {
+      "domain": "lane_closure_layout"
+    },
+    "result": {
+      "layer": "stage1c_graph_gap_audit",
+      "domain": "lane_closure_layout",
+      "query": "temporary traffic control lane closure layout and traffic path",
+      "covered_node_count": 3,
+      "uncovered_corpus_count": 325,
+      "uncovered_candidate_count": 14,
+      "ranking_policy": {
+        "type": "bm25_top_k",
+        "relative_to_domain_top_score": 0.5,
+        "top_score": 17.477831,
+        "minimum_eligible_score": 8.738915,
+        "zero_score_nodes_excluded": true,
+        "candidate_count_cap": 18
+      },
+      "internal_page_count": 2,
+      "has_more": false,
+      "continuation_token": null,
+      "items": [
+        {
+          "source_node_id": "src_14995069759acceb0640",
+          "source_unit_code": "TA-12",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals shall be installed and operated in accordance with the provisions of Part 4. Temporary traffic control signals shall meet the physical display and operational requirements of conventional traffic control signals.",
+          "graph_paths": [
+            [
+              "uncovered lane_closure_layout provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 17.477831
+        },
+        {
+          "source_node_id": "src_6f7e4baadad0f4428bd8",
+          "source_unit_code": "TA-14",
+          "paragraph": "08",
+          "modality": "shall",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The temporary traffic control signals shall control both the highway and the haul road and shall meet the physical display and operational requirements of conventional traffic control signals as described in Part 4. Traffic control signal timing shall be established by authorized officials.",
+          "graph_paths": [
+            [
+              "uncovered lane_closure_layout provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 16.841105
+        },
+        {
+          "source_node_id": "src_0adab6a573f859041c12",
+          "source_unit_code": "SEC-6N.11",
+          "paragraph": "14",
+          "modality": "shall",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When a directional roadway is closed, inapplicable WRONG WAY signs and markings, and other existing traffic control devices at intersections within the temporary two-lane, two-way operations section shall be covered, removed, or obliterated.",
+          "graph_paths": [
+            [
+              "uncovered lane_closure_layout provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 16.092311
+        },
+        {
+          "source_node_id": "src_72c34a3d153fa4d560d4",
+          "source_unit_code": "TA-12",
+          "paragraph": "02",
+          "modality": "shall",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signal timing shall be established by authorized officials. Durations of red clearance intervals shall be adequate to clear the one-lane section of conflicting vehicles.",
+          "graph_paths": [
+            [
+              "uncovered lane_closure_layout provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 15.853642
+        },
+        {
+          "source_node_id": "src_666c8016f45a380aceaf",
+          "source_unit_code": "TA-12",
+          "paragraph": "04",
+          "modality": "shall",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Stop lines shall be installed with temporary traffic control signals for long-term closures. Existing conflicting pavement markings and raised pavement marker reflectors between the activity area and each stop line shall be removed. After the temporary traffic control signal is removed, the stop lines and other temporary pavement markings shall be removed and the permanent pavement markings restored.",
+          "graph_paths": [
+            [
+              "uncovered lane_closure_layout provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 14.630167
+        },
+        {
+          "source_node_id": "src_410959bb3c2e1280fb48",
+          "source_unit_code": "TA-14",
+          "paragraph": "09",
+          "modality": "shall",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Stop lines shall be used on existing highways with temporary traffic control signals.",
+          "graph_paths": [
+            [
+              "uncovered lane_closure_layout provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 13.784546
+        },
+        {
+          "source_node_id": "src_8be63aa89b8e89aca24d",
+          "source_unit_code": "TA-45",
+          "paragraph": "03",
+          "modality": "should",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Where the lane to be opened and closed is an exterior lane (adjacent to the edge of the traveled way or the work space), the lane closure should begin by closing the lane with channelizing devices placed along a merging taper using the same information employed for a stationary lane closure. The lane closure should then be extended with the movable-barrier transfer vehicle moving with vehicular traffic. When opening ",
+          "graph_paths": [
+            [
+              "uncovered lane_closure_layout provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 13.772627
+        },
+        {
+          "source_node_id": "src_6b5400eaf346050a079a",
+          "source_unit_code": "TA-12",
+          "paragraph": "03",
+          "modality": "shall",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When the temporary traffic control signal is changed to the flashing mode, either manually or automatically, red signal indications shall be flashed to both approaches.",
+          "graph_paths": [
+            [
+              "uncovered lane_closure_layout provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 13.127687
+        },
+        {
+          "source_node_id": "src_d1e33482027a6c1dcb50",
+          "source_unit_code": "TA-6",
+          "paragraph": "02",
+          "modality": "should",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The treatment shown should be used on a minor road having low speeds. For higher-speed traffic conditions, a lane closure should be used.",
+          "graph_paths": [
+            [
+              "uncovered lane_closure_layout provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 12.187425
+        },
+        {
+          "source_node_id": "src_de01e5e72d93128cdf2b",
+          "source_unit_code": "TA-31",
+          "paragraph": "03",
+          "modality": "should",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "For high speeds, a LEFT LANE CLOSED XX FT sign should be added for vehicular traffic approaching the lane closure, as shown in MUTCD 11th Edition Page 921",
+          "graph_paths": [
+            [
+              "uncovered lane_closure_layout provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 12.033531
+        },
+        {
+          "source_node_id": "src_dc75a7bd13129d651a33",
+          "source_unit_code": "TA-14",
+          "paragraph": "03",
+          "modality": "shall",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The traffic control method selected shall be used in both directions. Flagging Method",
+          "graph_paths": [
+            [
+              "uncovered lane_closure_layout provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 11.853243
+        },
+        {
+          "source_node_id": "src_143733509a7193cd4ffd",
+          "source_unit_code": "TA-8",
+          "paragraph": "01",
+          "modality": "should",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Regulatory traffic control devices should be modified as needed for the duration of the detour.",
+          "graph_paths": [
+            [
+              "uncovered lane_closure_layout provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 11.713868
+        },
+        {
+          "source_node_id": "src_fec790cc6dbe5442107b",
+          "source_unit_code": "TA-44",
+          "paragraph": "05",
+          "modality": "should",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The mainline merging taper with the arrow board at its starting point should be located sufficiently in advance so that the arrow board is not confusing to drivers on the entrance ramp, and so that the mainline merging vehicular traffic from the lane closure has the opportunity to stabilize before encountering the vehicular traffic merging from the ramp.",
+          "graph_paths": [
+            [
+              "uncovered lane_closure_layout provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 11.230153
+        },
+        {
+          "source_node_id": "src_fa967342d5a408de5553",
+          "source_unit_code": "TA-44",
+          "paragraph": "03",
+          "modality": "should",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When used, the YIELD or STOP sign should be located so that ramp vehicular traffic has adequate sight distance of oncoming mainline vehicular traffic to select an acceptable gap in the mainline vehicular traffic flow, but should not be located so far forward that motorists will be encouraged to stop in the path of the mainline traffic. Also, a longer acceleration lane should be provided beyond the sign to reduce the ",
+          "graph_paths": [
+            [
+              "uncovered lane_closure_layout provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 10.303229
+        }
+      ]
+    }
+  },
+  {
+    "step": 4,
+    "phase": "requirement_discovery",
+    "tool": "load_domain_gap_candidates",
+    "arguments": {
+      "domain": "advance_warning_sign_system"
+    },
+    "result": {
+      "layer": "stage1c_graph_gap_audit",
+      "domain": "advance_warning_sign_system",
+      "query": "temporary traffic control advance warning sign system",
+      "covered_node_count": 24,
+      "uncovered_corpus_count": 393,
+      "uncovered_candidate_count": 15,
+      "ranking_policy": {
+        "type": "bm25_top_k",
+        "relative_to_domain_top_score": 0.5,
+        "top_score": 13.174686,
+        "minimum_eligible_score": 6.587343,
+        "zero_score_nodes_excluded": true,
+        "candidate_count_cap": 18
+      },
+      "internal_page_count": 2,
+      "has_more": false,
+      "continuation_token": null,
+      "items": [
+        {
+          "source_node_id": "src_14995069759acceb0640",
+          "source_unit_code": "TA-12",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals shall be installed and operated in accordance with the provisions of Part 4. Temporary traffic control signals shall meet the physical display and operational requirements of conventional traffic control signals.",
+          "graph_paths": [
+            [
+              "uncovered advance_warning_sign_system provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 13.174686
+        },
+        {
+          "source_node_id": "src_6f7e4baadad0f4428bd8",
+          "source_unit_code": "TA-14",
+          "paragraph": "08",
+          "modality": "shall",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The temporary traffic control signals shall control both the highway and the haul road and shall meet the physical display and operational requirements of conventional traffic control signals as described in Part 4. Traffic control signal timing shall be established by authorized officials.",
+          "graph_paths": [
+            [
+              "uncovered advance_warning_sign_system provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 12.810332
+        },
+        {
+          "source_node_id": "src_410959bb3c2e1280fb48",
+          "source_unit_code": "TA-14",
+          "paragraph": "09",
+          "modality": "shall",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Stop lines shall be used on existing highways with temporary traffic control signals.",
+          "graph_paths": [
+            [
+              "uncovered advance_warning_sign_system provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 11.51596
+        },
+        {
+          "source_node_id": "src_9c319c52e57dbf9c8e21",
+          "source_unit_code": "TA-3",
+          "paragraph": "08",
+          "modality": "shall",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When paved shoulders having a width of 8 feet or more are closed, at least one advance warning sign shall be used. In addition, channelizing devices shall be used to close the shoulder in advance to delineate the beginning of the work space and to direct vehicular traffic to remain within the traveled way. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 865",
+          "graph_paths": [
+            [
+              "uncovered advance_warning_sign_system provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 11.512701
+        },
+        {
+          "source_node_id": "src_72c34a3d153fa4d560d4",
+          "source_unit_code": "TA-12",
+          "paragraph": "02",
+          "modality": "shall",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signal timing shall be established by authorized officials. Durations of red clearance intervals shall be adequate to clear the one-lane section of conflicting vehicles.",
+          "graph_paths": [
+            [
+              "uncovered advance_warning_sign_system provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 11.502086
+        },
+        {
+          "source_node_id": "src_6b5400eaf346050a079a",
+          "source_unit_code": "TA-12",
+          "paragraph": "03",
+          "modality": "shall",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When the temporary traffic control signal is changed to the flashing mode, either manually or automatically, red signal indications shall be flashed to both approaches.",
+          "graph_paths": [
+            [
+              "uncovered advance_warning_sign_system provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 11.264186
+        },
+        {
+          "source_node_id": "src_666c8016f45a380aceaf",
+          "source_unit_code": "TA-12",
+          "paragraph": "04",
+          "modality": "shall",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Stop lines shall be installed with temporary traffic control signals for long-term closures. Existing conflicting pavement markings and raised pavement marker reflectors between the activity area and each stop line shall be removed. After the temporary traffic control signal is removed, the stop lines and other temporary pavement markings shall be removed and the permanent pavement markings restored.",
+          "graph_paths": [
+            [
+              "uncovered advance_warning_sign_system provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 11.149869
+        },
+        {
+          "source_node_id": "src_4e0d57619b304a1a9c4c",
+          "source_unit_code": "SEC-6H.15",
+          "paragraph": "01",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The Flagger (W20-7) sign (see Figure 6H-1) should be used in advance of any point where a flagger is stationed to control road users.",
+          "graph_paths": [
+            [
+              "uncovered advance_warning_sign_system provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 10.284333
+        },
+        {
+          "source_node_id": "src_ff3cfb3dd7dc09151523",
+          "source_unit_code": "SEC-6H.01",
+          "paragraph": "11",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Where any part of the roadway is obstructed or closed by work activities or incidents, advance warning signs should be installed to alert road users well in advance of these obstructions or restrictions.",
+          "graph_paths": [
+            [
+              "uncovered advance_warning_sign_system provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 9.957045
+        },
+        {
+          "source_node_id": "src_9d54d1fe469f82787b34",
+          "source_unit_code": "TA-1",
+          "paragraph": "01",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "If the work space is in the median of a divided highway, an advance warning sign should also be placed on the left-hand side of the directional roadway.",
+          "graph_paths": [
+            [
+              "uncovered advance_warning_sign_system provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 9.855582
+        },
+        {
+          "source_node_id": "src_60c4946803fcc6415d3b",
+          "source_unit_code": "TA-27",
+          "paragraph": "08",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "ONE LANE ROAD AHEAD signs should also be used to provide adequate advance warning.",
+          "graph_paths": [
+            [
+              "uncovered advance_warning_sign_system provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 9.665939
+        },
+        {
+          "source_node_id": "src_769f065312c8ecd7eccd",
+          "source_unit_code": "TA-4",
+          "paragraph": "01",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "In those situations where multiple work locations within a limited distance make it practicable to place stationary signs, the distance between the advance warning sign and the work should not exceed 5 miles.",
+          "graph_paths": [
+            [
+              "uncovered advance_warning_sign_system provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 9.376907
+        },
+        {
+          "source_node_id": "src_4ea4e635511a44bbb150",
+          "source_unit_code": "TA-44",
+          "paragraph": "06",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "If the ramp curves sharply to the right, warning signs with advisory speeds located in advance of the entrance terminal should be placed in pairs (one on each side of the ramp).",
+          "graph_paths": [
+            [
+              "uncovered advance_warning_sign_system provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 9.282071
+        },
+        {
+          "source_node_id": "src_9da08448efd96ba6ade8",
+          "source_unit_code": "SEC-6H.01",
+          "paragraph": "04",
+          "modality": "shall",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Except as provided in Paragraph 5 of this Section, TTC warning signs shall be diamond-shaped with a black legend and border on an orange background, except for the Grade Crossing Advance Warning (W10-1) sign, which shall have a black legend and border on a yellow background.",
+          "graph_paths": [
+            [
+              "uncovered advance_warning_sign_system provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 9.037268
+        },
+        {
+          "source_node_id": "src_6b67417e6efa9133f736",
+          "source_unit_code": "TA-12",
+          "paragraph": "07",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Adjustments in the location of the advance warning signs should be made as needed to accommodate the horizontal or vertical alignment of the roadway, recognizing that the distances shown for sign spacings are minimums. Adjustments in the height of the signal heads should be made as needed to conform to the vertical alignment.",
+          "graph_paths": [
+            [
+              "uncovered advance_warning_sign_system provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 8.876376
+        }
+      ]
+    }
+  },
+  {
+    "step": 5,
+    "phase": "requirement_discovery",
+    "tool": "load_domain_gap_candidates",
+    "arguments": {
+      "domain": "channelization_system"
+    },
+    "result": {
+      "layer": "stage1c_graph_gap_audit",
+      "domain": "channelization_system",
+      "query": "temporary traffic control channelization system",
+      "covered_node_count": 0,
+      "uncovered_corpus_count": 115,
+      "uncovered_candidate_count": 7,
+      "ranking_policy": {
+        "type": "bm25_top_k",
+        "relative_to_domain_top_score": 0.5,
+        "top_score": 11.63432,
+        "minimum_eligible_score": 5.81716,
+        "zero_score_nodes_excluded": true,
+        "candidate_count_cap": 18
+      },
+      "internal_page_count": 2,
+      "has_more": false,
+      "continuation_token": null,
+      "items": [
+        {
+          "source_node_id": "src_143733509a7193cd4ffd",
+          "source_unit_code": "TA-8",
+          "paragraph": "01",
+          "modality": "should",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Regulatory traffic control devices should be modified as needed for the duration of the detour.",
+          "graph_paths": [
+            [
+              "uncovered channelization_system provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 9.01938
+        },
+        {
+          "source_node_id": "src_05ce54d97e292ab88f8f",
+          "source_unit_code": "SEC-6K.12",
+          "paragraph": "02",
+          "modality": "should",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Other channelizing devices should comply with the general size, color, stripe pattern, retroreflection, and placement characteristics established for the devices described in this Chapter. December 2023 Sect. 6K.11 to 6K.12 Page 824 MUTCD 11th Edition CHAPTER 6L. OTHER TTC ZONE TRAFFIC CONTROL DEVICES",
+          "graph_paths": [
+            [
+              "uncovered channelization_system provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 6.408085
+        },
+        {
+          "source_node_id": "src_89129c984015e42cbe0e",
+          "source_unit_code": "TA-32",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Pavement markings no longer applicable shall be removed or obliterated as soon as practical. Except for intermediate-term and short-term situations, temporary markings shall be provided to clearly delineate the temporary travel path. For short-term and intermediate-term situations where it is not feasible to remove and restore pavement markings, channelization shall be made dominant by using a very close device spaci",
+          "graph_paths": [
+            [
+              "uncovered channelization_system provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 6.378292
+        },
+        {
+          "source_node_id": "src_350222a9174d2555ca49",
+          "source_unit_code": "TA-34",
+          "paragraph": "08",
+          "modality": "shall",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "If a movable barrier is used, the temporary white edge line shown in the typical application shall not be used. During the period when the right-hand lane is opened, the sign legends and the channelization shall be changed to indicate that only the shoulder is closed, as illustrated in MUTCD 11th Edition Page 927",
+          "graph_paths": [
+            [
+              "uncovered channelization_system provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 6.19054
+        },
+        {
+          "source_node_id": "src_2afdeb6d23fb7be10144",
+          "source_unit_code": "SEC-6K.01",
+          "paragraph": "04",
+          "modality": "should",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The spacing between cones, tubular markers, vertical panels, drums, and barricades should not exceed a distance in feet equal to 1 times the speed limit in mph when used for taper channelization, and should not exceed a distance in feet equal to 2 times the speed limit in mph when used for tangent channelization.",
+          "graph_paths": [
+            [
+              "uncovered channelization_system provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 5.569203
+        },
+        {
+          "source_node_id": "src_58ceb7312c181704600b",
+          "source_unit_code": "SEC-6K.11",
+          "paragraph": "02",
+          "modality": "shall",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary lane separators shall consist of a longitudinal base component with a maximum height of 4 inches and a maximum width of 1 foot. The longitudinal base shall have sloping sides in order to facilitate crossover by emergency vehicles. One or more types of channelizing devices, such as tubular markers, vertical panels, or a Narrow Two-Way Traffic (W6-4) sign (see Section 6H.17) mounted on flexible supports, shal",
+          "graph_paths": [
+            [
+              "uncovered channelization_system provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 3.849433
+        },
+        {
+          "source_node_id": "src_608804d2b34f811a3a6c",
+          "source_unit_code": "SEC-6K.06",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Drums (see Figure 6K-1) used for road user warning or channelization shall be constructed of lightweight, deformable materials. They shall be a minimum of 36 inches in height and have at least an 18-inch minimum width regardless of orientation. Metal drums shall not be used. The markings on drums shall be horizontal, circumferential, alternating orange and white retroreflective stripes 4 to 6 inches wide. Each drum s",
+          "graph_paths": [
+            [
+              "uncovered channelization_system provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 3.460018
+        }
+      ]
+    }
+  },
+  {
+    "step": 6,
+    "phase": "requirement_discovery",
+    "tool": "load_domain_gap_candidates",
+    "arguments": {
+      "domain": "transition_and_taper_geometry"
+    },
+    "result": {
+      "layer": "stage1c_graph_gap_audit",
+      "domain": "transition_and_taper_geometry",
+      "query": "temporary traffic control transition and taper geometry",
+      "covered_node_count": 0,
+      "uncovered_corpus_count": 77,
+      "uncovered_candidate_count": 18,
+      "ranking_policy": {
+        "type": "bm25_top_k",
+        "relative_to_domain_top_score": 0.5,
+        "top_score": 10.226378,
+        "minimum_eligible_score": 5.113189,
+        "zero_score_nodes_excluded": true,
+        "candidate_count_cap": 18
+      },
+      "internal_page_count": 2,
+      "has_more": false,
+      "continuation_token": null,
+      "items": [
+        {
+          "source_node_id": "src_efd418222a3f416f1e38",
+          "source_unit_code": "TABLE-6B-3",
+          "paragraph": "table",
+          "modality": "guidance",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Table 6B-3. Taper Length Criteria for Temporary Traffic Control Zones. Merging Taper: at least L. Shifting Taper: at least 0.5 L. Shoulder Taper: at least 0.33 L. One-Lane, Two-Way Traffic Taper: 50 feet minimum, 100 feet maximum. Downstream Taper: 50 feet minimum, 100 feet maximum.",
+          "graph_paths": [
+            [
+              "uncovered transition_and_taper_geometry provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 10.226378
+        },
+        {
+          "source_node_id": "src_83ccdc206f625f6fe6d3",
+          "source_unit_code": "SEC-6B.01",
+          "paragraph": "09",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Traffic control planning should be completed for all highway construction, utility work, maintenance operations, and incident management including minor maintenance and utility projects prior to occupying the TTC zone. Planning for all road users should be included in the process.",
+          "graph_paths": [
+            [
+              "uncovered transition_and_taper_geometry provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 7.944928
+        },
+        {
+          "source_node_id": "src_9f5a67319eb076e99a68",
+          "source_unit_code": "SEC-6B.01",
+          "paragraph": "08",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Coordination should be made between adjacent or overlapping projects to check that duplicate signing is not used and to check compatibility of traffic control between adjacent or overlapping projects.",
+          "graph_paths": [
+            [
+              "uncovered transition_and_taper_geometry provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 7.455255
+        },
+        {
+          "source_node_id": "src_586d1639348f00b7b529",
+          "source_unit_code": "SEC-6B.05",
+          "paragraph": "02",
+          "modality": "shall",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Except for mobile operations, when redirection of the road users’ normal path is required, road users shall be directed from the normal path to a new path with appropriate channelizing devices, traffic control devices, and/or TTC methods.",
+          "graph_paths": [
+            [
+              "uncovered transition_and_taper_geometry provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 6.688268
+        },
+        {
+          "source_node_id": "src_6489282d91418b6be68b",
+          "source_unit_code": "TA-39",
+          "paragraph": "07",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When channelizing devices have the potential of leading vehicular traffic out of the intended traffic space, the channelizing devices should be extended a distance in feet of 2 times the speed limit in mph beyond the downstream end of the transition area as depicted.",
+          "graph_paths": [
+            [
+              "uncovered transition_and_taper_geometry provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 5.996318
+        },
+        {
+          "source_node_id": "src_4f2b68c743a6b9bd3723",
+          "source_unit_code": "SEC-6B.08",
+          "paragraph": "06",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "A merging taper should be long enough to enable merging drivers to have adequate advance warning and sufficient length to adjust their speeds and merge into an adjacent lane before the downstream end of the transition.",
+          "graph_paths": [
+            [
+              "uncovered transition_and_taper_geometry provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 5.158508
+        },
+        {
+          "source_node_id": "src_d7eac71951a52dd390f9",
+          "source_unit_code": "TA-34",
+          "paragraph": "figure:dimension:L",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-34. Lane Closure with a Temporary Traffic Barrier (TA-34) G20-2 W20-1 (optional) (optional) 1,500 ft Temporary white edge line Median Crash cushion Buffer space (optional) Shoulder taper L A W4-2R G20-2 (optional) B Notes: See Table 6P-2 for the meanings of the symbols W20-5R used in this figure. C See Table 6B-1 for the meanings of the letter codes used in this figure. See Table 6B-4 for formulas for calcu",
+          "graph_paths": [
+            [
+              "uncovered transition_and_taper_geometry provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 4.997231
+        },
+        {
+          "source_node_id": "src_df678eb91cd703ad8e1e",
+          "source_unit_code": "TA-10",
+          "paragraph": "09",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When a grade crossing exists within or upstream of the transition area and it is anticipated that queues resulting from the lane closure might extend through the grade crossing, the TTC zone should be extended so that the transition area precedes the grade crossing.",
+          "graph_paths": [
+            [
+              "uncovered transition_and_taper_geometry provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 4.907715
+        },
+        {
+          "source_node_id": "src_ba6a156672fff29ce0f4",
+          "source_unit_code": "TA-51",
+          "paragraph": "figure:dimension:L",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-51. Paved Shoulder Closure with a Bicycle Diversion onto a Temporary Path (TA-51) G20-2 (optional) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in this figure. See Table 6B-4 for formulas for calculating taper length (L). Speed(s) shall be motor vehicle speeds. W11-1 M6-2PL Temporary path 1/3 L W11-1 A M6-2PR Based on spe",
+          "graph_paths": [
+            [
+              "uncovered transition_and_taper_geometry provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 4.719217
+        },
+        {
+          "source_node_id": "src_e18d04e92f4cc5a3516b",
+          "source_unit_code": "TA-45",
+          "paragraph": "02",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "For the reversible lane situation depicted, the ends of the movable barrier should terminate in a protected area or a crash cushion should be provided. During Phase A, the transfer vehicle should be parked behind the downstream end of the movable barrier for southbound traffic as shown in the typical application on the left. During Phase B, the transfer vehicle should be parked between the downstream ends of the mova",
+          "graph_paths": [
+            [
+              "uncovered transition_and_taper_geometry provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 4.371176
+        },
+        {
+          "source_node_id": "src_931f161f3928a6d546d8",
+          "source_unit_code": "TA-45",
+          "paragraph": "figure:dimension:L",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-45. Temporary Reversible Lane Using Movable Barriers (TA-45) Phase A Transition from Phase A to Phase B W20-1 W20-1 C C W20-5aL W20-5aL B B W4-2L W4-2L A A L L 2L G20-2 2L G20-2 (optional) (optional) W4-2L Parking location W4-2L Parking location L for transfer vehicle L for transfer vehicle during Phase B during Phase B Buffer space Movable Buffer space Movable (optional) attenuator (optional) attenuator Mo",
+          "graph_paths": [
+            [
+              "uncovered transition_and_taper_geometry provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 4.287416
+        },
+        {
+          "source_node_id": "src_a99883517d787650b9d7",
+          "source_unit_code": "TA-34",
+          "paragraph": "02",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "For long-term lane closures on facilities with permanent edge lines, a temporary edge line should be installed from the upstream end of the merging taper to the downstream end of the downstream taper, and conflicting pavement markings should be removed.",
+          "graph_paths": [
+            [
+              "uncovered transition_and_taper_geometry provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 4.223616
+        },
+        {
+          "source_node_id": "src_df86d073d47a39cd5ff9",
+          "source_unit_code": "TA-42",
+          "paragraph": "figure:dimension:L",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-42. Work in the Vicinity of an Exit Ramp (TA-42) Temporary yellow edge line E5-1 L Temporary yellow L edge line L 100 ft E5-1 100 ft Temporary white edge lines 1,000 ft 1,000 ft E5-2 Temporary white L (optional) L edge lines A A W4-2R W4-2R Shoulder taper B B W20-5R C C W20-5R W20-1 Notes: See Table 6P-2 for the W20-1 meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter",
+          "graph_paths": [
+            [
+              "uncovered transition_and_taper_geometry provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 4.157875
+        },
+        {
+          "source_node_id": "src_530c42aa760240bee53e",
+          "source_unit_code": "TA-53",
+          "paragraph": "11",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Care should be exercised when establishing the limits of the TTC zone to ensure adequate sight distance in advance of the transition.",
+          "graph_paths": [
+            [
+              "uncovered transition_and_taper_geometry provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 4.083718
+        },
+        {
+          "source_node_id": "src_b0682c9695e517de08de",
+          "source_unit_code": "TA-54",
+          "paragraph": "02",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Care should be exercised when establishing the limits of the TTC zone to ensure adequate sight distance in advance of the transition.",
+          "graph_paths": [
+            [
+              "uncovered transition_and_taper_geometry provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 4.083718
+        },
+        {
+          "source_node_id": "src_9d99124851a9e27ef289",
+          "source_unit_code": "TA-36",
+          "paragraph": "figure:dimension:L",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-36. Lane Shift on a Freeway (TA-36) G20-2 (optional) Temporary solid Temporary yellow white lane lines edge line (see Notes 7 and 8) 1/2 L W1-4cL (see Notes 7 and 8) W1-4cL W13-1P (optional) Crash cushion W13-1P (optional) 1/2 L Lighting Temporary white (optional) edge line Lighting (optional) 1/3 L (see Notes 7 and 8) A W1-4cR W13-1P (optional) Notes: See Table 6P-2 for the meanings of the symbols B used i",
+          "graph_paths": [
+            [
+              "uncovered transition_and_taper_geometry provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 4.058865
+        },
+        {
+          "source_node_id": "src_c9a23d4bf612da8918b2",
+          "source_unit_code": "TA-39",
+          "paragraph": "figure:dimension:L",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-39. Median Crossover on a Freeway (TA-39) Shoulder taper G20-2 (optional) Temporary yellow edge line L Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of W1-6R the letter codes used in this figure. Crash cushion (optional) See Table 6B-4 for formulas for calculating taper length (L). R5-1 W1-4R R4-7 W13-1P (optional) W6-3 W6-3 R4-1 W1-4L R11-2 Tempo",
+          "graph_paths": [
+            [
+              "uncovered transition_and_taper_geometry provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 4.051693
+        },
+        {
+          "source_node_id": "src_fa6818bec9428dd5668e",
+          "source_unit_code": "TA-38",
+          "paragraph": "figure:dimension:L",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-38. Interior Lane Closure on a Freeway (TA-38) Temporary white lane line G20-2 (optional) Buffer space (optional) 16 ft MIN. W12-1 Temporary solid double 1/2 L white lane line (optional) 2L R4-9 A W9-3L L A W4-2L Shoulder taper B Temporary yellow edge line W20-5L C Notes: See Table 6P-2 for the meanings of W20-1 the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in thi",
+          "graph_paths": [
+            [
+              "uncovered transition_and_taper_geometry provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 3.971729
+        }
+      ]
+    }
+  },
+  {
+    "step": 7,
+    "phase": "requirement_discovery",
+    "tool": "load_domain_gap_candidates",
+    "arguments": {
+      "domain": "conditional_active_devices"
+    },
+    "result": {
+      "layer": "stage1c_graph_gap_audit",
+      "domain": "conditional_active_devices",
+      "query": "temporary traffic control active devices",
+      "covered_node_count": 0,
+      "uncovered_corpus_count": 138,
+      "uncovered_candidate_count": 17,
+      "ranking_policy": {
+        "type": "bm25_top_k",
+        "relative_to_domain_top_score": 0.5,
+        "top_score": 15.347513,
+        "minimum_eligible_score": 7.673757,
+        "zero_score_nodes_excluded": true,
+        "candidate_count_cap": 18
+      },
+      "internal_page_count": 2,
+      "has_more": false,
+      "continuation_token": null,
+      "items": [
+        {
+          "source_node_id": "src_248f026b1e13960c2d5c",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "07",
+          "modality": "should",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals should only be used in situations where temporary traffic control signals are preferable to other means of traffic control, such as changing the work staging or work zone size to eliminate one-way vehicular traffic movements, using flaggers to control one-way or crossing movements, using STOP or YIELD signs, and using warning devices alone.",
+          "graph_paths": [
+            [
+              "uncovered conditional_active_devices provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 15.347513
+        },
+        {
+          "source_node_id": "src_dbb2acee17a8ace3a65f",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "04",
+          "modality": "should",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When temporary traffic control signals are used, conflict monitors typical of traditional traffic control signal operations should be used.",
+          "graph_paths": [
+            [
+              "uncovered conditional_active_devices provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 12.857887
+        },
+        {
+          "source_node_id": "src_ab41a5a2af6588f67419",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "11",
+          "modality": "should",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals not in use should be covered or removed.",
+          "graph_paths": [
+            [
+              "uncovered conditional_active_devices provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 12.682437
+        },
+        {
+          "source_node_id": "src_b54332b30b202e7f6ec8",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "12",
+          "modality": "should",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "If a temporary traffic control signal is located within ½ mile of an adjacent traffic control signal, consideration should be given to interconnected operation.",
+          "graph_paths": [
+            [
+              "uncovered conditional_active_devices provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 12.605578
+        },
+        {
+          "source_node_id": "src_7a66c4b9571cc402cc79",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "03",
+          "modality": "shall",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "A temporary traffic control signal that is used to control traffic through a one-lane, two-way section of roadway shall comply with the provisions of Section 4O.02.",
+          "graph_paths": [
+            [
+              "uncovered conditional_active_devices provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 12.207861
+        },
+        {
+          "source_node_id": "src_f2c69c93ced8d3551027",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "13",
+          "modality": "shall",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals shall not be located within 200 feet of a grade crossing unless the temporary traffic control signal is provided with preemption in accordance with Sections 4F.18, 4F.19, and 8D.09, or unless a uniformed officer or flagger is provided at the crossing to prevent vehicles from stopping within the crossing.",
+          "graph_paths": [
+            [
+              "uncovered conditional_active_devices provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 11.82929
+        },
+        {
+          "source_node_id": "src_83a6d30a5006e7746b9c",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals (see Section 4D.11) used to control road user movements through TTC zones and in other TTC situations shall comply with the applicable provisions of Part 4.",
+          "graph_paths": [
+            [
+              "uncovered conditional_active_devices provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 11.526757
+        },
+        {
+          "source_node_id": "src_78a3af790d8cd9d68b7d",
+          "source_unit_code": "SEC-6L.02",
+          "paragraph": "07",
+          "modality": "shall",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Because AFADs are not traffic control signals, they shall not be used as a substitute for or a replacement for a continuously operating temporary traffic control signal as described in Section 6L.01.",
+          "graph_paths": [
+            [
+              "uncovered conditional_active_devices provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 11.446272
+        },
+        {
+          "source_node_id": "src_6b5400eaf346050a079a",
+          "source_unit_code": "TA-12",
+          "paragraph": "03",
+          "modality": "shall",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When the temporary traffic control signal is changed to the flashing mode, either manually or automatically, red signal indications shall be flashed to both approaches.",
+          "graph_paths": [
+            [
+              "uncovered conditional_active_devices provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 11.281382
+        },
+        {
+          "source_node_id": "src_b0f7388dd49c20fdb547",
+          "source_unit_code": "SEC-6L.03",
+          "paragraph": "04",
+          "modality": "shall",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The AFAD’s STOP/SLOW sign shall be supplemented with active conspicuity devices by incorporating either: A. White or red flashing lights within the STOP face and white or yellow flashing lights within the SLOW face meeting the provisions contained in Section 6D.02; or B. A Stop Beacon (see Section 4S.05) mounted a maximum of 24 inches above the STOP face and a Warning Beacon (see Section 4S.03) mounted a maximum of 2",
+          "graph_paths": [
+            [
+              "uncovered conditional_active_devices provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 5.80804
+        },
+        {
+          "source_node_id": "src_82e04216a19aa54ad0e6",
+          "source_unit_code": "SEC-6L.05",
+          "paragraph": "32",
+          "modality": "should",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When portable changeable message signs are not being used to display TTC messages, they should be relocated such that they are outside of the clear zone or shielded behind a traffic barrier and turned away from traffic. If relocation or shielding is impracticable, they should be delineated with retroreflective TTC devices.",
+          "graph_paths": [
+            [
+              "uncovered conditional_active_devices provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 5.638196
+        },
+        {
+          "source_node_id": "src_c2227f417210b63aaa44",
+          "source_unit_code": "SEC-6L.03",
+          "paragraph": "17",
+          "modality": "shall",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "If STOP/SLOW AFADs are used to control traffic in a one-lane, two-way TTC zone, safeguards shall be incorporated to prevent the flagger(s) from simultaneously displaying the SLOW face at each end of the TTC zone. Additionally, the flagger(s) shall not display the AFAD’s SLOW face until all oncoming vehicles have cleared the one-lane portion of the TTC zone.",
+          "graph_paths": [
+            [
+              "uncovered conditional_active_devices provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 5.469773
+        },
+        {
+          "source_node_id": "src_f3b269267f955c699b65",
+          "source_unit_code": "SEC-6L.04",
+          "paragraph": "07",
+          "modality": "shall",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "If Red/Yellow Lens AFADs are used to control traffic in a one-lane, two-way TTC zone, safeguards shall be incorporated to prevent the flagger(s) from actuating a simultaneous display of a flashing CIRCULAR YELLOW lens at each end of the TTC zone. Additionally, the flagger shall not actuate the AFAD’s display of the flashing CIRCULAR YELLOW lens until all oncoming vehicles have cleared the one-lane portion of the TTC ",
+          "graph_paths": [
+            [
+              "uncovered conditional_active_devices provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 5.211055
+        },
+        {
+          "source_node_id": "src_311457ba60619e050ce2",
+          "source_unit_code": "SEC-6L.04",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "A Red/Yellow Lens Automated Flagger Assistance Device (AFAD) shall alternately display a steadily illuminated CIRCULAR RED lens and a flashing CIRCULAR YELLOW lens to control traffic without the need for a flagger in the immediate vicinity of the AFAD or on the roadway (see Figure 6L-2).",
+          "graph_paths": [
+            [
+              "uncovered conditional_active_devices provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 5.156865
+        },
+        {
+          "source_node_id": "src_beeb09b5a3786831a97d",
+          "source_unit_code": "SEC-6L.05",
+          "paragraph": "30",
+          "modality": "should",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Portable changeable message signs should be placed off the shoulder of the roadway and behind a traffic barrier, if practicable. Where a traffic barrier is not available to shield the portable changeable message sign, it should be placed off the shoulder and outside of the clear zone. If a portable changeable message sign has to be placed on the shoulder of the roadway or within the clear zone, it should be delineate",
+          "graph_paths": [
+            [
+              "uncovered conditional_active_devices provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 5.094293
+        },
+        {
+          "source_node_id": "src_7ef08d9dba4ab38ffa40",
+          "source_unit_code": "SEC-6L.06",
+          "paragraph": "03",
+          "modality": "should",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "If used, an arrow board should be used in combination with appropriate signs, channelizing devices, or other TTC devices.",
+          "graph_paths": [
+            [
+              "uncovered conditional_active_devices provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 4.448332
+        },
+        {
+          "source_node_id": "src_a537b6689086cb3039ca",
+          "source_unit_code": "SEC-6L.07",
+          "paragraph": "01",
+          "modality": "should",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Lighting devices should be provided in TTC zones based on engineering judgment.",
+          "graph_paths": [
+            [
+              "uncovered conditional_active_devices provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 4.421245
+        }
+      ]
+    }
+  },
+  {
+    "step": 8,
+    "phase": "requirement_discovery",
+    "tool": "load_domain_gap_candidates",
+    "arguments": {
+      "domain": "conditional_termination_area"
+    },
+    "result": {
+      "layer": "stage1c_graph_gap_audit",
+      "domain": "conditional_termination_area",
+      "query": "temporary traffic control termination area",
+      "covered_node_count": 0,
+      "uncovered_corpus_count": 28,
+      "uncovered_candidate_count": 16,
+      "ranking_policy": {
+        "type": "bm25_top_k",
+        "relative_to_domain_top_score": 0.5,
+        "top_score": 10.195662,
+        "minimum_eligible_score": 5.097831,
+        "zero_score_nodes_excluded": true,
+        "candidate_count_cap": 18
+      },
+      "internal_page_count": 2,
+      "has_more": false,
+      "continuation_token": null,
+      "items": [
+        {
+          "source_node_id": "src_9d9ef4bfdcbe9561ec13",
+          "source_unit_code": "SEC-2H.13",
+          "paragraph": "05",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Acknowledgment signs shall not be installed at any of the following locations: A. On the front or back of, adjacent to, or around any other traffic control device, including traffic signs, highway traffic signals, and changeable message signs; B. On the front or back of, adjacent to, or around the supports or structures of other traffic control devices, or bridge piers; or C. At key decision points where a road user’",
+          "graph_paths": [
+            [
+              "uncovered conditional_termination_area provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 10.195662
+        },
+        {
+          "source_node_id": "src_6489282d91418b6be68b",
+          "source_unit_code": "TA-39",
+          "paragraph": "07",
+          "modality": "should",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When channelizing devices have the potential of leading vehicular traffic out of the intended traffic space, the channelizing devices should be extended a distance in feet of 2 times the speed limit in mph beyond the downstream end of the transition area as depicted.",
+          "graph_paths": [
+            [
+              "uncovered conditional_termination_area provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 6.178489
+        },
+        {
+          "source_node_id": "src_e18d04e92f4cc5a3516b",
+          "source_unit_code": "TA-45",
+          "paragraph": "02",
+          "modality": "should",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "For the reversible lane situation depicted, the ends of the movable barrier should terminate in a protected area or a crash cushion should be provided. During Phase A, the transfer vehicle should be parked behind the downstream end of the movable barrier for southbound traffic as shown in the typical application on the left. During Phase B, the transfer vehicle should be parked between the downstream ends of the mova",
+          "graph_paths": [
+            [
+              "uncovered conditional_termination_area provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 5.568564
+        },
+        {
+          "source_node_id": "src_a99883517d787650b9d7",
+          "source_unit_code": "TA-34",
+          "paragraph": "02",
+          "modality": "should",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "For long-term lane closures on facilities with permanent edge lines, a temporary edge line should be installed from the upstream end of the merging taper to the downstream end of the downstream taper, and conflicting pavement markings should be removed.",
+          "graph_paths": [
+            [
+              "uncovered conditional_termination_area provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 4.846686
+        },
+        {
+          "source_node_id": "src_7ccc0f69bf2f2b05a4eb",
+          "source_unit_code": "SEC-4F.15",
+          "paragraph": "02",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "If a permissive left-turn movement from the opposing approach that is being terminated simultaneously with the termination of the permissive right-turn movement is not present, a right-turn GREEN ARROW signal indication shall be displayed immediately upon the termination of the flashing right-turn YELLOW ARROW signal indication. In this situation, a steady right-turn YELLOW ARROW signal indication shall not be displa",
+          "graph_paths": [
+            [
+              "uncovered conditional_termination_area provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 4.341356
+        },
+        {
+          "source_node_id": "src_7f25c559cf6ad7ba12e5",
+          "source_unit_code": "SEC-2D.11",
+          "paragraph": "12",
+          "modality": "should",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "State Route signs (see Figure 2D-4) should be rectangular and should be approximately the same size as the U.S. Route sign. State Route signs should also be similar to the U.S. Route sign by containing approximately the same size black numerals on a white area surrounded by a rectangular black background without a border, and should be devoid of complex graphics. The shape of the white area should be circular in the ",
+          "graph_paths": [
+            [
+              "uncovered conditional_termination_area provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 4.108037
+        },
+        {
+          "source_node_id": "src_342a10c365ea636fd391",
+          "source_unit_code": "SEC-2B.25",
+          "paragraph": "02",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "If an R2-10 sign or an R2-6P plaque is posted to provide notice of increased fines for traffic violations, an END HIGHER FINES ZONE (R2-11) sign (see Figure 2B-3) shall be installed at the downstream end of the zone to provide notice to road users of the termination of the increased fines zone.",
+          "graph_paths": [
+            [
+              "uncovered conditional_termination_area provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 2.962056
+        },
+        {
+          "source_node_id": "src_dc9e3a9b3d830d0ffd2e",
+          "source_unit_code": "SEC-4F.15",
+          "paragraph": "02",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Steady CIRCULAR RED on the left and steady or flashing right-turn RED ARROW on the right of the top position, steady right-turn YELLOW ARROW in the middle position, and right-turn Sect. 4F.15 December 2023 MUTCD 11th Edition Page 703 GREEN ARROW in the bottom position. Only one of the four indications shall be displayed at any given time. If the CIRCULAR RED signal indication is sometimes displayed when the signal fa",
+          "graph_paths": [
+            [
+              "uncovered conditional_termination_area provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 2.653418
+        },
+        {
+          "source_node_id": "src_80f3b849e6c5f486dccf",
+          "source_unit_code": "SEC-2G.19",
+          "paragraph": "09",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "R3-42 series and R3-45 series signs (see Figure 2G-18) shall be installed in accordance with the provisions of Section 2G.07 to indicate the termination of a priced managed lane or restriction. The R3-42, R3-42a, and R3-45 signs shall be used only where the managed lane and restriction end and traffic must merge into the general-purpose lanes. The R3-42b, R3-42c, and R3-45a signs shall be used only where the managed ",
+          "graph_paths": [
+            [
+              "uncovered conditional_termination_area provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 2.592758
+        },
+        {
+          "source_node_id": "src_b002153253b292e712c4",
+          "source_unit_code": "SEC-7B.06",
+          "paragraph": "02",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Where increased fines are imposed for traffic violations within a designated school zone: A. A BEGIN HIGHER FINES ZONE (R2‑10) sign (see Figure 7B‑1) or a FINES HIGHER (R2‑6P), FINES DOUBLE (R2‑6aP), or $XX FINE (R2‑6bP) plaque (see Figure 7B‑1) shall be installed as a supplement to the School Zone (S1‑1) sign to identify the beginning point of the higher fines zone (see Figures 7B‑4 and 7B‑5); and B. An END HIGHER F",
+          "graph_paths": [
+            [
+              "uncovered conditional_termination_area provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 2.549487
+        },
+        {
+          "source_node_id": "src_6fa395cc5dd66e8359bb",
+          "source_unit_code": "SEC-2G.07",
+          "paragraph": "05",
+          "modality": "should",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "On conventional roads, the distance at which Preferential Lane Ends signs are installed in advance of the termination of a preferential lane and/or restriction should be determined by engineering judgment.",
+          "graph_paths": [
+            [
+              "uncovered conditional_termination_area provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 1.010028
+        },
+        {
+          "source_node_id": "src_40e0a10dfd7f45fc10f3",
+          "source_unit_code": "SEC-2B.34",
+          "paragraph": "19",
+          "modality": "should",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Where more than one sign is used at the termination of a reversible lane, they should be at least 250 feet apart. Longer distances between signs are appropriate for streets with speeds over 35 mph, but the separation should not exceed 1,000 feet.",
+          "graph_paths": [
+            [
+              "uncovered conditional_termination_area provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 0.992165
+        },
+        {
+          "source_node_id": "src_1df8b2994f21841b31cc",
+          "source_unit_code": "SEC-2G.07",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "A post-mounted Preferential Lane Ends (R3-12b or R3-12h) sign (see Figure 2G-1) shall be installed at least ½ mile in advance of the termination of a preferential lane on freeways and expressways.",
+          "graph_paths": [
+            [
+              "uncovered conditional_termination_area provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 0.928121
+        },
+        {
+          "source_node_id": "src_f62b25e6e267f1c51c3f",
+          "source_unit_code": "SEC-4F.15",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "If a permissive left-turn movement from the opposing approach is being terminated simultaneously with the termination of the permissive right-turn movement, a steady right- turn YELLOW ARROW signal indication shall be displayed following the flashing right-turn YELLOW ARROW signal indication. To provide a red clearance interval, it shall be permitted to display a steady right-turn RED ARROW signal indication immediat",
+          "graph_paths": [
+            [
+              "uncovered conditional_termination_area provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 0.919968
+        },
+        {
+          "source_node_id": "src_3f9960385ca7489ec180",
+          "source_unit_code": "SEC-2B.21",
+          "paragraph": "22",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "If a W3-5c sign is posted to provide notice of a truck speed zone, an END TRUCK SPEED LIMIT (R2-14) sign (see Figure 2B-3) shall be installed at the downstream end of the zone to provide notice to road users of the termination of the speed zone.",
+          "graph_paths": [
+            [
+              "uncovered conditional_termination_area provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 0.872631
+        },
+        {
+          "source_node_id": "src_66c7843706ef6f47a8c6",
+          "source_unit_code": "SEC-1B.05",
+          "paragraph": "13",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1c_graph_gap_audit"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The experimenting agency shall submit a semi-annual progress report for any approved experiment even if no work was performed during the previous reporting period. Failure to submit two consecutive progress reports shall result in termination of the experiment and shall constitute rescission of the FHWA’s approval to the experimenting agency, requiring restoration of the site(s) to a condition that complies with the ",
+          "graph_paths": [
+            [
+              "uncovered conditional_termination_area provision found by completeness audit"
+            ]
+          ],
+          "gap_bm25_score": 0.840755
+        }
+      ]
+    }
+  },
+  {
+    "step": 9,
+    "phase": "requirement_registration",
+    "tool": "begin_requirement_registration",
+    "arguments": {},
+    "result": {
+      "phase": "requirement_registration",
+      "transition_event_index": 1
+    }
+  },
+  {
+    "step": 10,
+    "phase": "requirement_registration",
+    "tool": "complete_region_batch",
+    "arguments": {
+      "regions": [
+        {
+          "region": "lane_closure_layout",
+          "status": "screened",
+          "reason": "Directional closure and open ego-direction path reviewed; only independently inspectable layout predicates will be retained."
+        },
+        {
+          "region": "advance_warning_sign_system",
+          "status": "screened",
+          "reason": "Visible ROAD WORK AHEAD signs and scoped approach reviewed; detour-route signing outside camera scope is not assumed."
+        },
+        {
+          "region": "channelization_system",
+          "status": "screened",
+          "reason": "Visible cones/drums/delineators reviewed for spacing and device characteristics."
+        },
+        {
+          "region": "transition_and_taper_geometry",
+          "status": "screened",
+          "reason": "Visible channelizer end/taper reviewed; exact geometry remains measurable only by targeted inspection."
+        },
+        {
+          "region": "conditional_active_devices",
+          "status": "screened",
+          "reason": "No active devices are established in scene; conditional predicates screened and will be excluded unless activated."
+        },
+        {
+          "region": "conditional_termination_area",
+          "status": "screened",
+          "reason": "Intersection/end treatment reviewed; unrelated conditional termination provisions screened out."
+        }
+      ]
+    },
+    "result": {
+      "status": "failure",
+      "failure_reason": "applicable domains require at least one inspection check before completion: ['advance_warning_sign_system', 'channelization_system', 'lane_closure_layout', 'transition_and_taper_geometry']",
+      "tool": "complete_region_batch"
+    }
+  },
+  {
+    "step": 11,
+    "phase": "requirement_registration",
+    "tool": "submit_inspection_check_batch",
+    "arguments": {
+      "domain": "lane_closure_layout",
+      "requirements": [
+        {
+          "candidate_label": "Cover conflicting intersection devices in a closed directional roadway",
+          "subject": "Existing WRONG WAY signs, markings, and other conflicting traffic-control devices at intersections within the closed directional roadway",
+          "relation": "shall be covered, removed, or obliterated",
+          "threshold": "No inapplicable conflicting device remains exposed within the temporary closure/intersection area",
+          "applicability_conditions": [
+            "A directional roadway is closed",
+            "An intersection lies within the temporary two-lane/two-way operations or closure area"
+          ],
+          "required_inputs": [
+            "Field inventory of existing intersection traffic-control devices",
+            "Closure and intersection limits"
+          ],
+          "source_node_id": "src_0adab6a573f859041c12",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "activation_basis": {
+            "type": "scene_fact",
+            "fact_keys": [
+              "opposing_direction_lane_fully_closed"
+            ],
+            "evidence_source_node_ids": [
+              "src_0adab6a573f859041c12"
+            ],
+            "explanation": "The opposing-direction lane is explicitly confirmed fully closed and the scene includes an intersection; the device condition requires targeted field verification."
+          }
+        }
+      ]
+    },
+    "result": {
+      "accepted_requirements": [
+        {
+          "candidate_label": "Cover conflicting intersection devices in a closed directional roadway",
+          "discovered_requirement_key": "req_72d15edd230d1568",
+          "registration_event_index": 2,
+          "requirement_fingerprint": "72d15edd230d1568d983c03046defefcfeee69a91618ac8cf759115d31b46704"
+        }
+      ],
+      "accepted_requirement_keys": [
+        "req_72d15edd230d1568"
+      ],
+      "rejected_requirements": [],
+      "registry_requirement_count": 1
+    }
+  },
+  {
+    "step": 12,
+    "phase": "requirement_registration",
+    "tool": "audit_stage2_candidate_coverage",
+    "arguments": {},
+    "result": {
+      "decision_revision": 1,
+      "unresolved_candidate_count": 25,
+      "new_candidate_count": 25,
+      "unresolved_candidates": [
+        {
+          "source_node_id": "src_ff92896162b8a01b0836",
+          "domain": "lane_closure_layout",
+          "priority": "high",
+          "modality": "should",
+          "locator": "TA-19 paragraph 01; PDF page 936",
+          "subject": "This plan",
+          "relation": "should_comply",
+          "threshold": "This plan should be used for streets without posted route numbers.",
+          "conditions": []
+        },
+        {
+          "source_node_id": "src_645226502f4c2439e5fe",
+          "domain": "lane_closure_layout",
+          "also_domains": [
+            "advance_warning_sign_system"
+          ],
+          "priority": "high",
+          "modality": "should",
+          "locator": "TA-19 paragraph 02; PDF page 936",
+          "subject": "On multi-lane streets, Detour signs with an Advance Turn Arrow",
+          "relation": "should_comply",
+          "threshold": "On multi-lane streets, Detour signs with an Advance Turn Arrow should be used in advance of a turn.",
+          "conditions": []
+        },
+        {
+          "source_node_id": "src_772e91e4ee914179c320",
+          "domain": "advance_warning_sign_system",
+          "priority": "high",
+          "modality": "should",
+          "locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:M4-10R",
+          "subject": "M4-10R sign in TA-19",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "M4-10R is at the position and in the sequence shown in the figure.",
+          "conditions": [
+            "TA-19 is selected for the scene"
+          ]
+        },
+        {
+          "source_node_id": "src_cdc47d0d2384b1278442",
+          "domain": "advance_warning_sign_system",
+          "priority": "high",
+          "modality": "should",
+          "locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:M4-8a",
+          "subject": "M4-8a sign in TA-19",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "M4-8a is at the position and in the sequence shown in the figure.",
+          "conditions": [
+            "TA-19 is selected for the scene"
+          ]
+        },
+        {
+          "source_node_id": "src_2978fd365bf247168e56",
+          "domain": "advance_warning_sign_system",
+          "priority": "high",
+          "modality": "should",
+          "locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:M4-9L",
+          "subject": "M4-9L sign in TA-19",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "M4-9L is at the position and in the sequence shown in the figure.",
+          "conditions": [
+            "TA-19 is selected for the scene"
+          ]
+        },
+        {
+          "source_node_id": "src_25fdba13ca2e4d09742f",
+          "domain": "advance_warning_sign_system",
+          "priority": "high",
+          "modality": "should",
+          "locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:M4-9R",
+          "subject": "M4-9R sign in TA-19",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "M4-9R is at the position and in the sequence shown in the figure.",
+          "conditions": [
+            "TA-19 is selected for the scene"
+          ]
+        },
+        {
+          "source_node_id": "src_5bbe78f326fb3bf0f71f",
+          "domain": "advance_warning_sign_system",
+          "priority": "high",
+          "modality": "should",
+          "locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R11-2",
+          "subject": "R11-2 sign in TA-19",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "R11-2 is at the position and in the sequence shown in the figure.",
+          "conditions": [
+            "TA-19 is selected for the scene"
+          ]
+        },
+        {
+          "source_node_id": "src_4e4a614234c55ae69bb4",
+          "domain": "advance_warning_sign_system",
+          "priority": "high",
+          "modality": "should",
+          "locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R11-4",
+          "subject": "R11-4 sign in TA-19",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "R11-4 is at the position and in the sequence shown in the figure.",
+          "conditions": [
+            "TA-19 is selected for the scene"
+          ]
+        },
+        {
+          "source_node_id": "src_a8822f2af49c09edf7fb",
+          "domain": "advance_warning_sign_system",
+          "priority": "high",
+          "modality": "should",
+          "locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R3-1",
+          "subject": "R3-1 sign in TA-19",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "R3-1 is at the position and in the sequence shown in the figure.",
+          "conditions": [
+            "TA-19 is selected for the scene"
+          ]
+        },
+        {
+          "source_node_id": "src_ee3d6350ed5f6c524113",
+          "domain": "advance_warning_sign_system",
+          "priority": "high",
+          "modality": "should",
+          "locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R3-2",
+          "subject": "R3-2 sign in TA-19",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "R3-2 is at the position and in the sequence shown in the figure.",
+          "conditions": [
+            "TA-19 is selected for the scene"
+          ]
+        },
+        {
+          "source_node_id": "src_0fff811036aadbfbf3d1",
+          "domain": "advance_warning_sign_system",
+          "priority": "high",
+          "modality": "should",
+          "locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R5-1",
+          "subject": "R5-1 sign in TA-19",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "R5-1 is at the position and in the sequence shown in the figure.",
+          "conditions": [
+            "TA-19 is selected for the scene"
+          ]
+        },
+        {
+          "source_node_id": "src_07444b821fab297359c8",
+          "domain": "advance_warning_sign_system",
+          "priority": "high",
+          "modality": "should",
+          "locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R6-1R",
+          "subject": "R6-1R sign in TA-19",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "R6-1R is at the position and in the sequence shown in the figure.",
+          "conditions": [
+            "TA-19 is selected for the scene"
+          ]
+        },
+        {
+          "source_node_id": "src_6ee70d9c1617acd549c4",
+          "domain": "advance_warning_sign_system",
+          "priority": "high",
+          "modality": "should",
+          "locator": "TABLE-6B-1; PDF page 813",
+          "subject": "advance warning sign dimensions A, B, and C",
+          "relation": "recommended_minimum_spacing",
+          "threshold": "Urban low speed: A=100 ft, B=100 ft, C=100 ft; urban high speed: A=350 ft, B=350 ft, C=350 ft; rural: A=500 ft, B=500 ft, C=500 ft; expressway/freeway: A=1,000 ft, B=1,500 ft, C=2,640 ft. A is restriction-to-first-sign distance, B first-to-second, and C second-to-third.",
+          "conditions": [
+            "road type and agency-determined speed category"
+          ]
+        },
+        {
+          "source_node_id": "src_aca54136fd0666f6678c",
+          "domain": "lane_closure_layout",
+          "also_domains": [
+            "advance_warning_sign_system"
+          ],
+          "priority": "review",
+          "modality": "shall",
+          "locator": "TA-19 paragraph 08; PDF page 936",
+          "subject": "When used, the Street Name sign",
+          "relation": "shall_comply",
+          "threshold": "When used, the Street Name sign shall be placed above the Detour sign. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 897",
+          "conditions": []
+        },
+        {
+          "source_node_id": "src_a57d0a34f9651ab2c7d5",
+          "domain": "advance_warning_sign_system",
+          "priority": "review",
+          "modality": "should",
+          "locator": "Figure 6P-19 (TA-19); PDF page 937; component dimensions:A-B",
+          "subject": "A, B sign-spacing dimensions in TA-19",
+          "relation": "uses_referenced_table_dimensions",
+          "threshold": "Resolve the depicted A, B dimensions through the figure's referenced spacing table.",
+          "conditions": [
+            "TA-19 is selected for the scene"
+          ]
+        },
+        {
+          "source_node_id": "src_bbff52f9e380a6c8183d",
+          "domain": "advance_warning_sign_system",
+          "priority": "review",
+          "modality": "should",
+          "locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:W20-1",
+          "subject": "W20-1 sign in TA-19",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "W20-1 is at the position and in the sequence shown in the figure.",
+          "conditions": [
+            "TA-19 is selected for the scene"
+          ]
+        },
+        {
+          "source_node_id": "src_ff58c5005260c2206d6f",
+          "domain": "advance_warning_sign_system",
+          "priority": "review",
+          "modality": "should",
+          "locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:W20-2",
+          "subject": "W20-2 sign in TA-19",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "W20-2 is at the position and in the sequence shown in the figure.",
+          "conditions": [
+            "TA-19 is selected for the scene"
+          ]
+        },
+        {
+          "source_node_id": "src_b48978b224cbded461d4",
+          "domain": "advance_warning_sign_system",
+          "priority": "review",
+          "modality": "should",
+          "locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:W20-3",
+          "subject": "W20-3 sign in TA-19",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "W20-3 is at the position and in the sequence shown in the figure.",
+          "conditions": [
+            "TA-19 is selected for the scene"
+          ]
+        },
+        {
+          "source_node_id": "src_7a245af2a19d44b87030",
+          "domain": "advance_warning_sign_system",
+          "priority": "review",
+          "modality": "should",
+          "locator": "SEC-6H.02 paragraph 01; PDF page 838",
+          "subject": "Where highway conditions permit, warning signs",
+          "relation": "should_comply",
+          "threshold": "Where highway conditions permit, warning signs should be placed in advance of the transition and activity areas at varying distances depending on roadway type, condition, and posted speed. Table 6B-1 contains information regarding the spacing of advance warning signs. Where a series of two or more advance warning signs is used, the closest sign to the transition and activity areas should be placed approximately 100 feet for low-speed urban streets to 1,000 feet or more for freeways and expressways.",
+          "conditions": []
+        },
+        {
+          "source_node_id": "src_eafd02c3dbce3f8109a1",
+          "domain": "advance_warning_sign_system",
+          "priority": "review",
+          "modality": "should",
+          "locator": "SEC-6H.02 paragraph 02; PDF page 838",
+          "subject": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign",
+          "relation": "should_comply",
+          "threshold": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+          "conditions": []
+        },
+        {
+          "source_node_id": "src_17d12869af1669b6d7f7",
+          "domain": "advance_warning_sign_system",
+          "priority": "review",
+          "modality": "should",
+          "locator": "SEC-6H.02 paragraph 07; PDF page 842",
+          "subject": "Utility, maintenance, and minor construction signing and TTC",
+          "relation": "should_comply",
+          "threshold": "Utility, maintenance, and minor construction signing and TTC should be coordinated with appropriate authorities so that road users are not confused or misled by the additional TTC devices.",
+          "conditions": []
+        },
+        {
+          "source_node_id": "src_26bd048211769b2b09e8",
+          "domain": "advance_warning_sign_system",
+          "priority": "review",
+          "modality": "should",
+          "locator": "SEC-6H.03 paragraph 01; PDF page 842",
+          "subject": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions,",
+          "relation": "should_comply",
+          "threshold": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions, should be located in advance of the work space or any detour, on the road where the work is taking place.",
+          "conditions": []
+        },
+        {
+          "source_node_id": "src_954e7e72c1c215bc571b",
+          "domain": "advance_warning_sign_system",
+          "priority": "review",
+          "modality": "should",
+          "locator": "SEC-6H.03 paragraph 02; PDF page 842",
+          "subject": "Where traffic can enter a TTC zone from a crossroad or a major (high-volume) driveway, an advance warning sign",
+          "relation": "should_comply",
+          "threshold": "Where traffic can enter a TTC zone from a crossroad or a major (high-volume) driveway, an advance warning sign should be used on the crossroad or major driveway.",
+          "conditions": []
+        },
+        {
+          "source_node_id": "src_68cb61fa49e358701720",
+          "domain": "advance_warning_sign_system",
+          "priority": "review",
+          "modality": "should",
+          "locator": "SEC-6H.04 paragraph 01; PDF page 842",
+          "subject": "The DETOUR (W20-2) sign (see Figure 6H-1)",
+          "relation": "should_comply",
+          "threshold": "The DETOUR (W20-2) sign (see Figure 6H-1) should be used in advance of a road user detour over a different roadway or route.",
+          "conditions": []
+        },
+        {
+          "source_node_id": "src_f542d01fac88c3bcd1a5",
+          "domain": "advance_warning_sign_system",
+          "priority": "review",
+          "modality": "should",
+          "locator": "SEC-6H.05 paragraph 01; PDF page 845",
+          "subject": "The ROAD (STREET) CLOSED (W20-3) sign (see Figure 6H-1)",
+          "relation": "should_comply",
+          "threshold": "The ROAD (STREET) CLOSED (W20-3) sign (see Figure 6H-1) should be used in advance of the point where a highway is closed to all road users, or to all but local road users.",
+          "conditions": []
+        }
+      ],
+      "pending_structured_decision_count": 25,
+      "verification_questions": [
+        "Is its activation antecedent established by the layout or scene facts?",
+        "Could it fail while every registered predicate passes?",
+        "Is it identical to a registered predicate in modality, subject, conditions, relation, and threshold?"
+      ],
+      "next_action": "Review each new candidate; retain applicable independent predicates or exclude. Use submit_stage2_candidate_decision_batch for every pending candidate. Re-run this audit after the final batch; sealing is allowed when both new_candidate_count and pending_structured_decision_count are zero."
+    }
+  },
+  {
+    "step": 13,
+    "phase": "requirement_registration",
+    "tool": "submit_stage2_candidate_decision_batch",
+    "arguments": {
+      "decisions": [
+        {
+          "source_node_id": "src_ff92896162b8a01b0836",
+          "activation_status": "unknown",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "exclude",
+          "decision_basis": "activation_unknown",
+          "reason": "Whether the street lacks a posted route number is unresolved, so the TA-19 route-number condition cannot be established.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        },
+        {
+          "source_node_id": "src_645226502f4c2439e5fe",
+          "activation_status": "false",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "exclude",
+          "decision_basis": "activation_false",
+          "reason": "The scoped scene is an urban street with one apparent lane in each direction, not a multi-lane street.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        },
+        {
+          "source_node_id": "src_772e91e4ee914179c320",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "TA-19 is the selected primary layout; the M4-10R sign position and sequence are independently inspectable.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        },
+        {
+          "source_node_id": "src_cdc47d0d2384b1278442",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "TA-19 is the selected primary layout; the M4-8a sign position and sequence are independently inspectable.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        },
+        {
+          "source_node_id": "src_2978fd365bf247168e56",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "TA-19 is the selected primary layout; the M4-9L sign position and sequence are independently inspectable.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        },
+        {
+          "source_node_id": "src_25fdba13ca2e4d09742f",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "TA-19 is the selected primary layout; the M4-9R sign position and sequence are independently inspectable.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        },
+        {
+          "source_node_id": "src_5bbe78f326fb3bf0f71f",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "TA-19 is the selected primary layout; the R11-2 sign position and sequence are independently inspectable.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        },
+        {
+          "source_node_id": "src_4e4a614234c55ae69bb4",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "TA-19 is the selected primary layout; the R11-4 sign position and sequence are independently inspectable.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        },
+        {
+          "source_node_id": "src_a8822f2af49c09edf7fb",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "TA-19 is the selected primary layout; the R3-1 sign position and sequence are independently inspectable.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        },
+        {
+          "source_node_id": "src_ee3d6350ed5f6c524113",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "TA-19 is the selected primary layout; the R3-2 sign position and sequence are independently inspectable.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        },
+        {
+          "source_node_id": "src_0fff811036aadbfbf3d1",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "TA-19 is the selected primary layout; the R5-1 sign position and sequence are independently inspectable.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        },
+        {
+          "source_node_id": "src_07444b821fab297359c8",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "TA-19 is the selected primary layout; the R6-1R sign position and sequence are independently inspectable.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        }
+      ]
+    },
+    "result": {
+      "accepted_decisions": [
+        {
+          "source_node_id": "src_ff92896162b8a01b0836",
+          "activation_status": "unknown",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "exclude",
+          "decision_basis": "activation_unknown",
+          "reason": "Whether the street lacks a posted route number is unresolved, so the TA-19 route-number condition cannot be established.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "domain": "lane_closure_layout",
+          "registered_requirement_key": null
+        },
+        {
+          "source_node_id": "src_645226502f4c2439e5fe",
+          "activation_status": "false",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "exclude",
+          "decision_basis": "activation_false",
+          "reason": "The scoped scene is an urban street with one apparent lane in each direction, not a multi-lane street.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "domain": "lane_closure_layout",
+          "registered_requirement_key": null
+        },
+        {
+          "source_node_id": "src_772e91e4ee914179c320",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "TA-19 is the selected primary layout; the M4-10R sign position and sequence are independently inspectable.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "domain": "advance_warning_sign_system",
+          "registered_requirement_key": "req_7f7323bcd37c5b84"
+        },
+        {
+          "source_node_id": "src_cdc47d0d2384b1278442",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "TA-19 is the selected primary layout; the M4-8a sign position and sequence are independently inspectable.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "domain": "advance_warning_sign_system",
+          "registered_requirement_key": "req_81896520e0b032a5"
+        },
+        {
+          "source_node_id": "src_2978fd365bf247168e56",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "TA-19 is the selected primary layout; the M4-9L sign position and sequence are independently inspectable.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "domain": "advance_warning_sign_system",
+          "registered_requirement_key": "req_d305824bda78ee20"
+        },
+        {
+          "source_node_id": "src_25fdba13ca2e4d09742f",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "TA-19 is the selected primary layout; the M4-9R sign position and sequence are independently inspectable.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "domain": "advance_warning_sign_system",
+          "registered_requirement_key": "req_d0158fecf5f63d40"
+        },
+        {
+          "source_node_id": "src_5bbe78f326fb3bf0f71f",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "TA-19 is the selected primary layout; the R11-2 sign position and sequence are independently inspectable.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "domain": "advance_warning_sign_system",
+          "registered_requirement_key": "req_994faca8507061a8"
+        },
+        {
+          "source_node_id": "src_4e4a614234c55ae69bb4",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "TA-19 is the selected primary layout; the R11-4 sign position and sequence are independently inspectable.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "domain": "advance_warning_sign_system",
+          "registered_requirement_key": "req_12b10ac1c3f92d53"
+        },
+        {
+          "source_node_id": "src_a8822f2af49c09edf7fb",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "TA-19 is the selected primary layout; the R3-1 sign position and sequence are independently inspectable.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "domain": "advance_warning_sign_system",
+          "registered_requirement_key": "req_07b36381ff33c89f"
+        },
+        {
+          "source_node_id": "src_ee3d6350ed5f6c524113",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "TA-19 is the selected primary layout; the R3-2 sign position and sequence are independently inspectable.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "domain": "advance_warning_sign_system",
+          "registered_requirement_key": "req_09c763900319cba8"
+        },
+        {
+          "source_node_id": "src_0fff811036aadbfbf3d1",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "TA-19 is the selected primary layout; the R5-1 sign position and sequence are independently inspectable.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "domain": "advance_warning_sign_system",
+          "registered_requirement_key": "req_f704cd7a2a19ed90"
+        },
+        {
+          "source_node_id": "src_07444b821fab297359c8",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "TA-19 is the selected primary layout; the R6-1R sign position and sequence are independently inspectable.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "domain": "advance_warning_sign_system",
+          "registered_requirement_key": "req_e33565395f6e7972"
+        }
+      ],
+      "rejected_decisions": [],
+      "structured_decision_count": 12
+    }
+  },
+  {
+    "step": 14,
+    "phase": "requirement_registration",
+    "tool": "audit_stage2_candidate_coverage",
+    "arguments": {},
+    "result": {
+      "decision_revision": 2,
+      "unresolved_candidate_count": 13,
+      "new_candidate_count": 0,
+      "previously_presented_unresolved_count": 13,
+      "unresolved_candidates": [],
+      "pending_structured_decision_count": 13,
+      "pending_structured_decision_source_node_ids": [
+        "src_17d12869af1669b6d7f7",
+        "src_26bd048211769b2b09e8",
+        "src_68cb61fa49e358701720",
+        "src_6ee70d9c1617acd549c4",
+        "src_7a245af2a19d44b87030",
+        "src_954e7e72c1c215bc571b",
+        "src_a57d0a34f9651ab2c7d5",
+        "src_aca54136fd0666f6678c",
+        "src_b48978b224cbded461d4",
+        "src_bbff52f9e380a6c8183d",
+        "src_eafd02c3dbce3f8109a1",
+        "src_f542d01fac88c3bcd1a5",
+        "src_ff58c5005260c2206d6f"
+      ],
+      "verification_questions": [
+        "Is its activation antecedent established by the layout or scene facts?",
+        "Could it fail while every registered predicate passes?",
+        "Is it identical to a registered predicate in modality, subject, conditions, relation, and threshold?"
+      ],
+      "next_action": "Review each new candidate; retain applicable independent predicates or exclude. Use submit_stage2_candidate_decision_batch for every pending candidate. Re-run this audit after the final batch; sealing is allowed when both new_candidate_count and pending_structured_decision_count are zero."
+    }
+  },
+  {
+    "step": 15,
+    "phase": "requirement_registration",
+    "tool": "submit_stage2_candidate_decision_batch",
+    "arguments": {
+      "decisions": [
+        {
+          "source_node_id": "src_17d12869af1669b6d7f7",
+          "activation_status": "established",
+          "independently_violable": false,
+          "duplicate_of_source_node_id": null,
+          "action": "exclude",
+          "decision_basis": "not_field_inspectable",
+          "reason": "Coordination with authorities is administrative process guidance, not an independently inspectable field predicate in the scoped imagery and LiDAR.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        },
+        {
+          "source_node_id": "src_26bd048211769b2b09e8",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "The scene has an established work-space restriction and the ROAD WORK sign location relative to the work space is independently inspectable.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        },
+        {
+          "source_node_id": "src_68cb61fa49e358701720",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "Opposing traffic is explicitly confirmed to detour over other roads, so presence and placement of the DETOUR sign are an applicable independent field check.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        },
+        {
+          "source_node_id": "src_6ee70d9c1617acd549c4",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "The urban low-speed condition is established by the scene, and the recommended 100-foot advance-warning spacing is independently measurable between successive signs.",
+          "measurement_spec": {
+            "required": true,
+            "tool": "measure_sign_spacing",
+            "quantity": "spacing between successive advance warning signs",
+            "thresholds": [
+              {
+                "condition": "urban low-speed advance warning sign spacing",
+                "value": 100,
+                "unit": "ft",
+                "violation_when": "below_minimum",
+                "formula_parameter": null,
+                "multiplier": null
+              }
+            ]
+          }
+        },
+        {
+          "source_node_id": "src_6f7e4baadad0f4428bd8",
+          "activation_status": "false",
+          "independently_violable": false,
+          "duplicate_of_source_node_id": null,
+          "action": "exclude",
+          "decision_basis": "activation_false",
+          "reason": "No temporary traffic control signal or haul road is established; the scene explicitly records no signal deployment and does not show this TA-14 condition.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        },
+        {
+          "source_node_id": "src_954e7e72c1c215bc571b",
+          "activation_status": "unknown",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "exclude",
+          "decision_basis": "activation_unknown",
+          "reason": "Whether traffic can enter the TTC zone from a crossroad or major driveway is not established in the scoped frames, so the antecedent cannot be activated.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        },
+        {
+          "source_node_id": "src_a57d0a34f9651ab2c7d5",
+          "activation_status": "established",
+          "independently_violable": false,
+          "duplicate_of_source_node_id": null,
+          "action": "exclude",
+          "decision_basis": "not_field_inspectable",
+          "reason": "The figure's A-B dimension labels do not provide a standalone executable predicate without a defined applicable sign sequence and dimensions; the concrete spacing predicate is represented by the retained Table 6B-1 candidate.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        },
+        {
+          "source_node_id": "src_aca54136fd0666f6678c",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "TA-19 is selected and the detour operation is established; a Street Name sign's required placement above the DETOUR sign is an independently inspectable arrangement.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        },
+        {
+          "source_node_id": "src_b48978b224cbded461d4",
+          "activation_status": "false",
+          "independently_violable": false,
+          "duplicate_of_source_node_id": null,
+          "action": "exclude",
+          "decision_basis": "activation_false",
+          "reason": "The confirmed operation closes only the opposing direction while the ego-direction lane remains open; the roadway is not closed to all or all but local users as required by this sign provision.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        },
+        {
+          "source_node_id": "src_bbff52f9e380a6c8183d",
+          "activation_status": "established",
+          "independently_violable": false,
+          "duplicate_of_source_node_id": "src_26bd048211769b2b09e8",
+          "action": "exclude",
+          "decision_basis": "duplicate",
+          "reason": "The TA-19 W20-1 figure component duplicates the independently retained ROAD WORK sign advance-location predicate from SEC-6H.03.01.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        },
+        {
+          "source_node_id": "src_eafd02c3dbce3f8109a1",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "Multiple advance warning signs are visibly present, so the ordering requirement that ROAD WORK AHEAD be first is an independently violable field check distinct from spacing and location.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        },
+        {
+          "source_node_id": "src_f542d01fac88c3bcd1a5",
+          "activation_status": "false",
+          "independently_violable": false,
+          "duplicate_of_source_node_id": null,
+          "action": "exclude",
+          "decision_basis": "activation_false",
+          "reason": "The confirmed directional closure leaves the ego-direction lane open and therefore does not establish a highway closure to all or all but local road users.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        }
+      ]
+    },
+    "result": {
+      "accepted_decisions": [
+        {
+          "source_node_id": "src_17d12869af1669b6d7f7",
+          "activation_status": "established",
+          "independently_violable": false,
+          "duplicate_of_source_node_id": null,
+          "action": "exclude",
+          "decision_basis": "not_field_inspectable",
+          "reason": "Coordination with authorities is administrative process guidance, not an independently inspectable field predicate in the scoped imagery and LiDAR.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "domain": "advance_warning_sign_system",
+          "registered_requirement_key": null
+        },
+        {
+          "source_node_id": "src_26bd048211769b2b09e8",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "The scene has an established work-space restriction and the ROAD WORK sign location relative to the work space is independently inspectable.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "domain": "advance_warning_sign_system",
+          "registered_requirement_key": "req_c22e4cc97e27c3e0"
+        },
+        {
+          "source_node_id": "src_68cb61fa49e358701720",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "Opposing traffic is explicitly confirmed to detour over other roads, so presence and placement of the DETOUR sign are an applicable independent field check.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "domain": "advance_warning_sign_system",
+          "registered_requirement_key": "req_b027f3d259231de3"
+        },
+        {
+          "source_node_id": "src_6ee70d9c1617acd549c4",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "The urban low-speed condition is established by the scene, and the recommended 100-foot advance-warning spacing is independently measurable between successive signs.",
+          "measurement_spec": {
+            "required": true,
+            "tool": "measure_sign_spacing",
+            "quantity": "spacing between successive advance warning signs",
+            "thresholds": [
+              {
+                "condition": "urban low-speed advance warning sign spacing",
+                "value": 100,
+                "unit": "ft",
+                "violation_when": "below_minimum",
+                "formula_parameter": null,
+                "multiplier": null
+              }
+            ]
+          },
+          "domain": "advance_warning_sign_system",
+          "registered_requirement_key": "req_cba25d328142060c"
+        },
+        {
+          "source_node_id": "src_954e7e72c1c215bc571b",
+          "activation_status": "unknown",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "exclude",
+          "decision_basis": "activation_unknown",
+          "reason": "Whether traffic can enter the TTC zone from a crossroad or major driveway is not established in the scoped frames, so the antecedent cannot be activated.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "domain": "advance_warning_sign_system",
+          "registered_requirement_key": null
+        },
+        {
+          "source_node_id": "src_a57d0a34f9651ab2c7d5",
+          "activation_status": "established",
+          "independently_violable": false,
+          "duplicate_of_source_node_id": null,
+          "action": "exclude",
+          "decision_basis": "not_field_inspectable",
+          "reason": "The figure's A-B dimension labels do not provide a standalone executable predicate without a defined applicable sign sequence and dimensions; the concrete spacing predicate is represented by the retained Table 6B-1 candidate.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "domain": "advance_warning_sign_system",
+          "registered_requirement_key": null
+        },
+        {
+          "source_node_id": "src_aca54136fd0666f6678c",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "TA-19 is selected and the detour operation is established; a Street Name sign's required placement above the DETOUR sign is an independently inspectable arrangement.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "domain": "lane_closure_layout",
+          "registered_requirement_key": "req_6cba0e7128bd99e4"
+        },
+        {
+          "source_node_id": "src_b48978b224cbded461d4",
+          "activation_status": "false",
+          "independently_violable": false,
+          "duplicate_of_source_node_id": null,
+          "action": "exclude",
+          "decision_basis": "activation_false",
+          "reason": "The confirmed operation closes only the opposing direction while the ego-direction lane remains open; the roadway is not closed to all or all but local users as required by this sign provision.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "domain": "advance_warning_sign_system",
+          "registered_requirement_key": null
+        },
+        {
+          "source_node_id": "src_bbff52f9e380a6c8183d",
+          "activation_status": "established",
+          "independently_violable": false,
+          "duplicate_of_source_node_id": "src_26bd048211769b2b09e8",
+          "action": "exclude",
+          "decision_basis": "duplicate",
+          "reason": "The TA-19 W20-1 figure component duplicates the independently retained ROAD WORK sign advance-location predicate from SEC-6H.03.01.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "domain": "advance_warning_sign_system",
+          "registered_requirement_key": null
+        },
+        {
+          "source_node_id": "src_eafd02c3dbce3f8109a1",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "Multiple advance warning signs are visibly present, so the ordering requirement that ROAD WORK AHEAD be first is an independently violable field check distinct from spacing and location.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "domain": "advance_warning_sign_system",
+          "registered_requirement_key": "req_cb1dccef74232ff1"
+        },
+        {
+          "source_node_id": "src_f542d01fac88c3bcd1a5",
+          "activation_status": "false",
+          "independently_violable": false,
+          "duplicate_of_source_node_id": null,
+          "action": "exclude",
+          "decision_basis": "activation_false",
+          "reason": "The confirmed directional closure leaves the ego-direction lane open and therefore does not establish a highway closure to all or all but local road users.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "domain": "advance_warning_sign_system",
+          "registered_requirement_key": null
+        }
+      ],
+      "rejected_decisions": [
+        {
+          "source_node_id": "src_6f7e4baadad0f4428bd8",
+          "failure_reason": "src_6f7e4baadad0f4428bd8: candidate was not presented by the Stage-2 coverage audit"
+        }
+      ],
+      "structured_decision_count": 23,
+      "status": "partial_success",
+      "repair_instruction": "Accepted decisions are durable. Repair only rejected_decisions."
+    }
+  },
+  {
+    "step": 16,
+    "phase": "requirement_registration",
+    "tool": "submit_stage2_candidate_decision_batch",
+    "arguments": {
+      "decisions": [
+        {
+          "source_node_id": "src_6f7e4baadad0f4428bd8",
+          "activation_status": "false",
+          "independently_violable": false,
+          "duplicate_of_source_node_id": null,
+          "action": "exclude",
+          "decision_basis": "activation_false",
+          "reason": "No temporary traffic control signal or haul road is established; the scene explicitly records no signal deployment and does not show this TA-14 condition.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        }
+      ]
+    },
+    "result": {
+      "status": "failure",
+      "failure_reason": "structured decision batch rejected: src_6f7e4baadad0f4428bd8: src_6f7e4baadad0f4428bd8: candidate was not presented by the Stage-2 coverage audit",
+      "tool": "submit_stage2_candidate_decision_batch"
+    }
+  },
+  {
+    "step": 17,
+    "phase": "requirement_registration",
+    "tool": "audit_stage2_candidate_coverage",
+    "arguments": {},
+    "result": {
+      "decision_revision": 3,
+      "unresolved_candidate_count": 2,
+      "new_candidate_count": 0,
+      "previously_presented_unresolved_count": 2,
+      "unresolved_candidates": [],
+      "pending_structured_decision_count": 2,
+      "pending_structured_decision_source_node_ids": [
+        "src_7a245af2a19d44b87030",
+        "src_ff58c5005260c2206d6f"
+      ],
+      "verification_questions": [
+        "Is its activation antecedent established by the layout or scene facts?",
+        "Could it fail while every registered predicate passes?",
+        "Is it identical to a registered predicate in modality, subject, conditions, relation, and threshold?"
+      ],
+      "next_action": "Review each new candidate; retain applicable independent predicates or exclude. Use submit_stage2_candidate_decision_batch for every pending candidate. Re-run this audit after the final batch; sealing is allowed when both new_candidate_count and pending_structured_decision_count are zero."
+    }
+  },
+  {
+    "step": 18,
+    "phase": "requirement_registration",
+    "tool": "submit_stage2_candidate_decision_batch",
+    "arguments": {
+      "decisions": [
+        {
+          "source_node_id": "src_7a245af2a19d44b87030",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "The scene shows a transition/activity area and multiple advance-warning signs. The closest advance-warning sign's longitudinal placement relative to the transition is a distinct field-check from spacing between successive signs and is executable from sign and transition locations.",
+          "measurement_spec": {
+            "required": true,
+            "tool": "measure_longitudinal_distance",
+            "quantity": "longitudinal distance from the closest advance-warning sign to the transition/activity area",
+            "thresholds": [
+              {
+                "condition": "closest advance-warning sign before an established transition/activity area",
+                "value": 100,
+                "unit": "ft",
+                "violation_when": "below_minimum",
+                "formula_parameter": null,
+                "multiplier": null
+              }
+            ]
+          }
+        },
+        {
+          "source_node_id": "src_ff58c5005260c2206d6f",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "TA-19 is the selected primary layout and an off-site detour for opposing traffic is explicitly confirmed. The W20-2 component's presence and placement in the TA-19 detour signing sequence can fail independently of the generic detour-use predicate.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          }
+        }
+      ]
+    },
+    "result": {
+      "accepted_decisions": [
+        {
+          "source_node_id": "src_7a245af2a19d44b87030",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "The scene shows a transition/activity area and multiple advance-warning signs. The closest advance-warning sign's longitudinal placement relative to the transition is a distinct field-check from spacing between successive signs and is executable from sign and transition locations.",
+          "measurement_spec": {
+            "required": true,
+            "tool": "measure_longitudinal_distance",
+            "quantity": "longitudinal distance from the closest advance-warning sign to the transition/activity area",
+            "thresholds": [
+              {
+                "condition": "closest advance-warning sign before an established transition/activity area",
+                "value": 100,
+                "unit": "ft",
+                "violation_when": "below_minimum",
+                "formula_parameter": null,
+                "multiplier": null
+              }
+            ]
+          },
+          "domain": "advance_warning_sign_system",
+          "registered_requirement_key": "req_6510f42c7262c82d"
+        },
+        {
+          "source_node_id": "src_ff58c5005260c2206d6f",
+          "activation_status": "established",
+          "independently_violable": true,
+          "duplicate_of_source_node_id": null,
+          "action": "retain",
+          "decision_basis": "activated_independent",
+          "reason": "TA-19 is the selected primary layout and an off-site detour for opposing traffic is explicitly confirmed. The W20-2 component's presence and placement in the TA-19 detour signing sequence can fail independently of the generic detour-use predicate.",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "domain": "advance_warning_sign_system",
+          "registered_requirement_key": "req_134633b407c8f805"
+        }
+      ],
+      "rejected_decisions": [],
+      "structured_decision_count": 25
+    }
+  },
+  {
+    "step": 19,
+    "phase": "requirement_registration",
+    "tool": "audit_stage2_candidate_coverage",
+    "arguments": {},
+    "result": {
+      "decision_revision": 4,
+      "unresolved_candidate_count": 0,
+      "new_candidate_count": 0,
+      "previously_presented_unresolved_count": 0,
+      "unresolved_candidates": [],
+      "pending_structured_decision_count": 0,
+      "pending_structured_decision_source_node_ids": [],
+      "verification_questions": [
+        "Is its activation antecedent established by the layout or scene facts?",
+        "Could it fail while every registered predicate passes?",
+        "Is it identical to a registered predicate in modality, subject, conditions, relation, and threshold?"
+      ],
+      "next_action": "Review each new candidate; retain applicable independent predicates or exclude. Use submit_stage2_candidate_decision_batch for every pending candidate. Re-run this audit after the final batch; sealing is allowed when both new_candidate_count and pending_structured_decision_count are zero."
+    }
+  },
+  {
+    "step": 20,
+    "phase": "requirement_registration",
+    "tool": "complete_region_batch",
+    "arguments": {
+      "regions": [
+        {
+          "region": "lane_closure_layout",
+          "status": "screened",
+          "reason": "Registered field-inspectable closure-layout predicates were already accepted; no additional unresolved Stage-2 candidate remains."
+        },
+        {
+          "region": "advance_warning_sign_system",
+          "status": "screened",
+          "reason": "Registered advance-warning predicates were already accepted; no additional unresolved Stage-2 candidate remains."
+        },
+        {
+          "region": "channelization_system",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "No additional channelization candidate remains unresolved for registration after Stage-2 coverage review."
+        },
+        {
+          "region": "transition_and_taper_geometry",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "No additional transition/taper candidate remains unresolved for registration after Stage-2 coverage review."
+        },
+        {
+          "region": "conditional_active_devices",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "No applicable active-device predicate was established for this scene; no unresolved candidate remains."
+        },
+        {
+          "region": "conditional_termination_area",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "No applicable termination-area predicate was established for this scene; no unresolved candidate remains."
+        }
+      ]
+    },
+    "result": {
+      "completed_regions": [
+        {
+          "region": "lane_closure_layout",
+          "status": "screened"
+        },
+        {
+          "region": "advance_warning_sign_system",
+          "status": "screened"
+        },
+        {
+          "region": "channelization_system",
+          "status": "skipped_no_inspectable_candidate"
+        },
+        {
+          "region": "transition_and_taper_geometry",
+          "status": "skipped_no_inspectable_candidate"
+        },
+        {
+          "region": "conditional_active_devices",
+          "status": "skipped_no_inspectable_candidate"
+        },
+        {
+          "region": "conditional_termination_area",
+          "status": "skipped_no_inspectable_candidate"
+        }
+      ]
+    }
+  },
+  {
+    "step": 21,
+    "phase": "requirement_registration",
+    "tool": "audit_stage2_candidate_coverage",
+    "arguments": {},
+    "result": {
+      "decision_revision": 4,
+      "unresolved_candidate_count": 0,
+      "new_candidate_count": 0,
+      "previously_presented_unresolved_count": 0,
+      "unresolved_candidates": [],
+      "pending_structured_decision_count": 0,
+      "pending_structured_decision_source_node_ids": [],
+      "verification_questions": [
+        "Is its activation antecedent established by the layout or scene facts?",
+        "Could it fail while every registered predicate passes?",
+        "Is it identical to a registered predicate in modality, subject, conditions, relation, and threshold?"
+      ],
+      "next_action": "Review each new candidate; retain applicable independent predicates or exclude. Use submit_stage2_candidate_decision_batch for every pending candidate. Re-run this audit after the final batch; sealing is allowed when both new_candidate_count and pending_structured_decision_count are zero."
+    }
+  },
+  {
+    "step": 22,
+    "phase": "requirement_registration",
+    "tool": "complete_region_batch",
+    "arguments": {
+      "regions": [
+        {
+          "region": "lane_closure_layout",
+          "status": "screened",
+          "reason": "All retrieved lane-closure candidates were screened; retained predicates are registered and no unresolved Stage-2 candidate remains."
+        },
+        {
+          "region": "advance_warning_sign_system",
+          "status": "screened",
+          "reason": "All retrieved advance-warning candidates were screened; retained predicates are registered and no unresolved Stage-2 candidate remains."
+        },
+        {
+          "region": "channelization_system",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "No applicable additional channelization predicate is inspectable and unresolved for this scoped scene."
+        },
+        {
+          "region": "transition_and_taper_geometry",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "No applicable additional transition or taper predicate is inspectable and unresolved for this scoped scene."
+        },
+        {
+          "region": "conditional_active_devices",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "No applicable active-device predicate is established for this scene."
+        },
+        {
+          "region": "conditional_termination_area",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "No applicable termination-area predicate is established for this scene."
+        }
+      ]
+    },
+    "result": {
+      "completed_regions": [
+        {
+          "region": "lane_closure_layout",
+          "status": "screened"
+        },
+        {
+          "region": "advance_warning_sign_system",
+          "status": "screened"
+        },
+        {
+          "region": "channelization_system",
+          "status": "skipped_no_inspectable_candidate"
+        },
+        {
+          "region": "transition_and_taper_geometry",
+          "status": "skipped_no_inspectable_candidate"
+        },
+        {
+          "region": "conditional_active_devices",
+          "status": "skipped_no_inspectable_candidate"
+        },
+        {
+          "region": "conditional_termination_area",
+          "status": "skipped_no_inspectable_candidate"
+        }
+      ]
+    }
+  },
+  {
+    "step": 23,
+    "phase": "requirement_registration",
+    "tool": "audit_stage2_candidate_coverage",
+    "arguments": {},
+    "result": {
+      "decision_revision": 4,
+      "unresolved_candidate_count": 0,
+      "new_candidate_count": 0,
+      "previously_presented_unresolved_count": 0,
+      "unresolved_candidates": [],
+      "pending_structured_decision_count": 0,
+      "pending_structured_decision_source_node_ids": [],
+      "verification_questions": [
+        "Is its activation antecedent established by the layout or scene facts?",
+        "Could it fail while every registered predicate passes?",
+        "Is it identical to a registered predicate in modality, subject, conditions, relation, and threshold?"
+      ],
+      "next_action": "Review each new candidate; retain applicable independent predicates or exclude. Use submit_stage2_candidate_decision_batch for every pending candidate. Re-run this audit after the final batch; sealing is allowed when both new_candidate_count and pending_structured_decision_count are zero."
+    }
+  },
+  {
+    "step": 24,
+    "phase": "requirement_registration",
+    "tool": "complete_region_batch",
+    "arguments": {
+      "regions": [
+        {
+          "region": "lane_closure_layout",
+          "status": "screened",
+          "reason": "All retrieved lane-closure candidates were screened; retained predicates are registered and no unresolved Stage-2 candidate remains."
+        },
+        {
+          "region": "advance_warning_sign_system",
+          "status": "screened",
+          "reason": "All retrieved advance-warning candidates were screened; retained predicates are registered and no unresolved Stage-2 candidate remains."
+        },
+        {
+          "region": "channelization_system",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "No applicable additional channelization predicate is inspectable and unresolved for this scoped scene."
+        },
+        {
+          "region": "transition_and_taper_geometry",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "No applicable additional transition or taper predicate is inspectable and unresolved for this scoped scene."
+        },
+        {
+          "region": "conditional_active_devices",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "No applicable active-device predicate is established for this scene."
+        },
+        {
+          "region": "conditional_termination_area",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "No applicable termination-area predicate is established for this scene."
+        }
+      ]
+    },
+    "result": {
+      "completed_regions": [
+        {
+          "region": "lane_closure_layout",
+          "status": "screened"
+        },
+        {
+          "region": "advance_warning_sign_system",
+          "status": "screened"
+        },
+        {
+          "region": "channelization_system",
+          "status": "skipped_no_inspectable_candidate"
+        },
+        {
+          "region": "transition_and_taper_geometry",
+          "status": "skipped_no_inspectable_candidate"
+        },
+        {
+          "region": "conditional_active_devices",
+          "status": "skipped_no_inspectable_candidate"
+        },
+        {
+          "region": "conditional_termination_area",
+          "status": "skipped_no_inspectable_candidate"
+        }
+      ]
+    }
+  },
+  {
+    "step": 25,
+    "phase": "requirement_registration",
+    "tool": "audit_stage2_candidate_coverage",
+    "arguments": {},
+    "result": {
+      "decision_revision": 4,
+      "unresolved_candidate_count": 0,
+      "new_candidate_count": 0,
+      "previously_presented_unresolved_count": 0,
+      "unresolved_candidates": [],
+      "pending_structured_decision_count": 0,
+      "pending_structured_decision_source_node_ids": [],
+      "verification_questions": [
+        "Is its activation antecedent established by the layout or scene facts?",
+        "Could it fail while every registered predicate passes?",
+        "Is it identical to a registered predicate in modality, subject, conditions, relation, and threshold?"
+      ],
+      "next_action": "Review each new candidate; retain applicable independent predicates or exclude. Use submit_stage2_candidate_decision_batch for every pending candidate. Re-run this audit after the final batch; sealing is allowed when both new_candidate_count and pending_structured_decision_count are zero."
+    }
+  },
+  {
+    "step": 26,
+    "phase": "requirement_registration",
+    "tool": "complete_region_batch",
+    "arguments": {
+      "regions": [
+        {
+          "region": "lane_closure_layout",
+          "status": "screened",
+          "reason": "All retrieved lane-closure candidates were screened; retained predicates are registered and no unresolved Stage-2 candidate remains."
+        },
+        {
+          "region": "advance_warning_sign_system",
+          "status": "screened",
+          "reason": "All retrieved advance-warning candidates were screened; retained predicates are registered and no unresolved Stage-2 candidate remains."
+        },
+        {
+          "region": "channelization_system",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "No applicable additional channelization predicate is inspectable and unresolved for this scoped scene."
+        },
+        {
+          "region": "transition_and_taper_geometry",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "No applicable additional transition or taper predicate is inspectable and unresolved for this scoped scene."
+        },
+        {
+          "region": "conditional_active_devices",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "No applicable active-device predicate is established for this scene."
+        },
+        {
+          "region": "conditional_termination_area",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "No applicable termination-area predicate is established for this scene."
+        }
+      ]
+    },
+    "result": {
+      "completed_regions": [
+        {
+          "region": "lane_closure_layout",
+          "status": "screened"
+        },
+        {
+          "region": "advance_warning_sign_system",
+          "status": "screened"
+        },
+        {
+          "region": "channelization_system",
+          "status": "skipped_no_inspectable_candidate"
+        },
+        {
+          "region": "transition_and_taper_geometry",
+          "status": "skipped_no_inspectable_candidate"
+        },
+        {
+          "region": "conditional_active_devices",
+          "status": "skipped_no_inspectable_candidate"
+        },
+        {
+          "region": "conditional_termination_area",
+          "status": "skipped_no_inspectable_candidate"
+        }
+      ]
+    }
+  },
+  {
+    "step": 27,
+    "phase": "requirement_registration",
+    "tool": "audit_stage2_candidate_coverage",
+    "arguments": {},
+    "result": {
+      "decision_revision": 4,
+      "unresolved_candidate_count": 0,
+      "new_candidate_count": 0,
+      "previously_presented_unresolved_count": 0,
+      "unresolved_candidates": [],
+      "pending_structured_decision_count": 0,
+      "pending_structured_decision_source_node_ids": [],
+      "verification_questions": [
+        "Is its activation antecedent established by the layout or scene facts?",
+        "Could it fail while every registered predicate passes?",
+        "Is it identical to a registered predicate in modality, subject, conditions, relation, and threshold?"
+      ],
+      "next_action": "Review each new candidate; retain applicable independent predicates or exclude. Use submit_stage2_candidate_decision_batch for every pending candidate. Re-run this audit after the final batch; sealing is allowed when both new_candidate_count and pending_structured_decision_count are zero."
+    }
+  },
+  {
+    "step": 28,
+    "phase": "data_availability",
+    "tool": "seal_requirement_registration",
+    "arguments": {},
+    "result": {
+      "phase": "data_availability",
+      "transition_event_index": 44,
+      "frozen_requirement_count": 18
+    }
+  }
+]

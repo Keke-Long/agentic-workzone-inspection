@@ -1,0 +1,8 @@
+{
+  "method_id": "kg_plus_bm25",
+  "run": 1,
+  "status": "method_failure",
+  "failure_reason": "single tool response exceeded technical ceiling: 26570 > 24000",
+  "failure_stage": "stage_1_to_3_requirement_review",
+  "reference_notice": "Independent reference pending; no benchmark accuracy claims"
+}

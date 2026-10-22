@@ -1,0 +1,102 @@
+{
+  "id": "resp_04a90d6b073077f2006ad9328f1a7087d18ecf61944a03a2c9",
+  "object": "response",
+  "created_at": 1792619151,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1792619172,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 5000,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_04a90d6b073077f2006ad9329339b887d1bac53c5fdc9d20cb",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2TKlrXaB_m2FASLyzs6uf33VOBwgRHLWxoKO_tBSXtJ074BpVDtEtVbf0LivFCpgx7Ek-5_pKfg7HZ7jvTveUlN1d5T_BusweaXJByx0GpDVUhhpAcKAsBPutI7RRKzTOEic42Y1xz794FgeskY2NUPy6nsrclDakNgnctBqJ4t7ZLUUVFHjPt6mLEnmhX83yUvxw3a-rz3U2Xb77yrWXf5yGhZmmTymhb08qfzD4Ip6eY59CSnSJJVN9FBikkyX7eN76tBfzInkgT5kKYN0EJ1OhEtyt7k2vsNgt6xrNV1OqGQLx6xp976GDJlp-SlOEuN92OccCztzc18UO0-WjZ_hbk34Eg4ZhBTp7uXHaNEvn9HHVfFOTq2wOHP0vnwLLSL0REWudaYjLlj_BTYgoxhVR0Ueo1GYNx9HkSdiM80__jiBgiYTchW8iqXSGIGm8F5Ai_o_rjf8OjK0tsE5G3oxR3hJ4M5Posb8HNcnLWqbQSBAVfBowlUd7qcu86GeZIyzvsTYiFX9drLG8_tD6IiEZuUpOUBYanatQXuKQuVf8u3Rn4fZp90ireS3iBVYFrYntiO-kgkD0zivxJxLwkOymGFQcyq_aKINFu7tRr6ofC75evCan5ppWFqUeLVoJSwqvhpFMwwlVc-3flupSWctgbEUzIV1HUxCSTcyYcaTVnw0I2mzVvt-TBf_sqSiIbu9CaTHycQ7_qCNbReqaGOafKoKv1T5pmYp_c9-rWGWaGWWa_2uCEg42aYjn3TvrMUJW0oejKwRVs8zOLHCvBdDzrNgjyZpw4hADZU_viSNtN73qQz3PbQsF7ASDmr08jMq1bYoBDOLynncDOWTpyyIU2GEO5rDyy2jvYD-SwH97-2bvD9gF-WhClveY5M4PMthAYasttVpDc6MyfnDo7IFXTricEWUuJGlek4VhsZS4sEpGNtzm_lgn-EC3X3EVS7_epy8IBwPlSV5l9pp4YUrsXMNzz8GtQ5z2mTMdGmIJ4URqj0cb9HzflB-ZH3Id7wQrjYdkr4VZozV0lMDCJE4ZEKn2jUcoZuD1Ia-sag3J4wJsWxlrlpmoPrzopk58tAefrpGqYEHZ_5xDIWCiO-C3ept__S9QfSl0dmIEnZEHIrTxkLzEzOimarRWsAuv38EMTs3ZA0Y11zJQ39an0IbaTInBrW38uN6ACjRAsGjyRm6yJi_H8EwR9t86RMlIZEU-AmLQECNN5eFw3TwprcIA97QzKVJN3PZSvaY7Nb-iP808k8TmdpaqXXOOtcBacb8QB6VcI8P7bdWzF1fH3i_V5hiGducFOtYqcy3kY6UEZgNZOxpmGuKpSXUmfsoHdo5QtMspC73fkzs8SjkKykoQfjSouFy77kzptKvGCPBjdo1MO699JGN5_qB4j8F_6kKyYsPSzQkBXnZIvT5KXT_aLdr8go2c2YqaAo8Gk07N2U6RPxI7SfxWcgwCnyc4CymFjgeAh4Ngw2Dk8h6nf_Nuuq4AEm95uAigwbo4y6fXr0rkErDdQcxZdrHXmfd-_3qrrPdYT0EJ9Rabxuc4urSZwlPA72jrTqHCVF-AUtcNx-pUvC7E63bC-sIPVq2qAIWegxL0cQu9pmujqgsu_1Fvf3Y40LSNWiqJFLJ_MW27DVNmFOk-2HgsYrLHFho2f_eOMOPpL5vV_nRVaZVnLHAHBjgMCQPvuOLVd0NeUGs7-R_fewXBEL1mA58bKZ9EAfiMBtIm2fF77hzLGthQgnncSFPSMPHlzLj5oS0Mumge3mqIIm8jXytPYu4Nogm27l--dGXRXMxJDcyJILp-6lESnbDm9NWEm75HYpP4vD8zToUFegYvsmpkdFkz9wvElx5KNAFr6sMrHgEFXwhRzs6U_wpW1U6W6fkF1sWrDVJ8NFqyBfcivdTJ-3fjRO35E-6cPkthBR04oLyMJuLil2lOj2KzZ2W_GalJSJ4Oq2OWpJez7t73vFl51Uar-0BmjF2AQWuxlUSKIWwQC7Q0vOJKvjc-6YL0aTwgB8d6eTZYefJOgFdItiPF574aAloTy93yRqksVyJXQi5qK5UQhhoXISNY7zNeOc3mimfyS9ldZVz8TdjmGpv7VJSbv_opwKPWbp9HeuxhqGFh5n--Sdv3j9g9c2Jh54XYhNiLK0R1sqJ4lzk7RPfZjAm0nunV8vY5gFE9n8RLr8i-6mCxeA4lJ-OUINGFrMeHHZKA17cY_H66O6Wmry3d8M9T8xRbcaId7iXkcxKNBT-DPauDzpAgVOakil6BTukaL5xhWIb3LFnSn7-apmLvjsND65KqdYhf8dBOINmQO7C7t_axnQJKHWZ36Ryx1SDP9AKt_joWobE4zccH4fD7M-5Oaak5XcDP3ib1yfcX0xM2S1_AZk0Av_pYjAzO-VBUFUn5hRgZ4hY0cmtWqTcAzEIL9OvehG8YgxVHuw53YfKyz05OoDLYS-E3RAG7X3zMG5fiXxhafbe4njmn5J7Syx4BZTwy9q7XKdYCpUAYC_JFm-NYFpevAvwGtkl_t7apztr8IOFQYs4oG5hAikV-2L2CsQrta2VbW4dQVLxlzZBhBA5-uF-WyaHdt7EvqF4p3v10Ckgi_lMG3iWmlO7wjBmnbXlRwUZprwUSw6DWMUz6ek5LYWgIogJb-GYPyqmhnKIPzOtdrE_RqpQpudGpWFLPGFa_4DUWiyo-AdGoE_gWJI4clD_4dd-2qkg_bnk6JVbd20pE7wLK5_iV1beDrAO7pviGZFEcTIDqmntE3vPzsyRQ4XXhKY7SKGazvU-X4F8rF2CcVU3Taq4fzuiN9cLuMdSJNupS-nmeCkw6AC8EJ32xfHBlFd6Pqnf7LBEH3GIUbevAhlMmynr4ZSO992aWzxLTxsC5794UJ7CXjt5JX7cpREiVBrKn85wZz-A6L9FljF9whh87aTz4Pkom3uDTUSOg_9QjvLRbfCiSB0Tx-6zOwL2iDy6Wn6U-kFfjbnOywGflh54Gq0xAts37i8tXbTLsGi8KXu5XowOtJ8N78OK5tx16gM4Ct9644Cg2pms4wLz2spL5SWmw6mQpkcW3reqEluWLQLxrJNcvRnNQhZtB0ovr1etRWRqQPK2CLivDsnMu_01FIh1hdEHSCRm4UOwnfZB8C83oHEJ2YrocTJ0eXNPQPtNBolDIk60yoPVRoruT2jck3GzbzrB99F4sZqj3pHGrcFNp7OtcgauyY6QddIW0pC4UjEbz4CNQJJ7EqIV2rnWlmSDiWxa02ZKqqfKWM3gZ6V6wRyBD9KHzT5aRPf-LDtcvOakIaGVB1B92pRfq0m2_n9Fw0HZimYvwHWkx-fU9nV7kzrmWZeNbkC-ho6bE0A1wxZEDP1E0PIXkFyIrFppWWMpjHnMZZahq3bkp7Hep-osMhvT8q3ZbuX50MnzIDykAp5p2AOUWEpUC-6urwNllhAHufC9ONgDUZpPojYYGg1lPuKbxwGsUNBsxzlc05GjNdrneKzjEei8rppOHC82bl-1raqsfJoyzmhSVAPLy8wpkCZgMr3vlR4ad3Tudvw25huJXa6XW-bvbERHdI2JHMHp_ZniCQgrQIP8KP8EySE_5J1jxfP-BG1bSSRY827ugmzIBSAQwWARycZIHk7u3VF0PjQpohgAs1rkMwRPobu01h9H3IXEkI0hAOXidohWN6-Wyw-4H5zGeQbou4kLWPeSrg81y4aF6fBSTU3uUiHjBS9jrCXhqYPzNDpOV7f5dlHXcalDbhyX-E8kO58XKG69Ax7KRiOpua7C3Xb19ghp4uWAejqvHAB3bZBKYj3EBShUTsDYpodv7uZicbeXKXBpdajL58Sia-GdppY8E3IoYnexXDw_vDEra3nz7mFaTHhtDWOMkRwNizVzSydXmi18KvkeQ2fOH8z1ovEo9fc57b4qMcNynBtkJfTOxdECl4-o8RsMjt6npXzV1GAY6owLGbEkotHLbE9bGkicEvaZwgwfSB3sG5bhRUuEZ6YiFjvlCLqUDYhlQ-TpJlncFhcYKe1kk2qatbsQRwIOvCZA__tsuyBxXwAiHIuh2TF_GRGqSnpmOLh3KROU5572wEqePl42CSlUfAeCsReA2OONBIaIzbR-BK-v8eBS59vQsxH9XkELTSMCSzWZSru2R2tRCEUr-AiW6vmGM1vXXnwjyqeJjUPxo9kzWr_Urdq2VQX5ggNmyD-QUV-YQQFKsCLIK41iyqv1UwQESmDUxn1za8mbXqLGGh5dMiOsaBzFyD3CQCyVRwwnNoTPAafJr56EOW4bZPJj_t8kKxc84Aw8f6fmCOOcriUuUEIR1QMlwQLqwfg0xHuUj9ycXD-pBAknZY1k_eE05CmmaeCOZ-he3QsNlEvTKTQoShX3rVccpINwMU9DlFuRpwN2evS6jhljRuH1dghtQSuxkSqDxHE_yZBRZKudI_h5AHn8JkrAx0a8dKqR_1zl5uWT3_1i4cAxVlKfvUIBqahhVw3KAy6TugU7onPTH-daE8324Yx6f21QXIEbJmGWwonZ7JKc9hmjiqtSP70BmXRQFX9_ec9PgDxOoth7C6H6bdVOPuALTbAKTWGmf2JpRKVaFygPzE6BVIkeroBQBuZNjp7NyiNl-51Vbu_LXtqZFSUly5zo1cInEB3sfa3S9drkvo-Gci6r-Hk5SwjbnpeYh6lF1Wv0Ay6b5-PJt6LU6c3wd117gSPXtp-9wkYGmZ9UhdKSo8NyJvRhDMiJLecfuYfgMALn6CEg8E4B-wMOMa9ZmiIujTFKsVOE6rgwmuo6cHCs6HJ9GTqpxaOv4qUkph4Q0awBzkyCbHf4mRaBBM_9IEMAQF97zVdWW4S9CT1fRs8V4Sux6kt7sUqnwEVJImqmdf5n3-HxoLtfo4mAxpwk7gK17uz9GyZHGmuIo3EjTovCiKlWdbbrIXuyqksyXDMlBIbhIOum7m3RMyFfoChz0TtGOiOGfCc5-H52yuDIIOBAXYcLCoLI4r4_oNKTob1JwQFmLBSGO1d-QTuvdqUbRIs_otKbObffFxaRkRGQgS2koObFm1geRYyd2FPBJu4lIVbK7xML9SYLo27XHmN7po0pmFkm2nk3ONGAA_cxWsyDVpkCHwM5-IMNVt_3I9lfMsud9fvmhSFpyO6G5J4V_BbjWEFv3XwuEf5fCCP_IPOr0kgsKb_3DLlpy3YMH1GjG9uji9JaMgSiBT-eTVwlLaUGZ50arOeY1Hw7FXWAKkc9hZeY3vKDlezWhJD_37FSZrcehLY0V18uv0ZZrEAO24pG__9K7FoqZeIwTly5ADvmxQQfbCLUw8QOpEZXSKkYgTJCjUSf4quvZxZ8np6jnV-AFViJlruf73y3z9koAMIdGUTukxRGNxpmKE26cOTbgFfYRpBLj1VlqerkoBHa9K9xOiahLX-Vrl7dOnAP33ssRbqGeVqXgYQ1aVE2zexar_3lDzvIBaFk-Y2b3uQIQYbrkv3HcLKT4idZ5VvJvVzEC9J6_CBCRXUQfARN9ktjlrm2PDyfmyc2QFg57QZd3yLSeJQN-w-HXWYAm8B6LC7mH0HMnx3n7iswH6VzMaj0MwyWMXJaV6swPU1kvR8aRZcst2cmnisl-DBX1zIHBxxGw4mtlH0i0_QWmKa-dZANQdGckSdA2GoYHEAMOhx1KYTIbBbxov9aisR9ZqMIGjqKwjtPebSui32QAWCb4wvK80gJkZhtk8aedvnCdgifobV_L5tPEoaRb_W_RHXkWlaG_hTTG2pwXtKgW9L1MeMWwZuk6vb5z1Ykj1bFuBidIBzAgp9ulTxmZl_mPgf8W9F_qNQYlpi3TK2CeTL-KHo5hrU4Uaz9Vm7pSeJYTDVn3YAeo5w6N3m0IVwkfFU6v6xAgNhRDO8q1vvz7CxA9TxMbbrELvxNZ1AS6fowoAFHKE1rFEfOJDXsNUjL_rQDU3fDSR1T4zA7KEhZ5aA0Hm3h3TdXL5490bdLrQtCcrP5WGmBIrRQn7KjoAXIk44Pwm4d95zKYYP4_Jzd_6l1GksXLgtH74R93DHEDQ0fi1q5Dgeekcohk0Al7lx0Yui6lHzrdY7xShZuUOXmt7c6TaNlhMChtG8oIFxdwYqUPtF4RuJTKMcyryNnaJrAeLlelDnXJX_4rn_QD3tkneVQFe0zJmIykiyoK4sYA40HcM5mPJeZaOk_Pv9wNoRpchK0iGPwRs4XmIO6MA9xPC-3FzWH9SHjTRsfujdhL32P8s95amfhBL606PMgmPAYTSjMyNBsKbyyk2RwDEglCC-jkMU9z18LLbILJ8Qj9mXrLEtno_zU2rcDXqSNfXH0s2vaDfUkQpp4Fz15ZTGBvp6AIfIFRcn1K0fA1q8UtlDR08dfHo8bvqbfN0u2_h5HZgV4MQgnBrEYqUiQeJj51tvJmNCDIic2Bo0XDMimK42GVbU9V4vEBtFO-lV9PdN_u7w6Boqmgdu-I02ZquVykxGVb4WgG1H-7vLjrnrhCAK79BZhB4e08BkmbAnyxN4wp-gO2lvNASeYP_WEJuUZq0TnYTjfs1qkFpiPdOSZNyrukMFWc2fWAcGr_GYa_Ohfg7WzJDqy3IS79KGXBKO-AecXw2VSvNLDTIhgC20xsRNJuAY37-iPP__EmnMwPxl4vILY-16hzRgDJU0ihAl7sgULfTBp6ISUXwaUqccyYc6FQmYCPb4uOX-Rjp_3WHn6kan8W7nAsEpDRDkuiZc727G0jt1StGTnDQgfBW72dLzSu9ONqSps-EI52lrVTL7S_Ka17orOFE_bXVm9RV6lNgWuP9841o8PRKodpFETa_aDyKtLGBvuoyg50KwmZ5oyx3ovyuf-H9RrXp4T90Ds9p3dhuy7SJYguKmyXU2YMIdKlR70scDjFjfrPnIWtuF7mFDSLtx-Em8JVBAEc3rIpP8vHTlmAEDWD5ZxbWegpLNFwYB8n61GtgcER5xkRiN8SbGpRD2kaig9EpGcraGUfYBEN4t8mt419QhScCrz_JLP8KKvHNqFuk4UaB4uP18Nz0U2lpqlOqivDTSv5GjXARu9PJ5-OVaRW7OfHQPiJh6mVh9gGHItvNbR6HHSJ8SOOny6MDK24AZswSvSygkVrnUjqpJTB2zTNokzcF7lf_mhuGzTBjhlsArV8KKj5WKdALyCN5Bg9aLNatd5ux_P1Xbpqwq5eN-a4TvZxfepzPDeo9i72oISc_2vkn8bztM100ANamjkMuHI5JEu726mHOOH1fVrJUOnBjmmhtIMNtxUQ7Tc2ctWZ9pECewPcJY28dVQIoHjspAr0nuI1j9qqCTIzWHmTkgpF25XC5Jac6mRSopBtRAD6yXchwluZOOVB5Ppd35qon4gV-j9DpS7RgGzX979T7MZwzwGXswS8MhDUzOSMQFtOa_oheiecuH_Ss6uQtiTUrneK17FZf8_cadGcNLmshTawV9AGbs31y8Bge4-cUVMe7Tq_kFSQu8BZwycK27r24vhlhgjAL1Xtxv4VaZMIJXQejRLQrMoVhV6oU8sI-h2wDptPrjl5WPe2eI5v0y2RBv54hqtsEIDiO5a6vrYz893u2lpyUU9vvlJClyNEuCZdqZYwodJT8VcRMUKdORmpQbUbNYeVFVgFNchnqIMNnbdt0PGt6Olw52R2fwyYg04jN_N-lRwMO_cETsttMeq9o08z2ni5ZZlkP9scr9Fba9qDR_T2ENMA_wDG8AbJJdS_4yEqt7UM6M0mxkxgzCgjMausgqBMw8WnbfC2T6QagaFdPzki_pUzNSFhjQQ4lP2ZsXYLgB3U5WEIFTVln8=",
+      "summary": []
+    },
+    {
+      "id": "msg_04a90d6b073077f2006ad93298008c87d1b1e558871637f2e3",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"scene_facts\": {\n    \"scope\": \"Only the later channelized work area visible approximately 78-90 seconds is described. The approach view at 52 seconds is included only for potentially relevant warning-sign evidence; association with the later work area is unconfirmed.\",\n    \"evidence_status\": \"Model-derived visual evidence, not human-confirmed ground truth.\",\n    \"survey_vehicle\": \"Black survey vehicle, user-confirmed.\",\n    \"posted_speed\": \"20 mph, user-confirmed.\",\n    \"work_duration\": \"Strictly less than three days, user-confirmed; more precise duration unknown.\",\n    \"road_geometry\": \"Urban two-way roadway with one apparent lane in each direction and a centerline visible through much of the approach. The roadway is generally straight in the scoped segment and crosses an all-way-stop intersection near the end of the channelized area.\",\n    \"traffic_directions\": \"The survey vehicle travels forward in its apparent right-hand travel lane. Opposing traffic would use the lane to the left of the centerline.\",\n    \"closure_or_obstruction\": \"The channelizers appear to delineate a localized work-area obstruction or closure primarily along the left/opposing-direction side of the roadway. The survey vehicle's forward travel lane remains usable through the approach. The images do not establish whether the opposing lane is fully closed for the entire work area.\",\n    \"intersection_relationship\": \"The channelized area is encountered immediately before and alongside an all-way-stop-controlled intersection visible around 83.8-90.1 seconds. The exact work-area limits relative to the intersection are uncertain.\",\n    \"apparent_work_vehicles\": \"No clearly identifiable work vehicle is visible within the scoped channelized area. Vehicles visible near the intersection and beyond cannot be reliably classified as work vehicles.\",\n    \"apparent_workers\": \"No person is clearly identifiable as a worker actively performing traffic control or construction within the scoped area.\",\n    \"flagger_evidence\": \"No reliable evidence of a flagger directing traffic. High-visibility orange elements are attached to channelizers and signs; clothing alone would not establish flagger activity.\",\n    \"bicycle_lane\": \"A distinct bicycle-lane boundary is not confidently identifiable within the scoped 78-90 second segment. A bicycle marking visible after the scoped area is not used to characterize this work area.\",\n    \"separately_encountered_work_areas\": \"One later channelized work area is supported by the images. The orange warning sign visible during the 52-61 second approach may relate to this area, but that association is not assumed.\"\n  },\n  \"visible_features\": [\n    {\n      \"feature\": \"Orange-and-white vertical channelizers forming a taper and longitudinal boundary\",\n      \"image_timestamps\": [77.4, 80.6, 83.8, 86.9],\n      \"description\": \"A dense line of orange-and-white flexible drums/bollards begins ahead and continues along the left side of the survey vehicle's path. The devices appear to separate the usable forward lane from a work or occupied area on the left side, near the apparent opposing-direction lane.\",\n      \"uncertainty\": \"High confidence that channelizers are present; moderate uncertainty about the exact boundary and whether the entire opposing lane is closed versus locally occupied.\"\n    },\n    {\n      \"feature\": \"Centerline\",\n      \"image_timestamps\": [77.4, 80.6, 83.8, 86.9],\n      \"description\": \"A double-yellow centerline is visible approaching the channelized area. At closer views, the channelizers are positioned generally to the left of the survey vehicle's usable path and near the centerline/opposing-side portion of the roadway.\",\n      \"uncertainty\": \"Moderate confidence in the centerline location; pavement repairs, perspective, and channelizers make the precise relationship between the centerline and work boundary uncertain.\"\n    },\n    {\n      \"feature\": \"Usable travel lane\",\n      \"image_timestamps\": [80.6, 83.8, 86.9],\n      \"description\": \"The survey vehicle has a continuous apparent travel path on the right side of the roadway through the channelized area and toward the intersection.\",\n      \"uncertainty\": \"High confidence for the survey vehicle's path; the status of the opposing-direction lane is less certain.\"\n    },\n    {\n      \"feature\": \"Opposing-direction lane or left-side occupied area\",\n      \"image_timestamps\": [80.6, 83.8, 86.9],\n      \"description\": \"The channelizer line occupies or separates the left side of the roadway, where the opposing-direction lane would ordinarily be located. No opposing vehicle is shown using the channelized portion in these views.\",\n      \"uncertainty\": \"Moderate uncertainty whether this represents a full opposing-lane closure, a partial-width closure, or a localized obstruction.\"\n    },\n    {\n      \"feature\": \"Orange diamond warning sign with exact legend\",\n      \"image_timestamps\": [52.1, 55.3, 58.4, 61.6, 77.4, 80.6, 86.9, 90.1],\n      \"description\": \"The legible legend is \\\"ROAD WORK AHEAD.\\\" The sign is visible on the right side of the roadway on the approach and again near the later channelized area.\",\n      \"uncertainty\": \"High confidence in the legible legend; low-to-moderate confidence that the 52-second sign and the later sign belong to the same work activity.\"\n    },\n    {\n      \"feature\": \"Stop signs and all-way plaques at intersection\",\n      \"image_timestamps\": [83.8, 86.9, 90.1],\n      \"description\": \"Multiple stop signs are visible at the cross street/intersection. The supplementary plaques have the exact legible legend \\\"ALL WAY.\\\" An overhead stop sign is also visible.\",\n      \"uncertainty\": \"High confidence that the intersection is all-way stop controlled; the work area's exact termination relative to the intersection is uncertain.\"\n    },\n    {\n      \"feature\": \"Crosswalk/intersection pavement markings\",\n      \"image_timestamps\": [83.8, 86.9],\n      \"description\": \"The survey vehicle approaches a marked crossing/intersection area while passing the channelizer taper.\",\n      \"uncertainty\": \"Moderate confidence; perspective and pavement wear obscure the exact limits of the crossing markings.\"\n    },\n    {\n      \"feature\": \"Workers\",\n      \"image_timestamps\": [77.4, 80.6, 83.8, 86.9, 90.1],\n      \"description\": \"No clearly identifiable construction worker or flagger is visible within the scoped channelized work area.\",\n      \"uncertainty\": \"This is an observation of the images, not proof that workers were absent.\"\n    },\n    {\n      \"feature\": \"Work vehicles\",\n      \"image_timestamps\": [83.8, 86.9, 90.1],\n      \"description\": \"Vehicles are visible near and beyond the intersection, but none can be confidently identified as a construction or maintenance vehicle.\",\n      \"uncertainty\": \"Low confidence in any work-vehicle classification; vehicle type and purpose are unresolved.\"\n    }\n  ],\n  \"unresolved_layout_questions\": [\n    \"Is the left/opposing-direction lane fully closed, or is only part of it locally occupied or restricted?\",\n    \"Does the channelizer line lie directly on the centerline, or is it offset into the opposing lane?\",\n    \"What is the exact longitudinal start and end of the work area relative to the all-way-stop intersection?\",\n    \"Is any portion of a bicycle lane included in, displaced by, or outside the channelized area?\",\n    \"Are the visible ROAD WORK AHEAD signs associated with this later work area or with a separate work area farther along the route?\",\n    \"Were any workers or flaggers present outside the camera's visible field or between the sampled frames?\",\n    \"Are any vehicles near the intersection work-related, or are they ordinary traffic or parked vehicles?\"\n  ]\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "json_object"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 28245,
+    "input_tokens_details": {
+      "cache_write_tokens": 28242,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2194,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 30439
+  },
+  "user": null,
+  "metadata": {}
+}

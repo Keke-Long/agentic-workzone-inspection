@@ -1,0 +1,2667 @@
+{
+  "schema": "workzone3_bev_objects_v1",
+  "objects": [
+    {
+      "object_id": "W3_OBJ_001",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        288.2866120451744,
+        260.55935308576375,
+        -0.506433875849545
+      ],
+      "local_xy_m": [
+        190.14057802451077,
+        -4.155126204210875
+      ],
+      "station_m": 187.06150413469427,
+      "independent_geometry_frames": 6,
+      "world_xy_max_radius_m": 0.7944022986286836,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "W3_T81499999_Q013",
+        "W3_T83899999_Q012",
+        "W3_T84099999_Q013",
+        "W3_T84699999_Q004",
+        "W3_T84899999_Q016",
+        "W3_T84999990_Q016"
+      ],
+      "observation_ids": [
+        "W3_T81499999_Q013",
+        "W3_T83899999_Q012",
+        "W3_T84099999_Q013",
+        "W3_T84699999_Q004",
+        "W3_T84899999_Q016",
+        "W3_T84999990_Q016",
+        "W3_T84899999_Q015"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 7
+    },
+    {
+      "object_id": "W3_OBJ_002",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        281.84761001844026,
+        258.03594640946505,
+        -0.8592466278981248
+      ],
+      "local_xy_m": [
+        183.95536449471717,
+        -1.446951170720306
+      ],
+      "station_m": 184.04432466165161,
+      "independent_geometry_frames": 9,
+      "world_xy_max_radius_m": 0.3745251399626198,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "W3_T82199999_Q016",
+        "W3_T82299999_Q009",
+        "W3_T82499999_Q013",
+        "W3_T82599999_Q009",
+        "W3_T82699999_Q014",
+        "W3_T82999990_Q014",
+        "W3_T83099999_Q014",
+        "W3_T83199999_Q012",
+        "W3_T83299999_Q013"
+      ],
+      "observation_ids": [
+        "W3_T82199999_Q016",
+        "W3_T82299999_Q009",
+        "W3_T82499999_Q013",
+        "W3_T82599999_Q009",
+        "W3_T82699999_Q014",
+        "W3_T82999990_Q014",
+        "W3_T83099999_Q014",
+        "W3_T83199999_Q012",
+        "W3_T83299999_Q013"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 9
+    },
+    {
+      "object_id": "W3_OBJ_003",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        284.25913241201636,
+        257.3622337518524,
+        -0.9455063632334013
+      ],
+      "local_xy_m": [
+        185.10830015563494,
+        -3.601389267809142
+      ],
+      "station_m": 185.21808488058818,
+      "independent_geometry_frames": 6,
+      "world_xy_max_radius_m": 0.5411015234270962,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "W3_T77899999_Q010",
+        "W3_T80299999_Q011",
+        "W3_T81399999_Q017",
+        "W3_T81799999_Q013",
+        "W3_T81999990_Q015",
+        "W3_T82399999_Q014"
+      ],
+      "observation_ids": [
+        "W3_T77899999_Q010",
+        "W3_T80299999_Q011",
+        "W3_T81399999_Q017",
+        "W3_T81799999_Q013",
+        "W3_T81999990_Q015",
+        "W3_T82399999_Q014"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 6
+    },
+    {
+      "object_id": "W3_OBJ_004",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        283.77654601154137,
+        258.2084843785573,
+        -1.3890914138258628
+      ],
+      "local_xy_m": [
+        185.36004909368052,
+        -2.669455672288626
+      ],
+      "station_m": 185.47150052464428,
+      "independent_geometry_frames": 2,
+      "world_xy_max_radius_m": 0.1336538996301361,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "W3_T82799999_Q019",
+        "W3_T83699999_Q014"
+      ],
+      "observation_ids": [
+        "W3_T82799999_Q019",
+        "W3_T83699999_Q014",
+        "W3_T83599999_Q013"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 3
+    },
+    {
+      "object_id": "W3_OBJ_005",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        284.5448544841145,
+        259.2692869525902,
+        -1.3630048493960716
+      ],
+      "local_xy_m": [
+        186.65446191507402,
+        -2.46921716971045
+      ],
+      "station_m": 186.76717218014466,
+      "independent_geometry_frames": 2,
+      "world_xy_max_radius_m": 0.1841051424672157,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "W3_T83799999_Q013",
+        "W3_T83999990_Q010"
+      ],
+      "observation_ids": [
+        "W3_T83799999_Q013",
+        "W3_T83999990_Q010",
+        "W3_T83399999_Q013"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 3
+    },
+    {
+      "object_id": "W3_OBJ_006",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        285.20053481251216,
+        259.5097881251188,
+        -1.3478471840689332
+      ],
+      "local_xy_m": [
+        187.2866553994806,
+        -2.766014921233527
+      ],
+      "station_m": 187.06150413469427,
+      "independent_geometry_frames": 2,
+      "world_xy_max_radius_m": 0.218144958861012,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "W3_T83999990_Q012",
+        "W3_T84099999_Q009"
+      ],
+      "observation_ids": [
+        "W3_T83999990_Q012",
+        "W3_T84099999_Q009"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 2
+    },
+    {
+      "object_id": "W3_OBJ_007",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        285.3683598128606,
+        258.7176897317698,
+        -0.830131333695781
+      ],
+      "local_xy_m": [
+        186.8417781889607,
+        -3.4425275693400756
+      ],
+      "station_m": 186.95399219208713,
+      "independent_geometry_frames": 2,
+      "world_xy_max_radius_m": 0.17936383939548112,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "W3_T83899999_Q009",
+        "W3_T84299999_Q009"
+      ],
+      "observation_ids": [
+        "W3_T83899999_Q009",
+        "W3_T84299999_Q009"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 2
+    },
+    {
+      "object_id": "W3_OBJ_008",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        284.8144292748865,
+        257.92413985871667,
+        -1.1758456721685138
+      ],
+      "local_xy_m": [
+        185.9003483382786,
+        -3.60143068554552
+      ],
+      "station_m": 186.01043103898596,
+      "independent_geometry_frames": 6,
+      "world_xy_max_radius_m": 0.4806009510404852,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "W3_T82799999_Q020",
+        "W3_T82999990_Q019",
+        "W3_T83099999_Q016",
+        "W3_T83199999_Q015",
+        "W3_T83299999_Q017",
+        "W3_T83499999_Q011"
+      ],
+      "observation_ids": [
+        "W3_T82799999_Q020",
+        "W3_T82999990_Q019",
+        "W3_T83099999_Q016",
+        "W3_T83199999_Q015",
+        "W3_T83299999_Q017",
+        "W3_T83499999_Q011"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 6
+    },
+    {
+      "object_id": "W3_OBJ_009",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        287.06094122107856,
+        265.1447101290055,
+        -0.5182522665086036
+      ],
+      "local_xy_m": [
+        192.6001696161457,
+        -0.12404129074086595
+      ],
+      "station_m": 187.06150413469427,
+      "independent_geometry_frames": 2,
+      "world_xy_max_radius_m": 0.3916260225854086,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "W3_T84599999_Q012",
+        "W3_T84699999_Q015"
+      ],
+      "observation_ids": [
+        "W3_T84599999_Q012",
+        "W3_T84699999_Q015",
+        "W3_T84099999_Q011",
+        "W3_T84599999_Q011",
+        "W3_T84999990_Q009"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 5
+    },
+    {
+      "object_id": "W3_OBJ_010",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        288.07434111870884,
+        261.86961796715286,
+        -1.2217932043724582
+      ],
+      "local_xy_m": [
+        190.98549715241197,
+        -3.1482834860694067
+      ],
+      "station_m": 187.06150413469427,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "W3_T84899999_Q013"
+      ],
+      "observation_ids": [
+        "W3_T84899999_Q013"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    },
+    {
+      "object_id": "W3_OBJ_011",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        288.66399643230983,
+        263.29063688930603,
+        -1.3207392147469639
+      ],
+      "local_xy_m": [
+        192.41023238506975,
+        -2.567665123632613
+      ],
+      "station_m": 187.06150413469427,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "W3_T84999990_Q014"
+      ],
+      "observation_ids": [
+        "W3_T84999990_Q014"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    },
+    {
+      "object_id": "W3_OBJ_012",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        286.02466506687705,
+        260.17649004410225,
+        -1.3374806012610203
+      ],
+      "local_xy_m": [
+        188.39428363879796,
+        -2.8826979618667776
+      ],
+      "station_m": 187.06150413469427,
+      "independent_geometry_frames": 4,
+      "world_xy_max_radius_m": 0.5577486937039687,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "W3_T83899999_Q010",
+        "W3_T84199999_Q015",
+        "W3_T84299999_Q011",
+        "W3_T84399999_Q011"
+      ],
+      "observation_ids": [
+        "W3_T83899999_Q010",
+        "W3_T84199999_Q015",
+        "W3_T84299999_Q011",
+        "W3_T84399999_Q011"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 4
+    },
+    {
+      "object_id": "W3_OBJ_013",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        286.7118468311875,
+        260.99700605380156,
+        -1.3272345175115525
+      ],
+      "local_xy_m": [
+        189.40682207164153,
+        -2.793844176447201
+      ],
+      "station_m": 187.06150413469427,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "W3_T84499999_Q010"
+      ],
+      "observation_ids": [
+        "W3_T84499999_Q010"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    },
+    {
+      "object_id": "W3_OBJ_014",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        282.9199607269469,
+        258.3780072436428,
+        -1.4238864599165446
+      ],
+      "local_xy_m": [
+        184.87792208465282,
+        -1.9414241491135305
+      ],
+      "station_m": 184.9871303338372,
+      "independent_geometry_frames": 2,
+      "world_xy_max_radius_m": 0.1412401395501195,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "W3_T82799999_Q018",
+        "W3_T82999990_Q015"
+      ],
+      "observation_ids": [
+        "W3_T82799999_Q018",
+        "W3_T82999990_Q015",
+        "W3_T82899999_Q015",
+        "W3_T83599999_Q011"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 4
+    },
+    {
+      "object_id": "W3_OBJ_015",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        282.42392776370866,
+        258.20212146219507,
+        -1.4041446424154
+      ],
+      "local_xy_m": [
+        184.277386317468,
+        -1.78125639550699
+      ],
+      "station_m": 184.3804985271786,
+      "independent_geometry_frames": 3,
+      "world_xy_max_radius_m": 0.7415213402786662,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "W3_T82499999_Q014",
+        "W3_T82899999_Q014",
+        "W3_T83199999_Q014"
+      ],
+      "observation_ids": [
+        "W3_T82499999_Q014",
+        "W3_T82899999_Q014",
+        "W3_T83199999_Q014",
+        "W3_T82799999_Q017",
+        "W3_T83299999_Q014"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 5
+    },
+    {
+      "object_id": "W3_OBJ_016",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        281.47347628491855,
+        261.05331204333424,
+        -1.5715977714101363
+      ],
+      "local_xy_m": [
+        185.7616532796759,
+        0.9686604179094298
+      ],
+      "station_m": 185.8784604497268,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "W3_T81799999_Q006"
+      ],
+      "observation_ids": [
+        "W3_T81799999_Q006"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    },
+    {
+      "object_id": "W3_OBJ_017",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        283.0940857144442,
+        260.1531450170993,
+        -0.819150684408565
+      ],
+      "local_xy_m": [
+        186.26200354951072,
+        -0.8163676506834182
+      ],
+      "station_m": 186.37595288362155,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "W3_T82699999_Q015"
+      ],
+      "observation_ids": [
+        "W3_T82699999_Q015"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    },
+    {
+      "object_id": "W3_OBJ_018",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        287.84516189248325,
+        266.292093783712,
+        -0.530595549939185
+      ],
+      "local_xy_m": [
+        193.96730954479148,
+        0.1257981137744016
+      ],
+      "station_m": 187.06150413469427,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "W3_T84699999_Q017"
+      ],
+      "observation_ids": [
+        "W3_T84699999_Q017"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    },
+    {
+      "object_id": "W3_OBJ_019",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        282.64571986785415,
+        256.64099289482544,
+        -0.9565913711344367
+      ],
+      "local_xy_m": [
+        183.44099207708274,
+        -2.968809695416996
+      ],
+      "station_m": 183.50736825330566,
+      "independent_geometry_frames": 9,
+      "world_xy_max_radius_m": 0.5261094788912927,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "W3_T80399999_Q013",
+        "W3_T80599999_Q011",
+        "W3_T80699999_Q016",
+        "W3_T81199999_Q011",
+        "W3_T81299999_Q011",
+        "W3_T81299999_Q012",
+        "W3_T81599999_Q015",
+        "W3_T81699999_Q011",
+        "W3_T81899999_Q012",
+        "W3_T83499999_Q008"
+      ],
+      "observation_ids": [
+        "W3_T80399999_Q013",
+        "W3_T80599999_Q011",
+        "W3_T80699999_Q016",
+        "W3_T81199999_Q011",
+        "W3_T81299999_Q011",
+        "W3_T81299999_Q012",
+        "W3_T81599999_Q015",
+        "W3_T81699999_Q011",
+        "W3_T81899999_Q012",
+        "W3_T83499999_Q008",
+        "W3_T82199999_Q002"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 11
+    },
+    {
+      "object_id": "W3_OBJ_020",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        283.3828339025354,
+        257.11108642272507,
+        -1.1112464280195224
+      ],
+      "local_xy_m": [
+        184.29446368044194,
+        -3.1616634210865513
+      ],
+      "station_m": 184.40040084791718,
+      "independent_geometry_frames": 4,
+      "world_xy_max_radius_m": 0.17008021811528445,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "W3_T81999990_Q014",
+        "W3_T82199999_Q017",
+        "W3_T82399999_Q013",
+        "W3_T82999990_Q016"
+      ],
+      "observation_ids": [
+        "W3_T81999990_Q014",
+        "W3_T82199999_Q017",
+        "W3_T82399999_Q013",
+        "W3_T82999990_Q016"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 4
+    },
+    {
+      "object_id": "W3_OBJ_021",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        283.11417839176363,
+        256.25904615370837,
+        -1.20731330066079
+      ],
+      "local_xy_m": [
+        183.50861493885515,
+        -3.5701397604006964
+      ],
+      "station_m": 183.59505959917647,
+      "independent_geometry_frames": 2,
+      "world_xy_max_radius_m": 0.17528184249669007,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "W3_T76199999_Q008",
+        "W3_T78499999_Q011"
+      ],
+      "observation_ids": [
+        "W3_T76199999_Q008",
+        "W3_T78499999_Q011"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 2
+    },
+    {
+      "object_id": "W3_OBJ_022",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        280.4957317714238,
+        257.9716296819729,
+        -0.9361469323826964
+      ],
+      "local_xy_m": [
+        182.88106672271965,
+        -0.4943676391896195
+      ],
+      "station_m": 182.89858215777969,
+      "independent_geometry_frames": 20,
+      "world_xy_max_radius_m": 0.5965957320221378,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "W3_T80299999_Q007",
+        "W3_T80499999_Q010",
+        "W3_T80699999_Q012",
+        "W3_T80699999_Q029",
+        "W3_T80799999_Q009",
+        "W3_T80899999_Q009",
+        "W3_T80999990_Q007",
+        "W3_T81099999_Q006",
+        "W3_T81199999_Q005",
+        "W3_T81299999_Q007",
+        "W3_T81599999_Q010",
+        "W3_T81699999_Q007",
+        "W3_T81799999_Q008",
+        "W3_T81899999_Q007",
+        "W3_T81999990_Q010",
+        "W3_T82099999_Q011",
+        "W3_T82199999_Q013",
+        "W3_T82399999_Q009",
+        "W3_T82599999_Q006",
+        "W3_T82699999_Q010",
+        "W3_T83199999_Q001"
+      ],
+      "observation_ids": [
+        "W3_T80299999_Q007",
+        "W3_T80499999_Q010",
+        "W3_T80699999_Q012",
+        "W3_T80699999_Q029",
+        "W3_T80799999_Q009",
+        "W3_T80899999_Q009",
+        "W3_T80999990_Q007",
+        "W3_T81099999_Q006",
+        "W3_T81199999_Q005",
+        "W3_T81299999_Q007",
+        "W3_T81599999_Q010",
+        "W3_T81699999_Q007",
+        "W3_T81799999_Q008",
+        "W3_T81899999_Q007",
+        "W3_T81999990_Q010",
+        "W3_T82099999_Q011",
+        "W3_T82199999_Q013",
+        "W3_T82399999_Q009",
+        "W3_T82599999_Q006",
+        "W3_T82699999_Q010",
+        "W3_T83199999_Q001",
+        "W3_T82699999_Q011"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 22
+    },
+    {
+      "object_id": "W3_OBJ_023",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        166.07934107282048,
+        128.9582424691767,
+        1.2574806186124527
+      ],
+      "local_xy_m": [
+        10.697823210205861,
+        -9.954405627098634
+      ],
+      "station_m": 10.795268382016767,
+      "independent_geometry_frames": 7,
+      "world_xy_max_radius_m": 0.035503784727524135,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "W3_T61199999_Q012",
+        "W3_T61299999_Q012",
+        "W3_T61399999_Q012",
+        "W3_T61499999_Q009",
+        "W3_T61599999_Q010",
+        "W3_T61699999_Q014",
+        "W3_T61799999_Q014"
+      ],
+      "observation_ids": [
+        "W3_T61199999_Q012",
+        "W3_T61299999_Q012",
+        "W3_T61399999_Q012",
+        "W3_T61499999_Q009",
+        "W3_T61599999_Q010",
+        "W3_T61699999_Q014",
+        "W3_T61799999_Q014"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 7
+    },
+    {
+      "object_id": "W3_OBJ_024",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        167.68175256551353,
+        137.9184172992749,
+        -0.6712614845009658
+      ],
+      "local_xy_m": [
+        18.19777685194986,
+        -4.785121571160181
+      ],
+      "station_m": 18.287962272501982,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "W3_T61899999_Q012"
+      ],
+      "observation_ids": [
+        "W3_T61899999_Q012"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    },
+    {
+      "object_id": "W3_OBJ_025",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        280.58790438772417,
+        256.29760572864006,
+        -0.8589560678287383
+      ],
+      "local_xy_m": [
+        181.75544808986743,
+        -1.7457296218087603
+      ],
+      "station_m": 181.8141733590797,
+      "independent_geometry_frames": 14,
+      "world_xy_max_radius_m": 0.19886572753635373,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "W3_T79299999_Q007",
+        "W3_T79699999_Q010",
+        "W3_T80599999_Q010",
+        "W3_T80699999_Q014",
+        "W3_T80999990_Q009",
+        "W3_T81099999_Q008",
+        "W3_T81299999_Q010",
+        "W3_T81699999_Q008",
+        "W3_T81899999_Q009",
+        "W3_T82199999_Q015",
+        "W3_T82299999_Q008",
+        "W3_T82899999_Q010",
+        "W3_T82999990_Q009",
+        "W3_T83099999_Q010"
+      ],
+      "observation_ids": [
+        "W3_T79299999_Q007",
+        "W3_T79699999_Q010",
+        "W3_T80599999_Q010",
+        "W3_T80699999_Q014",
+        "W3_T80999990_Q009",
+        "W3_T81099999_Q008",
+        "W3_T81299999_Q010",
+        "W3_T81699999_Q008",
+        "W3_T81899999_Q009",
+        "W3_T82199999_Q015",
+        "W3_T82299999_Q008",
+        "W3_T82899999_Q010",
+        "W3_T82999990_Q009",
+        "W3_T83099999_Q010",
+        "W3_T82099999_Q014"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 15
+    },
+    {
+      "object_id": "W3_OBJ_027",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        280.70364050130354,
+        257.60933551445953,
+        -0.9809965727543479
+      ],
+      "local_xy_m": [
+        182.76411955907858,
+        -0.9053822151860864
+      ],
+      "station_m": 182.78899585086404,
+      "independent_geometry_frames": 13,
+      "world_xy_max_radius_m": 0.6967750331032324,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "W3_T78499999_Q009",
+        "W3_T78699999_Q010",
+        "W3_T78899999_Q007",
+        "W3_T79999990_Q010",
+        "W3_T81799999_Q007",
+        "W3_T82099999_Q013",
+        "W3_T82199999_Q014",
+        "W3_T82299999_Q007",
+        "W3_T82399999_Q010",
+        "W3_T82599999_Q008",
+        "W3_T82699999_Q013",
+        "W3_T82899999_Q011",
+        "W3_T82999990_Q010",
+        "W3_T82999990_Q011"
+      ],
+      "observation_ids": [
+        "W3_T78499999_Q009",
+        "W3_T78699999_Q010",
+        "W3_T78899999_Q007",
+        "W3_T79999990_Q010",
+        "W3_T81799999_Q007",
+        "W3_T82099999_Q013",
+        "W3_T82199999_Q014",
+        "W3_T82299999_Q007",
+        "W3_T82399999_Q010",
+        "W3_T82599999_Q008",
+        "W3_T82699999_Q013",
+        "W3_T82899999_Q011",
+        "W3_T82999990_Q010",
+        "W3_T82999990_Q011"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 14
+    },
+    {
+      "object_id": "W3_OBJ_028",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        281.5575214421782,
+        256.5847632529452,
+        -0.9974252927664831
+      ],
+      "local_xy_m": [
+        182.69364859765514,
+        -2.1777829661633934
+      ],
+      "station_m": 182.7422475922059,
+      "independent_geometry_frames": 6,
+      "world_xy_max_radius_m": 0.40721790887637105,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "W3_T76399999_Q009",
+        "W3_T76499999_Q007",
+        "W3_T78499999_Q010",
+        "W3_T81199999_Q008",
+        "W3_T81599999_Q013",
+        "W3_T81999990_Q012"
+      ],
+      "observation_ids": [
+        "W3_T76399999_Q009",
+        "W3_T76499999_Q007",
+        "W3_T78499999_Q010",
+        "W3_T81199999_Q008",
+        "W3_T81599999_Q013",
+        "W3_T81999990_Q012"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 6
+    },
+    {
+      "object_id": "W3_OBJ_029",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        281.09731567679586,
+        256.25910246735117,
+        -1.2551539019443818
+      ],
+      "local_xy_m": [
+        182.2291816372178,
+        -2.1968779360569606
+      ],
+      "station_m": 182.3024053791197,
+      "independent_geometry_frames": 8,
+      "world_xy_max_radius_m": 0.510282444301674,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "W3_T76699999_Q008",
+        "W3_T76899999_Q008",
+        "W3_T76999990_Q007",
+        "W3_T77499999_Q007",
+        "W3_T77699999_Q006",
+        "W3_T78099999_Q010",
+        "W3_T81799999_Q009",
+        "W3_T82999990_Q012"
+      ],
+      "observation_ids": [
+        "W3_T76699999_Q008",
+        "W3_T76899999_Q008",
+        "W3_T76999990_Q007",
+        "W3_T77499999_Q007",
+        "W3_T77699999_Q006",
+        "W3_T78099999_Q010",
+        "W3_T81799999_Q009",
+        "W3_T82999990_Q012",
+        "W3_T82799999_Q016",
+        "W3_T82899999_Q013"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 10
+    },
+    {
+      "object_id": "W3_OBJ_030",
+      "family": "road_work_ahead",
+      "classes": [
+        "road_work_ahead"
+      ],
+      "world_xyz_m": [
+        167.81264185407255,
+        137.9345234509737,
+        -0.4826350411688297
+      ],
+      "local_xy_m": [
+        18.285634572453795,
+        -4.855145686102668
+      ],
+      "station_m": 18.378376720890593,
+      "independent_geometry_frames": 10,
+      "world_xy_max_radius_m": 0.14323264368494254,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "W3_T61699999_Q012",
+        "W3_T62899999_Q010",
+        "W3_T63199999_Q008",
+        "W3_T63299999_Q004",
+        "W3_T63399999_Q008",
+        "W3_T63499999_Q005",
+        "W3_T63599999_Q005",
+        "W3_T63699999_Q010",
+        "W3_T63799999_Q008",
+        "W3_T63899999_Q008"
+      ],
+      "observation_ids": [
+        "W3_T61699999_Q012",
+        "W3_T62899999_Q010",
+        "W3_T63199999_Q008",
+        "W3_T63299999_Q004",
+        "W3_T63399999_Q008",
+        "W3_T63499999_Q005",
+        "W3_T63599999_Q005",
+        "W3_T63699999_Q010",
+        "W3_T63799999_Q008",
+        "W3_T63899999_Q008"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 10
+    },
+    {
+      "object_id": "W3_OBJ_031",
+      "family": "road_work_ahead",
+      "classes": [
+        "road_work_ahead"
+      ],
+      "world_xyz_m": [
+        312.0094735663356,
+        275.6710033136291,
+        -0.446062018761852
+      ],
+      "local_xy_m": [
+        217.63242548078455,
+        -10.449654140264382
+      ],
+      "station_m": 187.06150413469427,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "W3_T82899999_Q016"
+      ],
+      "observation_ids": [
+        "W3_T82899999_Q016"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    },
+    {
+      "object_id": "W3_OBJ_032",
+      "family": "road_work_ahead",
+      "classes": [
+        "road_work_ahead"
+      ],
+      "world_xyz_m": [
+        287.7031570939541,
+        261.538284980301,
+        -1.2814756903907476
+      ],
+      "local_xy_m": [
+        190.4888924776314,
+        -3.117576395757717
+      ],
+      "station_m": 187.06150413469427,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "W3_T84399999_Q016"
+      ],
+      "observation_ids": [
+        "W3_T84399999_Q016"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_reassessed",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    }
+  ],
+  "observation_mapping": {
+    "W3_T81499999_Q013": {
+      "object_id": "W3_OBJ_001",
+      "method": "world_cluster"
+    },
+    "W3_T83899999_Q012": {
+      "object_id": "W3_OBJ_001",
+      "method": "world_cluster"
+    },
+    "W3_T84099999_Q013": {
+      "object_id": "W3_OBJ_001",
+      "method": "world_cluster"
+    },
+    "W3_T84699999_Q004": {
+      "object_id": "W3_OBJ_001",
+      "method": "world_cluster"
+    },
+    "W3_T84899999_Q016": {
+      "object_id": "W3_OBJ_001",
+      "method": "world_cluster"
+    },
+    "W3_T84999990_Q016": {
+      "object_id": "W3_OBJ_001",
+      "method": "world_cluster"
+    },
+    "W3_T82199999_Q016": {
+      "object_id": "W3_OBJ_002",
+      "method": "world_cluster"
+    },
+    "W3_T82299999_Q009": {
+      "object_id": "W3_OBJ_002",
+      "method": "world_cluster"
+    },
+    "W3_T82499999_Q013": {
+      "object_id": "W3_OBJ_002",
+      "method": "world_cluster"
+    },
+    "W3_T82599999_Q009": {
+      "object_id": "W3_OBJ_002",
+      "method": "world_cluster"
+    },
+    "W3_T82699999_Q014": {
+      "object_id": "W3_OBJ_002",
+      "method": "world_cluster"
+    },
+    "W3_T82999990_Q014": {
+      "object_id": "W3_OBJ_002",
+      "method": "world_cluster"
+    },
+    "W3_T83099999_Q014": {
+      "object_id": "W3_OBJ_002",
+      "method": "world_cluster"
+    },
+    "W3_T83199999_Q012": {
+      "object_id": "W3_OBJ_002",
+      "method": "world_cluster"
+    },
+    "W3_T83299999_Q013": {
+      "object_id": "W3_OBJ_002",
+      "method": "world_cluster"
+    },
+    "W3_T77899999_Q010": {
+      "object_id": "W3_OBJ_003",
+      "method": "world_cluster"
+    },
+    "W3_T80299999_Q011": {
+      "object_id": "W3_OBJ_003",
+      "method": "world_cluster"
+    },
+    "W3_T81399999_Q017": {
+      "object_id": "W3_OBJ_003",
+      "method": "world_cluster"
+    },
+    "W3_T81799999_Q013": {
+      "object_id": "W3_OBJ_003",
+      "method": "world_cluster"
+    },
+    "W3_T81999990_Q015": {
+      "object_id": "W3_OBJ_003",
+      "method": "world_cluster"
+    },
+    "W3_T82399999_Q014": {
+      "object_id": "W3_OBJ_003",
+      "method": "world_cluster"
+    },
+    "W3_T82799999_Q019": {
+      "object_id": "W3_OBJ_004",
+      "method": "world_cluster"
+    },
+    "W3_T83699999_Q014": {
+      "object_id": "W3_OBJ_004",
+      "method": "world_cluster"
+    },
+    "W3_T83799999_Q013": {
+      "object_id": "W3_OBJ_005",
+      "method": "world_cluster"
+    },
+    "W3_T83999990_Q010": {
+      "object_id": "W3_OBJ_005",
+      "method": "world_cluster"
+    },
+    "W3_T83999990_Q012": {
+      "object_id": "W3_OBJ_006",
+      "method": "world_cluster"
+    },
+    "W3_T84099999_Q009": {
+      "object_id": "W3_OBJ_006",
+      "method": "world_cluster"
+    },
+    "W3_T83899999_Q009": {
+      "object_id": "W3_OBJ_007",
+      "method": "world_cluster"
+    },
+    "W3_T84299999_Q009": {
+      "object_id": "W3_OBJ_007",
+      "method": "world_cluster"
+    },
+    "W3_T82799999_Q020": {
+      "object_id": "W3_OBJ_008",
+      "method": "world_cluster"
+    },
+    "W3_T82999990_Q019": {
+      "object_id": "W3_OBJ_008",
+      "method": "world_cluster"
+    },
+    "W3_T83099999_Q016": {
+      "object_id": "W3_OBJ_008",
+      "method": "world_cluster"
+    },
+    "W3_T83199999_Q015": {
+      "object_id": "W3_OBJ_008",
+      "method": "world_cluster"
+    },
+    "W3_T83299999_Q017": {
+      "object_id": "W3_OBJ_008",
+      "method": "world_cluster"
+    },
+    "W3_T83499999_Q011": {
+      "object_id": "W3_OBJ_008",
+      "method": "world_cluster"
+    },
+    "W3_T84599999_Q012": {
+      "object_id": "W3_OBJ_009",
+      "method": "world_cluster"
+    },
+    "W3_T84699999_Q015": {
+      "object_id": "W3_OBJ_009",
+      "method": "world_cluster"
+    },
+    "W3_T84899999_Q013": {
+      "object_id": "W3_OBJ_010",
+      "method": "world_cluster"
+    },
+    "W3_T84999990_Q014": {
+      "object_id": "W3_OBJ_011",
+      "method": "world_cluster"
+    },
+    "W3_T83899999_Q010": {
+      "object_id": "W3_OBJ_012",
+      "method": "world_cluster"
+    },
+    "W3_T84199999_Q015": {
+      "object_id": "W3_OBJ_012",
+      "method": "world_cluster"
+    },
+    "W3_T84299999_Q011": {
+      "object_id": "W3_OBJ_012",
+      "method": "world_cluster"
+    },
+    "W3_T84399999_Q011": {
+      "object_id": "W3_OBJ_012",
+      "method": "world_cluster"
+    },
+    "W3_T84499999_Q010": {
+      "object_id": "W3_OBJ_013",
+      "method": "world_cluster"
+    },
+    "W3_T82799999_Q018": {
+      "object_id": "W3_OBJ_014",
+      "method": "world_cluster"
+    },
+    "W3_T82999990_Q015": {
+      "object_id": "W3_OBJ_014",
+      "method": "world_cluster"
+    },
+    "W3_T82499999_Q014": {
+      "object_id": "W3_OBJ_015",
+      "method": "world_cluster"
+    },
+    "W3_T82899999_Q014": {
+      "object_id": "W3_OBJ_015",
+      "method": "world_cluster"
+    },
+    "W3_T83199999_Q014": {
+      "object_id": "W3_OBJ_015",
+      "method": "world_cluster"
+    },
+    "W3_T81799999_Q006": {
+      "object_id": "W3_OBJ_016",
+      "method": "world_cluster"
+    },
+    "W3_T82699999_Q015": {
+      "object_id": "W3_OBJ_017",
+      "method": "world_cluster"
+    },
+    "W3_T84699999_Q017": {
+      "object_id": "W3_OBJ_018",
+      "method": "world_cluster"
+    },
+    "W3_T80399999_Q013": {
+      "object_id": "W3_OBJ_019",
+      "method": "world_cluster"
+    },
+    "W3_T80599999_Q011": {
+      "object_id": "W3_OBJ_019",
+      "method": "world_cluster"
+    },
+    "W3_T80699999_Q016": {
+      "object_id": "W3_OBJ_019",
+      "method": "world_cluster"
+    },
+    "W3_T81199999_Q011": {
+      "object_id": "W3_OBJ_019",
+      "method": "world_cluster"
+    },
+    "W3_T81299999_Q011": {
+      "object_id": "W3_OBJ_019",
+      "method": "world_cluster"
+    },
+    "W3_T81299999_Q012": {
+      "object_id": "W3_OBJ_019",
+      "method": "world_cluster"
+    },
+    "W3_T81599999_Q015": {
+      "object_id": "W3_OBJ_019",
+      "method": "world_cluster"
+    },
+    "W3_T81699999_Q011": {
+      "object_id": "W3_OBJ_019",
+      "method": "world_cluster"
+    },
+    "W3_T81899999_Q012": {
+      "object_id": "W3_OBJ_019",
+      "method": "world_cluster"
+    },
+    "W3_T83499999_Q008": {
+      "object_id": "W3_OBJ_019",
+      "method": "world_cluster"
+    },
+    "W3_T81999990_Q014": {
+      "object_id": "W3_OBJ_020",
+      "method": "world_cluster"
+    },
+    "W3_T82199999_Q017": {
+      "object_id": "W3_OBJ_020",
+      "method": "world_cluster"
+    },
+    "W3_T82399999_Q013": {
+      "object_id": "W3_OBJ_020",
+      "method": "world_cluster"
+    },
+    "W3_T82999990_Q016": {
+      "object_id": "W3_OBJ_020",
+      "method": "world_cluster"
+    },
+    "W3_T76199999_Q008": {
+      "object_id": "W3_OBJ_021",
+      "method": "world_cluster"
+    },
+    "W3_T78499999_Q011": {
+      "object_id": "W3_OBJ_021",
+      "method": "world_cluster"
+    },
+    "W3_T80299999_Q007": {
+      "object_id": "W3_OBJ_022",
+      "method": "world_cluster"
+    },
+    "W3_T80499999_Q010": {
+      "object_id": "W3_OBJ_022",
+      "method": "world_cluster"
+    },
+    "W3_T80699999_Q012": {
+      "object_id": "W3_OBJ_022",
+      "method": "world_cluster"
+    },
+    "W3_T80699999_Q029": {
+      "object_id": "W3_OBJ_022",
+      "method": "world_cluster"
+    },
+    "W3_T80799999_Q009": {
+      "object_id": "W3_OBJ_022",
+      "method": "world_cluster"
+    },
+    "W3_T80899999_Q009": {
+      "object_id": "W3_OBJ_022",
+      "method": "world_cluster"
+    },
+    "W3_T80999990_Q007": {
+      "object_id": "W3_OBJ_022",
+      "method": "world_cluster"
+    },
+    "W3_T81099999_Q006": {
+      "object_id": "W3_OBJ_022",
+      "method": "world_cluster"
+    },
+    "W3_T81199999_Q005": {
+      "object_id": "W3_OBJ_022",
+      "method": "world_cluster"
+    },
+    "W3_T81299999_Q007": {
+      "object_id": "W3_OBJ_022",
+      "method": "world_cluster"
+    },
+    "W3_T81599999_Q010": {
+      "object_id": "W3_OBJ_022",
+      "method": "world_cluster"
+    },
+    "W3_T81699999_Q007": {
+      "object_id": "W3_OBJ_022",
+      "method": "world_cluster"
+    },
+    "W3_T81799999_Q008": {
+      "object_id": "W3_OBJ_022",
+      "method": "world_cluster"
+    },
+    "W3_T81899999_Q007": {
+      "object_id": "W3_OBJ_022",
+      "method": "world_cluster"
+    },
+    "W3_T81999990_Q010": {
+      "object_id": "W3_OBJ_022",
+      "method": "world_cluster"
+    },
+    "W3_T82099999_Q011": {
+      "object_id": "W3_OBJ_022",
+      "method": "world_cluster"
+    },
+    "W3_T82199999_Q013": {
+      "object_id": "W3_OBJ_022",
+      "method": "world_cluster"
+    },
+    "W3_T82399999_Q009": {
+      "object_id": "W3_OBJ_022",
+      "method": "world_cluster"
+    },
+    "W3_T82599999_Q006": {
+      "object_id": "W3_OBJ_022",
+      "method": "world_cluster"
+    },
+    "W3_T82699999_Q010": {
+      "object_id": "W3_OBJ_022",
+      "method": "world_cluster"
+    },
+    "W3_T83199999_Q001": {
+      "object_id": "W3_OBJ_022",
+      "method": "world_cluster"
+    },
+    "W3_T61199999_Q012": {
+      "object_id": "W3_OBJ_023",
+      "method": "world_cluster"
+    },
+    "W3_T61299999_Q012": {
+      "object_id": "W3_OBJ_023",
+      "method": "world_cluster"
+    },
+    "W3_T61399999_Q012": {
+      "object_id": "W3_OBJ_023",
+      "method": "world_cluster"
+    },
+    "W3_T61499999_Q009": {
+      "object_id": "W3_OBJ_023",
+      "method": "world_cluster"
+    },
+    "W3_T61599999_Q010": {
+      "object_id": "W3_OBJ_023",
+      "method": "world_cluster"
+    },
+    "W3_T61699999_Q014": {
+      "object_id": "W3_OBJ_023",
+      "method": "world_cluster"
+    },
+    "W3_T61799999_Q014": {
+      "object_id": "W3_OBJ_023",
+      "method": "world_cluster"
+    },
+    "W3_T61899999_Q012": {
+      "object_id": "W3_OBJ_024",
+      "method": "world_cluster"
+    },
+    "W3_T79299999_Q007": {
+      "object_id": "W3_OBJ_025",
+      "method": "world_cluster"
+    },
+    "W3_T79699999_Q010": {
+      "object_id": "W3_OBJ_025",
+      "method": "world_cluster"
+    },
+    "W3_T80599999_Q010": {
+      "object_id": "W3_OBJ_025",
+      "method": "world_cluster"
+    },
+    "W3_T80699999_Q014": {
+      "object_id": "W3_OBJ_025",
+      "method": "world_cluster"
+    },
+    "W3_T80999990_Q009": {
+      "object_id": "W3_OBJ_025",
+      "method": "world_cluster"
+    },
+    "W3_T81099999_Q008": {
+      "object_id": "W3_OBJ_025",
+      "method": "world_cluster"
+    },
+    "W3_T81299999_Q010": {
+      "object_id": "W3_OBJ_025",
+      "method": "world_cluster"
+    },
+    "W3_T81699999_Q008": {
+      "object_id": "W3_OBJ_025",
+      "method": "world_cluster"
+    },
+    "W3_T81899999_Q009": {
+      "object_id": "W3_OBJ_025",
+      "method": "world_cluster"
+    },
+    "W3_T82199999_Q015": {
+      "object_id": "W3_OBJ_025",
+      "method": "world_cluster"
+    },
+    "W3_T82299999_Q008": {
+      "object_id": "W3_OBJ_025",
+      "method": "world_cluster"
+    },
+    "W3_T82899999_Q010": {
+      "object_id": "W3_OBJ_025",
+      "method": "world_cluster"
+    },
+    "W3_T82999990_Q009": {
+      "object_id": "W3_OBJ_025",
+      "method": "world_cluster"
+    },
+    "W3_T83099999_Q010": {
+      "object_id": "W3_OBJ_025",
+      "method": "world_cluster"
+    },
+    "W3_T78499999_Q009": {
+      "object_id": "W3_OBJ_027",
+      "method": "world_cluster"
+    },
+    "W3_T78699999_Q010": {
+      "object_id": "W3_OBJ_027",
+      "method": "world_cluster"
+    },
+    "W3_T78899999_Q007": {
+      "object_id": "W3_OBJ_027",
+      "method": "world_cluster"
+    },
+    "W3_T79999990_Q010": {
+      "object_id": "W3_OBJ_027",
+      "method": "world_cluster"
+    },
+    "W3_T81799999_Q007": {
+      "object_id": "W3_OBJ_027",
+      "method": "world_cluster"
+    },
+    "W3_T82099999_Q013": {
+      "object_id": "W3_OBJ_027",
+      "method": "world_cluster"
+    },
+    "W3_T82199999_Q014": {
+      "object_id": "W3_OBJ_027",
+      "method": "world_cluster"
+    },
+    "W3_T82299999_Q007": {
+      "object_id": "W3_OBJ_027",
+      "method": "world_cluster"
+    },
+    "W3_T82399999_Q010": {
+      "object_id": "W3_OBJ_027",
+      "method": "world_cluster"
+    },
+    "W3_T82599999_Q008": {
+      "object_id": "W3_OBJ_027",
+      "method": "world_cluster"
+    },
+    "W3_T82699999_Q013": {
+      "object_id": "W3_OBJ_027",
+      "method": "world_cluster"
+    },
+    "W3_T82899999_Q011": {
+      "object_id": "W3_OBJ_027",
+      "method": "world_cluster"
+    },
+    "W3_T82999990_Q010": {
+      "object_id": "W3_OBJ_027",
+      "method": "world_cluster"
+    },
+    "W3_T82999990_Q011": {
+      "object_id": "W3_OBJ_027",
+      "method": "world_cluster"
+    },
+    "W3_T76399999_Q009": {
+      "object_id": "W3_OBJ_028",
+      "method": "world_cluster"
+    },
+    "W3_T76499999_Q007": {
+      "object_id": "W3_OBJ_028",
+      "method": "world_cluster"
+    },
+    "W3_T78499999_Q010": {
+      "object_id": "W3_OBJ_028",
+      "method": "world_cluster"
+    },
+    "W3_T81199999_Q008": {
+      "object_id": "W3_OBJ_028",
+      "method": "world_cluster"
+    },
+    "W3_T81599999_Q013": {
+      "object_id": "W3_OBJ_028",
+      "method": "world_cluster"
+    },
+    "W3_T81999990_Q012": {
+      "object_id": "W3_OBJ_028",
+      "method": "world_cluster"
+    },
+    "W3_T76699999_Q008": {
+      "object_id": "W3_OBJ_029",
+      "method": "world_cluster"
+    },
+    "W3_T76899999_Q008": {
+      "object_id": "W3_OBJ_029",
+      "method": "world_cluster"
+    },
+    "W3_T76999990_Q007": {
+      "object_id": "W3_OBJ_029",
+      "method": "world_cluster"
+    },
+    "W3_T77499999_Q007": {
+      "object_id": "W3_OBJ_029",
+      "method": "world_cluster"
+    },
+    "W3_T77699999_Q006": {
+      "object_id": "W3_OBJ_029",
+      "method": "world_cluster"
+    },
+    "W3_T78099999_Q010": {
+      "object_id": "W3_OBJ_029",
+      "method": "world_cluster"
+    },
+    "W3_T81799999_Q009": {
+      "object_id": "W3_OBJ_029",
+      "method": "world_cluster"
+    },
+    "W3_T82999990_Q012": {
+      "object_id": "W3_OBJ_029",
+      "method": "world_cluster"
+    },
+    "W3_T61699999_Q012": {
+      "object_id": "W3_OBJ_030",
+      "method": "world_cluster"
+    },
+    "W3_T62899999_Q010": {
+      "object_id": "W3_OBJ_030",
+      "method": "world_cluster"
+    },
+    "W3_T63199999_Q008": {
+      "object_id": "W3_OBJ_030",
+      "method": "world_cluster"
+    },
+    "W3_T63299999_Q004": {
+      "object_id": "W3_OBJ_030",
+      "method": "world_cluster"
+    },
+    "W3_T63399999_Q008": {
+      "object_id": "W3_OBJ_030",
+      "method": "world_cluster"
+    },
+    "W3_T63499999_Q005": {
+      "object_id": "W3_OBJ_030",
+      "method": "world_cluster"
+    },
+    "W3_T63599999_Q005": {
+      "object_id": "W3_OBJ_030",
+      "method": "world_cluster"
+    },
+    "W3_T63699999_Q010": {
+      "object_id": "W3_OBJ_030",
+      "method": "world_cluster"
+    },
+    "W3_T63799999_Q008": {
+      "object_id": "W3_OBJ_030",
+      "method": "world_cluster"
+    },
+    "W3_T63899999_Q008": {
+      "object_id": "W3_OBJ_030",
+      "method": "world_cluster"
+    },
+    "W3_T82899999_Q016": {
+      "object_id": "W3_OBJ_031",
+      "method": "world_cluster"
+    },
+    "W3_T84399999_Q016": {
+      "object_id": "W3_OBJ_032",
+      "method": "world_cluster"
+    },
+    "W3_T82099999_Q014": {
+      "object_id": "W3_OBJ_025",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "W3_T82199999_Q002": {
+      "object_id": "W3_OBJ_019",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "W3_T82699999_Q011": {
+      "object_id": "W3_OBJ_022",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "W3_T82799999_Q016": {
+      "object_id": "W3_OBJ_029",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "W3_T82799999_Q017": {
+      "object_id": "W3_OBJ_015",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "W3_T82899999_Q013": {
+      "object_id": "W3_OBJ_029",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "W3_T82899999_Q015": {
+      "object_id": "W3_OBJ_014",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "W3_T83299999_Q014": {
+      "object_id": "W3_OBJ_015",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "W3_T83399999_Q013": {
+      "object_id": "W3_OBJ_005",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "W3_T83599999_Q011": {
+      "object_id": "W3_OBJ_014",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "W3_T83599999_Q013": {
+      "object_id": "W3_OBJ_004",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "W3_T84099999_Q011": {
+      "object_id": "W3_OBJ_009",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "W3_T84599999_Q011": {
+      "object_id": "W3_OBJ_009",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "W3_T84899999_Q015": {
+      "object_id": "W3_OBJ_001",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "W3_T84999990_Q009": {
+      "object_id": "W3_OBJ_009",
+      "method": "unique_reprojection_of_multiframe_object"
+    }
+  },
+  "unresolved_observations": [
+    {
+      "observation_id": "W3_T69499999_Q006",
+      "class": "traffic_cone",
+      "frame": 84,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T69899999_Q008",
+      "class": "traffic_cone",
+      "frame": 88,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T70599999_Q004",
+      "class": "traffic_cone",
+      "frame": 95,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T71699999_Q006",
+      "class": "road_work_ahead",
+      "frame": 106,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T74099999_Q007",
+      "class": "traffic_cone",
+      "frame": 130,
+      "reason": "ambiguous_reprojection",
+      "candidate_objects": [
+        "W3_OBJ_001",
+        "W3_OBJ_002",
+        "W3_OBJ_003",
+        "W3_OBJ_004",
+        "W3_OBJ_005",
+        "W3_OBJ_006",
+        "W3_OBJ_007",
+        "W3_OBJ_008",
+        "W3_OBJ_012",
+        "W3_OBJ_014",
+        "W3_OBJ_015",
+        "W3_OBJ_019",
+        "W3_OBJ_020",
+        "W3_OBJ_021",
+        "W3_OBJ_022",
+        "W3_OBJ_025",
+        "W3_OBJ_027",
+        "W3_OBJ_028",
+        "W3_OBJ_029"
+      ]
+    },
+    {
+      "observation_id": "W3_T74599999_Q005",
+      "class": "traffic_cone",
+      "frame": 135,
+      "reason": "ambiguous_reprojection",
+      "candidate_objects": [
+        "W3_OBJ_005",
+        "W3_OBJ_028"
+      ]
+    },
+    {
+      "observation_id": "W3_T74899999_Q007",
+      "class": "traffic_cone",
+      "frame": 138,
+      "reason": "ambiguous_reprojection",
+      "candidate_objects": [
+        "W3_OBJ_002",
+        "W3_OBJ_004",
+        "W3_OBJ_005",
+        "W3_OBJ_014",
+        "W3_OBJ_015",
+        "W3_OBJ_025",
+        "W3_OBJ_027",
+        "W3_OBJ_028",
+        "W3_OBJ_029"
+      ]
+    },
+    {
+      "observation_id": "W3_T74999990_Q008",
+      "class": "traffic_cone",
+      "frame": 139,
+      "reason": "ambiguous_reprojection",
+      "candidate_objects": [
+        "W3_OBJ_004",
+        "W3_OBJ_005",
+        "W3_OBJ_006"
+      ]
+    },
+    {
+      "observation_id": "W3_T75099999_Q007",
+      "class": "traffic_cone",
+      "frame": 140,
+      "reason": "ambiguous_reprojection",
+      "candidate_objects": [
+        "W3_OBJ_001",
+        "W3_OBJ_002",
+        "W3_OBJ_003",
+        "W3_OBJ_004",
+        "W3_OBJ_005",
+        "W3_OBJ_006",
+        "W3_OBJ_007",
+        "W3_OBJ_008",
+        "W3_OBJ_012",
+        "W3_OBJ_014",
+        "W3_OBJ_015",
+        "W3_OBJ_019",
+        "W3_OBJ_020",
+        "W3_OBJ_021",
+        "W3_OBJ_025",
+        "W3_OBJ_027",
+        "W3_OBJ_028",
+        "W3_OBJ_029"
+      ]
+    },
+    {
+      "observation_id": "W3_T75399999_Q010",
+      "class": "traffic_cone",
+      "frame": 143,
+      "reason": "ambiguous_reprojection",
+      "candidate_objects": [
+        "W3_OBJ_005",
+        "W3_OBJ_028",
+        "W3_OBJ_029"
+      ]
+    },
+    {
+      "observation_id": "W3_T75599999_Q012",
+      "class": "traffic_cone",
+      "frame": 145,
+      "reason": "ambiguous_reprojection",
+      "candidate_objects": [
+        "W3_OBJ_003",
+        "W3_OBJ_008",
+        "W3_OBJ_021"
+      ]
+    },
+    {
+      "observation_id": "W3_T75899999_Q009",
+      "class": "traffic_cone",
+      "frame": 148,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T77499999_Q009",
+      "class": "traffic_cone",
+      "frame": 164,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T81799999_Q010",
+      "class": "traffic_cone",
+      "frame": 207,
+      "reason": "ambiguous_reprojection",
+      "candidate_objects": [
+        "W3_OBJ_015",
+        "W3_OBJ_028",
+        "W3_OBJ_029"
+      ]
+    },
+    {
+      "observation_id": "W3_T81899999_Q006",
+      "class": "traffic_cone",
+      "frame": 208,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T81999990_Q008",
+      "class": "traffic_cone",
+      "frame": 209,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T82199999_Q012",
+      "class": "traffic_cone",
+      "frame": 211,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T82299999_Q005",
+      "class": "traffic_cone",
+      "frame": 212,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T82399999_Q007",
+      "class": "traffic_cone",
+      "frame": 213,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T82399999_Q012",
+      "class": "traffic_cone",
+      "frame": 213,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T82499999_Q010",
+      "class": "traffic_cone",
+      "frame": 214,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T82499999_Q016",
+      "class": "traffic_cone",
+      "frame": 214,
+      "reason": "ambiguous_reprojection",
+      "candidate_objects": [
+        "W3_OBJ_004",
+        "W3_OBJ_005",
+        "W3_OBJ_020"
+      ]
+    },
+    {
+      "observation_id": "W3_T82599999_Q005",
+      "class": "traffic_cone",
+      "frame": 215,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T82599999_Q012",
+      "class": "traffic_cone",
+      "frame": 215,
+      "reason": "ambiguous_reprojection",
+      "candidate_objects": [
+        "W3_OBJ_004",
+        "W3_OBJ_005",
+        "W3_OBJ_020"
+      ]
+    },
+    {
+      "observation_id": "W3_T82799999_Q012",
+      "class": "traffic_cone",
+      "frame": 217,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T82799999_Q013",
+      "class": "traffic_cone",
+      "frame": 217,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T82899999_Q009",
+      "class": "traffic_cone",
+      "frame": 218,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T82999990_Q007",
+      "class": "traffic_cone",
+      "frame": 219,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T82999990_Q008",
+      "class": "traffic_cone",
+      "frame": 219,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T82999990_Q013",
+      "class": "traffic_cone",
+      "frame": 219,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T82999990_Q017",
+      "class": "traffic_cone",
+      "frame": 219,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T83099999_Q009",
+      "class": "traffic_cone",
+      "frame": 220,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T83099999_Q015",
+      "class": "traffic_cone",
+      "frame": 220,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T83199999_Q011",
+      "class": "traffic_cone",
+      "frame": 221,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T83299999_Q012",
+      "class": "traffic_cone",
+      "frame": 222,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T83399999_Q011",
+      "class": "traffic_cone",
+      "frame": 223,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T83399999_Q014",
+      "class": "traffic_cone",
+      "frame": 223,
+      "reason": "ambiguous_reprojection",
+      "candidate_objects": [
+        "W3_OBJ_003",
+        "W3_OBJ_006",
+        "W3_OBJ_008"
+      ]
+    },
+    {
+      "observation_id": "W3_T83399999_Q015",
+      "class": "traffic_cone",
+      "frame": 223,
+      "reason": "ambiguous_reprojection",
+      "candidate_objects": [
+        "W3_OBJ_007",
+        "W3_OBJ_012"
+      ]
+    },
+    {
+      "observation_id": "W3_T83499999_Q009",
+      "class": "traffic_cone",
+      "frame": 224,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T83699999_Q013",
+      "class": "traffic_cone",
+      "frame": 226,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T83699999_Q015",
+      "class": "traffic_cone",
+      "frame": 226,
+      "reason": "ambiguous_reprojection",
+      "candidate_objects": [
+        "W3_OBJ_006",
+        "W3_OBJ_008"
+      ]
+    },
+    {
+      "observation_id": "W3_T83799999_Q014",
+      "class": "traffic_cone",
+      "frame": 227,
+      "reason": "ambiguous_reprojection",
+      "candidate_objects": [
+        "W3_OBJ_006",
+        "W3_OBJ_007",
+        "W3_OBJ_009"
+      ]
+    },
+    {
+      "observation_id": "W3_T83799999_Q015",
+      "class": "traffic_cone",
+      "frame": 227,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T83899999_Q007",
+      "class": "traffic_cone",
+      "frame": 228,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T83999990_Q001",
+      "class": "traffic_cone",
+      "frame": 229,
+      "reason": "ambiguous_reprojection",
+      "candidate_objects": [
+        "W3_OBJ_005",
+        "W3_OBJ_006",
+        "W3_OBJ_007",
+        "W3_OBJ_008",
+        "W3_OBJ_009",
+        "W3_OBJ_012"
+      ]
+    },
+    {
+      "observation_id": "W3_T83999990_Q009",
+      "class": "traffic_cone",
+      "frame": 229,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T83999990_Q011",
+      "class": "traffic_cone",
+      "frame": 229,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T83999990_Q013",
+      "class": "traffic_cone",
+      "frame": 229,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84099999_Q008",
+      "class": "traffic_cone",
+      "frame": 230,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84099999_Q010",
+      "class": "traffic_cone",
+      "frame": 230,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84099999_Q012",
+      "class": "traffic_cone",
+      "frame": 230,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84199999_Q016",
+      "class": "traffic_cone",
+      "frame": 231,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84199999_Q017",
+      "class": "road_work_ahead",
+      "frame": 231,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84299999_Q013",
+      "class": "traffic_cone",
+      "frame": 232,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84299999_Q014",
+      "class": "traffic_cone",
+      "frame": 232,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84399999_Q012",
+      "class": "traffic_cone",
+      "frame": 233,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84399999_Q017",
+      "class": "traffic_cone",
+      "frame": 233,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84499999_Q007",
+      "class": "traffic_cone",
+      "frame": 234,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84499999_Q008",
+      "class": "traffic_cone",
+      "frame": 234,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84499999_Q012",
+      "class": "traffic_cone",
+      "frame": 234,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84599999_Q009",
+      "class": "traffic_cone",
+      "frame": 235,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84599999_Q010",
+      "class": "traffic_cone",
+      "frame": 235,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84599999_Q013",
+      "class": "traffic_cone",
+      "frame": 235,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84799999_Q008",
+      "class": "traffic_cone",
+      "frame": 237,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84799999_Q010",
+      "class": "traffic_cone",
+      "frame": 237,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84799999_Q012",
+      "class": "traffic_cone",
+      "frame": 237,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84899999_Q008",
+      "class": "traffic_cone",
+      "frame": 238,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84899999_Q009",
+      "class": "traffic_cone",
+      "frame": 238,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84899999_Q014",
+      "class": "traffic_cone",
+      "frame": 238,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84899999_Q017",
+      "class": "traffic_cone",
+      "frame": 238,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84999990_Q008",
+      "class": "traffic_cone",
+      "frame": 239,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84999990_Q010",
+      "class": "traffic_cone",
+      "frame": 239,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84999990_Q011",
+      "class": "traffic_cone",
+      "frame": 239,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84999990_Q013",
+      "class": "traffic_cone",
+      "frame": 239,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "W3_T84999990_Q015",
+      "class": "traffic_cone",
+      "frame": 239,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    }
+  ],
+  "identity_conflicts": [
+    [
+      "W3_T81799999_Q007",
+      "W3_T81799999_Q008"
+    ],
+    [
+      "W3_T81799999_Q008",
+      "W3_T81799999_Q009"
+    ],
+    [
+      "W3_T81999990_Q014",
+      "W3_T81999990_Q015"
+    ],
+    [
+      "W3_T82099999_Q011",
+      "W3_T82099999_Q013"
+    ],
+    [
+      "W3_T82199999_Q013",
+      "W3_T82199999_Q014"
+    ],
+    [
+      "W3_T82399999_Q009",
+      "W3_T82399999_Q010"
+    ],
+    [
+      "W3_T82399999_Q013",
+      "W3_T82399999_Q014"
+    ],
+    [
+      "W3_T82499999_Q013",
+      "W3_T82499999_Q014"
+    ],
+    [
+      "W3_T82799999_Q018",
+      "W3_T82799999_Q019"
+    ],
+    [
+      "W3_T82899999_Q010",
+      "W3_T82899999_Q011"
+    ],
+    [
+      "W3_T82999990_Q009",
+      "W3_T82999990_Q011"
+    ],
+    [
+      "W3_T82999990_Q009",
+      "W3_T82999990_Q012"
+    ],
+    [
+      "W3_T82999990_Q010",
+      "W3_T82999990_Q012"
+    ],
+    [
+      "W3_T82999990_Q011",
+      "W3_T82999990_Q012"
+    ],
+    [
+      "W3_T82999990_Q014",
+      "W3_T82999990_Q015"
+    ],
+    [
+      "W3_T83199999_Q012",
+      "W3_T83199999_Q014"
+    ],
+    [
+      "W3_T83999990_Q010",
+      "W3_T83999990_Q012"
+    ],
+    [
+      "W3_T84899999_Q013",
+      "W3_T84899999_Q016"
+    ]
+  ],
+  "counts": {
+    "observations": 241,
+    "objects_with_candidate_position": 31,
+    "multi_frame_supported_objects": 22,
+    "mapped_observations": 166,
+    "unresolved_observations": 75,
+    "object_condition_counts": {
+      "not_reassessed": 31
+    },
+    "uncertain_views_resolved_by_same_object": 0
+  },
+  "identity_policy": "Complete-link XY clustering maximum 1m diameter, class family compatible; same-frame disjoint boxes prevent merge; at least 2 independent frames and an accepted bbox required for stable location. Weak views attach only through unique reprojection into their box. These are inferred identities, not manually verified physical IDs.",
+  "condition_policy": "This task reconstructs positions only; no serviceability or compliance assessment.",
+  "user_removed_objects": [
+    {
+      "object_id": "W3_OBJ_026",
+      "observation_id": "W3_T73099999_Q007",
+      "review_revision": 81
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "start_s": 61.0,
+  "end_s": 85.0,
+  "bounds": "inclusive",
+  "time_basis": "original Case_14 timestamps, not rebased",
+  "camera_channels": [
+    "camera0"
+  ],
+  "lidar_point_timestamp_filter": true,
+  "authorization": "User explicitly restricts video and point cloud to 61–85 seconds; supersedes all earlier windows."
+}

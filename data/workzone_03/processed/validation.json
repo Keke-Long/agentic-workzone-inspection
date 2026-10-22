@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "camera_count": 240,
+  "lidar_metadata_count": 240,
+  "pose_count": 480,
+  "input_window_s": [
+    61,
+    85
+  ],
+  "all_metadata_timestamps_in_window": true,
+  "all_processed_images_exist": true,
+  "pose_finite_unit_quaternions": true,
+  "raw_lidar_external": true,
+  "legacy_lidar_bins_created": false
+}

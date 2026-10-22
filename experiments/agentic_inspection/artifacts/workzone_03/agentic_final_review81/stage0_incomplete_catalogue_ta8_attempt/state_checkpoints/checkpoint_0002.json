@@ -1,0 +1,69 @@
+{
+  "scene_id": "scene-CATS-15",
+  "selected_layouts": [
+    {
+      "layout_code": "TA-8",
+      "layout_role": "primary_applicable",
+      "source_locator": "TA-8, Figure 6P-8, Road Closure with an Off-Site Detour, PDF pages 914–915 / printed pages 874–875; TA-8 paragraph 01",
+      "matched_scene_facts": [
+        "The opposing-direction lane is explicitly confirmed fully closed.",
+        "Opposing traffic is prohibited from entering the closed route and detours via other roads.",
+        "The work zone is adjacent to an intersection.",
+        "Channelizing devices define the closed-route boundary and taper.",
+        "The work duration is less than three days.",
+        "The roadway is an urban two-way street with the ego-direction path remaining open."
+      ],
+      "conflicting_scene_facts": [
+        "TA-8 depicts road-closure and off-site-detour controls, while the observed closure is direction-specific: the opposing lane is closed and the ego-direction lane remains open. This requires interpreting the TA-8 closure treatment for the affected direction rather than treating the entire cross-section as closed."
+      ]
+    }
+  ],
+  "phase": "requirement_discovery",
+  "region_coverage": {
+    "lane_closure_layout": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "advance_warning_sign_system": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "channelization_system": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "transition_and_taper_geometry": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "conditional_active_devices": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "conditional_termination_area": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    }
+  },
+  "requirements": [],
+  "data_availability": {},
+  "evidence_records": {},
+  "stage4_plan": null,
+  "inspection_bundles": {},
+  "acquisition_attempts": {},
+  "measurement_records": {},
+  "stage4_readiness": null,
+  "stage5_plan": null,
+  "conclusion_drafts": {},
+  "stage5_readiness": null,
+  "tool_calls": [],
+  "event_history": [],
+  "completion": null,
+  "finalized": false
+}

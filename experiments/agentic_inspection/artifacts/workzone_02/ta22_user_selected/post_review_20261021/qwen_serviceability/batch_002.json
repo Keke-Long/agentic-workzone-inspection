@@ -1,0 +1,102 @@
+{
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "image_sha256": "7055c5ab8f78d7d72543d5acfc3441fd731e927e2c4181245ff1c037ca24d04a",
+  "response": {
+    "model": "qwen3-vl:4b-instruct",
+    "created_at": "2026-10-21T14:48:24.626721739Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"items\": [\n    {\n      \"id\": 1,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"The cone is fully visible with intact red and white stripes, no obvious damage or missing parts, and appears stable in its position.\"\n    },\n    {\n      \"id\": 2,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"The cone shows clear red and white alternating stripes, no visible breakage or major damage, and is upright with no signs of collapse or severe wear.\"\n    },\n    {\n      \"id\": 3,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"The cone has distinct stripes, appears structurally intact, and is positioned normally without visible defects that would impair its function.\"\n    },\n    {\n      \"id\": 4,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"The cone's stripes are clearly visible, it stands upright with no apparent damage or missing components, indicating normal serviceability.\"\n    },\n    {\n      \"id\": 5,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"The cone is fully visible with clear alternating stripes and shows no signs of breakage, collapse, or major damage; appears functional as intended.\"\n    },\n    {\n      \"id\": 6,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"The cone's markings are intact and clearly visible, it is standing upright without obvious defects that would compromise its function.\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 3954391650,
+    "load_duration": 170508569,
+    "prompt_eval_count": 1299,
+    "prompt_eval_duration": 904124000,
+    "eval_count": 315,
+    "eval_duration": 2697584000
+  },
+  "observations": [
+    {
+      "observation_id": "C18_F0333_CAM_FRONT_Q012",
+      "frame": 333,
+      "native_bbox": [
+        2019.4823,
+        1146.2535,
+        2045.3794,
+        1185.7319
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "The cone is fully visible with intact red and white stripes, no obvious damage or missing parts, and appears stable in its position."
+    },
+    {
+      "observation_id": "C18_F0334_CAM_FRONT_Q022",
+      "frame": 334,
+      "native_bbox": [
+        2004.408,
+        1150.7,
+        2020.663,
+        1181.751
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "The cone shows clear red and white alternating stripes, no visible breakage or major damage, and is upright with no signs of collapse or severe wear."
+    },
+    {
+      "observation_id": "C18_F0339_CAM_FRONT_Q005",
+      "frame": 339,
+      "native_bbox": [
+        2041.29,
+        1152.1031,
+        2070.8767,
+        1198.7891
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "The cone has distinct stripes, appears structurally intact, and is positioned normally without visible defects that would impair its function."
+    },
+    {
+      "observation_id": "C18_F0339_CAM_FRONT_Q021",
+      "frame": 339,
+      "native_bbox": [
+        2020.6594,
+        1156.0316,
+        2045.9739,
+        1194.2972
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "The cone's stripes are clearly visible, it stands upright with no apparent damage or missing components, indicating normal serviceability."
+    },
+    {
+      "observation_id": "C18_F0343_CAM_FRONT_Q018",
+      "frame": 343,
+      "native_bbox": [
+        2023.3071,
+        1154.379,
+        2049.5701,
+        1195.2703
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "The cone is fully visible with clear alternating stripes and shows no signs of breakage, collapse, or major damage; appears functional as intended."
+    },
+    {
+      "observation_id": "C18_F0344_CAM_FRONT_Q005",
+      "frame": 344,
+      "native_bbox": [
+        2053.376,
+        1157.883,
+        2073.796,
+        1196.416
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "The cone's markings are intact and clearly visible, it is standing upright without obvious defects that would compromise its function."
+    }
+  ],
+  "human_confirmed_condition": false
+}

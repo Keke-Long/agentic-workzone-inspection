@@ -1,0 +1,689 @@
+{
+  "status": "awaiting_user_requirement_review",
+  "stopped_after_requirement_registration": false,
+  "stopped_before_measurement": true,
+  "registered_requirement_count": 18,
+  "planned_inspection_count": 18,
+  "planned_normative_measurement_count": 2,
+  "requirements": [
+    {
+      "discovered_requirement_key": "req_72d15edd230d1568",
+      "candidate_label": "Cover conflicting intersection devices in a closed directional roadway",
+      "subject": "Existing WRONG WAY signs, markings, and other conflicting traffic-control devices at intersections within the closed directional roadway",
+      "modality": "shall",
+      "relation": "shall be covered, removed, or obliterated",
+      "threshold": "No inapplicable conflicting device remains exposed within the temporary closure/intersection area",
+      "applicability_conditions": [
+        "A directional roadway is closed",
+        "An intersection lies within the temporary two-lane/two-way operations or closure area"
+      ],
+      "required_inputs": [
+        "Field inventory of existing intersection traffic-control devices",
+        "Closure and intersection limits"
+      ],
+      "source_locator": "SEC-6N.11 paragraph 14; PDF page 888",
+      "source_span": "When a directional roadway is closed, inapplicable WRONG WAY signs and markings, and other existing traffic control devices at intersections within the temporary two-lane, two-way operations section shall be covered, removed, or obliterated.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": true,
+      "data_availability": "not_attempted",
+      "available_inputs": [],
+      "missing_inputs": [
+        "Field inventory of existing intersection traffic-control devices",
+        "Closure and intersection limits"
+      ],
+      "planned_tools": [
+        "inspect_temporal_images",
+        "inspect_observation_images",
+        "measure_longitudinal_distance"
+      ],
+      "planned_evidence_strategy": "Inspect scoped temporal images and accepted observations for existing intersection devices, then establish the closure and intersection limits from image-supported roadway landmarks and trajectory.",
+      "planned_decision_rule": "Assess compliance only if the inventory and limits can identify every applicable existing device within the closure/intersection area; otherwise report unresolved.",
+      "planned_for_inspection_after_review": true
+    },
+    {
+      "discovered_requirement_key": "req_7f7323bcd37c5b84",
+      "candidate_label": "TA-19 figure:sign:M4-10R: M4-10R sign in TA-19",
+      "subject": "M4-10R sign in TA-19",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "M4-10R is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:M4-10R; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": true,
+      "data_availability": "partial",
+      "available_inputs": [
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect the scoped temporal images for M4-10R legend, direction, position, and sequence relative to the TA-19 layout.",
+      "planned_decision_rule": "Mark compliant only with clear image evidence of the specified sign at the applicable TA-19 position and sequence; otherwise unresolved or noncompliant as supported.",
+      "planned_for_inspection_after_review": true
+    },
+    {
+      "discovered_requirement_key": "req_81896520e0b032a5",
+      "candidate_label": "TA-19 figure:sign:M4-8a: M4-8a sign in TA-19",
+      "subject": "M4-8a sign in TA-19",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "M4-8a is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:M4-8a; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": true,
+      "data_availability": "partial",
+      "available_inputs": [
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect temporal images for the M4-8a legend and its placement in the TA-19 sign sequence.",
+      "planned_decision_rule": "Require clear visual identification and position/sequence evidence; otherwise leave the predicate unresolved.",
+      "planned_for_inspection_after_review": true
+    },
+    {
+      "discovered_requirement_key": "req_d305824bda78ee20",
+      "candidate_label": "TA-19 figure:sign:M4-9L: M4-9L sign in TA-19",
+      "subject": "M4-9L sign in TA-19",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "M4-9L is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:M4-9L; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": true,
+      "data_availability": "partial",
+      "available_inputs": [
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect temporal images for M4-9L and compare its position and sequence with Figure 6P-19.",
+      "planned_decision_rule": "Findings require clear legend and positional evidence; absent or ambiguous evidence remains unresolved.",
+      "planned_for_inspection_after_review": true
+    },
+    {
+      "discovered_requirement_key": "req_d0158fecf5f63d40",
+      "candidate_label": "TA-19 figure:sign:M4-9R: M4-9R sign in TA-19",
+      "subject": "M4-9R sign in TA-19",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "M4-9R is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:M4-9R; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": true,
+      "data_availability": "partial",
+      "available_inputs": [
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect temporal images for M4-9R legend, orientation, and placement relative to the detour signing sequence.",
+      "planned_decision_rule": "Require unambiguous visual evidence at the prescribed TA-19 position; otherwise unresolved.",
+      "planned_for_inspection_after_review": true
+    },
+    {
+      "discovered_requirement_key": "req_994faca8507061a8",
+      "candidate_label": "TA-19 figure:sign:R11-2: R11-2 sign in TA-19",
+      "subject": "R11-2 sign in TA-19",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "R11-2 is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R11-2; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": true,
+      "data_availability": "partial",
+      "available_inputs": [
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect images for R11-2 and compare its location and sequence with Figure 6P-19.",
+      "planned_decision_rule": "Conclude only from clear sign-legend and placement evidence; otherwise unresolved.",
+      "planned_for_inspection_after_review": true
+    },
+    {
+      "discovered_requirement_key": "req_12b10ac1c3f92d53",
+      "candidate_label": "TA-19 figure:sign:R11-4: R11-4 sign in TA-19",
+      "subject": "R11-4 sign in TA-19",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "R11-4 is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R11-4; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": true,
+      "data_availability": "partial",
+      "available_inputs": [
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect temporal images for R11-4 and its placement in the TA-19 arrangement.",
+      "planned_decision_rule": "Require clear visual evidence of the specified sign and position; otherwise unresolved.",
+      "planned_for_inspection_after_review": true
+    },
+    {
+      "discovered_requirement_key": "req_07b36381ff33c89f",
+      "candidate_label": "TA-19 figure:sign:R3-1: R3-1 sign in TA-19",
+      "subject": "R3-1 sign in TA-19",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "R3-1 is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R3-1; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": true,
+      "data_availability": "partial",
+      "available_inputs": [
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect images for R3-1 legend and compare its placement to Figure 6P-19.",
+      "planned_decision_rule": "Require unambiguous legend and positional evidence; otherwise unresolved.",
+      "planned_for_inspection_after_review": true
+    },
+    {
+      "discovered_requirement_key": "req_09c763900319cba8",
+      "candidate_label": "TA-19 figure:sign:R3-2: R3-2 sign in TA-19",
+      "subject": "R3-2 sign in TA-19",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "R3-2 is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R3-2; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": true,
+      "data_availability": "partial",
+      "available_inputs": [
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect temporal images for R3-2 and its position in the TA-19 sequence.",
+      "planned_decision_rule": "Require clear visual sign identification and sequence evidence; otherwise unresolved.",
+      "planned_for_inspection_after_review": true
+    },
+    {
+      "discovered_requirement_key": "req_f704cd7a2a19ed90",
+      "candidate_label": "TA-19 figure:sign:R5-1: R5-1 sign in TA-19",
+      "subject": "R5-1 sign in TA-19",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "R5-1 is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R5-1; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": true,
+      "data_availability": "partial",
+      "available_inputs": [
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect images for R5-1 and compare its placement with Figure 6P-19.",
+      "planned_decision_rule": "Require clear sign legend and position evidence; otherwise unresolved.",
+      "planned_for_inspection_after_review": true
+    },
+    {
+      "discovered_requirement_key": "req_e33565395f6e7972",
+      "candidate_label": "TA-19 figure:sign:R6-1R: R6-1R sign in TA-19",
+      "subject": "R6-1R sign in TA-19",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "R6-1R is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R6-1R; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": true,
+      "data_availability": "partial",
+      "available_inputs": [
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect temporal images for R6-1R legend, direction, and placement in the TA-19 sequence.",
+      "planned_decision_rule": "Require unambiguous visual evidence at the figure position; otherwise unresolved.",
+      "planned_for_inspection_after_review": true
+    },
+    {
+      "discovered_requirement_key": "req_c22e4cc97e27c3e0",
+      "candidate_label": "SEC-6H.03 01: The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions",
+      "subject": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions,",
+      "modality": "should",
+      "relation": "should_comply",
+      "threshold": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions, should be located in advance of the work space or any detour, on the road where the work is taking place.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images"
+      ],
+      "source_locator": "SEC-6H.03 paragraph 01; PDF page 842",
+      "source_span": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions, should be located in advance of the work space or any detour, on the road where the work is taking place.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": true,
+      "data_availability": "not_attempted",
+      "available_inputs": [],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "planned_tools": [
+        "inspect_temporal_images",
+        "measure_longitudinal_distance"
+      ],
+      "planned_evidence_strategy": "Inspect and, if possible, measure the visible ROAD WORK AHEAD signs relative to the established work-space or detour reference.",
+      "planned_decision_rule": "Assess location only when both sign identity and its advance relationship to the work space/detour are evidenced; otherwise unresolved.",
+      "planned_for_inspection_after_review": true
+    },
+    {
+      "discovered_requirement_key": "req_b027f3d259231de3",
+      "candidate_label": "SEC-6H.04 01: The DETOUR (W20-2) sign (see Figure 6H-1)",
+      "subject": "The DETOUR (W20-2) sign (see Figure 6H-1)",
+      "modality": "should",
+      "relation": "should_comply",
+      "threshold": "The DETOUR (W20-2) sign (see Figure 6H-1) should be used in advance of a road user detour over a different roadway or route.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images"
+      ],
+      "source_locator": "SEC-6H.04 paragraph 01; PDF page 842",
+      "source_span": "The DETOUR (W20-2) sign (see Figure 6H-1) should be used in advance of a road user detour over a different roadway or route.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": true,
+      "data_availability": "not_attempted",
+      "available_inputs": [],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect the scoped temporal images for a DETOUR (W20-2) sign and determine whether it is used in advance of the confirmed off-site detour; note that the off-site route itself is outside camera scope.",
+      "planned_decision_rule": "Report compliant only if image evidence clearly shows the required W20-2 use in advance of the applicable detour; otherwise report unresolved or unsupported, not inferred from detour confirmation alone.",
+      "planned_for_inspection_after_review": true
+    },
+    {
+      "discovered_requirement_key": "req_cba25d328142060c",
+      "candidate_label": "TABLE-6B-1 table: advance warning sign dimensions A, B, and C",
+      "subject": "advance warning sign dimensions A, B, and C",
+      "modality": "should",
+      "relation": "recommended_minimum_spacing",
+      "threshold": "Urban low speed: A=100 ft, B=100 ft, C=100 ft; urban high speed: A=350 ft, B=350 ft, C=350 ft; rural: A=500 ft, B=500 ft, C=500 ft; expressway/freeway: A=1,000 ft, B=1,500 ft, C=2,640 ft. A is restriction-to-first-sign distance, B first-to-second, and C second-to-third.",
+      "applicability_conditions": [
+        "road type and agency-determined speed category"
+      ],
+      "required_inputs": [
+        "roadway_configuration",
+        "posted_speed_mph",
+        "traffic_sign_observations",
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "source_locator": "TABLE-6B-1; PDF page 813",
+      "source_span": "Table 6B-1. Recommended Advance Warning Sign Minimum Spacing. Urban (low speed): 100 feet, 100 feet, 100 feet. Urban (high speed): 350 feet, 350 feet, 350 feet. Rural: 500 feet, 500 feet, 500 feet. Expressway / Freeway: 1,000 feet, 1,500 feet, 2,640 feet. The column headings A, B, and C are the dimensions shown in Figures 6P-1 through 6P-54.",
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_sign_spacing",
+        "quantity": "spacing between successive advance warning signs",
+        "thresholds": [
+          {
+            "condition": "urban low-speed advance warning sign spacing",
+            "value": 100,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "condition_data_complete": false,
+      "data_availability": "partial",
+      "available_inputs": [
+        "posted_speed_mph"
+      ],
+      "missing_inputs": [
+        "roadway_configuration",
+        "traffic_sign_observations",
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "planned_tools": [
+        "inspect_temporal_images",
+        "measure_sign_spacing"
+      ],
+      "planned_evidence_strategy": "Inspect temporal images to establish sign identities and sequence, then measure longitudinal spacing using the ego trajectory and lidar-supported sign positions where available; classify the roadway and applicable Table 6B-1 category only from supported facts.",
+      "planned_decision_rule": "Apply the urban low-speed 100-foot criterion only if roadway type/category and successive applicable signs are established; otherwise leave the spacing predicate unresolved.",
+      "planned_for_inspection_after_review": true
+    },
+    {
+      "discovered_requirement_key": "req_6cba0e7128bd99e4",
+      "candidate_label": "TA-19 08: When used, the Street Name sign",
+      "subject": "When used, the Street Name sign",
+      "modality": "shall",
+      "relation": "shall_comply",
+      "threshold": "When used, the Street Name sign shall be placed above the Detour sign. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 897",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images"
+      ],
+      "source_locator": "TA-19 paragraph 08; PDF page 936",
+      "source_span": "When used, the Street Name sign shall be placed above the Detour sign. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 897",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": true,
+      "data_availability": "not_attempted",
+      "available_inputs": [],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect the scoped images for any Street Name sign and any Detour sign, then evaluate their vertical arrangement when both are present.",
+      "planned_decision_rule": "If a Street Name sign is clearly used, require it to be above the Detour sign; if no Street Name sign is used, treat the conditional placement as not applicable; ambiguous imagery remains unresolved.",
+      "planned_for_inspection_after_review": true
+    },
+    {
+      "discovered_requirement_key": "req_cb1dccef74232ff1",
+      "candidate_label": "SEC-6H.02 02: Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (",
+      "subject": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign",
+      "modality": "should",
+      "relation": "should_comply",
+      "threshold": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images"
+      ],
+      "source_locator": "SEC-6H.02 paragraph 02; PDF page 838",
+      "source_span": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": true,
+      "data_availability": "not_attempted",
+      "available_inputs": [],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect the time-ordered approach images for all advance-warning signs and establish their encounter order, with particular attention to ROAD WORK AHEAD (W20-1).",
+      "planned_decision_rule": "Find compliance only when multiple advance-warning signs and their first-encounter order are visually established; otherwise report unresolved.",
+      "planned_for_inspection_after_review": true
+    },
+    {
+      "discovered_requirement_key": "req_6510f42c7262c82d",
+      "candidate_label": "SEC-6H.02 01: Where highway conditions permit, warning signs",
+      "subject": "Where highway conditions permit, warning signs",
+      "modality": "should",
+      "relation": "should_comply",
+      "threshold": "Where highway conditions permit, warning signs should be placed in advance of the transition and activity areas at varying distances depending on roadway type, condition, and posted speed. Table 6B-1 contains information regarding the spacing of advance warning signs. Where a series of two or more advance warning signs is used, the closest sign to the transition and activity areas should be placed approximately 100 feet for low-speed urban streets to 1,000 feet or more for freeways and expressways.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images",
+        "posted_speed_mph",
+        "accepted_bbox_observations",
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "source_locator": "SEC-6H.02 paragraph 01; PDF page 838",
+      "source_span": "Where highway conditions permit, warning signs should be placed in advance of the transition and activity areas at varying distances depending on roadway type, condition, and posted speed. Table 6B-1 contains information regarding the spacing of advance warning signs. Where a series of two or more advance warning signs is used, the closest sign to the transition and activity areas should be placed approximately 100 feet for low-speed urban streets to 1,000 feet or more for freeways and expressways.",
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_longitudinal_distance",
+        "quantity": "longitudinal distance from the closest advance-warning sign to the transition/activity area",
+        "thresholds": [
+          {
+            "condition": "closest advance-warning sign before an established transition/activity area",
+            "value": 100,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "condition_data_complete": true,
+      "data_availability": "partial",
+      "available_inputs": [
+        "posted_speed_mph",
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images",
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "planned_tools": [
+        "inspect_temporal_images",
+        "measure_longitudinal_distance"
+      ],
+      "planned_evidence_strategy": "Inspect the approach images to identify the closest advance-warning sign and establish the transition/activity reference, then measure their longitudinal separation using trajectory and lidar-supported positions.",
+      "planned_decision_rule": "Use the approximately 100-foot low-speed urban criterion only when the closest sign and transition/activity area are both established; otherwise leave unresolved.",
+      "planned_for_inspection_after_review": true
+    },
+    {
+      "discovered_requirement_key": "req_134633b407c8f805",
+      "candidate_label": "TA-19 figure:sign:W20-2: W20-2 sign in TA-19",
+      "subject": "W20-2 sign in TA-19",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "W20-2 is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:W20-2; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": true,
+      "data_availability": "partial",
+      "available_inputs": [
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect the scoped temporal images for W20-2 and compare its identity, direction, and position with the TA-19 figure sequence.",
+      "planned_decision_rule": "Require clear visual identification and sequence evidence for the depicted W20-2; otherwise leave the predicate unresolved.",
+      "planned_for_inspection_after_review": true
+    }
+  ]
+}

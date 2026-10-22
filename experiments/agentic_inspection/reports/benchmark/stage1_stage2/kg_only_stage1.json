@@ -1,0 +1,259 @@
+{
+  "schema": "case1_stage1_candidate_evaluation_v1",
+  "expected_count": 15,
+  "unique_candidate_count": 43,
+  "surfaced_count": 15,
+  "candidate_recall": 1.0,
+  "mandatory": {
+    "expected": 5,
+    "surfaced": 5,
+    "recall": 1.0
+  },
+  "guidance": {
+    "expected": 10,
+    "surfaced": 10,
+    "recall": 1.0
+  },
+  "missed_expected_ids": [],
+  "known_invalid_candidate_count": 3,
+  "known_invalid_candidates": [
+    {
+      "id": "LC-03R",
+      "source_node_id": "src_6c5e6e478c3ea830a922",
+      "reason": "The multiple-lane-closure condition is false.",
+      "first_seen": {
+        "tool": "load_ta_core_graph",
+        "domain_or_layer": "stage1a_ta_core",
+        "rank_in_call": 16,
+        "retrieval_score": null
+      }
+    },
+    {
+      "id": "TT-02",
+      "source_node_id": "src_0782ada99cead9bb2cea",
+      "reason": "The provision governs one-lane, two-way alternating traffic.",
+      "first_seen": {
+        "tool": "load_ta_core_graph",
+        "domain_or_layer": "stage1a_ta_core",
+        "rank_in_call": 24,
+        "retrieval_score": null
+      }
+    },
+    {
+      "id": "AD-02",
+      "source_node_id": "src_773f5051c6890e5174a9",
+      "reason": "The provision restricts Arrow Board use; it does not require an arrow or chevron display in this scene.",
+      "first_seen": {
+        "tool": "load_scene_condition_graph",
+        "domain_or_layer": "stage1b_scene_condition",
+        "rank_in_call": 7,
+        "retrieval_score": null
+      }
+    }
+  ],
+  "gold_candidate_density": 0.3488372093023256,
+  "returned_counts_by_domain_or_layer": {
+    "stage1a_ta_core": 28,
+    "stage1b_scene_condition": 15
+  },
+  "details": [
+    {
+      "expected_id": "LC-01",
+      "source_node_ids": [
+        "src_25baa4f2f2ea8a767a6a"
+      ],
+      "surfaced": true,
+      "first_seen": {
+        "tool": "load_ta_core_graph",
+        "domain_or_layer": "stage1a_ta_core",
+        "rank_in_call": 18,
+        "retrieval_score": null
+      }
+    },
+    {
+      "expected_id": "LC-02",
+      "source_node_ids": [
+        "src_e65583438482e0520dd4"
+      ],
+      "surfaced": true,
+      "first_seen": {
+        "tool": "load_ta_core_graph",
+        "domain_or_layer": "stage1a_ta_core",
+        "rank_in_call": 19,
+        "retrieval_score": null
+      }
+    },
+    {
+      "expected_id": "AWS-01",
+      "source_node_ids": [
+        "src_3a61a102f3394eb624c4"
+      ],
+      "surfaced": true,
+      "first_seen": {
+        "tool": "load_ta_core_graph",
+        "domain_or_layer": "stage1a_ta_core",
+        "rank_in_call": 11,
+        "retrieval_score": null
+      }
+    },
+    {
+      "expected_id": "AWS-02",
+      "source_node_ids": [
+        "src_26bd048211769b2b09e8"
+      ],
+      "surfaced": true,
+      "first_seen": {
+        "tool": "load_ta_core_graph",
+        "domain_or_layer": "stage1a_ta_core",
+        "rank_in_call": 28,
+        "retrieval_score": null
+      }
+    },
+    {
+      "expected_id": "AWS-03",
+      "source_node_ids": [
+        "src_34c2cf162b6da3a055fe"
+      ],
+      "surfaced": true,
+      "first_seen": {
+        "tool": "load_ta_core_graph",
+        "domain_or_layer": "stage1a_ta_core",
+        "rank_in_call": 12,
+        "retrieval_score": null
+      }
+    },
+    {
+      "expected_id": "AWS-04",
+      "source_node_ids": [
+        "src_eafd02c3dbce3f8109a1"
+      ],
+      "surfaced": true,
+      "first_seen": {
+        "tool": "load_ta_core_graph",
+        "domain_or_layer": "stage1a_ta_core",
+        "rank_in_call": 9,
+        "retrieval_score": null
+      }
+    },
+    {
+      "expected_id": "AWS-05",
+      "source_node_ids": [
+        "src_f4754637d8b58f23e636"
+      ],
+      "surfaced": true,
+      "first_seen": {
+        "tool": "load_ta_core_graph",
+        "domain_or_layer": "stage1a_ta_core",
+        "rank_in_call": 3,
+        "retrieval_score": null
+      }
+    },
+    {
+      "expected_id": "AWS-06",
+      "source_node_ids": [
+        "src_6ee70d9c1617acd549c4",
+        "src_7a245af2a19d44b87030"
+      ],
+      "surfaced": true,
+      "first_seen": {
+        "tool": "load_ta_core_graph",
+        "domain_or_layer": "stage1a_ta_core",
+        "rank_in_call": 7,
+        "retrieval_score": null
+      }
+    },
+    {
+      "expected_id": "CH-01",
+      "source_node_ids": [
+        "src_2afdeb6d23fb7be10144"
+      ],
+      "surfaced": true,
+      "first_seen": {
+        "tool": "load_scene_condition_graph",
+        "domain_or_layer": "stage1b_scene_condition",
+        "rank_in_call": 15,
+        "retrieval_score": null
+      }
+    },
+    {
+      "expected_id": "CH-02",
+      "source_node_ids": [
+        "src_65f8e6d2257292e4b29b"
+      ],
+      "surfaced": true,
+      "first_seen": {
+        "tool": "load_scene_condition_graph",
+        "domain_or_layer": "stage1b_scene_condition",
+        "rank_in_call": 13,
+        "retrieval_score": null
+      }
+    },
+    {
+      "expected_id": "CH-03",
+      "source_node_ids": [
+        "src_c20be98384c5d0b17a53"
+      ],
+      "surfaced": true,
+      "first_seen": {
+        "tool": "load_scene_condition_graph",
+        "domain_or_layer": "stage1b_scene_condition",
+        "rank_in_call": 14,
+        "retrieval_score": null
+      }
+    },
+    {
+      "expected_id": "TT-03",
+      "source_node_ids": [
+        "src_84bd10c92c883edc52f8",
+        "src_8830bc798575a0d34908",
+        "src_efd418222a3f416f1e38"
+      ],
+      "surfaced": true,
+      "first_seen": {
+        "tool": "load_ta_core_graph",
+        "domain_or_layer": "stage1a_ta_core",
+        "rank_in_call": 14,
+        "retrieval_score": null
+      }
+    },
+    {
+      "expected_id": "TT-04",
+      "source_node_ids": [
+        "src_4f2b68c743a6b9bd3723"
+      ],
+      "surfaced": true,
+      "first_seen": {
+        "tool": "load_ta_core_graph",
+        "domain_or_layer": "stage1a_ta_core",
+        "rank_in_call": 22,
+        "retrieval_score": null
+      }
+    },
+    {
+      "expected_id": "AD-01",
+      "source_node_ids": [
+        "src_221a2387ff9abfa9e69e"
+      ],
+      "surfaced": true,
+      "first_seen": {
+        "tool": "load_scene_condition_graph",
+        "domain_or_layer": "stage1b_scene_condition",
+        "rank_in_call": 5,
+        "retrieval_score": null
+      }
+    },
+    {
+      "expected_id": "AD-03",
+      "source_node_ids": [
+        "src_7ef08d9dba4ab38ffa40"
+      ],
+      "surfaced": true,
+      "first_seen": {
+        "tool": "load_scene_condition_graph",
+        "domain_or_layer": "stage1b_scene_condition",
+        "rank_in_call": 11,
+        "retrieval_score": null
+      }
+    }
+  ]
+}

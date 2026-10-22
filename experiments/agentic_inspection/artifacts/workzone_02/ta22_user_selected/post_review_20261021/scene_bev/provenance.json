@@ -1,0 +1,23 @@
+{
+  "sources_and_code_sha256": {
+    "/home/klong23/workzone/experiments/agentic_inspection/scripts/case18_build_bev.py": "b7ea576beffb8649497fc4022443e029cefb0a46a2808ed287047fbb23e7ddff",
+    "/home/klong23/workzone/experiments/agentic_inspection/scripts/case18_bev_objects.py": "490cb1aa56606c761bf66b6f65225838324a7d7c6fd0af9989202a0e545a3cd8",
+    "/home/klong23/workzone/experiments/agentic_inspection/scripts/case18_render_bev.py": "2233ed71a4bb81a0ff853388a0573586db51b1a765f392c114ee6fcd90ced7a3",
+    "/home/klong23/workzone/experiments/agentic_inspection/scripts/case18_bev.html": "7e7f7d96afc23cc90c0140dadb685a4c42d76d6df028a513881d15160c527a19",
+    "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_18/ta22_user_selected/post_review_20261021/scene.json": "bc428bf91b1687bf2b7d45c0d14b0df19b23b0f6b8c5e44862befbfa1f244e4b",
+    "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_18/ta22_user_selected/post_review_20261021/qwen_serviceability/final_summary.json": "a9130336ea60507756b380ded8f111c371555adb3f8b43fd693a72d3c9441b33"
+  },
+  "calibration": "Unchanged black-vehicle calibration; corrected Y-forward INS pose convention",
+  "human_review_data": "Read-only snapshot, no new human judgments written",
+  "geometry_identity": "Algorithmic candidates, stable/single-frame/unresolved explicitly separated",
+  "object_condition": "One clear positive view can resolve uncertain views only with multi-frame supported identity and no clear conflict",
+  "outputs": [
+    "observations.json",
+    "objects.json",
+    "trajectory.json",
+    "pointcloud_display.npz",
+    "reconstruction.json",
+    "browser_validation.json",
+    "data_validation.json"
+  ]
+}

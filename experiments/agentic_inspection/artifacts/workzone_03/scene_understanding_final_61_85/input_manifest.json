@@ -1,0 +1,82 @@
+[
+  {
+    "source": "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__61099999.jpg",
+    "image": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/scene_understanding_final_61_85/workzone3__CAM_FRONT__61099999.jpg",
+    "sha256": "ced73da3b00b5db596f32ffc3da090b26bd8339d33c3234cd27a49bcc22e1313"
+  },
+  {
+    "source": "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__62699999.jpg",
+    "image": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/scene_understanding_final_61_85/workzone3__CAM_FRONT__62699999.jpg",
+    "sha256": "80388490e383d1b179acd859f04c8a07c93671e6fac75139d69e5a68ef7d9f71"
+  },
+  {
+    "source": "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__64299999.jpg",
+    "image": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/scene_understanding_final_61_85/workzone3__CAM_FRONT__64299999.jpg",
+    "sha256": "aa641ebc39de0d5c7517f8320758856ed2f5d44b98df3d0b1db16cd067aa467b"
+  },
+  {
+    "source": "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__65899999.jpg",
+    "image": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/scene_understanding_final_61_85/workzone3__CAM_FRONT__65899999.jpg",
+    "sha256": "d38fa4b6de143d46165922e1d82dc9ebc0e378914dff5ecf253604f95b1472b4"
+  },
+  {
+    "source": "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__67499999.jpg",
+    "image": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/scene_understanding_final_61_85/workzone3__CAM_FRONT__67499999.jpg",
+    "sha256": "ff6b28dc184bdca12001f859b2ab84417eade65314429cee4688bcb256ca2e65"
+  },
+  {
+    "source": "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__69099999.jpg",
+    "image": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/scene_understanding_final_61_85/workzone3__CAM_FRONT__69099999.jpg",
+    "sha256": "a9c88582171464f10f4ef1361a3236267b540a1e394c09ccd2dc06dad046374e"
+  },
+  {
+    "source": "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__70699999.jpg",
+    "image": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/scene_understanding_final_61_85/workzone3__CAM_FRONT__70699999.jpg",
+    "sha256": "211b2ea379cf82733b8193e0b5f894e3a6e866259ebf434f4698e13269e7cb7e"
+  },
+  {
+    "source": "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__72299999.jpg",
+    "image": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/scene_understanding_final_61_85/workzone3__CAM_FRONT__72299999.jpg",
+    "sha256": "2d5b41f771f6b011b96a9c7264a232e7e3d46e06d0becd52509fb82c7a9c0062"
+  },
+  {
+    "source": "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__73799999.jpg",
+    "image": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/scene_understanding_final_61_85/workzone3__CAM_FRONT__73799999.jpg",
+    "sha256": "d73a6c1c4c4506a0bdd5fd9ab9c1611bfa492d79210812d70a1b3a8bcd34a599"
+  },
+  {
+    "source": "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__75399999.jpg",
+    "image": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/scene_understanding_final_61_85/workzone3__CAM_FRONT__75399999.jpg",
+    "sha256": "42619bd7a31d2cd4427da1df7d3a8202bb26f243cd8a6b7e8e3b963ebe1d87c2"
+  },
+  {
+    "source": "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__76999990.jpg",
+    "image": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/scene_understanding_final_61_85/workzone3__CAM_FRONT__76999990.jpg",
+    "sha256": "2d2615bf2f353e197079aa8aad74298b59d03c6138e899d70f162021b42f21fb"
+  },
+  {
+    "source": "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__78599999.jpg",
+    "image": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/scene_understanding_final_61_85/workzone3__CAM_FRONT__78599999.jpg",
+    "sha256": "21c94a391416b9652da77e8d310ab4335daf250ebb6eecdbb3986e48cd84ed6f"
+  },
+  {
+    "source": "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__80199999.jpg",
+    "image": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/scene_understanding_final_61_85/workzone3__CAM_FRONT__80199999.jpg",
+    "sha256": "1c341043dee5782733691e0e74e6008c7a849b0629b29b2f508044071a8d799c"
+  },
+  {
+    "source": "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__81799999.jpg",
+    "image": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/scene_understanding_final_61_85/workzone3__CAM_FRONT__81799999.jpg",
+    "sha256": "37a7328187add59a9e11d0c540feff505cf4243f43b04b39c3243a9be05e9015"
+  },
+  {
+    "source": "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__83399999.jpg",
+    "image": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/scene_understanding_final_61_85/workzone3__CAM_FRONT__83399999.jpg",
+    "sha256": "38f421270023ba76d8cc226cdab7b38171818cf25202e4cd7a77f88666700cab"
+  },
+  {
+    "source": "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__84999990.jpg",
+    "image": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/scene_understanding_final_61_85/workzone3__CAM_FRONT__84999990.jpg",
+    "sha256": "120212f9593086d9d479cfb6bec9443d2ba54a10c17e0afabbadb3917716d208"
+  }
+]

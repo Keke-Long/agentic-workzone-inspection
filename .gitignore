@@ -1,0 +1,17 @@
+# Credentials / local execution caches only. Final data ARE included.
+.env
+.env.*
+!.env.example
+*openai_credentials*.json
+*.pem
+*.key
+**/__pycache__/
+*.py[cod]
+**/.pytest_cache/
+**/.venv/
+**/venv/
+**/node_modules/
+**/.cache/
+*.pid
+*-wal
+*-shm

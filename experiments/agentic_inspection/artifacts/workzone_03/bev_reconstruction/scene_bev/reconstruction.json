@@ -1,0 +1,38 @@
+{
+  "raw_lidar_frames": 240,
+  "raw_points_processed": 102752581,
+  "display_voxel_points": 191120,
+  "observations": 241,
+  "origin_enu_m": [
+    151.47887492072158,
+    128.35164005549808,
+    0.059216136943276966
+  ],
+  "display_basis_columns_enu": [
+    [
+      0.7034983967895733,
+      -0.7106968451558654
+    ],
+    [
+      0.7106968451558654,
+      0.7034983967895733
+    ]
+  ],
+  "coordinates": "rigid local metric view: x initial forward, y left; not a flattened station-lateral plot",
+  "point_cloud_warning": "Downsampled accumulation includes moving traffic and occlusion artifacts; not an exclusively static semantic map.",
+  "pose_convention": "Rz(-azimuth) Rx(pitch) Ry(roll), Y forward",
+  "geometry_policy": "Each raw point transformed with interpolated INS pose at its timestamp; camera nearest cloud and full pose time compensation; human classes unchanged.",
+  "workzone_id": "workzone_03",
+  "point_timestamp_window_s": [
+    61.0,
+    85.0
+  ],
+  "point_filter_counts": {
+    "excluded_outside_window": 187,
+    "excluded_invalid": 0
+  },
+  "status": "reviewed_objects_reconstruction_complete",
+  "post_reconstruction_user_exclusions": [
+    "W3_T73099999_Q007"
+  ]
+}

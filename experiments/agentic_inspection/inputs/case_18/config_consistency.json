@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "configs": [
+    "stage1_bm25_only.json",
+    "stage1_dense_only.json",
+    "stage1_kg_bm25.json",
+    "stage1_kg_dense.json",
+    "stage1_kg_only.json",
+    "stage3.json",
+    "stage4.json",
+    "stage5.json",
+    "stage6.json"
+  ],
+  "unchanged_method_fields": [
+    "model",
+    "reasoning_effort",
+    "method_id",
+    "method_definition_version",
+    "stage2_policy",
+    "stage1c_gap_retrieval",
+    "single_tool_response_max_chars",
+    "registry_batch_size",
+    "max_output_tokens_per_turn",
+    "emergency_controller_turn_ceiling",
+    "emergency_stage0_turn_ceiling",
+    "budget_policy"
+  ],
+  "cross_case_references": []
+}

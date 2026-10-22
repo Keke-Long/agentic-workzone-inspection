@@ -1,0 +1,463 @@
+Automatic Agentic VLM Inspection of Work Zones Using Connected Vehicle
+Data
+
+
+
+Abstract
+Work-zone traffic control devices must be deployed and maintained in accordance with
+context-dependent requirements, yet field inspection is labor-intensive and difficult to conduct
+continuously. Connected vehicles can collect synchronized roadway imagery, LiDAR point
+clouds, and positioning data during routine travel, creating an opportunity to support recurring
+inspection without requiring a dedicated survey for every visit. The challenge is not only to
+detect objects, but also to determine which requirements apply to a given work-zone scene,
+identify which inspection questions are observable from the available data, coordinate
+specialized analysis tools, and preserve the evidence supporting each conclusion. This paper
+develops a structure-guided agentic workflow that connects work-zone manuals with multimodal
+connected-vehicle data. The manual structure guides regulatory retrieval, while an agent
+dynamically selects inspection tasks, plans tool calls, responds to intermediate results or
+failures, and assembles evidence-grounded inspection records. The workflow is evaluated on
+real work-zone traversals using human-established ground truth at the tool, inspection, and
+system levels. Quantitative results and the final inspection scope will be inserted after data
+auditing and experiments are completed.
+Keywords: work-zone inspection; agentic AI; connected vehicles; multimodal sensing;
+retrieval-augmented generation; traffic control devices
+
+
+1. Introduction
+Work-zone safety is a persistent transportation challenge. Work zones were reported to account
+for more than 2% of all fatal crashes in the United States each year since 2016 (Finley &
+Ullman, 2023). The burden extends beyond fatal events: a work-zone crash occurred
+approximately every five minutes nationwide during 2015–2019 (Qian et al., 2024). Crashes
+also impose substantial economic losses. The average economic cost of a
+property-damage-only crash is estimated at $18,100 in 2024 dollars (FHWA, 2025). These
+safety and economic burdens motivate timely inspection of temporary traffic-control facilities. As
+work progresses and traffic arrangements change, agencies need to identify deficient,
+displaced, or obscured devices and refer potential problems for corrective action.
+
+Conventional work-zone inspection relies on field visits and manual review of imagery and
+records. Staff time and travel requirements constrain how frequently geographically dispersed
+work zones can be inspected. Geotagged images collected by commercial trucks during routine
+travel can support repeated remote review of sign placement, lane configurations, maintenance
+closures, and pavement markings (Overall et al., 2026). This establishes a practical opportunity
+to use passing vehicles as an information source for inspection. Where instrumented vehicles
+also provide synchronized LiDAR and positioning data, their observations may support selected
+spatial measurements in addition to visual review.
+
+Existing vehicle-based inspection systems have already automated data collection. Traffic-sign
+tracking, tilt and occlusion assessment, and geolocated reporting have been integrated into a
+monitoring workflow, with mobile LiDAR used to validate geometric estimates. This workflow
+converts roadway observations into actionable asset records for predefined sign-condition tasks
+(Dwairi et al., 2026). In a demonstrated work-zone application, an AI experiment screened
+images for the presence of a work zone, while the assessment of traffic-control practices still
+relied on manual inspection (Overall et al., 2026).
+
+Across engineering domains, there is a shared need to automate the assessment of whether
+designs, assets, and site conditions conform to applicable requirements. Automated compliance
+checking addresses this need by organizing regulatory requirements, information about the
+object under review, and specialized analysis tools into workflows that produce conformance
+judgments and review reports. Such workflows have been applied to BIM-based design review
+(Peng & Liu, 2023), integrated construction compliance checking (Beach et al., 2024), and
+building operation assessment (Beach et al., 2025). LLMs have also been incorporated into BIM
+code checking (Madireddy et al., 2025), adaptive design review (Alnuzha & Bloch, 2026), and
+construction-site safety monitoring (Chan et al., 2025).
+
+However, automated compliance checking remains underexplored in work-zone inspection
+using vehicle-collected data. The vehicle-based studies above do not demonstrate this
+capability, while the cross-domain systems address different objects, information structures, and
+inspection tasks. In a work zone, a requirement may depend on roadway type, speed, closure
+configuration, and work duration. The available observations may reveal a device without
+establishing its condition or its spacing relative to another device. Applying the checking
+paradigm therefore requires the system to associate the scene with the relevant requirement,
+obtain the evidence needed for that particular check, and recognize when the traversal cannot
+support a conclusion.
+
+This study develops a structure-guided agentic workflow for that purpose. It links
+connected-vehicle imagery, LiDAR, and positioning data with temporary-traffic-control manuals
+and specialized analysis tools. Structure-guided retrieval-augmented generation (RAG) uses the
+manual's organization of conditions, typical configurations, device requirements, tables, and
+notes to narrow the retrieval scope and retain the context needed to interpret a requirement.
+The design addresses the possibility that a textually relevant passage is not applicable to the
+observed scene. An agent then selects inspection items, coordinates tool execution, and
+responds to intermediate evidence or failures. The output connects each inspection status with
+its regulatory source and observed evidence, including referral for human review when a
+judgment is unsupported.
+
+The paper makes two contributions. First, it develops an agentic work-zone inspection workflow
+that combines multimodal vehicle data with structure-guided RAG to produce inspection reports
+grounded in traffic-control requirements and observed evidence. Second, it evaluates the
+workflow on real work-zone data to assess its accuracy and practical applicability.
+
+
+2. Methodology
+
+2.1 System Overview
+The proposed framework converts connected-vehicle observations into work-zone inspection
+records through four stages: layout selection, regulation-grounded inspection planning,
+tool-assisted inspection and assessment, and inspection report synthesis (Fig. 1). The sensing
+inputs are vehicle-mounted camera imagery and LiDAR point clouds, with the calibration and
+synchronization information needed by the analysis tools. Telematics data are not an input to
+the framework. A multimodal agent connects these observations with a structured
+representation of the Manual on Uniform Traffic Control Devices (MUTCD), 11th Edition, and a
+set of scene-evidence tools.
+The framework separates deciding what should be inspected from establishing what the
+observations can support. Stage 1 selects a source-supported Typical Application (TA). Stage 2
+uses structure-guided retrieval-augmented generation (RAG) to identify candidate provisions,
+construct explicit inspection requirements, and plan evidence acquisition. Stage 3 executes the
+plan and forms evidence-supported judgments. Stage 4 assembles the results into a report that
+links each requirement to its normative source, observations, measurements, and assessment
+rationale. Evidence-insufficient items remain visible as not_assessed rather than being omitted
+or treated as satisfactory.
+
+
+
+
+Fig. 1. Four-stage framework for agentic work-zone inspection.
+2.2 Stage 1: Layout Selection
+Layout selection establishes the traffic-control configuration that organizes subsequent
+regulatory retrieval. The agent uses the available scene context to distinguish features such as
+the closed lane, direction of traffic, merging transition, lane shift, and presence of conditional
+devices. Known facts are recorded with their provenance; an unknown condition remains
+unknown rather than being interpreted as false. Camera observations provide visual context,
+while geometric information is used where available and relevant.
+The agent searches the MUTCD Typical Applications and examines their source descriptions,
+diagrams, and associated notes before selecting the applicable layout. The output is a TA
+identifier, the supporting source references, and a scene-based selection rationale. Selecting a
+TA narrows the regulatory search space. The selected TA and scene facts are passed to Stage
+2 so that both layout-specific and condition-dependent requirements can be considered.
+
+2.3 Stage 2: Regulation-Grounded Inspection Planning
+This stage transforms regulatory knowledge into an executable inspection plan. Its
+methodological contribution is the explicit connection between the manual's structure,
+scene-conditioned requirement activation, and the evidence needed to evaluate each
+requirement. It comprises three modules: structured regulatory retrieval, applicable requirement
+construction, and evidence acquisition planning.
+
+2.3.1 Structured Regulatory Retrieval
+The regulatory representation preserves the MUTCD's source organization, including sections,
+Typical Applications, clauses, figure components, tables, notes, and explicit cross-references. A
+knowledge graph (KG) connects source units and their relevant relationships, while retained
+source locators and text spans allow retrieved information to be checked against the manual.
+This representation is constructed independently of the evaluation answers; benchmark
+requirement identifiers and expected inspection outcomes are not retrieval inputs.
+Candidate generation combines three complementary layers. First, a TA-core layer retrieves
+provisions connected to the selected Typical Application, including relevant components and
+referenced material. Second, a scene-condition layer activates additional KG candidates using
+the recorded scene facts and identified components. Third, a gap-retrieval layer searches for
+potentially relevant provisions beyond the graph-derived candidate set. The primary method
+uses BM25 for this supplementary search; a dense retriever is a method variant. The two graph
+layers supply deterministic candidates, while supplementary retrieval broadens the candidate
+pool without replacing the graph-derived provisions.
+The candidate set can be expressed as C = C_TA ∪ C_scene ∪ C_gap, where C_TA denotes
+the TA-core candidates, C_scene denotes candidates activated by scene conditions, and C_gap
+denotes supplementary retrieval results. Candidate retrieval is organized around six inspection
+domains: lane-closure layout, advance-warning signs, channelization, transition and taper
+geometry, conditional active devices, and the conditional termination area. These domains
+bound the current inspection scope; the framework does not claim exhaustive coverage of all
+MUTCD provisions.
+The structure-guided RAG contribution therefore lies in preserving the relationship between a
+retrieved provision, its governing context, and the observed configuration. A textually similar
+passage is treated as a candidate, not immediately as an applicable requirement. The
+graph-based and supplementary results are passed together to the next module, where
+applicability is explicitly resolved and recorded. This separation also permits retrieval coverage
+and requirement-selection quality to be evaluated independently.
+
+2.3.2 Applicable Requirement Construction
+The agent converts the candidate pool into atomic requirements that can be assessed
+separately. For every deterministic KG candidate, it records a structured decision comprising the
+activation state (established, false, or unknown), whether the candidate represents an
+independently violable requirement, any duplicate source relationship, the retain-or-exclude
+action, the decision basis, and the measurement specification. An initial compilation may be
+followed by a candidate audit, but unresolved KG candidates must receive a decision before the
+requirement registry is finalized.
+For each retained item, the system binds the inspected subject, required relation or condition,
+threshold where specified, normative modality, applicability conditions, required evidence inputs,
+and authoritative source locator and span. Mandatory provisions and guidance retain their
+different normative force. Unknown activation conditions remain explicit in the decision record;
+retaining an item is not evidence that all of its preconditions have been established. Each
+requirement receives a run-local key for linking planning, evidence, and conclusions, while the
+MUTCD locator remains the authoritative regulatory citation.
+This structured compilation limits the loss of conditions and source context that can occur when
+retrieved passages are summarized into free-form inspection questions. It also distinguishes
+requirement applicability from observability: a requirement cannot be excluded solely because
+the available traversal lacks the evidence needed to assess it. Such limitations are carried
+forward to evidence planning and, if unresolved, to the final assessment.
+
+2.3.3 Evidence Acquisition Planning
+For each registered requirement, the agent identifies the observations or measurements needed
+to support a judgment and checks their availability in the scene data. The planning record
+distinguishes information already available, information that is only partially available, and
+acquisition that has not yet been attempted. It specifies the relevant tool family, target objects or
+frames, required inputs, and the measurement or observation to be returned. No compliance
+conclusion is produced during this module.
+The plan follows the semantics of the requirement. A device-condition check requires visual
+evidence of the relevant device and its condition; a spacing or taper check requires suitable
+geometric observations and any inputs needed to instantiate the registered threshold. Detecting
+a device alone does not establish its condition, position, or spacing. When an input is
+unavailable, the limitation is recorded explicitly rather than replaced with an assumed value.
+Stage 2 ends with a source-linked requirement registry and an evidence acquisition plan that
+guide execution in Stage 3.
+
+2.4 Stage 3: Tool-Assisted Inspection and Assessment
+The agent executes the acquisition plan through the available scene-evidence tools. These
+tools expose accepted object observations, image references, device attributes, and geometric
+measurements where the sensor data support them. Each returned result is attached to the
+corresponding requirement key, together with its provenance, such as the frame, object
+identifier, bounding box, measurement inputs, and validity information. The language model
+coordinates tool use and interprets returned evidence; numerical measurements are obtained
+through the measurement tools rather than invented from the narrative context.
+Execution is informed by intermediate results. When evidence is incomplete, the agent can
+request further available observations or measurements before finalizing the evidence record.
+Tool failures and unresolved inputs are retained as acquisition limitations. This process is
+constrained by the available tools and data: repeated requests do not justify assuming that
+missing evidence exists. Before assessment, the evidence record accounts for the required
+inputs of each registered item, including inputs that could not be obtained.
+The assessment then compares the bound evidence with the registered requirement. An item is
+satisfied when sufficient valid evidence supports the specified condition, deficient when
+sufficient valid evidence supports a departure from that condition, and not_assessed when the
+available evidence does not support either conclusion. Numeric checks use the registered
+relation, threshold or formula, units, and required contextual inputs. Qualitative checks cite the
+observations that support the judgment. An acquisition failure or an unobserved device is not,
+by itself, proof of a deficiency.
+Although acquisition and assessment form one stage in the conceptual framework, evidence
+recording precedes conclusion formation. Each registered requirement receives one final status
+with a rationale and evidence references. The assessment preserves the distinction between a
+mandatory requirement and guidance, so that a reported departure is interpreted with the
+normative force of its source. Requirements and source bindings established in Stage 2 are not
+silently rewritten to fit downstream observations.
+
+2.5 Stage 4: Inspection Report Synthesis
+The final stage converts the structured assessment records into a readable inspection report.
+The report begins with the scene identifier, selected layout, inspection scope, and a summary of
+assessed and unassessed requirements. A requirement-level results table presents the
+inspected condition, normative class, MUTCD source, outcome, and associated issue or
+evidence references. Detailed evidence records provide the supporting images or image
+regions, relevant measurements, and the explanation connecting those observations to the
+conclusion.
+Findings concerning the same physical defect are grouped while retaining requirement-level
+conclusions. Items marked not_assessed are listed separately with the missing evidence or
+measurement inputs. Report synthesis preserves the finalized judgments and their links to
+regulatory sources and evidence.
+
+3. Experimental Design and Results
+This chapter reports the completed experiments on Work Zone 01. The evaluation separates
+regulatory retrieval and requirement construction from evidence acquisition and final reporting,
+following the four-stage organization in Section 2.
+
+3.1 Data Source and Evaluation Reference
+The data collection campaign used the laboratory's Level 3 automated driving vehicle at two
+work zones in Madison, Wisconsin. The results reported here concern the completed reference
+case, Work Zone 01 (scene-CATS-01); the second site is not included in the quantitative results.
+Camera images, LiDAR data, and calibration and pose metadata are organized in a
+nuScenes-style format. This describes the data structure rather than use of the public nuScenes
+benchmark.
+Work Zone 01 contains a single left-lane closure on a four-lane undivided roadway, with a
+merging taper and an arrow board. The recorded inspection period is daytime, and the
+posted-speed input is 30 mph, supplied as a scene fact. The selected layout is TA-30. The
+materialized scene contains 3,631 accepted bounding-box observations across six camera
+views; these are observations across frames, not 3,631 distinct devices. The current evaluation
+uses reviewed observations and confirmed device-condition findings, so it evaluates the
+inspection workflow conditional on those inputs rather than an unassisted perception system.
+Requirement selection is scored against a frozen, evaluator-only reference containing 15
+applicable items: five mandatory provisions and ten guidance provisions. It covers the six
+inspection domains defined in Section 2. The reference was produced through a separate
+autonomous MUTCD content audit and is not expert-validated ground truth or an exhaustive
+requirement catalog. Its identifiers, target count, and expected answers are withheld from the
+inspection agent. Candidate recall is the fraction of reference items represented in the retrieved
+pool; requirement recall is the fraction matched by registered requirements; activation precision
+is the number of matched items divided by the number of registered requirements.
+
+3.2 Compared Methods and Experimental Controls
+Five regulatory-access configurations are evaluated: KG only, BM25 only, Dense only, KG +
+BM25, and KG + Dense. KG only uses the TA-core and scene-condition graph layers. The
+retrieval-only baselines use lexical or dense retrieval without these graph layers. The combined
+methods supplement the graph-derived candidates with BM25 or E5-large-v2 retrieval,
+respectively. KG + BM25 is the primary method, and KG + Dense tests the alternative
+supplementary retriever.
+The recorded runs use the same scene context, selected TA, inspection domains, source index,
+evaluator reference, and controller model, gpt-5.6-luna with medium reasoning effort.
+Supplementary and retrieval-only searches retain up to 18 candidates per domain. Candidate
+recall is the common comparison across all five methods. Requirement construction is
+compared directly between the two combined methods, whose retained runs include the
+structured candidate-decision audit. The retained KG-only run predates that audit and has
+seven unresolved high-priority candidate dispositions; its downstream scores are historical
+diagnostics, not a matched ablation of the current compiler. Retrieval-only runs also use a
+different, free-form registration procedure.
+Each configuration has one retained run on this case. The results therefore describe observed
+behavior without estimating run-to-run variance or statistical significance. The original software's
+retrieval and requirement-registration stages are both part of Stage 2 in the four-stage
+framework used in this paper.
+
+3.3 Regulatory Retrieval and Requirement Construction Results
+Table 1 summarizes the retained evaluations. All three KG configurations surfaced the complete
+15-item reference set. BM25 only retrieved candidates covering two items (13.3%), and Dense
+only covered four (26.7%). Thus, the graph structure supplied substantially greater candidate
+coverage in this case. Because KG only already reached full candidate recall, the experiment
+does not demonstrate an additional recall benefit from supplementary retrieval.
+Table 1. Candidate retrieval and registered-requirement results on Work Zone 01.
+
+
+
+ Method                   Candidate recall    Registered     Requirement           Activation
+                                                             recall                precision
+
+ KG only (prior run)      100.0%              10             53.3%                 80.0%
+
+ BM25 only                13.3%               3              13.3%                 66.7%
+
+ Dense only               26.7%               2              6.7%                  50.0%
+
+ KG + BM25                100.0%              19             86.7%                 68.4%
+
+ KG + Dense               100.0%              21             86.7%                 61.9%
+
+
+Both combined methods registered 13 of the 15 reference requirements, giving 86.7%
+requirement recall. KG + BM25 registered 19 items, with 68.4% activation precision; KG +
+Dense registered 21, with 61.9% precision. Both matched four of five mandatory items and nine
+of ten guidance items. Their two missed items concerned advance placement of a Lane Closed
+warning sign and functional adequacy of the merging taper. These provisions were available in
+the candidate pool, locating the omissions in requirement construction rather than retrieval.
+The unmatched registered items numbered six for KG + BM25 and eight for KG + Dense; each
+run also contained one explicitly flagged invalid activation. Unmatched items should not all be
+interpreted as proven regulatory errors because the reference is bounded and not exhaustive.
+Source-integrity checks passed for every registered item in both combined runs, showing that
+valid source attribution alone does not establish correct applicability. The retained KG-only and
+retrieval-only downstream values in Table 1 are diagnostic because their compilation
+procedures differ from the audited combined runs.
+
+3.4 Evidence Acquisition and System-Level Results
+The KG + BM25 pipeline generated availability records for all 19 registered requirements. All
+records consistently partitioned required inputs and included an evidence strategy and decision
+rule, but only 15 of 19 plans covered all required acquisition-tool families. The planning audit
+therefore did not fully pass. During the evidence-acquisition run, 36 evidence records accounted
+for all 19 requirements, including four acquisition-failure records. All 23 inventoried traffic-sign
+representatives and the single arrow-board representative were inspected, and each of the four
+inventoried channelizer classes was sampled. These are coverage measures over the accepted
+inventory, not detection accuracy or proof that every field device was inspected.
+The original sealed pipeline produced 14 satisfied, two deficient, and three not_assessed
+outcomes. Two pending geometric checks were subsequently completed in a documented
+evaluation supplement, without changing the normative requirement registry. The resulting
+report contains 16 satisfied, two deficient, and one not_assessed outcome (Table 2).
+Assessment coverage increased from 16/19 (84.2%) to 18/19 (94.7%); these percentages
+measure the availability of a definitive status, not judgment accuracy or overall work-zone
+compliance.
+Table 2. Recorded assessment outcomes before and after supplementary geometry evaluation.
+
+
+
+ Result snapshot               Satisfied       Deficient       Not assessed       Coverage
+
+ Original pipeline             14              2               3                  84.2%
+
+ With geometry supplement      16              2               1                  94.7%
+
+
+The two deficient requirements refer to MUTCD Section 6K.01, paragraphs 14 and 15, and
+share one consolidated channelizing-device-condition issue. The supporting findings identify
+substantial retroreflective-band loss on device I4844 and damaged or peeling bands on I5502.
+These findings were supplied through the reviewed scene evidence and are not counted as
+independent model detections. The report preserves both requirement-level conclusions while
+grouping their common physical evidence.
+Geometric evaluation covered 30 channelizer gaps, with no reliable clear exceedance reported
+under the registered thresholds. Supplementary sign-spacing estimates for A, B, and C were
+270.8, 249.8, and 219.4 ft, respectively, exceeding the registered 100-ft recommendation. The
+fitted taper length was 158.7 ft, compared with a registered minimum of 140.9 ft using a lateral
+offset of 9.39 ft and a speed of 30 mph. These track-derived values are screening
+measurements; no independent survey-based error estimate is available. The remaining
+not_assessed item concerns the highway-conditions warning-sign provision in Section 6H.02,
+paragraph 1.
+Figure 2 shows the generated report, which presents the scene summary, normative classes,
+requirement-level statuses, source citations, and issue references. Detailed report pages retain
+the supporting evidence and unresolved assessment gaps.
+
+
+
+
+Fig. 2. Preview of the generated Work Zone 01 report after supplementary geometry evaluation.
+Displayed outcomes are recorded system judgments, not independently validated accuracy scores.
+
+
+3.5 Computational Cost
+Table 3 reports resource use for retrieval and requirement construction in the two audited
+combined runs; it excludes downstream inspection, data preparation, and supplementary
+geometry evaluation. KG + Dense used approximately 1.88 times the tokens and 1.30 times the
+wall time of KG + BM25 while achieving the same requirement recall and lower activation
+precision. This case supports BM25 as the less expensive supplementary retriever under the
+recorded settings, but does not establish a general ranking across work zones.
+Table 3. Recorded resource use for retrieval and requirement construction.
+
+
+
+ Method                          Total tokens             Wall time (s)      API cost (USD)
+
+ KG + BM25                       548,269                  102.6              0.09294
+
+ KG + Dense                      1,028,294                133.7              0.15885
+
+
+Costs are the model-API estimates stored with the runs under their checkpoint pricing, not
+current service quotations or total deployment costs. Wall times are single-run observations and
+include neither uncertainty estimates nor a hardware-normalized benchmark.
+
+3.6 Limitations of the Current Evaluation
+The completed evidence supports a single-case feasibility study. Generalization across work
+zones, repeatability across model runs, and final judgment accuracy remain unestablished.
+Reviewed bounding boxes and confirmed condition findings contribute to the current input, and
+the requirement reference has not undergone independent expert validation. Object-detection
+mAP, condition-classification accuracy, survey-based geometry errors, and human report-quality
+scores are therefore not reported.
+The final status counts also require caution: several retained rationales assign satisfied because
+no clear violation was established while acknowledging unresolved visual details. This falls short
+of the positive-evidence criterion described in Section 2 and should be assessed through an
+independent conclusion audit. Reporting these outcomes as system outputs, separately from
+requirement-retrieval scores and the later geometry supplement, prevents procedural
+completeness from being mistaken for validated inspection accuracy.
+
+
+4. Conclusions
+This study develops a structure-guided agentic workflow for converting connected-vehicle
+observations into traceable work-zone inspection records. The final conclusion will be written
+after experiments establish the reliability of the component tools, the value of dynamic
+orchestration, the supported inspection scope, and the principal failure modes.
+
+
+References
+Alnuzha, M., & Bloch, T. (2026). Integrating large language models and knowledge graphs for
+       adaptive design review. Journal of Information Technology in Construction (ITcon), 31,
+       888–916. https://doi.org/10.36680/j.itcon.2026.038
+Beach, T., Yeung, J., Ghoroghi, A., & Rezgui, Y. (2025). Moving automated compliance checking
+       to the operational phase of the building life-cycle: Analysis and feasibility study in the
+       UK. International Journal of Construction Management, 25(7), 840–849.
+       https://doi.org/10.1080/15623599.2024.2366727
+Beach, T., Yeung, J., Nisbet, N., & Rezgui, Y. (2024). Digital approaches to construction
+       compliance checking: Validating the suitability of an ecosystem approach to compliance
+        checking. Advanced Engineering Informatics, 59, Article 102288.
+        https://doi.org/10.1016/j.aei.2023.102288
+Chan, C. F., Wong, K. Y., Guo, X., Cheng, J. C. P., Chan, J. P. C., Leung, P. H., & Tao, X.
+        (2025). Context-aware vision-language model agent enriched with domain-specific
+        ontology for construction site safety monitoring. Automation in Construction, 177, Article
+        106305. https://doi.org/10.1016/j.autcon.2025.106305
+Dwairi, M., Manasreh, D., Melhem, M., & Nazzal, M. D. (2026). Automated traffic signs condition
+        monitoring using machine vision. Innovative Infrastructure Solutions, 11, Article 325.
+        https://doi.org/10.1007/s41062-026-02676-0
+Federal Highway Administration. (2025). Updated crash costs for highway safety analysis
+        (Report No. FHWA-SA-25-021).
+        https://highways.fhwa.dot.gov/sites/fhwa.dot.gov/files/2025-10/CrashCostFactSheet_508
+        _OCT2025.pdf
+Finley, M. D., & Ullman, G. L. (2023). Commercial motor vehicle safety in work zones targeted
+        action plan (Report No. FHWA-HOP-20-027). Federal Highway Administration.
+        https://rosap.ntl.bts.gov/view/dot/72451
+Madireddy, S., Gao, L., Din, Z., Kim, K., Senouci, A., Han, Z., & Zhang, Y. (2025). Large
+        language model-driven code compliance checking in building information modeling.
+        Electronics, 14(11), Article 2146. https://doi.org/10.3390/electronics14112146
+Overall, M. W., Mukai, J., Sakhare, R. S., Desai, J., Horton, D., & Bullock, D. M. (2026).
+        Applications of commercial truck dash cameras for work zone inspection and monitoring.
+        Journal of Transportation Technologies, 16(1), 95–114.
+        https://doi.org/10.4236/jtts.2026.161006
+Peng, J., & Liu, X. (2023). Automated code compliance checking research based on BIM and
+        knowledge graph. Scientific Reports, 13, Article 7065.
+        https://doi.org/10.1038/s41598-023-34342-1
+Qian, S., Guengerich, Q., & Tao, T. (2024). Mitigating crash risks in work zones: Causal
+        inference and crash modification factors. Carnegie Mellon University, Traffic21 Institute,
+        Safety21 University Transportation Center. https://rosap.ntl.bts.gov/view/dot/77512
+

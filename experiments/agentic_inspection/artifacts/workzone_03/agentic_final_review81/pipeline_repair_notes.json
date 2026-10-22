@@ -1,0 +1,14 @@
+{
+  "repairs": [
+    "Pass final accepted class counts through scoped scene view; normalize merged traffic_cone family to KG channelizing_device trigger. Previously counts were dropped and canonical name mismatched.",
+    "Require disposition of all retrieved supplemental candidates, not just deterministic KG candidates.",
+    "Split automatic direct-evidence records into registered maximum batch size (12).",
+    "Spacing audit accepts only the registered alignment type (tangent and/or taper); unregistered regions are not evaluated. ValueError measurement failures are recorded as attempts, not retry loops.",
+    "Traffic-sign acquisition and provenance include reviewed semantic sign subclasses such as road_work_ahead; preserve original labels.",
+    "Validated BEV object identities bypass legacy 1.5m transitive deduplication; allow closely spaced distinct objects in sequence construction. Legacy scene behavior unchanged.",
+    "Route visual-inspection/serviceability wording to image tools and successive-sign distance wording to registered sign-spacing tools. No inaccessible-data claim caused solely by input-name mismatch.",
+    "Expose actual remaining visual-input keys on every Stage 4 turn and require a tool call until sealed; resume persisted inspected evidence after premature prose stop, avoiding duplicate image review."
+  ],
+  "prior_outputs": "artifacts/workzone_03/agentic_final_review81/before_candidate_and_batch_repairs",
+  "method_reporting": "Workzone 3 uses repaired implementation. Historical Workzone 1/2 results are not rerun or proven equivalent. Legacy config stage2_policy.candidate_scope label describes the earlier baseline; current code audit covers ALL retrieved candidate nodes. Report this implementation delta explicitly."
+}

@@ -1,0 +1,72 @@
+{
+  "experiment_id": "workzone_01_stage1_kg_dense",
+  "status": "frozen_stage1_stage2_method_definition",
+  "method_id": "agentic_kg_dense",
+  "method_display_name": "KG-first inspection with E5 dense gap retrieval",
+  "method_role": "retrieval_variant_of_proposed_method",
+  "method_definition_version": "stage1_stage2_methods_v1",
+  "stage2_policy": {
+    "mode": "structured_candidate_decision_v1",
+    "candidate_scope": "initial_compilation_plus_unresolved_deterministic_kg_candidates",
+    "canonical_predicate_binding": true,
+    "explicit_candidate_disposition_required": true
+  },
+  "model": "gpt-5.6-luna",
+  "reasoning_effort": "medium",
+  "credential_config": "~/.config/workzone/openai_credentials.json",
+  "manual_structure_index": "inputs/mutcd_structure_v1.json",
+  "knowledge_graph_index": "inputs/mutcd_knowledge_graph_v2.json",
+  "scene_manifest": "cases/workzone_01/scene.json",
+  "public_scene_manifest": "cases/workzone_01/scene.json",
+  "frozen_autonomous_reference": "ground_truth/workzone_01/active_requirements.json",
+  "output_directory": "artifacts/workzone_01/benchmark/stage1_stage2/kg_plus_dense/scene-CATS-01",
+  "report_directory": "reports/benchmark/stage1_stage2",
+  "stage1c_gap_retrieval": {
+    "architecture": "kg_plus_retrieval",
+    "method": "dense_e5",
+    "model_id": "intfloat/e5-large-v2",
+    "index": "inputs/mutcd_dense_gap_e5_large_v2.npz",
+    "manifest": "inputs/mutcd_dense_gap_e5_large_v2_manifest.json",
+    "candidate_limit_per_domain": 18
+  },
+  "single_tool_response_max_chars": 24000,
+  "registry_batch_size": 12,
+  "max_output_tokens_per_turn": 5000,
+  "emergency_controller_turn_ceiling": 48,
+  "emergency_stage0_turn_ceiling": 24,
+  "model_pricing_usd_per_million": {
+    "input": 0.20,
+    "cached_input": 0.02,
+    "output": 1.20,
+    "pricing_scope": "standard short-context Responses API pricing recorded for this checkpoint"
+  },
+  "budget_policy": {
+    "normal_total_retrieval_call_limit": null,
+    "normal_total_tool_call_limit": null,
+    "normal_total_retrieved_character_limit": null,
+    "stopping_is_state_based": true,
+    "emergency_ceiling_is_method_failure": true
+  },
+  "execution": {
+    "model_calls_enabled": true,
+    "authorized_runs": [1],
+    "preflight_report": "inputs/preflight/workzone_01/stage1_kg_dense.json",
+    "critical_preflight_required": true,
+    "run_02_and_run_03_locked": true,
+    "scoped_stage1_stage2_test": true,
+    "simplified_inspection_checks": true,
+    "stop_after_requirement_registration": true,
+    "stop_before_measurement": false,
+    "resume_stage0_record": null,
+    "resume_registry_checkpoint": null,
+    "resume_tool_trace": null,
+    "lock_reason": "Frozen retrieval variant: KG plus Dense E5 with structured candidate-decision Stage 2."
+  },
+  "reporting": {
+    "reference_status": "evaluator-only corrected Case 1 active requirement set; never exposed to the agent or dense-index builder",
+    "cross_method_claims_allowed": true,
+    "primary_evaluation": "eight valid active requirements, invalid-activation precision, source integrity, and stability",
+    "secondary_evaluation": "candidate volume, tokens, time, and cost",
+    "reason": "Controlled ablation of Stage 1C retrieval: KG and Stage 2 remain unchanged while BM25 is replaced by dense E5 retrieval."
+  }
+}

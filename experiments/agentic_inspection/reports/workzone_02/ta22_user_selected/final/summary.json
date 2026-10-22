@@ -1,0 +1,139 @@
+{
+  "schema": "case18_ta22_camera0_final_v1",
+  "status": "pipeline_complete_with_evidence_gaps",
+  "scene_id": "scene-CATS-19",
+  "primary_layout": "TA-22",
+  "layout_selection_origin": "user_directed",
+  "context_only_layouts": [
+    "TA-33"
+  ],
+  "camera_channels": [
+    "CAM_FRONT"
+  ],
+  "camera_frames_available": 632,
+  "camera_frames_inspected": 8,
+  "inspected_timestamp_range_us": [
+    20099999,
+    83099999
+  ],
+  "accepted_bbox_observations": 0,
+  "registered_requirements": 13,
+  "inspection_status_counts": {
+    "not_assessed": 13
+  },
+  "numerical_measurements": 0,
+  "blocked_measurement_jobs": 6,
+  "scope_reviews": [
+    {
+      "source_node_ids": [
+        "src_0782ada99cead9bb2cea"
+      ],
+      "original_item_number": 9,
+      "normative_applicability": "indeterminate",
+      "reviewer": "assistant, authorized continuation; not human expert ground truth",
+      "source_locator": "MUTCD 11th Edition 6B.08 paragraphs 13-15; local PDF page 816, printed page 776",
+      "required_condition": "One lane is used alternately by opposing directions of traffic.",
+      "reason": "Paragraph 14 inherits the one-lane, two-way alternating-traffic context in paragraphs 13 and 15. Current Case_18 facts establish a right-lane closure on a divided urban road, not alternating opposing traffic in one shared lane. Do not apply the 50-100 ft limit to its merging taper without evidence establishing this condition."
+    },
+    {
+      "source_node_ids": [
+        "src_ec75a38ea2a490acf832"
+      ],
+      "original_item_number": 13,
+      "normative_applicability": "indeterminate",
+      "reviewer": "assistant, authorized continuation; not human expert ground truth",
+      "source_locator": "MUTCD 11th Edition 6B.08 paragraph 12; local PDF page 816, printed page 776",
+      "required_condition": "A downstream taper is actually deployed.",
+      "reason": "This is explicitly conditional on a downstream taper being used. The frozen scene has no confirmed downstream taper or reviewed endpoints. Preserve applicability as indeterminate for this continuation; a later reviewed observation can establish it."
+    }
+  ],
+  "validations": {
+    "stage4": {
+      "schema": "case18_continuation_evaluation_v1",
+      "stage": 4,
+      "passed": true,
+      "errors": [],
+      "validation_scope": "traceability and evidence boundaries; not independent compliance accuracy",
+      "registered_requirement_count": 13,
+      "evidence_record_count": 25,
+      "inspected_camera0_frames": 8,
+      "blocked_measurement_jobs": 6,
+      "numerical_measurements": 0,
+      "session_tool_failures": 0,
+      "inspection_status_counts": {}
+    },
+    "stage5": {
+      "schema": "case18_continuation_evaluation_v1",
+      "stage": 5,
+      "passed": true,
+      "errors": [],
+      "validation_scope": "traceability and evidence boundaries; not independent compliance accuracy",
+      "registered_requirement_count": 13,
+      "evidence_record_count": 25,
+      "inspected_camera0_frames": 8,
+      "blocked_measurement_jobs": 6,
+      "numerical_measurements": 0,
+      "session_tool_failures": 0,
+      "inspection_status_counts": {
+        "not_assessed": 13
+      }
+    },
+    "stage6": {
+      "schema": "case18_continuation_evaluation_v1",
+      "stage": 6,
+      "passed": true,
+      "errors": [],
+      "validation_scope": "traceability and evidence boundaries; not independent compliance accuracy",
+      "registered_requirement_count": 13,
+      "evidence_record_count": 25,
+      "inspected_camera0_frames": 8,
+      "blocked_measurement_jobs": 6,
+      "numerical_measurements": 0,
+      "session_tool_failures": 0,
+      "inspection_status_counts": {
+        "not_assessed": 13
+      }
+    }
+  },
+  "final_copy_evaluation": {
+    "schema_version": "stage6_final_evaluation_v1",
+    "passed": true,
+    "registered_requirement_count": 13,
+    "final_result_count": 13,
+    "conclusion_draft_count": 13,
+    "exact_stage5_copy_count": 13,
+    "copy_mismatches": {},
+    "normative_class_counts": {
+      "Mandatory": 3,
+      "Guidance": 10
+    },
+    "inspection_status_counts": {
+      "not_assessed": 13
+    },
+    "session_tool_calls": 3,
+    "session_tool_failures": 0,
+    "model_api_calls": 3,
+    "total_tokens": 152564,
+    "wall_clock_seconds": 4.491303388029337,
+    "actual_model_api_cost_usd": 0.0306598
+  },
+  "scoring_against_independent_reference_performed": false,
+  "manual": "MUTCD 11th Edition (December 2023)",
+  "limitations": [
+    "No human-reviewed detection inventory is available.",
+    "Eight temporal camera0 frames are a route sample, not exhaustive per-device inspection.",
+    "No valid numerical geometry measurements were obtained; six registered measurement jobs are blocked with reasons.",
+    "Original items 9 and 13 have indeterminate applicability in this continuation.",
+    "Two Stage 4 attempts hit readiness/sealing bugs; their raw responses and evidence were retained, and recovery resumed without changing inspected findings."
+  ],
+  "artifacts": {
+    "stage4": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_18/ta22_user_selected/stage4/scene-CATS-19/result.json",
+    "stage5": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_18/ta22_user_selected/stage5/scene-CATS-19/result.json",
+    "stage6": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_18/ta22_user_selected/stage6/scene-CATS-19/result.json",
+    "scene": "/home/klong23/workzone/experiments/agentic_inspection/cases/workzone_18/scene_ta22_camera0_final.json",
+    "scope_review": "/home/klong23/workzone/experiments/agentic_inspection/inputs/case_18/ta22_user_selected/continuation/applicability_review.json",
+    "failed_stage4_attempt": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_18/ta22_user_selected/stage4_failed_missing_provenance_guard/scene-CATS-19/result.json",
+    "failed_stage4_sealing_attempt": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_18/ta22_user_selected/stage4_failed_blocked_measurement_seal/scene-CATS-19/result.json",
+    "stage4_recovery": "/home/klong23/workzone/experiments/agentic_inspection/config/workzone_18/ta22_user_selected/stage4.json"
+  }
+}

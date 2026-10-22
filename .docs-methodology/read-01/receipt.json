@@ -1,0 +1,31 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read-receipt",
+  "status": "complete",
+  "target": {
+    "documentId": "1e3KD9OhqH2JJFUhKSBKqXsOFD_YIzEOtp8wBPTfjZeQ",
+    "title": "workzone论文",
+    "revisionId": "ANLCKQlcFzVRsD-3bFFJPOdIo6syw1MACfSnsPUd58iVPbkVI6FvlIeH8jPxI4d4XI6gJr98w1COB2yDpWyDXanClcLv-py9HW6HsR8lHe0",
+    "documentUrl": "https://docs.google.com/document/d/1e3KD9OhqH2JJFUhKSBKqXsOFD_YIzEOtp8wBPTfjZeQ",
+    "selectedTabId": "t.0"
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {
+      "inlineObjectElement": 1
+    },
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "error": null
+}

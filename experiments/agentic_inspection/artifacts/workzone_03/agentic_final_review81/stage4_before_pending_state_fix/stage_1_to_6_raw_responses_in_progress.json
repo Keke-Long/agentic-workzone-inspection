@@ -1,0 +1,1153 @@
+[
+  {
+    "id": "resp_0e1a7bc857d4a5b6016ad97faf244087d1b2d7c0eafadca71e",
+    "object": "response",
+    "created_at": 1792638895,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792638896,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "ORCHESTRATED STAGE 4 — The program owns coverage, tool authorization, source binding, and input accounting. Call the only currently exposed tool. First freeze the plan. After each inspect_stage4_visual_job call, record its factual observation with record_visual_job_note before another image job becomes available. After all visual jobs, record_visual_finding_batch asks only which routed inputs were actually acquired; the program automatically binds every relevant bundle and marks the other routed visual inputs unresolved. Do not describe compliance. Run every registered measurement job exactly once through run_registered_measurement, using inspected endpoint observations only when the job requires endpoints, then persist all completed measurement outcomes with record_measurement_finding_batch. Direct Stage 3 inputs and inputs blocked by the frozen measurement spec are materialized automatically. Call get_stage4_readiness; if ready is false, complete only the listed gaps and call readiness again. Call seal_measurements only after ready is true. Never invent source IDs, evidence kinds, tools_used, measurement tools, or acquisition attempts. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 4 is sealed; no Stage 5 call is permitted.",
+    "max_output_tokens": 6000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0e1a7bc857d4a5b6016ad97fb0068087d19ab5498839759522",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2X-weyLwc_mY6-iSzQupNu3nb2MdZbdKxgpnMGDre6JJqwF3zD08Os63BIYYge-nZcEq1ifUEIGRXxWRiQW_V74UH6IG8Wl7dnt5ZG5Aoc3pn1gP9vzM5a1ejiK4m33fK-FlFre1HCSmXbcmHisFuQWpoUx9ZkIkcO_OzHXfguwnTQ3gRskEr5S9dAu7MfUUYFFeztfOrFZ4ClmFbewnrKSofU-YBUX82D5ZfxEEb1ENikZZgoA_Igoeg8A3qw5jNQAZ3rt_-Q_KMB7fzrAJBBuS2XG0-CSBnVVBii31hHgDSZQO-T_WNcU0dQBQjZUXp-Xe0IB3TKV97fYqCQyf_s8tPN_EdDnw8-OYvA-c6T-jOFFFDg_TI6x_a2AwLjnUuxD9n5F0cKFvwa5arnUaEeCArFraDncnFeFJ8nA6FFJI_sK0b_Zjr2_zwOBBvrZeF8G4sYdSPSRUxX3AIVP9hZWOASZ66yAgsDInvFweG0GB-Vv43ANem48yr7Ol61lQUS8yqMJBDboQEyUjeskE92YRRey4JlfZeDxHNWQADapWp7RBSRwbqv3yvH6_RjL8ztvBA2C-9TmSZ7dpk9Q84dfL35kCu2HbR2mFQFMeVQMjAen_wTwgM0dTEltSAq6PKLApq7Jyw83FbUc2h2FuG3c6x6kdJiqvxZ_OBsCTLZghjyJRFbvN6bTX7lC7QpMeDljAnDEDla5px4dSb7YdkJV5kdm0nvshQJtjYO5LEoxQzIjGG4iYw61nLtnanjx8-4BUPJAlXvLm7X1khd8P2Ap9dJmsw3vYA2ED_6t30o1Bb4BDIk0HPbP1jsrNNrp5sG4dC5MJ8G_Sf_zrQ6Fltfq3C1BPD9lo0aIqme1xjBAroShbcS-ShHgvW88c4ho3ZguIqXDmwUseOwt2T2l2tgfMCUDBKn9B_ystRJ8kptm5nTPuhp99UfJ0ipvok5LsC0zJT0RRwJ6oaP8dxsxvReVR0616nqH5ptmagrasBHCsCZeMvEHe9RibblReLwIKrAIGPOThOEo_AvMhl_1v1YvN71CecAtwdMmp8BJ1FZhpbzn6ep-P2MZ4TcV6GR5iko9LeRwDsKzJ0WrQOqbDPzFPk1aKoImmKNzWM0Ih4P3IKXNKoC88rg6X91j8zAAIxkyUjHdxgC9bMFuu_xGQcedSBAca9IKmrwV-3Wz_uQB_z5g71WpeNx_1dTYL7AFkj93s_JLcpsuGheJo_W9qfv2gjobn1goLlJkOlEHgkPZsEjBX5Uc0kEMmOfNp8gFaQarN7B4IXETxsxnJBQeqc80dZWDjrzj1J7mh53MDBiP04CmGVEf450nEK6540lvRMxUgZMNtLXKtAgrXEOkVcH_-ijy-GrZNTLNDY9Eylbc8QWV8uEqnbPrftc5FRLOouW-iaJGYgFFoVTdnDnCBgoFLCkCDQQpUKteNusYNkX8hpAw9g1lBj0XBia8dpvmhLzkDRGgXsWuywECYkOg3Y1R58kkLVPL1ABZDuVx41dBe0ibBBlxPiFIaEmLVnoMicuiMNGwIFHidH1zwwL4L2pr6R_xfe5v-RNsILGwj02FMDD5dAUBHUHNUg8mmmI3FdOPO",
+        "summary": []
+      },
+      {
+        "id": "fc_0e1a7bc857d4a5b6016ad97fb0712887d19278299ef0c63600",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{}",
+        "call_id": "call_LdllHFB5FbBi1BHpLIqUh3fn",
+        "name": "get_stage4_acquisition_plan"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Freeze and return the deterministic Stage 4 visual jobs, registered measurement jobs, direct evidence, and blocked inputs.",
+        "name": "get_stage4_acquisition_plan",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 30842,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 30839
+      },
+      "output_tokens": 34,
+      "output_tokens_details": {
+        "reasoning_tokens": 14
+      },
+      "total_tokens": 30876
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_0e1a7bc857d4a5b6016ad97fb122c087d1a4dbeb2c80ee3981",
+    "object": "response",
+    "created_at": 1792638897,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792638898,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "ORCHESTRATED STAGE 4 — The program owns coverage, tool authorization, source binding, and input accounting. Call the only currently exposed tool. First freeze the plan. After each inspect_stage4_visual_job call, record its factual observation with record_visual_job_note before another image job becomes available. After all visual jobs, record_visual_finding_batch asks only which routed inputs were actually acquired; the program automatically binds every relevant bundle and marks the other routed visual inputs unresolved. Do not describe compliance. Run every registered measurement job exactly once through run_registered_measurement, using inspected endpoint observations only when the job requires endpoints, then persist all completed measurement outcomes with record_measurement_finding_batch. Direct Stage 3 inputs and inputs blocked by the frozen measurement spec are materialized automatically. Call get_stage4_readiness; if ready is false, complete only the listed gaps and call readiness again. Call seal_measurements only after ready is true. Never invent source IDs, evidence kinds, tools_used, measurement tools, or acquisition attempts. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 4 is sealed; no Stage 5 call is permitted.",
+    "max_output_tokens": 6000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0e1a7bc857d4a5b6016ad97fb1c6ec87d183d470e9030e9718",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2X-yPVwQaJyk0D7IT6Ys4aPHohHEX3xKNnXbX7nKUAYIDrQIAmh-VjLkfvaQo7f0U12AhXFTzQ6-C1oLhxr6WKo4XYV-No3Qys8sPhsxF4rK7XIZdeykBaRe7al_0VZoRLQ2oaBihnq6h_S7ILrFXFkUXzAhDODAyoRW-obvPUGvNABUMN_c-J5GLIEhBrYC6drHvPoQOWRAU6sIvs4KiJEFWiKMQNkokKz8yHodIBktiDP91qQbvLkx4YcvMUdynHinHyfduqiBRTyQbNiE7Au23p9kUfVw4okvLOncUP_hVE8nAVneLZ_MoZh-ZJiBtWcPodRyk6-7vNtOw-RzA2xzKRfTVVc1LI6Nd_xtLH8FRobWCvfiUHzojyckL67CSSnGebwaeFom1MXw6ld4Hp1a-PjFSit1DkihgC5Dn8TeUdS8asMijx9XPUTG2D8L8KnEbXrBwkYQjhPdgM6NODs1aazCjFoV0-nkjUgI51dqadYzE0U5Gw0CMLUYSM50aXPm8txqegtrJXmb814QSGFEnNimdQCKaTqR0i3y7fq3uxTS7i8XSnmjcY1FsN1eCHhGIoDXkkydiQvFJEdXeHMn7GPf8kQNXJTk5JkxUce1Q3qEc5YmaABUK_syQYA5vcQzYQoO9wir-AoRKeyRS7mGfLsFrA6ZRgTxmG7b_GK5qQmobJDkHPX-NuXaOHcDQVUmr-XFftH2wFXRQpEwQDaPHKXiIZLRP_htbQ72PmLuX56EXIF1ABO10jav4l3JUGPmEQZpAbB40gwoWxrjZ0RkPU8iMetc-JKG6K9A83ZVGjA1yASD_o-mDwSiNRqAbbX807O87g_gvfK6zmNkE-36vxCtEm2FNeFbmPr4d389CXWCULndL3KwgprkPa0bjIheWO-pxU3PRGKruTUZH0AGQEPgjR3Bya9bAbL9DOflkd6DlpFIP3t0FlMDnO6a2vTiXGjjzzw-3MZROzNCMMfqs9bkttLY8cskGEgQL8p6CqIyMIFcxoc6uQZbRRbZcTh0g7Yqe6ecJ0ezFtkDt4fOdZgvLg6RODIzczJWLG3oKRqpiE3_9_dorBf1ztN_tt45VdRtlFLiotKd_1VRM0GM609rM1d_queyVcPQmlltUKuQpI2ogVKGSai2RacDIAwFjzW_MMg_1RIZFSBTV5S9OzuVhBs5OuSjt4sRLOb6Rqy4ybX0tVAUtL1686q-S_xyiss69lpCn305eckZi4h8Z2a6xf_JdHP-qpQxvlcYOGeYamtNylkRPQISKcu_pb4fKzQ6VVCLq7JJiQtBcrJO1zW1_3f9bB3hhle9NpUoKVIrOhXKU-3W7ZDN9j0HhRs7NTZ5wKuysiN1C3OSqi1HU82lYJEY7ccn3o9u3n9UQYvljawu3sEjwgYAcNHiegZTTCBi3OkxN4KtlSxdMhlHBcAo4Ide7YAyQ-eqPEJa0GZO4t8dBeeDmF4ZFftrTFFwW4WTUMu7Tn5QXjejSIJsMurK10bdxaoaR9mqR2uKT4tWHMntehbmwsBiI9l_5h8lzVLM02nYOg9QLB1b3JKACtNTGCdP-ImQBFd3uUwn1jwQGZHDdonuHcUvlbnpjFTSjuqxAL9GuFhoARhsvDWoZVPazKr3IbPEe6LIq720VAOmKm8j7YEDRw65HeKnmpm3-qoxz3TYU22giE6lRPVQJ8Yn-502Kg3CJTWnznFEVKIT99vnYNzOAWh_TEZSn0K4KdGXZvN27TEdX7ViwlL1Tnvoxj6pmkeIIx70UVLe8ei7kdU28__PT77HXESy_0Fv9bJOyNzbpQhtLmvDd_4TkqU9JYE4tYJCZqAS8mVmCbOg4nvVJ2kED2ASdfRkIHkHbKMpdxf1MvAHxRplB-617uSF4hV2Cr0oOWcRE3QWPI_cg-Rvy8DURgD1EgnqvL-71uMIyqBXKLCVjNVxPIkkwNFjdRyCVhwhiArj2z4Sn-e66DskDQVXCPyNWa-1wtkrSiU08GcM_fRbPBAmuT3sHDlr3Iy3XB2zvKmWdtiIKuxs0Ppz3BiHeEwkTPsSDNu--wTpXF4MJesvM-FWN7w5NJtjGskkaWmYppWyN-x_rM8iHeZV8VGKua5AwolmB6SyhCm-3OKWKV_IX10wtcQz5UtQefVDCVXMqGgMPxwcAHnh-8rTx8prULgRlmvK0hEsttPuX6b0onWflaRuxUWAs89y0BQJYG3TJkptsg5aWhhQd1eDgJOhNIzYJJlIs7h0T8SIRPYiRIR5NVueDJpbKw==",
+        "summary": []
+      },
+      {
+        "id": "fc_0e1a7bc857d4a5b6016ad97fb26e1087d1875d4893fcbb3bdf",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"visual_job_id\":\"visual_job_903fffcead25af19b770\"}",
+        "call_id": "call_fxlq5sO0rF1N7iBjnTuJMb1W",
+        "name": "inspect_stage4_visual_job"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Inspect exactly one program-selected visual job. The program persists an inspection bundle and its source IDs.",
+        "name": "inspect_stage4_visual_job",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "visual_job_id": {
+              "enum": [
+                "visual_job_377e1e21f9226bd64400",
+                "visual_job_903fffcead25af19b770",
+                "visual_job_a62829223ad28c5dcce8"
+              ]
+            }
+          },
+          "required": [
+            "visual_job_id"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 31417,
+      "input_tokens_details": {
+        "cache_write_tokens": 31414,
+        "cached_tokens": 0
+      },
+      "output_tokens": 97,
+      "output_tokens_details": {
+        "reasoning_tokens": 61
+      },
+      "total_tokens": 31514
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_0e1a7bc857d4a5b6016ad97fb489ac87d1990c37673f2101c0",
+    "object": "response",
+    "created_at": 1792638900,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792638903,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "ORCHESTRATED STAGE 4 — The program owns coverage, tool authorization, source binding, and input accounting. Call the only currently exposed tool. First freeze the plan. After each inspect_stage4_visual_job call, record its factual observation with record_visual_job_note before another image job becomes available. After all visual jobs, record_visual_finding_batch asks only which routed inputs were actually acquired; the program automatically binds every relevant bundle and marks the other routed visual inputs unresolved. Do not describe compliance. Run every registered measurement job exactly once through run_registered_measurement, using inspected endpoint observations only when the job requires endpoints, then persist all completed measurement outcomes with record_measurement_finding_batch. Direct Stage 3 inputs and inputs blocked by the frozen measurement spec are materialized automatically. Call get_stage4_readiness; if ready is false, complete only the listed gaps and call readiness again. Call seal_measurements only after ready is true. Never invent source IDs, evidence kinds, tools_used, measurement tools, or acquisition attempts. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 4 is sealed; no Stage 5 call is permitted.",
+    "max_output_tokens": 6000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0e1a7bc857d4a5b6016ad97fb5f5e087d1af05b09c48b37d93",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2X-3AxyRRTd4FTe1yw6PO64H9nWDjPWRRg4gz3YmVPvcC_-UlZitCCxdDzGLCuFSqduZeGOpAlsk4rQ5E7lcSVZdzg9sG9UU67dpQYukw29m0VtsuBf7hfPKOGKpI6hpbEkl8h8089LtfkSjc6qZ3Rwe3P57qTLU-5yp49_IMKc3Kg864kpNYmzYipSRTKaABqXmNNjpHdN334q0Os91kIFp-uAdzLh1wpSNjfzJAuIiP5cT4FAZp7y_uFLQLxuEY0CT_eh8ThYF00cQyXHxxsC3Sk6C8ypL1dLstZE2NO2X3wuhFZraFxaBP6_6dpJ7lNZ8kMBlUlaDiWLsabl3w6uTWZmc1_ewv1M4w5oWcUR7h3GMrNspYGATGiufkOm0TwlTewVBNdqRlew7EkPQiDN4epNcVFbeaLs-U2HNdM9eeWzJtXtUYmoocnmIJcHAhYoo89cJ9z9GZpAiYGS0rW1FJE7HvzSjpTtmdrKQaY3v1R-4P2O1FzhjqOv2oRK6UEDGtSzChUOh2egSl9ky2bGJeRVap-1jO8V6g4q420YyVtLKomTofsDg2RTK1avzEEReTJ3H4SbwCp50hf0LrzRVIWeRsWl22R8BiLYWliTWWQmNXwI-EAOr5up_B50npxBDxAoTRhs_GOgzl6y52KMXrYE5Lut5eZEwQ4RNucCwUc87_mwE4HXl0xUVUMhLl1W5I9Q8zP1YIEqf7PKPkYF6OjxFWpVlxON30yVZvuVWF6X92dt-pcj1iiWbvDWe_nsxOapQPob1wZ_3OveAW6kk1YxyQAZOxWUv-8MOua-d2eDKzbvavg1Zx7UwW6H_L31_BagUxrYUKyZgK1vvJIRyEV5MFw824JVm7O2fDkw-ral55SzE7ZwzJ10vedpCSffsx0jm6eVx2zEbKkrKB5atx6L-jtAK0u_GQF9Au6KBZ5QI5Bp1xG-BhO_c-aWxxf5gsZTR2nVdO16Ez9j-2xLyCx-RjnwaN21C-UjBJZGaPntyErFraVxfKlzdxKiqJDpt0AdaB2raq9gXpjN3SW5yC1CYvwYCCBRMmnZ4tfd32ZvRjdFPI_SIvOLA_monJDYnmSXpgI73LV8SWo7oIwX6x1UDmqE9lFFiGzJIynhVf7BLvLfeK2ryMfdWoi3SLx5jhL1JRrC7XfJcDt6s0KQkUBkT1Nul-e4Arf_ExzQtB9jmfINQOELun3p7njZYQC1Ccmi8yOMX_fgZD8rWP4-XdLd9TDXij1QLA9IoY9MyxsLefvTCkEaoBTRXDlGS7rDI1e51dFR-JdURiIu6x5H9BWNbFcbEvzZH8-weXcPvffQZfKqJ9znhAFOOQQ1qNS688dbSQ2vpq4Wb3190DyLFf2TvsjhGjTi2PFC_eq4SQhgB0i7Ctaeo3uux5hMZhmLDXsgQDdv2CfeJDVZt3RcaKU7CU8wAGjitpXydp8ijZ8LRHve9qxk12eQb001WcHBd1cql6D5vVw0jlHXfQDN51bQGvoFWS9hgT5byT7Tgu4PIvkwUvJuEUS8l9J1Oqk0U5ARxIs8LZ2vL38iS3F1X_KbRtDbn2Nt-P14_tDlSw9j2wSeeRG17BVHM6GwBTvO8tw6-cvKHTS5gjDojxOymvtBsZxHVsq_Vl-yOZhqcJdn-dAHGC_DL61OY4z7oaBYtYgf4hdmg9hq_nlFVEyRn71rYM0yOEGnkBGXayji6f-tq8FONSk_9rh58f0IXi2daFU3j-mI7yyx1vZ7qiXlTaCVuj1VNoLPfhy4aEwxm9b2VB9fjjbL7l9eVKdrSO4i_Li6um6GwPOObM-8lDpl3FKKefZrn4va2bQ696LHVqgeX_wcxj7dq_hrmhqFF0iShuVH-9AIqjjhY2KyFKAjYaiB8x5urpz9Cz9VA4-kOUZ5uvJ2txmQZu7KCD82cZ9ee1g0tPd-LQ5WDK1HwzigjQY5jS1c8o48u8QiYYNY7waEmn_GhS93exLxcjoSwjmLnT2rfbwxYN6-1S19jkCK8Wh2uYigFqpsr3w6c37Qj84IxyCNB0jzmI2kHJIbMNpPjWKzwdurYiwKJX-g4OOVgvOgWMs1pFuMKqPdIQYPyQt8=",
+        "summary": []
+      },
+      {
+        "id": "fc_0e1a7bc857d4a5b6016ad97fb66f7c87d1b325f380fdaaff76",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"visual_job_id\":\"visual_job_903fffcead25af19b770\",\"finding\":\"The five inspected representative observations all depict road_work_ahead signs. The returned metadata identifies five source observations; three have refined object IDs and two do not. The bundle provides representative sign-image acquisitions for the routed sign requirements.\",\"limitations\":\"This bundle alone does not establish successive-sign spacing, the sign's longitudinal position relative to the work space or detour, or encounter order across the full approach. It also does not inspect channelizers or route-temporal coverage.\"}",
+        "call_id": "call_GnfnGtQHerSrYnmtjN73Reu2",
+        "name": "record_visual_job_note"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Persist the factual observation and limitations from the most recently completed visual job before another image job is opened.",
+        "name": "record_visual_job_note",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "visual_job_id": {
+              "enum": [
+                "visual_job_903fffcead25af19b770"
+              ]
+            },
+            "finding": {
+              "type": "string"
+            },
+            "limitations": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "visual_job_id",
+            "finding",
+            "limitations"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 44691,
+      "input_tokens_details": {
+        "cache_write_tokens": 44688,
+        "cached_tokens": 0
+      },
+      "output_tokens": 175,
+      "output_tokens_details": {
+        "reasoning_tokens": 46
+      },
+      "total_tokens": 44866
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_0e1a7bc857d4a5b6016ad97fb7ebf087d1afa90b4e65890501",
+    "object": "response",
+    "created_at": 1792638904,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792638905,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "ORCHESTRATED STAGE 4 — The program owns coverage, tool authorization, source binding, and input accounting. Call the only currently exposed tool. First freeze the plan. After each inspect_stage4_visual_job call, record its factual observation with record_visual_job_note before another image job becomes available. After all visual jobs, record_visual_finding_batch asks only which routed inputs were actually acquired; the program automatically binds every relevant bundle and marks the other routed visual inputs unresolved. Do not describe compliance. Run every registered measurement job exactly once through run_registered_measurement, using inspected endpoint observations only when the job requires endpoints, then persist all completed measurement outcomes with record_measurement_finding_batch. Direct Stage 3 inputs and inputs blocked by the frozen measurement spec are materialized automatically. Call get_stage4_readiness; if ready is false, complete only the listed gaps and call readiness again. Call seal_measurements only after ready is true. Never invent source IDs, evidence kinds, tools_used, measurement tools, or acquisition attempts. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 4 is sealed; no Stage 5 call is permitted.",
+    "max_output_tokens": 6000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0e1a7bc857d4a5b6016ad97fb8d96c87d1af6be38a91de17d4",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2X-5f8mQEmtCAegk3IArG-hlSgCtGQV4e1HHe-p0WyYtS8aJ7JK8xabEqIcS8Chao9rCUlPRCO_dZ3nGwTtqFRwW3YP9IlEbc6cnX0AC1fmawSfXZMMOqcG5kOXebz2R32WJ_oGUdvCbS9-Rj4zRmonBYhDYttS5bGBbKsjiHpIjL7F3Qi_npplqgEi45ekm81fdJKfvrrUi7eHDXhrRTRg5PCsYGu8IQPcpOiqtTdHBlKlPkZsVkh3l3JEDJOIOEBU3GtDaZxmhcn3Hs7tqbI7dZ3dC37VA_Dg18e6kMyY-PjHYeaR9rEU04gxBXVsgWmwBv-j9Qu6_7JHLd17GPTOHI0mgVF493Qp397XzZ-Tpa-W7QDuAbOce-sjc-fYhdrdwNaH2gHzGggFwrwcWl_ApV5d4qzpvjc2dIMC7p0O07jvjai7QLQzjXtu-C5sewkS2trh3QA8zxDfN1ucPdaRGP6dcfMPKMTQISMhQUSQrlXHrKLPHM63G-yi7pz-cXc6RwfT9pcZt5LRxkmqcrkA15jzKfcdZre_aB8ewCof5Si-UphqPSxELpBcXBhkA-5OLSol2TJEAa_gxao0jZ-eb1r4PYqyrTzUOQD7j3NnBx_o244F3K99kmogV5Qtw5YqPqfxXHQtyOpVyON41XMme7jc0unHz5eD53mB0BiXhEJyZ9ZPqAEjzeZWXCJ4ZsQft_Wr1O_6J8ir8UQVxULfZC9eMtLOPVp7e4RdSeNskUDXAZPLU4nGYxO9mnydBfcKs4vKEWvJ19mnREem11gxJkvudrOI8Ue61TaRtHDS_Y7grULG1NSLB4BQKlHSY_Mbks8jtSj9KnkqyF26SAO9W4S0cFk-v_uRXU00NIJEaeXtCAKOLgLwHMUfG42coq3DTbxWqcovNeiMUothPsV-P4xHU3mr1DKbKyYTMqDxN1pZLw1ecHRtPPs1nGhvHN59rINVBqIi9hmjwW1u3nqH0jhPsSQQB97gX-omfBFAWYQ7QcnCe76MhwWtVQ0Zr-Fw4uuo0odkqiFXU4klcrf51OCB5T22D__yRCcR9SLqqUCFJNpH0Q6zL4zx5b2jJyfyYCG_j9yj3JDpfe7Qe4zS1stV7RR_8gr0lOQHqm3KdhyVNhVaQF7uUux_-w76KHXLTS3u6uN9uRJfJe3si8ghQId_hw14XtPePSGLcWOsJF1NFb4_vCiwS9F5TYy4iHXQ7fW-WmLeh-4K6dXRdHCa5V6Vw6oE6jnx8vWKneEFjNkB6uIaaii_8yvhBX26sCS3WfaMcDoLb0MTPpGhn7eN8ju7K2ot9-G7E7mCvjVHP-Z13Vfc2bQqftqWIpArIAbdo7HtOxqrcTzgNUWVI35vFFa3vgjT6TT2fn3x0oJ3emvTLExhTglTcXE5QdHEBlSz-iYWWwBhyU6OX6iXgNgho-OU5X2EMC0kT8OxRqvS2IdZ9orfBjHrG4abQYVJ1jbeEKKkxpRHd11SOO4X0jXqR9k1bt8-N7yfH4ca2s5QgO04XoEOiiowpf-tafIH7EdfXTeBy7XPiX_TKioUjbsW6IeecCDAbjvx-pSh5_MfyNBAsCb558lKbyD2BLAcQ-SvoHu-DbKNOcsx-3OKq5TSobzRxWZES_aEX7HBvwjwEHaeYUa-unrwhu4c2fLOWiL2HS3DJrTEOy6EiLaKIH2DWBduuCdnNiGn_hCJgx9jvF8c_QBDbKS4qOuRVBKXRXmjY2Wz7MofUmuShRyPKD_fSi5GY6Ri2RtEkJOgh3Uuw8cgyk_c_CHA97-XnwW5a0zr8enoDAKdKr4tYtpEqkPgVYco2OKPh1Nj5_UxMbhQx6GbYZYN51x1lqpMsrPV5Qbim4SEPdwwWFl-mWxRTlG0gPtYTdQ51A0I7wWHXReSaza7QLDu5hkCpOV6BwD22J-zufF3PlIyF-WPHU2BbrxSKZgYd7n3xL7Jo8s1tVAs6bnOHPp0IY3-gHtEw-XoNMdur0nYkF_SpawUZTlKasPNYw_t_Zt1Cd37pr9Ik7dhotimWVYWXYD75NePMfwaTP9yjB_UA4XbG4vjOzmLj3fP8SxSJPX4X40aZ18dwC2k2WL1OmS064c4I26n8aaqbZLNgbY74SUGAN0AjK-TnXQGAmUJdB5AZl_G4eZWqXR735p5XuGH-NA-vW0onAsnQK-Ka9OaUqwHU0XVaO0sLIlhPlv6ojehXRkkb6tpAZBWkldGURECrq73qX0mUoy_eAq1mNOZzVQNEWhn0gbgCCXSRs2i08RvEqVYe59RfuEhs9tt3wUB2yfJUG8FfuNwhl04DCRebDURGQpDiqMQWUi7vh0DH2A7tTFaBz9MM4mpaUdjpFcrjZa_oTILN0KuxvnsX1cueJk8UlDmzXd0qzh5MwcuGl9_jzbuLqGtQ__Qn5Oc7sr42FcorZ-ym1aggoegnRckStxPK5Sa1AmNRsXt7ctseHBOiRVgopbJebJDH6UuNI_feWOxzfsvb-iG7xgLNXF9SpozLjQVvIIC-6XA8aK0v4K3Eoher5qwq7L5QnzY=",
+        "summary": []
+      },
+      {
+        "id": "fc_0e1a7bc857d4a5b6016ad97fb9b9b487d19f4dc51e968b4d09",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"visual_job_id\":\"visual_job_377e1e21f9226bd64400\"}",
+        "call_id": "call_lM49RW0F1h9W7dEbBaMSaw8s",
+        "name": "inspect_stage4_visual_job"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Inspect exactly one program-selected visual job. The program persists an inspection bundle and its source IDs.",
+        "name": "inspect_stage4_visual_job",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "visual_job_id": {
+              "enum": [
+                "visual_job_377e1e21f9226bd64400",
+                "visual_job_a62829223ad28c5dcce8"
+              ]
+            }
+          },
+          "required": [
+            "visual_job_id"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 30766,
+      "input_tokens_details": {
+        "cache_write_tokens": 30763,
+        "cached_tokens": 0
+      },
+      "output_tokens": 119,
+      "output_tokens_details": {
+        "reasoning_tokens": 81
+      },
+      "total_tokens": 30885
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_0e1a7bc857d4a5b6016ad97fba511c87d1a3b7b1ca225b047a",
+    "object": "response",
+    "created_at": 1792638906,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792638909,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "ORCHESTRATED STAGE 4 — The program owns coverage, tool authorization, source binding, and input accounting. Call the only currently exposed tool. First freeze the plan. After each inspect_stage4_visual_job call, record its factual observation with record_visual_job_note before another image job becomes available. After all visual jobs, record_visual_finding_batch asks only which routed inputs were actually acquired; the program automatically binds every relevant bundle and marks the other routed visual inputs unresolved. Do not describe compliance. Run every registered measurement job exactly once through run_registered_measurement, using inspected endpoint observations only when the job requires endpoints, then persist all completed measurement outcomes with record_measurement_finding_batch. Direct Stage 3 inputs and inputs blocked by the frozen measurement spec are materialized automatically. Call get_stage4_readiness; if ready is false, complete only the listed gaps and call readiness again. Call seal_measurements only after ready is true. Never invent source IDs, evidence kinds, tools_used, measurement tools, or acquisition attempts. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 4 is sealed; no Stage 5 call is permitted.",
+    "max_output_tokens": 6000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0e1a7bc857d4a5b6016ad97fbbaba487d190be928fc76456cd",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2X-9ei3TOQzDir0s1-tzeZxBAPhZ2kpFOdCHwq8QA6vTDvWIIsr_g0204gMzs3x2DMbHwon5YXFch78jDogc-ws-i9XAlJ3LM45SxxKHsLcU2chUoWM-ZibWA9u-NyYwxRlzGDsajTjaG5a_H8osO-BjSfLrdJneYg1R4ccS3Lqaw2o6-N-vqktv3X6OAm1qaCXYv8Hgw9FaGFYPskRVuuytSZkUhYMReADuNOweDxpcV-8CLKU6St-0nIEb9vM81bm1dV6KeZuKbAZZp7_R2BAe4qPE6uoPcINn4teUKjFyqPEEnmREJ6jBdfiUfeCybl922ZnHzJg9--LfomFGGwMaetIuHKrz4HhQXH4t-hzXvo8t1OiPB68s3nLhcr3QL8O2xESqjsial0Ib1r9yR1tphqc89WqDNS0V9yu5Elq4Kwm7uDLmVODaKjRZ-rhIKcLY6JoIjpCtdJ4rCHRNbO_DIht8g0u3wsi-29j1Qj0lkOmj2VV_7wigZbZCAQdt0jJqqq0YdFMAtaK8u63V91EMJiv7ZP6LkpDcaa2eGDZwO8NzJcfpGmMKMqjGb26qKoSF2PqAVb_M4xAOTG_H5ytaBOuWvZLZVWA4Xyqgr0S-bJgzowPGgxLOgFvbvPMjS3qvpBdgqvEiWgoC6Q6q-inJPQmkUiwl6_D4X2KOKAK30gCBs5WDMP1UEVFsuVpfxcqsI0e-WfHmYOnsG1DxJvga2P3qtRy6CwmXy0POo2VgGAdmHILEnW-WcrJ245dIS1h7x_yW4BQGLfsPzf62md_kNs0OI1zLpn5XFip_HYVjiBO5HL-khZ-LjkhxnLTbx8IdOZ-7Pj1_GqJ7w6bO29XXx5VHZq7RbuO6yZiFIA2U9s9L9LnrHZyl3Z20royIwe_BRZZFDPkM_gd6grP0rCqxFbpoXQL4RkOr8tR0T507fzmTeBKd0Ix8RG_nRk0uKBjbQ2wcflxGuCfCjbplymkqc6U1dWpmCezpEY_7T7r8AILMd3Rua6g_GrMNnNVj7-IrZK6-9JpePADnDALCB_qcYrhbX51aqoxYy8dPZZ7HxpMmHTZnnJYMDfCFzGi26Q36SiYv96BSs4j48OAqDlndCRbQWJ-zE_Xj37Lze_WDM4jnASFWzONn31HMlJui3bwpJUbnVAy5k6xtO2H4YZAivRFSEaVvGAAx0mtzc9mzQ81MUL7OJDdzMSlMI2aE87_ZcxiszyZjSWu7XUN0oit7XZ5uiKgnfGw3LIJO4K41zPZu8F55fT_q-9KjoREGci-UTsXuTOPJIlak7FLRUMQVfrVtbPi6Tq2vWlkn249SHjSEW_uDQwvPhdS_ckUWzPATHD-DMuHwt-Cmp_hJft56PgAyya8EKt0uMd1YePj5-RNjtXlusZT6E9x5x7xSO7Ne9MNy3EOolkYkI367T5y5YPPJDCoOFBff0gQzV0xtLGkeiEgebe9K32jyp-5aiDkz5wRtCniJfQ3REDVBhaZEHrZt4bupWYh-33Vpwvs9j9k2FzdAKEzZSLHGHq1_2W8vTHcS164kPpH0hZ4p6BctFob60owSTtoNLXETRGoS0yE0t2L9BDVOIZvuT88I3afl3B2gsHxN2ezZ7ZKBAuIdp0_ufUGLgVcbUpSmcAUCoQ67NVQd6XfavALJ2zzJfObMnPG4SoVqHRMNyAcZAc5xD8WTpBdbJu9_aNpYN1Sqd5NjClA0jPv9-tjsni7P-5X8EjgZbSF1RYk2qIoxjojIxmLcqv7z2riqjfVgZQzLbmKkjLKRlQog2BI7oghXwoT5RwiKnDCcjKLwdMiqBCU-uCFcBH1Q2ylGnfy0ZRSFe9S-EZDll-cAS6Ap9rG-ezQGLTx4QEBG6GjqWrh2yS5raNu99eMScD59K3-xt_pDsDS9MB909AKLH6RLnG8xOohf84SnYkW_2Nb9-B1_8YBzkzcarQz2Hjp_y9Txw4h-5wJDdVo0txFAEQ6Lftk0VxIeWhge1AHKRPe7GpzFqn0wjwQ3kSyRK-eHn8NBGGBKI7kf-iG4tVx5WZAadMtbNuLHeegiXGoc780oAstdtJIvCc2hIFxUeyWyNESA0u4jUxfrVy_sPEo2gGN6VMJhKq0thh99mr7UEJnSa480DJcITlQ9ag28AmV_FAPWEk5LuGl1qLQdf6DU-XfrPsR8-7CwmGN_dPgQvwNgDxHeK5-w1iT8IpALp5Civxp-gfDyuO4=",
+        "summary": []
+      },
+      {
+        "id": "fc_0e1a7bc857d4a5b6016ad97fbc577887d1bdee0df4b15682ab",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"visual_job_id\":\"visual_job_377e1e21f9226bd64400\",\"finding\":\"The inspected representative traffic-cone observation shows closely spaced orange-and-white channelizing devices forming a longitudinal boundary along the opposing-side closure; the ego-direction path remains open to the right, and the devices appear upright, visible, and generally intact in the inspected view.\",\"limitations\":\"This single representative view does not establish all device characteristics or serviceability for every deployed device, exact routing across the full approach, successive-device spacing, drum dimensions/material/top closure, or the work-space and detour longitudinal positions.\"}",
+        "call_id": "call_SQIb3zLTwIZHxzsfF0ItBiAq",
+        "name": "record_visual_job_note"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Persist the factual observation and limitations from the most recently completed visual job before another image job is opened.",
+        "name": "record_visual_job_note",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "visual_job_id": {
+              "enum": [
+                "visual_job_377e1e21f9226bd64400"
+              ]
+            },
+            "finding": {
+              "type": "string"
+            },
+            "limitations": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "visual_job_id",
+            "finding",
+            "limitations"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 33504,
+      "input_tokens_details": {
+        "cache_write_tokens": 33501,
+        "cached_tokens": 0
+      },
+      "output_tokens": 198,
+      "output_tokens_details": {
+        "reasoning_tokens": 59
+      },
+      "total_tokens": 33702
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_0e1a7bc857d4a5b6016ad97fbdd62c87d1a35503a20bbde7f1",
+    "object": "response",
+    "created_at": 1792638909,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792638911,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "ORCHESTRATED STAGE 4 — The program owns coverage, tool authorization, source binding, and input accounting. Call the only currently exposed tool. First freeze the plan. After each inspect_stage4_visual_job call, record its factual observation with record_visual_job_note before another image job becomes available. After all visual jobs, record_visual_finding_batch asks only which routed inputs were actually acquired; the program automatically binds every relevant bundle and marks the other routed visual inputs unresolved. Do not describe compliance. Run every registered measurement job exactly once through run_registered_measurement, using inspected endpoint observations only when the job requires endpoints, then persist all completed measurement outcomes with record_measurement_finding_batch. Direct Stage 3 inputs and inputs blocked by the frozen measurement spec are materialized automatically. Call get_stage4_readiness; if ready is false, complete only the listed gaps and call readiness again. Call seal_measurements only after ready is true. Never invent source IDs, evidence kinds, tools_used, measurement tools, or acquisition attempts. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 4 is sealed; no Stage 5 call is permitted.",
+    "max_output_tokens": 6000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0e1a7bc857d4a5b6016ad97fbe95f087d187f1ade6b95d29af",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2X-_43YriIxBICkuUuJsjXiEXBzuhsaIvJJVlRtNWI3RzHxu8tC52V0SzJtzeLhYkH5OYQmUyPKD1XG5twx2TqU87qMaolWEaypKSvSw5xRgHv68RVLWGT279fvfBbJshSLvBId2L-j5Vsqpw6QixaG5IcL8sVIw-Y1lqOfGEPgfrbODdQdBtmzRfL9lXrEk_qb6qgwPe86DHTEcHTCl0ME18OLXaO4UM5LdClkZKCigC80pNC9m98nzwp7RNL3fC694_-OQchL9wX2bUeZIsv7HBbzxghPkRrbhRfTSCx3Aj4PPC47AP1HMUhdkEesBQBgFkOYtEscDtiSPrdpxiJ6lGTVc9yGSbk5Qq9TmH98pn1pLPIs60W4U5Bu78gRUDgRF4mKl2sM_sYaUBmqbpJe6rluX4LFXgTUn3O3BqDK18o_iQqarG6Ps-MVn_o9wULbQ33RzhWA7jtmFF37mX4YL4sPK6nOOdPJ6Jf3nrPhQuODhoKG8fQ5oLvYSIcxMUQ1e62FnPJdUD9FB9OMh39v4iQBpv5Imlmuyp19Sve6v7YHYuOq2zpPwXWg7eLHG_V1JJp5xPSawJLSYvf-nAEB2SVZokTaMHpa_vanpyPmbaA7ncrOQfcMqsAC6z6TFcXZsBSHaworyCUOQaLx-vUoc8IMRyEccgCY1Z8wrih3QjBbAOg38VW60-bwdr_GivyFkcjakDb6ZZidTDUtN16fNQD5tbb6bVFiJBu1T2n51hPJkZKfo698cEphGEDa3FxF5OUqqtFG2ZWEZFZbO8oqifXB-g7-Bdz1dU4xoV4BXyV7QqoHssfLBQGI8sZzb7WyALc_PUId-oK0KLwc-5TUL0yVyfw4aPnbIssp7m9o4OazWneTho_I0mW7LhYldG4380edTlC23XlJgNvNEz76kJFfWcqX6Iczt80FLy3_nDz0_t93449fcrkxYm2dniJ9Os5KrAMqQCrgJN4dfNCnqizeXj_txrXMC15rw0UjkCUoxOHH8iBJXZk3GzTJ3v5PnO2WFA7CRnihdq5AN98a7JS8AFntSohaHcU8j--mY44OV_e-U84o2RoAxuySbgEHUT6hhW4UfZJaLODKOB21fPitz0OVd6BmuesnC3CenXAI3PbGEHDvBVJRCf16bB4V3Q8wlpyRpJk8fQ28I0bD8lwHwDVWzWARYJQnZGSHXKieTVkfi8Axpss_UlsKumbGQHyoZyOeKxDKacA8443idO0s7_Y9IIVp4YdoPaafftYlnfUGiQbL8MyU4h2iWliL8LjCE9OrsegiCS-ELU1cZdywMme3juoRBLxBvWezbzidFgfvlSIiATxJ1LPx9mLN81L6Th2MKc4yzIaL8DnfSPP6VC2pDtFz0lnHqEnYUFqsfwwF-6oWVA6cuYml_gqc29ZyG6RU86b2MfuFYubGh_tUH3K34NG5HTaOlEq4PU-CXWURlNg8zDYi8owhNu0Eq1NXFj7nH_6Glt-34VbvLU5mdZepQdXxtu5hQX-MdOGLCdkFqhC5-ea-P0zI6FRwDCs9xWUbYZSGJ1pluhsF9XkblgyQHg8j3qGGDzDB77ubhtjThkJX96UKGHCi5KqeDVxPlFPGaPico9jwQSk2_QwWz2O93Pn7--njFtgMpu62H9AhL0PGLRYxNseAsWxvlqPrGZyuTISdzBxLUQaAwpz5b3uViHFaxpgxRtd8Tdhc1435h9_RHVIBRAVLl1L7MKLtwT15BkYIiKDEyRNbaCP4SO20Rhj6yL3JaW5RoIbwqkzG3TmaQirspSCtlsVFfxvXpifvTKC-Pbzq58b2CDn4hFQJaGz3OfMU6esiCtLM1YUH4IBsy_0NzC9iUsv3k",
+        "summary": []
+      },
+      {
+        "id": "fc_0e1a7bc857d4a5b6016ad97fbf1cc487d19562d7c313e66da3",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"visual_job_id\":\"visual_job_a62829223ad28c5dcce8\"}",
+        "call_id": "call_bzzrOmVvqzOcSLrEBgq72uR0",
+        "name": "inspect_stage4_visual_job"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Inspect exactly one program-selected visual job. The program persists an inspection bundle and its source IDs.",
+        "name": "inspect_stage4_visual_job",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "visual_job_id": {
+              "enum": [
+                "visual_job_a62829223ad28c5dcce8"
+              ]
+            }
+          },
+          "required": [
+            "visual_job_id"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 30997,
+      "input_tokens_details": {
+        "cache_write_tokens": 30994,
+        "cached_tokens": 0
+      },
+      "output_tokens": 70,
+      "output_tokens_details": {
+        "reasoning_tokens": 33
+      },
+      "total_tokens": 31067
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_0e1a7bc857d4a5b6016ad97fc1840c87d197dd941391073262",
+    "object": "response",
+    "created_at": 1792638913,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792638917,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "ORCHESTRATED STAGE 4 — The program owns coverage, tool authorization, source binding, and input accounting. Call the only currently exposed tool. First freeze the plan. After each inspect_stage4_visual_job call, record its factual observation with record_visual_job_note before another image job becomes available. After all visual jobs, record_visual_finding_batch asks only which routed inputs were actually acquired; the program automatically binds every relevant bundle and marks the other routed visual inputs unresolved. Do not describe compliance. Run every registered measurement job exactly once through run_registered_measurement, using inspected endpoint observations only when the job requires endpoints, then persist all completed measurement outcomes with record_measurement_finding_batch. Direct Stage 3 inputs and inputs blocked by the frozen measurement spec are materialized automatically. Call get_stage4_readiness; if ready is false, complete only the listed gaps and call readiness again. Call seal_measurements only after ready is true. Never invent source IDs, evidence kinds, tools_used, measurement tools, or acquisition attempts. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 4 is sealed; no Stage 5 call is permitted.",
+    "max_output_tokens": 6000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0e1a7bc857d4a5b6016ad97fc2e7b887d19261583e10ce93b0",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2X_FvA5Z07GanRjeYDbeUP8LEx_xOgqtnwdwyIXi5TOUaumZ5DwuIPRcJULxIYwAM-Aph2OGsbNsBwfGPjZDNyLadQoGdwXQiIta3CNz5Vvld2VG3vOx2sXoD8Qu3dJlkgFh81iXpO0u6pY9XEOB6P-gMVUF05EH0DNbPBFKaVX71gEYSwPUBLbmY_V9exFWyvWkTqD-H4_gTEGDBjgkmN3p2he0RUwvuMDZthX2DgMV-oddJI9QCI1VsH5HmIswhOj06CZlUUbf6UHeN7DW3BboxfL0Xn7w5sSeL9ZuKBVjF8hK6DTZ8Ph8YNobi6Wp28fmMo3UulGz97Ua9Lj_GW4f99WFELkisBZLeDqmU5TF3jWIaI1u3PDo4cOAmcVcWnvY-4DW8aumwvnln5-GZEtueH1jsIhC1L_reQ4bvF4dhu2akpkML1Lei-r4M_-gtCelWterhmCt7JNAMY4v3lqYVVm_XxZ4RGny3OFu74uw5DbYuSDEX5df5hPWzKF9ifNsOxVoH6V6UK9422fkbna_RgsWKs83HcPUkFfejchrlmVWI7bLyCGYMYU1FVXLhSiv7bw-Z7MLffj5KH3EVufF1qte4KJTzmRH1K2rsOkxLPff-xzvMQhqjucb6f9gf4_eJahYoPnhY9mXihkala1VrVXLBiMNUBVWAR3SjzddcOOJ4v4MGvfS8wSYLefhob9Zjt3udTqbo5zj-KwkdLcUlSacODa_Z6i0zdW76LvffsYH8cAgVAr_Q1TILNsJlsPLIGLA7_LG_VJIcYagYoQB6pwnzyhbMQ4NFaYjwOVl6d44WWM2u8Jitd9D1ZRlmavpp5Ta8OzVmSQs8W5BPBcjXrKd3pk-zcjc8zAR2R2sOcGwsLheJ_W8jqyF7rgV-M15YUBeTV4MDvYpGnI-PSXE8NCQqQubakkScqCFOW7nxtfxMmLZse1ndDu-5z7-uV7fcZgDD73H1BDqTN_eokbigzIPtFaskqrGb7epP5EQMHaVjEhUCX76K1Trog1c1RjuF3hzOBjrQDYO6hKLwMMC9E5VxGZz6hjxdzqEWt7HaMNJJuOERDyvHWjBn4e7r0FXk69RsGkgHaHVKjqXkXkBmRF62lMWqnPpvpbKJa3HSLBgFA8QTYgk7t2o6wKUP4H8oUU4MlDxdFTBAgTeoibv06-ItaHPj8qHcnZpldn9xPCpmZl1I-PLs-Rr59thRSVue31-8hl66_wJ3ruGg4UuF8hEviU-EH6LEN6jo7BUDPnAMfPVGNyCjSjOBznP11iQSN10p95v7P2hjRlZue4l0vA2tqJCfTbBBbcyoUJFBzedGxEnESLGCPQM2XRYNce214bDbFw1nIU_Cn8xyb13HI2I_nkjZ8vG8XNZ1NCZEmq9zTZEiJUH9QgIaPBpR8R3lfJ7wJ1Dhp9S2sIOFZ8IkzLBAwGCXLrS7UbefwMEayrVt9YPRROnxPdWDDCc2kEkXDJDAqOsdsuYblSOPa6KYIa-Si7hKOXYfk7reYQ8HJN5X6TlU_le1wROw4-gO3zf32J4bk3hsgsAhemZtDjwzqDw6JbfCb7vkD5A69DHpBZ5ydgUx-s4isuCnEvASmMgv9UQ6jR4nP5CDgcAqis6ctpCZmocscEXucfFVrOY9AaWDOcwOGYT6PD8i9g1fi-YK5cgzXFr6euXPHc0WdVpjgFG7mwbL4NGIAeb_YFlj4GVtWxX1EHkv302TyicCezd0fnCXG_ohurX-QMgBAwF9s_XozCRzZBECc2CsGg7TantYBjizLUuNVkU9uA6OzQ0pKuzmUDfGrA7QCGFl42OqEZqY6N4WWAj3Z7vgWEJqr4AMV5K-4OnAltJbhT0JOB1",
+        "summary": []
+      },
+      {
+        "id": "fc_0e1a7bc857d4a5b6016ad97fc34f7887d1a351dfd3ecc8c97b",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"visual_job_id\":\"visual_job_a62829223ad28c5dcce8\",\"finding\":\"The eight inspected CAM_FRONT frames, in temporal order, show an urban two-way street with the ego-direction path open and a longitudinal line of orange-and-white channelizing devices separating the closed opposing-side area, approaching and ending/tapering near a cross-street intersection with STOP signs. ROAD WORK AHEAD/work-zone signs are visible in the approach, and the inspected sequence supports the observed lane-closure routing and channelizer layout.\",\"limitations\":\"These frames do not establish exact successive sign spacing, exact channelizer spacing, precise work-space or detour longitudinal positions, or the full off-site detour signing. They also do not resolve all characteristics or serviceability of every deployed device, and they do not provide ego trajectory or LiDAR measurements.\"}",
+        "call_id": "call_06skT09PwZ4g6ATrq3akidVE",
+        "name": "record_visual_job_note"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Persist the factual observation and limitations from the most recently completed visual job before another image job is opened.",
+        "name": "record_visual_job_note",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "visual_job_id": {
+              "enum": [
+                "visual_job_a62829223ad28c5dcce8"
+              ]
+            },
+            "finding": {
+              "type": "string"
+            },
+            "limitations": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "visual_job_id",
+            "finding",
+            "limitations"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 53644,
+      "input_tokens_details": {
+        "cache_write_tokens": 53641,
+        "cached_tokens": 0
+      },
+      "output_tokens": 220,
+      "output_tokens_details": {
+        "reasoning_tokens": 33
+      },
+      "total_tokens": 53864
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_0e1a7bc857d4a5b6016ad97fc56d3487d1983e311d0c6acd91",
+    "object": "response",
+    "created_at": 1792638917,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792638926,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "ORCHESTRATED STAGE 4 — The program owns coverage, tool authorization, source binding, and input accounting. Call the only currently exposed tool. First freeze the plan. After each inspect_stage4_visual_job call, record its factual observation with record_visual_job_note before another image job becomes available. After all visual jobs, record_visual_finding_batch asks only which routed inputs were actually acquired; the program automatically binds every relevant bundle and marks the other routed visual inputs unresolved. Do not describe compliance. Run every registered measurement job exactly once through run_registered_measurement, using inspected endpoint observations only when the job requires endpoints, then persist all completed measurement outcomes with record_measurement_finding_batch. Direct Stage 3 inputs and inputs blocked by the frozen measurement spec are materialized automatically. Call get_stage4_readiness; if ready is false, complete only the listed gaps and call readiness again. Call seal_measurements only after ready is true. Never invent source IDs, evidence kinds, tools_used, measurement tools, or acquisition attempts. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 4 is sealed; no Stage 5 call is permitted.",
+    "max_output_tokens": 6000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0e1a7bc857d4a5b6016ad97fc6177087d1ab7fdefbad7ec4bc",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2X_OFBGGWE07RdQPNEopSXUtpHpJ9cnusf7_siLxyAv7kMj99_G6I7dF0Nj5Kd0EcNwDICkEL_rupyc8ES1rj65FqNtxImQmEcPv1MGRj8mDYNzrLUuc_XJkLPkMPPneoeuppVu8SQDOutJ0W5fgK9BGTbcZuC7zbgM9h0oEiHxJaUtDcVtGL4GTOCWNpLnULMoI6RlNlG32wqGyU22u39LHyPOKQAeWzstbB1ldqfrGv5r879lh1xn8NjKw2U3s9zloOnDKIZcStX-rgjNuXEFRBfIEDi_yDxT2vBTUuvTlGv48K2qz-KOYArtfBT1EneUsquaYZJcZomKQ9g9Ru1ut1aAsAPdJrr1ookN9NZ-9akQ9Ej3oYPNPinP0G62pSDpVIiiqXodUmFKkXELk35kJ0WmF42nXluW4k5dvkFFpRgxIBQ_1mV1ikweQNUPiK0wAZ5m_fdl_dDOTiFjFHWSSopyMWWVRwYy_m0HgsYYM8z1hcBBtOz4u_Ae8Ddz3hDozDt65QDoyZ2lhoH6a68ZvA5yiOGggAgVth7lo0aH0gFU6vPrQpTHuU893RV5XyHhkEWLVwEXP-UEx4QvveT3TmXnMMEzADJOcYEzxk00UuBuK-YiR8FLMgPy5jWdUTnoK4pH4WbCOJvNb6E3J16CB9BQrfexio1Q2hMZuyxn4HmoxIfsFfySpT0FZlTX4AWf6qagqk5OPLJXI1IxkxnAC2jjIAhWIfBA_Sw5iOop4PY3vaQWi-Fgexwh_yq1H9acUS0R6R8dXLb9BiFdh96dy-5DImeEzAZwDE15tGXMmyrI66AlzgaKBM8prJDRpx_djeeLoQ1b5WoS8z66gFiwb9TNnbXJXcMbih2aQ4PMPw5narixg8uStD9P5iWpYpct1YCgw2kUP_ugWL8aI0P0ILhAphLAz2HiImg4k666EinNeI9Mk6zJ6XsR9uKTz7rdQnm0xs9CmQZYPpkIkzPegQKhMyeWIya-0zIFKYKGJbYfbceni51_r3rexNhmtI53x7vaDtG87lijK2a03R2Oy_Q95PnmI2Sa2xOfC83s42MSVORqHl9yfOd98q7Kv-_2hBD9MsPJ4n5zj9f5vd8X8POnE-HU43mHLmqRpDoY3Er-U-dbm4K3ZPjQtvwnqbOoWmUjDy9takL_M01UAnatOVYZ0eripYuYGB5IP3LEAlYm8bbMtUshbqk6NwhoI_tBHorIiBdlrneBhNiAfZIj_KlG102U2YTP3UAdd8cq53ujLtDIpIXlvum6ZtGxEIu3Ha7VApf1p4dX0-14ldtnSY9Z3zFiD7EVsZW_oOMPAb59z7zU8kvv2M-l-HVaQ7wJPzhH5LE5RCCrbu6wMDOnxum686KEZGdtiF0kDjOriO-HGm3IxiSBZ9Dgue7tUTLIY6l-Z3YV0cBstYZ5dBHZtZs9_mkuU737gcUV-3dqWatj06U-02xx7J9qJsSOvcsv7OmgydBpyVA1nyb90vVXzRKZ1xr60ri49sY_mOG0Vm1NHRrOCjFA4mHBWPQtetTGt50XM8TS5hbCF1GMkhrK6ZVXFPhNInRZ6qOHnByGPBTST0lw9y2LrEDkm6HGFgNskvqWU1WZkTT8aUA4u5uEK_IMAqyHqGxCmLGe3t47N746kr98UDGILW2-Q73l-mZe7nyTdtfYwel1MUMCKyU04_aSh2JAkJOsDlFkp1gVgISFga2kof3EOt6BSwcecrX8K2jAIynrlbnLJzzhvVXFG6Nqvi4-kaOXq4983XTAgG_eyaHb2dZb9Bs6fPVxyQi-dnViIEH1TWCWUrnAnMIPJGSpdZpnzrfwt8iuBPylG1H8GjMkkYpBXhHiML6t2r5bbPKTEAzh3HVu78b_25VwrmY-N3co1Y9fm-mkgCnh2PPEjkcVByDQhVnTUHD8APYEa83DvF56Y0GwkaymzupDFX0W9zv2nTTXUWGgR6J1cAqX8jGVfonXPLxOP8x8qooKVjphJFELBWMtfOa0LxpiQP3p8hM0q78K36jogRdtzqkU0HQVZEbAuIgSGOno7I6YJgQczbyz2aqfTiXwkXpeQ6xpY68RFlByNr-Hl_ezedlAKGXof8Wx2OpAH37zXw2EHgsuEzruFVc5KltnxV-fxZ3VGlEpflpEZui2Ws3tqN8QGqVR6KWzPKpY3KWZDNfBmG5gJzcGD6xr0_i_m6FbEUkActkmmvCxYTlgPnXqKkFoOHBASHXkmkW_JZaPUw6NEhwA6PUof06owIOCw01h5R_dl6O9gNg5x75zPObNn3l2p9_rPT-Dx1vaQQSyQOL_bfh4iAyDMeTpKW8dhOlpWjzd5N__qWCQnclSL1Y9Peot7cEv7tVlRI5lOvW2dlyBr6BageaoZJZvChxNLziXUth6s7KwsCc8O3nE-e9yLSTCQQAuCLb1rwj0kb8J9JjQZk_jK4GbGz374JVP4v6UR3dkRycACdTkOryZTuRx1CNxQjmHwjMomnoTEt-NZ3WwKaSgxr4XSxlLscz5CL3ov1d8zzBMyqhCZZ7ES9uqW2GptlPtDllflq4rZgc5l7tR9vvbJMvqcbh9wRkEjQyhR1TNnCizi5Q1NOec9D0SzJ2jgtmc872su1Q-bjnd51fxY34Jxe4tPLgEhKRI_WngUxqhNmQHnxy6IjHnaln9w1a6AztgUf7kZMk58mSjesxzPtjHN_tA5IxhTLV-fyNMsTRbOivIBSokxdV68mcgctmL396DTDRLP9ParO4vKOZRMXhs6EEierArpLsgVMyTgWbkbHGB5rZfUeE1M7NNkSKOuY4yz_Z_6YsGi0k_rBcH6xFK4_gq-EQmoHD2MCexCDyrQHfO7d0AWlL6TcE2rUkXz2otr3P84BibWQ9wEaZP9AC0PMapQJU2GlNIMHCHJXc8hnw8Nh269s8u-gyihxGJuqS8orE0XRQRrykpkKjRuKfuXE4esAgKNiNqMJ1kqlqpHUQK1v3M-FafDdqjywqq8zEj-ZMgjptGfLkxE9d84_JckAmuKQfrD8cXCHQ9qvDEFIUQI_5nq_t5H264hqwY1LCWcI-hvczZnf2TTJ33esWFCjNkyDZOD4gqdVq76HAm2o9i9pjDagnoErMdaSVhKhOqINy5yBlRlkUmdeX1944IMw9JUkIgfaTtOpi76Ev-LXL_a2fd8Zkuugz5nXRUewmu6eyGb5m9Q3i6g1df8anPrwGsXo-IsQZ5opO4SKsJU5y9rkI-t-SQEyJW_8EgLhR0z71KWB6ClWjCxrRczYDHViBqzIL1FExzFZTe1RUaEHZCgVm2cidB78ABj8cgJaBfK8-SOXQbwnSRXbBX1bfTGG2GMqJVHJH2Nkx0WmG0cKFKwku0mhKMqRzb1JGGhmCZ1a0dszpZ1xzkWBWej1sXAFO_GOqjTpksqjzXtukmc65qpxAC9XhWMJonIaAHSTXRvLIo-f5_ipQke157M2mQH2DN4WfRFiLgMN23_tg==",
+        "summary": []
+      },
+      {
+        "id": "fc_0e1a7bc857d4a5b6016ad97fc81c3887d1a4eb89df4f39034b",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"findings\":[{\"discovered_requirement_key\":\"req_2aaae0362bf83021\",\"acquired_inputs\":[\"raw_images\"],\"finding\":\"The inspected representative traffic-cone image and temporal CAM_FRONT frames acquired raw visual input showing orange-and-white channelizing devices along the opposing-side closure.\",\"limitations\":\"Ego trajectory and LiDAR points were not acquired; raw images do not establish all drum dimensions, material, stripe widths/count, top closure, or every device characteristic.\"},{\"discovered_requirement_key\":\"req_38a0c44a191a7475\",\"acquired_inputs\":[\"raw_images\"],\"finding\":\"Inspected representative sign images and temporal frames acquired raw visual input showing ROAD WORK AHEAD/work-zone warning signs on the approach.\",\"limitations\":\"The visual evidence does not resolve every warning-sign characteristic for every visible sign with sufficient detail.\"},{\"discovered_requirement_key\":\"req_403dd72cd3369844\",\"acquired_inputs\":[\"Observed lane-closure routing and channelizer layout\"],\"finding\":\"Temporal inspection acquired the observed routing and layout: the ego-direction path remains open, the opposing direction is separated by a longitudinal orange-and-white channelizer line, and the line approaches and tapers near the intersection.\",\"limitations\":\"The full off-site detour signing and exact closure limits are outside the inspected image scope.\"},{\"discovered_requirement_key\":\"req_47aa373310aaf156\",\"acquired_inputs\":[\"raw_images\"],\"finding\":\"Inspected representative and temporal images acquired raw visual input showing ROAD WORK AHEAD/work-zone signs in the approach to the channelized area.\",\"limitations\":\"The images do not establish the work-space or detour longitudinal position needed to determine the required sign ordering.\"},{\"discovered_requirement_key\":\"req_4b36f1dbdb9f7c39\",\"acquired_inputs\":[\"Visual inspection of deployed channelizing devices for serviceability\"],\"finding\":\"The inspected channelizing devices appear upright, visible, and generally intact in the representative close view; the temporal sequence shows the deployed line continuing toward the intersection.\",\"limitations\":\"A single representative close view and temporal coverage do not establish serviceability of every deployed device.\"},{\"discovered_requirement_key\":\"req_8934040d233c7213\",\"acquired_inputs\":[\"raw_images\"],\"finding\":\"Temporal inspection acquired visual evidence that the normal opposing-direction path is closed and separated from the open ego-direction path by channelizing devices, with a taper or narrowing end near the intersection.\",\"limitations\":\"The complete transition geometry and all applicable TTC methods are not fully measurable from the inspected images.\"},{\"discovered_requirement_key\":\"req_9684dd549b406cb8\",\"acquired_inputs\":[\"raw_images\"],\"finding\":\"The inspected representative channelizers appear clean or visibly discernible, upright, and properly positioned along the observed boundary.\",\"limitations\":\"The evidence does not support a device-by-device maintenance assessment for the full deployment.\"},{\"discovered_requirement_key\":\"req_aa7f07b1d07ed2cb\",\"acquired_inputs\":[\"raw_images\"],\"finding\":\"Inspected images show orange-and-white channelizing devices, including closely spaced cones/drums/delineators, used to delineate the opposing-side closure.\",\"limitations\":\"Exact size, stripe pattern, retroreflection, and placement characteristics for every applicable device type are not resolved.\"}]}",
+        "call_id": "call_LajC3gALfWY3scKe5fbDG2O5",
+        "name": "record_visual_finding_batch"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Persist factual visual findings for multiple requirements. Evidence type, tools, and source IDs are derived from inspection bundles.",
+        "name": "record_visual_finding_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "findings": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 9,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "discovered_requirement_key",
+                  "acquired_inputs",
+                  "finding",
+                  "limitations"
+                ],
+                "properties": {
+                  "discovered_requirement_key": {
+                    "enum": [
+                      "req_2aaae0362bf83021",
+                      "req_38a0c44a191a7475",
+                      "req_403dd72cd3369844",
+                      "req_47aa373310aaf156",
+                      "req_4b36f1dbdb9f7c39",
+                      "req_8934040d233c7213",
+                      "req_9684dd549b406cb8",
+                      "req_aa7f07b1d07ed2cb",
+                      "req_cb1dccef74232ff1"
+                    ]
+                  },
+                  "acquired_inputs": {
+                    "type": "array",
+                    "items": {
+                      "enum": [
+                        "Observed lane-closure routing and channelizer layout",
+                        "Visual inspection of deployed channelizing devices for serviceability",
+                        "raw_images"
+                      ]
+                    }
+                  },
+                  "finding": {
+                    "type": "string"
+                  },
+                  "limitations": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "required": [
+            "findings"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 31980,
+      "input_tokens_details": {
+        "cache_write_tokens": 31977,
+        "cached_tokens": 0
+      },
+      "output_tokens": 850,
+      "output_tokens_details": {
+        "reasoning_tokens": 166
+      },
+      "total_tokens": 32830
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_0e1a7bc857d4a5b6016ad97fce7ecc87d1a179902cd56351d3",
+    "object": "response",
+    "created_at": 1792638926,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792638930,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "ORCHESTRATED STAGE 4 — The program owns coverage, tool authorization, source binding, and input accounting. Call the only currently exposed tool. First freeze the plan. After each inspect_stage4_visual_job call, record its factual observation with record_visual_job_note before another image job becomes available. After all visual jobs, record_visual_finding_batch asks only which routed inputs were actually acquired; the program automatically binds every relevant bundle and marks the other routed visual inputs unresolved. Do not describe compliance. Run every registered measurement job exactly once through run_registered_measurement, using inspected endpoint observations only when the job requires endpoints, then persist all completed measurement outcomes with record_measurement_finding_batch. Direct Stage 3 inputs and inputs blocked by the frozen measurement spec are materialized automatically. Call get_stage4_readiness; if ready is false, complete only the listed gaps and call readiness again. Call seal_measurements only after ready is true. Never invent source IDs, evidence kinds, tools_used, measurement tools, or acquisition attempts. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 4 is sealed; no Stage 5 call is permitted.",
+    "max_output_tokens": 6000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0e1a7bc857d4a5b6016ad97fcf312087d1afd79de591a3cd2e",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2X_SDhqeU_gz2s3cssX-bdM0S6iZXCIrXGVK7fYqyUhb7-CqW-PqrVrPkDWpQwtLkE7KnRCWz1jDe6eIFKKFVj5NoBImYZuT0GKWSx0NoGYF8dUifndvZPgIrv37vWb_8gHbjIkgHNqxkHoPpCArVP0vx9S5yvKI5IsKwFyZ1Gw2lF9eJZN9ImX4FwcM1Z7n6zERle3-01shBuv9Xe-EqhSajXIStXiwKmVBLYDM_5vI4fqd13GXD8vONKg_nPzBCiMhGNooie7z2kenmXPSzIgyItHDLlOXFAFc8M52NOhSNYBTwwu3tIBl0Z1HMTFtmF14T1Z3V2ufIFPDZmHs7LT6iuufctL6IBQN51ElVDYz-hORzbwh5SVGXJPw7b_ZKgB3813lGd2sHItfQhnpy03aAe5UGfNDYE7eZbobu6EoHlE1iD5TL-UUUF08u0MNsywpty9o36P6du4NMnUg_8Mc4LWwY6J_hKwx23j4dLInnAPNiTxfwNgACzq7MH3IfR7BQwnsL8wZbDKlR4E0u9LV84Ckgz_XpAodz7T7grUJSyfqhJ35E6BfPKo06B1tadV2Vx-BHOSopJuvYbxUWLZB1yDhrxOoryX4Jf5kscxJPBJeD2-DoV0-1UPJNIWBqgmtVPgwLKC9N9USqbDD9tJOzQIe4FAOL8Wl7SJSWhRV8VHXlvgvL1yKf8r3JJnsLC1Dev0nOj-2emylh1TXep_IYjdIDx9UvLD2tsSJAq9NTwVdXbERKrYQxakEJlIwFcRwtskeORML5DUSOyivYNb2QV3ybx-Sp6rXndvbgW-1Xmc0Bgw3Nd_Esd5D4cZ9S_v7NiQjOd3fsZYYv5dhxVIqc5DniCsHJdc-O8vNM_uXf3rmus9De2fxKeEkLZ_Gg9q0-FYA82bVmdvft8Hxp8uorJ-zVrKTBEQfCBcrIQOd8_Cv21So2hsSjDw0meYVzCIp93urOEppriGq4NchpnRf8WFGE6khRlekmA47U04JtX5JuutVIrsL2EIETdP10A5zscwOADrcpcuv7NcGAwc8wlaXnLAZzXINOOaAqY3Tit-W0mC0j-ygNMGL7ZAK_2Wze6CaiATEuUolgtTU0JwxZmLkMjCXy8OcOpx7RRy9wjnBbGldD1tMsS_C3rKzjEsOWHxVwHWPb3rYGcvCxGV2Pb-Qw2zy9l1G-0aXO9qZX3ML7duOBFa8N_sdIGwXqZ3sKgqNsS-RFwMfVlqiYzZSkoHyRT47tPQQLQUJx5AbfBveGerX2n3MctKWjFGzV7iH8T762aoeqqgeJKikswPJM3gpSaQc0s5z2BGoD7HfpznlNN2YT697Jb6cm8kvauFDQH4oI9iGKPDC549e4U2tfrX7314378sPoksM-HzMh7i7GtsxaYwhlFw4nTEVZKNVMHc-rfj4mPpMxq90WzA4R1_MX0mPgwo92eplGqXY8p4JfRZ-LPnX3_Tq-Yn5a1GCWu_YWNQsEjgDR-hv97UcEwhn-D5MlAF5CIllnCaMm__mDZfRX4scW-3pyNj131dRdKF_9XUygY7jJ3c7Rds1jB_Xu6q9a4pljA-R0YvPg61QHzoPPZlqpe2fshFRCeRsXOYORVcOdH7sFOCDXupZRDDn1BV-N4P8dzJ8OOZd5fYxs-VBNZjVS52qmTC5iNE550YuSljehUb0Q15_l8Sc-jxaHih9sURcAHUmM8PffZsAi-bYIOpTpJh6j_febiTVYQqircb0-F7_jI_oWiUZHNhLvTJ8A7G9bTKRN9N0HF757wxu_vhyojJz-wAfKgWpLWjdXbIbkszJUP6wyisWhEm0SVzfeVEbr0tYjEiEsxB6lFunhfoJ8JF9DbX8aIKOa39rNHzEt6vXF0E6ZVbYORCma5g-Ka-afioouFYRlhMeYyynqCFevTc4M4CetD_Uivl7TjdXaoKKOdyeCNuuzT5RRH5BUWhKwnbhuOS1Z_34ZIFIzj5a2fQX-yvabkgPwNCCt-iFaW0aZbXZxpouymeSYUbBZez6MlBPpzSgRXl6YiOdpY1HY_8MwSufUngLW3e5289qSHP4UUA8dsDQxRK2jTLZ57ksA-OQVYx0XsRjx306IiE_K4NZpSwD80ap8s0J_-eufqFb8FCrv5z6ggKoaIfGL604M-UYiSf9pg1XER4kVrikn3F2t7WScO72ZW0CSIxWd3_BXFovv7UJxQdmd_Ucl5ol7qn71_QEzAHWMEedi8l-5UnomDeU0nJlKHgWJl5xP3BmKj16MTWNz-mNFx95IMGUsVLtyRXfYK1GQO9iodnQxZGD5e71qWUyP_TgtheH5wszBidzaZJVQ2QbzOhcNvunYLnBGJCb6huGWy05SiTQ69P-wVNp853Ki3dbjP04GMWS9zqkHpi1myuZAIxdokCVZVhvoD1c4bipOK3ocZCuQTtDHfpN0Q16qSuJmOSpvWozLjW9eqmGWhvYDefpQAzcX5nM5gIno-ehzBo0ZDwX4o0X_0SUw20AKn1HzTdTE-x2zAiegB6ZDW3IZU681_tuPT1CQSPpCJepHfnwsIiGbpeFKXmlrz8E_zjldzaI0Jy4oh9ImXRC4E3LgmoDqAjyQ81F2-ZfEpqswmrdc9i3dN9n6tBi4MKJytFNTbhcr2DazR7je_V9WmpXu0suR5WuskiyW_dWiD4Zr8rx4LY2mi55L5NDVfc1v14Mzuc3hK7JhkgJsa5BftUuBMoUpDum6RF5SoLLSaWPA32zPZ03pLsgTwxnUVY73Y63fWZS34LQlsM1GO--88_DhU9J6Rognxe-gudfqnOrJwiHIx1ClEX_yuOOUg1LQHkFDaVKjwgbfvqmlAe87o_yxjLBZIY6gq2UbdcTF3JtN3XbH4i3oRE7XT5QAO3LaKq6OFlcyDccqKhXfOeJNLlnpk_4TR9XCQPkVLmqyDL-3UuVwOhniTQ-oG6epAgYmrayHbtlPjVllg9L-70I1YvOjo67xSJAUk9Pmfo6b6dmB7WE1v1o_iP9Jg0ALbjuwPst8_wu4kimsEpHyvhZHYkvOoIhhmNr958OM55Bw9wGqvQDlnIq2v02UTIPfXbi3R7Zz3_I4NK7uySXKsYrfgoV9ba7LQR9RG4Ah2AW1uYTl-ShehF7FOHGK0I1d_rGJiC_Ef7bcdzm3TRVYCaROFwt9l8DYQAfTN3jaKDTowZQxE53n75Lub7fn9FX6jRQNQyOXKO4lIzAjWUSyEWFwI1Zb-TjxxoDoSbrQ6dBK-zk0CY1C-1vj2KGtdIzttLvXK_0BfHI9DAq5RB2rFd0eBkm_cQsjlBwRC2Md4fKyYFS_cdPKB5bl604IIkLxpoVEfDgpVhvA8BtIpus35C7pqPglgcLhjgT8UdOvVbXrv9aBx4I518z43839bTf7EKdzG2_7dWbTYuxLpd2FwrO57706heQubrkxmTpkPh8dQS9Pvgydw68X9BmUdMEzgQNA_amzQ1IDwOc6xnDOeC81Owy3M0fCPHhgDmHQJUsv6ooMpKgUrjph8fXCiltb4VERnUjVdQOsAfW_o89FsHXLLoK7-xXcFb4kpAK50Y54rZ5HSprywbstEhhCb5NR7AmsS_pRY_-dF3CHCIJWowGHhhTOC8FDI0wuRBTovRLxZp-L6ONd4ZwDJNCi6qnquUHonxKhbFsqIm6kv88s94E3Ciyq61LAwabcnPlb0lT3odB3OI4iniODWH2cLJvY03X2Pt_A_Ri-LEmq7HiwxuIIYxPBkEbcDDVROeB-jjCEuC6s4Cxdh_SMqsmOF0edu1wanZtk3lcubhfeBQ5lRHy7_9eDnIkueo0u4Xb0WonQs5wg1JSoE3UriXGEZxiA7HtWgfFcRmfVmMSM9gMMJi0qPtkMHR_A7HmwRfHBZDuhJhFuNWNpe04ggU1O3IHUjmDdh0rEERi9hYbvP8DyDPKb5p24g3ra_1QrtoEcfrLmDNmvf6Saod1p9hsaMFauqO-mY-5EfqP9v4KsSNa6_d_ZyrUBIlXoet91tkZsTN_aJNjH9KgAx7TAXk2SOI9-uYlsLg2a60m8Jio54KmiA1H8jZQf-auMtb5gLp9ESVq-s0mtkHBEJEPvkt1JyRN4y0REoo00B_u_f8me-nKhGwxyhBFrtq5yWngFTT71JvmtHD5Zf5Vq6htNZ4SSfeDgLccXQsx0m9QrWOuU_xl1ot49p7iwe66WoM3bd0slRoHVcfCCS7yQKe9y3LYI8EWt5R0IyS6ih6b3GWo0rakaOtoX4HKYksXh-kLbwyarsE1GO2PK2WK-rnwTyCXMdOs4Qgq9oY3xYUiwrjPwNoXvLv9zFPIpQ6TT5VLvB_dz6F-mV0ivsukMq3PmqXfHGSCoyfpIhBZvgKonK2TB0DNHaXa_lVhxVDtmcDsquUsb4ESkLOTVSlOhrzTs8zdKFdGy7-Jnyu9wwFoZqUfi2bYWJw3Sl8jhzfP0TTPkGDEr-61rNMft1ZTkD6YqcmnkHHX-6njc24HXTXx0HMhZgiWuytj6w==",
+        "summary": []
+      },
+      {
+        "id": "msg_0e1a7bc857d4a5b6016ad97fd1f3e087d1ab6b173871a0e25e",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Stage 4 cannot proceed from the currently exposed interface. The required measurement and readiness/sealing tools are unavailable, so no measurement jobs can be run or persisted, and measurements cannot be sealed."
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Persist factual visual findings for multiple requirements. Evidence type, tools, and source IDs are derived from inspection bundles.",
+        "name": "record_visual_finding_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "findings": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "discovered_requirement_key",
+                  "acquired_inputs",
+                  "finding",
+                  "limitations"
+                ],
+                "properties": {
+                  "discovered_requirement_key": {
+                    "enum": [
+                      "req_cb1dccef74232ff1"
+                    ]
+                  },
+                  "acquired_inputs": {
+                    "type": "array",
+                    "items": {
+                      "enum": [
+                        "raw_images"
+                      ]
+                    }
+                  },
+                  "finding": {
+                    "type": "string"
+                  },
+                  "limitations": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "required": [
+            "findings"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 34218,
+      "input_tokens_details": {
+        "cache_write_tokens": 34215,
+        "cached_tokens": 0
+      },
+      "output_tokens": 268,
+      "output_tokens_details": {
+        "reasoning_tokens": 224
+      },
+      "total_tokens": 34486
+    },
+    "user": null,
+    "metadata": {}
+  }
+]

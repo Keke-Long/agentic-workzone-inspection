@@ -1,0 +1,11 @@
+[
+  {
+    "token": "e584fb86d5bd55e797b5d515ff102a75",
+    "log_token": "ec553010c2fb5c92868726dccaf3c7d9",
+    "nbr_samples": 240,
+    "first_sample_token": "2322f8a25c9554febab0f379c51a3ffc",
+    "last_sample_token": "6b1c5ee658f7504db6d101896a28f455",
+    "name": "scene-CATS-15",
+    "description": "Case_14, only 61–85 seconds, camera0 only"
+  }
+]

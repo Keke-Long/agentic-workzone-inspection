@@ -1,0 +1,220 @@
+[
+  {
+    "id": "resp_044d7cb64646f2e5016ad98071499087d1b4d62d585bb8b4dc",
+    "object": "response",
+    "created_at": 1792639089,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792639090,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "ORCHESTRATED STAGE 6 — Call the only currently exposed tool. The program copies sealed Stage 5 drafts in registry-sized batches and then deterministically finalizes. Do not rewrite conclusions, evidence bindings, availability, or completion metadata.",
+    "max_output_tokens": 8000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_044d7cb64646f2e5016ad98071eae087d1847ee651ae31594c",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2YByMA_eP6vizONxWcFKOmH7rbX3NGia8PsKXC1NSNcyPVL9wKwd0qp0Y009DRQvNu_tukxqw75peiwRvDrY_PCWLCCnWaCy7HfLETcsZYP-3l-SkFKZfOhqVOKy8bcwxhgVAgXm3xPCabe7u3drO0YgC3EHSL9RtgrCIFyqBrRj0IT-R-Y0aUv30LM12-Ip0oojny5THulFiqSAycBXNFM4eTVrkoXKGR1XfTMmOnTx2WJOq8PPWCrdEf3XIkX5rucpMXCN3zwTkwveM8Ut1LF3bVhljHsn7-5pJf2MM0tSeKtdxTybDZX8AUyQXfxa4kRp10Bk6w2Y3tWmdjgjtTZabCo8b8Q5lSG-QQS8VAYCc_Nidf4-8xXCPEOyL1yTm4utgWGslhH3IhZ0aha6U39-whcDk0jG4cBZA8Aa0SoFjwEz1lAyuLzRBmlr-esf-8_hC75va1K-4DJUrSZAqwyb5d5glBTs8ixooxDhJYSb5Q4l22soWLDnIaZs7e_9zBYlg7xI_zqYjurmuuxCCQPbbzTTwE2qnUV606HqqqRbXbYMFQ5yccr5JXkpVqTfe1T1vZvHw9Qrfnc4Fj7In8mSAU4CqDA1aAwYzdq3xzaCRvvYQjfRQFnxdPAciOOyUDDFiKpr6_p6bC-vvER7Zd2rV5gi5yzdqTmaCMBiN_uL--zt8ji81fa1Cxskck6xfjrolz-gMjRImJGP1pbrvtxRDe2qNNI5n_wiCpY-SYVW0rZ6olVP03UjMWOq77u7U_5NoHHayQcIWPYKTOtunmcIJSVXYsXx6_Ri_UimdhOvm80vOKh4ujSKYAsYP26GHB91wzlJ7bFcQtXg265BmtI4BB1yi5v-wXRXF_g5fGjOs2d0AZR2SkavgUDfYtBPZiiFi2C-bTQuRoAyF5ZcsYnpzDEwc0tASaNbZeSnFWmXhH1y6wIn_7LRDHaQOHtGSnRI_ZBvtvDv-UWZZ7QtIY-Q8L2H0yaqbCNDX6nsEQLXJd3n8N5KMgIxFdHwMaUoc2Jg9O4J3kVFU1eb0lrJ1yXS2tngdn0_rGMsFZJ0znKMMyQpYiHxiiW2JTugT5T85TaisCx0TnMOgAPMMx7GzoaKbvDLzQXkGe18RC-PS6v6sfNm_J6X58k78lZm1xkZ18zNWTzFr6oOqfYalssOlZIzAxQEzM7kXw6r1fYzyWG2osWFLr9-tod_GiUT6P4O2TwuaIcZbzyZtPcWC800OB0ahrFZwiDcJR83q6HSF8jDHwkLRY_K5BPGa2s1b9epeCRptM-A_eFWg5Ec8DLXCQzqOGMS-1S6XOCR4G1tg6gm352gZdu8paTsv5qfoEiAil-NrhsM8DiqUYCmuOGgLKqV1-2HZWbU3eb0MR45quFU0Xd3XvYu-PeIq__uSE82PF-GCoSY8OLWw-Uk11pz3bbFWPXsI4M8gm5jBTZVBeS0kWFgrZahTnUEPGKg4v1ysEvmlnaWPnqsjuXk69HgKjmJh3VoXplooA43RwvUFDFW7_leiy0D08CyckmEpGkQ-0iLPSnNrEOuPfBht-pxxCouLEehrtVn2Mv8EaX8cmFflW26XJHZJV8fw1rcTIyp31Xp",
+        "summary": []
+      },
+      {
+        "id": "fc_044d7cb64646f2e5016ad98072368487d1ab70d2d6e79eb542",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{}",
+        "call_id": "call_wbJghb0THkXlDk9hv07byTjP",
+        "name": "submit_next_stage6_batch"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "required",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Copy the next program-selected batch of sealed Stage 5 drafts into final inspection records without model rewriting.",
+        "name": "submit_next_stage6_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 47198,
+      "input_tokens_details": {
+        "cache_write_tokens": 47076,
+        "cached_tokens": 0
+      },
+      "output_tokens": 35,
+      "output_tokens_details": {
+        "reasoning_tokens": 16
+      },
+      "total_tokens": 47233
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_044d7cb64646f2e5016ad980728b0487d1acd1d690390a3870",
+    "object": "response",
+    "created_at": 1792639090,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792639091,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "ORCHESTRATED STAGE 6 — Call the only currently exposed tool. The program copies sealed Stage 5 drafts in registry-sized batches and then deterministically finalizes. Do not rewrite conclusions, evidence bindings, availability, or completion metadata.",
+    "max_output_tokens": 8000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_044d7cb64646f2e5016ad98073302487d185d630bcc4625753",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2YBzVS0tLmdFhq2w6qJ5XdwJyfKOW5Dy7RwRBuGQ1Xtc-5GHLYLbDS1L8KT00JLjUxhX0eoYXnbyiXEDcLnXbGSk2NgvsufJ4PktW93MLTdbyQJizQCim1CPze9bHs71yCCJNfBk4t2B98E1Pcq7KO1TmpEudMrCu5f-UnJriQhHZrZFWnQOQ65zpuqPQbUO6F44x1JNmiWhh-4hYPOw1QXn3KYHSxCYY3jzznlVDBRX8RRKKvcA2jOE3kYpb_ipLGr9tLn_VadL4WSrs6k_tLxWK6cUMEOdY7KHNBYjw1c8GcGt44m05ANSbg40JzxcMc6Rwo3T1vTGZC_gT-9-X_i8aR4fOV78E4dpgSPMKOQ67WTgIIUq5F64JNN-ql0u9o-ajsyVUHpAmqIgooTdqjPRn7a3aNEjduNh1KH05Z5zu5vNNNEKGXiMCS4vhnGOFQ-DlZco_K7plFKfqggfzxd4vAqTryV6IXtK3s5AStCvH-RDuTDDm7xHLj5aS0dV9Lh_ejtvAqKe1GOwKS4Ba5uzB0t-bSKToT2UnirvqQloC3QL5vMcEtJ2gVsAshObV3E13NtMPJG6MZbKRXdsexGrbbODn9-43iSQS5hC_i73oUYqmyq5hJwgG2imJzQesEGRSCqNiR0r_vFXbExWB0ZJFygmqG5daXV1mIDTdq4UE7R58hznPCxYl5RKEcHu7Td9cIcsKLAAqEigt_67PFEce72BJtz42rObb_ktuc8cGqUJeuWT5iYP_0rsYOlUy-bF2bOIz3KDQGNs0FBE-POpj6N8SB5QXGYbsaL9RAO_kCDXk7njrq_RmxczQuX_feWbdhEUYrjnKLl0upBRtcsKZQ34Y9DZpSYaHFX3JtV4jfdJxRAL76qZXS67U2EWqA2yy4ORkfO8OWibcHDjIgRotC0MU5kF6R1wgCrvr78ZUKWxagi3pxY-t6UNdrGK5Nn0ReMdEYvGDKfCypI8sR62_WpJoIRjrl5cqGnIsLQwwp6m5aUzjk6pxVPr90AiosiNH6KmG48EcKXPoUQlrQv9z3Y5_opevWZp7kbhBbk-_bZeL88oAGoz3P1Q7nwcnP1ixmIF3TLi0Nf25SvNJgW2LlFQ0vy9je0JCh2oWESzz8QZURmftwylSTDHmF5M8C8LauQyuCbdESYjPvA9JODQ3BUhF2QgnHhWHyq01Vm3ZZg02nTnpl8jlaXhwH5OK7GjLMJ7aNuvuqDJ03QiW9Xdn_3Za4Ozu_sAXRMU_QBPeqLx5249jcCMdhiRtOP53GaFEwHGGp5NNoIZp5la6mfXJkDoWzytvENajLstAQ07DqCoTu2RSSlj8K9dR1kmAiAv56LYOOm1-ChVfeyr_W4RIAyDOWXelpJrAlZ8zuOPsahzOf3YlRAjbIQnhUO9bfOEJpx5bKOuUSiHFDyumw9FKwiyuiG9yhM6BcKxQPZnTwWBOPTylJqV8NqgmEQSCSL5sCxKNZ6EdjKCTJy29YGSa4LCAWU0H8U-RnKrwzQSh0NDvq180J6pRBCcwIjrtM7fIWOdHXAStWxfB1mrOl85V64rYgtNBO_XZWhLTOhDwKj8CJVDelkyubsP7kMQkQEXkRQz5q8W6Q83iOE4ZKRHMtU5N7F4LSCmLJ1clSwG2PrvNntHgb9w8iC3LOOdotFNmYT8ZapkSWmVXg5Y7F7w2g==",
+        "summary": []
+      },
+      {
+        "id": "fc_044d7cb64646f2e5016ad980737f5487d1ae174456672ec5ad",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{}",
+        "call_id": "call_wZXUliLbpBZs3hM4vtVBibKy",
+        "name": "finalize_stage6"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "required",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Finalize the registry after every sealed Stage 5 draft has been copied exactly once.",
+        "name": "finalize_stage6",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 43827,
+      "input_tokens_details": {
+        "cache_write_tokens": 43705,
+        "cached_tokens": 0
+      },
+      "output_tokens": 39,
+      "output_tokens_details": {
+        "reasoning_tokens": 21
+      },
+      "total_tokens": 43866
+    },
+    "user": null,
+    "metadata": {}
+  }
+]

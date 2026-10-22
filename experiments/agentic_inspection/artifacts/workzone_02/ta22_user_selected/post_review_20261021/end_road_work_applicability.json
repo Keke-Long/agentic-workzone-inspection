@@ -1,0 +1,31 @@
+{
+  "sign": "END ROAD WORK (G20-2)",
+  "authority": "MUTCD 11th Edition December 2023; TA-22",
+  "mandatory_presence": false,
+  "sources": [
+    {
+      "section": "6B.07 paragraph 02",
+      "modality": "may",
+      "meaning": "可使用 END ROAD WORK、限速或其他标志提示恢复正常通行。"
+    },
+    {
+      "section": "6H.36 paragraph 01",
+      "modality": "conditional should",
+      "meaning": "若使用 END ROAD WORK，应按工程判断设于终止区下游端附近。"
+    },
+    {
+      "section": "Figure 6P-22",
+      "modality": "optional",
+      "meaning": "G20-2 明确为可选设施。"
+    }
+  ],
+  "trace_evidence": {
+    "file": "stage3/scene-CATS-19/tool_trace.json",
+    "component_id": "component:sign:G20-2",
+    "depiction_relation": "depicts_optional_component",
+    "source_node_id": "src_4bdfcfa5abffbe383aaa"
+  },
+  "assessment": "未包含强制存在检查不构成此项强制要求漏提取。原报告缺少可选设施及条件条文的排除说明；本补充记录弥补可追溯性。日志未提供单独的模型排除理由，不将推断当作显式理由。",
+  "observation_scope": "用户报告本场景未设置；现有接受目标未确认该标志。未开展新的全帧缺失检测，不以未检测到等同现场绝对不存在。",
+  "frozen_requirement_count": 13
+}

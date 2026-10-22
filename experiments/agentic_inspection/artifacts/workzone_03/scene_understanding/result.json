@@ -1,0 +1,141 @@
+{
+  "scene_facts": {
+    "evidence_status": "Model-derived evidence from front-camera images; not human-confirmed ground truth.",
+    "observation_window": "20.1-99.6 seconds; first 20 seconds excluded.",
+    "survey_vehicle": "Black survey vehicle, user-confirmed.",
+    "posted_speed": "20 mph, user-confirmed.",
+    "work_duration": "Strictly less than three days, user-confirmed; more precise duration unknown.",
+    "road_geometry": "Urban, generally straight, two-way undivided street with curbs, sidewalks, grass strips, and a visible centerline/centerline remnant. Bicycle pavement markings are visible. Road geometry and surroundings change after the work area and at successive intersections.",
+    "traffic_directions": "The survey vehicle travels forward. Vehicles facing the camera, including work trucks, use the opposing side; same-direction traffic is visible farther ahead. Exact lane count is not determined.",
+    "work_area_summary": "At least two separately encountered work-related areas are supported: an initial localized work-vehicle/worker area on the roadway, followed later by a delineated roadway work area using numerous orange channelizers and a 'ROAD WORK AHEAD' sign.",
+    "lane_closure_vs_localized_obstruction": "The earlier scene supports a localized obstruction or work-vehicle occupation, especially near the opposing side of the roadway; a formal lane closure is not established. The later channelized area narrows or shifts the usable roadway, but the exact closed portion and traffic-control limits are uncertain.",
+    "intersection_relationship": "The initial work activity is encountered before a signalized or stop-controlled intersection sequence. Workers and equipment are near an intersection around 41.3-51.9 seconds. The survey vehicle then crosses a stop-controlled intersection around 51.9-62.5 seconds and proceeds toward another intersection/work area around 78.4-89.0 seconds. These segments should not be treated as one continuous layout.",
+    "workers_and_flagger_evidence": "Several people in high-visibility clothing appear near the work vehicles and roadway. High-visibility clothing alone does not establish flagger activity. No person is clearly shown holding a STOP/SLOW paddle or otherwise visibly directing traffic; flagger activity is therefore unconfirmed.",
+    "apparent_work_vehicles": "A sweeper-type truck marked 'HARRIER' is parked along the left side at 25.4 seconds. A large truck with an elevated conveyor/boom and a red construction machine are visible around 35.999-46.6 seconds. The precise equipment functions and operational status are uncertain. A U-Haul/self-storage vehicle is visible near 51.9-57.2 seconds but is not established as a work vehicle."
+  },
+  "visible_features": [
+    {
+      "feature": "Initial localized work-vehicle area",
+      "image_timestamps": [
+        20.1,
+        25.4,
+        30.7,
+        36.0,
+        41.3,
+        46.6
+      ],
+      "description": "Multiple vehicles occupy or are parked along the roadway, including a sweeper-type truck and a large construction truck with an attached elevated conveyor/boom. A red construction machine is visible behind the large truck. Workers are present near the vehicles.",
+      "uncertainty": "Moderate: vehicle identities and roadway positions are visible, but the exact work limits, whether any vehicle is actively operating, and whether a lane is formally closed are unclear."
+    },
+    {
+      "feature": "High-visibility workers",
+      "image_timestamps": [
+        20.1,
+        36.0,
+        41.3,
+        46.6
+      ],
+      "description": "One or more people wearing high-visibility garments are near the work vehicles and in the roadway.",
+      "uncertainty": "Moderate: people are visible, but their job roles and whether they are directing traffic cannot be determined."
+    },
+    {
+      "feature": "Stop-controlled intersection and crosswalk",
+      "image_timestamps": [
+        46.6,
+        51.9,
+        57.2,
+        62.5
+      ],
+      "description": "The survey vehicle approaches and crosses an intersection with stop signs, marked crosswalks, curb ramps, and bicycle-related pavement markings.",
+      "uncertainty": "Low for the visible intersection features; the relationship between this intersection and the nearby work activity is uncertain."
+    },
+    {
+      "feature": "Legible stop-sign legends",
+      "image_timestamps": [
+        46.6,
+        51.9,
+        57.2,
+        62.5,
+        83.7,
+        89.0
+      ],
+      "description": "Visible stop signs read 'STOP'; supplemental plaques visibly read 'ALL WAY'.",
+      "uncertainty": "Low for the stated legends where signs are close enough to read; other distant signs are not interpreted."
+    },
+    {
+      "feature": "Parking signs",
+      "image_timestamps": [
+        30.7,
+        41.3,
+        73.1,
+        99.6
+      ],
+      "description": "A close sign reads 'NO PARKING HERE TO CORNER'. Other visible parking signs include a legible 'NO PARKING ENTIRE BLOCK' legend. A nearby parking sign appears to read '2 HOUR PARKING 8AM-6PM'.",
+      "uncertainty": "Low to moderate: the quoted legends are readable in the indicated frames, but the exact sign locations, arrows, and applicability to the work area are not established."
+    },
+    {
+      "feature": "Temporary roadside work warning",
+      "image_timestamps": [
+        57.2,
+        62.5
+      ],
+      "description": "An orange diamond sign on the right side of the roadway reads 'ROAD WORK AHEAD'.",
+      "uncertainty": "Low for the legend and approximate placement; its intended advance-warning distance and relation to the later channelized area are unknown."
+    },
+    {
+      "feature": "Later channelized roadway area",
+      "image_timestamps": [
+        78.4,
+        83.7,
+        89.0
+      ],
+      "description": "Numerous orange-and-white vertical channelizers form a longitudinal line or taper along the left portion of the roadway near an intersection. The survey vehicle proceeds on the right side of the delineated area.",
+      "uncertainty": "Moderate: channelizers clearly delineate a work-related area, but the beginning/end limits, exact lane or side of roadway affected, and whether the arrangement represents a closure, taper, or protected work space are uncertain."
+    },
+    {
+      "feature": "Traffic at later work area",
+      "image_timestamps": [
+        83.7,
+        89.0
+      ],
+      "description": "Other vehicles are visible beyond or adjacent to the channelized area. No clear alternating one-way traffic operation is visible.",
+      "uncertainty": "Moderate to high: vehicle paths and control status are partially obscured by perspective and motion."
+    },
+    {
+      "feature": "Bicycle and pedestrian context",
+      "image_timestamps": [
+        25.4,
+        30.7,
+        46.6,
+        51.9,
+        57.2,
+        62.5
+      ],
+      "description": "Bicycle pavement symbols/markings and sidewalks/crosswalks are visible. A bicyclist is present near the intersection around 51.9 seconds.",
+      "uncertainty": "Low for presence; the precise bicycle facility type and any temporary effect from the work are uncertain."
+    },
+    {
+      "feature": "Ordinary road users and parked vehicles",
+      "image_timestamps": [
+        67.8,
+        73.1,
+        94.3,
+        99.6
+      ],
+      "description": "The roadway continues through later residential/commercial segments with parked vehicles and ordinary traffic. No continuing work equipment is visible in these frames.",
+      "uncertainty": "Moderate: absence of visible equipment in these frames does not establish that work is absent beyond the camera view."
+    }
+  ],
+  "unresolved_layout_questions": [
+    "What exact roadway segment and limits were occupied by the initial construction vehicles?",
+    "Was any travel lane formally closed during the initial vehicle/worker encounter, or were the vehicles simply parked or temporarily obstructing the roadway?",
+    "Which side or portion of the roadway is affected by the later channelizer line, and does it extend through the intersection?",
+    "Are the initial work-vehicle area and later channelized area part of one project or separate work areas?",
+    "What are the exact start and end points of the channelized treatment and any associated work space?",
+    "Was traffic being alternated, directed, or otherwise controlled by workers at any point? No flagger activity is confirmed.",
+    "Are any additional signs, cones, barricades, or devices outside the camera view or obscured by vehicles?",
+    "What work operation is represented by the large conveyor/boom truck and red machine?",
+    "Do the visible warning and parking signs apply specifically to the work activity or to ordinary street regulations?",
+    "What are the exact lane counts and lane boundaries on each changing road segment?"
+  ]
+}

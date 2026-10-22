@@ -1,0 +1,643 @@
+[
+  {
+    "status": "acquired",
+    "measurement_id": "measurement_775c616dc49bee4eb485",
+    "measurement_type": "channelizer_spacing_series",
+    "thresholds_applied": {
+      "tangent": {
+        "value": 40.0,
+        "unit": "ft",
+        "violation_when": "above_maximum",
+        "value_m": 12.192
+      }
+    },
+    "deficiency_supported": false,
+    "minimum_consecutive_exceedances": 2,
+    "accepted_channelizer_observations_scanned": 132,
+    "physical_entity_candidates": 21,
+    "candidate_sequence_count": 2,
+    "sequences_evaluated": 1,
+    "selected_sequence_policy": "continuous channelizer line with minimum median absolute lateral offset from ego trajectory",
+    "selected_sequence_median_abs_lateral_m": 2.318442254737757,
+    "selected_sequence_entity_ids": [
+      "W3_OBJ_019",
+      "W3_OBJ_021",
+      "W3_OBJ_020",
+      "W3_OBJ_003",
+      "W3_OBJ_008",
+      "W3_OBJ_007",
+      "W3_OBJ_001"
+    ],
+    "selected_sequence_reviewed_class_counts": {
+      "traffic_cone": 7
+    },
+    "region_classification_method": "three-point median lateral smoothing followed by deterministic piecewise road-coordinate fitting of a sloped taper and constant-lateral tangent",
+    "included_reviewed_classes": [
+      "channelizing_device",
+      "traffic_cone",
+      "traffic_drum"
+    ],
+    "gaps_evaluated": 6,
+    "clear_exceedance_gap_count": 0,
+    "gaps_vetoed_by_possible_intervener": 0,
+    "violation_run_count": 0,
+    "violation_runs": [],
+    "sequence_summaries": [
+      {
+        "sequence_id": "sequence_01",
+        "entity_count": 7,
+        "gap_count": 6,
+        "start_station_m": 183.51611587641474,
+        "end_station_m": 187.06150413469427,
+        "taper_gap_count": 0,
+        "tangent_gap_count": 6,
+        "region_model": {
+          "gap_regions": [
+            "tangent",
+            "tangent",
+            "tangent",
+            "tangent",
+            "tangent",
+            "tangent"
+          ],
+          "model": "piecewise road-coordinate linear taper plus constant-lateral tangent",
+          "orientation": "all_tangent",
+          "change_station_m": null,
+          "taper_lateral_slope": null,
+          "taper_lateral_shift_m": null,
+          "piecewise_error": null,
+          "constant_error": 0.9806662616423549
+        },
+        "device_road_coordinates": [
+          {
+            "entity_id": "W3_OBJ_019",
+            "station_m": 183.51611587641474,
+            "lateral_m": 2.919098095438719
+          },
+          {
+            "entity_id": "W3_OBJ_021",
+            "station_m": 183.5835640988173,
+            "lateral_m": 2.318442254737757
+          },
+          {
+            "entity_id": "W3_OBJ_020",
+            "station_m": 184.40917893442273,
+            "lateral_m": 2.7298842917497472
+          },
+          {
+            "entity_id": "W3_OBJ_003",
+            "station_m": 185.20791011196442,
+            "lateral_m": 2.284350530832369
+          },
+          {
+            "entity_id": "W3_OBJ_008",
+            "station_m": 185.99818861352222,
+            "lateral_m": 2.2848205838709683
+          },
+          {
+            "entity_id": "W3_OBJ_007",
+            "station_m": 186.95399219208713,
+            "lateral_m": 2.4491714729522087
+          },
+          {
+            "entity_id": "W3_OBJ_001",
+            "station_m": 187.06150413469427,
+            "lateral_m": 1.6690721131955675
+          }
+        ],
+        "clear_exceedance_gap_count": 0,
+        "sustained_violation_run_count": 0,
+        "gaps": [
+          {
+            "gap_index": 1,
+            "from_entity_id": "W3_OBJ_019",
+            "to_entity_id": "W3_OBJ_021",
+            "channelization_region": "tangent",
+            "threshold_m": 12.192,
+            "evaluated_against_registered_rule": true,
+            "value_m": 0.6044308907339199,
+            "confidence_interval_m": [
+              0.0,
+              1.6197227360535238
+            ],
+            "possible_intervening_entity_ids": [
+              "W3_OBJ_020"
+            ],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 2,
+            "from_entity_id": "W3_OBJ_021",
+            "to_entity_id": "W3_OBJ_020",
+            "channelization_region": "tangent",
+            "threshold_m": 12.192,
+            "evaluated_against_registered_rule": true,
+            "value_m": 0.8933915174737779,
+            "confidence_interval_m": [
+              0.0,
+              1.8933915174737779
+            ],
+            "possible_intervening_entity_ids": [
+              "W3_OBJ_019"
+            ],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 3,
+            "from_entity_id": "W3_OBJ_020",
+            "to_entity_id": "W3_OBJ_003",
+            "channelization_region": "tangent",
+            "threshold_m": 12.192,
+            "evaluated_against_registered_rule": true,
+            "value_m": 0.9115777852966198,
+            "confidence_interval_m": [
+              0.0,
+              1.9115777852966198
+            ],
+            "possible_intervening_entity_ids": [
+              "W3_OBJ_004"
+            ],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 4,
+            "from_entity_id": "W3_OBJ_003",
+            "to_entity_id": "W3_OBJ_008",
+            "channelization_region": "tangent",
+            "threshold_m": 12.192,
+            "evaluated_against_registered_rule": true,
+            "value_m": 0.7899956195098757,
+            "confidence_interval_m": [
+              0.0,
+              1.7899956195098756
+            ],
+            "possible_intervening_entity_ids": [
+              "W3_OBJ_004"
+            ],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 5,
+            "from_entity_id": "W3_OBJ_008",
+            "to_entity_id": "W3_OBJ_007",
+            "channelization_region": "tangent",
+            "threshold_m": 12.192,
+            "evaluated_against_registered_rule": true,
+            "value_m": 0.9677605292234717,
+            "confidence_interval_m": [
+              0.0,
+              1.9677605292234717
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 6,
+            "from_entity_id": "W3_OBJ_007",
+            "to_entity_id": "W3_OBJ_001",
+            "channelization_region": "tangent",
+            "threshold_m": 12.192,
+            "evaluated_against_registered_rule": true,
+            "value_m": 3.4507854179663053,
+            "confidence_interval_m": [
+              2.157983430012233,
+              4.743587405920378
+            ],
+            "possible_intervening_entity_ids": [
+              "W3_OBJ_006",
+              "W3_OBJ_012",
+              "W3_OBJ_013"
+            ],
+            "clear_exceedance": false
+          }
+        ]
+      }
+    ],
+    "associated_bbox_ids": [
+      "W3_T76199999_Q008",
+      "W3_T81699999_Q011",
+      "W3_T81799999_Q013",
+      "W3_T82199999_Q017",
+      "W3_T83099999_Q016",
+      "W3_T84299999_Q009",
+      "W3_T84699999_Q004"
+    ],
+    "associated_image_ids": [
+      "workzone3__CAM_FRONT__76199999",
+      "workzone3__CAM_FRONT__81699999",
+      "workzone3__CAM_FRONT__81799999",
+      "workzone3__CAM_FRONT__82199999",
+      "workzone3__CAM_FRONT__83099999",
+      "workzone3__CAM_FRONT__84299999",
+      "workzone3__CAM_FRONT__84699999"
+    ],
+    "endpoint_semantics_valid": true,
+    "geometry_direction_valid": true,
+    "sequence_inference_valid": true,
+    "measurement_method": "rule-based accepted-track deduplication, Frenet path cover, nearest-trajectory sequence selection, and exhaustive adjacent-gap audit",
+    "quality_flags": [
+      "accepted_bbox_class_only",
+      "track_positions_are_not_survey_grade",
+      "sequence_membership_is_rule_based",
+      "single_gap_is_not_a_formal_deficiency",
+      "farther_parallel_channelizer_lines_excluded",
+      "complete_automatic_inventory_used_only_to_veto_possible_missed_devices"
+    ],
+    "excluded_low_support_entities": 0,
+    "excluded_unstable_entities": 0,
+    "failure_reason": null,
+    "discovered_requirement_key": "req_62474d3d964c6426",
+    "requirement_fingerprint": "62474d3d964c642662f5d4a82929d1d6df4893e51c0a1bc7cd04c8efed07aa34",
+    "requirement_registration_event_index": 3,
+    "requirement_registration_timestamp": "2026-10-22T03:05:29.186766+00:00",
+    "measurement_event_index": 60,
+    "measurement_timestamp": "2026-10-22T03:13:17.611983+00:00",
+    "registered_source_locator": "SEC-6K.01 paragraph 04; PDF page 855"
+  },
+  {
+    "status": "acquired",
+    "measurement_id": "measurement_a5e2bbd0a2ac4b002886",
+    "measurement_type": "sign_spacing",
+    "geometry_direction": "longitudinal_station",
+    "value": 168.66846756308107,
+    "unit": "m",
+    "uncertainty": 1.0852716124005894,
+    "confidence_interval": [
+      167.58319595068048,
+      169.7161828152799
+    ],
+    "start_anchor": {
+      "status": "acquired",
+      "location_id": "bev_W3_OBJ_030_W3_T63799999_Q008",
+      "observation_id": "W3_T63799999_Q008",
+      "global_xyz_m": [
+        167.81264185407255,
+        137.9345234509737,
+        -0.4826350411688297
+      ],
+      "uncertainty_m": 0.6432326436849425,
+      "spatial_uncertainty_m": 0.6432326436849425,
+      "road_station_m": 18.39303657161322,
+      "station_confidence_interval_m": [
+        17.845321319414392,
+        18.978308184013798
+      ],
+      "station_uncertainty_m": 0.5852716124005788,
+      "station_sample_count": 10,
+      "trajectory_lateral_offset_m": -4.678540189025291,
+      "lateral_confidence_interval_m": [
+        -5.316709227493318,
+        -4.091945612437865
+      ],
+      "trajectory_lateral_residual_m": 4.678540189025291,
+      "trajectory_lateral_residual_p95_m": 5.316709227493318,
+      "longitudinal_geometry_usable": true,
+      "trajectory_local_tangent_xy": [
+        0.7169957405118692,
+        0.6970775481163028
+      ],
+      "trajectory_local_normal_xy": [
+        -0.6970775481163028,
+        0.7169957405118692
+      ],
+      "projected_points_in_bbox": 1322,
+      "depth_cluster_points": 1322,
+      "associated_image_ids": [
+        "workzone3__CAM_FRONT__63799999"
+      ],
+      "associated_bbox_ids": [
+        "W3_T63799999_Q008"
+      ],
+      "associated_lidar_frames": [
+        "61.700219393.pcd",
+        "62.899994373.pcd",
+        "63.200025558.pcd",
+        "63.300112486.pcd",
+        "63.400196552.pcd",
+        "63.500232458.pcd",
+        "63.600230455.pcd",
+        "63.700193405.pcd",
+        "63.800147533.pcd",
+        "63.900097370.pcd"
+      ],
+      "trajectory_pose_source": "/home/klong23/workzone/data/workzone_03/processed/CATS_v1.0/ego_pose.json",
+      "calibration_source": "/home/klong23/workzone/data/workzone_03/processed/CATS_v1.0/calibrated_sensor.json",
+      "measurement_method": "Previously validated per-point raw-LiDAR + INS reconstruction, complete-link multi-frame object; conservative support range expanded by 0.5 m (not calibrated statistical CI)",
+      "quality_flags": [
+        "not_survey_grade",
+        "conservative_support_range_not_statistical_confidence_interval"
+      ],
+      "failure_reason": null,
+      "object_id": "W3_OBJ_030",
+      "independent_geometry_frames": 10,
+      "source_files": {
+        "observations": {
+          "path": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/observations.json",
+          "sha256": "e124082211a7c9753532bff0e1d82839773bee5431ae948860d7ea4b9b39a4c3"
+        },
+        "objects": {
+          "path": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/objects.json",
+          "sha256": "7f8e9938d309195a3c37e77035f27c9c839a27e8202c8eafb57147516d504951"
+        },
+        "validation": {
+          "path": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/validation.json",
+          "sha256": "0e15b5e302c633cbe2f005441389c581948befe7023d9d33fbf6301283f6e7d9"
+        },
+        "reconstruction": {
+          "path": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/reconstruction.json",
+          "sha256": "85677d8240090e01ae86f1cbeb8ab6c1c3fdf2a999fe0d61669c6d25952570ce"
+        }
+      },
+      "semantic_role": "upstream_sign"
+    },
+    "end_anchor": {
+      "status": "acquired",
+      "location_id": "bev_W3_OBJ_032_W3_T84399999_Q016",
+      "observation_id": "W3_T84399999_Q016",
+      "global_xyz_m": [
+        287.7031570939541,
+        261.538284980301,
+        -1.2814756903907476
+      ],
+      "uncertainty_m": 0.5,
+      "spatial_uncertainty_m": 0.5,
+      "road_station_m": 187.06150413469427,
+      "station_confidence_interval_m": [
+        186.56150413469427,
+        187.56150413469427
+      ],
+      "station_uncertainty_m": 0.5,
+      "station_sample_count": 1,
+      "trajectory_lateral_offset_m": 2.77226314072444,
+      "lateral_confidence_interval_m": [
+        2.27226314072444,
+        3.27226314072444
+      ],
+      "trajectory_lateral_residual_m": 2.77226314072444,
+      "trajectory_lateral_residual_p95_m": 3.27226314072444,
+      "longitudinal_geometry_usable": false,
+      "trajectory_local_tangent_xy": [
+        0.7031359600068865,
+        0.7110554280400327
+      ],
+      "trajectory_local_normal_xy": [
+        -0.7110554280400327,
+        0.7031359600068865
+      ],
+      "projected_points_in_bbox": 40,
+      "depth_cluster_points": 40,
+      "associated_image_ids": [
+        "workzone3__CAM_FRONT__84399999"
+      ],
+      "associated_bbox_ids": [
+        "W3_T84399999_Q016"
+      ],
+      "associated_lidar_frames": [
+        "84.400207520.pcd"
+      ],
+      "trajectory_pose_source": "/home/klong23/workzone/data/workzone_03/processed/CATS_v1.0/ego_pose.json",
+      "calibration_source": "/home/klong23/workzone/data/workzone_03/processed/CATS_v1.0/calibrated_sensor.json",
+      "measurement_method": "Previously validated per-point raw-LiDAR + INS reconstruction, complete-link multi-frame object; conservative support range expanded by 0.5 m (not calibrated statistical CI)",
+      "quality_flags": [
+        "not_survey_grade",
+        "conservative_support_range_not_statistical_confidence_interval",
+        "single_frame_or_ambiguous_position",
+        "longitudinal_geometry_not_usable"
+      ],
+      "failure_reason": null,
+      "object_id": "W3_OBJ_032",
+      "independent_geometry_frames": 1,
+      "source_files": {
+        "observations": {
+          "path": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/observations.json",
+          "sha256": "e124082211a7c9753532bff0e1d82839773bee5431ae948860d7ea4b9b39a4c3"
+        },
+        "objects": {
+          "path": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/objects.json",
+          "sha256": "7f8e9938d309195a3c37e77035f27c9c839a27e8202c8eafb57147516d504951"
+        },
+        "validation": {
+          "path": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/validation.json",
+          "sha256": "0e15b5e302c633cbe2f005441389c581948befe7023d9d33fbf6301283f6e7d9"
+        },
+        "reconstruction": {
+          "path": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/reconstruction.json",
+          "sha256": "85677d8240090e01ae86f1cbeb8ab6c1c3fdf2a999fe0d61669c6d25952570ce"
+        }
+      },
+      "semantic_role": "downstream_sign"
+    },
+    "ordered_anchors": [
+      {
+        "status": "acquired",
+        "location_id": "bev_W3_OBJ_030_W3_T63799999_Q008",
+        "observation_id": "W3_T63799999_Q008",
+        "global_xyz_m": [
+          167.81264185407255,
+          137.9345234509737,
+          -0.4826350411688297
+        ],
+        "uncertainty_m": 0.6432326436849425,
+        "spatial_uncertainty_m": 0.6432326436849425,
+        "road_station_m": 18.39303657161322,
+        "station_confidence_interval_m": [
+          17.845321319414392,
+          18.978308184013798
+        ],
+        "station_uncertainty_m": 0.5852716124005788,
+        "station_sample_count": 10,
+        "trajectory_lateral_offset_m": -4.678540189025291,
+        "lateral_confidence_interval_m": [
+          -5.316709227493318,
+          -4.091945612437865
+        ],
+        "trajectory_lateral_residual_m": 4.678540189025291,
+        "trajectory_lateral_residual_p95_m": 5.316709227493318,
+        "longitudinal_geometry_usable": true,
+        "trajectory_local_tangent_xy": [
+          0.7169957405118692,
+          0.6970775481163028
+        ],
+        "trajectory_local_normal_xy": [
+          -0.6970775481163028,
+          0.7169957405118692
+        ],
+        "projected_points_in_bbox": 1322,
+        "depth_cluster_points": 1322,
+        "associated_image_ids": [
+          "workzone3__CAM_FRONT__63799999"
+        ],
+        "associated_bbox_ids": [
+          "W3_T63799999_Q008"
+        ],
+        "associated_lidar_frames": [
+          "61.700219393.pcd",
+          "62.899994373.pcd",
+          "63.200025558.pcd",
+          "63.300112486.pcd",
+          "63.400196552.pcd",
+          "63.500232458.pcd",
+          "63.600230455.pcd",
+          "63.700193405.pcd",
+          "63.800147533.pcd",
+          "63.900097370.pcd"
+        ],
+        "trajectory_pose_source": "/home/klong23/workzone/data/workzone_03/processed/CATS_v1.0/ego_pose.json",
+        "calibration_source": "/home/klong23/workzone/data/workzone_03/processed/CATS_v1.0/calibrated_sensor.json",
+        "measurement_method": "Previously validated per-point raw-LiDAR + INS reconstruction, complete-link multi-frame object; conservative support range expanded by 0.5 m (not calibrated statistical CI)",
+        "quality_flags": [
+          "not_survey_grade",
+          "conservative_support_range_not_statistical_confidence_interval"
+        ],
+        "failure_reason": null,
+        "object_id": "W3_OBJ_030",
+        "independent_geometry_frames": 10,
+        "source_files": {
+          "observations": {
+            "path": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/observations.json",
+            "sha256": "e124082211a7c9753532bff0e1d82839773bee5431ae948860d7ea4b9b39a4c3"
+          },
+          "objects": {
+            "path": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/objects.json",
+            "sha256": "7f8e9938d309195a3c37e77035f27c9c839a27e8202c8eafb57147516d504951"
+          },
+          "validation": {
+            "path": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/validation.json",
+            "sha256": "0e15b5e302c633cbe2f005441389c581948befe7023d9d33fbf6301283f6e7d9"
+          },
+          "reconstruction": {
+            "path": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/reconstruction.json",
+            "sha256": "85677d8240090e01ae86f1cbeb8ab6c1c3fdf2a999fe0d61669c6d25952570ce"
+          }
+        },
+        "semantic_role": "upstream_sign"
+      },
+      {
+        "status": "acquired",
+        "location_id": "bev_W3_OBJ_032_W3_T84399999_Q016",
+        "observation_id": "W3_T84399999_Q016",
+        "global_xyz_m": [
+          287.7031570939541,
+          261.538284980301,
+          -1.2814756903907476
+        ],
+        "uncertainty_m": 0.5,
+        "spatial_uncertainty_m": 0.5,
+        "road_station_m": 187.06150413469427,
+        "station_confidence_interval_m": [
+          186.56150413469427,
+          187.56150413469427
+        ],
+        "station_uncertainty_m": 0.5,
+        "station_sample_count": 1,
+        "trajectory_lateral_offset_m": 2.77226314072444,
+        "lateral_confidence_interval_m": [
+          2.27226314072444,
+          3.27226314072444
+        ],
+        "trajectory_lateral_residual_m": 2.77226314072444,
+        "trajectory_lateral_residual_p95_m": 3.27226314072444,
+        "longitudinal_geometry_usable": false,
+        "trajectory_local_tangent_xy": [
+          0.7031359600068865,
+          0.7110554280400327
+        ],
+        "trajectory_local_normal_xy": [
+          -0.7110554280400327,
+          0.7031359600068865
+        ],
+        "projected_points_in_bbox": 40,
+        "depth_cluster_points": 40,
+        "associated_image_ids": [
+          "workzone3__CAM_FRONT__84399999"
+        ],
+        "associated_bbox_ids": [
+          "W3_T84399999_Q016"
+        ],
+        "associated_lidar_frames": [
+          "84.400207520.pcd"
+        ],
+        "trajectory_pose_source": "/home/klong23/workzone/data/workzone_03/processed/CATS_v1.0/ego_pose.json",
+        "calibration_source": "/home/klong23/workzone/data/workzone_03/processed/CATS_v1.0/calibrated_sensor.json",
+        "measurement_method": "Previously validated per-point raw-LiDAR + INS reconstruction, complete-link multi-frame object; conservative support range expanded by 0.5 m (not calibrated statistical CI)",
+        "quality_flags": [
+          "not_survey_grade",
+          "conservative_support_range_not_statistical_confidence_interval",
+          "single_frame_or_ambiguous_position",
+          "longitudinal_geometry_not_usable"
+        ],
+        "failure_reason": null,
+        "object_id": "W3_OBJ_032",
+        "independent_geometry_frames": 1,
+        "source_files": {
+          "observations": {
+            "path": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/observations.json",
+            "sha256": "e124082211a7c9753532bff0e1d82839773bee5431ae948860d7ea4b9b39a4c3"
+          },
+          "objects": {
+            "path": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/objects.json",
+            "sha256": "7f8e9938d309195a3c37e77035f27c9c839a27e8202c8eafb57147516d504951"
+          },
+          "validation": {
+            "path": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/validation.json",
+            "sha256": "0e15b5e302c633cbe2f005441389c581948befe7023d9d33fbf6301283f6e7d9"
+          },
+          "reconstruction": {
+            "path": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/reconstruction.json",
+            "sha256": "85677d8240090e01ae86f1cbeb8ab6c1c3fdf2a999fe0d61669c6d25952570ce"
+          }
+        },
+        "semantic_role": "downstream_sign"
+      }
+    ],
+    "endpoint_semantics_valid": true,
+    "geometry_direction_valid": false,
+    "threshold_assessment": {
+      "status": "geometry_not_eligible",
+      "threshold_m": 30.48,
+      "violation_when": "below_minimum",
+      "clear_violation": false,
+      "reason": "Endpoint semantics or measurement direction failed validation."
+    },
+    "deficiency_supported": false,
+    "associated_image_ids": [
+      "workzone3__CAM_FRONT__63799999",
+      "workzone3__CAM_FRONT__84399999"
+    ],
+    "associated_bbox_ids": [
+      "W3_T63799999_Q008",
+      "W3_T84399999_Q016"
+    ],
+    "associated_lidar_frames": [
+      "61.700219393.pcd",
+      "62.899994373.pcd",
+      "63.200025558.pcd",
+      "63.300112486.pcd",
+      "63.400196552.pcd",
+      "63.500232458.pcd",
+      "63.600230455.pcd",
+      "63.700193405.pcd",
+      "63.800147533.pcd",
+      "63.900097370.pcd",
+      "84.400207520.pcd"
+    ],
+    "trajectory_pose_source": "/home/klong23/workzone/data/workzone_03/processed/CATS_v1.0/ego_pose.json",
+    "calibration_source": "/home/klong23/workzone/data/workzone_03/processed/CATS_v1.0/calibrated_sensor.json",
+    "measurement_method": "difference of automatically station-sorted endpoint medians; confidence interval derived from endpoint station support intervals (see anchor provenance); lateral residual used only as a quality gate",
+    "quality_flags": [
+      "conservative_support_range_not_statistical_confidence_interval",
+      "longitudinal_geometry_failed_lateral_gate",
+      "longitudinal_geometry_not_usable",
+      "not_survey_grade",
+      "single_frame_or_ambiguous_position"
+    ],
+    "failure_reason": null,
+    "discovered_requirement_key": "req_ad7a729596b46383",
+    "requirement_fingerprint": "ad7a729596b46383c34d9cb9e1b7afed6b5820b49d18aa4a300a989157c516ee",
+    "requirement_registration_event_index": 2,
+    "requirement_registration_timestamp": "2026-10-22T03:04:55.831176+00:00",
+    "measurement_event_index": 65,
+    "measurement_timestamp": "2026-10-22T03:13:24.565965+00:00",
+    "registered_source_locator": "TABLE-6B-1; PDF page 813"
+  }
+]

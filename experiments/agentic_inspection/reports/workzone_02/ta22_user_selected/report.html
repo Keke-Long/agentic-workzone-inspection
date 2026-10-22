@@ -1,0 +1,30 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8">
+<title>Case_18：TA-22 / camera0 实验报告</title><style>
+body{font:16px/1.75 system-ui,sans-serif;max-width:1150px;margin:40px auto;padding:0 24px;color:#23303b}
+h1,h2{line-height:1.3}.note{background:#fff4df;padding:18px;border-left:4px solid #bc7d20}
+table{border-collapse:collapse;width:100%;font-size:13px}td,th{padding:10px;border:1px solid #dce3e7;text-align:left;vertical-align:top}
+strong{color:#145b64}a{color:#176b82}img{max-width:100%;height:auto}code{overflow-wrap:anywhere}
+</style><h1>Case_18：TA-22 / camera0 单相机实验</h1>
+<p>本轮按用户指定，以 <strong>TA-22</strong> 为主布置方案。用户指出现场兼有 TA-33 特征；
+TA-33 保留为背景说明。本轮使用 MUTCD 第11版（2023），布局选择记录标记为用户指定。</p>
+<h2>输入与处理</h2><p>图像输入仅使用 <strong>camera0 / CAM_FRONT，共 632 张</strong>。
+其余相机已从本轮数据目录、传感器元数据及模型可访问的图像输入中排除。
+保留 <strong>632 帧 LiDAR</strong> 与 INS 位姿用于定位和几何计算。
+沿用黑车标定、原图像去畸变、LiDAR 运动补偿和位姿插值算法；
+保留文件与此前校验输出逐字节一致，1264 个输入/输出文件对及元数据校验通过。
+场景参数：限速 <strong>25 mph</strong>，长期施工<strong>超过 3 天</strong>。</p>
+<h2>本轮结果</h2><p>KG + BM25 完成 Stage 1–2 条款检索与要求登记，共
+<strong>13 条</strong>；Stage 3 完成
+<strong>13/13</strong> 条取证计划，结构校验通过。
+没有将空的人工复核框库存声明为可用。</p>
+<p>执行诊断：Stage 1–2 有 11 次工具请求被校验拒绝，
+模型根据错误反馈修正后完成登记；Stage 3 本轮有 6 次工具请求被拒绝。
+完整请求与拒绝原因保留在各阶段工具记录中。</p>
+<div class="note">当前人工复核框为 0。Stage 4–6 尚未执行，未生成测量结果或合规结论。
+后续取证仅使用 camera0；不在该相机视野内、也无法由 LiDAR/INS 支持的证据须保留为缺失。
+TA-22 的使用已按用户意见确定，条款适用性的独立审核仍待完成。</div>
+<h2>已登记要求及待获取输入</h2><table><tr><th>要求</th><th>来源</th><th>可用性状态</th><th>待获取输入</th></tr><tr><td>Lane-closure warning sign present</td><td>SEC-6H.07 paragraph 01; PDF page 845</td><td>not_attempted</td><td>camera0 view of approach signing</td></tr><tr><td>Single-lane closure legend</td><td>SEC-6H.07 paragraph 02; PDF page 845</td><td>not_attempted</td><td>camera0 image of W20-5 sign legend</td></tr><tr><td>Urban advance-sign spacing</td><td>TABLE-6B-1; PDF page 813</td><td>partial</td><td>camera0 sign locations</td></tr><tr><td>Tangent channelizer spacing</td><td>SEC-6K.01 paragraph 04; PDF page 855</td><td>partial</td><td>camera0 view of tangent channelizing devices</td></tr><tr><td>Channelizing-device serviceability</td><td>SEC-6K.01 paragraph 15; PDF page 855</td><td>not_attempted</td><td>camera0 view of deployed channelizing devices</td></tr><tr><td>TA-22 figure:sign:W4-2R: W4-2R sign in TA-22</td><td>Figure 6P-22 (TA-22); PDF page 943; component sign:W4-2R; Guidance basis SEC-6P.01 paragraph 02</td><td>not_attempted</td><td>raw_images; accepted_bbox_observations</td></tr><tr><td>SEC-6K.01 14: Particular attention</td><td>SEC-6K.01 paragraph 14; PDF page 855</td><td>not_attempted</td><td>raw_images</td></tr><tr><td>TABLE-6B-4 table: taper length L</td><td>TABLE-6B-4; PDF page 815</td><td>partial</td><td>lateral_offset_width_ft; accepted_bbox_observations; ego_trajectory; lidar_points</td></tr><tr><td>SEC-6B.08 14: A taper having a minimum length of 50 feet and a maximum length of 100 feet with channelizing devices at approximately 2</td><td>SEC-6B.08 paragraph 14; PDF page 816</td><td>partial</td><td>raw_images; accepted_bbox_observations; ego_trajectory; lidar_points</td></tr><tr><td>SEC-6H.03 01: The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions</td><td>SEC-6H.03 paragraph 01; PDF page 842</td><td>not_attempted</td><td>raw_images</td></tr><tr><td>SEC-6B.08 06: A merging taper</td><td>SEC-6B.08 paragraph 06; PDF page 816</td><td>partial</td><td>raw_images; accepted_bbox_observations; ego_trajectory; lidar_points</td></tr><tr><td>SEC-6H.02 02: Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (</td><td>SEC-6H.02 paragraph 02; PDF page 838</td><td>not_attempted</td><td>raw_images</td></tr><tr><td>SEC-6B.08 12: If used, a downstream taper</td><td>SEC-6B.08 paragraph 12; PDF page 816</td><td>not_attempted</td><td>raw_images; accepted_bbox_observations; ego_trajectory; lidar_points</td></tr></table>
+<h2>camera0 场景预览</h2><img src="/home/klong23/workzone/experiments/agentic_inspection/inputs/case_18/front_review.jpg" alt="camera0 场景时序预览">
+<h2>可追溯记录</h2><ul><li><a href="/home/klong23/workzone/experiments/agentic_inspection/cases/workzone_18/scene_ta22_user_selected.json">scene</a></li><li><a href="/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_18/ta22_user_selected/stage1_stage2/scene-CATS-19/stage_0_layout_selection.json">layout_selection</a></li><li><a href="/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_18/ta22_user_selected/stage1_stage2/scene-CATS-19/result.json">stage1_result</a></li><li><a href="/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_18/ta22_user_selected/stage3/scene-CATS-19/result.json">stage3_result</a></li><li><a href="/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_18/ta22_user_selected/stage3/scene-CATS-19/stage3_availability_evaluation.json">stage3_evaluation</a></li><li><a href="/home/data/workzone/klong23_agentic_inspection/case_18_camera0">processed_data</a></li><li><a href="/home/klong23/workzone/experiments/agentic_inspection/reports/workzone_18/pilot/report.html">previous_five_camera_pilot</a></li></ul>
+<p>前两次五相机试跑仅作为历史记录保留。本轮同时调整了主布局和相机输入，不能将结果差异单独归因于某一项调整。</p>
+</html>

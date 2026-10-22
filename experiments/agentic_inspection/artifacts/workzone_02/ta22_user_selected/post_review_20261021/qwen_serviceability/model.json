@@ -1,0 +1,24 @@
+{
+  "name": "qwen3-vl:4b-instruct",
+  "model": "qwen3-vl:4b-instruct",
+  "modified_at": "2026-09-03T17:59:04.760934952-05:00",
+  "size": 3295636231,
+  "digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "details": {
+    "parent_model": "",
+    "format": "gguf",
+    "family": "qwen3vl",
+    "families": [
+      "qwen3vl"
+    ],
+    "parameter_size": "4.4B",
+    "quantization_level": "Q4_K_M",
+    "context_length": 262144,
+    "embedding_length": 2560
+  },
+  "capabilities": [
+    "vision",
+    "completion",
+    "tools"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "expert_evidence_confirmations_v1",
+  "scene_id": "scene-CATS-01",
+  "confirmations": [
+    {
+      "observation_id": "F0437_CAM_FRONT_004",
+      "decision": "expert_confirmed",
+      "class_name": "barricade",
+      "workzone_device": true,
+      "serves_regions": ["buffer", "activity"],
+      "confirmed_by": "user/domain reviewer",
+      "confirmation_date": "2026-09-13",
+      "provenance": [
+        "expert_review_approval.json: approved displayed bbox",
+        "user correction: F0437 visible barricade serves Buffer even when its capture frame is assigned to Activity"
+      ],
+      "note": "Explicit expert confirmation supplements the frozen 4,445-decision audit because this observation was not among its reviewed rows."
+    }
+  ]
+}

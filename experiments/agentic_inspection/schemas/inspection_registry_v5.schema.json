@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Inspection-focused staged registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["scene_id", "selected_layouts", "region_coverage", "requirements", "finalized"],
+  "properties": {
+    "scene_id": {"type": "string"},
+    "selected_layouts": {"type": "array", "items": {"type": "object"}},
+    "region_coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "applicability", "general_notes", "advance_warning", "transition", "buffer",
+        "activity", "termination", "distance_table", "channelizing_devices",
+        "pavement_markings", "optional_devices", "cross_references"
+      ],
+      "properties": {
+        "applicability": {"$ref": "#/$defs/region"},
+        "general_notes": {"$ref": "#/$defs/region"},
+        "advance_warning": {"$ref": "#/$defs/region"},
+        "transition": {"$ref": "#/$defs/region"},
+        "buffer": {"$ref": "#/$defs/region"},
+        "activity": {"$ref": "#/$defs/region"},
+        "termination": {"$ref": "#/$defs/region"},
+        "distance_table": {"$ref": "#/$defs/region"},
+        "channelizing_devices": {"$ref": "#/$defs/region"},
+        "pavement_markings": {"$ref": "#/$defs/region"},
+        "optional_devices": {"$ref": "#/$defs/region"},
+        "cross_references": {"$ref": "#/$defs/region"}
+      }
+    },
+    "requirements": {"type": "array", "items": {"$ref": "#/$defs/requirement"}},
+    "finalized": {"type": "boolean"}
+  },
+  "$defs": {
+    "region": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "reason", "requirement_keys"],
+      "properties": {
+        "status": {"enum": ["pending", "screened", "skipped_no_inspectable_candidate"]},
+        "reason": {"type": "string"},
+        "requirement_keys": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "requirement": {
+      "type": "object",
+      "required": [
+        "discovered_requirement_key", "region", "subject", "modality", "relation", "threshold",
+        "applicability_conditions", "source_locator", "data_availability", "image_assessable",
+        "inspection_status", "evidence_ids", "inspection_reason"
+      ],
+      "properties": {
+        "discovered_requirement_key": {"type": "string"},
+        "region": {"type": "string"},
+        "subject": {"type": "string"},
+        "modality": {"type": "string"},
+        "relation": {"type": "string"},
+        "threshold": {"type": "string"},
+        "applicability_conditions": {"type": "array", "items": {"type": "string"}},
+        "source_locator": {"type": "string"},
+        "data_availability": {"enum": ["complete", "incomplete", "not_evaluated"]},
+        "missing_inputs": {"type": "array", "items": {"type": "string"}},
+        "image_assessable": {"type": "boolean"},
+        "inspection_status": {"enum": ["satisfied", "deficient", "not_assessed"]},
+        "evidence_ids": {"type": "array", "items": {"type": "string"}},
+        "inspection_reason": {"type": "string"}
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "experiment_id": "workzone_18_ta22_user_selected_stage3",
+  "status": "user_directed_ta22_pilot_pending_bbox_review_and_independent_reference",
+  "method_id": "kg_plus_bm25",
+  "method_display_name": "Current primary method Stage 3 from structured Stage 2",
+  "method_role": "primary_proposed_method",
+  "method_definition_version": "stage1_stage2_methods_v1",
+  "stage2_policy": {
+    "mode": "structured_candidate_decision_v1",
+    "candidate_scope": "initial_compilation_plus_unresolved_deterministic_kg_candidates",
+    "canonical_predicate_binding": true,
+    "explicit_candidate_disposition_required": true
+  },
+  "model": "gpt-5.6-luna",
+  "reasoning_effort": "medium",
+  "credential_config": "~/.config/workzone/openai_credentials.json",
+  "manual_structure_index": "inputs/mutcd_structure_v1.json",
+  "knowledge_graph_index": "inputs/mutcd_knowledge_graph_v2.json",
+  "scene_manifest": "cases/workzone_18/scene_ta22_user_selected.json",
+  "public_scene_manifest": "cases/workzone_18/scene_ta22_user_selected.json",
+  "frozen_autonomous_reference": "ground_truth/workzone_18/active_requirements.json",
+  "output_directory": "artifacts/workzone_18/ta22_user_selected/stage3/scene-CATS-19",
+  "report_directory": "reports/workzone_18/ta22_user_selected",
+  "stage1c_gap_retrieval": {
+    "architecture": "kg_plus_retrieval",
+    "method": "bm25",
+    "candidate_selection": "top_k",
+    "candidate_limit_per_domain": 18
+  },
+  "single_tool_response_max_chars": 30000,
+  "registry_batch_size": 24,
+  "max_output_tokens_per_turn": 6000,
+  "emergency_controller_turn_ceiling": 16,
+  "emergency_stage0_turn_ceiling": 24,
+  "model_pricing_usd_per_million": {
+    "input": 0.2,
+    "cached_input": 0.02,
+    "output": 1.2,
+    "pricing_scope": "recorded checkpoint pricing"
+  },
+  "budget_policy": {
+    "normal_total_retrieval_call_limit": null,
+    "normal_total_tool_call_limit": null,
+    "normal_total_retrieved_character_limit": null,
+    "stopping_is_state_based": true,
+    "emergency_ceiling_is_method_failure": true
+  },
+  "execution": {
+    "model_calls_enabled": true,
+    "authorized_runs": [
+      1
+    ],
+    "preflight_report": "inputs/preflight/workzone_18/ta22_user_selected/stage3.json",
+    "critical_preflight_required": true,
+    "run_02_and_run_03_locked": true,
+    "scoped_stage1_stage2_test": true,
+    "simplified_inspection_checks": true,
+    "stop_after_requirement_registration": false,
+    "stop_before_measurement": true,
+    "resume_stage0_record": "artifacts/workzone_18/ta22_user_selected/stage1_stage2/scene-CATS-19/stage_0_layout_selection.json",
+    "resume_registry_checkpoint": "artifacts/workzone_18/ta22_user_selected/stage1_stage2/scene-CATS-19/stage_1_to_6_registry.json",
+    "resume_tool_trace": "artifacts/workzone_18/ta22_user_selected/stage1_stage2/scene-CATS-19/tool_trace.json",
+    "lock_reason": "User explicitly requested TA-22 as primary. Run this isolated variant with the existing Stage 1-3 method; human bbox review and an independent applicability reference remain pending."
+  },
+  "reporting": {
+    "reference_status": "Case_18 independent MUTCD audit pending; no reference-based scoring or cross-method claims allowed.",
+    "cross_method_claims_allowed": false,
+    "primary_evaluation": "Pilot execution and evidence availability; not scored against a pending reference.",
+    "secondary_evaluation": "tokens, time, recorded-checkpoint cost estimate",
+    "reason": "User-directed TA-22 run with TA-33 as context only; not an autonomous Stage 0 benchmark."
+  }
+}

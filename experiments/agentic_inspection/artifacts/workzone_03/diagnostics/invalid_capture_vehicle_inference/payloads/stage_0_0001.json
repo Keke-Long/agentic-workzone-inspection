@@ -1,0 +1,270 @@
+{
+  "model": "gpt-5.6-luna",
+  "instructions": "Select MUTCD Typical Applications only from manual evidence retrieved from the full index. Never emit benchmark IDs.",
+  "input": [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "input_text",
+          "text": "Stage 0 — autonomous scene understanding and primary MUTCD Typical Application selection. No correct Typical Application, manual page, region, internal requirement ID, or inspection target is supplied. Search the complete manual using the structured BM25 tools. Generate natural-language queries from the frozen scene facts, inspect additional sections/Typical Applications with continuation when needed, and distinguish a directly applicable primary Typical Application from a cross-reference. Put the selected manual-native TA code in layout_code for schema compatibility. A missing fact is layout-blocking only when it prevents choosing among mutually exclusive primary Typical Applications. If the best-matching TA itself states a conditional augmentation for a higher, lower, or otherwise unknown condition, keep that TA as primary and preserve the unresolved condition for later requirement applicability instead of demoting the whole TA. Return indeterminate only when the primary TA itself cannot be selected; list missing fields and do not guess. You must call search_manual at least once before returning JSON.\nScene input:\n{\"accepted_bbox_count\": 0, \"perception_evidence_policy\": \"No human-reviewed or accepted detections yet. Empty inventory means unprocessed/unknown, not absence. Model-derived scene descriptions retain separate provenance.\", \"scene_data_manifest\": {\"available_direct\": [\"scene_facts\"], \"counts\": {\"accepted_arrow_board_observations\": 0, \"accepted_bbox_observations\": 0, \"accepted_bbox_observations_by_class\": {}, \"accepted_pcms_observations\": 0, \"calibrated_sensors\": 2, \"camera_frames\": 426, \"camera_frames_by_channel\": {\"CAM_FRONT\": 426}, \"ego_poses\": 852, \"lidar_frames\": 426, \"samples\": 427}, \"derivable_local\": [\"full_temporal_images\", \"lidar_points\", \"ego_trajectory\", \"sensor_calibration\", \"device_global_position\", \"longitudinal_distance\", \"device_spacing\", \"taper_length\", \"buffer_length\", \"sign_spacing\", \"available_width\", \"rule_based_channelizer_spacing_audit\", \"posted_speed_from_visible_sign\"], \"derived_scene_facts\": {\"arrow_board_deployed\": null, \"arrow_board_deployed_provenance\": [], \"pcms_deployed\": null, \"pcms_deployed_provenance\": []}, \"forbidden_metadata_removed\": [\"scene.description\"], \"location\": {\"dataset_location\": \"madison-wi-usa\", \"external_speed_lookup_ready\": false, \"latitude_longitude\": null, \"reason\": \"Metadata identifies Madison, Wisconsin but contains no road name or geodetic coordinates.\", \"road_name\": null}, \"retrievable_external\": [\"posted_speed_if_road_segment_can_be_geolocated\"], \"scene_description_redacted\": true, \"scene_id\": \"scene-CATS-15\", \"trajectory\": {\"end_timestamp_us\": 94500124, \"path_length_m\": 237.004048463419, \"start_timestamp_us\": 52000061}}, \"scene_facts\": {\"active_work\": null, \"arrow_board_deployed\": null, \"closed_lane\": null, \"inspection_period\": \"daytime\", \"inspection_period_provenance\": \"Daylit selected camera0 frames\", \"inspection_scope\": \"User selects ONLY later channelized area approximately 78-90s. Approach warning signs from 52s are context with unconfirmed association; earlier work vehicles/personnel are excluded.\", \"lanes_closed\": null, \"layout_uncertainties\": [\"Is the left/opposing-direction lane fully closed, or is only part of it locally occupied or restricted?\", \"Does the channelizer line lie directly on the centerline, or is it offset into the opposing lane?\", \"What is the exact longitudinal start and end of the work area relative to the all-way-stop intersection?\", \"Is any portion of a bicycle lane included in, displaced by, or outside the channelized area?\", \"Are the visible ROAD WORK AHEAD signs associated with this later work area or with a separate work area farther along the route?\", \"Were any workers or flaggers present outside the camera's visible field or between the sampled frames?\", \"Are any vehicles near the intersection work-related, or are they ordinary traffic or parked vehicles?\"], \"opposite_direction_image_coverage\": false, \"pcms_deployed\": null, \"posted_speed_mph\": 20, \"posted_speed_provenance\": \"explicit_user_confirmation\", \"roadway_configuration\": null, \"roadway_lane_count\": null, \"visual_scene_description\": {\"apparent_work_vehicles\": \"No clearly identifiable work vehicle is visible within the scoped channelized area. Vehicles visible near the intersection and beyond cannot be reliably classified as work vehicles.\", \"apparent_workers\": \"No person is clearly identifiable as a worker actively performing traffic control or construction within the scoped area.\", \"bicycle_lane\": \"A distinct bicycle-lane boundary is not confidently identifiable within the scoped 78-90 second segment. A bicycle marking visible after the scoped area is not used to characterize this work area.\", \"closure_or_obstruction\": \"The channelizers appear to delineate a localized work-area obstruction or closure primarily along the left/opposing-direction side of the roadway. The survey vehicle's forward travel lane remains usable through the approach. The images do not establish whether the opposing lane is fully closed for the entire work area.\", \"evidence_status\": \"Model-derived visual evidence, not human-confirmed ground truth.\", \"flagger_evidence\": \"No reliable evidence of a flagger directing traffic. High-visibility orange elements are attached to channelizers and signs; clothing alone would not establish flagger activity.\", \"intersection_relationship\": \"The channelized area is encountered immediately before and alongside an all-way-stop-controlled intersection visible around 83.8-90.1 seconds. The exact work-area limits relative to the intersection are uncertain.\", \"posted_speed\": \"20 mph, user-confirmed.\", \"road_geometry\": \"Urban two-way roadway with one apparent lane in each direction and a centerline visible through much of the approach. The roadway is generally straight in the scoped segment and crosses an all-way-stop intersection near the end of the channelized area.\", \"scope\": \"Only the later channelized work area visible approximately 78-90 seconds is described. The approach view at 52 seconds is included only for potentially relevant warning-sign evidence; association with the later work area is unconfirmed.\", \"separately_encountered_work_areas\": \"One later channelized work area is supported by the images. The orange warning sign visible during the 52-61 second approach may relate to this area, but that association is not assumed.\", \"survey_vehicle\": \"Black survey vehicle, user-confirmed.\", \"traffic_directions\": \"The survey vehicle travels forward in its apparent right-hand travel lane. Opposing traffic would use the lane to the left of the centerline.\", \"work_duration\": \"Strictly less than three days, user-confirmed; more precise duration unknown.\"}, \"visual_scene_description_provenance\": \"Model-derived 16 scoped camera0 images; artifacts/workzone_03/scene_understanding_later_area; uncertainty retained\", \"work_duration_category\": null, \"work_duration_days_less_than\": 3, \"work_duration_description\": \"User: less than three days; subcategory unknown\"}, \"scene_id\": \"scene-CATS-15\"}"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "type": "function",
+      "name": "search_manual",
+      "description": "Search every prebuilt MUTCD section and Typical Application with structured BM25; page through results as needed.",
+      "strict": true,
+      "parameters": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "query": {
+            "type": "string"
+          },
+          "page_size": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 12
+          },
+          "continuation_token": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "query",
+          "page_size",
+          "continuation_token"
+        ]
+      }
+    },
+    {
+      "type": "function",
+      "name": "expand_source_unit",
+      "description": "Read atomic source nodes for a retrieved section or Typical Application and optional region.",
+      "strict": true,
+      "parameters": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "source_unit_code": {
+            "type": "string"
+          },
+          "region": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "page_size": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 12
+          },
+          "continuation_token": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "source_unit_code",
+          "region",
+          "page_size",
+          "continuation_token"
+        ]
+      }
+    },
+    {
+      "type": "function",
+      "name": "follow_cross_reference",
+      "description": "Traverse only an explicit cross-reference edge found in the manual graph.",
+      "strict": true,
+      "parameters": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "from_source_unit_code": {
+            "type": "string"
+          },
+          "to_source_unit_code": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "from_source_unit_code",
+          "to_source_unit_code"
+        ]
+      }
+    },
+    {
+      "type": "function",
+      "name": "read_source_node",
+      "description": "Read one source-hash node previously surfaced by the full-manual index.",
+      "strict": true,
+      "parameters": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "source_node_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "source_node_id"
+        ]
+      }
+    }
+  ],
+  "tool_choice": "required",
+  "parallel_tool_calls": false,
+  "reasoning": {
+    "effort": "medium"
+  },
+  "max_output_tokens": 5000,
+  "store": false,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "name": "stage0_layout_selection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "scene_id",
+          "layout_selection_status",
+          "selected_layouts",
+          "missing_scene_fields",
+          "selection_reason"
+        ],
+        "properties": {
+          "scene_id": {
+            "type": "string"
+          },
+          "layout_selection_status": {
+            "enum": [
+              "determined",
+              "indeterminate"
+            ]
+          },
+          "selected_layouts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "layout_code",
+                "layout_role",
+                "source_locator",
+                "matched_scene_facts",
+                "conflicting_scene_facts"
+              ],
+              "properties": {
+                "layout_code": {
+                  "type": "string",
+                  "enum": [
+                    "TA-1",
+                    "TA-2",
+                    "TA-3",
+                    "TA-4",
+                    "TA-5",
+                    "TA-6",
+                    "TA-7",
+                    "TA-8",
+                    "TA-9",
+                    "TA-10",
+                    "TA-11",
+                    "TA-12",
+                    "TA-13",
+                    "TA-14",
+                    "TA-15",
+                    "TA-16",
+                    "TA-17",
+                    "TA-18",
+                    "TA-19",
+                    "TA-20",
+                    "TA-21",
+                    "TA-22",
+                    "TA-23",
+                    "TA-24",
+                    "TA-25",
+                    "TA-26",
+                    "TA-27",
+                    "TA-28",
+                    "TA-29",
+                    "TA-30",
+                    "TA-31",
+                    "TA-32",
+                    "TA-33",
+                    "TA-34",
+                    "TA-35",
+                    "TA-36",
+                    "TA-37",
+                    "TA-38",
+                    "TA-39",
+                    "TA-40",
+                    "TA-41",
+                    "TA-42",
+                    "TA-43",
+                    "TA-44",
+                    "TA-45",
+                    "TA-46",
+                    "TA-47",
+                    "TA-48",
+                    "TA-49",
+                    "TA-50",
+                    "TA-51",
+                    "TA-52",
+                    "TA-53",
+                    "TA-54"
+                  ]
+                },
+                "layout_role": {
+                  "enum": [
+                    "primary_applicable",
+                    "cross_reference_only"
+                  ]
+                },
+                "source_locator": {
+                  "type": "string"
+                },
+                "matched_scene_facts": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "conflicting_scene_facts": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "missing_scene_fields": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "selection_reason": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "schema": "pending_manual_reference_v1",
+  "workzone_id": "workzone_18",
+  "scene_id": "scene-CATS-19",
+  "status": "pending_manual_MUTCD_audit",
+  "requirements": [],
+  "warning": "Do not score retrieval until an independent manual audit replaces this placeholder. Never expose this file to the inspecting agent."
+}

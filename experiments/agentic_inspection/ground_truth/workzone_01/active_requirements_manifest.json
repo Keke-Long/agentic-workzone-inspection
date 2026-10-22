@@ -1,0 +1,11 @@
+{
+  "schema": "frozen_evaluator_reference_manifest_v1",
+  "reference": "ground_truth/workzone_01/active_requirements.json",
+  "sha256": "9eb1e0f8423c0ee5f18d8c318cf55d67689dff3ffb9578a1fc787ac6f7955896",
+  "manual_sha256": "5221404db3c27ec302d04d202c0e4b3b297857acebe94c632933f91c210ff835",
+  "requirement_count": 15,
+  "mandatory_count": 5,
+  "guidance_count": 10,
+  "agent_visible": false,
+  "freeze_basis": "Independent MUTCD text re-audit documented in reports/workzone01_gold_reaudit.md"
+}

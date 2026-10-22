@@ -1,0 +1,14 @@
+{
+  "schema": "case18_continuation_evaluation_v1",
+  "stage": 4,
+  "passed": true,
+  "errors": [],
+  "validation_scope": "traceability and evidence boundaries; not independent compliance accuracy",
+  "registered_requirement_count": 13,
+  "evidence_record_count": 25,
+  "inspected_camera0_frames": 8,
+  "blocked_measurement_jobs": 6,
+  "numerical_measurements": 0,
+  "session_tool_failures": 0,
+  "inspection_status_counts": {}
+}

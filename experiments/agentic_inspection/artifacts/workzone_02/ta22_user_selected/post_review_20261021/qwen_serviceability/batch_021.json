@@ -1,0 +1,102 @@
+{
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "image_sha256": "2f6d63e53e19da2d2505e3b41e1e7f176fd38979a4567246a06cf4646d61871a",
+  "response": {
+    "model": "qwen3-vl:4b-instruct",
+    "created_at": "2026-10-21T14:49:46.324017444Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"items\": [\n    {\n      \"id\": 1,\n      \"status\": \"uncertain\",\n      \"reason\": \"Image is blurry and low resolution; insufficient visual evidence to assess serviceability.\"\n    },\n    {\n      \"id\": 2,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Device is upright, intact with visible stripes, no obvious damage or missing parts; appears functional based on visible condition.\"\n    },\n    {\n      \"id\": 3,\n      \"status\": \"uncertain\",\n      \"reason\": \"Image is blurry and low resolution; insufficient visual evidence to assess serviceability.\"\n    },\n    {\n      \"id\": 4,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Device appears upright, intact with visible stripes, no obvious damage or missing parts; appears functional based on visible condition.\"\n    },\n    {\n      \"id\": 5,\n      \"status\": \"uncertain\",\n      \"reason\": \"Image is blurry and low resolution; insufficient visual evidence to assess serviceability.\"\n    },\n    {\n      \"id\": 6,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Device appears upright, intact with visible stripes, no obvious damage or missing parts; appears functional based on visible condition.\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 3925281836,
+    "load_duration": 152507726,
+    "prompt_eval_count": 1299,
+    "prompt_eval_duration": 571819000,
+    "eval_count": 271,
+    "eval_duration": 3012463000
+  },
+  "observations": [
+    {
+      "observation_id": "C18_F0475_CAM_FRONT_Q018",
+      "frame": 475,
+      "native_bbox": [
+        1994.1504,
+        1131.3347,
+        2022.6403,
+        1186.5277
+      ],
+      "id": 1,
+      "status": "uncertain",
+      "reason": "Image is blurry and low resolution; insufficient visual evidence to assess serviceability."
+    },
+    {
+      "observation_id": "C18_F0475_CAM_FRONT_Q195",
+      "frame": 475,
+      "native_bbox": [
+        2470.9517,
+        1116.4424,
+        2711.6106,
+        1814.267
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "Device is upright, intact with visible stripes, no obvious damage or missing parts; appears functional based on visible condition."
+    },
+    {
+      "observation_id": "C18_F0478_CAM_FRONT_Q010",
+      "frame": 478,
+      "native_bbox": [
+        1999.6561,
+        1139.2455,
+        2029.2496,
+        1196.5542
+      ],
+      "id": 3,
+      "status": "uncertain",
+      "reason": "Image is blurry and low resolution; insufficient visual evidence to assess serviceability."
+    },
+    {
+      "observation_id": "C18_F0478_CAM_FRONT_Q034",
+      "frame": 478,
+      "native_bbox": [
+        2023.613,
+        1161.2229,
+        2051.9431,
+        1216.2744
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "Device appears upright, intact with visible stripes, no obvious damage or missing parts; appears functional based on visible condition."
+    },
+    {
+      "observation_id": "C18_F0479_CAM_FRONT_Q008",
+      "frame": 479,
+      "native_bbox": [
+        2011.811,
+        1139.425,
+        2029.034,
+        1193.353
+      ],
+      "id": 5,
+      "status": "uncertain",
+      "reason": "Image is blurry and low resolution; insufficient visual evidence to assess serviceability."
+    },
+    {
+      "observation_id": "C18_F0479_CAM_FRONT_Q025",
+      "frame": 479,
+      "native_bbox": [
+        2027.3595,
+        1159.1973,
+        2054.9453,
+        1214.5189
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "Device appears upright, intact with visible stripes, no obvious damage or missing parts; appears functional based on visible condition."
+    }
+  ],
+  "human_confirmed_condition": false
+}

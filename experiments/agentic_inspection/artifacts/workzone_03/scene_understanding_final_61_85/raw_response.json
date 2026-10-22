@@ -1,0 +1,102 @@
+{
+  "id": "resp_0cdb754eee4caf21006ad9788befa487d18795598d5f9da4ab",
+  "object": "response",
+  "created_at": 1792637068,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1792637086,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 5000,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0cdb754eee4caf21006ad9788f1ba487d1934b258bc2902eee",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2XifbU8fqOYhlbnXU3iNLRXELwmWMSEQxGew1PrpOItmnHOSkFFpu4Phgj3gd550ayiJsjYIIZxyr_otKZolpAf64vIWZB65ZdssyhoLCnqmFluHNWqbwvdM637Zj1fwqgoNcCG2oyzy2OsJZAfnaEab6swOU63pm9FQtpmROzv2WrOLG9zitrQyJQLE4W_DS0fRi1IgWkU_qxAKFo4ol5bhnJjHh6GMGzj88D2TYDbnhK23WhxQNH14FxV8vTEqvuXU6sTXkLz1U44sz476Kq0lZ3i5ySGp6adltWRhx7YaIiBJQ2DSSyjYTdqi9xNdYbb-KT7Fq_NFDYh6_OoR1jnD4fCoxHpSWugqyiWx8nHWcEsoo9xRXWyxkB6aDy-FrE-s37Bn3RsKR8yGkMT4l5-zmWcREc8ko0aCgCtwerVmUU5lVZm47OWdNPjM-KeycW0DrcknOrJpU75o6xSJnEgoqYbYAZ_Pl7OIg71TOiSup-WEvdCZMdND3GqZo3OoKnQj_DcOfAKJSNg118O_rq6H55qEklvmkgD5ZB1HEEZqxThtmcaGuoiu9HcPOg6rHKX4uyzHmRQIfSTuFzr7AAthGxDhLwWuK_ImGMBYy1ZXU8lCaQIhlEd3wIufeejwQ08gTX6x48D5WmabU0klGeI3MRf0Jky_oBtJlv0iKSmOyjgYp9u7h7YjealioaX9HMoq0DCdZV3d6uMq7TqQbRGGNuhsM_JQj6oO_Nb45vbpTzsZY_qJcmzGIvSZR2TrLSKOSy5LS6VdXNgNtJTain4FyCmx8hl1budGvqBBwao797gX8D6mI0dkZJHUVPyMN0mFfPFfCAkArz9t4HcKXm4RiFl4x4UK1tEarlWsXEVch4a3bVN_y9KAqqUHEHPh_ay9F5cafw3L9AUtATw5zJnEbLR7qDiRGVg1FA6bqdIkDRNCQfv8loCq1m27sT-R93w9JXnCyRBqWAfV5Oka_xCe4gWL19r52v5d5GxiAndhQBfW4TArwBrq4tGvoJxefMILaadqGNIRrKIu-MFaVB2cv0EoRLhPVVBjNIq7VRD1cjNKmPjGPN7iGx8j-7cuiwybRbk082GiswhJztdvz-KrZnJaY0RraBy0QFSjqt42IUBdW5GHKYFVvCS8cK6GlFfVA5kEVUPAblx1D54DHkCZoauZDGtJU-H3-etG5xBXUajPSYueks1bmEXMXKdv3MPMzyqyp8etEAdmGyiWP_WTI2WwBu7IgXlm0HERjCc3IQio6b-4uEQNjw_en6ZOnId5wggspOUonAnroYJoL9OjN-fka7Fd7bRCXMpJdh74jpLsIDPmAKgVWjBAxIILH9SKy3NtJHy-nRjSpskwn__FLBH7mu13-3Jyd0-0Z7k0anN6-YyqC3N3NTTKTg16NigxNtHfB6Mb3Yb2mv39yyqE7FCgjtdn4RE5mGL3kYdULTo9UWrpiwA2d9sgq2KOd081oiO5uiDADqT_K8YfTAhJ45wb9oUDMOVBQr-gYJuWZxrn1dnagSb6rFiuVBCEpHtvK1h1CGKdbZiR0aRyiTbdZ_iU9KAm2arFH8k9qyQ0Cl-hiHRo09HzcAzavZPsMp3LHFRpV7QlMnm-2301QMncR4JPxrfkk7gBiLNXrxrmwAGUQXnfx7OgEBj73LtScx-2xMObllltsxY7iYN-TqXe8bfVWaGwxr1sBaSgIUU_TCj8zcSS94vEJGELYXzRv8qv8MC3ZNsaRJOOXKoWFFAwPYAzeTXevEPyd1ZKmG3U9Z4DgD2QHAOYgN5vGvKNdFHeF6goi7hNm5NaQkruHgFaMbqQ00G2vjh6DEQcH172N3bDLT8_rg_1uQSIIZgZQqrz8DUuAcENV7irh5SaEZyHOq8Gvd4re7zXTPFuQXD-Rsn8amTd-_W55O5nNOchMFg2971UAMRsSfHYanaijPLJ7JN9MOdovFUO7_ay0mKEy-JhDKdqdfBmEvRJNwj5CoHHQrZvJsHb5uf_-kldV7Q5-75gjU98yaziQrPZeKd0xW7Oquw4jfdJIC77WXklSEaFk4lZLxYOyQijtfoNOjkt-BXdAnazti0kamAvsqnmPwHGJ1YmujYyL-CfD_E8CqOdNgV_KS4WXgbd0pjumtRk4ByRXTC6FbaoIgWWYLeKYWD7439a9pf9ikKaPuNapIvPSG2eeuYoUNWLrmTdO5PbIcns0S0Kjys2rv1Bm04dxfk30AeonldCJxBRYEyE6RzPwr8YeeU2AmzfERudQeV1IapG3-QyqXlOjP7NbAg14P3__OXLh2_sa-ROrIbxm5TIU-gYA9QAZraR8pFgHIzDFo-Xch39Cn_6L7siSvPMf2kdBpfpHp86JkSf8Qu8z3xrszeWdw7tK1c2xrcfp7chW6Z8qBCjlX8bvAYlOCiw-nzpzlYwC2z1s9Mq45fgK3kLiMzbPeeNOI0uqhe9_uaUkIkv44GJVHuNntXbod9GCqiX1H8bKYPjlDvymXjPvNDlyzUtcdxDxv75be6mfq5UX3szqnPXAUZoO0dYuhOTwphDslLlzqf6691BT11wGYpM9rM1ZPs1R1ibCzgXlThzq38YtB5SyYYSI-ZBvR1aoX4LBvMow0WhV5XYRDcms4mIe_SfPQU1L3gpLiRInyjjmQTQ4KT5REJHMTdBbUt7EaSBwhddM9-CRyTqfq3YL6gucNb_INHtwittBZPNahaaq_A-cznmHlORd_DHbXobBR-UWjiao9vVW29jS-XKSauwMdoGd3FbjjFX3P2cqZ1_B0TdJ_XMfSXc0ivQNFX6xMKyYqA0aQ449rB3qGVltqWBCcDjECJx8WJQ9QaqCxqr0pj7A2F4fTwtAoal0h2UMu_bAbxQMUDf76grvVCrgMUMNBUaDRahUgdBsDMgZinUqNKWswtJFmz_g9uk3bEsd7pQu9rUV65MKbK7h3BY6kQi0UawnCI-vWHUNJ5oJWzlYrjVQ72tbAYKeWXTl_4ORaj_mUX21OFX8kepp21uoEkejwbtEZrbfvkoTRaKaboAlbTgtJC9YZjPhQ1Z8nxHIpbTC4c_2Jo0vK1VpWxRori8_0t_ZP1Ki46AbDSEJjVjlmkNNj9r64QZd-GGdEwiUsvnVKQ2TqfQlkPx9s1bqWX3CLx-dPNoe2605hPgWQitsBznzXSFWZOIEKjrkGvq6mo4rEhEAFg0RtjI6HvYBHqEWXfTpwYx66r1OpMJoACvbW3ii08HGIdviYjaFE9j8KzdzUmHL7LYlEI5sJDDxrbPbSzCRnmz1Cnz3mDb68fRIG9TFlG5SQ_YRx5vy5rmYsxlTmolO7eZQS5BLZgpnTB7IpbW1kQYaQGm87NZ_FeYDTsmCt_JpIf4bdKPfTwBa5v2WGvNVhi736h3p8NQrAPevBdjkD7MZRgVY6tC0loOALKH2GbmhMJQtkIK0Y28sk-qP5Y13aWOmh1C_DPEnYYn9Qx2s8Nub7etR1uSV0ILBXz6wGCHvBN7zwbtUHX7-U-ULq_vm0wUZjkGZiWR3AILqTRJ-AtkiX1LwaEUS9Xvto6W3_lBbgKW-gQGwVz6RrP91M8YcvneiIe1aRmlvh1mnSTNWmiUo8rC5cJzSkOYDShTeYCfkj76eWYVpqv4QpaFeaPL-1hB-0Z6EGn5sDcLFxJXr6rnJCTTJ01pLWR-fyW9DjeJV-xY-mWeMciRG9iYHOif97HraeJBs6e4vZUVxrSN01RLw5b5NBEhr3cbv8VTZNadr9fQkr_gYDfPB3KmTtcbk2ZmE_K3qg43AyN7Ie-E1OBX8d8y0oNcSiftEMfo2LQ32fcTWIgyEhe18CIHTLDWffT0-is6dkOV5wj1Ed67aAiFg39-pF-tnuBHoogrHKzgWmEiNEStxETNP10wMkPSKYdvbxll_Ozh4odiXzDWCk-y3bKvk2gD_yUzL1VdqO5dev46BY8-rzva7ztwNiGp1opYfIdoGrcM_WWDaJNKXATyWZ20fs7-IRSwa9_ZP0r4xnkYV-OxMzSCQ415COGXEVdG9eWeyeB8GA9ZYmSSENDN5fJ2xJphPMX37HVpvXlQPdWsSjfhhLqu_7dsKjLJkCC-nHORyLTVuHIcIcu1sZ56JF0bjUWEqNj_ocvLbJHReABssrziA4Zo04kXUt3seHF3x8xWW1CfGn2n9vUl_MGcQpIZDQt21tv_xHbunPHhYqx4-Imdy905DO9eLsUK7iVx6Kbk5dPtJQLBDcRXSVfBylhEzAuj6MLHacbuYhgAv6btqIhj7dicfTG_yypKNcelgdeThBu5m9WFPySU1RnH1YwZYUclQZHh-Irovmob4KXSOw631tAUGK8t3peXUPNRQnabsFVmmTPc9Tg3Mm6ZZdksSCmxIjdLK7hjj3mRFX7qTko55GLIPNNlhSXaqhe2mmLer4mxVOokHFJP4JtduwFd0uBZRY9KFdCsojJYcptgCVh4moS9KtybQGHv68p9Rw1ZqS2NytQs9copbO6r-e4GCLZBHhfVuimMeF0qxK9SurGR5lKT_q4=",
+      "summary": []
+    },
+    {
+      "id": "msg_0cdb754eee4caf21006ad97891df7887d19777a5e1beeb5768",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"scene_facts\": [\n    {\n      \"fact\": \"The scoped roadway is an urban two-way street with one apparent lane in each direction, bounded by curbs and sidewalks.\",\n      \"basis\": \"Visual observation; images 61.1-85.0 seconds.\"\n    },\n    {\n      \"fact\": \"A double yellow centerline is visible through much of the roadway and continues toward the intersection.\",\n      \"basis\": \"Visual observation; images 62.7, 65.9, 72.3, 77.0, 80.2, 84.99999 seconds.\"\n    },\n    {\n      \"fact\": \"The full opposing-direction lane is closed as an explicit scoped user fact; the ego-direction lane remains open.\",\n      \"basis\": \"Explicit user fact.\"\n    },\n    {\n      \"fact\": \"The apparent channelizer line is formed by closely spaced orange-and-white cones, drums, and delineators, represented in the review as 227 merged traffic_cone observations rather than 227 confirmed independent objects.\",\n      \"basis\": \"Reviewed labels and visual arrangement.\"\n    },\n    {\n      \"fact\": \"The channelizers become prominent ahead in the opposing-side portion of the roadway, extend longitudinally toward the intersection, and form a tapered or narrowing end near the crossing.\",\n      \"basis\": \"Inferred roadway geometry from images 76.99999-84.99999 seconds.\"\n    },\n    {\n      \"fact\": \"The channelizer alignment separates the open ego-direction path on the right side of the centerline from the closed opposing-side area on the left side of the roadway, as viewed in the direction of travel.\",\n      \"basis\": \"Inferred geometry from images 80.2-84.99999 seconds.\"\n    },\n    {\n      \"fact\": \"The work zone is adjacent to or terminates at a signalized/stop-controlled-looking cross street intersection with multiple visible STOP signs.\",\n      \"basis\": \"Visual observation; images 80.2-84.99999 seconds.\"\n    },\n    {\n      \"fact\": \"ROAD WORK AHEAD signs are visible on the right side earlier in the approach and again near the work-zone area; the reviewed total is 14 observations, not 14 confirmed independent signs.\",\n      \"basis\": \"Reviewed labels and images 61.1, 62.7, 78.6, 80.2, 81.8, 83.4, and 84.99999 seconds.\"\n    },\n    {\n      \"fact\": \"The roadway remains visually passable in the ego direction through the observed approach, including the channelized section near the intersection.\",\n      \"basis\": \"Visual observation; images 80.2-84.99999 seconds.\"\n    },\n    {\n      \"fact\": \"Opposing traffic is expected to detour, but the actual detour route and the control method for opposing traffic are unconfirmed.\",\n      \"basis\": \"Explicit user fact.\"\n    },\n    {\n      \"fact\": \"The black sensor car is not construction or surveying activity.\",\n      \"basis\": \"Explicit user fact.\"\n    },\n    {\n      \"fact\": \"The scoped work-zone duration is less than three days and the sensor-car speed is 20 mph.\",\n      \"basis\": \"Explicit user facts.\"\n    }\n  ],\n  \"visible_features\": [\n    {\n      \"timestamp_seconds\": 61.1,\n      \"image_reference\": \"camera0\",\n      \"description\": \"An orange ROAD WORK AHEAD sign is visible on the right sidewalk/roadside. The street ahead appears to have a centerline and open pavement in both apparent lane areas at this distance.\"\n    },\n    {\n      \"timestamp_seconds\": 62.7,\n      \"image_reference\": \"camera0\",\n      \"description\": \"The ROAD WORK AHEAD sign is closer on the right. The double yellow centerline and two apparent roadway sides are visible; no longitudinal cone line is yet prominent in the foreground.\"\n    },\n    {\n      \"timestamp_seconds\": 65.9,\n      \"image_reference\": \"camera0\",\n      \"description\": \"The roadway continues between a park-like open area on the left and buildings on the right. Pavement markings and the centerline remain visible.\"\n    },\n    {\n      \"timestamp_seconds\": 70.7,\n      \"image_reference\": \"camera0\",\n      \"description\": \"A marked pedestrian crossing spans the roadway ahead. The apparent travel path remains open in the ego direction.\"\n    },\n    {\n      \"timestamp_seconds\": 75.4,\n      \"image_reference\": \"camera0\",\n      \"description\": \"A concentrated group of orange channelizers is visible farther ahead near the intersection, primarily on the left/opposing side of the roadway.\"\n    },\n    {\n      \"timestamp_seconds\": 77.0,\n      \"image_reference\": \"camera0\",\n      \"description\": \"The channelizer group is more distinct and forms a longitudinal line along the opposing-side portion of the street. The ego-side path remains visible to the right.\"\n    },\n    {\n      \"timestamp_seconds\": 78.6,\n      \"image_reference\": \"camera0\",\n      \"description\": \"Multiple orange-and-white channelizers occupy and delineate the opposing-side work area. An orange work-zone sign is visible on the right near the approach.\"\n    },\n    {\n      \"timestamp_seconds\": 80.2,\n      \"image_reference\": \"camera0\",\n      \"description\": \"The channelizers form a substantial line or taper ahead, with the open ego-direction path continuing along the right side. A cross street and STOP signs are visible beyond the work-zone line.\"\n    },\n    {\n      \"timestamp_seconds\": 81.8,\n      \"image_reference\": \"camera0\",\n      \"description\": \"The camera approaches the channelizer line. Closely spaced cones/drums/delineators extend along the centerline-side boundary and occupy the opposing lane area.\"\n    },\n    {\n      \"timestamp_seconds\": 83.4,\n      \"image_reference\": \"camera0\",\n      \"description\": \"The channelizers are alongside the left side of the ego path and continue toward the intersection. Several STOP signs and the cross street are clearly visible.\"\n    },\n    {\n      \"timestamp_seconds\": 85.0,\n      \"image_reference\": \"camera0\",\n      \"description\": \"The camera is at the intersection. The channelizer line and its end/taper remain on the left/opposing side, while the ego-direction lane passes on the right. An orange ROAD WORK AHEAD sign is visible low at the left foreground, and additional orange work-zone signage is visible ahead.\"\n    }\n  ],\n  \"unresolved_layout_questions\": [\n    \"The precise longitudinal limits and width of the closed opposing lane are not established from these frames.\",\n    \"It is unresolved whether the channelizer line continues beyond the intersection, turns into the cross street, or ends at the intersection.\",\n    \"The exact location and extent of the work activity behind the channelizers are not visible.\",\n    \"The specific opposing-traffic detour route is not visible or confirmed.\",\n    \"The method used to control or prevent opposing traffic from entering the closed lane is not confirmed by the scoped images.\",\n    \"The purpose of the visible STOP signs relative to the work-zone routing and intersection operations is not established.\",\n    \"No alternating-traffic operation, temporary roadway, or confirmed detour route is inferred from the absence or presence of vehicles in these images.\"\n  ]\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "json_object"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 28236,
+    "input_tokens_details": {
+      "cache_write_tokens": 28233,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1770,
+    "output_tokens_details": {
+      "reasoning_tokens": 234
+    },
+    "total_tokens": 30006
+  },
+  "user": null,
+  "metadata": {}
+}

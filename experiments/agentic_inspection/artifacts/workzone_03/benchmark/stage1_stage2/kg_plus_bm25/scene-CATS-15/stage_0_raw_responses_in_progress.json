@@ -1,0 +1,2745 @@
+[
+  {
+    "id": "resp_0e80dc8afdbcaef6016ad935874a5c87d1ae68984c345b68b2",
+    "object": "response",
+    "created_at": 1792619911,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792619913,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "Select MUTCD Typical Applications only from manual evidence retrieved from the full index. Never emit benchmark IDs.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0e80dc8afdbcaef6016ad935881e0c87d19117237b275cfc9a",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2TWJlKrqq8Id_f-7btzoTraZyAaqLjB3DK8GkBR4C7Gt-dWYKqxmuiL-XM82EX9TxdcnGX2VgqtsSvdcFQ-QuWc8fZdPzIGV17OoBZSogq4FIiIpYHsbRBpyCKesp567enXAJRq3cvmF-9grM5DaOkwwcEljL02F3ZjvLchpCU_L06IE1FDZAPNR4TiEVYa-PSGlNuvd9-SQvxlR49t7KhjrtUu_09LZg2p0yGGpoqYZHto933VmHsSyiCECR-doXyEwGHpLR72vtYkcpjivN7deYFMx6uaPdi33g1n5hozuyf0Tp6bpGU7zyMigsQRCygrtkL74J3CP7wLhWmOpFNoeXoVFesZpY6j-sZbVX8CYU_Z5uSI64Y9nbVvQRJCTWq55M-nA-Mo7Ht-md8TBLFWUgCGw02M5uU3jh-vKWFX95tpwI27d1OTBIrsCg7qlUBMxeX6p1WmTazWz7wFDShZbdpm83lumxlMa11DT54rLAthIcXSZAZxmTi6fZG67VrY5k-XA7EDRLPowOEBroVQSa8I-8vLOt-6rrIRqGdsQ2EEs8GeFpVb99wQHkL-Q_iicEENa0vKgj2q_Op2A5_7U2n7wjYLo1S3D7etr74m95V4k_p9GXo7r-KiK2YS2Gc7Gf6cPs5BHjqtBhnEkB9iGZK9FxZWqA3MgK3xA3Tiy5fbWnEV-6_xehJ0EZ4k4tgMrXdU6q1ugLPXvvqZ1O_QWxkjn1WBMpgMTqovCeXdwWF1x4y-XSz6wkpwIFekeZ_UxbTEpecgnpRjsGhU7GxagCThbIR0QQuf4gNIPrZrQVDcMCfyD1HtRdETIN4d7So9FEOqtQKS-aorX0tVJVzmf5bNHBbx4y3yXHm-Twqn6EF2T5lP3G7VVzjTCYblsQJHUqS2-a_53UuMcMgXcSrtAKb50AridiFftvU4DMI34XxP0g847nQi7GzTc-_n9bNY2H5_mOE5WptOCL4mktBv4K2MB8_7oHcjLOIl9ztiY2-aF4NHyrAY3ju-Tt_lGqPdo4so0jx7ih8navbTw5eAFVJVgl49ZRMsTfmJBuaYiG1NTHMJdHKODiwvMqJcArjJrdKLznYiA_9Jq7sbqNlUSk4v2mkcuHSfgIUyqvDc8YxLJMgtOmIH0qIJuPsJ_OzT-SdFWNoOqHzWinHlCBVOruCEO6he-dDhN3oBp3VbSmsODTnX5QmRoG05fDa3CZsQmwAFj5L6ax6mOh_JBqs64qOB54jiKJyaBBOTZ2U4EFmHpaiKlITBwdz3tVKtVZHdPe-HxUzNB-42HGpBPjFZ9uOQPpjIiJ2NFfg_UYtYhpUqfMG8AbZmHdKM2d4haa1HZERFouQ-Rag1iCgQT2vHCFXERMBOOqq9gTsPbZhNReM7aY0qSvuLBUbcYf_9fG3jNSxbL0C_tZacm_3Y0w53pf2-RobcDXRnGjtuGpj6lk5B9usvS66D-Ls2FUwlGv6Ac3-z6u2smVZI8hNsL35BnYFzqShGJV5ETYNVluR8tvp8fNKS-E1f7sTUcpHJMOiz30545o9yE91boQ2vtx1nuMHX5YYSV7uphbZwtX1ogtXmGE8XAfvymNYv1AlMN3_MiI3NTJloWbu7hBPJUkCnmfN1K8Zu5LiyjhAZOb4nRRJm4q2CNv0PTmsvUVkGjsNDgE0on7UxM9KhORb-ht6Y8mCKdH04VCe9KmEbbk_oqZVq1sODi-uq9M3a2n7HqMil1fVfj7y1wnveMcTUFTrHZzS17Yt6EjSw3P6IoJY5TCAiyIw9qwbyEARFVXDPtnKXX",
+        "summary": []
+      },
+      {
+        "id": "fc_0e80dc8afdbcaef6016ad93588832487d19b77ecc4a9d9dc50",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"query\":\"Typical Application opposing direction lane fully closed detour one lane closure two-way roadway intersection short duration work zone\",\"page_size\":12,\"continuation_token\":null}",
+        "call_id": "call_M2wVjWzNb7uTuBnXrYQ7cOu7",
+        "name": "search_manual"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "stage0_layout_selection",
+        "schema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "scene_id",
+            "layout_selection_status",
+            "selected_layouts",
+            "missing_scene_fields",
+            "selection_reason"
+          ],
+          "properties": {
+            "scene_id": {
+              "type": "string"
+            },
+            "layout_selection_status": {
+              "enum": [
+                "determined",
+                "indeterminate"
+              ]
+            },
+            "selected_layouts": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "layout_code",
+                  "layout_role",
+                  "source_locator",
+                  "matched_scene_facts",
+                  "conflicting_scene_facts"
+                ],
+                "properties": {
+                  "layout_code": {
+                    "type": "string",
+                    "enum": [
+                      "TA-1",
+                      "TA-2",
+                      "TA-3",
+                      "TA-4",
+                      "TA-5",
+                      "TA-6",
+                      "TA-7",
+                      "TA-8",
+                      "TA-9",
+                      "TA-10",
+                      "TA-11",
+                      "TA-12",
+                      "TA-13",
+                      "TA-14",
+                      "TA-15",
+                      "TA-16",
+                      "TA-17",
+                      "TA-18",
+                      "TA-19",
+                      "TA-20",
+                      "TA-21",
+                      "TA-22",
+                      "TA-23",
+                      "TA-24",
+                      "TA-25",
+                      "TA-26",
+                      "TA-27",
+                      "TA-28",
+                      "TA-29",
+                      "TA-30",
+                      "TA-31",
+                      "TA-32",
+                      "TA-33",
+                      "TA-34",
+                      "TA-35",
+                      "TA-36",
+                      "TA-37",
+                      "TA-38",
+                      "TA-39",
+                      "TA-40",
+                      "TA-41",
+                      "TA-42",
+                      "TA-43",
+                      "TA-44",
+                      "TA-45",
+                      "TA-46",
+                      "TA-47",
+                      "TA-48",
+                      "TA-49",
+                      "TA-50",
+                      "TA-51",
+                      "TA-52",
+                      "TA-53",
+                      "TA-54"
+                    ]
+                  },
+                  "layout_role": {
+                    "enum": [
+                      "primary_applicable",
+                      "cross_reference_only"
+                    ]
+                  },
+                  "source_locator": {
+                    "type": "string"
+                  },
+                  "matched_scene_facts": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "conflicting_scene_facts": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "missing_scene_fields": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "selection_reason": {
+              "type": "string"
+            }
+          }
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "required",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Search every prebuilt MUTCD section and Typical Application with structured BM25; page through results as needed.",
+        "name": "search_manual",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "query": {
+              "type": "string"
+            },
+            "page_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            },
+            "continuation_token": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "query",
+            "page_size",
+            "continuation_token"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Read atomic source nodes for a retrieved section or Typical Application and optional region.",
+        "name": "expand_source_unit",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "source_unit_code": {
+              "type": "string"
+            },
+            "region": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "page_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            },
+            "continuation_token": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "source_unit_code",
+            "region",
+            "page_size",
+            "continuation_token"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Traverse only an explicit cross-reference edge found in the manual graph.",
+        "name": "follow_cross_reference",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "from_source_unit_code": {
+              "type": "string"
+            },
+            "to_source_unit_code": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "from_source_unit_code",
+            "to_source_unit_code"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Read one source-hash node previously surfaced by the full-manual index.",
+        "name": "read_source_node",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "source_node_id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "source_node_id"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 2310,
+      "input_tokens_details": {
+        "cache_write_tokens": 2188,
+        "cached_tokens": 0
+      },
+      "output_tokens": 80,
+      "output_tokens_details": {
+        "reasoning_tokens": 30
+      },
+      "total_tokens": 2390
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_0e80dc8afdbcaef6016ad9358a8afc87d18814fcae0a64d7c8",
+    "object": "response",
+    "created_at": 1792619914,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792619916,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "Select MUTCD Typical Applications only from manual evidence retrieved from the full index. Never emit benchmark IDs.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0e80dc8afdbcaef6016ad9358b327c87d1bd988ac42af91e7b",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2TWM4-JF_IlO499z5atYZz5QegA5qu9jNkE6_yxRrD2chmNN9gB6qC02b2LGRsLz5LEFk4IumZ9rIjGzcA9BtMD3-0oE5IXVxDkJsO82r5kYglpGlxiVUB_LfFlWEdtsTrsgxfeow1KgLvFyFIDtIFmeRyg_7s-63Nod8hjyxL06PCeJxZEBm0p3Mgxi7GLQsA93GkSjCW6dauaqDK03DewfXiMtEuVKR2ex_JfsJYTGM5T30oRXf0HQ0nW6mNAD06Eb7dwKdbpIbnbBVos6bmo1ZBc6NYxle-4RLORGARxij1H9MIVcEJw2bpI1oTB6FPIhyitEgCKgH02rgeK0cgYtAQEIc2Lx1oku9vkqO6Q21mudt3-yDKUjvOhlK5cN811qZeXE4q_iHhwVjZ29wdhpNf7fQGqWlsx8xh9rv44M2RF1cOyEMVIKt-QO8ux-bcC6_Flc1ec3AOyxWid_CknlMPvcX2KDgzkOIYGv1ZX34eqlIu3AX8ajxz5cD193ws0MmUo0D_qXMYJgTSsWbGOFNgjXKWV5Uo5TjFj_5cvqQLqfYoOMAMvs67BO1RFidl8t4KnSTWyUVUqCqL_F1YcItXWNDMbXNQ97oSqf4Gz6tbCq8Hbib-30itakKS14TOrnTgHadUecI_Z_vHyyDXgJ0xMTmHRma9ueO3rAS99hi2Oew4ha2u4lRUVdbVV_zv0WeBYn3l5Z30RGw85pcpukpq5OVDX5TM6Pz1kcou0vB1OvdW-Dq2VvEXii9MIGdbAMXTuxl0bwlDxVQnytrTIFiwjxP5hDg21jSWXYowocXFNa8DjO4g-peW1aWxl7vir59qsjas4r8kmGq2zxrt4hgnPnQYM0jiXctpxpCpe3qT4VhtwaIfG0N9ReSSyTBPR-VDyXUxsbH4uOTUFS9Hs9axdJnKXNbNpoF0bVcJbO2peM-tPxYBfSLfg0JuoJunORjT86Lj_yfYqDz0qTX6xU7i6C0s7yxtvq5biImqvSC7PKnpVux5IKlMiiHf4Jp1MK4ZYz60AMGqzvfju11kp-RFc7KOAR7f70MLX4Pv3tdW9z0xhjv4d2M47BoEb0IIBQNoRD3MNttObnRQnTZhRiWgey5g-T4CoAXhiTfCVPb-gvhAn8zuHdKnV0dqyEjDG3BthQ2RWtAJM4kSKSJxZmIz5ylbzEiwtnV4L5qo2Aky2kYkt-QhJO864eBLToykgUczEfrNx2zFVDGma1l5h9jZy_DSlBvUV30fOeHJRytWDPiRpkxwYNF6ip9PSGL2t9N5TEHAsgHfR72R-iuMk_BgbbaBi831tN1DNy0r_umW8MNDisQ3FgvmTc6uIjVB6QXFRNqdOy0vrS1WkPMTdOGUtIpjF55Ry7T0IM-B-UfMPxEInspY_Fbv49-3k90co_yWiA4xyhDPwRB3tgOlAacljQQhhZj5IhH-BkekW71rEYqSNYpGCiKh_VOeAPuHOP9D9eFx3tqwx0UOwATqFkSAqjQK2i1PD-Y-iXGXmLPECoLZkm3v0AZyvyp-iq26cDp48Frmxc4H9SgyCt4lMswGyL03Ano2oe_DQx5AwTWFG5Ch2v7Gy882UfEVhPt12fI6L5omKJ10J5AUMs-5s9aXvZVHid9k8NP29pQs132_AI2D7HnSXmsrMWL9kP3zBTtroZiIcstTTMMOav8eqjLcLxTgsWk6PT0eFQZvQViC1vTHmnM-TdEx8EtIJtJNUQ",
+        "summary": []
+      },
+      {
+        "id": "fc_0e80dc8afdbcaef6016ad9358b7ad887d18b9e7fa2375a7ce3",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"query\":\"Typical Application two-lane roadway one direction lane closed opposing traffic detour closed roadway intersection\",\"page_size\":12,\"continuation_token\":null}",
+        "call_id": "call_g9wquLFzgodTjIjygdHr5JT1",
+        "name": "search_manual"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "stage0_layout_selection",
+        "schema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "scene_id",
+            "layout_selection_status",
+            "selected_layouts",
+            "missing_scene_fields",
+            "selection_reason"
+          ],
+          "properties": {
+            "scene_id": {
+              "type": "string"
+            },
+            "layout_selection_status": {
+              "enum": [
+                "determined",
+                "indeterminate"
+              ]
+            },
+            "selected_layouts": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "layout_code",
+                  "layout_role",
+                  "source_locator",
+                  "matched_scene_facts",
+                  "conflicting_scene_facts"
+                ],
+                "properties": {
+                  "layout_code": {
+                    "type": "string",
+                    "enum": [
+                      "TA-1",
+                      "TA-2",
+                      "TA-3",
+                      "TA-4",
+                      "TA-5",
+                      "TA-6",
+                      "TA-7",
+                      "TA-8",
+                      "TA-9",
+                      "TA-10",
+                      "TA-11",
+                      "TA-12",
+                      "TA-13",
+                      "TA-14",
+                      "TA-15",
+                      "TA-16",
+                      "TA-17",
+                      "TA-18",
+                      "TA-19",
+                      "TA-20",
+                      "TA-21",
+                      "TA-22",
+                      "TA-23",
+                      "TA-24",
+                      "TA-25",
+                      "TA-26",
+                      "TA-27",
+                      "TA-28",
+                      "TA-29",
+                      "TA-30",
+                      "TA-31",
+                      "TA-32",
+                      "TA-33",
+                      "TA-34",
+                      "TA-35",
+                      "TA-36",
+                      "TA-37",
+                      "TA-38",
+                      "TA-39",
+                      "TA-40",
+                      "TA-41",
+                      "TA-42",
+                      "TA-43",
+                      "TA-44",
+                      "TA-45",
+                      "TA-46",
+                      "TA-47",
+                      "TA-48",
+                      "TA-49",
+                      "TA-50",
+                      "TA-51",
+                      "TA-52",
+                      "TA-53",
+                      "TA-54"
+                    ]
+                  },
+                  "layout_role": {
+                    "enum": [
+                      "primary_applicable",
+                      "cross_reference_only"
+                    ]
+                  },
+                  "source_locator": {
+                    "type": "string"
+                  },
+                  "matched_scene_facts": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "conflicting_scene_facts": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "missing_scene_fields": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "selection_reason": {
+              "type": "string"
+            }
+          }
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Search every prebuilt MUTCD section and Typical Application with structured BM25; page through results as needed.",
+        "name": "search_manual",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "query": {
+              "type": "string"
+            },
+            "page_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            },
+            "continuation_token": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "query",
+            "page_size",
+            "continuation_token"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Read atomic source nodes for a retrieved section or Typical Application and optional region.",
+        "name": "expand_source_unit",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "source_unit_code": {
+              "type": "string"
+            },
+            "region": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "page_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            },
+            "continuation_token": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "source_unit_code",
+            "region",
+            "page_size",
+            "continuation_token"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Traverse only an explicit cross-reference edge found in the manual graph.",
+        "name": "follow_cross_reference",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "from_source_unit_code": {
+              "type": "string"
+            },
+            "to_source_unit_code": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "from_source_unit_code",
+            "to_source_unit_code"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Read one source-hash node previously surfaced by the full-manual index.",
+        "name": "read_source_node",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "source_node_id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "source_node_id"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 7534,
+      "input_tokens_details": {
+        "cache_write_tokens": 5224,
+        "cached_tokens": 2307
+      },
+      "output_tokens": 73,
+      "output_tokens_details": {
+        "reasoning_tokens": 26
+      },
+      "total_tokens": 7607
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_0e80dc8afdbcaef6016ad9358d81f087d1b77548da78820dd3",
+    "object": "response",
+    "created_at": 1792619917,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792619919,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "Select MUTCD Typical Applications only from manual evidence retrieved from the full index. Never emit benchmark IDs.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0e80dc8afdbcaef6016ad9358e441487d190547b075765a09b",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2TWPsoA7hyC-t3AWKvWrgRzqjM5Yv0zP6QHVIlKA-CVqbeW03glGGVXmUdsiA0kHEk1KQ9arklm5J8yuCMSAE5QZspnE4Gh9x-OE3iSxrwZuXYqLtp9TfNvlZrE262NtRTWLfvuLVF4KloFESIPaLEpkikACqJCxIFxXettE-lAPDC91P1Aja6eN-muNlA_3uOcx_xoJRgFDqkRfs3bHVrlcF1o9BWbees5Pg0_f74FvVm_pewEhxaeXRkdKLHAvzSereD1NAd_1XVZ7zjlGsvvk1UImtP2-9d-Tnbva3sMvTlMoP3CqWtENAN-NRPbqXEXBPkTH5lAilhlXi6F7sBxIgP0IZl2b5EYmy6XOKmzdJnqojFVLVbqSnfxDO2t5B03o5wAhCkvMwFlwrmZ_tIA8xlkLHcWdba-9VrIv4H1vMaxDimecMWmgkn8UN91DjtxUDN2-BsJAWH-6nugeBASJVTzTNEJhnIlufyGHpvuol9rYoZFlNQnWwkU0Vl5O8O_bJ5uaUGpgCLzU6vqMg0TxmBcZURaZ0emzsjrWOANZTC_1DkwBoLHUJamlbBsOMRRAfFbQb6Mv9TX6NwdGbBcU-9BT4lh_Y-2kpAueWIjezTYzSFsE_2qxXrawOuLCFRqS9VR4ULtincOlIin2nh1FrWJmg3zVLQrMzIcTM_SAM-heL-yHNGwsQr4zBXGPb1YxjNccXWqd_JarHVSiEGr6PwAI22bjyyB0Zk_Mu5RJ-V8XlaBvKdvce1iJv_AA5TbXTIxOiPgr0E_4tc8ccvROX9oGCk_hgMPtnJEwKjHwBYxngAolLmLkfHftR706Gkw00zAePhv8ED9C2Eb4g8YbcYn69xihDExegj1aPUqcz1tdndpl8TWjM-NWJwz7dCBQOvbAhRC2qWndYbDypLEVxluo9XfzS2swXgLqtdLDXNBG7zGd0wOszHo71FA7_zO_cwzLEkKeSn2CO2ew-qTANgz4rJjPR4G7xZmncUgFwiFdy5WLzSy-lmnVJ2ahqJZaj24VVfgclkMO4hiFUnFFjplqFggSBoPK9O6IPUyl39xlD3i6J1yfFy2Gk0V8R-lohrTfoZavmLDdIFf2G7nTDH4IKi8k6SqeybEgfC4Ok1yhJp3GoRTmTbq4iaeX4lEX17GAVaTKhNdVfMtYHW_3meVx1McLud6HvufSJ8LTGqmmvlOCrWM_nZ1ZJ7hbrCn2FWdUR8-KvPKMq0s1l0xPu_R_B0qRGrfK2gYakwGZaKXwIJs_aBJTlAYHoIW3_xMCI67I25deQaYqacuDVKMWHZCayEyT5qt2vCm1yeteb7IHtILdzk7Nk8u_XMegKzZ8nd87dKIxcY-PhtPOg5rUtLEfszbZORW5u_MCpinp3ryWLkDNzOG8UuLRFyX4CbAMffd-C_VETA1KzoXbnsqiUy_Z4QYFq99Tm6GtRj8SCxZp1miK2W8o-sja6NO-nelTClBNxJeA9iJ5TigRBoHwbOZ8xSxhG10gGHqtYApqVoJ4Y0kvSBPFIfzz5YtA6G1OYvPJzAGVey6kITK5bmW8aNHHjWAUaD5ij0UOpcjchkqkAXwSIMCBwgcjDccbXZo1jGa3JVlUmQVupD7V2_A4AWBk9_G8Ys-UHPUjTsuEqeEIfTyzevXN1LxWqe7VgwZhu_0KJ7wH_itHVLRz0AYEr0hm04Svx5XT6QGWRsBoKusUz-K_NQKEbT8Eqe7Zw2J1GypXK46KqsuGrOOZm5TIuv5iuJH5ZpJ3V1IIbecqeFT5VnGaKzVa9oLl4C2asC-6vbWrcr9Bs1l4AFQ3dFhXWgER95YHRtYERAEa9Lx91q3OrBE9_aN6AEG2qzlJzevDX4HGZ75StaneoPJv4NB0xJQGapw58NdDxZrZa0XhmbLvTQ7HEK6dxjDyY4QSCINRj4X-cHx0zy7CGU6ydI4bDRUzstRYjrtS5vx7afzS2IAExn-VmQhJZj1tDEKPUm8cykl0xEceT0GN1mNGWhjeew6qIO5bxNPCrHQhdqjWZvFYOMbsBXrh_ksT9RJ8OBqoT_E0pWzhP_y4prME_nVltgCBtl_WvCvTfXWIHkkDFRk4CiwrLbqy97AzHS8ZsI0m",
+        "summary": []
+      },
+      {
+        "id": "fc_0e80dc8afdbcaef6016ad9358edae087d1b7b312945240ab51",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"query\":\"Typical Application closure of one direction of a two-lane street opposing traffic detour on-site detour road closure intersection\",\"page_size\":12,\"continuation_token\":null}",
+        "call_id": "call_5K9hOR2Rd7Pz8m69fOAR8C7C",
+        "name": "search_manual"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "stage0_layout_selection",
+        "schema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "scene_id",
+            "layout_selection_status",
+            "selected_layouts",
+            "missing_scene_fields",
+            "selection_reason"
+          ],
+          "properties": {
+            "scene_id": {
+              "type": "string"
+            },
+            "layout_selection_status": {
+              "enum": [
+                "determined",
+                "indeterminate"
+              ]
+            },
+            "selected_layouts": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "layout_code",
+                  "layout_role",
+                  "source_locator",
+                  "matched_scene_facts",
+                  "conflicting_scene_facts"
+                ],
+                "properties": {
+                  "layout_code": {
+                    "type": "string",
+                    "enum": [
+                      "TA-1",
+                      "TA-2",
+                      "TA-3",
+                      "TA-4",
+                      "TA-5",
+                      "TA-6",
+                      "TA-7",
+                      "TA-8",
+                      "TA-9",
+                      "TA-10",
+                      "TA-11",
+                      "TA-12",
+                      "TA-13",
+                      "TA-14",
+                      "TA-15",
+                      "TA-16",
+                      "TA-17",
+                      "TA-18",
+                      "TA-19",
+                      "TA-20",
+                      "TA-21",
+                      "TA-22",
+                      "TA-23",
+                      "TA-24",
+                      "TA-25",
+                      "TA-26",
+                      "TA-27",
+                      "TA-28",
+                      "TA-29",
+                      "TA-30",
+                      "TA-31",
+                      "TA-32",
+                      "TA-33",
+                      "TA-34",
+                      "TA-35",
+                      "TA-36",
+                      "TA-37",
+                      "TA-38",
+                      "TA-39",
+                      "TA-40",
+                      "TA-41",
+                      "TA-42",
+                      "TA-43",
+                      "TA-44",
+                      "TA-45",
+                      "TA-46",
+                      "TA-47",
+                      "TA-48",
+                      "TA-49",
+                      "TA-50",
+                      "TA-51",
+                      "TA-52",
+                      "TA-53",
+                      "TA-54"
+                    ]
+                  },
+                  "layout_role": {
+                    "enum": [
+                      "primary_applicable",
+                      "cross_reference_only"
+                    ]
+                  },
+                  "source_locator": {
+                    "type": "string"
+                  },
+                  "matched_scene_facts": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "conflicting_scene_facts": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "missing_scene_fields": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "selection_reason": {
+              "type": "string"
+            }
+          }
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Search every prebuilt MUTCD section and Typical Application with structured BM25; page through results as needed.",
+        "name": "search_manual",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "query": {
+              "type": "string"
+            },
+            "page_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            },
+            "continuation_token": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "query",
+            "page_size",
+            "continuation_token"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Read atomic source nodes for a retrieved section or Typical Application and optional region.",
+        "name": "expand_source_unit",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "source_unit_code": {
+              "type": "string"
+            },
+            "region": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "page_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            },
+            "continuation_token": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "source_unit_code",
+            "region",
+            "page_size",
+            "continuation_token"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Traverse only an explicit cross-reference edge found in the manual graph.",
+        "name": "follow_cross_reference",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "from_source_unit_code": {
+              "type": "string"
+            },
+            "to_source_unit_code": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "from_source_unit_code",
+            "to_source_unit_code"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Read one source-hash node previously surfaced by the full-manual index.",
+        "name": "read_source_node",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "source_node_id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "source_node_id"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 12930,
+      "input_tokens_details": {
+        "cache_write_tokens": 5396,
+        "cached_tokens": 7531
+      },
+      "output_tokens": 111,
+      "output_tokens_details": {
+        "reasoning_tokens": 58
+      },
+      "total_tokens": 13041
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_0e80dc8afdbcaef6016ad93590cef487d1bd7697b2a2136337",
+    "object": "response",
+    "created_at": 1792619920,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792619921,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "Select MUTCD Typical Applications only from manual evidence retrieved from the full index. Never emit benchmark IDs.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0e80dc8afdbcaef6016ad9359171ec87d19a1300c0c1ca05a9",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2TWSdgWIY0vbktwNgRfY-5EuH_lF2I0azg2owelAjj-NnXFd7Cqi2x3tLTWM7DdLlQTKD0wGmjIQp5RIRPj75p8kK8HCkihCpH0S7l74OnbMbW28naY3IS5gJmaSLRyUyYc_db-oL0rQzy9dGmWEB39bph-fwd_rmBAwi6saDZSEJtPTtgph4X_N6sgwpfoSBqPwsX1-t7wU2QeJIp1pOuDQ-8GHxZuoOw6hJo0wIVf4OZ_aCJU6stwafjZZ6Anm1PY3RycObdEJM7-T6TjvDXH0jC39XgAgfaXOjWfZYkptYg4vrcrPYfLGtac-XDw7Sg5upMwwphG0Fq8uYPb_AXP2MwCBYMhkkh7TwNQQQo_KJVlfqZVx4oih5H0n0ykmdQ_8wZRoq1ZaKkMjdS045vtAznVuPKnclnGL39dklDz0zrhHOE9OYdckUO8ACtEHwT9VPTZ1S1C-HY5fxGLR3WtgBNVGn3uULlv5-6q0EUkcB5eGIK2N1QKiN9gVtLxavazMOLSOCZFlQp-vPRXOFHKQiYIKvXGo66pcw14gR0B3Sos-IIxW8mt9lah7a6QJOOY8FLzry6HDbLkIV_RGXbBo0lC51ZQOBJMoowPJyFz4rGruAyCwrqhBO2Nx3VlPe8zxtO2n-Rkfrqs4fb_b2dP69SCpqjE7wIMgOY34o1_oERzYsVgOJs6gEoP576QaVfcVvqxMZqdAa8FsnQ39-0qC-42n9blRkq1BmLvSwd8yZd6Z8sVMuzb8LurhRw4XcJo2g09Ux7zt9ZtY3mu9277kt7Qa3BoI8VzCj7I1ilKHpwvU2w2tr2OKCMb2pZqGcumydLdPG0s5WwOpTSpK-txfu8tcm4Apgh6sip1P_zLfi2-wQhO6Ex0wYMoBxYdfh4oNqIAgJz6hz6NqGJOoo3CNppfXJ9fjcu1f4jI-5gRFqOtt-_b1IvnVysEXOivutq1Ts_RZib7yf2us8OyCMI8MnJyQqlZmAfB4xFDTszN4EMe1-IZ_AwgMAsP6tIq06SDUQ91aO3fNo1LM8i3fNSQAV_Nq-al3Vw1hId-_uhsQAOubhCn7nsGvddSlLByEoM9IVU_7rQ_9UEOC4egyDeZ8v_wxo78Vse37qVTnEZosQEmKK-3hNW1Gz57IhTu4y5nwgQwCVDNhUS-qfxX-7JVLqz_epCRNbOBPzFrag7vmnQVC3CIhhuy7t52E4eyi4Y-SbxgOfHMtmaBIC7gBS1uzirBXX5s-FBCk-QywK6VAr8cYB3pPvaVHdGlH3Q8d7t8qYzKAFZjuJKgx9Z8kLc1yrVi7WtHoiTcg25sJo5e06YQy395yHlRHW_si1KLK5jmrgKj5s0jvwRTpSD0t2QQI_9Db0ikWhuaoFFiOruq_g-tfJ8INRIZsODJBdRZSBEHxjEwJgzLWWrilmoyNLg_uwfxuTMdE0dNNINi48rZ42ZK2uGLy3qVbFt5LbeOU8-bdoZ82OOAsuuehXpsi0-6uSZHlqQRpXpzSwkr8FAH8vvo-WAeilsox88uS0qcwQoZ-uwEiEWKLfPfgVs0LZy-IF231kpPOAN3tu8bPaLzL9X8=",
+        "summary": []
+      },
+      {
+        "id": "fc_0e80dc8afdbcaef6016ad9359199f487d182ab20e464472cb2",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"source_unit_code\":\"TA-8\",\"region\":\"applicability\",\"page_size\":12,\"continuation_token\":null}",
+        "call_id": "call_7Em60hxJnCvCJRQYCukM5swf",
+        "name": "expand_source_unit"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "stage0_layout_selection",
+        "schema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "scene_id",
+            "layout_selection_status",
+            "selected_layouts",
+            "missing_scene_fields",
+            "selection_reason"
+          ],
+          "properties": {
+            "scene_id": {
+              "type": "string"
+            },
+            "layout_selection_status": {
+              "enum": [
+                "determined",
+                "indeterminate"
+              ]
+            },
+            "selected_layouts": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "layout_code",
+                  "layout_role",
+                  "source_locator",
+                  "matched_scene_facts",
+                  "conflicting_scene_facts"
+                ],
+                "properties": {
+                  "layout_code": {
+                    "type": "string",
+                    "enum": [
+                      "TA-1",
+                      "TA-2",
+                      "TA-3",
+                      "TA-4",
+                      "TA-5",
+                      "TA-6",
+                      "TA-7",
+                      "TA-8",
+                      "TA-9",
+                      "TA-10",
+                      "TA-11",
+                      "TA-12",
+                      "TA-13",
+                      "TA-14",
+                      "TA-15",
+                      "TA-16",
+                      "TA-17",
+                      "TA-18",
+                      "TA-19",
+                      "TA-20",
+                      "TA-21",
+                      "TA-22",
+                      "TA-23",
+                      "TA-24",
+                      "TA-25",
+                      "TA-26",
+                      "TA-27",
+                      "TA-28",
+                      "TA-29",
+                      "TA-30",
+                      "TA-31",
+                      "TA-32",
+                      "TA-33",
+                      "TA-34",
+                      "TA-35",
+                      "TA-36",
+                      "TA-37",
+                      "TA-38",
+                      "TA-39",
+                      "TA-40",
+                      "TA-41",
+                      "TA-42",
+                      "TA-43",
+                      "TA-44",
+                      "TA-45",
+                      "TA-46",
+                      "TA-47",
+                      "TA-48",
+                      "TA-49",
+                      "TA-50",
+                      "TA-51",
+                      "TA-52",
+                      "TA-53",
+                      "TA-54"
+                    ]
+                  },
+                  "layout_role": {
+                    "enum": [
+                      "primary_applicable",
+                      "cross_reference_only"
+                    ]
+                  },
+                  "source_locator": {
+                    "type": "string"
+                  },
+                  "matched_scene_facts": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "conflicting_scene_facts": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "missing_scene_fields": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "selection_reason": {
+              "type": "string"
+            }
+          }
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Search every prebuilt MUTCD section and Typical Application with structured BM25; page through results as needed.",
+        "name": "search_manual",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "query": {
+              "type": "string"
+            },
+            "page_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            },
+            "continuation_token": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "query",
+            "page_size",
+            "continuation_token"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Read atomic source nodes for a retrieved section or Typical Application and optional region.",
+        "name": "expand_source_unit",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "source_unit_code": {
+              "type": "string"
+            },
+            "region": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "page_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            },
+            "continuation_token": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "source_unit_code",
+            "region",
+            "page_size",
+            "continuation_token"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Traverse only an explicit cross-reference edge found in the manual graph.",
+        "name": "follow_cross_reference",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "from_source_unit_code": {
+              "type": "string"
+            },
+            "to_source_unit_code": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "from_source_unit_code",
+            "to_source_unit_code"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Read one source-hash node previously surfaced by the full-manual index.",
+        "name": "read_source_node",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "source_node_id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "source_node_id"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 18259,
+      "input_tokens_details": {
+        "cache_write_tokens": 5329,
+        "cached_tokens": 12927
+      },
+      "output_tokens": 57,
+      "output_tokens_details": {
+        "reasoning_tokens": 15
+      },
+      "total_tokens": 18316
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_0e80dc8afdbcaef6016ad9359232bc87d1bf16b883c1040781",
+    "object": "response",
+    "created_at": 1792619922,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792619923,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "Select MUTCD Typical Applications only from manual evidence retrieved from the full index. Never emit benchmark IDs.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0e80dc8afdbcaef6016ad93592ed6c87d18b8f755f62170b49",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2TWTm_E52PQTQG8f6bnz7rCYpYbMosTX3qwN1Ja_Sf-UT1qaG5nlzaAOU8i6YA9giWRQcJLRBfS6WGNKjKuCnJbGc3IMOYVvptmJ4cfSEN2WtFKAhw_8Fm9RFys3vNxOa9zyqnaBZKJHG2p29hEuGXymU4o68N_Mk-IwiaYafd79dcheuZ-blh280nzJiy2kvcm8wwGsAXVVlLn26FwuMcXyLvtOb8q8zH2Spq-oEJXfEPnjuDcoTsTDM9tulXLOqVi-QYonQSTKcYqsoftafnCNx9Nz50PidE5tVqaaACiH4IFaUgNZIpastd4oz4-IlfGAAmJIpXZR-xjNx37YVh7gKqyawfrt3jGDDEIdVTMDqk7u3AE4QHM03hgDva3_Dqof3KgZXCbRJdCvDJU-DCm4pXAHU--kJEB2G6ZC3lBV39Ei2dWN3GmJ_6oo4Jnt_yjGONhsAp6oZ9V_dq-BEtloK1YgaGq4ev72MwriGXuqFokrLvnNndIjhiLtQHhN4Ecvrb0zdcqe37Li6vSR95Jfp1OfBGt-l4h3N1mY5xIyUNd5PD6ZbuajDsv146ey4OdCOCOyUdh3HqU7Da5IBnwqKlYkjY_SCjctjKUkw0YSRyvUFa-oKfCdd99nP_ntIJeVDK0vmk1vdOvBrxRAsmToInYeI4hb9bckeHg9Lcl71qX9Ik3fK7vTNvb_Gu5op3XhioU-JEWxJ-x3seHQ7MU1N2k-JD80Oc1Q_rJxa0_lEmQdqCYuwOOouEf2vABKm_kRPf99C-skggpZPNu1A34lSi5JM4H3iD_KqLXkdQJiA9nGQBmWbGVzfSbGeRQzumTfkY85xpwMAoZHFBOhFqWXnJphIUfd10H2-DrZZIIJSnZAVwVT-lpbaiJR_qHa73trZigbzLvV_mf_kMZOL20H8igCJJatm8303MaIRp86sBknDA5WRAZpG1LwNhGliOZsMatY9x-KkjF0XIePAsVXnwMGrR7FK7EWFGwybpsvFtw8kl6K__Xpy9sJohT195dMbYzf01MXv9AO2AqCFwQIGFKu3yk1ktryFPtxBr9SME1c6qA7rblvz8hCUPOPHvlnWyJE7kgatqtyrGpcZd6G0h2oHLO62Iz8oEE1mPJX4I11A_SCOQBow-f-9mDcY_gr6pDKVHhf0pXOd83dK939YYBkYB5p_9Ddf3KuHgQKcgVfq-sUq03_l7dHtEb8OFkJwTt4LNuyemCN5HdImg_6dm3Ne3KtMu7A7-EmWYt2pKCvsylO3QDivwyun7QPqz6MEu_TvaRje1EAdsMMHrTAbVM97y2yihB11id7ER_ma7Rv5VlBg9TLmpy0XZgmpNJ-KG4wxuwGkzMDTF2wQ4x7GHWbHCZYqeoNDm6ob06nTljlND2aYdpv4aDKp_EdERYANexuMYKNFPOS8EaxontdcaeQBJIxOUbg7i471FTEEzlI_tUyfzmNLyJvTSethflfdkLReEK2yPbBzwT2sm_NYN9fKmuHhe-xUfFbacB_x_M=",
+        "summary": []
+      },
+      {
+        "id": "fc_0e80dc8afdbcaef6016ad93593143487d1a8d82b3480a21cdf",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"source_unit_code\":\"TA-8\",\"region\":\"general_notes\",\"page_size\":12,\"continuation_token\":null}",
+        "call_id": "call_EiBOm3D3K5mksy2PZ05xQoW5",
+        "name": "expand_source_unit"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "stage0_layout_selection",
+        "schema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "scene_id",
+            "layout_selection_status",
+            "selected_layouts",
+            "missing_scene_fields",
+            "selection_reason"
+          ],
+          "properties": {
+            "scene_id": {
+              "type": "string"
+            },
+            "layout_selection_status": {
+              "enum": [
+                "determined",
+                "indeterminate"
+              ]
+            },
+            "selected_layouts": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "layout_code",
+                  "layout_role",
+                  "source_locator",
+                  "matched_scene_facts",
+                  "conflicting_scene_facts"
+                ],
+                "properties": {
+                  "layout_code": {
+                    "type": "string",
+                    "enum": [
+                      "TA-1",
+                      "TA-2",
+                      "TA-3",
+                      "TA-4",
+                      "TA-5",
+                      "TA-6",
+                      "TA-7",
+                      "TA-8",
+                      "TA-9",
+                      "TA-10",
+                      "TA-11",
+                      "TA-12",
+                      "TA-13",
+                      "TA-14",
+                      "TA-15",
+                      "TA-16",
+                      "TA-17",
+                      "TA-18",
+                      "TA-19",
+                      "TA-20",
+                      "TA-21",
+                      "TA-22",
+                      "TA-23",
+                      "TA-24",
+                      "TA-25",
+                      "TA-26",
+                      "TA-27",
+                      "TA-28",
+                      "TA-29",
+                      "TA-30",
+                      "TA-31",
+                      "TA-32",
+                      "TA-33",
+                      "TA-34",
+                      "TA-35",
+                      "TA-36",
+                      "TA-37",
+                      "TA-38",
+                      "TA-39",
+                      "TA-40",
+                      "TA-41",
+                      "TA-42",
+                      "TA-43",
+                      "TA-44",
+                      "TA-45",
+                      "TA-46",
+                      "TA-47",
+                      "TA-48",
+                      "TA-49",
+                      "TA-50",
+                      "TA-51",
+                      "TA-52",
+                      "TA-53",
+                      "TA-54"
+                    ]
+                  },
+                  "layout_role": {
+                    "enum": [
+                      "primary_applicable",
+                      "cross_reference_only"
+                    ]
+                  },
+                  "source_locator": {
+                    "type": "string"
+                  },
+                  "matched_scene_facts": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "conflicting_scene_facts": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "missing_scene_fields": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "selection_reason": {
+              "type": "string"
+            }
+          }
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Search every prebuilt MUTCD section and Typical Application with structured BM25; page through results as needed.",
+        "name": "search_manual",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "query": {
+              "type": "string"
+            },
+            "page_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            },
+            "continuation_token": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "query",
+            "page_size",
+            "continuation_token"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Read atomic source nodes for a retrieved section or Typical Application and optional region.",
+        "name": "expand_source_unit",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "source_unit_code": {
+              "type": "string"
+            },
+            "region": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "page_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            },
+            "continuation_token": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "source_unit_code",
+            "region",
+            "page_size",
+            "continuation_token"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Traverse only an explicit cross-reference edge found in the manual graph.",
+        "name": "follow_cross_reference",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "from_source_unit_code": {
+              "type": "string"
+            },
+            "to_source_unit_code": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "from_source_unit_code",
+            "to_source_unit_code"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Read one source-hash node previously surfaced by the full-manual index.",
+        "name": "read_source_node",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "source_node_id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "source_node_id"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 18444,
+      "input_tokens_details": {
+        "cache_write_tokens": 185,
+        "cached_tokens": 18256
+      },
+      "output_tokens": 49,
+      "output_tokens_details": {
+        "reasoning_tokens": 8
+      },
+      "total_tokens": 18493
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_0e80dc8afdbcaef6016ad93593b01487d1aae9fc384c38c3b1",
+    "object": "response",
+    "created_at": 1792619923,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792619925,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "Select MUTCD Typical Applications only from manual evidence retrieved from the full index. Never emit benchmark IDs.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0e80dc8afdbcaef6016ad935943ebc87d1b2e56057c7255767",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2TWV5ac90sGttl7fh3TDR0ElCk5_iwCf4cZhsSk3LSzYOts7JC3gD-tIq10bfeQKbSjnN1FjoyquOJ2itIOwBEmghBClj2vP6ezHs4SweJfRNMZnGh6-f0oxuZc8Vuuv1nyDqmw4Hz_TkbI3IrAqvN8HUF2MlAauiiefaDB2ImC3Jt8hWk5YTN1ZdvLmOw-NodlUaiZZrupnSgy-c90n2aXlVEO0V3JCBsfS-PzRHPHRFgexdABMfvDMrFD8wAGJEnIcVFHjjmrx97GvnVps58Z5RjIhWvfurkSUNvC4BmQSBt9YwV_TVaL6WGJD1Hil4pB8Dtc4ROrly7Q7eRjYuRfO84hvNUcBexfWiWjdGsZVjhkv2iq3_4LMLoKzjQrExENehU6WQ7cAgbA8C0cqKR5CMiQIc5N_IoVecCB9mJbNXQgzt976SUyd4ULIDxKjnQxUHPRNjmu2lsJB8fXHDZZYXX25oLLbF6n_0Vj_YpG6aDNhXpV9j4KnSNfRWZU6ggsQFemHqIRBPXbIJEop-bTVOdAED0yCslu0ebs1S5f4qH0znQN9QJzx2s9cnuiQLp9ZNArGvIAQd-l6YQYeQboQ54uFTm6nEUQQIaOnqJIcwfSU_bWEQpfUxySY3_QnxwaqwG4aTF2hga9EWB6tfIrfRKorH34-znp2Z5RaUs6iFe4WcjxM80bSqfL0BKidKwwT5srXPZUPYezJtLiPh0prq4nilFHCs3w_73msEvy7PaLk_WHCCo5Q549HvsmAtYxQM21TKKprZjuVfAAITnvJQKVDAMF8aGAVRQRcl4iKuinB87t-CXfF2KtL0wcecmNidzMCRDb1Orx3ZxZdflIZAHH-fgZl-xTg3T6_W4kGHxu-wv2JXU6c5PJwC93VLDo_ZTZ2IxmIDYuvdgndEno6daUG7-BI1W4WKKCHe-u-bDexFR9d6dVxNH-ZBNM_Cw1y6_ohd4TigbAcfOkdJhQooxD6YRrkNwNDAbO0mYL3Jd1dD6NAhwmu8ntnnV9DaVtbjtR--1bjYOpvKnzXCsB_tlOrZCkNUT5ZqWn7T443LHhUhgxAnE8xJE9r0fktcHpx9KBPzH_5svWvfMHjwuCXnv67zo8L3j66qOuwwajlSqSX2qfBYyoNjohCYezRY1VpFPMLjd2o8PBMUvEg6zRoQGJXjWt8I3Zjf11FretLc-2P7jMoGA9XE1iMjKUwj4W01BaqLR_XIWKRUJZbX621dPwtlhmDfw8vNwafcsOF2MQN4ik3VskNL4sQvSZ5Xb3s1II5TmAZBShsuzaPDrmcJIAz9TNlen1sN47N_B9ykkL3QquDr284Hw-QwOLaXz6fmfmJQOwJ9z-3nLD-cmGEsELh5unbzeR2tJQcpY9juY-WZJaNAKoEzFu79jh0TBAVCsjDLRqRi1oHOuY2p73hdwroQs_v6JRM__JBdRJ9UGV4eUb76EMoVUAx5bRM1nbdOdZ0_aUzBqBcZD6iAn1zZ2Z4kVd9HYegfz9otYowwAEDr-7C16E9nAUVVOVZxRNzhhS47OJWg286-59cnkRF4UipAsC6Kdj2atJlNcQ8JMFRkR5H1R7PpU6S8-ELTKn9HdJskmwyy7JFx5jzJ7IG1eUbHDwjaaSfeD9pm14rOU0JsasyMULYiAVaCio2XoIPgylzyVFQOerJwAGCecZ1UUObfTMoEy15L8eYt3rOt6L96dRfNb1STT1Moccbo4JR9ZdkbCdsxtvHPehwwMjmVYPWKFVDWaa0MbedPKz38QU2p0NM-qBv0sk_iRLA0n24HHPCbD7TRlTDC527f1crG1ufeEhWz_xPdcBz-xEQFDoomjvejQq250VS7ldwRyHbHQ0ppdUW3CT78DMmymZMYg==",
+        "summary": []
+      },
+      {
+        "id": "fc_0e80dc8afdbcaef6016ad93594b68087d1b26237a50bbfb558",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"query\":\"TA-7 TA-8 TA-9 two-lane highway road closure diversion closed section opposing direction\",\"page_size\":12,\"continuation_token\":null}",
+        "call_id": "call_EpubeLYBWjTsccNBM9AyqAey",
+        "name": "search_manual"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "stage0_layout_selection",
+        "schema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "scene_id",
+            "layout_selection_status",
+            "selected_layouts",
+            "missing_scene_fields",
+            "selection_reason"
+          ],
+          "properties": {
+            "scene_id": {
+              "type": "string"
+            },
+            "layout_selection_status": {
+              "enum": [
+                "determined",
+                "indeterminate"
+              ]
+            },
+            "selected_layouts": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "layout_code",
+                  "layout_role",
+                  "source_locator",
+                  "matched_scene_facts",
+                  "conflicting_scene_facts"
+                ],
+                "properties": {
+                  "layout_code": {
+                    "type": "string",
+                    "enum": [
+                      "TA-1",
+                      "TA-2",
+                      "TA-3",
+                      "TA-4",
+                      "TA-5",
+                      "TA-6",
+                      "TA-7",
+                      "TA-8",
+                      "TA-9",
+                      "TA-10",
+                      "TA-11",
+                      "TA-12",
+                      "TA-13",
+                      "TA-14",
+                      "TA-15",
+                      "TA-16",
+                      "TA-17",
+                      "TA-18",
+                      "TA-19",
+                      "TA-20",
+                      "TA-21",
+                      "TA-22",
+                      "TA-23",
+                      "TA-24",
+                      "TA-25",
+                      "TA-26",
+                      "TA-27",
+                      "TA-28",
+                      "TA-29",
+                      "TA-30",
+                      "TA-31",
+                      "TA-32",
+                      "TA-33",
+                      "TA-34",
+                      "TA-35",
+                      "TA-36",
+                      "TA-37",
+                      "TA-38",
+                      "TA-39",
+                      "TA-40",
+                      "TA-41",
+                      "TA-42",
+                      "TA-43",
+                      "TA-44",
+                      "TA-45",
+                      "TA-46",
+                      "TA-47",
+                      "TA-48",
+                      "TA-49",
+                      "TA-50",
+                      "TA-51",
+                      "TA-52",
+                      "TA-53",
+                      "TA-54"
+                    ]
+                  },
+                  "layout_role": {
+                    "enum": [
+                      "primary_applicable",
+                      "cross_reference_only"
+                    ]
+                  },
+                  "source_locator": {
+                    "type": "string"
+                  },
+                  "matched_scene_facts": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "conflicting_scene_facts": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "missing_scene_fields": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "selection_reason": {
+              "type": "string"
+            }
+          }
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Search every prebuilt MUTCD section and Typical Application with structured BM25; page through results as needed.",
+        "name": "search_manual",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "query": {
+              "type": "string"
+            },
+            "page_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            },
+            "continuation_token": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "query",
+            "page_size",
+            "continuation_token"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Read atomic source nodes for a retrieved section or Typical Application and optional region.",
+        "name": "expand_source_unit",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "source_unit_code": {
+              "type": "string"
+            },
+            "region": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "page_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            },
+            "continuation_token": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "source_unit_code",
+            "region",
+            "page_size",
+            "continuation_token"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Traverse only an explicit cross-reference edge found in the manual graph.",
+        "name": "follow_cross_reference",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "from_source_unit_code": {
+              "type": "string"
+            },
+            "to_source_unit_code": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "from_source_unit_code",
+            "to_source_unit_code"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Read one source-hash node previously surfaced by the full-manual index.",
+        "name": "read_source_node",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "source_node_id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "source_node_id"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 19643,
+      "input_tokens_details": {
+        "cache_write_tokens": 1199,
+        "cached_tokens": 18441
+      },
+      "output_tokens": 89,
+      "output_tokens_details": {
+        "reasoning_tokens": 39
+      },
+      "total_tokens": 19732
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_0e80dc8afdbcaef6016ad93596bcec87d1b3382ec332a11961",
+    "object": "response",
+    "created_at": 1792619926,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792619929,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "Select MUTCD Typical Applications only from manual evidence retrieved from the full index. Never emit benchmark IDs.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0e80dc8afdbcaef6016ad93597949487d18e6c6a017936711f",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2TWZ8oZSXbV7oQawvGeQU_5mRHQuLq8zH-ypieERsYC3kWQF7vmi_VWMFx-iL_4Tr5YRlxKMxqpvffPwjxLEnyM_GwZ73Uc5Ju5pf-awiaPth0feABSP_HdtiGGTJsU84IvNHHO__PVDsSMh85l8WCpgfsF_HpHUn_d8MZBuPfp4YxHf3aSyZDRhUcwO-dxmGEA5J7MLHUYmZTyjVXVaQBGkwIJbplpGUC9Mz-58RNzlgPdeFDT5fk42v46ZiKYCOXvHNQAG71ZBNMx1v_L7eimgoWFanRm66VTUJMVsXeu_ctjNtkDt8bEuMqbyCIUlS_DCM5qYcxFIoZlaZGeuhUMzJbct9ZNphQN_7F8BdThTck8MceLRWdGU0Dzr19o8YuitkWOuzfsH6FHNP2zu_04VAZ4WwF9nUufTob7JJC67XhUxRqjT964SW0QA_rSzRZM4AT9dWT_4l_6ed8PF3sRsSsWCMtdUXIYHeiwenp9W60kHUA8NSYvBnmdx2Rgc0bnr7kj5Z4oNwwRmhMwPaE8MbVPhFHdEja5VIeLFGDXz7gpiBY0ebaUDyy_4acHULYrp3aypYctFHCvkmWhhVGG5WIBpRy7k09UZOPnFTcrGWsv59AeOJ-XIePxEVGV-1Ouauv68enGfPXsfUEz37wJdX6_ribzKSTokMvsN9icrwTqIcseGw1inXmJcTHyvS2vPXPfCVw1hJWf1WhLAOWVhte4w8IYUoEz9-JvyAomIqmO20q4q7U6KDKS4BMeB-h99uSX4Gg6DIEzSWQ1uK-e1Qf9hZflHoAv49VeO84Lo21M9lVrJHboK7mi5PHne_vttixa_vR0v2WDwoFvUSq97ALaisV0B1uUDtIPxP8O8Dhh4LbayTHIrrKi5y8OpHxJIMccWuvrbkabGupwBWXgPkEsgnCx-mh8fk5qY98hPioNYXfYtL5HXrM2h93LzOJOmiHqWxTzMz9ys7vrERzlxpFE4Vu8Nj8vaKVNyxHx7XVzmevmlrDdmyy-CskfV5cIFvfKEncKiAlLVy3Na6CMvm_rMI_NsMy1b0WptYZz1bXuEak15eOuAn79HRFi9CAYU-qKFcG5HPHvG48EhzBnQ6aVe0RFvEpGa5ZjKQ00-0j4j4f4apfPgD50NKDtuNxZDB38A5GWKZ68YigNoL3wLeeuSsJZcCdyDAB_CqSPoQVp7pYWYtJNUShjFZMrzM_ycJCqxds5W6c4gfg5ztv-Mm9Bx3VRTPzbL-x31EYBMTvGl6d6SIrhNPei8HbVupEgay02j5T3YOoppXdxTvSod4U82aEDKeTDFt4cdFR-sVQ4yQPqAaQz_naDz_QomtyPwmY1LLxtZv4sQQuy-OrYfBI8reNbrfE4tUXWQl5Q1ZHSp9agXrh4Dz7TkHBBbJjWpg0-6CcxfFdY7MVBGqfOqy-yI14xRi24cTHo6eiHY_j5ptxsulgt_aruSulw1n707npRH36i9_2i607uydHAeGHO0X_06qHiTxZBboTMbLvMUFMc2JOH-W1qrFj8WbTU6v3SatajTEMzz7DkJ0O3SeIhVPa-1AEJqd7nvMmUI8o4SmVD8sGhnHSZ9Ca_WcZHMZYBAH_gTrFmU7HNpya0hfbkMfm4q8BtzsDeb82fvt2iNIAZg5Tu3b8LMgBsXeqapUlVNIrh-TRzaZ5qnuIbj5Xeq7XOgYjFI4yBZMq7sCKmpys7OqYi-q7uebgST3pzPy8wwFAvlzKkqafDlumNZTSbUoWNPdxCSjMapTGzJFJvS7EJxPzizyW8uszrCJF0Imc-KfaejrE6GGYACbgXo0dLYsFfe0D1uLpjKbGBk_sKeLLudXnHhYHey9r-3L4NNVHwC0Doj3gco73DZBsj90JTxr9raXpE5tGFTpQTi9jXoIyC5QioeHpLwGFre2_FXsGucfUniTygX1JWL9WTO6xkcApSClpnVKWI_6j7wTf6Pf2lCQRzaUsKW6-Z_JtIf6IUAHOslfrK7wYodTU2dJlagN-Dd6znamqgOXg0T2gW6TU_zUJkvuFEb0T21Rgxr4RNK7cxgSf5TiNPJ7HhvK9vIoGuNzgtRv7tHzMlb3JBiYfxpLKMquKdOcUWR_phF9S7tEzzpy0YgCKqaFE7pvDPDO4V7Fi2AY2YRcTFryqOglwdpYQqolwCJxoxr64t4DRSyzkBOYBiT9-ufwFDGkGU5_NuGvoiEiZIfKW4us0mGzVWXrZDZju0037RjtMR-VWvx_zGYbHK7eZw1DpJTL-EBCnmpozHoLSsdAwSt43C1Nq_t9dwp7Udo8QYUNhxmKfbzYyuzEL7oPxJwcP4Mqw1w50tFFjH9H8y1SIr4UxKyKOfSG9EpBh4jNDi3gUrCMeRrouLGr-lXGF8o7i-_GVeVzyVTaamDHEZ3oQasO-P4XtBUWZJ1SxJ3Svrn0h29CqI8SRvoIAc8TP8yiy1hNZIlix9D5-lj5DfBX96fQRLNRePh9a6WElkPXh80UGZ6Y7JUuEXMwi-lRZVaTe8Mbr3dQ3cIfUR0n3T1nlqKQNnw6hOZtVwdcZEeC2vt8p9eB-0VnJdz5p2EXZrWYhdcBF53AxgThLDjWZ8JZnjUkbdYq0eMOIntqi8-LlsPRhk-TRkkkKR4U7KBXyQJJ6mnY3vm4XJ0LZ3iBcy-esn5jpVdutpBVbX7BYIGxhQbcSWt8ue7EZ0S9QteVlRgIELBB1VDPvoijUrSv8TnYLUUCwYu-NPI4gbcizZWa4j8yHSKcXu_dYIbVmeYaczldOAWDNN2UmCEVtvFCXFtH7NeYA4YayQOAKw6F1DNw05-uiP4jQETVIzrZjWsC0Z7u42Q8bqermL5mWjlJp9qAiEEvXzK0T2CpxXbdT_50eo7U8rEllHrYxnZ7qwIHgVNLzY6nXqlOagubQrs7In3QY34EFDCBAd018-slPuD0nfzPm2kt6PUjczrB9d7JBOX_-3d0dkNfYYlma7bKeJ8bkqCUsX-TciB1hnpMVftXEtAW7NKiA5Or1XzuJUaw5b-ETviQzqAqi--r9WjySQ9Qzq0TmFzNYbH7n4QlF64mZGnz7MZ39elho0HwPAtJUNXe6L_kGLa8YKlQ8kBunE5DyKb7X7rjT9Y_LadSBLUP1Lr4HNhQSECNN47hM1Gc4hBQHx9eVsGzZoFxc3-Q-PA4UcxtiE-8qSH4iJIq9-plaopcXudqAaSvIFEoTmcTRHWhjpi4NmOQT8HSt0H3kvRuu6J20NE8G8Sq6sPZ3hlwjGX7eHqxvnQUeEsDor1FQm6X0nAw-pK4z7e1syllby6y3cxfJN1PLQt3ooOnYl9YbuNvPVu5H-w_pnyYm7p_2owQ7ScW68g5J1LKuXkwO896XoF5pMQgLImyuknbufuC6odUeg-0J5YmbGk8c198BimZAdupqNGmLYNgl19LbeChtfrbIaMgBdjLr7HOCi4hK-Pn80mxNU1lRVooiOEilFZBB8YADrfNyS62E3KwukPKWmBElsQLwLgGl62bZp8zjlptEOZHXhFdk7Jpt6a8jL5zJqVnuEEl0pBsBi7_czevGAXYTM=",
+        "summary": []
+      },
+      {
+        "id": "fc_0e80dc8afdbcaef6016ad93599261c87d1b2b31c4f1a2fa8fe",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"source_unit_code\":\"TA-7\",\"region\":\"general_notes\",\"page_size\":12,\"continuation_token\":null}",
+        "call_id": "call_Tp897TLkpCtWkoMnRyHP6ALz",
+        "name": "expand_source_unit"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "stage0_layout_selection",
+        "schema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "scene_id",
+            "layout_selection_status",
+            "selected_layouts",
+            "missing_scene_fields",
+            "selection_reason"
+          ],
+          "properties": {
+            "scene_id": {
+              "type": "string"
+            },
+            "layout_selection_status": {
+              "enum": [
+                "determined",
+                "indeterminate"
+              ]
+            },
+            "selected_layouts": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "layout_code",
+                  "layout_role",
+                  "source_locator",
+                  "matched_scene_facts",
+                  "conflicting_scene_facts"
+                ],
+                "properties": {
+                  "layout_code": {
+                    "type": "string",
+                    "enum": [
+                      "TA-1",
+                      "TA-2",
+                      "TA-3",
+                      "TA-4",
+                      "TA-5",
+                      "TA-6",
+                      "TA-7",
+                      "TA-8",
+                      "TA-9",
+                      "TA-10",
+                      "TA-11",
+                      "TA-12",
+                      "TA-13",
+                      "TA-14",
+                      "TA-15",
+                      "TA-16",
+                      "TA-17",
+                      "TA-18",
+                      "TA-19",
+                      "TA-20",
+                      "TA-21",
+                      "TA-22",
+                      "TA-23",
+                      "TA-24",
+                      "TA-25",
+                      "TA-26",
+                      "TA-27",
+                      "TA-28",
+                      "TA-29",
+                      "TA-30",
+                      "TA-31",
+                      "TA-32",
+                      "TA-33",
+                      "TA-34",
+                      "TA-35",
+                      "TA-36",
+                      "TA-37",
+                      "TA-38",
+                      "TA-39",
+                      "TA-40",
+                      "TA-41",
+                      "TA-42",
+                      "TA-43",
+                      "TA-44",
+                      "TA-45",
+                      "TA-46",
+                      "TA-47",
+                      "TA-48",
+                      "TA-49",
+                      "TA-50",
+                      "TA-51",
+                      "TA-52",
+                      "TA-53",
+                      "TA-54"
+                    ]
+                  },
+                  "layout_role": {
+                    "enum": [
+                      "primary_applicable",
+                      "cross_reference_only"
+                    ]
+                  },
+                  "source_locator": {
+                    "type": "string"
+                  },
+                  "matched_scene_facts": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "conflicting_scene_facts": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "missing_scene_fields": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "selection_reason": {
+              "type": "string"
+            }
+          }
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Search every prebuilt MUTCD section and Typical Application with structured BM25; page through results as needed.",
+        "name": "search_manual",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "query": {
+              "type": "string"
+            },
+            "page_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            },
+            "continuation_token": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "query",
+            "page_size",
+            "continuation_token"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Read atomic source nodes for a retrieved section or Typical Application and optional region.",
+        "name": "expand_source_unit",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "source_unit_code": {
+              "type": "string"
+            },
+            "region": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "page_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            },
+            "continuation_token": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "source_unit_code",
+            "region",
+            "page_size",
+            "continuation_token"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Traverse only an explicit cross-reference edge found in the manual graph.",
+        "name": "follow_cross_reference",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "from_source_unit_code": {
+              "type": "string"
+            },
+            "to_source_unit_code": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "from_source_unit_code",
+            "to_source_unit_code"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Read one source-hash node previously surfaced by the full-manual index.",
+        "name": "read_source_node",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "source_node_id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "source_node_id"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 24376,
+      "input_tokens_details": {
+        "cache_write_tokens": 4733,
+        "cached_tokens": 19640
+      },
+      "output_tokens": 208,
+      "output_tokens_details": {
+        "reasoning_tokens": 167
+      },
+      "total_tokens": 24584
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_0e80dc8afdbcaef6016ad9359aabe887d190b1b3475f13e103",
+    "object": "response",
+    "created_at": 1792619930,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792619940,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "Select MUTCD Typical Applications only from manual evidence retrieved from the full index. Never emit benchmark IDs.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0e80dc8afdbcaef6016ad9359b604087d1aa8862557d0f30aa",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2TWkB50HIqYTpBfYwLsNtNBahW-dlXeHk2tLLESwJo97XmWd7KsUK_Zxl2WL1M8At1uu2-mQPUJ7REXHULYhnXyjiJ_3LRQnnvG4tV58w5-8EoTp_uNXeuDX9yfvl7sDvDrSVW6QjwVqsGtCauPvl4zmIUTI0KhRBgdY-t6lJkICID_Sw92br3WnEhxJKHYMPSFncVcQTvBHWNqgQ7tFZxY9KG1sHKOrb-7UtsRFp-ew2gBpt0AChmfKGhog9AyA1ttNt0snrJAET57FPJgu25ebFgC_7Zyua35Bs79ZA5hhF-0_0t-i5wtvdKQ1R-qpryJltZza5hTUY4JXpE7fD5j-2dci32bBndTj7xvO-sapQuMIAw0lCGU0bS5_-MwTF4Z9ZCb_Cz2pYj3mmDJE6eTXBC5a6C3_6urFdlTtix9QsxvXBJSFMvtMtXSed_4Bg825VBrTFtdwzeaQYzWqd9Hm3T6sDmywUsIzePwCScFG5vJFgbZByGZ73qgdRS7SG_ofWemwheuYfRfVoIhOlWv5246wzrDTO2mxXeB2xjgBqelOVBKtX1xmB_JyGmiMYSYRfy3hC2xkk3-dWZhEBDIQQRliqFvcpoNwdqI9ZHNm-doGgKXKWzoVXJiFVECQU_vT0yJXSFDuE_MBW0Cudk-Z_6B9j4cPc7I70GK-FD8XVzyQwkXXWMAcPUC0Bzu3QgnXOoJZcrx7BrShk5B6V1BqIv-e6VqETO9K-rY8IqxJiQBHYgp6M1sIE0IqJj22kOuiXLnMWzWCy53qdBUbxlKrc5CHusEHWybMJdi1wcgyFvkh-ARW3qOQ78vw6wDPZZeyC4Z-3zuc7h8F0_bqwkMagi17wh4iW_4W1pEALD1OXMxzw4umRJ1MDtf7JtCbGqnXJN9MxBlM6GwPUmEhq7hf1yQoOphA97soBP0men8zzlFN8HmslU8AkZ39O-LMyJGMudGV9VRYjP0RIsUD_phm_ceaa2PxNBvxE2Oc3HxJHhuLrGekfOTTFHbw19xcMckVmcWI2G0Ndi8uqS_n7271PTRUpL6k64v6Zm05MTePzC9PmulBwhFOnCfL6ozP_Wq6ID9DBKVUJrjw_2zgN-1Sah2IIb1Hmy1FP5t-juKSPyYHVnGhJmDQV6Z2hKO2nwBGEOGikECjlQOOSxftzhyVH4O5ZZF4nUAwSn8Loq_jZwgXLaw55TqYCy-EJm62HVRnt1djVBXUtlvBcsekXfnuoyWlzV4VtUHgc92eFTtRQGijvYFfxczZI14Ww5kTY2zRlMB2Rt8QYpaU0V7jGkQkJ0VOfzCHuT5T0m-RBS9wg4z_4-Ma70cTZJAGfxlB4ARQKfYusD4Joo7DX2hy_39quQ6t6NtYvC82eMYZ8dP_SZFH88Jz8WBxzZtp3tEg-dq62TVunlI6u_ckY3hhSZshxBxrBIeVtMMLMOh8-MNlHpEiHXGFoISu_pP_6Urp5-flOBqI8P-8qWrngH7uQ65Amh4ArRpJB-lnpSWzvBxaEwpTFqII3BBqXMataGWbz7y0dblVmUjsWSOWFkHd4C--GBc3u_O8F048IZS9jOnwSV8s1cYLLGWvGBYignFzR8xdu38rG8ZW02TR8hI2bSmK_vjLrX6FeQsxIqgZwF-K_hN5k9U7SFP95JcUnrfRBaRPJwzpCxTyhLLq7MMkVcdR61Hv6Pfz2CKTL8ZCRN5ForugImbsG088f2BmdjlEqdVJG3MzoHrRph_564K7tXRMGUqCjMmI5sZZn2_6OrvKkar0yTRPWxOrd5UQ4QNYq21RYCUBWT9ZDlq3183PsoDeaLiH8WxygA7UuDg66GjElXD0UORyzX5maz3OuRnrrXOzwaKSLFK71AZ4zjXY5j9t5K4aX1-l3ZnXWsyC3JpXuqBG1Olezywbqa5F1MHqSmlVcxUTlKYB173QjG7qF2QFumGxftcrjGn9mZxnmVqjiAQ6qMXRqGh5hVYMA-aBKdljsyB5kexmNaw7C_7eSA5GBb-VhtqGGmuUPs23F8MCqUK1wYKH1jdwrzqNBDU8ZA7VDv6tG6TlY1YxakDHpvIDG_Wr7m1SBjB4Rhp-QQwYAkYigWtk1j1ldGaQFGfIdRSzJi-IQg16pFBaMdvwsvZoAhvWr3XSjJ0V3y2HSASN0AbUPcedmIyu-rnlyL9XfjcZx12rTf7pv0-gdTCTMkY03POha45seHloLMqwkzMPXefOMZCdFa670aag0pojllHRZb0WvYnb9d1gYe8gx44o2fX1EP7GXpQR0kRfnAriwhjgeytMQmxx0ACh6tKOHbuZVOeH3RoyxxoV7BWsCb_hc2yepUzpnnrVUwGowuO7VQz8yru7mlcNmZBZ12p_XVZp8ZlfbIaED3df4KYSQdBW8mXBzzYH04vDUCRazdUtBUsvZPNSm42QJ4jfSBkid46vZyN0mABJ4IIKiqVy16cao-uWl8lRAUpjYENTmRV7bN5Q4VXaahKJ68uFyuYHTCh5ZUsZBR8EjC6tAe_rP4VxTrCWPW6PNHjQdcaf0-pkH45NQyP6cuYCneCwB-sgwFofQ12HOntqIPt_aQ_rSBU46MVWsWGmcDAvCQOSOnrgqAqQkbAkg1nLhl_aqfrzMaqBdoW6b8ERO7Oqnuv-aGZs-qT0Q6LvTHLAhyqP01Fmbf49EO57SFVebnEzpZ8R9Ry9SmtGwQGOFJOr2soloTxeu5IYWUG_7Aqz38qTNHMpD9KVw8smKbnznLoBiG9sHMOh9pwov0fZ7Nuj6VMhCzozmLFIYeR1zV7kz-shn3RowoOkEQ9ap9FadCnVzDmZCjEYh9bUYruFx1uW3N4hAvQFu6uo6EIwm24sxuASgv9CSo8ct6TA3HdgxmJ90u4E0slCGEdl8cM3289UFioI1derlStlhrJCErBeGPxnKAaiiJ98nQ1nd5lp2gyrqgaZcz6bPwF8MjXKX431OghIYWTd968v5lmno-_-AS1imBd6zL8zA_V2-MG7qwp37chcNbrk0bi7c6968_9_aqOsQNsqhPLvAts4tcuqaho1UKXB46Nlq-HEaUXYBw-YaR5rLx92Y_1NAhJZzm2X_zyTTb42Gd_0z40hLveEDYNymcS681eB2hkcpjffHOMXPFAoMVwP47U2cnahPSxKsQE3W4kEIoFkc-hjlnOJu9izsDnCcbTji5bTCSteBsZnaoPQTnJmbNIVwiN4tSHNfuklmvCx1uOIqG-OMwZhC6v-YpI_FaSgBH7BR3qP_bJ8T4Ixof0rENEs_iCdvcQTZAL2fVakBQSI7CizqXgaAHA8fI2n9oY5wuMhZFqHzR5m29wTiaMzX7EXGqJH_9Z_TwiAMr_fyE9ChK_Qf1w-BXTd1Ukc-roJH-3T_IJsRZIl5U06y90b2r8pni5qsVs0A3y5Tb_XgsS2VsE8Wk1NHOrzm5fBXi8RCVajBNhCeMreCP5o4hKvCBj7Kp3vovI1dWnbNpdnbLFnFGcAetRjyM0Ey7WNPuUX968pM7UPC7E_LSwcwzHIAE-iYrzZ26LJ3y5KDS0iGJjb0D6qcVlPOMCimFFYQj_HHTegOFX2CdjkjcKK5GbPLqj9rU-ONLnElr0Ze0xm-kh-kpqRz4QdQAoI0YGwj77jOxXo_Co1jC969QnW-c6RgTXmTBzYBfd1Bc53biUkbK4O9lBcImY3fcrMADmApuVbcSRmUbzE3aOthbFk8PGtN0EM_7XZjyFE6QPLH7oD7mQykM_xbG47lX6OvbbtOwpyfz8pZj6LGrywfDrzdBmDXAkszbWCFPoyRBThPQ0iUB4_Xd9HQIIwl9UMCByC3OQPz4skEy2F866HpKv6GabPINJn4z7wRnWh5kA5xs1mcvr1eshH1IOU29rSNptK5S6EDsf96cHqH1CAf_CDcRDl0Nb85o3jCXDMLOevzn_vN1HJ7Q94uRplY7EgoJ-cOmKim6GhHJUb5dusD_aRvw7zJYWN3dJukWZ1IoF2QwmhD6vbdAJqOlVlCnyqta3KrDFnibxhT_FsPCeg5ezY6JHzFoJ0MykU5aBD0nas_LHhXSn1mHkzxPWdWn-8zR2OzAMFMuUZDVE0HXE01jb1ttNAUQStGitdk0b2gRN-RAnNWJbZbzAK2VDxRHW7nngmCc1a6_IEiWZJUcNuWhp5lDCHZXX_8SOb3U2pTEHdv1xF3N_XEG9QuuQx1Rmx_CSyyXv7UxCvtcZqrIl8u2qDHDpBVBCctky473bwVYn5GgqrlG7WKQFVvNjKJhNIPd52LifSDLX-T017KJG0JwwldNowo_NrOmZVKkIiD_M4XxdfpPgP0DzoXTcnWIi6_KesNLKYiUNOGWRakcigFWPcGJtoLLqNCTCsR1MCvGYZMj8uvqss1SvG8XEeFQYNhmDZ_835uVYJH_r9WWv7caLLL4QEaHespOayP9Czw5U2ql6Mj8wMIj0zVlfDDsQXV_aSBLtCX_7AZYn-SWb5EmHszfcquVYcY5vrbRRbSkYoh5ai3asENhPPG7dr_Und3fslJIh_4_Ix77I6yNfrSya8ALGXhT4u10yhf8_mWqKrugHjxqdHfyCaXBJ36afj888nFISnPFqorXJq0yn0Ke1XKcQpD68dO-2dMYyqZGVbHwtjjLQHLpWzB0Uwvh_6D7ippq-17UcjzHuRR3YKleipn_8MK7mPgJyfeGixOmXdaEDt5MmdZtax6nLtxh0_StHPkao6968k5vRZW1LY67-T99DYGpJnX9GRTTvMxjSfvtE3tcTgNSm7RJQIqC2qvjrWIJ6plqshOYJ751gVoUtX446D8rr6xwj6KSNJOAGMjvzThN0oBa7YSd5J8y_Aockmp-1ZzHUVdJC38_aaDrPl4NYWfa4AAdfTedoztT_raMG3SaCi7IJ2UJZTnNbTKSKW0Bv3I4_DBmQgAsbZ2fh-1bbwqEvDO7xUi4RwRsgqLlgm-2x2y6wjTZmh-DGi-8Xzsnh9rApvnE-ztbNIHbC1GOMf1B2_1yb-DshsyFeUmDg-HToq7hniuXTYlwGknVcPMNZHmCJMkxo6zP9tbVPVQvsyhUE4JrvaaFTjEkZEh4G1lc1n_dLaOKLticjhArEifmCafMAeXhYmIAiKG9RokA4bofj46GvZSfC9H_nmpBJDT2WLw01fT2XXIOpfkRwK0xI_MV7kepfthLPMEkP11B46f0C5Q204WupYbEk9Q2IRkHxi0dqR99fVIGTwmfGpfCszTo3eXdes96GaZdwnE5QRuFpz9jpR_PgSmm5LtE-r-qUkkAbzO3xRu0jUlNc-HgxnyqioV9hhiIGMb5Gu1HxbsbRkQUnaZCgDvuYdSNzC7ikZGW9E274HOC7q0HVZTxEy50lVIewQfyMFNpRsNDAMpm0Vq4QVZBMnFRWrIh9GHQ3IbA4ndUYOA9BAFax3kTy0-HlsxxrxM60Qx5b5hACKR1r5xOQljk-rSZNvFjV7uE_ojNjzk6ekbcvKbAU285jR_mvJWHwS-noHIMoUe0zNh8MW0qTK0Lj04CvG57IWNEmAwmSNuAADrGCcBEqkW1bHfSkfAwamUqopwOKYb6NYM_lZngPYvALGbco-ek49E4HS9oxNo-8GGigsCcInlw2DEHA5H4tTx5asc8QdF9QewRp4eIWLoRKIopjyyRQDKsJQquHxAjx2eIAwEOCmz3th1g0jYHyMMfm-zg54xMRExgw-pIy-u9VhLsJJ4pQjhhgW7WnVaWomQGr7f44UU36SHBnhDhNp7pbWsCfY1FCg0Mu_7tnczi0czYYWevmaTJwIXoAuqvtEZ1AP960EJn93V4kuCZPo4_msl6tSO9VcbMl3JgYaBpfDNI8qzNWrHVtHgflABer02RByODxVp71-pZzSvOaFdpg0HIMZapqnya8s5a8q_F0XNl9hxhqqS1nc8OaZFr9ieMTII-MOSQ3hOcWjpKUXeOhaiU7UwBQPSzeuqOYl524S5TCH4e9UYslCZcfVrRs3WItubEAzA7fswKs2Rd1FuP6y8SqCA3FUMLXy5XcMzawk-3UynnlLPs01d02y08G97yBbRJXzIaAwyD_-rBJfN8jFlBiheSKlV-d409SQtb1QX1k542sEU_3HbQSAu9-c46Jo89Ynp6xy8BU1-uRe8pUf_jVsRbcULD1nlY2oegcoolxY1lazt-wELv6K5M1xZsAETG3G0ioamWKw-FYOv60_xVPSzFomQRYOyz8y1_gWONELvR0JCurZKV69Q6qSQ8uNKRqIRL5f68GW1MR0GvwkwCciJgLHFOPgCwocNDGPtGaCPT15Kiqc6wwbKEbimBM6xamDOSOJDCVp-SnIPrcaOWWX_GkjN9YuPuAjGTVjtoz5nFN3SeLbQri_mg-7TZigV3Eab10YdN-y8gXhm3QkckmyiISyU3GfTmgf9OLQRUWTIYdwCDDH7A4rYlba4l78h2JUed-j3u-uafADjmGMPeWbhur7PbkdErUKJg5xf4s6GHOCZD1OrCxOhjQjzjN-s8XDY2j5RNgApdWfZjhbTjazfDY_jkXR8oSWFBRHzRpxx440pJzXcl1afJEPlTulZxLV1NEpA5cOspqx5ZahDbMz7PStImeTVZIDg97FAUFRDOhYbSwdy6htE2Tilfkp0NvDAlsJY0LkoijglvQbAIszVDjbW7JGm_jr2BzeNZwiV3p-P5xuZgd9esZCJQaFowh6k0bz7EkUFgj7u6wOKj6-RGKr1Rk28iFnB-vOhM3X9jnIucD3_FT_nC_rW_tKRp9Lr1qEegX81Z--hSUZYDXunUYygMkIjIsF79PhKF77YB31fCDPGzfcKDh-SVDc3ibuzasK3gM5HGQFUUwTZ3Md44U8fJBcpYHf0mnq058r1OZK8U1Zoye4mdCb2MONYSqFmaZcX6h6-sXO4DgYWc197O-tOkTDqbmKvJfOsf4IUiBTzVyMVQ24VdWoEeV1SZQUFKjosdeucqbpEKuHoO446EwTNs3_rDbEm1Eh1LLMwHZQeZ3XyPEa2UmT_vXPxrIPwCGxc3f3tkeRb9voR3MPtycvCheIggyyDx9ICAz7WKIR-bqPaNiN5vTB-YjDxnNUeCNiZ14asQFs2-LZD636OLm42ABV3d0WmyH3_H_BAOK-RVkZpWMJKG8qEdPbcU_fnkOI4QhjXmSixZrLTn0sRfo5KKGhoYtQucEo4f1wldZqbzQGJBrRCgk6DHFr6BVmDkJXLuiYa5n7iBPvUjrVgKE1NDnd-MKDERYgC_tunluJE-hcTm9sTk28efRYrwk58gC7aLnKMU1C0rth7dGqkCbK-ajGF8QUBFnE_IKnOTFYfHAceqT23n2ljsGXVJDmcco_fK9cqcKUZbWU4dvREWh2XJOMCTYq7vD3kgCgHZSqGbJ0KlVX59U00fpR24aYPATpjXX3BotknfAnqJruEe467o7knP2LWPVZ7mZvzi651O9KV0EwkNbLCUxtZQg120m48iYm_9qAyurC64Iuoj6YASOx3kbmio5zuW0SrrhxofipZ2KcTpDHoeYacOaBEO7lPV5c-2o_vUYsiOaZs_S2Jb659pUk6DVXXw4bMcRX3_Fj0nHFWLgJyMAiW0TaSpf_WTP9xpCyUeIpiYGMFYOi6anyBI6LNMB-gakV4BX7FDg_2vitrKEAeqII4Ue1_YKquzK6NLcf3e1WxKT5BQa7cgGNe-erUWRvG8PO8sRH9d9qMhcA5EfAHupWF4xtYAjpq70-BW3PXlMpUpa9VpkrUTV0h50OsAie_P-rf1V8xTizWR8RayFSKRyB4-2hRKuXOSvggvtgEvIYwDzsh38q87KuOz6T-zEZGshRGJfL8KV1HwNaj-MagCwBa2nHKWHS_SGtch1kUivP70-Gzaxci3QzdvIyFVFM81fKyzceP77E5i9yBB2HAimIZ9H-t_s7HALG_v-uc29gICepim6B2j-PvQuCzoFuxktZUeiB2PdKAWDty2GpGG0aMIlaKADEnfF0ggwLiPd6afuxVVTk4rxldXorwnuysphnBSNJ4O7icRPjvybIi0E8EOCl98w6mDqz0obu3Ib1hH4WsF9an4wfsAEuLyWms1k4gMKdlpJIsTwblyeWTV0__9kXbm3ohWz4kqh68NJ7lqObF1OQ0hzxwTLMWuDMp_oOmcABXg==",
+        "summary": []
+      },
+      {
+        "id": "msg_0e80dc8afdbcaef6016ad935a028f087d18561d7290c227222",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"scene_id\":\"scene-CATS-15\",\"layout_selection_status\":\"indeterminate\",\"selected_layouts\":[{\"layout_code\":\"TA-7\",\"layout_role\":\"cross_reference_only\",\"source_locator\":\"MUTCD Section 6N.09; Figure 6P-7, TA-7, PDF pages 912-913 / printed pages 872-873\",\"matched_scene_facts\":[\"Two-lane urban roadway is visually apparent.\",\"The opposing-direction lane is user-confirmed fully closed.\",\"The manual identifies TA-7 for a roadway section closed with a temporary diversion.\",\"The work duration is less than three days, consistent with a short-term work context but not determinative of TA-7.\"],\"conflicting_scene_facts\":[\"No temporary on-site diversion or temporary roadway alignment is confirmed.\",\"Actual opposing-traffic routing remains unconfirmed.\"]},{\"layout_code\":\"TA-8\",\"layout_role\":\"cross_reference_only\",\"source_locator\":\"MUTCD Section 6N.09; Figure 6P-8, TA-8, PDF pages 914-915 / printed pages 874-875\",\"matched_scene_facts\":[\"The opposing-direction lane is user-confirmed fully closed.\",\"The scene is immediately before and alongside an intersection.\",\"The manual identifies TA-8 for a road closure with an off-site detour.\"],\"conflicting_scene_facts\":[\"An off-site detour is only expected or proposed, not confirmed.\",\"The scene does not establish that the entire roadway or the relevant route is closed and signed for an off-site detour.\"]}],\"missing_scene_fields\":[\"Confirmed opposing-traffic routing: on-site temporary diversion, off-site detour, or another treatment\",\"Whether a temporary roadway or alignment exists within or adjacent to the right-of-way\",\"Whether the closure extends to the entire roadway/route or only the opposing-direction lane\",\"Exact work-area limits relative to the all-way-stop intersection, if an intersection-specific Typical Application is intended\"],\"selection_reason\":\"Manual evidence distinguishes TA-7 (Road Closure with a Diversion) from TA-8 (Road Closure with an Off-Site Detour). Section 6N.09 identifies both as applications for detouring or diverting road users on two-lane highways. The scene confirms the opposing-direction lane is fully closed, but it does not confirm whether opposing traffic is routed through an on-site temporary diversion, an off-site detour, or another arrangement. Because that unresolved routing condition determines the primary Typical Application, no primary TA can be selected without guessing. The apparent roadway form and short duration do not resolve this mutually exclusive choice.\"}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "stage0_layout_selection",
+        "schema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "scene_id",
+            "layout_selection_status",
+            "selected_layouts",
+            "missing_scene_fields",
+            "selection_reason"
+          ],
+          "properties": {
+            "scene_id": {
+              "type": "string"
+            },
+            "layout_selection_status": {
+              "enum": [
+                "determined",
+                "indeterminate"
+              ]
+            },
+            "selected_layouts": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "layout_code",
+                  "layout_role",
+                  "source_locator",
+                  "matched_scene_facts",
+                  "conflicting_scene_facts"
+                ],
+                "properties": {
+                  "layout_code": {
+                    "type": "string",
+                    "enum": [
+                      "TA-1",
+                      "TA-2",
+                      "TA-3",
+                      "TA-4",
+                      "TA-5",
+                      "TA-6",
+                      "TA-7",
+                      "TA-8",
+                      "TA-9",
+                      "TA-10",
+                      "TA-11",
+                      "TA-12",
+                      "TA-13",
+                      "TA-14",
+                      "TA-15",
+                      "TA-16",
+                      "TA-17",
+                      "TA-18",
+                      "TA-19",
+                      "TA-20",
+                      "TA-21",
+                      "TA-22",
+                      "TA-23",
+                      "TA-24",
+                      "TA-25",
+                      "TA-26",
+                      "TA-27",
+                      "TA-28",
+                      "TA-29",
+                      "TA-30",
+                      "TA-31",
+                      "TA-32",
+                      "TA-33",
+                      "TA-34",
+                      "TA-35",
+                      "TA-36",
+                      "TA-37",
+                      "TA-38",
+                      "TA-39",
+                      "TA-40",
+                      "TA-41",
+                      "TA-42",
+                      "TA-43",
+                      "TA-44",
+                      "TA-45",
+                      "TA-46",
+                      "TA-47",
+                      "TA-48",
+                      "TA-49",
+                      "TA-50",
+                      "TA-51",
+                      "TA-52",
+                      "TA-53",
+                      "TA-54"
+                    ]
+                  },
+                  "layout_role": {
+                    "enum": [
+                      "primary_applicable",
+                      "cross_reference_only"
+                    ]
+                  },
+                  "source_locator": {
+                    "type": "string"
+                  },
+                  "matched_scene_facts": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "conflicting_scene_facts": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "missing_scene_fields": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "selection_reason": {
+              "type": "string"
+            }
+          }
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Search every prebuilt MUTCD section and Typical Application with structured BM25; page through results as needed.",
+        "name": "search_manual",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "query": {
+              "type": "string"
+            },
+            "page_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            },
+            "continuation_token": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "query",
+            "page_size",
+            "continuation_token"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Read atomic source nodes for a retrieved section or Typical Application and optional region.",
+        "name": "expand_source_unit",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "source_unit_code": {
+              "type": "string"
+            },
+            "region": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "page_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            },
+            "continuation_token": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "source_unit_code",
+            "region",
+            "page_size",
+            "continuation_token"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Traverse only an explicit cross-reference edge found in the manual graph.",
+        "name": "follow_cross_reference",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "from_source_unit_code": {
+              "type": "string"
+            },
+            "to_source_unit_code": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "from_source_unit_code",
+            "to_source_unit_code"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Read one source-hash node previously surfaced by the full-manual index.",
+        "name": "read_source_node",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "source_node_id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "source_node_id"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 26507,
+      "input_tokens_details": {
+        "cache_write_tokens": 2131,
+        "cached_tokens": 24373
+      },
+      "output_tokens": 1050,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 27557
+    },
+    "user": null,
+    "metadata": {}
+  }
+]

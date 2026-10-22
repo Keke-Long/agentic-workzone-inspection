@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "kind": "google-docs-trusted-read-context",
+  "target": {
+    "documentId": "1e3KD9OhqH2JJFUhKSBKqXsOFD_YIzEOtp8wBPTfjZeQ",
+    "title": "workzone论文",
+    "revisionId": "AHj4eMTCpRpTsNIdhB9jtGtSKyLiGw96c7iXJ9w10NAkDoAEjgqFO8QFNa6nltSzx9XeIo0eOQ3l39IsvcfqzZatG_0nHhQeRA31m1jkkmo",
+    "documentUrl": "https://docs.google.com/document/d/1e3KD9OhqH2JJFUhKSBKqXsOFD_YIzEOtp8wBPTfjZeQ",
+    "selectedTabId": "t.0"
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "derivedControlInventory": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "nativeElementCounts": {
+      "inlineObjectElement": 1
+    },
+    "tabsScanned": [
+      "t.0"
+    ],
+    "controls": [],
+    "nativeElements": [
+      {
+        "type": "inlineObjectElement",
+        "startIndex": 7799,
+        "endIndex": 7800,
+        "tabId": "t.0",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[24]",
+          "tabId": "t.0",
+          "segmentId": null,
+          "startIndex": 7799,
+          "endIndex": 7801,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": {
+          "inlineObjectId": "kix.yk7pgzyqq8jz",
+          "textStyle": {}
+        }
+      }
+    ]
+  },
+  "editGuidance": {
+    "advisoryOnly": true,
+    "requiresTargetedPreservation": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope.",
+    "warnings": []
+  }
+}

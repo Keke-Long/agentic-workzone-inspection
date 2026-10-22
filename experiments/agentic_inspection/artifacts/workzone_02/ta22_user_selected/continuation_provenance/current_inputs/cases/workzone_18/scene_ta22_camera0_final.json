@@ -1,0 +1,120 @@
+{
+  "schema": "current_scene_v1",
+  "scene_id": "scene-CATS-19",
+  "source_case_id": "Case_18",
+  "source_raw_root": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18",
+  "status": "preprocessed_sensor_pilot_pending_human_bbox_review",
+  "scene_facts": {
+    "active_work": null,
+    "available_width_ft": null,
+    "closed_lane": "right",
+    "inspection_period": "daytime",
+    "lanes_closed": 1,
+    "opposite_direction_image_coverage": null,
+    "pcms_deployed": null,
+    "posted_speed_mph": 25,
+    "roadway_configuration": "multilane_divided",
+    "roadway_lane_count": null,
+    "work_duration_category": "long_term_more_than_three_days",
+    "work_ended": null,
+    "arrow_board_deployed": null,
+    "arrow_board_operating": null,
+    "arrow_board_display_mode": null,
+    "arrow_board_direction": null,
+    "arrow_board_at_merging_taper_start": null,
+    "fact_provenance": "Assistant visual interpretation of Case_18 camera0 at 54.999999/59.999999/64.999999/69.999999 s: a right curb lane is channelized beside building work beyond a signalized intersection; median separates opposing traffic. Provisional scene context, not human-verified ground truth. Null means unknown. User confirmed intersection context and requested TA-22 first; only camera0 is admitted as visual input in this run.",
+    "scene_context": "Urban arterial with a signalized intersection; right curb lane channelized by drums and cones alongside building construction; pedestrian sidewalk adjacent. Full lane count is unknown. User confirmed 25 mph and long-term work exceeding three days. User describes the site as combining TA-22 and TA-33 characteristics and directs TA-22 as the primary layout for this run. Only camera0 (CAM_FRONT) is available to this run; the user excluded all other cameras due to poor image quality.",
+    "posted_speed_provenance": "explicit_user_confirmation_2026-10-20",
+    "work_duration_provenance": "explicit_user_confirmation_2026-10-20"
+  },
+  "raw_images": [
+    "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__20099999.jpg",
+    "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__23999990.jpg",
+    "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__27999990.jpg",
+    "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__31899999.jpg",
+    "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__35899999.jpg",
+    "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__39799999.jpg",
+    "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__43799999.jpg",
+    "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__47699999.jpg",
+    "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__51699999.jpg",
+    "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__55599999.jpg",
+    "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__59499999.jpg",
+    "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__63499999.jpg",
+    "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__67399999.jpg",
+    "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__71399999.jpg",
+    "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__75299999.jpg",
+    "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__79299999.jpg",
+    "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__83199999.jpg"
+  ],
+  "accepted_observations": [],
+  "accepted_observation_ids": [],
+  "confirmed_device_condition_findings": [],
+  "invalidated_entity_ids": [],
+  "perception_evidence_policy": "human_decision_correct_plus_explicit_expert_or_user_2d_confirmation",
+  "dataset_root": "/home/data/workzone/klong23_agentic_inspection/case_18_camera0",
+  "metadata_root": "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/CATS_v1.0",
+  "data_sources": {
+    "device_inventory": "/home/klong23/workzone/experiments/agentic_inspection/inputs/case_18/device_inventory.csv",
+    "reviewed_bboxes": "/home/klong23/workzone/experiments/agentic_inspection/inputs/case_18/bbox_review_decisions.csv",
+    "observation_ledger": "/home/klong23/workzone/experiments/agentic_inspection/inputs/case_18/observation_ledger.jsonl",
+    "expert_evidence_confirmations": "/home/klong23/workzone/experiments/agentic_inspection/inputs/case_18/expert_evidence_confirmations.json",
+    "user_adjudications": "/home/klong23/workzone/experiments/agentic_inspection/inputs/case_18/user_adjudications.json"
+  },
+  "provenance": {
+    "processing_manifest": "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/processing_manifest.json",
+    "visual_context_review": "/home/klong23/workzone/experiments/agentic_inspection/inputs/case_18/front_review.jpg",
+    "calibration": "User confirmed reuse of black-vehicle calibration on 2026-10-20",
+    "reference_status": "Limited assistant review of original items 9 and 13; independent applicability reference and human bbox review remain pending.",
+    "confirmed_context": {
+      "posted_speed_mph": 25,
+      "work_duration_category": "long_term_more_than_three_days",
+      "source": "User explicitly confirmed 25 mph and long-term work exceeding three days on 2026-10-20.",
+      "intersection_present": true,
+      "layout_instruction": "我认为应该选TA-22，因为考虑到有交叉口，但其实现场是结合了TA22和TA33的，你先用TA22做吧"
+    },
+    "layout_selection": {
+      "origin": "user_directed",
+      "primary_layout": "TA-22",
+      "context_only_layouts": [
+        "TA-33"
+      ],
+      "user_instruction": "我认为应该选TA-22，因为考虑到有交叉口，但其实现场是结合了TA22和TA33的，你先用TA22做吧",
+      "record": "/home/klong23/workzone/experiments/agentic_inspection/inputs/case_18/ta22_user_selected/stage_0_layout_selection.json"
+    },
+    "camera_selection": {
+      "raw_cameras": [
+        "camera0"
+      ],
+      "channels": [
+        "CAM_FRONT"
+      ],
+      "source": "User explicitly requested retaining only camera0 because other cameras have poor quality.",
+      "selection_manifest": "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/camera_selection.json"
+    },
+    "continuation_authorization": "User requested completing the remaining steps after seeing the 13 registered items and their applicability caveats."
+  },
+  "inspection_scope_reviews": [
+    {
+      "source_node_ids": [
+        "src_0782ada99cead9bb2cea"
+      ],
+      "original_item_number": 9,
+      "normative_applicability": "indeterminate",
+      "reviewer": "assistant, authorized continuation; not human expert ground truth",
+      "source_locator": "MUTCD 11th Edition 6B.08 paragraphs 13-15; local PDF page 816, printed page 776",
+      "required_condition": "One lane is used alternately by opposing directions of traffic.",
+      "reason": "Paragraph 14 inherits the one-lane, two-way alternating-traffic context in paragraphs 13 and 15. Current Case_18 facts establish a right-lane closure on a divided urban road, not alternating opposing traffic in one shared lane. Do not apply the 50-100 ft limit to its merging taper without evidence establishing this condition."
+    },
+    {
+      "source_node_ids": [
+        "src_ec75a38ea2a490acf832"
+      ],
+      "original_item_number": 13,
+      "normative_applicability": "indeterminate",
+      "reviewer": "assistant, authorized continuation; not human expert ground truth",
+      "source_locator": "MUTCD 11th Edition 6B.08 paragraph 12; local PDF page 816, printed page 776",
+      "required_condition": "A downstream taper is actually deployed.",
+      "reason": "This is explicitly conditional on a downstream taper being used. The frozen scene has no confirmed downstream taper or reviewed endpoints. Preserve applicability as indeterminate for this continuation; a later reviewed observation can establish it."
+    }
+  ]
+}

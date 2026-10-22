@@ -1,0 +1,1796 @@
+{
+  "regulation_retrieval_calls": 0,
+  "retrieval_queries": [],
+  "retrieved_chunks_nodes": 0,
+  "retrieved_characters": 0,
+  "point_cloud_frames_processed": 0,
+  "points_processed": 0,
+  "geometry_tool_calls": 0,
+  "map_web_lookup_calls": 0,
+  "image_files_returned": 0,
+  "cpu_seconds": 0.0,
+  "measurements_saved": 2,
+  "speed_evidence_saved": 0,
+  "external_query_sources": [],
+  "external_queries": [],
+  "tool_calls_total": 63,
+  "tool_failures": 5,
+  "resumed_tool_calls": 59,
+  "session_tool_calls": 4,
+  "resumed_tool_failures": 5,
+  "session_tool_failures": 0,
+  "tool_retries": 0,
+  "high_confidence_disposition_gap_count": 0,
+  "high_confidence_disposition_gaps": [],
+  "stage2_candidate_audit_calls": 10,
+  "stage2_audited_candidate_count": 103,
+  "stage2_structured_decision_count": 101,
+  "stage2_structured_decisions": {
+    "src_ff92896162b8a01b0836": {
+      "source_node_id": "src_ff92896162b8a01b0836",
+      "activation_status": "established",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "not_field_inspectable",
+      "reason": "TA applicability note about posted route numbers is not a standalone field check in the scoped images.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "lane_closure_layout",
+      "registered_requirement_key": null
+    },
+    "src_645226502f4c2439e5fe": {
+      "source_node_id": "src_645226502f4c2439e5fe",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Multi-lane street condition is not established; scene is an apparent one-lane-each-way urban street.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "lane_closure_layout",
+      "registered_requirement_key": null
+    },
+    "src_772e91e4ee914179c320": {
+      "source_node_id": "src_772e91e4ee914179c320",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "TA-19 selected, but the depicted sign position cannot be verified from the scoped approach and is not an executable registered check.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_cdc47d0d2384b1278442": {
+      "source_node_id": "src_cdc47d0d2384b1278442",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "TA-19 sign sequence is outside the inspectable scoped evidence and cannot be established.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_2978fd365bf247168e56": {
+      "source_node_id": "src_2978fd365bf247168e56",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "TA-19 sign sequence is outside the inspectable scoped evidence and cannot be established.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_25fdba13ca2e4d09742f": {
+      "source_node_id": "src_25fdba13ca2e4d09742f",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "TA-19 sign sequence is outside the inspectable scoped evidence and cannot be established.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_5bbe78f326fb3bf0f71f": {
+      "source_node_id": "src_5bbe78f326fb3bf0f71f",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "TA-19 sign sequence is outside the inspectable scoped evidence and cannot be established.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_4e4a614234c55ae69bb4": {
+      "source_node_id": "src_4e4a614234c55ae69bb4",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "TA-19 sign sequence is outside the inspectable scoped evidence and cannot be established.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_a8822f2af49c09edf7fb": {
+      "source_node_id": "src_a8822f2af49c09edf7fb",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "TA-19 sign sequence is outside the inspectable scoped evidence and cannot be established.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_ee3d6350ed5f6c524113": {
+      "source_node_id": "src_ee3d6350ed5f6c524113",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "TA-19 sign sequence is outside the inspectable scoped evidence and cannot be established.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_0fff811036aadbfbf3d1": {
+      "source_node_id": "src_0fff811036aadbfbf3d1",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "TA-19 sign sequence is outside the inspectable scoped evidence and cannot be established.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_07444b821fab297359c8": {
+      "source_node_id": "src_07444b821fab297359c8",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "TA-19 sign sequence is outside the inspectable scoped evidence and cannot be established.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_05ce54d97e292ab88f8f": {
+      "source_node_id": "src_05ce54d97e292ab88f8f",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "Visible channelizing devices are inspectable; device size, color, stripe, retroreflection, and placement can fail independently of serviceability and spacing.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "channelization_system",
+      "registered_requirement_key": "req_aa7f07b1d07ed2cb"
+    },
+    "src_0adab6a573f859041c12": {
+      "source_node_id": "src_0adab6a573f859041c12",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Temporary traffic-control signal operation is not established and the scene is not a two-lane two-way operation.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "lane_closure_layout",
+      "registered_requirement_key": null
+    },
+    "src_143733509a7193cd4ffd": {
+      "source_node_id": "src_143733509a7193cd4ffd",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "TA-8 closed-road detour arrangement is not the selected applicable layout; only one direction is closed and the other remains open.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "lane_closure_layout",
+      "registered_requirement_key": null
+    },
+    "src_14995069759acceb0640": {
+      "source_node_id": "src_14995069759acceb0640",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Temporary traffic-control signals are absent and not established as applicable.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "lane_closure_layout",
+      "registered_requirement_key": null
+    },
+    "src_17d12869af1669b6d7f7": {
+      "source_node_id": "src_17d12869af1669b6d7f7",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "Coordination with authorities is not a field-inspectable predicate from the scoped imagery or established scene facts.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_1df8b2994f21841b31cc": {
+      "source_node_id": "src_1df8b2994f21841b31cc",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Preferential-lane termination is not present in the scene.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_termination_area",
+      "registered_requirement_key": null
+    },
+    "src_248f026b1e13960c2d5c": {
+      "source_node_id": "src_248f026b1e13960c2d5c",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Temporary traffic-control signal use is not established; the operation prohibits opposing traffic rather than controlling alternating passage.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": null
+    },
+    "src_311457ba60619e050ce2": {
+      "source_node_id": "src_311457ba60619e050ce2",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Red/yellow AFAD deployment is absent by explicit case-level statement.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": null
+    },
+    "src_342a10c365ea636fd391": {
+      "source_node_id": "src_342a10c365ea636fd391",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Higher-fines-zone termination is not established or relevant to this TTC closure.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_termination_area",
+      "registered_requirement_key": null
+    },
+    "src_350222a9174d2555ca49": {
+      "source_node_id": "src_350222a9174d2555ca49",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Movable barrier and reversible shoulder operation are absent by explicit case facts.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "channelization_system",
+      "registered_requirement_key": null
+    },
+    "src_3f9960385ca7489ec180": {
+      "source_node_id": "src_3f9960385ca7489ec180",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Truck speed-zone termination is not established.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_termination_area",
+      "registered_requirement_key": null
+    },
+    "src_26bd048211769b2b09e8": {
+      "source_node_id": "src_26bd048211769b2b09e8",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "ROAD WORK signs are visible and their required placement in advance of the work space or any detour is independently field-inspectable by measuring longitudinal distance.",
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_longitudinal_distance",
+        "quantity": "distance from ROAD WORK sign to work space or any detour",
+        "thresholds": [
+          {
+            "condition": "sign is not in advance of work space or detour",
+            "value": 0,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": "req_47aa373310aaf156"
+    },
+    "src_40e0a10dfd7f45fc10f3": {
+      "source_node_id": "src_40e0a10dfd7f45fc10f3",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Reversible-lane termination is not established in this directional closure.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_termination_area",
+      "registered_requirement_key": null
+    },
+    "src_410959bb3c2e1280fb48": {
+      "source_node_id": "src_410959bb3c2e1280fb48",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Temporary traffic-control signals and their stop lines are absent and not applicable.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "lane_closure_layout",
+      "registered_requirement_key": null
+    },
+    "src_4e0d57619b304a1a9c4c": {
+      "source_node_id": "src_4e0d57619b304a1a9c4c",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "No flagger is established in the scoped scene.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_4ea4e635511a44bbb150": {
+      "source_node_id": "src_4ea4e635511a44bbb150",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "The sharp-ramp condition is absent.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_4f2b68c743a6b9bd3723": {
+      "source_node_id": "src_4f2b68c743a6b9bd3723",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "A merging taper is not established; the observed closure is a directional separation.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": null
+    },
+    "src_530c42aa760240bee53e": {
+      "source_node_id": "src_530c42aa760240bee53e",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "Adequate sight distance cannot be established from the scoped frames and this general planning guidance is not executable here.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": null
+    },
+    "src_586d1639348f00b7b529": {
+      "source_node_id": "src_586d1639348f00b7b529",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "The channelizers redirect the observed normal path around the closed opposing lane; verify that the redirection uses appropriate channelizing devices and TTC controls.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": "req_8934040d233c7213"
+    },
+    "src_58ceb7312c181704600b": {
+      "source_node_id": "src_58ceb7312c181704600b",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Temporary lane separators are not deployed; the scene uses cones, drums, and delineators.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "channelization_system",
+      "registered_requirement_key": null
+    },
+    "src_608804d2b34f811a3a6c": {
+      "source_node_id": "src_608804d2b34f811a3a6c",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "Drums are among the observed channelizing devices, so their field-verifiable construction, size, markings, and material requirements apply to deployed drums.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "channelization_system",
+      "registered_requirement_key": "req_2aaae0362bf83021"
+    },
+    "src_60c4946803fcc6415d3b": {
+      "source_node_id": "src_60c4946803fcc6415d3b",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "One-lane alternating traffic is not occurring; opposing traffic is prohibited and detoured off site.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_6489282d91418b6be68b": {
+      "source_node_id": "src_6489282d91418b6be68b",
+      "activation_status": "unknown",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": "src_a6ee5cf272b8725e60b5",
+      "action": "exclude",
+      "decision_basis": "duplicate",
+      "reason": "This downstream-extension predicate duplicates the corresponding channelizer-extension candidate; applicability is not established.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": null
+    },
+    "src_666c8016f45a380aceaf": {
+      "source_node_id": "src_666c8016f45a380aceaf",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Temporary traffic-control signals and long-term signal stop lines are absent.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "lane_closure_layout",
+      "registered_requirement_key": null
+    },
+    "src_66c7843706ef6f47a8c6": {
+      "source_node_id": "src_66c7843706ef6f47a8c6",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Experiment reporting requirement is administrative, not applicable to this field inspection.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_termination_area",
+      "registered_requirement_key": null
+    },
+    "src_68cb61fa49e358701720": {
+      "source_node_id": "src_68cb61fa49e358701720",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "A road-user detour is confirmed, but this candidate is a generic DETOUR sign-use provision and the off-site signing is outside the scoped inspection; no inspectable sign requirement is established.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_6b5400eaf346050a079a": {
+      "source_node_id": "src_6b5400eaf346050a079a",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Flashing temporary-signal operation is not established; opposing traffic is prohibited and detoured rather than controlled through the work zone.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "lane_closure_layout",
+      "registered_requirement_key": null
+    },
+    "src_6b67417e6efa9133f736": {
+      "source_node_id": "src_6b67417e6efa9133f736",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "TA-12 signal advance-warning adjustment does not apply because temporary traffic-control signals are not established.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_6f7e4baadad0f4428bd8": {
+      "source_node_id": "src_6f7e4baadad0f4428bd8",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Haul-road temporary signal control is not established.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "lane_closure_layout",
+      "registered_requirement_key": null
+    },
+    "src_6fa395cc5dd66e8359bb": {
+      "source_node_id": "src_6fa395cc5dd66e8359bb",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Preferential-lane termination is not present.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_termination_area",
+      "registered_requirement_key": null
+    },
+    "src_72c34a3d153fa4d560d4": {
+      "source_node_id": "src_72c34a3d153fa4d560d4",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Temporary signal timing and red-clearance requirements are not applicable without a temporary signal and alternating one-way operation.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "lane_closure_layout",
+      "registered_requirement_key": null
+    },
+    "src_769f065312c8ecd7eccd": {
+      "source_node_id": "src_769f065312c8ecd7eccd",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "The candidate concerns multiple work locations and a five-mile signing limit, neither established here.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_78a3af790d8cd9d68b7d": {
+      "source_node_id": "src_78a3af790d8cd9d68b7d",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "AFAD substitution is not applicable because no AFAD or temporary signal operation is established.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": null
+    },
+    "src_7a245af2a19d44b87030": {
+      "source_node_id": "src_7a245af2a19d44b87030",
+      "activation_status": "unknown",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "not_field_inspectable",
+      "reason": "General warning-sign placement guidance does not yield a distinct executable predicate beyond the registered sign-spacing and ROAD WORK sign checks in this scoped evidence.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_7a66c4b9571cc402cc79": {
+      "source_node_id": "src_7a66c4b9571cc402cc79",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "No temporary traffic-control signal is established.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": null
+    },
+    "src_7ccc0f69bf2f2b05a4eb": {
+      "source_node_id": "src_7ccc0f69bf2f2b05a4eb",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Signal-phase termination is unrelated to the observed STOP-controlled intersection and directional closure.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_termination_area",
+      "registered_requirement_key": null
+    },
+    "src_7ef08d9dba4ab38ffa40": {
+      "source_node_id": "src_7ef08d9dba4ab38ffa40",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Arrow board is explicitly absent and not applicable.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": null
+    },
+    "src_7f25c559cf6ad7ba12e5": {
+      "source_node_id": "src_7f25c559cf6ad7ba12e5",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "State Route sign condition is not established or applicable.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_termination_area",
+      "registered_requirement_key": null
+    },
+    "src_80f3b849e6c5f486dccf": {
+      "source_node_id": "src_80f3b849e6c5f486dccf",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Managed-lane termination is not present.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_termination_area",
+      "registered_requirement_key": null
+    },
+    "src_82e04216a19aa54ad0e6": {
+      "source_node_id": "src_82e04216a19aa54ad0e6",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "PCMS is explicitly absent.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": null
+    },
+    "src_83a6d30a5006e7746b9c": {
+      "source_node_id": "src_83a6d30a5006e7746b9c",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Temporary traffic-control signals are not established.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": null
+    },
+    "src_83ccdc206f625f6fe6d3": {
+      "source_node_id": "src_83ccdc206f625f6fe6d3",
+      "activation_status": "established",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "not_field_inspectable",
+      "reason": "Traffic-control planning is administrative and not an executable image/LiDAR field check.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": null
+    },
+    "src_89129c984015e42cbe0e": {
+      "source_node_id": "src_89129c984015e42cbe0e",
+      "activation_status": "unknown",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "No nonapplicable pavement marking or temporary-marking condition is established in the scoped evidence.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "channelization_system",
+      "registered_requirement_key": null
+    },
+    "src_8be63aa89b8e89aca24d": {
+      "source_node_id": "src_8be63aa89b8e89aca24d",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Movable-barrier reversible-lane operation is absent.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "lane_closure_layout",
+      "registered_requirement_key": null
+    },
+    "src_931f161f3928a6d546d8": {
+      "source_node_id": "src_931f161f3928a6d546d8",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Movable-barrier reversible-lane operation is absent.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": null
+    },
+    "src_954e7e72c1c215bc571b": {
+      "source_node_id": "src_954e7e72c1c215bc571b",
+      "activation_status": "unknown",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "Crossroad entry into the TTC zone is not established from the scoped approach.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_9c319c52e57dbf9c8e21": {
+      "source_node_id": "src_9c319c52e57dbf9c8e21",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "A paved shoulder of at least 8 feet is not established and shoulder closure is not the observed operation.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_9d54d1fe469f82787b34": {
+      "source_node_id": "src_9d54d1fe469f82787b34",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "A divided-highway median work space is absent.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_9d99124851a9e27ef289": {
+      "source_node_id": "src_9d99124851a9e27ef289",
+      "activation_status": "false",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "TA-36 freeway lane-shift geometry is not applicable to the urban one-lane-each-way street.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": null
+    },
+    "src_9d9ef4bfdcbe9561ec13": {
+      "source_node_id": "src_9d9ef4bfdcbe9561ec13",
+      "activation_status": "false",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Acknowledgment-sign placement is not an established condition of this TTC closure.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_termination_area",
+      "registered_requirement_key": null
+    },
+    "src_9da08448efd96ba6ade8": {
+      "source_node_id": "src_9da08448efd96ba6ade8",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "Visible TTC warning signs are inspectable for the required diamond shape, orange background, and black legend/border.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": "req_38a0c44a191a7475"
+    },
+    "src_9f5a67319eb076e99a68": {
+      "source_node_id": "src_9f5a67319eb076e99a68",
+      "activation_status": "false",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Adjacent or overlapping projects are not established.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": null
+    },
+    "src_a537b6689086cb3039ca": {
+      "source_node_id": "src_a537b6689086cb3039ca",
+      "activation_status": "false",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Lighting devices are not established as deployed or required in this daytime scoped scene.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": null
+    },
+    "src_a57d0a34f9651ab2c7d5": {
+      "source_node_id": "src_a57d0a34f9651ab2c7d5",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "TA-19 dimension labels A/B cannot be tied to inspectable sign locations or a confirmed sign series in the scoped images.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_a6ee5cf272b8725e60b5": {
+      "source_node_id": "src_a6ee5cf272b8725e60b5",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "The conditional potential for devices to lead traffic out of the intended space is not established, and the downstream endpoint is unresolved.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "channelization_system",
+      "registered_requirement_key": null
+    },
+    "src_a99883517d787650b9d7": {
+      "source_node_id": "src_a99883517d787650b9d7",
+      "activation_status": "false",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Long-term closure and permanent edge-line treatment are not established; the work duration is less than three days.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": null
+    },
+    "src_ab41a5a2af6588f67419": {
+      "source_node_id": "src_ab41a5a2af6588f67419",
+      "activation_status": "false",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "No temporary traffic-control signal is deployed.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": null
+    },
+    "src_aca54136fd0666f6678c": {
+      "source_node_id": "src_aca54136fd0666f6678c",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "The conditional Street Name sign arrangement is outside the scoped approach and no such sign use is established.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "lane_closure_layout",
+      "registered_requirement_key": null
+    },
+    "src_b002153253b292e712c4": {
+      "source_node_id": "src_b002153253b292e712c4",
+      "activation_status": "false",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "A school-zone higher-fines zone is not established.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_termination_area",
+      "registered_requirement_key": null
+    },
+    "src_b0682c9695e517de08de": {
+      "source_node_id": "src_b0682c9695e517de08de",
+      "activation_status": "false",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "The TA-54 context and its special transition geometry are not applicable.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": null
+    },
+    "src_b0f7388dd49c20fdb547": {
+      "source_node_id": "src_b0f7388dd49c20fdb547",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "AFADs are explicitly absent, so the conditional AFAD active-conspicuity requirement is not activated.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": null
+    },
+    "src_b48978b224cbded461d4": {
+      "source_node_id": "src_b48978b224cbded461d4",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "The TA-19 W20-3 figure component is not an independently established, inspectable sign requirement in the scoped approach; the exact detour signing is outside scope.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_b54332b30b202e7f6ec8": {
+      "source_node_id": "src_b54332b30b202e7f6ec8",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "No temporary traffic-control signal is deployed or established, so adjacent-signal interconnection is not applicable.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": null
+    },
+    "src_ba6a156672fff29ce0f4": {
+      "source_node_id": "src_ba6a156672fff29ce0f4",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "TA-51 bicycle-diversion shoulder-closure geometry is not established in the urban directional closure.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": null
+    },
+    "src_bbff52f9e380a6c8183d": {
+      "source_node_id": "src_bbff52f9e380a6c8183d",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "The TA-19 figure W20-1 component does not establish a separately inspectable sign placement predicate beyond the registered ROAD WORK check, and the depicted sequence is outside scope.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_beeb09b5a3786831a97d": {
+      "source_node_id": "src_beeb09b5a3786831a97d",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "PCMS deployment is explicitly absent, so PCMS placement is not applicable.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": null
+    },
+    "src_c20be98384c5d0b17a53": {
+      "source_node_id": "src_c20be98384c5d0b17a53",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "Channelizing devices are deployed and cleanliness, visibility, and positioning can fail independently while devices remain serviceable; this is a distinct visual field check.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "channelization_system",
+      "registered_requirement_key": "req_9684dd549b406cb8"
+    },
+    "src_c2227f417210b63aaa44": {
+      "source_node_id": "src_c2227f417210b63aaa44",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "STOP/SLOW AFAD operation is not established and AFADs are explicitly absent.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": null
+    },
+    "src_c9a23d4bf612da8918b2": {
+      "source_node_id": "src_c9a23d4bf612da8918b2",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "TA-39 freeway median crossover geometry is not applicable to this urban one-lane-each-way directional closure.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": null
+    },
+    "src_d1e33482027a6c1dcb50": {
+      "source_node_id": "src_d1e33482027a6c1dcb50",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "TA-6 minor-road treatment is not the selected directional-detour layout and the candidate does not govern the observed channelized closure.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "lane_closure_layout",
+      "registered_requirement_key": null
+    },
+    "src_d7eac71951a52dd390f9": {
+      "source_node_id": "src_d7eac71951a52dd390f9",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "TA-34 temporary-barrier taper dimensions are not applicable because temporary barriers are explicitly absent.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": null
+    },
+    "src_dbb2acee17a8ace3a65f": {
+      "source_node_id": "src_dbb2acee17a8ace3a65f",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "No temporary traffic-control signal is used, so a signal conflict monitor is not applicable.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": null
+    },
+    "src_dc75a7bd13129d651a33": {
+      "source_node_id": "src_dc75a7bd13129d651a33",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "TA-14 flagging-method provision is not activated: no two-way flagging or temporary signal operation is established; opposing traffic is prohibited and detoured off site.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "lane_closure_layout",
+      "registered_requirement_key": null
+    },
+    "src_de01e5e72d93128cdf2b": {
+      "source_node_id": "src_de01e5e72d93128cdf2b",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "The candidate applies to high-speed traffic, while the explicitly confirmed posted speed is 20 mph.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "lane_closure_layout",
+      "registered_requirement_key": null
+    },
+    "src_df678eb91cd703ad8e1e": {
+      "source_node_id": "src_df678eb91cd703ad8e1e",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "No grade crossing is established within or upstream of the observed transition area.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": null
+    },
+    "src_df86d073d47a39cd5ff9": {
+      "source_node_id": "src_df86d073d47a39cd5ff9",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "TA-42 exit-ramp vicinity and freeway geometry are not established in the urban one-lane-each-way scene.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": null
+    },
+    "src_e18d04e92f4cc5a3516b": {
+      "source_node_id": "src_e18d04e92f4cc5a3516b",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "TA-45 reversible lane and movable-barrier termination conditions are absent; barriers are explicitly absent.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": null
+    },
+    "src_efd418222a3f416f1e38": {
+      "source_node_id": "src_efd418222a3f416f1e38",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "A downstream taper is suggested by the imagery, but its taper type and exact endpoints are unresolved; the candidate cannot be activated as an executable check from the scoped evidence.",
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_downstream_taper",
+        "quantity": "downstream taper length",
+        "thresholds": [
+          {
+            "condition": "one-lane, two-way or downstream taper, if established",
+            "value": 50,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          },
+          {
+            "condition": "one-lane, two-way or downstream taper, if established",
+            "value": 100,
+            "unit": "ft",
+            "violation_when": "above_maximum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": null
+    },
+    "src_f2c69c93ced8d3551027": {
+      "source_node_id": "src_f2c69c93ced8d3551027",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "No temporary traffic-control signal or grade-crossing signal interaction is established.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": null
+    },
+    "src_f3b269267f955c699b65": {
+      "source_node_id": "src_f3b269267f955c699b65",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "No Red/Yellow Lens AFAD is deployed or established; AFADs are explicitly absent.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": null
+    },
+    "src_f542d01fac88c3bcd1a5": {
+      "source_node_id": "src_f542d01fac88c3bcd1a5",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "The roadway is not closed to all road users or all but local users; one travel direction remains open and the opposing direction is detoured.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_f62b25e6e267f1c51c3f": {
+      "source_node_id": "src_f62b25e6e267f1c51c3f",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "The candidate governs termination of a permissive signal movement, but no applicable traffic signal phase is established at the observed STOP-controlled intersection.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_termination_area",
+      "registered_requirement_key": null
+    },
+    "src_fa6818bec9428dd5668e": {
+      "source_node_id": "src_fa6818bec9428dd5668e",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "TA-38 freeway interior-lane-closure geometry is not applicable to this urban directional closure.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": null
+    },
+    "src_fa967342d5a408de5553": {
+      "source_node_id": "src_fa967342d5a408de5553",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "TA-44 ramp YIELD/STOP placement is not activated; no entrance ramp operation is established.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "lane_closure_layout",
+      "registered_requirement_key": null
+    },
+    "src_dc9e3a9b3d830d0ffd2e": {
+      "source_node_id": "src_dc9e3a9b3d830d0ffd2e",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "The candidate governs a traffic-signal indication sequence, but no applicable traffic signal or signal-phase operation is established; the observed intersection is STOP-controlled and the opposing direction is detoured.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_termination_area",
+      "registered_requirement_key": null
+    },
+    "src_eafd02c3dbce3f8109a1": {
+      "source_node_id": "src_eafd02c3dbce3f8109a1",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "Multiple advance warning signs are visible on the approach, and the ROAD WORK AHEAD sign's order within that series is a separately violable field predicate from spacing and longitudinal placement. Inspect the approach sequence to verify that ROAD WORK AHEAD is the first advance warning sign encountered.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": "req_cb1dccef74232ff1"
+    },
+    "src_fec790cc6dbe5442107b": {
+      "source_node_id": "src_fec790cc6dbe5442107b",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "TA-44 entrance-ramp and mainline merging-taper conditions are not established; the scene is an urban one-lane-each-way street with no ramp or arrow board.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "lane_closure_layout",
+      "registered_requirement_key": null
+    },
+    "src_ff3cfb3dd7dc09151523": {
+      "source_node_id": "src_ff3cfb3dd7dc09151523",
+      "activation_status": "established",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": "src_26bd048211769b2b09e8",
+      "action": "exclude",
+      "decision_basis": "duplicate",
+      "reason": "The general requirement to provide advance warning for an obstruction or closure is subsumed by the retained ROAD WORK AHEAD placement predicate for the observed obstruction; no separate threshold or independently executable compliance condition is established here.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_ff58c5005260c2206d6f": {
+      "source_node_id": "src_ff58c5005260c2206d6f",
+      "activation_status": "established",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "not_field_inspectable",
+      "reason": "An off-site opposing-traffic detour is confirmed, but the TA-19 DETOUR sign location and sequence are outside the scoped camera0 inspection, so this candidate cannot be executed as a field check.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    }
+  },
+  "stage2_decision_revision": 14,
+  "stage2_audit_revision": 14,
+  "stage2_verification_unresolved_count": 0,
+  "stage2_verification_unresolved": [],
+  "input_tokens": 174290,
+  "output_tokens": 1329,
+  "total_tokens": 175619,
+  "cached_tokens": 0,
+  "controller_turns": 4,
+  "model_api_calls": 4,
+  "wall_clock_seconds": 14.287861108081415,
+  "gpu_seconds": null,
+  "image_tokens_or_processed_pixels": null,
+  "actual_model_api_cost_usd": 0.0364528,
+  "model_pricing_usd_per_million": {
+    "input": 0.2,
+    "cached_input": 0.02,
+    "output": 1.2,
+    "pricing_scope": "recorded checkpoint pricing"
+  },
+  "model_api_retries": 0,
+  "estimated_external_api_cost_usd": 0.0,
+  "emergency_ceiling_triggered": false
+}

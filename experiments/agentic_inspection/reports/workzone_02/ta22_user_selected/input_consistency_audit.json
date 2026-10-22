@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "camera_frames_by_channel": {
+    "CAM_FRONT": 632
+  },
+  "accepted_bbox_count": 0,
+  "unsupported_available_bbox_claim_count": 0,
+  "layout_selection_origin": "user_directed",
+  "primary_layout": "TA-22",
+  "context_only_layouts": [
+    "TA-33"
+  ],
+  "stage0_model_selection_executed": false
+}

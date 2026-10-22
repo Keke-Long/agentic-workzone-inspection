@@ -1,0 +1,102 @@
+{
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "image_sha256": "3c984739225af140a88bc6bf7c924470552ef13c9e122bd8dd9015c6c59b49c6",
+  "response": {
+    "model": "qwen3-vl:4b-instruct",
+    "created_at": "2026-10-21T14:49:28.684779013Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"items\": [\n    {\n      \"id\": 1,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"The cone is fully visible, upright, with intact stripes and base; no obvious damage or missing parts.\"\n    },\n    {\n      \"id\": 2,\n      \"status\": \"visible_unserviceable\",\n      \"reason\": \"The image is heavily blurred, making it impossible to assess structural integrity or stripe visibility. The cone appears indistinct and potentially damaged or misaligned due to blur.\"\n    },\n    {\n      \"id\": 3,\n      \"status\": \"visible_unserviceable\",\n      \"reason\": \"The image is blurry and lacks sufficient detail to determine if the cone is serviceable; its form is indistinct, suggesting potential damage or poor focus.\"\n    },\n    {\n      \"id\": 4,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"The cone is clearly visible with intact stripes and base. Although slightly out of focus, no functional defects are evident.\"\n    },\n    {\n      \"id\": 5,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"The cone is fully visible, upright, with clear stripes and base; no obvious damage or missing parts.\"\n    },\n    {\n      \"id\": 6,\n      \"status\": \"visible_unserviceable\",\n      \"reason\": \"The image is blurry and lacks sufficient detail to determine if the cone is serviceable; its form is indistinct, suggesting potential damage or poor focus.\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 4358650250,
+    "load_duration": 162455330,
+    "prompt_eval_count": 1299,
+    "prompt_eval_duration": 421849000,
+    "eval_count": 323,
+    "eval_duration": 3586655000
+  },
+  "observations": [
+    {
+      "observation_id": "C18_F0449_CAM_FRONT_Q006",
+      "frame": 449,
+      "native_bbox": [
+        2116.8828,
+        1139.111,
+        2177.0347,
+        1315.6091
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "The cone is fully visible, upright, with intact stripes and base; no obvious damage or missing parts."
+    },
+    {
+      "observation_id": "C18_F0450_CAM_FRONT_Q016",
+      "frame": 450,
+      "native_bbox": [
+        2042.1201,
+        1166.306,
+        2072.4226,
+        1234.5654
+      ],
+      "id": 2,
+      "status": "visible_unserviceable",
+      "reason": "The image is heavily blurred, making it impossible to assess structural integrity or stripe visibility. The cone appears indistinct and potentially damaged or misaligned due to blur."
+    },
+    {
+      "observation_id": "C18_F0451_CAM_FRONT_Q002",
+      "frame": 451,
+      "native_bbox": [
+        2046.6582,
+        1163.5231,
+        2077.9788,
+        1239.4547
+      ],
+      "id": 3,
+      "status": "visible_unserviceable",
+      "reason": "The image is blurry and lacks sufficient detail to determine if the cone is serviceable; its form is indistinct, suggesting potential damage or poor focus."
+    },
+    {
+      "observation_id": "C18_F0451_CAM_FRONT_Q005",
+      "frame": 451,
+      "native_bbox": [
+        2074.8013,
+        1158.5647,
+        2120.6963,
+        1279.7183
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "The cone is clearly visible with intact stripes and base. Although slightly out of focus, no functional defects are evident."
+    },
+    {
+      "observation_id": "C18_F0451_CAM_FRONT_Q012",
+      "frame": 451,
+      "native_bbox": [
+        2151.505,
+        1132.61,
+        2235.365,
+        1362.157
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "The cone is fully visible, upright, with clear stripes and base; no obvious damage or missing parts."
+    },
+    {
+      "observation_id": "C18_F0453_CAM_FRONT_Q004",
+      "frame": 453,
+      "native_bbox": [
+        2054.6558,
+        1152.2178,
+        2090.4141,
+        1235.2029
+      ],
+      "id": 6,
+      "status": "visible_unserviceable",
+      "reason": "The image is blurry and lacks sufficient detail to determine if the cone is serviceable; its form is indistinct, suggesting potential damage or poor focus."
+    }
+  ],
+  "human_confirmed_condition": false
+}

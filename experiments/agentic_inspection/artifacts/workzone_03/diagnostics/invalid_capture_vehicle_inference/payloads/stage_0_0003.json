@@ -1,0 +1,310 @@
+{
+  "model": "gpt-5.6-luna",
+  "instructions": "Select MUTCD Typical Applications only from manual evidence retrieved from the full index. Never emit benchmark IDs.",
+  "input": [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "input_text",
+          "text": "Stage 0 — autonomous scene understanding and primary MUTCD Typical Application selection. No correct Typical Application, manual page, region, internal requirement ID, or inspection target is supplied. Search the complete manual using the structured BM25 tools. Generate natural-language queries from the frozen scene facts, inspect additional sections/Typical Applications with continuation when needed, and distinguish a directly applicable primary Typical Application from a cross-reference. Put the selected manual-native TA code in layout_code for schema compatibility. A missing fact is layout-blocking only when it prevents choosing among mutually exclusive primary Typical Applications. If the best-matching TA itself states a conditional augmentation for a higher, lower, or otherwise unknown condition, keep that TA as primary and preserve the unresolved condition for later requirement applicability instead of demoting the whole TA. Return indeterminate only when the primary TA itself cannot be selected; list missing fields and do not guess. You must call search_manual at least once before returning JSON.\nScene input:\n{\"accepted_bbox_count\": 0, \"perception_evidence_policy\": \"No human-reviewed or accepted detections yet. Empty inventory means unprocessed/unknown, not absence. Model-derived scene descriptions retain separate provenance.\", \"scene_data_manifest\": {\"available_direct\": [\"scene_facts\"], \"counts\": {\"accepted_arrow_board_observations\": 0, \"accepted_bbox_observations\": 0, \"accepted_bbox_observations_by_class\": {}, \"accepted_pcms_observations\": 0, \"calibrated_sensors\": 2, \"camera_frames\": 426, \"camera_frames_by_channel\": {\"CAM_FRONT\": 426}, \"ego_poses\": 852, \"lidar_frames\": 426, \"samples\": 427}, \"derivable_local\": [\"full_temporal_images\", \"lidar_points\", \"ego_trajectory\", \"sensor_calibration\", \"device_global_position\", \"longitudinal_distance\", \"device_spacing\", \"taper_length\", \"buffer_length\", \"sign_spacing\", \"available_width\", \"rule_based_channelizer_spacing_audit\", \"posted_speed_from_visible_sign\"], \"derived_scene_facts\": {\"arrow_board_deployed\": null, \"arrow_board_deployed_provenance\": [], \"pcms_deployed\": null, \"pcms_deployed_provenance\": []}, \"forbidden_metadata_removed\": [\"scene.description\"], \"location\": {\"dataset_location\": \"madison-wi-usa\", \"external_speed_lookup_ready\": false, \"latitude_longitude\": null, \"reason\": \"Metadata identifies Madison, Wisconsin but contains no road name or geodetic coordinates.\", \"road_name\": null}, \"retrievable_external\": [\"posted_speed_if_road_segment_can_be_geolocated\"], \"scene_description_redacted\": true, \"scene_id\": \"scene-CATS-15\", \"trajectory\": {\"end_timestamp_us\": 94500124, \"path_length_m\": 237.004048463419, \"start_timestamp_us\": 52000061}}, \"scene_facts\": {\"active_work\": null, \"arrow_board_deployed\": null, \"closed_lane\": null, \"inspection_period\": \"daytime\", \"inspection_period_provenance\": \"Daylit selected camera0 frames\", \"inspection_scope\": \"User selects ONLY later channelized area approximately 78-90s. Approach warning signs from 52s are context with unconfirmed association; earlier work vehicles/personnel are excluded.\", \"lanes_closed\": null, \"layout_uncertainties\": [\"Is the left/opposing-direction lane fully closed, or is only part of it locally occupied or restricted?\", \"Does the channelizer line lie directly on the centerline, or is it offset into the opposing lane?\", \"What is the exact longitudinal start and end of the work area relative to the all-way-stop intersection?\", \"Is any portion of a bicycle lane included in, displaced by, or outside the channelized area?\", \"Are the visible ROAD WORK AHEAD signs associated with this later work area or with a separate work area farther along the route?\", \"Were any workers or flaggers present outside the camera's visible field or between the sampled frames?\", \"Are any vehicles near the intersection work-related, or are they ordinary traffic or parked vehicles?\"], \"opposite_direction_image_coverage\": false, \"pcms_deployed\": null, \"posted_speed_mph\": 20, \"posted_speed_provenance\": \"explicit_user_confirmation\", \"roadway_configuration\": null, \"roadway_lane_count\": null, \"visual_scene_description\": {\"apparent_work_vehicles\": \"No clearly identifiable work vehicle is visible within the scoped channelized area. Vehicles visible near the intersection and beyond cannot be reliably classified as work vehicles.\", \"apparent_workers\": \"No person is clearly identifiable as a worker actively performing traffic control or construction within the scoped area.\", \"bicycle_lane\": \"A distinct bicycle-lane boundary is not confidently identifiable within the scoped 78-90 second segment. A bicycle marking visible after the scoped area is not used to characterize this work area.\", \"closure_or_obstruction\": \"The channelizers appear to delineate a localized work-area obstruction or closure primarily along the left/opposing-direction side of the roadway. The survey vehicle's forward travel lane remains usable through the approach. The images do not establish whether the opposing lane is fully closed for the entire work area.\", \"evidence_status\": \"Model-derived visual evidence, not human-confirmed ground truth.\", \"flagger_evidence\": \"No reliable evidence of a flagger directing traffic. High-visibility orange elements are attached to channelizers and signs; clothing alone would not establish flagger activity.\", \"intersection_relationship\": \"The channelized area is encountered immediately before and alongside an all-way-stop-controlled intersection visible around 83.8-90.1 seconds. The exact work-area limits relative to the intersection are uncertain.\", \"posted_speed\": \"20 mph, user-confirmed.\", \"road_geometry\": \"Urban two-way roadway with one apparent lane in each direction and a centerline visible through much of the approach. The roadway is generally straight in the scoped segment and crosses an all-way-stop intersection near the end of the channelized area.\", \"scope\": \"Only the later channelized work area visible approximately 78-90 seconds is described. The approach view at 52 seconds is included only for potentially relevant warning-sign evidence; association with the later work area is unconfirmed.\", \"separately_encountered_work_areas\": \"One later channelized work area is supported by the images. The orange warning sign visible during the 52-61 second approach may relate to this area, but that association is not assumed.\", \"survey_vehicle\": \"Black survey vehicle, user-confirmed.\", \"traffic_directions\": \"The survey vehicle travels forward in its apparent right-hand travel lane. Opposing traffic would use the lane to the left of the centerline.\", \"work_duration\": \"Strictly less than three days, user-confirmed; more precise duration unknown.\"}, \"visual_scene_description_provenance\": \"Model-derived 16 scoped camera0 images; artifacts/workzone_03/scene_understanding_later_area; uncertainty retained\", \"work_duration_category\": null, \"work_duration_days_less_than\": 3, \"work_duration_description\": \"User: less than three days; subcategory unknown\"}, \"scene_id\": \"scene-CATS-15\"}"
+        }
+      ]
+    },
+    {
+      "id": "rs_09d7c229dbc1e581016ad932d2fc5087d1b686668e4856f0c5",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2TLU2c1y60IBZlRxiWjINb-2mhMvoqbIxMQpwtdWDxxbmCFZrrrtktwgV2OdRQbcMOMIVJ8lELkXgAZlKOBUAc7LsKb9hO9V8u46xdewQ1wXSroWidDqjQnmgQdL8HsAgXyXJDSFJGFhnAFJB1YrqoncJW9w85lMF7yyMOhTkVOz6BguSDUg3Jd2_CcgzxwmRVLZX7NVB9029vihVvWEIKnNGP0jEHS8fyvqEE9QYc3Lud06b_eLWLvzWRlwIQKJSq-ZqnoGKmSZCx8VDbyMaBIxy5tomJqP17VHA7cnA2HQaCRV5JUGVBrFtLZwnrsiaX_4pQITBW3kwYbmdanqZ8zIjgvOnHPaxWakf569ts2hdAPUahFwWkZVI74dGhz_h7MQ-AAbYUkCRJjLd19ux7DhP5CZVWZ4jX2V4qeqUgfGAwDmYs1CKhN2h0Er-WIcsxGteuWpCHRklbkg8gvvh1CmWzli6qM5qBtyR-qHRlO4aWn9VSu9kqJ3Im7aV2bKIHPFmK9jqDYuxQk5fwOCSniONtjpWGXTjkCC8xcydk0rWkZ4V9Ca9e7EvjVBtmeCuHVd9AmZt4cGUZ3bCDb208nMXg3VDuZQUsS910JIUYO5hMyoGVLfq-ZjjS0mKtgK2Zp-i9oNgcMsBMAyHTxjCQsnYrN5rXdTKJ1AYh4AXi2FeRbluCYTord9ohxM3kQQdzbQzuU3AGwoVG6FZTvjSVBKiQOoCkTRt4j3JIABNXXrWdW1PG5TOpd3JaOeht9SL_DpCLKjSLqmdcvKDaVKJG4LjaNXpZFJuxMgyFmA7BVAisdiEpy2iI6CehnkSnbNlJkDHwMG-4uAfayGwGgDRjAgbVJYeD1OejJGQMkzGGS1lw5QWQHIutURTw4Pew56KGmZEaJxxF_3nYs4bzZkc9hbc5HTQfpSXhWELkqsqcKNyvR5RDESzN3ZbPtmdDQ86H2-QrAf0-c2QYXy1PRcpcVD8K_XAhDyN78BvUeBVN1574UNMKvDgr_H1lUE8lH9lMlNIQkC8DjULnS3W3WzxaZfSHRwZB0DaGbjF5XGXCz9Sj4VBIOFdlq2FBoTlOfp-RAeboyaGgFxjO7KdvzICCC99HTvKnoZs3n7i29fLncAFBFE-peJO9ovpSdyAAXUHKgYIgAriGxKpFEXO4nDXisRtLV_QZ7yAXt4FLJpXXy7jbxI9YDISLxM9fzyHGSgwG-j9oRcuTyJygrhStOKqIt0t-qLXKwnt26fwzlVUPs8ybnwOcVwtQeYPzZ3nTvS_H6FuayALN0idKcV1KJrnLWFk7L1NY4Bh6QxtS6os6vlIE0IgNbz9ILGVmMuFQcubzOz4aI4ladeRFbeyWX9BuX2whlaqVfJAU9zg870W_zqfQPUb3muu4jHX-7mbM6kgFuiBUREIRP-aH2TMSNU6b65IBRiZl6GcYJrTM7cV_01a-I22w36iFEYXBH0LuPsSJWoOHs5rKh6ZzOwau-lIU1EICNQ9aWgNRikOp35eCfmRO6Fje5_-kjj4LMzyjmYBs-cOBE26HabP4WNRaVlRHvHMJPCDiuKiPmYBCgSBKheHysgN01qavXahUo1Z5DSdrTHzNa4d6a8DYbWeR0nVIiZzLv95vl8iWHB-hFTPxyf6GseRGN1046whmmo9chSmSeyMzIH1JHytQFiDkF2PqyrcVsdFHpb72IGjf1zdxg8U0oS52YfWP9rCVw63WRO_NW7hAwMoAjAEFZ2u79GAw-J01JDotAAqEhIxb68MEL-0AxNijPaH-zgERQKXRSQyOWtjlkremnKX5jSSUGX-rZLknruGT7fP-pF_KtzqO_vR6D5AEauoT-A3DWsBf6sGRrpr_gyW8ghEw6yAd5wj4Lh8PFBQp3kj21x-JzEnUoFrNWaXcib4lXQDPXW0xsJtUDkteEgIz9R5Ik8nYYo970G3A==",
+      "summary": []
+    },
+    {
+      "id": "fc_09d7c229dbc1e581016ad932d380fc87d19558b83c3979603c",
+      "type": "function_call",
+      "status": "completed",
+      "arguments": "{\"query\":\"Typical Application urban two-lane two-way road work area channelized obstruction opposing lane closure survey vehicle lane remains open daytime short duration near intersection all-way stop 20 mph\",\"page_size\":12,\"continuation_token\":null}",
+      "call_id": "call_rs4cKGrw1fO9QzpIWgaaQeWM",
+      "name": "search_manual"
+    },
+    {
+      "type": "function_call_output",
+      "call_id": "call_rs4cKGrw1fO9QzpIWgaaQeWM",
+      "output": "{\"operation\": \"search_manual\", \"query\": \"Typical Application urban two-lane two-way road work area channelized obstruction opposing lane closure survey vehicle lane remains open daytime short duration near intersection all-way stop 20 mph\", \"corpus_scope\": \"entire frozen MUTCD 11th Edition structured index\", \"candidate_source_unit_count\": 1013, \"items\": [{\"rank\": 1, \"score\": 58.271856, \"source_unit_code\": \"SEC-6P.01\", \"unit_type\": \"section\", \"title\": \"Typical Applications\", \"chapter\": \"6P\", \"figure_code\": null, \"source_pages\": [897, 898, 899, 900, 901, 902, 903, 904, 905, 906, 907, 908, 909, 910, 911, 912, 913, 914, 915, 916, 917, 918, 919, 920, 921, 922, 923, 924, 925, 926, 927, 928, 929, 930, 931, 932, 933, 934, 935, 936, 937, 938, 939, 940, 941, 942, 943, 944, 945, 946, 947, 948, 949, 950, 951, 952, 953, 954, 955, 956, 957, 958, 959, 960, 961, 962, 963, 964, 965, 966, 967, 968, 969, 970, 971, 972, 973, 974, 975, 976, 977, 978, 979, 980, 981, 982, 983, 984, 985, 986, 987, 988, 989, 990, 991, 992, 993, 994, 995, 996, 997, 998, 999, 1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009], \"printed_pages\": [857, 858, 859, 860, 861, 862, 863, 864, 865, 866, 867, 868, 869, 870, 871, 872, 873, 874, 875, 876, 877, 878, 879, 880, 881, 882, 883, 884, 885, 886, 887, 888, 889, 890, 891, 892, 893, 894, 895, 896, 897, 898, 899, 900, 901, 902, 903, 904, 905, 906, 907, 908, 909, 910, 911, 912, 913, 914, 915, 916, 917, 918, 919, 920, 921, 922, 923, 924, 925, 926, 927, 928, 929, 930, 931, 932, 933, 934, 935, 936, 937, 938, 939, 940, 941, 942, 943, 944, 945, 946, 947, 948, 949, 950, 951, 952, 953, 954, 955, 956, 957, 958, 959, 960, 961, 962, 963, 964, 965, 966, 967, 968, 969], \"available_regions\": [\"activity\", \"advance_warning\", \"applicability\", \"buffer\", \"channelizing_devices\", \"distance_table\", \"general_notes\", \"pavement_markings\", \"transition\"], \"source_excerpt\": \"Support: 01 Chapter 6N contains discussions of typical TTC activities. Section 6A.02 contains discussions on development of TTC plans for the various activities. This Chapter presents typical applications for a variety of situations commonly encountered. While not every situation is addressed, the information illustrated can generally be adapted to a broad range of conditions. In many instances, an appropriate TTC plan is achieved by combining features from various typical applications. For example, work at an intersection might present a near-side TTC zone for one street and a far-side TTC zone for the other street. These treatments are found in two different typical applications, while a third typical application shows how to handle pedestrian crosswalk closures. 02 In general, the procedures illustrated represent minimum solutions for the situations depicted. Except for the notes (which are clearly classified using headings as being Standard, Guidance, Option, or Support), the information presented in the typical applications can generally be regarded as Guidance. Option: 03 TTC plans may deviate from the typical applications described in this Chapter to allow for conditions and\"}, {\"rank\": 2, \"score\": 55.179499, \"source_unit_code\": \"SEC-6N.11\", \"unit_type\": \"section\", \"title\": \"Work within the Traveled Way of a Multi-Lane, Non-Access Controlled Highway\", \"chapter\": \"6N\", \"figure_code\": null, \"source_pages\": [887, 888], \"printed_pages\": [847, 848], \"available_regions\": [\"activity\", \"channelizing_devices\", \"general_notes\", \"pavement_markings\", \"transition\"], \"source_excerpt\": \"Support: 01 Chapter 6C and Sections 6M.04 and 6N.04 contain additional information regarding the steps to follow when pedestrian or bicycle facilities are affected by the worksite. 02 Work on multi-lane (two or more lanes of moving motor vehicle traffic in one direction) highways is divided into right-lane closures, left-lane closures, interior-lane closures, multiple-lane closures, and closures on five-lane roadways. Standard: 03 When a lane is closed on a multi-lane road for other than a mobile operation, a transition area containing a merging taper shall be used. Guidance: 04 When justified by an engineering study, temporary traffic barriers (see Section 6K.09) should be used to prevent incursions of errant vehicles into hazardous areas or work space. Support: 05 Figure 6P-34 illustrates a lane closure in which temporary traffic barriers are used. Option: 06 When the right-hand lane is closed, TTC similar to that shown in Figure 6P-33 may be used for undivided or divided four-lane roads. December 2023 Sect. 6N.10 to 6N.11 Page 848 MUTCD 11th Edition Guidance: 07 If morning and evening peak hour vehicular traffic volumes in the two directions are uneven and the greater volume is \"}, {\"rank\": 3, \"score\": 54.075282, \"source_unit_code\": \"TA-1\", \"unit_type\": \"typical_application\", \"title\": \"Work Beyond the Shoulder\", \"chapter\": \"6P\", \"figure_code\": \"6P-1\", \"source_pages\": [900, 901], \"printed_pages\": [860, 861], \"available_regions\": [\"advance_warning\", \"applicability\", \"general_notes\"], \"source_excerpt\": \"Guidance: 1. If the work space is in the median of a divided highway, an advance warning sign should also be placed on the left-hand side of the directional roadway. Option: 2. The ROAD WORK AHEAD sign may be replaced with other appropriate signs such as the SHOULDER WORK sign. The SHOULDER WORK sign may be used for work adjacent to the shoulder. 3. The ROAD WORK AHEAD sign may be omitted where the work space is behind a barrier, more than 24 inches behind the curb, or 15 feet or more from the edge of any roadway. 4. For short-term, short-duration or mobile operation, all signs and channelizing devices may be eliminated if a vehicle with activated high-intensity rotating, flashing, oscillating, or strobe lights is used. 5. Vehicle hazard warning signals may be used to supplement high-intensity rotating, flashing, oscillating, or strobe lights. Standard: 6. Vehicle hazard warning signals shall not be used instead of the vehicle’s high-intensity rotating, flashing, oscillating, or strobe lights. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 861 Figure 6P-1. Work Beyond the Shoulder (TA-1) W20-1 Note: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B\"}, {\"rank\": 4, \"score\": 52.790758, \"source_unit_code\": \"TA-16\", \"unit_type\": \"typical_application\", \"title\": \"Surveying Along the Center Line of a Road with Low Traffic Volumes\", \"chapter\": \"6P\", \"figure_code\": \"6P-16\", \"source_pages\": [930, 931], \"printed_pages\": [890, 891], \"available_regions\": [\"advance_warning\", \"buffer\", \"channelizing_devices\", \"distance_table\", \"general_notes\"], \"source_excerpt\": \"Guidance: 1. The lanes on either side of the center work space should have a minimum width of 10 feet as measured from the near edge of the channelizing devices to the edge of the pavement or the outside edge of the paved shoulder. 2. Cones should be placed 6 to 12 inches on either side of the center line. 3. A flagger should be used to warn workers who cannot watch road users. Standard: 4. For surveying on the center line of a high-volume road, one lane shall be closed using the information illustrated in Figure 6P-10. Option: 5. A high-level warning device may be used to protect a surveying device, such as a target on a tripod. 6. Cones may be omitted for a cross-section survey. 7. ROAD WORK AHEAD signs may be used in place of the SURVEY CREW AHEAD signs. 8. Flags may be used to call attention to the advance warning signs. 9. If the work is along the shoulder, the flagger may be omitted. 10. For a survey along the edge of the road or along the shoulder, cones may be placed along the edge line. 11. A BE PREPARED TO STOP sign may be added to the sign series. 12. Automated Flagger Assistance Devices (see Section 6L.02) may be used in situations where there is only one lane of approa\"}, {\"rank\": 5, \"score\": 52.779493, \"source_unit_code\": \"SEC-6N.13\", \"unit_type\": \"section\", \"title\": \"Work within the Traveled Way of a Freeway or Expressway\", \"chapter\": \"6N\", \"figure_code\": null, \"source_pages\": [890], \"printed_pages\": [850], \"available_regions\": [\"activity\", \"distance_table\", \"general_notes\", \"transition\"], \"source_excerpt\": \"Support: 01 Special conditions encountered where vehicular traffic must be moved through or around TTC zones on high- speed, high-volume roadways can pose challenges to the TTC. Although the general principles outlined in other Sections of this Manual are applicable to all types of highways, high-speed, access-controlled highways need special planning and attention in order to accommodate vehicular traffic while also protecting road users and workers. The traffic volumes, vehicle mix (buses, trucks, cars, and bicycles, if permitted), and speed of vehicles on these facilities require that careful TTC procedures be implemented, for example, to induce critical merging maneuvers well in advance of work spaces and in a manner that creates minimum turbulence and delay in the vehicular traffic stream. 02 When the roadway capacity is reduced as a result of lane closures, the demand might exceed the available capacity and result in either a lengthy stopped or slow moving queue of vehicles that might extend past the normal signs used in the typical advance warning area. Guidance: 03 An assessment of the expected queue length should be a part of the TTC plan design process and adjustments to \"}, {\"rank\": 6, \"score\": 52.413371, \"source_unit_code\": \"TA-13\", \"unit_type\": \"typical_application\", \"title\": \"Temporary Road Closure\", \"chapter\": \"6P\", \"figure_code\": \"6P-13\", \"source_pages\": [924, 925], \"printed_pages\": [884, 885], \"available_regions\": [\"advance_warning\", \"buffer\", \"distance_table\", \"general_notes\"], \"source_excerpt\": \"Support: 1. Conditions represented are a planned closure not exceeding 20 minutes during the daytime. Standard: 2. A flagger or uniformed law enforcement officer shall be used for this application. The flagger, if used for this application, shall follow the procedures provided in Sections 6D.05 and 6D.06. Guidance: 3. The uniformed law enforcement officer, if used for this application, should follow the procedures provided in Sections 6D.05 and 6D.06. Option: 4. A BE PREPARED TO STOP sign may be added to the sign series. 5. Positive protection devices may be used per Section 6M.02. 6. Automated Flagger Assistance Devices (see Section 6L.02) may be used in situations where there is only one lane of approaching traffic in the direction to be controlled. Guidance: 7. When used, the BE PREPARED TO STOP sign should be located before the Flagger symbol sign. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 885 Figure 6P-13. Temporary Road Closure (TA-13) W20-1 C W3-4 B (optional) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in this figure. A W20-7 Buffer space (optional) Buffer space (optional) A W20-\"}, {\"rank\": 7, \"score\": 52.254043, \"source_unit_code\": \"SEC-6N.12\", \"unit_type\": \"section\", \"title\": \"Work within the Traveled Way at an Intersection\", \"chapter\": \"6N\", \"figure_code\": null, \"source_pages\": [888, 889, 890], \"printed_pages\": [848, 849, 850], \"available_regions\": [\"activity\", \"advance_warning\", \"general_notes\", \"transition\"], \"source_excerpt\": \"Support: 01 Chapter 6C and Sections 6M.04 and 6N.04 contain additional information regarding the steps to follow when pedestrian or bicycle facilities are affected by the worksite. 02 The typical applications for intersections are classified according to the location of the work space with respect to the intersection area (as defined by the extension of the curb or edge lines). The three classifications are near side, far side, and in-the-intersection. Work spaces often extend into more than one portion of the intersection. For example, work in one quadrant often creates a near-side work space on one street and a far-side work space on the cross street. In such instances, an appropriate TTC plan is obtained by combining features shown in two or more of the intersection and pedestrian typical applications. 03 TTC zones in the vicinity of intersections might block movements and interfere with normal road user flows. Such conflicts frequently occur at more complex signalized intersections having such features as traffic signal heads over particular lanes, lanes allocated to specific movements, multiple signal phases, signal detectors for actuated control, and accessible pedestrian sig\"}, {\"rank\": 8, \"score\": 51.185864, \"source_unit_code\": \"TA-30\", \"unit_type\": \"typical_application\", \"title\": \"Interior Lane Closure on a Multi-Lane Street\", \"chapter\": \"6P\", \"figure_code\": \"6P-30\", \"source_pages\": [958, 959], \"printed_pages\": [918, 919], \"available_regions\": [\"activity\", \"advance_warning\", \"applicability\", \"buffer\", \"distance_table\", \"general_notes\", \"optional_devices\", \"transition\"], \"source_excerpt\": \"Guidance: 1. This information applies to low-speed, low-volume urban streets. Where speed or volume is higher, additional signing such as LEFT LANE CLOSED XX FT should be used between the signs shown. Option: 2. Positive protection devices may be used per Section 6M.02. 3. Shadow vehicles with a truck-mounted attenuator may be used. Support: 4. The closure of the adjacent interior lane in the opposing direction might not be necessary, depending upon the activity being performed and the work space needed for the operation. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 919 Figure 6P-30. Interior Lane Closure on a Multi-Lane Street (TA-30) W20-1 C B W20-5L A W4-2L L Buffer space (optional) Truck-mounted attenuator (optional) Buffer space (optional) Work vehicle L W4-2L A W20-5L B Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of C the letter codes used in this figure. See Table 6B-4 for formulas for W20-1 calculating taper length (L). Typical Application 30 December 2023 Sect. 6P.01\"}, {\"rank\": 9, \"score\": 51.103741, \"source_unit_code\": \"SEC-6N.09\", \"unit_type\": \"section\", \"title\": \"Work within the Traveled Way of a Two-Lane Highway\", \"chapter\": \"6N\", \"figure_code\": null, \"source_pages\": [886, 887], \"printed_pages\": [846, 847], \"available_regions\": [\"general_notes\", \"pavement_markings\"], \"source_excerpt\": \"Support: 01 Chapter 6C and Sections 6M.04 and 6N.04 contain additional information regarding the steps to follow when pedestrian or bicycle facilities are affected by the worksite. 02 Detour signs are used to direct road users onto another roadway. At diversions, road users are directed onto a temporary roadway or alignment placed within or adjacent to the right-of-way. Typical applications for detouring or diverting road users on two-lane highways are shown in Figures 6P-7, 6P-8, and 6P-9. Figure 6P-7 illustrates the controls around an area where a section of roadway has been closed and a diversion has been constructed. Channelizing devices and pavement markings are used to indicate the transition to the temporary roadway. Guidance: 03 When a detour is long, Detour (M4-8, M4-9) signs should be installed to remind and reassure road users periodically that they are still successfully following the detour. 04 When an entire roadway is closed, as illustrated in Figure 6P-8, a detour should be provided and road users should be warned in advance of the closure, which in this example is a closure 10 miles from the intersection. If local road users are allowed to use the roadway up to the\"}, {\"rank\": 10, \"score\": 50.551948, \"source_unit_code\": \"TA-39\", \"unit_type\": \"typical_application\", \"title\": \"Median Crossover on a Freeway\", \"chapter\": \"6P\", \"figure_code\": \"6P-39\", \"source_pages\": [976, 977], \"printed_pages\": [936, 937], \"available_regions\": [\"advance_warning\", \"applicability\", \"channelizing_devices\", \"distance_table\", \"general_notes\", \"transition\"], \"source_excerpt\": \"Standard: 1. Channelizing devices or temporary traffic barriers shall be used to separate opposing vehicular traffic. 2. An arrow board shall be used when a freeway lane is closed. When more than one freeway lane is closed, a separate arrow board shall be used for each closed lane. Guidance: 3. For long-term work on high-speed, high-volume highways, consideration should be given to using a temporary traffic barrier to separate opposing vehicular traffic. Option: 4. When a temporary traffic barrier is used to separate opposing vehicular traffic, the Two-Way Traffic, Do Not Pass, KEEP RIGHT, and DO NOT ENTER signs may be eliminated. 5. The alignment of the crossover may be designed as a reverse curve. Guidance: 6. When the crossover follows a curved alignment, the design criteria contained in the “AASHTO Green Book – A Policy On Geometric Design Of Highways And Streets,” 7th Edition, 2018, AASHTO should be used. 7. When channelizing devices have the potential of leading vehicular traffic out of the intended traffic space, the channelizing devices should be extended a distance in feet of 2 times the speed limit in mph beyond the downstream end of the transition area as depicted. 8. Wh\"}, {\"rank\": 11, \"score\": 50.387854, \"source_unit_code\": \"TA-52\", \"unit_type\": \"typical_application\", \"title\": \"Short-Term or Short-Duration Work in a Circular Intersection\", \"chapter\": \"6P\", \"figure_code\": \"6P-52\", \"source_pages\": [1002, 1003], \"printed_pages\": [962, 963], \"available_regions\": [\"advance_warning\", \"applicability\", \"channelizing_devices\", \"distance_table\", \"general_notes\"], \"source_excerpt\": \"Option: 1. Flashing warning lights and/or flags may be used to call attention to the advance warning signs. A BE PREPARED TO STOP sign may be added to the sign series. 2. If closure continues overnight, warning lights may be used on the channelizing devices. Standard: 3. Where a quadrant of the circular intersection is closed, only one direction of approach traffic shall be released at a time. 4. At night, flagger stations shall be illuminated, except in emergencies. 5. WRONG WAY signs shall be covered. Guidance: 6. When used, the BE PREPARED TO STOP sign should be located between the Flagger sign and the ONE LANE ROAD sign. 7. YIELD, ONE WAY, and Directional arrow signs should be covered or removed. 8. Confusing or misleading guide or lane-use control signs should be covered. Option: 9. Crosswalks may be closed. 10. As an alternative to closing crosswalks, warning signs may be added informing pedestrians that there is traffic coming from the left. Guidance: 11. Since the geometrics of the circular intersection will be temporarily altered, consideration should be given to establishing a truck detour for the duration of the project. 12. For intermediate or long-term work, the circul\"}, {\"rank\": 12, \"score\": 50.362038, \"source_unit_code\": \"TA-31\", \"unit_type\": \"typical_application\", \"title\": \"Lane Closure on a Street with Uneven Directional Volumes\", \"chapter\": \"6P\", \"figure_code\": \"6P-31\", \"source_pages\": [960, 961], \"printed_pages\": [920, 921], \"available_regions\": [\"advance_warning\", \"buffer\", \"distance_table\", \"general_notes\", \"transition\"], \"source_excerpt\": \"Standard: 1. The illustrated information shall be used only when the vehicular traffic volume indicates that two lanes of vehicular traffic shall be maintained in the direction of travel for which one lane is closed. Option: 2. The procedure may be used during a peak period of vehicular traffic and then changed to provide two lanes in the other direction for the other peak. Guidance: 3. For high speeds, a LEFT LANE CLOSED XX FT sign should be added for vehicular traffic approaching the lane closure, as shown in Figure 6P-32. 4. Conflicting pavement markings should be removed for long-term projects. For short-term and intermediate-term projects where this is impracticable, the channelizing devices in the area where the pavement markings conflict should be placed at a maximum spacing of ½ S feet where S is the speed in mph. Temporary markings should be installed where needed. 5. If the lane shift has curves with recommended speeds of 30 mph or less, Reverse Turn signs should be used. 6. Where the shifted section is long, a Reverse Curve sign should be used to show the initial shift and a second sign should be used to show the return to the normal alignment. 7. If the tangent distance\"}], \"continuation_token\": \"eyJrZXkiOiAiNTRlYTZlOGE4OGI4OTJjNzRhN2QwNDkwYTIxY2I5ZDMwZGQ0ZjFkNmU2NGUwNTQyN2Q2MjkxYjFmN2I2OWY2NSIsICJraW5kIjogInNlYXJjaCIsICJvZmZzZXQiOiAxMn0\", \"has_more\": true, \"recognized_manual_source_unit_codes\": [], \"correct_page_or_application_whitelist\": null}"
+    },
+    {
+      "id": "rs_09d7c229dbc1e581016ad932d6d10887d18bd12640972bde0c",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2TLYoWY9KRbR4AUsZPsYvwncJdJpiWEPvdgyMspYa-IXRPwcTY0nKuVwSTTEKemAFEs0aebEIiG-wV5VqNBlmX7_1OeBFNasWdxJdkN6A_QwCciua4nY3vgNmgyEgts4B2kHEgsZpgw_qLAJQzOFqY6FZ0HYWMpZBUzaoBphUSyeoWGGNMJmQdOMCxrHHHjnEWNVreij_O4ZR0jCWgrKf-1mewzhvGp-QbUzOqiVeioq3igdxzuGLPJQbLQFQlgEPcW-vr4B7QJ8nUJZiqR8plAkjhhioo7mpXku041WOByhATksUKfJ4fRZam2PBsOV8PHt2EusknDWIL_3lglCJcVeUo7d0iTgA_SKM8fblybqVeovK6SMMi8gfLcK6WYPooxxBOjMVEifQ1Pk7dLrXDi0gWxqsGQkACugVd4QEYR1VhU0wLXt6QSY95PNXv8nGffLoUiWRBvxUyOD5SgPM-cU0VDzPsmjB73J3dt8DIAZocsoNQE-eETPYqfyJDbUagEU7PkUaKxEtfF8K8u0FGC0dhbU8ig5VVJ9KNmyszJn6f_cHWTRyRrFktHYq0IFlqFJVrDA3s4bkL16lfsAGN0HVr7bv2LoCm4YD9irvp8PZG6B5490UDYCUgW92PpOj5YG7cYImyCqDFMnmOUScPRxhfY5nTPvIJjkUOX2HjgSVJmBBiPzOdjcP1DjHWWk7YUEslkDIljSYS4ym5FFTa4GkPD-wgmJH7DEmr2Ngpg-JAvCmwgM-RBiiPq2H2wy9CDvc9AVa6GGhT3GK-aH85mICtHRmLJEzW-2SPzAolBAEikrAn1KpfnTp04t3NTACtLDgbkhXDvir5BALnjtSC1uII9w8zuJci5Jy3GthqYRkPQK6q12RYiTHXwlFyl9OibDRV0zkpVYbaEdcSY_oqCejiepPOJIJsBrPOT7JN15tID6TiEBnu8xfUZnBBqpJBbFY-5Y88z0dsQkr8d_C8X9ZucMOgptaaFD4J6q1EogiHY6rBG32xoHjQiLj_1YwvgzApZ6nVFG5lLg8zl24HY-ObqOPnK8ujERQysRt3FpO10IrqxmWEiwPH0_jkW0P-Ocu6D71dbRQ6txuBGqcJSGOVtRi0MI-w-r47dx3VFVN4K2Td1Qoie_s0VZPqYuSO89v9S15NaqMONtx6aKuI1RbBJ_LE3khWK8vsF1SHGXqGVJUXiIiOVLGPzeYxeByTcu9Do4tgEVf1nJdTaJQKwwqtB62YjWlovT8ihZWlNsWhMrQl79u9CbzbSJ-Y0rX0DObKpWkfH0zWg0R7YmNMXEAI7vc0ornzqbmynpaEXJOUUYutcWbmQg3nJGl6oajH4B3vnUwdB7QmFS26n_mbJyqVS3yg5sdwgjabA57-5Er2e6uoehYwC_zoVqPDd0YqoJUCufDE_tNnLDUgUWtDp6jpViARKS_vJU7GGZbcHRrXd8hmQMmSJwA_f-N_dJgSPv2zNmXrCyHzF24XkUyaURvQvJf2LxLQo6EHheACjKK0_hNaVKWJzILrVWx6leTpygQUP-tNI6_jgNnRyER_xuOQyyJhmGhllf3hinIY0j0EZAsxcSi0IE7pcHFmQjWnUgvNiDXIhPpL4wgBVohQo-NXHltdMemf4vNA5-jMOtmtBsA8k7iei2hniTw4f0ZB_m3mWhLBWzav1G033o5KSRVoM6QQZkg7_lvzLlt20tFqfPqBOoV-CKraDct4j4mrt-xs4ojuDX-s8rv3z1chmIdnWZwVWnTcXkhL2nJATAvnL4EfeRGrzQQGZYndqH-i3K9AfaiMNTyHYEt6PbIOUDKNdAXKIHPrGktt9niy20Rm9dDwmks1TNUz1OSKu77TVah-T0nonR4uL1xEHK0d7PTaVLX3pWocWVi98_ajFWkX_mWjC21X7nGwzHkXJ4KvHuafxYpH9gAOXXYbyF-687G-j_SrP9V93VoQy9j7fIpETzjulLmTdaQV-1LmrhZApUyvGqaeBuhMFkNnmG3ckO4hb6zQcmVldJMtAtyzhuPsVWnKtQ0NCezpZWV1FFqALNzwYk5DCznhngQWYprfArZYvVGhqw7kiBZcWS7GOpsyn-lX9J2aZSLIE0bS8wUQuHShR-0L2EEiZXCTfY470LAX-NsS70cHoWtCTxvla6nVsAScqw8j3lrBgvsKnyQqJx",
+      "summary": []
+    },
+    {
+      "id": "fc_09d7c229dbc1e581016ad932d7830c87d182128513c72db70a",
+      "type": "function_call",
+      "status": "completed",
+      "arguments": "{\"source_unit_code\":\"TA-16\",\"region\":null,\"page_size\":12,\"continuation_token\":null}",
+      "call_id": "call_PaLstzSQadstlcGFaHbENPRC",
+      "name": "expand_source_unit"
+    },
+    {
+      "type": "function_call_output",
+      "call_id": "call_PaLstzSQadstlcGFaHbENPRC",
+      "output": "{\"operation\": \"expand_source_unit\", \"source_unit_code\": \"TA-16\", \"region\": null, \"source_unit_metadata\": {\"unit_type\": \"typical_application\", \"title\": \"Surveying Along the Center Line of a Road with Low Traffic Volumes\", \"chapter\": \"6P\", \"figure_code\": \"6P-16\", \"source_pages\": [930, 931], \"printed_pages\": [890, 891]}, \"items\": [{\"source_node_id\": \"src_b8ccd683d4e4b6fa18ee\", \"source_unit_code\": \"TA-16\", \"unit_type\": \"typical_application\", \"chapter\": \"6P\", \"region\": \"channelizing_devices\", \"node_type\": \"normative_clause\", \"paragraph\": \"01\", \"subject\": \"The lanes on either side of the center work space\", \"modality\": \"should\", \"relation\": \"should_comply\", \"threshold\": \"The lanes on either side of the center work space should have a minimum width of 10 feet as measured from the near edge of the channelizing devices to the edge of the pavement or the outside edge of the paved shoulder.\", \"applicability_conditions\": [], \"required_inputs\": [\"raw_images\", \"accepted_bbox_observations\", \"ego_trajectory\", \"lidar_points\", \"closed_lane\", \"roadway_configuration\"], \"scope_tags\": [], \"source_locator\": \"TA-16 paragraph 01; PDF page 930\", \"pdf_page\": 930, \"printed_page\": 890, \"source_span\": \"The lanes on either side of the center work space should have a minimum width of 10 feet as measured from the near edge of the channelizing devices to the edge of the pavement or the outside edge of the paved shoulder.\"}, {\"source_node_id\": \"src_63061b124a732ff83828\", \"source_unit_code\": \"TA-16\", \"unit_type\": \"typical_application\", \"chapter\": \"6P\", \"region\": \"channelizing_devices\", \"node_type\": \"normative_clause\", \"paragraph\": \"02\", \"subject\": \"Cones\", \"modality\": \"should\", \"relation\": \"should_comply\", \"threshold\": \"Cones should be placed 6 to 12 inches on either side of the center line.\", \"applicability_conditions\": [], \"required_inputs\": [\"raw_images\"], \"scope_tags\": [], \"source_locator\": \"TA-16 paragraph 02; PDF page 930\", \"pdf_page\": 930, \"printed_page\": 890, \"source_span\": \"Cones should be placed 6 to 12 inches on either side of the center line.\"}, {\"source_node_id\": \"src_0c68615499f33fc6efb9\", \"source_unit_code\": \"TA-16\", \"unit_type\": \"typical_application\", \"chapter\": \"6P\", \"region\": \"general_notes\", \"node_type\": \"normative_clause\", \"paragraph\": \"03\", \"subject\": \"A flagger\", \"modality\": \"should\", \"relation\": \"should_comply\", \"threshold\": \"A flagger should be used to warn workers who cannot watch road users.\", \"applicability_conditions\": [], \"required_inputs\": [\"raw_images\"], \"scope_tags\": [], \"source_locator\": \"TA-16 paragraph 03; PDF page 930\", \"pdf_page\": 930, \"printed_page\": 890, \"source_span\": \"A flagger should be used to warn workers who cannot watch road users.\"}, {\"source_node_id\": \"src_747f6f63a75ecffec5d3\", \"source_unit_code\": \"TA-16\", \"unit_type\": \"typical_application\", \"chapter\": \"6P\", \"region\": \"general_notes\", \"node_type\": \"normative_clause\", \"paragraph\": \"04\", \"subject\": \"For surveying on the center line of a high-volume road, one lane\", \"modality\": \"shall\", \"relation\": \"shall_comply\", \"threshold\": \"For surveying on the center line of a high-volume road, one lane shall be closed using the information illustrated in MUTCD 11th Edition Page 891\", \"applicability_conditions\": [], \"required_inputs\": [\"raw_images\", \"closed_lane\", \"roadway_configuration\"], \"scope_tags\": [], \"source_locator\": \"TA-16 paragraph 04; PDF page 930\", \"pdf_page\": 930, \"printed_page\": 890, \"source_span\": \"For surveying on the center line of a high-volume road, one lane shall be closed using the information illustrated in MUTCD 11th Edition Page 891\"}, {\"source_node_id\": \"src_de84f3a51dad93ff7325\", \"source_unit_code\": \"TA-16\", \"unit_type\": \"typical_application\", \"chapter\": \"6P\", \"region\": \"buffer\", \"node_type\": \"figure_component\", \"paragraph\": \"figure:buffer_space\", \"subject\": \"buffer space in TA-16\", \"modality\": \"should\", \"relation\": \"is_depicted_at_figure_position\", \"threshold\": \"A buffer space is located as shown in the figure.\", \"applicability_conditions\": [\"TA-16 is selected for the scene\"], \"required_inputs\": [\"raw_images\", \"accepted_bbox_observations\", \"ego_trajectory\", \"lidar_points\"], \"scope_tags\": [\"buffer_or_activity_area\"], \"source_locator\": \"Figure 6P-16 (TA-16); PDF page 931; component buffer_space\", \"pdf_page\": 931, \"printed_page\": 891, \"source_span\": \"Figure 6P-16. Surveying Along the Center Line of a Road with Low Traffic Volumes (TA-16) B W21-6 Note: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of A the letter codes used in this figure. W20-7 Buffer space 10 feet MIN. to edge of pavement or outside edge of paved shoulder Buffer space A W20-7 B W21-6 Typical Application 16\", \"normative_basis\": {\"source_unit_code\": \"SEC-6P.01\", \"paragraph\": \"02\", \"principle\": \"Typical Application diagrams are Guidance minimum solutions\"}, \"figure_image_path\": \"/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-16_pdf_page_0931.jpg\"}, {\"source_node_id\": \"src_1f35d7b086583999b921\", \"source_unit_code\": \"TA-16\", \"unit_type\": \"typical_application\", \"chapter\": \"6P\", \"region\": \"general_notes\", \"node_type\": \"figure_component\", \"paragraph\": \"figure:diagram\", \"subject\": \"TA-16 diagram\", \"modality\": \"should\", \"relation\": \"depicts_guidance_minimum_solution\", \"threshold\": \"Use the controls, positions, and dimensions depicted in the Typical Application figure, interpreted with its notes and referenced tables.\", \"applicability_conditions\": [\"TA-16 is selected for the scene\"], \"required_inputs\": [\"raw_images\", \"accepted_bbox_observations\"], \"scope_tags\": [], \"source_locator\": \"Figure 6P-16 (TA-16); PDF page 931; component diagram\", \"pdf_page\": 931, \"printed_page\": 891, \"source_span\": \"Figure 6P-16. Surveying Along the Center Line of a Road with Low Traffic Volumes (TA-16) B W21-6 Note: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of A the letter codes used in this figure. W20-7 Buffer space 10 feet MIN. to edge of pavement or outside edge of paved shoulder Buffer space A W20-7 B W21-6 Typical Application 16\", \"normative_basis\": {\"source_unit_code\": \"SEC-6P.01\", \"paragraph\": \"02\", \"principle\": \"Typical Application diagrams are Guidance minimum solutions\"}, \"figure_image_path\": \"/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-16_pdf_page_0931.jpg\"}, {\"source_node_id\": \"src_bb3371375e7d96d9e11e\", \"source_unit_code\": \"TA-16\", \"unit_type\": \"typical_application\", \"chapter\": \"6P\", \"region\": \"distance_table\", \"node_type\": \"figure_component\", \"paragraph\": \"figure:dimensions:A-B\", \"subject\": \"A, B sign-spacing dimensions in TA-16\", \"modality\": \"should\", \"relation\": \"uses_referenced_table_dimensions\", \"threshold\": \"Resolve the depicted A, B dimensions through the figure's referenced spacing table.\", \"applicability_conditions\": [\"TA-16 is selected for the scene\"], \"required_inputs\": [\"roadway_configuration\", \"posted_speed_mph\", \"accepted_bbox_observations\", \"ego_trajectory\", \"lidar_points\"], \"scope_tags\": [], \"source_locator\": \"Figure 6P-16 (TA-16); PDF page 931; component dimensions:A-B\", \"pdf_page\": 931, \"printed_page\": 891, \"source_span\": \"Figure 6P-16. Surveying Along the Center Line of a Road with Low Traffic Volumes (TA-16) B W21-6 Note: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of A the letter codes used in this figure. W20-7 Buffer space 10 feet MIN. to edge of pavement or outside edge of paved shoulder Buffer space A W20-7 B W21-6 Typical Application 16\", \"normative_basis\": {\"source_unit_code\": \"SEC-6P.01\", \"paragraph\": \"02\", \"principle\": \"Typical Application diagrams are Guidance minimum solutions\"}, \"figure_image_path\": \"/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-16_pdf_page_0931.jpg\"}, {\"source_node_id\": \"src_020854d9909a7bc3aef3\", \"source_unit_code\": \"TA-16\", \"unit_type\": \"typical_application\", \"chapter\": \"6P\", \"region\": \"advance_warning\", \"node_type\": \"figure_component\", \"paragraph\": \"figure:sign:W20-7\", \"subject\": \"W20-7 sign in TA-16\", \"modality\": \"should\", \"relation\": \"is_depicted_at_figure_position\", \"threshold\": \"W20-7 is at the position and in the sequence shown in the figure.\", \"applicability_conditions\": [\"TA-16 is selected for the scene\"], \"required_inputs\": [\"raw_images\", \"accepted_bbox_observations\"], \"scope_tags\": [], \"source_locator\": \"Figure 6P-16 (TA-16); PDF page 931; component sign:W20-7\", \"pdf_page\": 931, \"printed_page\": 891, \"source_span\": \"Figure 6P-16. Surveying Along the Center Line of a Road with Low Traffic Volumes (TA-16) B W21-6 Note: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of A the letter codes used in this figure. W20-7 Buffer space 10 feet MIN. to edge of pavement or outside edge of paved shoulder Buffer space A W20-7 B W21-6 Typical Application 16\", \"normative_basis\": {\"source_unit_code\": \"SEC-6P.01\", \"paragraph\": \"02\", \"principle\": \"Typical Application diagrams are Guidance minimum solutions\"}, \"figure_image_path\": \"/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-16_pdf_page_0931.jpg\"}, {\"source_node_id\": \"src_41d7698969901fc70475\", \"source_unit_code\": \"TA-16\", \"unit_type\": \"typical_application\", \"chapter\": \"6P\", \"region\": \"advance_warning\", \"node_type\": \"figure_component\", \"paragraph\": \"figure:sign:W21-6\", \"subject\": \"W21-6 sign in TA-16\", \"modality\": \"should\", \"relation\": \"is_depicted_at_figure_position\", \"threshold\": \"W21-6 is at the position and in the sequence shown in the figure.\", \"applicability_conditions\": [\"TA-16 is selected for the scene\"], \"required_inputs\": [\"raw_images\", \"accepted_bbox_observations\"], \"scope_tags\": [], \"source_locator\": \"Figure 6P-16 (TA-16); PDF page 931; component sign:W21-6\", \"pdf_page\": 931, \"printed_page\": 891, \"source_span\": \"Figure 6P-16. Surveying Along the Center Line of a Road with Low Traffic Volumes (TA-16) B W21-6 Note: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of A the letter codes used in this figure. W20-7 Buffer space 10 feet MIN. to edge of pavement or outside edge of paved shoulder Buffer space A W20-7 B W21-6 Typical Application 16\", \"normative_basis\": {\"source_unit_code\": \"SEC-6P.01\", \"paragraph\": \"02\", \"principle\": \"Typical Application diagrams are Guidance minimum solutions\"}, \"figure_image_path\": \"/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-16_pdf_page_0931.jpg\"}], \"matching_node_count\": 9, \"continuation_token\": null, \"has_more\": false}"
+    }
+  ],
+  "tools": [
+    {
+      "type": "function",
+      "name": "search_manual",
+      "description": "Search every prebuilt MUTCD section and Typical Application with structured BM25; page through results as needed.",
+      "strict": true,
+      "parameters": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "query": {
+            "type": "string"
+          },
+          "page_size": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 12
+          },
+          "continuation_token": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "query",
+          "page_size",
+          "continuation_token"
+        ]
+      }
+    },
+    {
+      "type": "function",
+      "name": "expand_source_unit",
+      "description": "Read atomic source nodes for a retrieved section or Typical Application and optional region.",
+      "strict": true,
+      "parameters": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "source_unit_code": {
+            "type": "string"
+          },
+          "region": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "page_size": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 12
+          },
+          "continuation_token": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "source_unit_code",
+          "region",
+          "page_size",
+          "continuation_token"
+        ]
+      }
+    },
+    {
+      "type": "function",
+      "name": "follow_cross_reference",
+      "description": "Traverse only an explicit cross-reference edge found in the manual graph.",
+      "strict": true,
+      "parameters": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "from_source_unit_code": {
+            "type": "string"
+          },
+          "to_source_unit_code": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "from_source_unit_code",
+          "to_source_unit_code"
+        ]
+      }
+    },
+    {
+      "type": "function",
+      "name": "read_source_node",
+      "description": "Read one source-hash node previously surfaced by the full-manual index.",
+      "strict": true,
+      "parameters": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "source_node_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "source_node_id"
+        ]
+      }
+    }
+  ],
+  "tool_choice": "auto",
+  "parallel_tool_calls": false,
+  "reasoning": {
+    "effort": "medium"
+  },
+  "max_output_tokens": 5000,
+  "store": false,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "name": "stage0_layout_selection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "scene_id",
+          "layout_selection_status",
+          "selected_layouts",
+          "missing_scene_fields",
+          "selection_reason"
+        ],
+        "properties": {
+          "scene_id": {
+            "type": "string"
+          },
+          "layout_selection_status": {
+            "enum": [
+              "determined",
+              "indeterminate"
+            ]
+          },
+          "selected_layouts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "layout_code",
+                "layout_role",
+                "source_locator",
+                "matched_scene_facts",
+                "conflicting_scene_facts"
+              ],
+              "properties": {
+                "layout_code": {
+                  "type": "string",
+                  "enum": [
+                    "TA-1",
+                    "TA-2",
+                    "TA-3",
+                    "TA-4",
+                    "TA-5",
+                    "TA-6",
+                    "TA-7",
+                    "TA-8",
+                    "TA-9",
+                    "TA-10",
+                    "TA-11",
+                    "TA-12",
+                    "TA-13",
+                    "TA-14",
+                    "TA-15",
+                    "TA-16",
+                    "TA-17",
+                    "TA-18",
+                    "TA-19",
+                    "TA-20",
+                    "TA-21",
+                    "TA-22",
+                    "TA-23",
+                    "TA-24",
+                    "TA-25",
+                    "TA-26",
+                    "TA-27",
+                    "TA-28",
+                    "TA-29",
+                    "TA-30",
+                    "TA-31",
+                    "TA-32",
+                    "TA-33",
+                    "TA-34",
+                    "TA-35",
+                    "TA-36",
+                    "TA-37",
+                    "TA-38",
+                    "TA-39",
+                    "TA-40",
+                    "TA-41",
+                    "TA-42",
+                    "TA-43",
+                    "TA-44",
+                    "TA-45",
+                    "TA-46",
+                    "TA-47",
+                    "TA-48",
+                    "TA-49",
+                    "TA-50",
+                    "TA-51",
+                    "TA-52",
+                    "TA-53",
+                    "TA-54"
+                  ]
+                },
+                "layout_role": {
+                  "enum": [
+                    "primary_applicable",
+                    "cross_reference_only"
+                  ]
+                },
+                "source_locator": {
+                  "type": "string"
+                },
+                "matched_scene_facts": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "conflicting_scene_facts": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "missing_scene_fields": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "selection_reason": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

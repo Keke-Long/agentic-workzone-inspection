@@ -1,0 +1,46 @@
+Design a publication-quality scientific system architecture figure, portrait orientation 4:5, crisp white background, restrained navy blue / teal / purple / amber, clean flat vector-like ICONS, consistent thin strokes and clear sans-serif typography. This is a computer-science research paper methodology figure, NOT a marketing infographic. TOP TO BOTTOM data flow, four stages, balanced amount of text. NO photographs, no realistic cars, no decorative road scenes, no robot mascot, no extra panels with repeating pictures. Use small meaningful outline icons. High readability.
+
+EXACT TOPOLOGY AND PLACEMENT:
+At top three small input boxes in a horizontal row:
+LEFT: camera + LiDAR outline icon, text "Camera + LiDAR" second line "Images • point clouds".
+CENTER: scene/context icon, text "Scene context" second line "Layout cues • known conditions".
+RIGHT: open manual icon, text "MUTCD" second line "TA library • structured sources".
+A simple arrow from Camera+LiDAR input to Scene context input indicates scene observations inform context.
+Below, centered main column about 75% of canvas width contains FOUR stacked stage panels, connected by downward arrows. Keep left and right vertical margins available for DATA BUS connectors.
+Stage panels each have a colored numbered circle, exact bold stage heading, an icon, a short activity line and an output strip. Space stages evenly. NO arrows that go from Stage 4 back to previous stages.
+LEFT input Camera+LiDAR also feeds an OUTER LEFT bus down directly into Stage 3 labelled "Sensor evidence". It must BYPASS stage 2 and enter Stage 3's LEFT edge. Do not connect this bus to other panels.
+RIGHT input MUTCD feeds an OUTER RIGHT bus with TWO short inward arrows: one into Stage 1 labelled "TA references" and one into Stage 2 labelled "Regulatory sources". Terminate this bus at Stage 2; NOT at Stage 3 or Stage 4.
+Scene context feeds Stage 1 with downward arrow, AND a separate short branched line into Stage 2 labelled "Scene conditions". Carefully route without crossing panel contents.
+
+STAGE 1 PANEL:
+Heading "1  Layout selection".
+Small outline road/taper and selected-document icon.
+Activity text "Match scene configuration to a Typical Application".
+Bottom output strip "Selected TA + scene context".
+Downward connector to Stage 2.
+
+STAGE 2 PANEL, slightly taller with very pale teal fill to emphasize method contribution:
+Heading "2  Regulation-grounded inspection planning".
+Inside three horizontally arranged small icon modules with arrows left to right:
+connected graph + magnifier icon, title "Structured RAG", subtext "TA / condition KG + gap retrieval";
+document with checkmarks icon, title "Requirements", subtext "Applicability + atomic checks";
+clipboard + small wrench icon, title "Evidence plan", subtext "Data availability + tool selection".
+Bottom output strip "Source-linked requirements + acquisition plan".
+Downward connector to Stage 3.
+
+STAGE 3 PANEL:
+Heading "3  Tool-assisted inspection & assessment".
+Inside two medium outline icons side by side with a rightward arrow: camera-frame with cone bounding box plus small distance ruler, then checklist with green check/red cross/gray dash.
+Labels "Acquire evidence & measure" and "Assess each requirement".
+Bottom output strip "Evidence + judgments + source links".
+Sensor evidence bus enters this panel from the left.
+Downward connector to Stage 4.
+
+STAGE 4 PANEL:
+Heading "4  Inspection report synthesis".
+Small outline report-page icon and text "Consolidate findings, citations and coverage gaps".
+Bottom output strip "Traceable inspection report".
+Downward arrow to a small final REPORT MOCKUP, landscape compact, not a fifth numbered stage.
+Report mockup header "Inspection report". Under header draw 3 column icons with short text: "Requirement / source", "Evidence", "Status"; below thin table rows with simple line marks (not fake readable sentences or numbers), one green check, one red cross, one gray dash. Beneath report three small legend items "Satisfied" / "Deficient" / "Not assessed". Only one report mockup in entire figure.
+
+Enforce accurate arrow directions and clear separation of normative-source input, scene-context input, and sensor-evidence input. All arrowheads land on appropriate boxes, no floating or bidirectional arrows. No invented steps, no connecting stage 2 back to inputs. No extra prose, no huge overall title. Center main flow; small icons supplement rather than dominate text. Text must be exact and fit without overlap. Fine academic aesthetic suitable for 6.5-inch page width.

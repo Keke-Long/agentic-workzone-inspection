@@ -1,0 +1,76 @@
+{
+  "scene_id": "scene-CATS-15",
+  "layout_selection_status": "determined",
+  "selected_layouts": [
+    {
+      "layout_code": "TA-19",
+      "layout_role": "primary_applicable",
+      "source_locator": "TA-19, Figure 6P-19, PDF page 937 / printed page 897; source unit expanded from the full-manual index",
+      "matched_scene_facts": [
+        "Opposing traffic is explicitly prohibited from entering the closed direction and detours via other roads.",
+        "The ego-direction lane remains open; alternating one-way operation is not occurring.",
+        "The scene is an urban two-way street with one apparent lane in each direction.",
+        "The opposing-direction roadway portion is fully closed and separated by channelizing devices."
+      ],
+      "conflicting_scene_facts": [
+        "The exact off-site detour route and its signing are outside the camera scope.",
+        "Whether the street has a posted route number is unresolved; TA-19 guidance addresses streets without posted route numbers.",
+        "The precise local intersection geometry and limits of the closure are unresolved, but those facts are not needed to establish the directional-detour operation."
+      ]
+    },
+    {
+      "layout_code": "TA-24",
+      "layout_role": "cross_reference_only",
+      "source_locator": "TA-24, Figure 6P-24, PDF page 947 / printed page 907; source unit expanded from the full-manual index",
+      "matched_scene_facts": [
+        "One roadway direction is closed while the other direction remains open.",
+        "Channelizing devices approach and taper near a cross-street intersection."
+      ],
+      "conflicting_scene_facts": [
+        "The defining far-side condition of TA-24 is not established. The channelizer line may end at the intersection, continue beyond it, or turn into the cross street.",
+        "The precise work-space location and longitudinal limits of the opposing-direction closure are unresolved."
+      ]
+    },
+    {
+      "layout_code": "TA-8",
+      "layout_role": "cross_reference_only",
+      "source_locator": "TA-8, Figure 6P-8, PDF page 915 / printed page 875; source unit expanded from the full-manual index",
+      "matched_scene_facts": [
+        "An off-site detour for opposing traffic is explicitly confirmed.",
+        "The closure is associated with an intersection."
+      ],
+      "conflicting_scene_facts": [
+        "TA-8 depicts a road closure with an off-site detour, whereas the confirmed operation closes only one travel direction and leaves the ego-direction lane open.",
+        "The complete TA-8 road-closure and detour-signing arrangement is not established."
+      ]
+    },
+    {
+      "layout_code": "TA-20",
+      "layout_role": "cross_reference_only",
+      "source_locator": "TA-20, Figure 6P-20, PDF page 939 / printed page 899; source unit expanded from the full-manual index",
+      "matched_scene_facts": [
+        "An off-site detour for opposing traffic is explicitly confirmed.",
+        "The closure is near an intersection."
+      ],
+      "conflicting_scene_facts": [
+        "TA-20 addresses detour signing for a closed street, not the confirmed directional closure with the other travel direction remaining open.",
+        "Whether the street has a posted route number is unresolved, and the specific TA-20 signing arrangement is not covered."
+      ]
+    }
+  ],
+  "missing_scene_fields": [
+    "Whether the street has a posted route number",
+    "Exact off-site detour route and complete detour signing",
+    "Exact longitudinal limits and width of the closed opposing lane",
+    "Whether the channelizer line continues beyond the intersection, turns into the cross street, or ends at the intersection",
+    "Exact work-space location and extent",
+    "Complete traffic-control arrangement on the unobserved opposing approach"
+  ],
+  "selection_reason": "TA-19 is the corrected primary selection because the source facts establish a detour for one travel direction: opposing traffic is prohibited and sent via other roads while the ego-direction lane remains open. This is not a whole-road closure, so TA-8 and TA-20 are not primary. TA-7 was reviewed but depicts a same-road diversion rather than the confirmed off-site detour. TA-9 requires an overlapping-route situation that is not established. TA-18 concerns a minor-street lane closure with possible self-regulation and does not match the confirmed full directional prohibition. TA-21 through TA-25 concern specific lane-closure or intersection geometries; TA-21 through TA-23 and TA-25 are not established, and TA-24 cannot be selected as primary because near-side/far-side geometry is unresolved. TA-26 and TA-27 concern work located in or at a particular part of the intersection, which is not established. TA-28 and TA-29 concern pedestrian facilities; TA-47 through TA-51 concern bicycle or shared-use-path facilities; and TA-52 through TA-54 concern circular intersections, none of which is established. Missing illustrated devices are deferred to later device-adequacy and augmentation review and do not defeat the TA-19 operation-level selection.",
+  "selection_provenance": {
+    "origin": "model_selected",
+    "controller_source_review": true,
+    "review_request": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/agentic_final_review81/stage0_source_review/request.json",
+    "reason": "Unsupported intersection-side assumption and omitted directional-detour alternative in prior autonomous attempts."
+  }
+}

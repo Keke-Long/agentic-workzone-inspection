@@ -1,0 +1,68 @@
+{
+  "experiment_id": "workzone_03_stage5",
+  "status": "new_case_pipeline",
+  "method_id": "kg_plus_bm25",
+  "method_display_name": "Current primary method Stage 5 from structured Stage 4",
+  "method_role": "primary_proposed_method",
+  "method_definition_version": "stage1_stage2_methods_v1",
+  "stage2_policy": {
+    "mode": "structured_candidate_decision_v1",
+    "candidate_scope": "initial_compilation_plus_unresolved_deterministic_kg_candidates",
+    "canonical_predicate_binding": true,
+    "explicit_candidate_disposition_required": true
+  },
+  "model": "gpt-5.6-luna",
+  "reasoning_effort": "medium",
+  "credential_config": "~/.config/workzone/openai_credentials.json",
+  "manual_structure_index": "inputs/mutcd_structure_v1.json",
+  "knowledge_graph_index": "inputs/mutcd_knowledge_graph_v2.json",
+  "scene_manifest": "cases/workzone_03/scene.json",
+  "public_scene_manifest": "cases/workzone_03/scene.json",
+  "frozen_autonomous_reference": "ground_truth/workzone_03/active_requirements.json",
+  "output_directory": "artifacts/workzone_03/pipeline/stage5/scene-CATS-15",
+  "report_directory": "reports/workzone_03/final",
+  "single_tool_response_max_chars": 60000,
+  "registry_batch_size": 24,
+  "max_output_tokens_per_turn": 7000,
+  "emergency_controller_turn_ceiling": 12,
+  "emergency_stage0_turn_ceiling": 24,
+  "model_pricing_usd_per_million": {
+    "input": 0.2,
+    "cached_input": 0.02,
+    "output": 1.2,
+    "pricing_scope": "recorded checkpoint pricing"
+  },
+  "budget_policy": {
+    "normal_total_retrieval_call_limit": null,
+    "normal_total_tool_call_limit": null,
+    "normal_total_retrieved_character_limit": null,
+    "stopping_is_state_based": true,
+    "emergency_ceiling_is_method_failure": true
+  },
+  "execution": {
+    "model_calls_enabled": true,
+    "authorized_runs": [
+      1
+    ],
+    "preflight_report": "inputs/preflight/workzone_03/stage5.json",
+    "critical_preflight_required": true,
+    "run_02_and_run_03_locked": true,
+    "scoped_stage1_stage2_test": true,
+    "simplified_inspection_checks": true,
+    "orchestrated_stage4": true,
+    "orchestrated_stage5": true,
+    "stop_after_requirement_registration": false,
+    "stop_before_measurement": false,
+    "stop_after_measurements": false,
+    "stop_after_conclusions": true,
+    "resume_stage0_record": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/pipeline/stage4/scene-CATS-15/stage_0_layout_selection.json",
+    "resume_registry_checkpoint": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/pipeline/stage4/scene-CATS-15/stage_1_to_6_registry.json",
+    "resume_tool_trace": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/pipeline/stage4/scene-CATS-15/tool_trace.json",
+    "lock_reason": "User-authorized Workzone 3 processing using Workzone 1 method; follow stage boundary."
+  },
+  "reporting": {
+    "reference_status": "Independent reference pending; no benchmark accuracy claims",
+    "cross_method_claims_allowed": false,
+    "primary_evaluation": "Workzone 3 autonomous inspection with explicit evidence limitations"
+  }
+}

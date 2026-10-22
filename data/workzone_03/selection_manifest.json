@@ -1,0 +1,4132 @@
+{
+  "schema": "raw_time_selection_v1",
+  "workzone_id": "workzone_03",
+  "scene_id": "scene-CATS-15",
+  "raw_root": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14",
+  "cutoff_s": 61.0,
+  "end_s": 85.0,
+  "cutoff_time_basis": "existing extracted filename and INS timestamps; no rebasing",
+  "authorization": "User explicitly selects only 61\u201385 seconds for images and LiDAR.",
+  "raw_modified": false,
+  "camera_channels": [
+    "camera0"
+  ],
+  "streams": {
+    "camera0": {
+      "original_count": 991,
+      "excluded_count": 751,
+      "selected_count": 240,
+      "selected_range_s": [
+        61.099999,
+        84.99999
+      ],
+      "frames": [
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/61.099999000.png",
+          "timestamp_s": 61.099999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/61.199999000.png",
+          "timestamp_s": 61.199999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/61.299999000.png",
+          "timestamp_s": 61.299999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/61.399999000.png",
+          "timestamp_s": 61.399999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/61.499999000.png",
+          "timestamp_s": 61.499999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/61.599999000.png",
+          "timestamp_s": 61.599999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/61.699999000.png",
+          "timestamp_s": 61.699999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/61.799999000.png",
+          "timestamp_s": 61.799999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/61.899999000.png",
+          "timestamp_s": 61.899999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/61.999990000.png",
+          "timestamp_s": 61.99999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/62.099999000.png",
+          "timestamp_s": 62.099999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/62.199999000.png",
+          "timestamp_s": 62.199999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/62.299999000.png",
+          "timestamp_s": 62.299999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/62.399999000.png",
+          "timestamp_s": 62.399999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/62.499999000.png",
+          "timestamp_s": 62.499999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/62.599999000.png",
+          "timestamp_s": 62.599999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/62.699999000.png",
+          "timestamp_s": 62.699999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/62.799999000.png",
+          "timestamp_s": 62.799999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/62.899999000.png",
+          "timestamp_s": 62.899999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/62.999990000.png",
+          "timestamp_s": 62.99999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/63.099999000.png",
+          "timestamp_s": 63.099999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/63.199999000.png",
+          "timestamp_s": 63.199999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/63.299999000.png",
+          "timestamp_s": 63.299999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/63.399999000.png",
+          "timestamp_s": 63.399999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/63.499999000.png",
+          "timestamp_s": 63.499999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/63.599999000.png",
+          "timestamp_s": 63.599999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/63.699999000.png",
+          "timestamp_s": 63.699999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/63.799999000.png",
+          "timestamp_s": 63.799999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/63.899999000.png",
+          "timestamp_s": 63.899999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/63.999990000.png",
+          "timestamp_s": 63.99999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/64.099999000.png",
+          "timestamp_s": 64.099999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/64.199999000.png",
+          "timestamp_s": 64.199999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/64.299999000.png",
+          "timestamp_s": 64.299999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/64.399999000.png",
+          "timestamp_s": 64.399999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/64.499999000.png",
+          "timestamp_s": 64.499999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/64.599999000.png",
+          "timestamp_s": 64.599999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/64.699999000.png",
+          "timestamp_s": 64.699999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/64.799999000.png",
+          "timestamp_s": 64.799999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/64.899999000.png",
+          "timestamp_s": 64.899999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/64.999990000.png",
+          "timestamp_s": 64.99999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/65.099999000.png",
+          "timestamp_s": 65.099999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/65.199999000.png",
+          "timestamp_s": 65.199999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/65.299999000.png",
+          "timestamp_s": 65.299999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/65.399999000.png",
+          "timestamp_s": 65.399999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/65.499999000.png",
+          "timestamp_s": 65.499999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/65.599999000.png",
+          "timestamp_s": 65.599999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/65.699999000.png",
+          "timestamp_s": 65.699999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/65.799999000.png",
+          "timestamp_s": 65.799999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/65.899999000.png",
+          "timestamp_s": 65.899999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/65.999990000.png",
+          "timestamp_s": 65.99999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/66.099999000.png",
+          "timestamp_s": 66.099999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/66.199999000.png",
+          "timestamp_s": 66.199999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/66.299999000.png",
+          "timestamp_s": 66.299999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/66.399999000.png",
+          "timestamp_s": 66.399999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/66.499999000.png",
+          "timestamp_s": 66.499999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/66.599999000.png",
+          "timestamp_s": 66.599999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/66.699999000.png",
+          "timestamp_s": 66.699999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/66.799999000.png",
+          "timestamp_s": 66.799999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/66.899999000.png",
+          "timestamp_s": 66.899999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/66.999990000.png",
+          "timestamp_s": 66.99999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/67.099999000.png",
+          "timestamp_s": 67.099999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/67.199999000.png",
+          "timestamp_s": 67.199999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/67.299999000.png",
+          "timestamp_s": 67.299999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/67.399999000.png",
+          "timestamp_s": 67.399999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/67.499999000.png",
+          "timestamp_s": 67.499999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/67.599999000.png",
+          "timestamp_s": 67.599999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/67.699999000.png",
+          "timestamp_s": 67.699999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/67.799999000.png",
+          "timestamp_s": 67.799999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/67.899999000.png",
+          "timestamp_s": 67.899999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/67.999990000.png",
+          "timestamp_s": 67.99999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/68.099999000.png",
+          "timestamp_s": 68.099999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/68.199999000.png",
+          "timestamp_s": 68.199999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/68.299999000.png",
+          "timestamp_s": 68.299999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/68.399999000.png",
+          "timestamp_s": 68.399999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/68.499999000.png",
+          "timestamp_s": 68.499999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/68.599999000.png",
+          "timestamp_s": 68.599999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/68.699999000.png",
+          "timestamp_s": 68.699999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/68.799999000.png",
+          "timestamp_s": 68.799999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/68.899999000.png",
+          "timestamp_s": 68.899999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/68.999990000.png",
+          "timestamp_s": 68.99999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/69.099999000.png",
+          "timestamp_s": 69.099999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/69.199999000.png",
+          "timestamp_s": 69.199999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/69.299999000.png",
+          "timestamp_s": 69.299999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/69.399999000.png",
+          "timestamp_s": 69.399999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/69.499999000.png",
+          "timestamp_s": 69.499999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/69.599999000.png",
+          "timestamp_s": 69.599999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/69.699999000.png",
+          "timestamp_s": 69.699999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/69.799999000.png",
+          "timestamp_s": 69.799999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/69.899999000.png",
+          "timestamp_s": 69.899999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/69.999990000.png",
+          "timestamp_s": 69.99999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/70.099999000.png",
+          "timestamp_s": 70.099999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/70.199999000.png",
+          "timestamp_s": 70.199999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/70.299999000.png",
+          "timestamp_s": 70.299999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/70.399999000.png",
+          "timestamp_s": 70.399999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/70.499999000.png",
+          "timestamp_s": 70.499999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/70.599999000.png",
+          "timestamp_s": 70.599999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/70.699999000.png",
+          "timestamp_s": 70.699999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/70.799999000.png",
+          "timestamp_s": 70.799999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/70.899999000.png",
+          "timestamp_s": 70.899999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/70.999990000.png",
+          "timestamp_s": 70.99999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/71.099999000.png",
+          "timestamp_s": 71.099999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/71.199999000.png",
+          "timestamp_s": 71.199999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/71.299999000.png",
+          "timestamp_s": 71.299999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/71.399999000.png",
+          "timestamp_s": 71.399999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/71.499999000.png",
+          "timestamp_s": 71.499999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/71.599999000.png",
+          "timestamp_s": 71.599999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/71.699999000.png",
+          "timestamp_s": 71.699999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/71.799999000.png",
+          "timestamp_s": 71.799999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/71.899999000.png",
+          "timestamp_s": 71.899999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/71.999990000.png",
+          "timestamp_s": 71.99999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/72.099999000.png",
+          "timestamp_s": 72.099999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/72.199999000.png",
+          "timestamp_s": 72.199999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/72.299999000.png",
+          "timestamp_s": 72.299999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/72.399999000.png",
+          "timestamp_s": 72.399999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/72.499999000.png",
+          "timestamp_s": 72.499999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/72.599999000.png",
+          "timestamp_s": 72.599999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/72.699999000.png",
+          "timestamp_s": 72.699999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/72.799999000.png",
+          "timestamp_s": 72.799999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/72.899999000.png",
+          "timestamp_s": 72.899999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/72.999990000.png",
+          "timestamp_s": 72.99999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/73.099999000.png",
+          "timestamp_s": 73.099999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/73.199999000.png",
+          "timestamp_s": 73.199999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/73.299999000.png",
+          "timestamp_s": 73.299999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/73.399999000.png",
+          "timestamp_s": 73.399999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/73.499999000.png",
+          "timestamp_s": 73.499999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/73.599999000.png",
+          "timestamp_s": 73.599999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/73.699999000.png",
+          "timestamp_s": 73.699999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/73.799999000.png",
+          "timestamp_s": 73.799999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/73.899999000.png",
+          "timestamp_s": 73.899999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/73.999990000.png",
+          "timestamp_s": 73.99999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/74.099999000.png",
+          "timestamp_s": 74.099999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/74.199999000.png",
+          "timestamp_s": 74.199999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/74.299999000.png",
+          "timestamp_s": 74.299999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/74.399999000.png",
+          "timestamp_s": 74.399999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/74.499999000.png",
+          "timestamp_s": 74.499999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/74.599999000.png",
+          "timestamp_s": 74.599999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/74.699999000.png",
+          "timestamp_s": 74.699999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/74.799999000.png",
+          "timestamp_s": 74.799999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/74.899999000.png",
+          "timestamp_s": 74.899999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/74.999990000.png",
+          "timestamp_s": 74.99999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/75.099999000.png",
+          "timestamp_s": 75.099999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/75.199999000.png",
+          "timestamp_s": 75.199999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/75.299999000.png",
+          "timestamp_s": 75.299999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/75.399999000.png",
+          "timestamp_s": 75.399999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/75.499999000.png",
+          "timestamp_s": 75.499999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/75.599999000.png",
+          "timestamp_s": 75.599999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/75.699999000.png",
+          "timestamp_s": 75.699999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/75.799999000.png",
+          "timestamp_s": 75.799999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/75.899999000.png",
+          "timestamp_s": 75.899999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/75.999990000.png",
+          "timestamp_s": 75.99999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/76.099999000.png",
+          "timestamp_s": 76.099999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/76.199999000.png",
+          "timestamp_s": 76.199999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/76.299999000.png",
+          "timestamp_s": 76.299999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/76.399999000.png",
+          "timestamp_s": 76.399999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/76.499999000.png",
+          "timestamp_s": 76.499999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/76.599999000.png",
+          "timestamp_s": 76.599999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/76.699999000.png",
+          "timestamp_s": 76.699999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/76.799999000.png",
+          "timestamp_s": 76.799999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/76.899999000.png",
+          "timestamp_s": 76.899999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/76.999990000.png",
+          "timestamp_s": 76.99999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/77.099999000.png",
+          "timestamp_s": 77.099999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/77.199999000.png",
+          "timestamp_s": 77.199999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/77.299999000.png",
+          "timestamp_s": 77.299999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/77.399999000.png",
+          "timestamp_s": 77.399999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/77.499999000.png",
+          "timestamp_s": 77.499999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/77.599999000.png",
+          "timestamp_s": 77.599999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/77.699999000.png",
+          "timestamp_s": 77.699999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/77.799999000.png",
+          "timestamp_s": 77.799999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/77.899999000.png",
+          "timestamp_s": 77.899999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/77.999990000.png",
+          "timestamp_s": 77.99999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/78.099999000.png",
+          "timestamp_s": 78.099999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/78.199999000.png",
+          "timestamp_s": 78.199999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/78.299999000.png",
+          "timestamp_s": 78.299999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/78.399999000.png",
+          "timestamp_s": 78.399999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/78.499999000.png",
+          "timestamp_s": 78.499999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/78.599999000.png",
+          "timestamp_s": 78.599999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/78.699999000.png",
+          "timestamp_s": 78.699999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/78.799999000.png",
+          "timestamp_s": 78.799999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/78.899999000.png",
+          "timestamp_s": 78.899999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/78.999990000.png",
+          "timestamp_s": 78.99999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/79.099999000.png",
+          "timestamp_s": 79.099999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/79.199999000.png",
+          "timestamp_s": 79.199999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/79.299999000.png",
+          "timestamp_s": 79.299999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/79.399999000.png",
+          "timestamp_s": 79.399999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/79.499999000.png",
+          "timestamp_s": 79.499999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/79.599999000.png",
+          "timestamp_s": 79.599999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/79.699999000.png",
+          "timestamp_s": 79.699999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/79.799999000.png",
+          "timestamp_s": 79.799999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/79.899999000.png",
+          "timestamp_s": 79.899999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/79.999990000.png",
+          "timestamp_s": 79.99999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/80.099999000.png",
+          "timestamp_s": 80.099999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/80.199999000.png",
+          "timestamp_s": 80.199999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/80.299999000.png",
+          "timestamp_s": 80.299999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/80.399999000.png",
+          "timestamp_s": 80.399999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/80.499999000.png",
+          "timestamp_s": 80.499999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/80.599999000.png",
+          "timestamp_s": 80.599999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/80.699999000.png",
+          "timestamp_s": 80.699999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/80.799999000.png",
+          "timestamp_s": 80.799999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/80.899999000.png",
+          "timestamp_s": 80.899999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/80.999990000.png",
+          "timestamp_s": 80.99999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/81.099999000.png",
+          "timestamp_s": 81.099999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/81.199999000.png",
+          "timestamp_s": 81.199999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/81.299999000.png",
+          "timestamp_s": 81.299999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/81.399999000.png",
+          "timestamp_s": 81.399999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/81.499999000.png",
+          "timestamp_s": 81.499999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/81.599999000.png",
+          "timestamp_s": 81.599999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/81.699999000.png",
+          "timestamp_s": 81.699999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/81.799999000.png",
+          "timestamp_s": 81.799999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/81.899999000.png",
+          "timestamp_s": 81.899999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/81.999990000.png",
+          "timestamp_s": 81.99999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/82.099999000.png",
+          "timestamp_s": 82.099999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/82.199999000.png",
+          "timestamp_s": 82.199999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/82.299999000.png",
+          "timestamp_s": 82.299999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/82.399999000.png",
+          "timestamp_s": 82.399999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/82.499999000.png",
+          "timestamp_s": 82.499999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/82.599999000.png",
+          "timestamp_s": 82.599999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/82.699999000.png",
+          "timestamp_s": 82.699999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/82.799999000.png",
+          "timestamp_s": 82.799999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/82.899999000.png",
+          "timestamp_s": 82.899999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/82.999990000.png",
+          "timestamp_s": 82.99999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/83.099999000.png",
+          "timestamp_s": 83.099999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/83.199999000.png",
+          "timestamp_s": 83.199999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/83.299999000.png",
+          "timestamp_s": 83.299999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/83.399999000.png",
+          "timestamp_s": 83.399999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/83.499999000.png",
+          "timestamp_s": 83.499999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/83.599999000.png",
+          "timestamp_s": 83.599999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/83.699999000.png",
+          "timestamp_s": 83.699999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/83.799999000.png",
+          "timestamp_s": 83.799999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/83.899999000.png",
+          "timestamp_s": 83.899999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/83.999990000.png",
+          "timestamp_s": 83.99999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/84.099999000.png",
+          "timestamp_s": 84.099999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/84.199999000.png",
+          "timestamp_s": 84.199999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/84.299999000.png",
+          "timestamp_s": 84.299999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/84.399999000.png",
+          "timestamp_s": 84.399999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/84.499999000.png",
+          "timestamp_s": 84.499999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/84.599999000.png",
+          "timestamp_s": 84.599999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/84.699999000.png",
+          "timestamp_s": 84.699999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/84.799999000.png",
+          "timestamp_s": 84.799999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/84.899999000.png",
+          "timestamp_s": 84.899999
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/84.999990000.png",
+          "timestamp_s": 84.99999
+        }
+      ]
+    },
+    "lidar": {
+      "original_count": 986,
+      "excluded_count": 746,
+      "selected_count": 240,
+      "selected_range_s": [
+        61.00018239,
+        84.900060415
+      ],
+      "frames": [
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/61.000182390.pcd",
+          "timestamp_s": 61.00018239
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/61.100185394.pcd",
+          "timestamp_s": 61.100185394
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/61.200186491.pcd",
+          "timestamp_s": 61.200186491
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/61.300201416.pcd",
+          "timestamp_s": 61.300201416
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/61.400233507.pcd",
+          "timestamp_s": 61.400233507
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/61.500256538.pcd",
+          "timestamp_s": 61.500256538
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/61.600250483.pcd",
+          "timestamp_s": 61.600250483
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/61.700219393.pcd",
+          "timestamp_s": 61.700219393
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/61.800170422.pcd",
+          "timestamp_s": 61.800170422
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/61.900120497.pcd",
+          "timestamp_s": 61.900120497
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/62.000082493.pcd",
+          "timestamp_s": 62.000082493
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/62.100093365.pcd",
+          "timestamp_s": 62.100093365
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/62.200126410.pcd",
+          "timestamp_s": 62.20012641
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/62.300169468.pcd",
+          "timestamp_s": 62.300169468
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/62.400195360.pcd",
+          "timestamp_s": 62.40019536
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/62.500191450.pcd",
+          "timestamp_s": 62.50019145
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/62.600148439.pcd",
+          "timestamp_s": 62.600148439
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/62.700094461.pcd",
+          "timestamp_s": 62.700094461
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/62.800048351.pcd",
+          "timestamp_s": 62.800048351
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/62.899994373.pcd",
+          "timestamp_s": 62.899994373
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/62.999960423.pcd",
+          "timestamp_s": 62.999960423
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/63.099975586.pcd",
+          "timestamp_s": 63.099975586
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/63.200025558.pcd",
+          "timestamp_s": 63.200025558
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/63.300112486.pcd",
+          "timestamp_s": 63.300112486
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/63.400196552.pcd",
+          "timestamp_s": 63.400196552
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/63.500232458.pcd",
+          "timestamp_s": 63.500232458
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/63.600230455.pcd",
+          "timestamp_s": 63.600230455
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/63.700193405.pcd",
+          "timestamp_s": 63.700193405
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/63.800147533.pcd",
+          "timestamp_s": 63.800147533
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/63.900097370.pcd",
+          "timestamp_s": 63.90009737
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/64.000084400.pcd",
+          "timestamp_s": 64.0000844
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/64.100116491.pcd",
+          "timestamp_s": 64.100116491
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/64.200174570.pcd",
+          "timestamp_s": 64.20017457
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/64.300226450.pcd",
+          "timestamp_s": 64.30022645
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/64.400242567.pcd",
+          "timestamp_s": 64.400242567
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/64.500230551.pcd",
+          "timestamp_s": 64.500230551
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/64.600216389.pcd",
+          "timestamp_s": 64.600216389
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/64.700214386.pcd",
+          "timestamp_s": 64.700214386
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/64.800221443.pcd",
+          "timestamp_s": 64.800221443
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/64.900199413.pcd",
+          "timestamp_s": 64.900199413
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/65.000137568.pcd",
+          "timestamp_s": 65.000137568
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/65.100089550.pcd",
+          "timestamp_s": 65.10008955
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/65.200086355.pcd",
+          "timestamp_s": 65.200086355
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/65.300139427.pcd",
+          "timestamp_s": 65.300139427
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/65.400188446.pcd",
+          "timestamp_s": 65.400188446
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/65.500201464.pcd",
+          "timestamp_s": 65.500201464
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/65.600164413.pcd",
+          "timestamp_s": 65.600164413
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/65.700101376.pcd",
+          "timestamp_s": 65.700101376
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/65.800057411.pcd",
+          "timestamp_s": 65.800057411
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/65.900042534.pcd",
+          "timestamp_s": 65.900042534
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/66.000049353.pcd",
+          "timestamp_s": 66.000049353
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/66.100072384.pcd",
+          "timestamp_s": 66.100072384
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/66.200071573.pcd",
+          "timestamp_s": 66.200071573
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/66.300072432.pcd",
+          "timestamp_s": 66.300072432
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/66.400068521.pcd",
+          "timestamp_s": 66.400068521
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/66.500071526.pcd",
+          "timestamp_s": 66.500071526
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/66.600073576.pcd",
+          "timestamp_s": 66.600073576
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/66.700076580.pcd",
+          "timestamp_s": 66.70007658
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/66.800069571.pcd",
+          "timestamp_s": 66.800069571
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/66.900063515.pcd",
+          "timestamp_s": 66.900063515
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/67.000075579.pcd",
+          "timestamp_s": 67.000075579
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/67.100109577.pcd",
+          "timestamp_s": 67.100109577
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/67.200139523.pcd",
+          "timestamp_s": 67.200139523
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/67.300158501.pcd",
+          "timestamp_s": 67.300158501
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/67.400160551.pcd",
+          "timestamp_s": 67.400160551
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/67.500156403.pcd",
+          "timestamp_s": 67.500156403
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/67.600148439.pcd",
+          "timestamp_s": 67.600148439
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/67.700132370.pcd",
+          "timestamp_s": 67.70013237
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/67.800113440.pcd",
+          "timestamp_s": 67.80011344
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/67.900103569.pcd",
+          "timestamp_s": 67.900103569
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/68.000102520.pcd",
+          "timestamp_s": 68.00010252
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/68.100125551.pcd",
+          "timestamp_s": 68.100125551
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/68.200150490.pcd",
+          "timestamp_s": 68.20015049
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/68.300172567.pcd",
+          "timestamp_s": 68.300172567
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/68.400169373.pcd",
+          "timestamp_s": 68.400169373
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/68.500145435.pcd",
+          "timestamp_s": 68.500145435
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/68.600130558.pcd",
+          "timestamp_s": 68.600130558
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/68.700137377.pcd",
+          "timestamp_s": 68.700137377
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/68.800165415.pcd",
+          "timestamp_s": 68.800165415
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/68.900183439.pcd",
+          "timestamp_s": 68.900183439
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/69.000176430.pcd",
+          "timestamp_s": 69.00017643
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/69.100156546.pcd",
+          "timestamp_s": 69.100156546
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/69.200117588.pcd",
+          "timestamp_s": 69.200117588
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/69.300085545.pcd",
+          "timestamp_s": 69.300085545
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/69.400071383.pcd",
+          "timestamp_s": 69.400071383
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/69.500075579.pcd",
+          "timestamp_s": 69.500075579
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/69.600100517.pcd",
+          "timestamp_s": 69.600100517
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/69.700158358.pcd",
+          "timestamp_s": 69.700158358
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/69.800210476.pcd",
+          "timestamp_s": 69.800210476
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/69.900221586.pcd",
+          "timestamp_s": 69.900221586
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/70.000183582.pcd",
+          "timestamp_s": 70.000183582
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/70.100119352.pcd",
+          "timestamp_s": 70.100119352
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/70.200056553.pcd",
+          "timestamp_s": 70.200056553
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/70.300042391.pcd",
+          "timestamp_s": 70.300042391
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/70.400060415.pcd",
+          "timestamp_s": 70.400060415
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/70.500094414.pcd",
+          "timestamp_s": 70.500094414
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/70.600126505.pcd",
+          "timestamp_s": 70.600126505
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/70.700149536.pcd",
+          "timestamp_s": 70.700149536
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/70.800146580.pcd",
+          "timestamp_s": 70.80014658
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/70.900128365.pcd",
+          "timestamp_s": 70.900128365
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/71.000120401.pcd",
+          "timestamp_s": 71.000120401
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/71.100142479.pcd",
+          "timestamp_s": 71.100142479
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/71.200165510.pcd",
+          "timestamp_s": 71.20016551
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/71.300180435.pcd",
+          "timestamp_s": 71.300180435
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/71.400192499.pcd",
+          "timestamp_s": 71.400192499
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/71.500206470.pcd",
+          "timestamp_s": 71.50020647
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/71.600209475.pcd",
+          "timestamp_s": 71.600209475
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/71.700177431.pcd",
+          "timestamp_s": 71.700177431
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/71.800129414.pcd",
+          "timestamp_s": 71.800129414
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/71.900102377.pcd",
+          "timestamp_s": 71.900102377
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/72.000088453.pcd",
+          "timestamp_s": 72.000088453
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/72.100103378.pcd",
+          "timestamp_s": 72.100103378
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/72.200119495.pcd",
+          "timestamp_s": 72.200119495
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/72.300140381.pcd",
+          "timestamp_s": 72.300140381
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/72.400157452.pcd",
+          "timestamp_s": 72.400157452
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/72.500160456.pcd",
+          "timestamp_s": 72.500160456
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/72.600135565.pcd",
+          "timestamp_s": 72.600135565
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/72.700090408.pcd",
+          "timestamp_s": 72.700090408
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/72.800057411.pcd",
+          "timestamp_s": 72.800057411
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/72.900052547.pcd",
+          "timestamp_s": 72.900052547
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/73.000058413.pcd",
+          "timestamp_s": 73.000058413
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/73.100079536.pcd",
+          "timestamp_s": 73.100079536
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/73.200096369.pcd",
+          "timestamp_s": 73.200096369
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/73.300114393.pcd",
+          "timestamp_s": 73.300114393
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/73.400133371.pcd",
+          "timestamp_s": 73.400133371
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/73.500134468.pcd",
+          "timestamp_s": 73.500134468
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/73.600120544.pcd",
+          "timestamp_s": 73.600120544
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/73.700098515.pcd",
+          "timestamp_s": 73.700098515
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/73.800090551.pcd",
+          "timestamp_s": 73.800090551
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/73.900091410.pcd",
+          "timestamp_s": 73.90009141
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/74.000099421.pcd",
+          "timestamp_s": 74.000099421
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/74.100145578.pcd",
+          "timestamp_s": 74.100145578
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/74.200205564.pcd",
+          "timestamp_s": 74.200205564
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/74.300247431.pcd",
+          "timestamp_s": 74.300247431
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/74.400257587.pcd",
+          "timestamp_s": 74.400257587
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/74.500257492.pcd",
+          "timestamp_s": 74.500257492
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/74.600249529.pcd",
+          "timestamp_s": 74.600249529
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/74.700228453.pcd",
+          "timestamp_s": 74.700228453
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/74.800196409.pcd",
+          "timestamp_s": 74.800196409
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/74.900149584.pcd",
+          "timestamp_s": 74.900149584
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/75.000115395.pcd",
+          "timestamp_s": 75.000115395
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/75.100109577.pcd",
+          "timestamp_s": 75.100109577
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/75.200116396.pcd",
+          "timestamp_s": 75.200116396
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/75.300141573.pcd",
+          "timestamp_s": 75.300141573
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/75.400160551.pcd",
+          "timestamp_s": 75.400160551
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/75.500158548.pcd",
+          "timestamp_s": 75.500158548
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/75.600158453.pcd",
+          "timestamp_s": 75.600158453
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/75.700165510.pcd",
+          "timestamp_s": 75.70016551
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/75.800165415.pcd",
+          "timestamp_s": 75.800165415
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/75.900158405.pcd",
+          "timestamp_s": 75.900158405
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/76.000149488.pcd",
+          "timestamp_s": 76.000149488
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/76.100160360.pcd",
+          "timestamp_s": 76.10016036
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/76.200176477.pcd",
+          "timestamp_s": 76.200176477
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/76.300184488.pcd",
+          "timestamp_s": 76.300184488
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/76.400186539.pcd",
+          "timestamp_s": 76.400186539
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/76.500188589.pcd",
+          "timestamp_s": 76.500188589
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/76.600187540.pcd",
+          "timestamp_s": 76.60018754
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/76.700178385.pcd",
+          "timestamp_s": 76.700178385
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/76.800141573.pcd",
+          "timestamp_s": 76.800141573
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/76.900109529.pcd",
+          "timestamp_s": 76.900109529
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/77.000089407.pcd",
+          "timestamp_s": 77.000089407
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/77.100086451.pcd",
+          "timestamp_s": 77.100086451
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/77.200079441.pcd",
+          "timestamp_s": 77.200079441
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/77.300060511.pcd",
+          "timestamp_s": 77.300060511
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/77.400037527.pcd",
+          "timestamp_s": 77.400037527
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/77.500026464.pcd",
+          "timestamp_s": 77.500026464
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/77.600027561.pcd",
+          "timestamp_s": 77.600027561
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/77.700054407.pcd",
+          "timestamp_s": 77.700054407
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/77.800083399.pcd",
+          "timestamp_s": 77.800083399
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/77.900104523.pcd",
+          "timestamp_s": 77.900104523
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/78.000101566.pcd",
+          "timestamp_s": 78.000101566
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/78.100114584.pcd",
+          "timestamp_s": 78.100114584
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/78.200114489.pcd",
+          "timestamp_s": 78.200114489
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/78.300104380.pcd",
+          "timestamp_s": 78.30010438
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/78.400106430.pcd",
+          "timestamp_s": 78.40010643
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/78.500116587.pcd",
+          "timestamp_s": 78.500116587
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/78.600130558.pcd",
+          "timestamp_s": 78.600130558
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/78.700142384.pcd",
+          "timestamp_s": 78.700142384
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/78.800163507.pcd",
+          "timestamp_s": 78.800163507
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/78.900161505.pcd",
+          "timestamp_s": 78.900161505
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/79.000121355.pcd",
+          "timestamp_s": 79.000121355
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/79.100078583.pcd",
+          "timestamp_s": 79.100078583
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/79.200055361.pcd",
+          "timestamp_s": 79.200055361
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/79.300073385.pcd",
+          "timestamp_s": 79.300073385
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/79.400098562.pcd",
+          "timestamp_s": 79.400098562
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/79.500122547.pcd",
+          "timestamp_s": 79.500122547
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/79.600120544.pcd",
+          "timestamp_s": 79.600120544
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/79.700115442.pcd",
+          "timestamp_s": 79.700115442
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/79.800115585.pcd",
+          "timestamp_s": 79.800115585
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/79.900097370.pcd",
+          "timestamp_s": 79.90009737
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/80.000067472.pcd",
+          "timestamp_s": 80.000067472
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/80.100060463.pcd",
+          "timestamp_s": 80.100060463
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/80.200075388.pcd",
+          "timestamp_s": 80.200075388
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/80.300130367.pcd",
+          "timestamp_s": 80.300130367
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/80.400200367.pcd",
+          "timestamp_s": 80.400200367
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/80.500249386.pcd",
+          "timestamp_s": 80.500249386
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/80.600258589.pcd",
+          "timestamp_s": 80.600258589
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/80.700231552.pcd",
+          "timestamp_s": 80.700231552
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/80.800201416.pcd",
+          "timestamp_s": 80.800201416
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/80.900171518.pcd",
+          "timestamp_s": 80.900171518
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/81.000137568.pcd",
+          "timestamp_s": 81.000137568
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/81.100110531.pcd",
+          "timestamp_s": 81.100110531
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/81.200097561.pcd",
+          "timestamp_s": 81.200097561
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/81.300106525.pcd",
+          "timestamp_s": 81.300106525
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/81.400123358.pcd",
+          "timestamp_s": 81.400123358
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/81.500165462.pcd",
+          "timestamp_s": 81.500165462
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/81.600207567.pcd",
+          "timestamp_s": 81.600207567
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/81.700213432.pcd",
+          "timestamp_s": 81.700213432
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/81.800185442.pcd",
+          "timestamp_s": 81.800185442
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/81.900135517.pcd",
+          "timestamp_s": 81.900135517
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/82.000089407.pcd",
+          "timestamp_s": 82.000089407
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/82.100077391.pcd",
+          "timestamp_s": 82.100077391
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/82.200101376.pcd",
+          "timestamp_s": 82.200101376
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/82.300155401.pcd",
+          "timestamp_s": 82.300155401
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/82.400197506.pcd",
+          "timestamp_s": 82.400197506
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/82.500222445.pcd",
+          "timestamp_s": 82.500222445
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/82.600224495.pcd",
+          "timestamp_s": 82.600224495
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/82.700221539.pcd",
+          "timestamp_s": 82.700221539
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/82.800220490.pcd",
+          "timestamp_s": 82.80022049
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/82.900217533.pcd",
+          "timestamp_s": 82.900217533
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/83.000209570.pcd",
+          "timestamp_s": 83.00020957
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/83.100201368.pcd",
+          "timestamp_s": 83.100201368
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/83.200176477.pcd",
+          "timestamp_s": 83.200176477
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/83.300125360.pcd",
+          "timestamp_s": 83.30012536
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/83.400073528.pcd",
+          "timestamp_s": 83.400073528
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/83.500047445.pcd",
+          "timestamp_s": 83.500047445
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/83.600049496.pcd",
+          "timestamp_s": 83.600049496
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/83.700083494.pcd",
+          "timestamp_s": 83.700083494
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/83.800114393.pcd",
+          "timestamp_s": 83.800114393
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/83.900126457.pcd",
+          "timestamp_s": 83.900126457
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/84.000114441.pcd",
+          "timestamp_s": 84.000114441
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/84.100122452.pcd",
+          "timestamp_s": 84.100122452
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/84.200147390.pcd",
+          "timestamp_s": 84.20014739
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/84.300183535.pcd",
+          "timestamp_s": 84.300183535
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/84.400207520.pcd",
+          "timestamp_s": 84.40020752
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/84.500189543.pcd",
+          "timestamp_s": 84.500189543
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/84.600154400.pcd",
+          "timestamp_s": 84.6001544
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/84.700115442.pcd",
+          "timestamp_s": 84.700115442
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/84.800081491.pcd",
+          "timestamp_s": 84.800081491
+        },
+        {
+          "path": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/84.900060415.pcd",
+          "timestamp_s": 84.900060415
+        }
+      ]
+    }
+  },
+  "ins": {
+    "source": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/ins/gnss.csv",
+    "selected_rows": 3001,
+    "support_policy": "INS outside crop may only support boundary interpolation; not inspection evidence"
+  },
+  "lidar_point_policy": "Downstream reconstruction must also retain only point timestamps within [61,85]; frame selection alone is insufficient.",
+  "pairing_policy": "Nearest remaining LiDAR timestamp, per-sensor capture pose; do not pair by sorted index.",
+  "pairs": [
+    {
+      "frame": 0,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/61.099999000.png",
+      "camera_timestamp_s": 61.099999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/61.100185394.pcd",
+      "lidar_timestamp_s": 61.100185394,
+      "lidar_minus_camera_s": 0.00018639400000353135,
+      "within_100ms": true
+    },
+    {
+      "frame": 1,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/61.199999000.png",
+      "camera_timestamp_s": 61.199999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/61.200186491.pcd",
+      "lidar_timestamp_s": 61.200186491,
+      "lidar_minus_camera_s": 0.00018749099999837426,
+      "within_100ms": true
+    },
+    {
+      "frame": 2,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/61.299999000.png",
+      "camera_timestamp_s": 61.299999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/61.300201416.pcd",
+      "lidar_timestamp_s": 61.300201416,
+      "lidar_minus_camera_s": 0.00020241600000048265,
+      "within_100ms": true
+    },
+    {
+      "frame": 3,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/61.399999000.png",
+      "camera_timestamp_s": 61.399999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/61.400233507.pcd",
+      "lidar_timestamp_s": 61.400233507,
+      "lidar_minus_camera_s": 0.00023450700000182678,
+      "within_100ms": true
+    },
+    {
+      "frame": 4,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/61.499999000.png",
+      "camera_timestamp_s": 61.499999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/61.500256538.pcd",
+      "lidar_timestamp_s": 61.500256538,
+      "lidar_minus_camera_s": 0.000257537999999613,
+      "within_100ms": true
+    },
+    {
+      "frame": 5,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/61.599999000.png",
+      "camera_timestamp_s": 61.599999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/61.600250483.pcd",
+      "lidar_timestamp_s": 61.600250483,
+      "lidar_minus_camera_s": 0.00025148300000665813,
+      "within_100ms": true
+    },
+    {
+      "frame": 6,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/61.699999000.png",
+      "camera_timestamp_s": 61.699999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/61.700219393.pcd",
+      "lidar_timestamp_s": 61.700219393,
+      "lidar_minus_camera_s": 0.00022039299999931927,
+      "within_100ms": true
+    },
+    {
+      "frame": 7,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/61.799999000.png",
+      "camera_timestamp_s": 61.799999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/61.800170422.pcd",
+      "lidar_timestamp_s": 61.800170422,
+      "lidar_minus_camera_s": 0.00017142200000108687,
+      "within_100ms": true
+    },
+    {
+      "frame": 8,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/61.899999000.png",
+      "camera_timestamp_s": 61.899999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/61.900120497.pcd",
+      "lidar_timestamp_s": 61.900120497,
+      "lidar_minus_camera_s": 0.00012149700000207986,
+      "within_100ms": true
+    },
+    {
+      "frame": 9,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/61.999990000.png",
+      "camera_timestamp_s": 61.99999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/62.000082493.pcd",
+      "lidar_timestamp_s": 62.000082493,
+      "lidar_minus_camera_s": 9.249300000391258e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 10,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/62.099999000.png",
+      "camera_timestamp_s": 62.099999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/62.100093365.pcd",
+      "lidar_timestamp_s": 62.100093365,
+      "lidar_minus_camera_s": 9.436500000248316e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 11,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/62.199999000.png",
+      "camera_timestamp_s": 62.199999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/62.200126410.pcd",
+      "lidar_timestamp_s": 62.20012641,
+      "lidar_minus_camera_s": 0.0001274100000046019,
+      "within_100ms": true
+    },
+    {
+      "frame": 12,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/62.299999000.png",
+      "camera_timestamp_s": 62.299999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/62.300169468.pcd",
+      "lidar_timestamp_s": 62.300169468,
+      "lidar_minus_camera_s": 0.00017046800000031226,
+      "within_100ms": true
+    },
+    {
+      "frame": 13,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/62.399999000.png",
+      "camera_timestamp_s": 62.399999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/62.400195360.pcd",
+      "lidar_timestamp_s": 62.40019536,
+      "lidar_minus_camera_s": 0.00019635999999678688,
+      "within_100ms": true
+    },
+    {
+      "frame": 14,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/62.499999000.png",
+      "camera_timestamp_s": 62.499999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/62.500191450.pcd",
+      "lidar_timestamp_s": 62.50019145,
+      "lidar_minus_camera_s": 0.0001924500000001217,
+      "within_100ms": true
+    },
+    {
+      "frame": 15,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/62.599999000.png",
+      "camera_timestamp_s": 62.599999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/62.600148439.pcd",
+      "lidar_timestamp_s": 62.600148439,
+      "lidar_minus_camera_s": 0.0001494390000047474,
+      "within_100ms": true
+    },
+    {
+      "frame": 16,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/62.699999000.png",
+      "camera_timestamp_s": 62.699999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/62.700094461.pcd",
+      "lidar_timestamp_s": 62.700094461,
+      "lidar_minus_camera_s": 9.546100000079605e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 17,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/62.799999000.png",
+      "camera_timestamp_s": 62.799999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/62.800048351.pcd",
+      "lidar_timestamp_s": 62.800048351,
+      "lidar_minus_camera_s": 4.935100000125203e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 18,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/62.899999000.png",
+      "camera_timestamp_s": 62.899999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/62.899994373.pcd",
+      "lidar_timestamp_s": 62.899994373,
+      "lidar_minus_camera_s": -4.627000002699333e-06,
+      "within_100ms": true
+    },
+    {
+      "frame": 19,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/62.999990000.png",
+      "camera_timestamp_s": 62.99999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/62.999960423.pcd",
+      "lidar_timestamp_s": 62.999960423,
+      "lidar_minus_camera_s": -2.957699999939223e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 20,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/63.099999000.png",
+      "camera_timestamp_s": 63.099999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/63.099975586.pcd",
+      "lidar_timestamp_s": 63.099975586,
+      "lidar_minus_camera_s": -2.3413999997501378e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 21,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/63.199999000.png",
+      "camera_timestamp_s": 63.199999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/63.200025558.pcd",
+      "lidar_timestamp_s": 63.200025558,
+      "lidar_minus_camera_s": 2.655800000184172e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 22,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/63.299999000.png",
+      "camera_timestamp_s": 63.299999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/63.300112486.pcd",
+      "lidar_timestamp_s": 63.300112486,
+      "lidar_minus_camera_s": 0.0001134860000036042,
+      "within_100ms": true
+    },
+    {
+      "frame": 23,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/63.399999000.png",
+      "camera_timestamp_s": 63.399999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/63.400196552.pcd",
+      "lidar_timestamp_s": 63.400196552,
+      "lidar_minus_camera_s": 0.00019755199999593742,
+      "within_100ms": true
+    },
+    {
+      "frame": 24,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/63.499999000.png",
+      "camera_timestamp_s": 63.499999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/63.500232458.pcd",
+      "lidar_timestamp_s": 63.500232458,
+      "lidar_minus_camera_s": 0.00023345799999674455,
+      "within_100ms": true
+    },
+    {
+      "frame": 25,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/63.599999000.png",
+      "camera_timestamp_s": 63.599999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/63.600230455.pcd",
+      "lidar_timestamp_s": 63.600230455,
+      "lidar_minus_camera_s": 0.00023145500000509855,
+      "within_100ms": true
+    },
+    {
+      "frame": 26,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/63.699999000.png",
+      "camera_timestamp_s": 63.699999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/63.700193405.pcd",
+      "lidar_timestamp_s": 63.700193405,
+      "lidar_minus_camera_s": 0.000194405000002007,
+      "within_100ms": true
+    },
+    {
+      "frame": 27,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/63.799999000.png",
+      "camera_timestamp_s": 63.799999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/63.800147533.pcd",
+      "lidar_timestamp_s": 63.800147533,
+      "lidar_minus_camera_s": 0.0001485330000008389,
+      "within_100ms": true
+    },
+    {
+      "frame": 28,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/63.899999000.png",
+      "camera_timestamp_s": 63.899999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/63.900097370.pcd",
+      "lidar_timestamp_s": 63.90009737,
+      "lidar_minus_camera_s": 9.836999999635054e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 29,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/63.999990000.png",
+      "camera_timestamp_s": 63.99999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/64.000084400.pcd",
+      "lidar_timestamp_s": 64.0000844,
+      "lidar_minus_camera_s": 9.440000000893178e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 30,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/64.099999000.png",
+      "camera_timestamp_s": 64.099999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/64.100116491.pcd",
+      "lidar_timestamp_s": 64.100116491,
+      "lidar_minus_camera_s": 0.00011749099999747159,
+      "within_100ms": true
+    },
+    {
+      "frame": 31,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/64.199999000.png",
+      "camera_timestamp_s": 64.199999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/64.200174570.pcd",
+      "lidar_timestamp_s": 64.20017457,
+      "lidar_minus_camera_s": 0.000175569999996128,
+      "within_100ms": true
+    },
+    {
+      "frame": 32,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/64.299999000.png",
+      "camera_timestamp_s": 64.299999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/64.300226450.pcd",
+      "lidar_timestamp_s": 64.30022645,
+      "lidar_minus_camera_s": 0.0002274499999970203,
+      "within_100ms": true
+    },
+    {
+      "frame": 33,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/64.399999000.png",
+      "camera_timestamp_s": 64.399999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/64.400242567.pcd",
+      "lidar_timestamp_s": 64.400242567,
+      "lidar_minus_camera_s": 0.0002435670000124901,
+      "within_100ms": true
+    },
+    {
+      "frame": 34,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/64.499999000.png",
+      "camera_timestamp_s": 64.499999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/64.500230551.pcd",
+      "lidar_timestamp_s": 64.500230551,
+      "lidar_minus_camera_s": 0.00023155099999883078,
+      "within_100ms": true
+    },
+    {
+      "frame": 35,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/64.599999000.png",
+      "camera_timestamp_s": 64.599999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/64.600216389.pcd",
+      "lidar_timestamp_s": 64.600216389,
+      "lidar_minus_camera_s": 0.00021738899999945716,
+      "within_100ms": true
+    },
+    {
+      "frame": 36,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/64.699999000.png",
+      "camera_timestamp_s": 64.699999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/64.700214386.pcd",
+      "lidar_timestamp_s": 64.700214386,
+      "lidar_minus_camera_s": 0.0002153859999936003,
+      "within_100ms": true
+    },
+    {
+      "frame": 37,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/64.799999000.png",
+      "camera_timestamp_s": 64.799999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/64.800221443.pcd",
+      "lidar_timestamp_s": 64.800221443,
+      "lidar_minus_camera_s": 0.00022244299999840678,
+      "within_100ms": true
+    },
+    {
+      "frame": 38,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/64.899999000.png",
+      "camera_timestamp_s": 64.899999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/64.900199413.pcd",
+      "lidar_timestamp_s": 64.900199413,
+      "lidar_minus_camera_s": 0.00020041300000173123,
+      "within_100ms": true
+    },
+    {
+      "frame": 39,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/64.999990000.png",
+      "camera_timestamp_s": 64.99999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/65.000137568.pcd",
+      "lidar_timestamp_s": 65.000137568,
+      "lidar_minus_camera_s": 0.00014756800000270687,
+      "within_100ms": true
+    },
+    {
+      "frame": 40,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/65.099999000.png",
+      "camera_timestamp_s": 65.099999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/65.100089550.pcd",
+      "lidar_timestamp_s": 65.10008955,
+      "lidar_minus_camera_s": 9.055000001012559e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 41,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/65.199999000.png",
+      "camera_timestamp_s": 65.199999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/65.200086355.pcd",
+      "lidar_timestamp_s": 65.200086355,
+      "lidar_minus_camera_s": 8.735499999090734e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 42,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/65.299999000.png",
+      "camera_timestamp_s": 65.299999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/65.300139427.pcd",
+      "lidar_timestamp_s": 65.300139427,
+      "lidar_minus_camera_s": 0.00014042700000516106,
+      "within_100ms": true
+    },
+    {
+      "frame": 43,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/65.399999000.png",
+      "camera_timestamp_s": 65.399999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/65.400188446.pcd",
+      "lidar_timestamp_s": 65.400188446,
+      "lidar_minus_camera_s": 0.000189446000007365,
+      "within_100ms": true
+    },
+    {
+      "frame": 44,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/65.499999000.png",
+      "camera_timestamp_s": 65.499999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/65.500201464.pcd",
+      "lidar_timestamp_s": 65.500201464,
+      "lidar_minus_camera_s": 0.00020246399999734876,
+      "within_100ms": true
+    },
+    {
+      "frame": 45,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/65.599999000.png",
+      "camera_timestamp_s": 65.599999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/65.600164413.pcd",
+      "lidar_timestamp_s": 65.600164413,
+      "lidar_minus_camera_s": 0.0001654130000048326,
+      "within_100ms": true
+    },
+    {
+      "frame": 46,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/65.699999000.png",
+      "camera_timestamp_s": 65.699999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/65.700101376.pcd",
+      "lidar_timestamp_s": 65.700101376,
+      "lidar_minus_camera_s": 0.00010237600000095881,
+      "within_100ms": true
+    },
+    {
+      "frame": 47,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/65.799999000.png",
+      "camera_timestamp_s": 65.799999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/65.800057411.pcd",
+      "lidar_timestamp_s": 65.800057411,
+      "lidar_minus_camera_s": 5.8410999997704494e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 48,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/65.899999000.png",
+      "camera_timestamp_s": 65.899999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/65.900042534.pcd",
+      "lidar_timestamp_s": 65.900042534,
+      "lidar_minus_camera_s": 4.353399999956764e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 49,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/65.999990000.png",
+      "camera_timestamp_s": 65.99999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/66.000049353.pcd",
+      "lidar_timestamp_s": 66.000049353,
+      "lidar_minus_camera_s": 5.935299999748622e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 50,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/66.099999000.png",
+      "camera_timestamp_s": 66.099999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/66.100072384.pcd",
+      "lidar_timestamp_s": 66.100072384,
+      "lidar_minus_camera_s": 7.338400000378442e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 51,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/66.199999000.png",
+      "camera_timestamp_s": 66.199999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/66.200071573.pcd",
+      "lidar_timestamp_s": 66.200071573,
+      "lidar_minus_camera_s": 7.257299999707811e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 52,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/66.299999000.png",
+      "camera_timestamp_s": 66.299999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/66.300072432.pcd",
+      "lidar_timestamp_s": 66.300072432,
+      "lidar_minus_camera_s": 7.34319999935451e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 53,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/66.399999000.png",
+      "camera_timestamp_s": 66.399999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/66.400068521.pcd",
+      "lidar_timestamp_s": 66.400068521,
+      "lidar_minus_camera_s": 6.952100000034989e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 54,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/66.499999000.png",
+      "camera_timestamp_s": 66.499999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/66.500071526.pcd",
+      "lidar_timestamp_s": 66.500071526,
+      "lidar_minus_camera_s": 7.252599999674203e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 55,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/66.599999000.png",
+      "camera_timestamp_s": 66.599999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/66.600073576.pcd",
+      "lidar_timestamp_s": 66.600073576,
+      "lidar_minus_camera_s": 7.457600000293496e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 56,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/66.699999000.png",
+      "camera_timestamp_s": 66.699999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/66.700076580.pcd",
+      "lidar_timestamp_s": 66.70007658,
+      "lidar_minus_camera_s": 7.757999999569165e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 57,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/66.799999000.png",
+      "camera_timestamp_s": 66.799999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/66.800069571.pcd",
+      "lidar_timestamp_s": 66.800069571,
+      "lidar_minus_camera_s": 7.057099999485672e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 58,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/66.899999000.png",
+      "camera_timestamp_s": 66.899999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/66.900063515.pcd",
+      "lidar_timestamp_s": 66.900063515,
+      "lidar_minus_camera_s": 6.45150000053718e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 59,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/66.999990000.png",
+      "camera_timestamp_s": 66.99999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/67.000075579.pcd",
+      "lidar_timestamp_s": 67.000075579,
+      "lidar_minus_camera_s": 8.557900000027985e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 60,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/67.099999000.png",
+      "camera_timestamp_s": 67.099999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/67.100109577.pcd",
+      "lidar_timestamp_s": 67.100109577,
+      "lidar_minus_camera_s": 0.00011057700000094428,
+      "within_100ms": true
+    },
+    {
+      "frame": 61,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/67.199999000.png",
+      "camera_timestamp_s": 67.199999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/67.200139523.pcd",
+      "lidar_timestamp_s": 67.200139523,
+      "lidar_minus_camera_s": 0.00014052299999889328,
+      "within_100ms": true
+    },
+    {
+      "frame": 62,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/67.299999000.png",
+      "camera_timestamp_s": 67.299999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/67.300158501.pcd",
+      "lidar_timestamp_s": 67.300158501,
+      "lidar_minus_camera_s": 0.0001595009999988406,
+      "within_100ms": true
+    },
+    {
+      "frame": 63,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/67.399999000.png",
+      "camera_timestamp_s": 67.399999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/67.400160551.pcd",
+      "lidar_timestamp_s": 67.400160551,
+      "lidar_minus_camera_s": 0.00016155100000503353,
+      "within_100ms": true
+    },
+    {
+      "frame": 64,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/67.499999000.png",
+      "camera_timestamp_s": 67.499999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/67.500156403.pcd",
+      "lidar_timestamp_s": 67.500156403,
+      "lidar_minus_camera_s": 0.00015740300000288698,
+      "within_100ms": true
+    },
+    {
+      "frame": 65,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/67.599999000.png",
+      "camera_timestamp_s": 67.599999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/67.600148439.pcd",
+      "lidar_timestamp_s": 67.600148439,
+      "lidar_minus_camera_s": 0.00014943899999764199,
+      "within_100ms": true
+    },
+    {
+      "frame": 66,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/67.699999000.png",
+      "camera_timestamp_s": 67.699999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/67.700132370.pcd",
+      "lidar_timestamp_s": 67.70013237,
+      "lidar_minus_camera_s": 0.0001333700000003546,
+      "within_100ms": true
+    },
+    {
+      "frame": 67,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/67.799999000.png",
+      "camera_timestamp_s": 67.799999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/67.800113440.pcd",
+      "lidar_timestamp_s": 67.80011344,
+      "lidar_minus_camera_s": 0.00011444000000437882,
+      "within_100ms": true
+    },
+    {
+      "frame": 68,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/67.899999000.png",
+      "camera_timestamp_s": 67.899999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/67.900103569.pcd",
+      "lidar_timestamp_s": 67.900103569,
+      "lidar_minus_camera_s": 0.00010456900000122005,
+      "within_100ms": true
+    },
+    {
+      "frame": 69,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/67.999990000.png",
+      "camera_timestamp_s": 67.99999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/68.000102520.pcd",
+      "lidar_timestamp_s": 68.00010252,
+      "lidar_minus_camera_s": 0.0001125200000018367,
+      "within_100ms": true
+    },
+    {
+      "frame": 70,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/68.099999000.png",
+      "camera_timestamp_s": 68.099999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/68.100125551.pcd",
+      "lidar_timestamp_s": 68.100125551,
+      "lidar_minus_camera_s": 0.0001265510000081349,
+      "within_100ms": true
+    },
+    {
+      "frame": 71,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/68.199999000.png",
+      "camera_timestamp_s": 68.199999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/68.200150490.pcd",
+      "lidar_timestamp_s": 68.20015049,
+      "lidar_minus_camera_s": 0.00015148999999325952,
+      "within_100ms": true
+    },
+    {
+      "frame": 72,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/68.299999000.png",
+      "camera_timestamp_s": 68.299999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/68.300172567.pcd",
+      "lidar_timestamp_s": 68.300172567,
+      "lidar_minus_camera_s": 0.000173567000004482,
+      "within_100ms": true
+    },
+    {
+      "frame": 73,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/68.399999000.png",
+      "camera_timestamp_s": 68.399999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/68.400169373.pcd",
+      "lidar_timestamp_s": 68.400169373,
+      "lidar_minus_camera_s": 0.00017037300000311006,
+      "within_100ms": true
+    },
+    {
+      "frame": 74,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/68.499999000.png",
+      "camera_timestamp_s": 68.499999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/68.500145435.pcd",
+      "lidar_timestamp_s": 68.500145435,
+      "lidar_minus_camera_s": 0.00014643499999067444,
+      "within_100ms": true
+    },
+    {
+      "frame": 75,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/68.599999000.png",
+      "camera_timestamp_s": 68.599999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/68.600130558.pcd",
+      "lidar_timestamp_s": 68.600130558,
+      "lidar_minus_camera_s": 0.00013155800000674844,
+      "within_100ms": true
+    },
+    {
+      "frame": 76,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/68.699999000.png",
+      "camera_timestamp_s": 68.699999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/68.700137377.pcd",
+      "lidar_timestamp_s": 68.700137377,
+      "lidar_minus_camera_s": 0.00013837699999896813,
+      "within_100ms": true
+    },
+    {
+      "frame": 77,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/68.799999000.png",
+      "camera_timestamp_s": 68.799999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/68.800165415.pcd",
+      "lidar_timestamp_s": 68.800165415,
+      "lidar_minus_camera_s": 0.0001664149999953679,
+      "within_100ms": true
+    },
+    {
+      "frame": 78,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/68.899999000.png",
+      "camera_timestamp_s": 68.899999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/68.900183439.pcd",
+      "lidar_timestamp_s": 68.900183439,
+      "lidar_minus_camera_s": 0.00018443900000875146,
+      "within_100ms": true
+    },
+    {
+      "frame": 79,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/68.999990000.png",
+      "camera_timestamp_s": 68.99999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/69.000176430.pcd",
+      "lidar_timestamp_s": 69.00017643,
+      "lidar_minus_camera_s": 0.00018642999999940457,
+      "within_100ms": true
+    },
+    {
+      "frame": 80,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/69.099999000.png",
+      "camera_timestamp_s": 69.099999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/69.100156546.pcd",
+      "lidar_timestamp_s": 69.100156546,
+      "lidar_minus_camera_s": 0.0001575459999969553,
+      "within_100ms": true
+    },
+    {
+      "frame": 81,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/69.199999000.png",
+      "camera_timestamp_s": 69.199999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/69.200117588.pcd",
+      "lidar_timestamp_s": 69.200117588,
+      "lidar_minus_camera_s": 0.00011858799999231451,
+      "within_100ms": true
+    },
+    {
+      "frame": 82,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/69.299999000.png",
+      "camera_timestamp_s": 69.299999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/69.300085545.pcd",
+      "lidar_timestamp_s": 69.300085545,
+      "lidar_minus_camera_s": 8.654500000204735e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 83,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/69.399999000.png",
+      "camera_timestamp_s": 69.399999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/69.400071383.pcd",
+      "lidar_timestamp_s": 69.400071383,
+      "lidar_minus_camera_s": 7.238300000267373e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 84,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/69.499999000.png",
+      "camera_timestamp_s": 69.499999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/69.500075579.pcd",
+      "lidar_timestamp_s": 69.500075579,
+      "lidar_minus_camera_s": 7.657899999458095e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 85,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/69.599999000.png",
+      "camera_timestamp_s": 69.599999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/69.600100517.pcd",
+      "lidar_timestamp_s": 69.600100517,
+      "lidar_minus_camera_s": 0.00010151700000449182,
+      "within_100ms": true
+    },
+    {
+      "frame": 86,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/69.699999000.png",
+      "camera_timestamp_s": 69.699999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/69.700158358.pcd",
+      "lidar_timestamp_s": 69.700158358,
+      "lidar_minus_camera_s": 0.00015935799999056144,
+      "within_100ms": true
+    },
+    {
+      "frame": 87,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/69.799999000.png",
+      "camera_timestamp_s": 69.799999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/69.800210476.pcd",
+      "lidar_timestamp_s": 69.800210476,
+      "lidar_minus_camera_s": 0.00021147600000404054,
+      "within_100ms": true
+    },
+    {
+      "frame": 88,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/69.899999000.png",
+      "camera_timestamp_s": 69.899999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/69.900221586.pcd",
+      "lidar_timestamp_s": 69.900221586,
+      "lidar_minus_camera_s": 0.00022258600000668594,
+      "within_100ms": true
+    },
+    {
+      "frame": 89,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/69.999990000.png",
+      "camera_timestamp_s": 69.99999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/70.000183582.pcd",
+      "lidar_timestamp_s": 70.000183582,
+      "lidar_minus_camera_s": 0.00019358200000851866,
+      "within_100ms": true
+    },
+    {
+      "frame": 90,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/70.099999000.png",
+      "camera_timestamp_s": 70.099999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/70.100119352.pcd",
+      "lidar_timestamp_s": 70.100119352,
+      "lidar_minus_camera_s": 0.00012035199999615998,
+      "within_100ms": true
+    },
+    {
+      "frame": 91,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/70.199999000.png",
+      "camera_timestamp_s": 70.199999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/70.200056553.pcd",
+      "lidar_timestamp_s": 70.200056553,
+      "lidar_minus_camera_s": 5.75529999906621e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 92,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/70.299999000.png",
+      "camera_timestamp_s": 70.299999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/70.300042391.pcd",
+      "lidar_timestamp_s": 70.300042391,
+      "lidar_minus_camera_s": 4.3391000005499336e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 93,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/70.399999000.png",
+      "camera_timestamp_s": 70.399999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/70.400060415.pcd",
+      "lidar_timestamp_s": 70.400060415,
+      "lidar_minus_camera_s": 6.141500000467204e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 94,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/70.499999000.png",
+      "camera_timestamp_s": 70.499999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/70.500094414.pcd",
+      "lidar_timestamp_s": 70.500094414,
+      "lidar_minus_camera_s": 9.541400000045996e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 95,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/70.599999000.png",
+      "camera_timestamp_s": 70.599999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/70.600126505.pcd",
+      "lidar_timestamp_s": 70.600126505,
+      "lidar_minus_camera_s": 0.00012750500000890952,
+      "within_100ms": true
+    },
+    {
+      "frame": 96,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/70.699999000.png",
+      "camera_timestamp_s": 70.699999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/70.700149536.pcd",
+      "lidar_timestamp_s": 70.700149536,
+      "lidar_minus_camera_s": 0.0001505359999924849,
+      "within_100ms": true
+    },
+    {
+      "frame": 97,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/70.799999000.png",
+      "camera_timestamp_s": 70.799999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/70.800146580.pcd",
+      "lidar_timestamp_s": 70.80014658,
+      "lidar_minus_camera_s": 0.00014758000000369975,
+      "within_100ms": true
+    },
+    {
+      "frame": 98,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/70.899999000.png",
+      "camera_timestamp_s": 70.899999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/70.900128365.pcd",
+      "lidar_timestamp_s": 70.900128365,
+      "lidar_minus_camera_s": 0.0001293650000064872,
+      "within_100ms": true
+    },
+    {
+      "frame": 99,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/70.999990000.png",
+      "camera_timestamp_s": 70.99999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/71.000120401.pcd",
+      "lidar_timestamp_s": 71.000120401,
+      "lidar_minus_camera_s": 0.0001304010000069411,
+      "within_100ms": true
+    },
+    {
+      "frame": 100,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/71.099999000.png",
+      "camera_timestamp_s": 71.099999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/71.100142479.pcd",
+      "lidar_timestamp_s": 71.100142479,
+      "lidar_minus_camera_s": 0.0001434790000018893,
+      "within_100ms": true
+    },
+    {
+      "frame": 101,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/71.199999000.png",
+      "camera_timestamp_s": 71.199999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/71.200165510.pcd",
+      "lidar_timestamp_s": 71.20016551,
+      "lidar_minus_camera_s": 0.00016650999999967553,
+      "within_100ms": true
+    },
+    {
+      "frame": 102,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/71.299999000.png",
+      "camera_timestamp_s": 71.299999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/71.300180435.pcd",
+      "lidar_timestamp_s": 71.300180435,
+      "lidar_minus_camera_s": 0.00018143500000178392,
+      "within_100ms": true
+    },
+    {
+      "frame": 103,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/71.399999000.png",
+      "camera_timestamp_s": 71.399999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/71.400192499.pcd",
+      "lidar_timestamp_s": 71.400192499,
+      "lidar_minus_camera_s": 0.00019349900000520392,
+      "within_100ms": true
+    },
+    {
+      "frame": 104,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/71.499999000.png",
+      "camera_timestamp_s": 71.499999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/71.500206470.pcd",
+      "lidar_timestamp_s": 71.50020647,
+      "lidar_minus_camera_s": 0.00020746999999232685,
+      "within_100ms": true
+    },
+    {
+      "frame": 105,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/71.599999000.png",
+      "camera_timestamp_s": 71.599999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/71.600209475.pcd",
+      "lidar_timestamp_s": 71.600209475,
+      "lidar_minus_camera_s": 0.00021047500000292985,
+      "within_100ms": true
+    },
+    {
+      "frame": 106,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/71.699999000.png",
+      "camera_timestamp_s": 71.699999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/71.700177431.pcd",
+      "lidar_timestamp_s": 71.700177431,
+      "lidar_minus_camera_s": 0.00017843099999481637,
+      "within_100ms": true
+    },
+    {
+      "frame": 107,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/71.799999000.png",
+      "camera_timestamp_s": 71.799999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/71.800129414.pcd",
+      "lidar_timestamp_s": 71.800129414,
+      "lidar_minus_camera_s": 0.0001304139999973586,
+      "within_100ms": true
+    },
+    {
+      "frame": 108,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/71.899999000.png",
+      "camera_timestamp_s": 71.899999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/71.900102377.pcd",
+      "lidar_timestamp_s": 71.900102377,
+      "lidar_minus_camera_s": 0.00010337700000206951,
+      "within_100ms": true
+    },
+    {
+      "frame": 109,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/71.999990000.png",
+      "camera_timestamp_s": 71.99999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/72.000088453.pcd",
+      "lidar_timestamp_s": 72.000088453,
+      "lidar_minus_camera_s": 9.845300000677071e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 110,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/72.099999000.png",
+      "camera_timestamp_s": 72.099999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/72.100103378.pcd",
+      "lidar_timestamp_s": 72.100103378,
+      "lidar_minus_camera_s": 0.0001043780000031802,
+      "within_100ms": true
+    },
+    {
+      "frame": 111,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/72.199999000.png",
+      "camera_timestamp_s": 72.199999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/72.200119495.pcd",
+      "lidar_timestamp_s": 72.200119495,
+      "lidar_minus_camera_s": 0.00012049499999022828,
+      "within_100ms": true
+    },
+    {
+      "frame": 112,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/72.299999000.png",
+      "camera_timestamp_s": 72.299999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/72.300140381.pcd",
+      "lidar_timestamp_s": 72.300140381,
+      "lidar_minus_camera_s": 0.00014138100000593568,
+      "within_100ms": true
+    },
+    {
+      "frame": 113,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/72.399999000.png",
+      "camera_timestamp_s": 72.399999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/72.400157452.pcd",
+      "lidar_timestamp_s": 72.400157452,
+      "lidar_minus_camera_s": 0.00015845200000796922,
+      "within_100ms": true
+    },
+    {
+      "frame": 114,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/72.499999000.png",
+      "camera_timestamp_s": 72.499999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/72.500160456.pcd",
+      "lidar_timestamp_s": 72.500160456,
+      "lidar_minus_camera_s": 0.0001614560000007259,
+      "within_100ms": true
+    },
+    {
+      "frame": 115,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/72.599999000.png",
+      "camera_timestamp_s": 72.599999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/72.600135565.pcd",
+      "lidar_timestamp_s": 72.600135565,
+      "lidar_minus_camera_s": 0.00013656500000536198,
+      "within_100ms": true
+    },
+    {
+      "frame": 116,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/72.699999000.png",
+      "camera_timestamp_s": 72.699999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/72.700090408.pcd",
+      "lidar_timestamp_s": 72.700090408,
+      "lidar_minus_camera_s": 9.140799998874627e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 117,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/72.799999000.png",
+      "camera_timestamp_s": 72.799999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/72.800057411.pcd",
+      "lidar_timestamp_s": 72.800057411,
+      "lidar_minus_camera_s": 5.8410999997704494e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 118,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/72.899999000.png",
+      "camera_timestamp_s": 72.899999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/72.900052547.pcd",
+      "lidar_timestamp_s": 72.900052547,
+      "lidar_minus_camera_s": 5.3547000007370116e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 119,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/72.999990000.png",
+      "camera_timestamp_s": 72.99999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/73.000058413.pcd",
+      "lidar_timestamp_s": 73.000058413,
+      "lidar_minus_camera_s": 6.841300000814954e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 120,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/73.099999000.png",
+      "camera_timestamp_s": 73.099999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/73.100079536.pcd",
+      "lidar_timestamp_s": 73.100079536,
+      "lidar_minus_camera_s": 8.053599999868766e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 121,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/73.199999000.png",
+      "camera_timestamp_s": 73.199999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/73.200096369.pcd",
+      "lidar_timestamp_s": 73.200096369,
+      "lidar_minus_camera_s": 9.736899998813442e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 122,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/73.299999000.png",
+      "camera_timestamp_s": 73.299999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/73.300114393.pcd",
+      "lidar_timestamp_s": 73.300114393,
+      "lidar_minus_camera_s": 0.00011539300000151798,
+      "within_100ms": true
+    },
+    {
+      "frame": 123,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/73.399999000.png",
+      "camera_timestamp_s": 73.399999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/73.400133371.pcd",
+      "lidar_timestamp_s": 73.400133371,
+      "lidar_minus_camera_s": 0.0001343710000014653,
+      "within_100ms": true
+    },
+    {
+      "frame": 124,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/73.499999000.png",
+      "camera_timestamp_s": 73.499999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/73.500134468.pcd",
+      "lidar_timestamp_s": 73.500134468,
+      "lidar_minus_camera_s": 0.0001354679999963082,
+      "within_100ms": true
+    },
+    {
+      "frame": 125,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/73.599999000.png",
+      "camera_timestamp_s": 73.599999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/73.600120544.pcd",
+      "lidar_timestamp_s": 73.600120544,
+      "lidar_minus_camera_s": 0.00012154400000952137,
+      "within_100ms": true
+    },
+    {
+      "frame": 126,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/73.699999000.png",
+      "camera_timestamp_s": 73.699999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/73.700098515.pcd",
+      "lidar_timestamp_s": 73.700098515,
+      "lidar_minus_camera_s": 9.951499998805957e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 127,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/73.799999000.png",
+      "camera_timestamp_s": 73.799999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/73.800090551.pcd",
+      "lidar_timestamp_s": 73.800090551,
+      "lidar_minus_camera_s": 9.155099999702543e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 128,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/73.899999000.png",
+      "camera_timestamp_s": 73.899999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/73.900091410.pcd",
+      "lidar_timestamp_s": 73.90009141,
+      "lidar_minus_camera_s": 9.241000000770327e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 129,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/73.999990000.png",
+      "camera_timestamp_s": 73.99999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/74.000099421.pcd",
+      "lidar_timestamp_s": 74.000099421,
+      "lidar_minus_camera_s": 0.0001094210000047724,
+      "within_100ms": true
+    },
+    {
+      "frame": 130,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/74.099999000.png",
+      "camera_timestamp_s": 74.099999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/74.100145578.pcd",
+      "lidar_timestamp_s": 74.100145578,
+      "lidar_minus_camera_s": 0.0001465779999989536,
+      "within_100ms": true
+    },
+    {
+      "frame": 131,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/74.199999000.png",
+      "camera_timestamp_s": 74.199999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/74.200205564.pcd",
+      "lidar_timestamp_s": 74.200205564,
+      "lidar_minus_camera_s": 0.00020656399999552377,
+      "within_100ms": true
+    },
+    {
+      "frame": 132,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/74.299999000.png",
+      "camera_timestamp_s": 74.299999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/74.300247431.pcd",
+      "lidar_timestamp_s": 74.300247431,
+      "lidar_minus_camera_s": 0.0002484310000028245,
+      "within_100ms": true
+    },
+    {
+      "frame": 133,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/74.399999000.png",
+      "camera_timestamp_s": 74.399999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/74.400257587.pcd",
+      "lidar_timestamp_s": 74.400257587,
+      "lidar_minus_camera_s": 0.00025858700000469526,
+      "within_100ms": true
+    },
+    {
+      "frame": 134,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/74.499999000.png",
+      "camera_timestamp_s": 74.499999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/74.500257492.pcd",
+      "lidar_timestamp_s": 74.500257492,
+      "lidar_minus_camera_s": 0.00025849200000038763,
+      "within_100ms": true
+    },
+    {
+      "frame": 135,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/74.599999000.png",
+      "camera_timestamp_s": 74.599999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/74.600249529.pcd",
+      "lidar_timestamp_s": 74.600249529,
+      "lidar_minus_camera_s": 0.0002505289999987781,
+      "within_100ms": true
+    },
+    {
+      "frame": 136,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/74.699999000.png",
+      "camera_timestamp_s": 74.699999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/74.700228453.pcd",
+      "lidar_timestamp_s": 74.700228453,
+      "lidar_minus_camera_s": 0.0002294529999886663,
+      "within_100ms": true
+    },
+    {
+      "frame": 137,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/74.799999000.png",
+      "camera_timestamp_s": 74.799999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/74.800196409.pcd",
+      "lidar_timestamp_s": 74.800196409,
+      "lidar_minus_camera_s": 0.0001974089999947637,
+      "within_100ms": true
+    },
+    {
+      "frame": 138,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/74.899999000.png",
+      "camera_timestamp_s": 74.899999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/74.900149584.pcd",
+      "lidar_timestamp_s": 74.900149584,
+      "lidar_minus_camera_s": 0.0001505840000106673,
+      "within_100ms": true
+    },
+    {
+      "frame": 139,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/74.999990000.png",
+      "camera_timestamp_s": 74.99999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/75.000115395.pcd",
+      "lidar_timestamp_s": 75.000115395,
+      "lidar_minus_camera_s": 0.00012539499999775217,
+      "within_100ms": true
+    },
+    {
+      "frame": 140,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/75.099999000.png",
+      "camera_timestamp_s": 75.099999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/75.100109577.pcd",
+      "lidar_timestamp_s": 75.100109577,
+      "lidar_minus_camera_s": 0.00011057700000094428,
+      "within_100ms": true
+    },
+    {
+      "frame": 141,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/75.199999000.png",
+      "camera_timestamp_s": 75.199999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/75.200116396.pcd",
+      "lidar_timestamp_s": 75.200116396,
+      "lidar_minus_camera_s": 0.00011739599999316397,
+      "within_100ms": true
+    },
+    {
+      "frame": 142,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/75.299999000.png",
+      "camera_timestamp_s": 75.299999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/75.300141573.pcd",
+      "lidar_timestamp_s": 75.300141573,
+      "lidar_minus_camera_s": 0.00014257300000508621,
+      "within_100ms": true
+    },
+    {
+      "frame": 143,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/75.399999000.png",
+      "camera_timestamp_s": 75.399999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/75.400160551.pcd",
+      "lidar_timestamp_s": 75.400160551,
+      "lidar_minus_camera_s": 0.00016155100000503353,
+      "within_100ms": true
+    },
+    {
+      "frame": 144,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/75.499999000.png",
+      "camera_timestamp_s": 75.499999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/75.500158548.pcd",
+      "lidar_timestamp_s": 75.500158548,
+      "lidar_minus_camera_s": 0.00015954799999917668,
+      "within_100ms": true
+    },
+    {
+      "frame": 145,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/75.599999000.png",
+      "camera_timestamp_s": 75.599999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/75.600158453.pcd",
+      "lidar_timestamp_s": 75.600158453,
+      "lidar_minus_camera_s": 0.00015945300000907991,
+      "within_100ms": true
+    },
+    {
+      "frame": 146,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/75.699999000.png",
+      "camera_timestamp_s": 75.699999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/75.700165510.pcd",
+      "lidar_timestamp_s": 75.70016551,
+      "lidar_minus_camera_s": 0.00016650999999967553,
+      "within_100ms": true
+    },
+    {
+      "frame": 147,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/75.799999000.png",
+      "camera_timestamp_s": 75.799999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/75.800165415.pcd",
+      "lidar_timestamp_s": 75.800165415,
+      "lidar_minus_camera_s": 0.0001664149999953679,
+      "within_100ms": true
+    },
+    {
+      "frame": 148,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/75.899999000.png",
+      "camera_timestamp_s": 75.899999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/75.900158405.pcd",
+      "lidar_timestamp_s": 75.900158405,
+      "lidar_minus_camera_s": 0.00015940500000510838,
+      "within_100ms": true
+    },
+    {
+      "frame": 149,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/75.999990000.png",
+      "camera_timestamp_s": 75.99999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/76.000149488.pcd",
+      "lidar_timestamp_s": 76.000149488,
+      "lidar_minus_camera_s": 0.00015948800000842311,
+      "within_100ms": true
+    },
+    {
+      "frame": 150,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/76.099999000.png",
+      "camera_timestamp_s": 76.099999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/76.100160360.pcd",
+      "lidar_timestamp_s": 76.10016036,
+      "lidar_minus_camera_s": 0.0001613600000069937,
+      "within_100ms": true
+    },
+    {
+      "frame": 151,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/76.199999000.png",
+      "camera_timestamp_s": 76.199999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/76.200176477.pcd",
+      "lidar_timestamp_s": 76.200176477,
+      "lidar_minus_camera_s": 0.00017747699999404176,
+      "within_100ms": true
+    },
+    {
+      "frame": 152,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/76.299999000.png",
+      "camera_timestamp_s": 76.299999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/76.300184488.pcd",
+      "lidar_timestamp_s": 76.300184488,
+      "lidar_minus_camera_s": 0.00018548799999962284,
+      "within_100ms": true
+    },
+    {
+      "frame": 153,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/76.399999000.png",
+      "camera_timestamp_s": 76.399999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/76.400186539.pcd",
+      "lidar_timestamp_s": 76.400186539,
+      "lidar_minus_camera_s": 0.00018753900000945123,
+      "within_100ms": true
+    },
+    {
+      "frame": 154,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/76.499999000.png",
+      "camera_timestamp_s": 76.499999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/76.500188589.pcd",
+      "lidar_timestamp_s": 76.500188589,
+      "lidar_minus_camera_s": 0.0001895890000014333,
+      "within_100ms": true
+    },
+    {
+      "frame": 155,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/76.599999000.png",
+      "camera_timestamp_s": 76.599999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/76.600187540.pcd",
+      "lidar_timestamp_s": 76.60018754,
+      "lidar_minus_camera_s": 0.00018853999999635107,
+      "within_100ms": true
+    },
+    {
+      "frame": 156,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/76.699999000.png",
+      "camera_timestamp_s": 76.699999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/76.700178385.pcd",
+      "lidar_timestamp_s": 76.700178385,
+      "lidar_minus_camera_s": 0.000179384999995591,
+      "within_100ms": true
+    },
+    {
+      "frame": 157,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/76.799999000.png",
+      "camera_timestamp_s": 76.799999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/76.800141573.pcd",
+      "lidar_timestamp_s": 76.800141573,
+      "lidar_minus_camera_s": 0.00014257300000508621,
+      "within_100ms": true
+    },
+    {
+      "frame": 158,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/76.899999000.png",
+      "camera_timestamp_s": 76.899999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/76.900109529.pcd",
+      "lidar_timestamp_s": 76.900109529,
+      "lidar_minus_camera_s": 0.0001105290000111836,
+      "within_100ms": true
+    },
+    {
+      "frame": 159,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/76.999990000.png",
+      "camera_timestamp_s": 76.99999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/77.000089407.pcd",
+      "lidar_timestamp_s": 77.000089407,
+      "lidar_minus_camera_s": 9.940700000754532e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 160,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/77.099999000.png",
+      "camera_timestamp_s": 77.099999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/77.100086451.pcd",
+      "lidar_timestamp_s": 77.100086451,
+      "lidar_minus_camera_s": 8.745099999885042e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 161,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/77.199999000.png",
+      "camera_timestamp_s": 77.199999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/77.200079441.pcd",
+      "lidar_timestamp_s": 77.200079441,
+      "lidar_minus_camera_s": 8.044099999438004e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 162,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/77.299999000.png",
+      "camera_timestamp_s": 77.299999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/77.300060511.pcd",
+      "lidar_timestamp_s": 77.300060511,
+      "lidar_minus_camera_s": 6.151099999840426e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 163,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/77.399999000.png",
+      "camera_timestamp_s": 77.399999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/77.400037527.pcd",
+      "lidar_timestamp_s": 77.400037527,
+      "lidar_minus_camera_s": 3.8527000000954104e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 164,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/77.499999000.png",
+      "camera_timestamp_s": 77.499999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/77.500026464.pcd",
+      "lidar_timestamp_s": 77.500026464,
+      "lidar_minus_camera_s": 2.7463999998644795e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 165,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/77.599999000.png",
+      "camera_timestamp_s": 77.599999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/77.600027561.pcd",
+      "lidar_timestamp_s": 77.600027561,
+      "lidar_minus_camera_s": 2.8561000007698567e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 166,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/77.699999000.png",
+      "camera_timestamp_s": 77.699999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/77.700054407.pcd",
+      "lidar_timestamp_s": 77.700054407,
+      "lidar_minus_camera_s": 5.540699999073695e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 167,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/77.799999000.png",
+      "camera_timestamp_s": 77.799999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/77.800083399.pcd",
+      "lidar_timestamp_s": 77.800083399,
+      "lidar_minus_camera_s": 8.439900000212219e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 168,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/77.899999000.png",
+      "camera_timestamp_s": 77.899999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/77.900104523.pcd",
+      "lidar_timestamp_s": 77.900104523,
+      "lidar_minus_camera_s": 0.00010552300000199466,
+      "within_100ms": true
+    },
+    {
+      "frame": 169,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/77.999990000.png",
+      "camera_timestamp_s": 77.99999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/78.000101566.pcd",
+      "lidar_timestamp_s": 78.000101566,
+      "lidar_minus_camera_s": 0.0001115660000010621,
+      "within_100ms": true
+    },
+    {
+      "frame": 170,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/78.099999000.png",
+      "camera_timestamp_s": 78.099999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/78.100114584.pcd",
+      "lidar_timestamp_s": 78.100114584,
+      "lidar_minus_camera_s": 0.00011558399999955782,
+      "within_100ms": true
+    },
+    {
+      "frame": 171,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/78.199999000.png",
+      "camera_timestamp_s": 78.199999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/78.200114489.pcd",
+      "lidar_timestamp_s": 78.200114489,
+      "lidar_minus_camera_s": 0.0001154889999952502,
+      "within_100ms": true
+    },
+    {
+      "frame": 172,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/78.299999000.png",
+      "camera_timestamp_s": 78.299999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/78.300104380.pcd",
+      "lidar_timestamp_s": 78.30010438,
+      "lidar_minus_camera_s": 0.0001053799999937155,
+      "within_100ms": true
+    },
+    {
+      "frame": 173,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/78.399999000.png",
+      "camera_timestamp_s": 78.399999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/78.400106430.pcd",
+      "lidar_timestamp_s": 78.40010643,
+      "lidar_minus_camera_s": 0.00010742999999990843,
+      "within_100ms": true
+    },
+    {
+      "frame": 174,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/78.499999000.png",
+      "camera_timestamp_s": 78.499999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/78.500116587.pcd",
+      "lidar_timestamp_s": 78.500116587,
+      "lidar_minus_camera_s": 0.00011758699999120381,
+      "within_100ms": true
+    },
+    {
+      "frame": 175,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/78.599999000.png",
+      "camera_timestamp_s": 78.599999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/78.600130558.pcd",
+      "lidar_timestamp_s": 78.600130558,
+      "lidar_minus_camera_s": 0.00013155800000674844,
+      "within_100ms": true
+    },
+    {
+      "frame": 176,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/78.699999000.png",
+      "camera_timestamp_s": 78.699999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/78.700142384.pcd",
+      "lidar_timestamp_s": 78.700142384,
+      "lidar_minus_camera_s": 0.00014338399999758167,
+      "within_100ms": true
+    },
+    {
+      "frame": 177,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/78.799999000.png",
+      "camera_timestamp_s": 78.799999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/78.800163507.pcd",
+      "lidar_timestamp_s": 78.800163507,
+      "lidar_minus_camera_s": 0.00016450699999381868,
+      "within_100ms": true
+    },
+    {
+      "frame": 178,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/78.899999000.png",
+      "camera_timestamp_s": 78.899999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/78.900161505.pcd",
+      "lidar_timestamp_s": 78.900161505,
+      "lidar_minus_camera_s": 0.00016250500000580814,
+      "within_100ms": true
+    },
+    {
+      "frame": 179,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/78.999990000.png",
+      "camera_timestamp_s": 78.99999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/79.000121355.pcd",
+      "lidar_timestamp_s": 79.000121355,
+      "lidar_minus_camera_s": 0.00013135500000771572,
+      "within_100ms": true
+    },
+    {
+      "frame": 180,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/79.099999000.png",
+      "camera_timestamp_s": 79.099999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/79.100078583.pcd",
+      "lidar_timestamp_s": 79.100078583,
+      "lidar_minus_camera_s": 7.95830000015485e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 181,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/79.199999000.png",
+      "camera_timestamp_s": 79.199999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/79.200055361.pcd",
+      "lidar_timestamp_s": 79.200055361,
+      "lidar_minus_camera_s": 5.636099999151156e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 182,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/79.299999000.png",
+      "camera_timestamp_s": 79.299999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/79.300073385.pcd",
+      "lidar_timestamp_s": 79.300073385,
+      "lidar_minus_camera_s": 7.438500000489512e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 183,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/79.399999000.png",
+      "camera_timestamp_s": 79.399999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/79.400098562.pcd",
+      "lidar_timestamp_s": 79.400098562,
+      "lidar_minus_camera_s": 9.956200000260651e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 184,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/79.499999000.png",
+      "camera_timestamp_s": 79.499999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/79.500122547.pcd",
+      "lidar_timestamp_s": 79.500122547,
+      "lidar_minus_camera_s": 0.00012354700000116736,
+      "within_100ms": true
+    },
+    {
+      "frame": 185,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/79.599999000.png",
+      "camera_timestamp_s": 79.599999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/79.600120544.pcd",
+      "lidar_timestamp_s": 79.600120544,
+      "lidar_minus_camera_s": 0.00012154400000952137,
+      "within_100ms": true
+    },
+    {
+      "frame": 186,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/79.699999000.png",
+      "camera_timestamp_s": 79.699999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/79.700115442.pcd",
+      "lidar_timestamp_s": 79.700115442,
+      "lidar_minus_camera_s": 0.00011644199999238936,
+      "within_100ms": true
+    },
+    {
+      "frame": 187,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/79.799999000.png",
+      "camera_timestamp_s": 79.799999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/79.800115585.pcd",
+      "lidar_timestamp_s": 79.800115585,
+      "lidar_minus_camera_s": 0.00011658500000066851,
+      "within_100ms": true
+    },
+    {
+      "frame": 188,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/79.899999000.png",
+      "camera_timestamp_s": 79.899999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/79.900097370.pcd",
+      "lidar_timestamp_s": 79.90009737,
+      "lidar_minus_camera_s": 9.837000000345597e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 189,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/79.999990000.png",
+      "camera_timestamp_s": 79.99999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/80.000067472.pcd",
+      "lidar_timestamp_s": 80.000067472,
+      "lidar_minus_camera_s": 7.747200000096655e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 190,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/80.099999000.png",
+      "camera_timestamp_s": 80.099999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/80.100060463.pcd",
+      "lidar_timestamp_s": 80.100060463,
+      "lidar_minus_camera_s": 6.146300000864358e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 191,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/80.199999000.png",
+      "camera_timestamp_s": 80.199999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/80.200075388.pcd",
+      "lidar_timestamp_s": 80.200075388,
+      "lidar_minus_camera_s": 7.638799999654111e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 192,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/80.299999000.png",
+      "camera_timestamp_s": 80.299999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/80.300130367.pcd",
+      "lidar_timestamp_s": 80.300130367,
+      "lidar_minus_camera_s": 0.00013136699999449775,
+      "within_100ms": true
+    },
+    {
+      "frame": 193,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/80.399999000.png",
+      "camera_timestamp_s": 80.399999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/80.400200367.pcd",
+      "lidar_timestamp_s": 80.400200367,
+      "lidar_minus_camera_s": 0.00020136700000250585,
+      "within_100ms": true
+    },
+    {
+      "frame": 194,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/80.499999000.png",
+      "camera_timestamp_s": 80.499999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/80.500249386.pcd",
+      "lidar_timestamp_s": 80.500249386,
+      "lidar_minus_camera_s": 0.00025038599999049893,
+      "within_100ms": true
+    },
+    {
+      "frame": 195,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/80.599999000.png",
+      "camera_timestamp_s": 80.599999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/80.600258589.pcd",
+      "lidar_timestamp_s": 80.600258589,
+      "lidar_minus_camera_s": 0.0002595890000094414,
+      "within_100ms": true
+    },
+    {
+      "frame": 196,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/80.699999000.png",
+      "camera_timestamp_s": 80.699999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/80.700231552.pcd",
+      "lidar_timestamp_s": 80.700231552,
+      "lidar_minus_camera_s": 0.00023255199999994147,
+      "within_100ms": true
+    },
+    {
+      "frame": 197,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/80.799999000.png",
+      "camera_timestamp_s": 80.799999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/80.800201416.pcd",
+      "lidar_timestamp_s": 80.800201416,
+      "lidar_minus_camera_s": 0.00020241599999337723,
+      "within_100ms": true
+    },
+    {
+      "frame": 198,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/80.899999000.png",
+      "camera_timestamp_s": 80.899999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/80.900171518.pcd",
+      "lidar_timestamp_s": 80.900171518,
+      "lidar_minus_camera_s": 0.00017251799999939976,
+      "within_100ms": true
+    },
+    {
+      "frame": 199,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/80.999990000.png",
+      "camera_timestamp_s": 80.99999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/81.000137568.pcd",
+      "lidar_timestamp_s": 81.000137568,
+      "lidar_minus_camera_s": 0.00014756800000270687,
+      "within_100ms": true
+    },
+    {
+      "frame": 200,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/81.099999000.png",
+      "camera_timestamp_s": 81.099999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/81.100110531.pcd",
+      "lidar_timestamp_s": 81.100110531,
+      "lidar_minus_camera_s": 0.0001115310000017189,
+      "within_100ms": true
+    },
+    {
+      "frame": 201,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/81.199999000.png",
+      "camera_timestamp_s": 81.199999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/81.200097561.pcd",
+      "lidar_timestamp_s": 81.200097561,
+      "lidar_minus_camera_s": 9.856100000149581e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 202,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/81.299999000.png",
+      "camera_timestamp_s": 81.299999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/81.300106525.pcd",
+      "lidar_timestamp_s": 81.300106525,
+      "lidar_minus_camera_s": 0.00010752500000421605,
+      "within_100ms": true
+    },
+    {
+      "frame": 203,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/81.399999000.png",
+      "camera_timestamp_s": 81.399999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/81.400123358.pcd",
+      "lidar_timestamp_s": 81.400123358,
+      "lidar_minus_camera_s": 0.00012435800000787367,
+      "within_100ms": true
+    },
+    {
+      "frame": 204,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/81.499999000.png",
+      "camera_timestamp_s": 81.499999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/81.500165462.pcd",
+      "lidar_timestamp_s": 81.500165462,
+      "lidar_minus_camera_s": 0.000166461999995704,
+      "within_100ms": true
+    },
+    {
+      "frame": 205,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/81.599999000.png",
+      "camera_timestamp_s": 81.599999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/81.600207567.pcd",
+      "lidar_timestamp_s": 81.600207567,
+      "lidar_minus_camera_s": 0.00020856700000138062,
+      "within_100ms": true
+    },
+    {
+      "frame": 206,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/81.699999000.png",
+      "camera_timestamp_s": 81.699999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/81.700213432.pcd",
+      "lidar_timestamp_s": 81.700213432,
+      "lidar_minus_camera_s": 0.0002144319999928257,
+      "within_100ms": true
+    },
+    {
+      "frame": 207,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/81.799999000.png",
+      "camera_timestamp_s": 81.799999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/81.800185442.pcd",
+      "lidar_timestamp_s": 81.800185442,
+      "lidar_minus_camera_s": 0.00018644200000039746,
+      "within_100ms": true
+    },
+    {
+      "frame": 208,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/81.899999000.png",
+      "camera_timestamp_s": 81.899999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/81.900135517.pcd",
+      "lidar_timestamp_s": 81.900135517,
+      "lidar_minus_camera_s": 0.00013651700000139044,
+      "within_100ms": true
+    },
+    {
+      "frame": 209,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/81.999990000.png",
+      "camera_timestamp_s": 81.99999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/82.000089407.pcd",
+      "lidar_timestamp_s": 82.000089407,
+      "lidar_minus_camera_s": 9.940700000754532e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 210,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/82.099999000.png",
+      "camera_timestamp_s": 82.099999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/82.100077391.pcd",
+      "lidar_timestamp_s": 82.100077391,
+      "lidar_minus_camera_s": 7.839100000239796e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 211,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/82.199999000.png",
+      "camera_timestamp_s": 82.199999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/82.200101376.pcd",
+      "lidar_timestamp_s": 82.200101376,
+      "lidar_minus_camera_s": 0.00010237600000095881,
+      "within_100ms": true
+    },
+    {
+      "frame": 212,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/82.299999000.png",
+      "camera_timestamp_s": 82.299999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/82.300155401.pcd",
+      "lidar_timestamp_s": 82.300155401,
+      "lidar_minus_camera_s": 0.00015640099999814083,
+      "within_100ms": true
+    },
+    {
+      "frame": 213,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/82.399999000.png",
+      "camera_timestamp_s": 82.399999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/82.400197506.pcd",
+      "lidar_timestamp_s": 82.400197506,
+      "lidar_minus_camera_s": 0.00019850600000381746,
+      "within_100ms": true
+    },
+    {
+      "frame": 214,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/82.499999000.png",
+      "camera_timestamp_s": 82.499999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/82.500222445.pcd",
+      "lidar_timestamp_s": 82.500222445,
+      "lidar_minus_camera_s": 0.00022344500000315293,
+      "within_100ms": true
+    },
+    {
+      "frame": 215,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/82.599999000.png",
+      "camera_timestamp_s": 82.599999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/82.600224495.pcd",
+      "lidar_timestamp_s": 82.600224495,
+      "lidar_minus_camera_s": 0.00022549500000934586,
+      "within_100ms": true
+    },
+    {
+      "frame": 216,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/82.699999000.png",
+      "camera_timestamp_s": 82.699999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/82.700221539.pcd",
+      "lidar_timestamp_s": 82.700221539,
+      "lidar_minus_camera_s": 0.000222538999992139,
+      "within_100ms": true
+    },
+    {
+      "frame": 217,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/82.799999000.png",
+      "camera_timestamp_s": 82.799999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/82.800220490.pcd",
+      "lidar_timestamp_s": 82.80022049,
+      "lidar_minus_camera_s": 0.00022149000000126762,
+      "within_100ms": true
+    },
+    {
+      "frame": 218,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/82.899999000.png",
+      "camera_timestamp_s": 82.899999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/82.900217533.pcd",
+      "lidar_timestamp_s": 82.900217533,
+      "lidar_minus_camera_s": 0.000218533000008847,
+      "within_100ms": true
+    },
+    {
+      "frame": 219,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/82.999990000.png",
+      "camera_timestamp_s": 82.99999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/83.000209570.pcd",
+      "lidar_timestamp_s": 83.00020957,
+      "lidar_minus_camera_s": 0.0002195699999987255,
+      "within_100ms": true
+    },
+    {
+      "frame": 220,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/83.099999000.png",
+      "camera_timestamp_s": 83.099999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/83.100201368.pcd",
+      "lidar_timestamp_s": 83.100201368,
+      "lidar_minus_camera_s": 0.00020236800000361654,
+      "within_100ms": true
+    },
+    {
+      "frame": 221,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/83.199999000.png",
+      "camera_timestamp_s": 83.199999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/83.200176477.pcd",
+      "lidar_timestamp_s": 83.200176477,
+      "lidar_minus_camera_s": 0.00017747699999404176,
+      "within_100ms": true
+    },
+    {
+      "frame": 222,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/83.299999000.png",
+      "camera_timestamp_s": 83.299999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/83.300125360.pcd",
+      "lidar_timestamp_s": 83.30012536,
+      "lidar_minus_camera_s": 0.0001263599999958842,
+      "within_100ms": true
+    },
+    {
+      "frame": 223,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/83.399999000.png",
+      "camera_timestamp_s": 83.399999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/83.400073528.pcd",
+      "lidar_timestamp_s": 83.400073528,
+      "lidar_minus_camera_s": 7.452799999896342e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 224,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/83.499999000.png",
+      "camera_timestamp_s": 83.499999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/83.500047445.pcd",
+      "lidar_timestamp_s": 83.500047445,
+      "lidar_minus_camera_s": 4.844500000444896e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 225,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/83.599999000.png",
+      "camera_timestamp_s": 83.599999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/83.600049496.pcd",
+      "lidar_timestamp_s": 83.600049496,
+      "lidar_minus_camera_s": 5.049600000006649e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 226,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/83.699999000.png",
+      "camera_timestamp_s": 83.699999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/83.700083494.pcd",
+      "lidar_timestamp_s": 83.700083494,
+      "lidar_minus_camera_s": 8.449399999221896e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 227,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/83.799999000.png",
+      "camera_timestamp_s": 83.799999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/83.800114393.pcd",
+      "lidar_timestamp_s": 83.800114393,
+      "lidar_minus_camera_s": 0.00011539300000151798,
+      "within_100ms": true
+    },
+    {
+      "frame": 228,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/83.899999000.png",
+      "camera_timestamp_s": 83.899999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/83.900126457.pcd",
+      "lidar_timestamp_s": 83.900126457,
+      "lidar_minus_camera_s": 0.00012745700000493798,
+      "within_100ms": true
+    },
+    {
+      "frame": 229,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/83.999990000.png",
+      "camera_timestamp_s": 83.99999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/84.000114441.pcd",
+      "lidar_timestamp_s": 84.000114441,
+      "lidar_minus_camera_s": 0.00012444099999697755,
+      "within_100ms": true
+    },
+    {
+      "frame": 230,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/84.099999000.png",
+      "camera_timestamp_s": 84.099999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/84.100122452.pcd",
+      "lidar_timestamp_s": 84.100122452,
+      "lidar_minus_camera_s": 0.00012345199999685974,
+      "within_100ms": true
+    },
+    {
+      "frame": 231,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/84.199999000.png",
+      "camera_timestamp_s": 84.199999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/84.200147390.pcd",
+      "lidar_timestamp_s": 84.20014739,
+      "lidar_minus_camera_s": 0.00014838999999255975,
+      "within_100ms": true
+    },
+    {
+      "frame": 232,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/84.299999000.png",
+      "camera_timestamp_s": 84.299999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/84.300183535.pcd",
+      "lidar_timestamp_s": 84.300183535,
+      "lidar_minus_camera_s": 0.00018453500000248368,
+      "within_100ms": true
+    },
+    {
+      "frame": 233,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/84.399999000.png",
+      "camera_timestamp_s": 84.399999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/84.400207520.pcd",
+      "lidar_timestamp_s": 84.40020752,
+      "lidar_minus_camera_s": 0.00020852000000104454,
+      "within_100ms": true
+    },
+    {
+      "frame": 234,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/84.499999000.png",
+      "camera_timestamp_s": 84.499999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/84.500189543.pcd",
+      "lidar_timestamp_s": 84.500189543,
+      "lidar_minus_camera_s": 0.00019054300000220792,
+      "within_100ms": true
+    },
+    {
+      "frame": 235,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/84.599999000.png",
+      "camera_timestamp_s": 84.599999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/84.600154400.pcd",
+      "lidar_timestamp_s": 84.6001544,
+      "lidar_minus_camera_s": 0.00015539999999703014,
+      "within_100ms": true
+    },
+    {
+      "frame": 236,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/84.699999000.png",
+      "camera_timestamp_s": 84.699999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/84.700115442.pcd",
+      "lidar_timestamp_s": 84.700115442,
+      "lidar_minus_camera_s": 0.00011644199999238936,
+      "within_100ms": true
+    },
+    {
+      "frame": 237,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/84.799999000.png",
+      "camera_timestamp_s": 84.799999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/84.800081491.pcd",
+      "lidar_timestamp_s": 84.800081491,
+      "lidar_minus_camera_s": 8.249100000057297e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 238,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/84.899999000.png",
+      "camera_timestamp_s": 84.899999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/84.900060415.pcd",
+      "lidar_timestamp_s": 84.900060415,
+      "lidar_minus_camera_s": 6.141500000467204e-05,
+      "within_100ms": true
+    },
+    {
+      "frame": 239,
+      "camera": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/camera0/84.999990000.png",
+      "camera_timestamp_s": 84.99999,
+      "lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/lidar/84.900060415.pcd",
+      "lidar_timestamp_s": 84.900060415,
+      "lidar_minus_camera_s": -0.09992958499999816,
+      "within_100ms": true
+    }
+  ],
+  "max_abs_pair_delta_s": 0.09992958499999816,
+  "pairs_outside_100ms": 0,
+  "source_manifest_sha256": "5ca9db721e585d130a9f6e9151364edaf899fd3f23efeceb437d7dde1c6ed8d2",
+  "ins_sha256": "246665f836b57c7337e0a5409e48551c0d3d99c080b23bc21ee69ddbcdd52bf9",
+  "script_sha256": "3dd0e791cdc00819dcfff870d58d68e0581fbdbd084deea909e04ae15aa89115"
+}

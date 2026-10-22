@@ -1,0 +1,2168 @@
+[
+  {
+    "id": "resp_068ef2c1450880b5016ad97e25395087d1818acac728070463",
+    "object": "response",
+    "created_at": 1792638501,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792638502,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "STAGE 3 CONTRACT — INPUT: frozen registered requirements, scene manifest/facts, and already accepted availability records. OUTPUT: exactly one assessment for each unassessed requirement, then seal_data_availability. REQUIRED INVARIANT for every row: set(available_inputs) union set(missing_inputs) must exactly equal that requirement's required_inputs and the two sets must be disjoint. Copy required_inputs before classifying them. condition_data_complete refers only to whether every applicability condition can be resolved from frozen facts and the selected TA; it does not mean that visual or measurement inputs have already been acquired. It may be true while data_availability is partial or not_attempted. available_direct means no required input is missing; partial requires both available and missing inputs; not_attempted means all required inputs remain missing but can be pursued in Stage 4. unavailable_after_attempt is forbidden in Stage 3 because evidence acquisition has not begun. The manifest's derivable_local list establishes feasibility only, not an acquired semantic input. Raw images, bbox records, lidar, trajectory, or calibration do not make an Observed..., Measured..., sign-legend, display-mode, device-condition, device-position, work-space-location, taper-location, or similar interpretation available. Keep such a required input in missing_inputs until the corresponding Stage 4 inspection or measurement tool actually returns the semantic result. A required input may be available_direct only when a non-null frozen scene fact or inventory field directly states that same value; cite that exact fact or inventory field. planned_tools must include measurement_spec.tool when data is usable; give a concrete evidence strategy and decision rule. Use get_scene_data_manifest and other inventory tools to distinguish direct, locally derivable, and absent data, but do not treat an inventory lookup as visual evidence. Never resubmit an accepted availability key. Do not call visual or geometry measurement tools. THIS REVIEW RUN MUST STOP IMMEDIATELY AFTER Stage 3 is sealed; no Stage 4 call is permitted.",
+    "max_output_tokens": 6000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_068ef2c1450880b5016ad97e26240087d1942290b0ab518044",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2X4m1XffquOuiW_4dE9BgWYTnGgarvqhOLtCiE57GP3RaK_fS03FFmv0_VxbjC-_9uTdnZu-H5-jvM49qu6W1ZFEBMAtTVFLW1Bi_UeMDzmeklvtAzDjTzW1AZJE1NCEugreWTVVB8tJef92NVk_GBzRPj0wTyp9_Jo1vWe63h2RuNxABdpIKjWIKHYb6n_n5Qc0_atr-ttdKe2p1gGRZWXknNZY9jJ_u4MGfbmccYDH0RFgzREpReygY3ikX4Cc1f9yKXLGttvp1AyxVZqiLQEm7OKrTFE-80PIBBJf7BGYKBAfurunhxwyT2bXv9Pj50lCp3OsCySGBwfcqwrm68n64ns6AScAfeYDa7HmvFDuuI7lfweDhqiG8zeSgtFZQNWbs3zVU47Fte9lvCG9u591jGn5bjjeJp2w8nbAERUNF9pJmljLNiYrfOxxfYKpbonPnqoaWhK-tH0Udnygjzi8d5tWkhLxbhWImCFnTKqE9DiQwEW5vxIPiSMhjOLs0UPvXxft75qRKlbeRty89m36E9wwWyuAhCggO-Zn9Ry-uQmEuovcgNL-QMhdo11QMx67wdz44TXgBMXivbtUDUHe_WeK7Fh77VfhVx9LcSk-i0k3CypbeTSUFYSq1_LfZ6EMhTfk2fr7uW4dG9ZNIus0i63nUgTpPxT1sr_58hb5FE9AX9b-AsK_4uE1LxHf7iPfH78cTN0L5Sm_SpKDnrOfcH135h56GGORavpm1Q-1ljyo4XTJsNfkUy78B5t7e1QfPAA1Ij-E5h5k6U3jwMEtnHUGLkpJdVJUWrdk_Dg5rErFa5MfQ_15qnG0lanPnI-64c-ps83P5PHXUjiTHk0PDv2shUBEUtkEaAl7KrPKWnO7wnb0JNGk_Y2gcxBUqyARistUc-IYewXwXIbX5OT7wNmHHib5EI0yolpow1SI6_40pa44ieiOEGnoUbM0VasA2J813dZHup3Yy8ZyQ23uqf0vphgxtX_HeKuBQCadEQMJNEiNI9Xs38OP30XDJESSUagCLRxCNlec_TVCsePEnNdRH7CufaEeBujZRvyiorkio6hWQxrX_7rPXW0NUX9FpZCn_UnVOI_oFb47MKgjNfCMAeDaUBu0IkN3U0ZlAwslg5YgeVT-rqDcIydQljHIB2nsD78WOYWOJmyoNGtZzl0Ss7L1vF5mp13BZxoUiZjCq7LjelfPafVDvOxQD6VPZXeYRrD-mGP_yD2EEBa947JO7s0M9b4upN1nEvxU_dsDbAXr0tnktEtF5N09PJrTLEIJjuVwC5mG4LFpz22IC3cE5En43YuUOdBRWehwugwu7BPLImORpSedzjUlThuvTwHXZ3t3dY_B-z-iqKqZXFUorbmNz3Bq0GemvGbMZ5N9iy8BOwygd1fbt6SVQZmoVYyscoYJSNuEIFwhVYuQTFxIjCRxPRPU6ATEJL5fi2Svd8m6ZqkBVzJb355CVd5uH5HXDIDto3WexxG3ocdfdPqhYN9kGfxI6jrUOP_s_8wZLg25SCuKhKOO4yV2KLaA7EfpIqlJqMTWs-HmRN07qHFHGWoxPldcUlbOVgvCH2IqUMaguUShGjBQ1gctkMm_Q-m0ShwyOJrCf9zUt3dEETTzoSppo0Ga-DKHg46pwk-bxL9AVZ3fJYGXqZW8eDhkDGXQvmQtMPsdiMgWkgb5hE_RCNJYIOjw8-gojcBn1Ggal2ClJY1guXG2xi_Ns6iRhCYBRzN3K2uvFPYhIDpnBlYBqPZf25-k_epTmrVRRZ5b7lW4-oeaYleQ513JQxO-q2gapTDVGf5qszRnct7CYYaFa4aSGRQ3vgPF_hR9ncH-irL7Jks1ixXTL0zoVFF0Jdm4b8nTqGSfP5hJ159pRlaUDxZ391lhNrNBg96dTP5Hz7O9ZTXUQoOx-f3U1BzDgnaPU5-ExebUNI74_NBpJgfaFLUq9hxKDZ80rw09CBxRU1x-pjj6-qIOkdseF3X3nxE8faCTYih5BQo4P11UuQx_9HxofD9lBCrPw6-BW9Npzckk_CPYXBS02LZJrnou-55jHF2m0MyO-45oyOkbV6Te1tJxNyNvoRlbbXFmfZF06kbE7Y5eLUr_XTuY1x9g",
+        "summary": []
+      },
+      {
+        "id": "fc_068ef2c1450880b5016ad97e26a69c87d1b429137a0c30a095",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{}",
+        "call_id": "call_PAe9pvNEAHYJ4sTT4YPgYQ8u",
+        "name": "get_scene_data_manifest"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Page through accepted 2D bbox observations; these are evidence candidates, not compliance labels.",
+        "name": "get_reviewed_observations",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "cursor": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100
+            },
+            "reviewed_class": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "representative_per_entity": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "cursor",
+            "limit",
+            "reviewed_class",
+            "representative_per_entity"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "List direct, locally derivable, and externally retrievable scene inputs.",
+        "name": "get_scene_data_manifest",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Read intrinsic and extrinsic calibration for a sensor channel.",
+        "name": "get_sensor_calibration",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "channel": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "channel"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Page through timestamped ego poses and cumulative road station.",
+        "name": "get_vehicle_trajectory",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "cursor": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50
+            }
+          },
+          "required": [
+            "cursor",
+            "limit"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "List camera and lidar channels and frame counts.",
+        "name": "list_scene_sensors",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Page through the complete time-ordered frame manifest for one sensor.",
+        "name": "list_temporal_frames",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "channel": {
+              "type": "string"
+            },
+            "cursor": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50
+            }
+          },
+          "required": [
+            "channel",
+            "cursor",
+            "limit"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Freeze data-availability decisions and begin evidence acquisition and measurement.",
+        "name": "seal_data_availability",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Record availability of every required input before visual or geometric measurement begins.",
+        "name": "submit_data_availability_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "assessments"
+          ],
+          "properties": {
+            "assessments": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "discovered_requirement_key",
+                  "condition_data_complete",
+                  "available_inputs",
+                  "missing_inputs",
+                  "data_availability",
+                  "basis_evidence_ids",
+                  "reason",
+                  "planned_tools",
+                  "planned_evidence_strategy",
+                  "planned_decision_rule"
+                ],
+                "properties": {
+                  "discovered_requirement_key": {
+                    "type": "string"
+                  },
+                  "condition_data_complete": {
+                    "type": "boolean"
+                  },
+                  "available_inputs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "missing_inputs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "data_availability": {
+                    "enum": [
+                      "acquired",
+                      "available_direct",
+                      "not_attempted",
+                      "partial",
+                      "unavailable_after_attempt"
+                    ]
+                  },
+                  "basis_evidence_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "reason": {
+                    "type": "string"
+                  },
+                  "planned_tools": {
+                    "type": "array",
+                    "items": {
+                      "enum": [
+                        "audit_channelizer_spacing",
+                        "estimate_available_width",
+                        "get_ego_pose",
+                        "get_reviewed_observations",
+                        "get_scene_data_manifest",
+                        "get_sensor_calibration",
+                        "get_sensor_sync",
+                        "get_vehicle_trajectory",
+                        "inspect_observation_images",
+                        "inspect_temporal_images",
+                        "list_scene_sensors",
+                        "list_temporal_frames",
+                        "locate_device_in_scene",
+                        "locate_road_segment",
+                        "lookup_posted_speed",
+                        "measure_buffer_length",
+                        "measure_device_spacing",
+                        "measure_downstream_taper",
+                        "measure_longitudinal_distance",
+                        "measure_sign_spacing",
+                        "measure_taper_length",
+                        "project_bbox_to_lidar",
+                        "query_road_authority_source",
+                        "record_speed_sign_reading",
+                        "resolve_speed_evidence_conflict",
+                        "search_speed_limit_signs"
+                      ]
+                    }
+                  },
+                  "planned_evidence_strategy": {
+                    "type": "string"
+                  },
+                  "planned_decision_rule": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 31317,
+      "input_tokens_details": {
+        "cache_write_tokens": 30229,
+        "cached_tokens": 1085
+      },
+      "output_tokens": 68,
+      "output_tokens_details": {
+        "reasoning_tokens": 50
+      },
+      "total_tokens": 31385
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_068ef2c1450880b5016ad97e26f56087d18e79b5c1b7d9771b",
+    "object": "response",
+    "created_at": 1792638502,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792638522,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "STAGE 3 CONTRACT — INPUT: frozen registered requirements, scene manifest/facts, and already accepted availability records. OUTPUT: exactly one assessment for each unassessed requirement, then seal_data_availability. REQUIRED INVARIANT for every row: set(available_inputs) union set(missing_inputs) must exactly equal that requirement's required_inputs and the two sets must be disjoint. Copy required_inputs before classifying them. condition_data_complete refers only to whether every applicability condition can be resolved from frozen facts and the selected TA; it does not mean that visual or measurement inputs have already been acquired. It may be true while data_availability is partial or not_attempted. available_direct means no required input is missing; partial requires both available and missing inputs; not_attempted means all required inputs remain missing but can be pursued in Stage 4. unavailable_after_attempt is forbidden in Stage 3 because evidence acquisition has not begun. The manifest's derivable_local list establishes feasibility only, not an acquired semantic input. Raw images, bbox records, lidar, trajectory, or calibration do not make an Observed..., Measured..., sign-legend, display-mode, device-condition, device-position, work-space-location, taper-location, or similar interpretation available. Keep such a required input in missing_inputs until the corresponding Stage 4 inspection or measurement tool actually returns the semantic result. A required input may be available_direct only when a non-null frozen scene fact or inventory field directly states that same value; cite that exact fact or inventory field. planned_tools must include measurement_spec.tool when data is usable; give a concrete evidence strategy and decision rule. Use get_scene_data_manifest and other inventory tools to distinguish direct, locally derivable, and absent data, but do not treat an inventory lookup as visual evidence. Never resubmit an accepted availability key. Do not call visual or geometry measurement tools. THIS REVIEW RUN MUST STOP IMMEDIATELY AFTER Stage 3 is sealed; no Stage 4 call is permitted.",
+    "max_output_tokens": 6000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_068ef2c1450880b5016ad97e279fbc87d1980bb2d780b09cb4",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2X46VqU8PGHM00CXG00pagyTWzfOdRIM7-mhAh1LP1LRTU90UpXkSa-0f4hbKr2e4I5Awjy-rDDxkvJMTIRNbp8rD9gWebir6vY7OsLxeDDjIELO_MgN_A8qyFobRpLdSOGV5IFveP3xu_5lWPoyafxOq6z9noDJ5T4N-4mWT_Py9UovNStpz31LuHg8T6Zpv8nmjuamf5w-Ef01N7HhHX5W3oNLCeU4VOGfzzSluUKNqLrB772ZOlp_UEzqYT0rGpmO2yClGczSmfj9x0ZFZOgkwTOd7ZwuyOBQjdxTrMeBymE9FLxTs-0yv6oX0umQEgULd8Oe4s09rrsp_Z2mKcXJyptHaM4iEsOE-2SS62Oifka4nNKmH-MUFhdTvwLm1rXqy1ZJ54b2ePg9ASF2b-d3vS7y6ruMXnVAaIxc3CRNRKjeIkCC5-vqhC1kc10LDT3BHFyi0YKY269JOwzVJYnfJIE5Ccmwlwzi27VvI6XNiGSa48Na8fTuEBGxd3yDKx9U2iRVEVvweE6qO3pgSKrMRrbKDQxsdfeyZCIWM-f-1ivRKg7yCSusD-ot1EERHHianKySYGVvVO-0aTfn10ht1FrwApAuvmF8Zd8v8sZtJDidJttWcyX-o8LKIfPxzhA_wfxv8k1RudZJVrFzlf0hjy309XEDpJRkGIf3zBogLVbMe1LB0GIcPPX0HUaBxlUmD4yyTxTUoHqJ3D_ml3l-mnilkRLKjUlYIW6eullvJk3c9Qi6Y-B3I5y5JtpyyyRpcnosAwTrwXpXuhHKoJcwcU6F7Jkwz5EnzBLkNHa5Hzb6fjtz2v6A9-Rlz3sOBY3s3M9o9zYqf0wL46wQVvHP0d7njT1Z8lmQnmajdo90cTc66wMrXDFOYZsDQEI6IytIZ87iW5yVMuVt6Wu7lkgQGscZHyhnYBBda4ySTDtP3bFtLm1YvX_edn1DiO-Z4U1-JuYT-gIpUYB6_nZNXcqgN0PdPYIy2eXTs0YXVGI-t9rOOEpG05ETqnomrLwbl_XkonmlTT_a1mi6reqKlrXjxjOlj9gWDf9cvRJEsUdB_UbCVCXnUEmHV3Z4_7l5PhwZ-W5Esq8fup_4MYgyY8wLT5GKpJFwUxTrG-arsRcMX2lTMHJjir3oacdX7QhBuIdN3aCx7II6WvHKwo63hNUqBAG3NnUImZg7y2bHZRJin_mK_KfrJXX7K47fS4JBe9tE-kA0jmCQpUjfKvXUvPzzVxKCUBPRmsR5FYOU0vofSbeVGX6v5YtzZlkBWn7twybYCmfXfb9RAKp7nuOn8B3PSH3jHnoW4dximiLz3l7fnjz-ZUDK8T3UkXNhpW7kxCve7gLufd5RXl4hjmRKBZAXRnDP5l-7lWwobFwufgh13V-WZXhzqtstiu948fZfK4DzIGSrFkBzkhUm6zTzXMxQ6PlKa67krYEWGwLCBhAXtzjHnakkhC74GX7HgkOnur_q2TDXGY1EQLOQSzBgq1YcYA4aVfNrRet0Go-ekOrayG9Xt14MUxFivXoUPeJkZO95KDbRV6cWpVKkIVtR-lOiNPYD4FB7ZJUa9zJqe1PLi-qUNeNVtLwiCxj3GMaXnKnsNVgiTD1q9qkUXXHWD5eAOs6OaWOqMOpfbqds_k7Mh7ra7LcDwKobYsiQIHpw002awhKMhrO-TLBEBLvrqeuJInetNcIjloGQHUYE_BNisQhZfLIeHDw5otYdjcIyhvGf-ZJi2jPv0Xb0MGb4DqEKy3u1ncRTnPC8BR-WzroVuz4Qvy_-v12D0zCB95fm4kY4f_dYoeqbvAy2Aa1uEObbvEIKT6IOYwd7tdTEYPZTtcGVVZ7h-V5w89NPMCCL1zDIUUMYx9m2k8v8UxVAWIHVaAJzEIQXMG4shZ7tpgSttFCCWJ2T5xzdIu1eXB7gShgne1LwuLD3idQS0UDL-5DAANga_YkT1Fb6JLlkT_CDmaT5-eWPNyfKpndvxdr6vtPSIpGJ-O-VkZDdeXJ7D8KXhfwdHTOQ6VY0E-mDd8BifzGVbp3ZfCL1_7On6ncFvBusWZeoNGp9hWSy1OoWTjJA1Wj7Eqq0BwmU7LzRdNZd-GPOQxxcexeNAu85XHdB5VMBJ44BZCXQcH2Nob1Sj9Oa5XZLEWMq6lhkbpO-HbCvW2n18GT-akucAGElBiHc7dLGVtrrmktIulfC1bI_YAN0W1hPKgNw7P2gueQHtGcTz2fIhCCNGUJTmYxCuGHDERUmZ79gI5rUDVEJP5-RqRSgaAZvsW_8wW7KUdo1UGeldL4mI1mXcmWK9llKyIgisZD9nL6z7HH49mHGO3VBzwt5ZGHm41lPPuCmst-w-xj0Sjw0g9_tH33EqOpkx4EuvSgKtPSkXrpMCLXjAtzrQM8VI61OxC2ptDRnetcfLymiVThHeyBaykK4IQ5F3ray76ooY-TXJEeEnDH3Nld9WFbisrvC73C5Ca5Y0zEqwVPH5vqB_Q9xEZRuXXtFWvw-yL7a5yH51gzFouoL2ppRSTK_GEFRbBjGKClxhHJLWsyt5s_V5OTLlQAQNhwoerp96X1fJ50GEYK-1HDjiq1Jty9WpwfAzjubja3lAHY6uZQ9R9YQRHfdDzoRxElLjR9Mo89PSbdmyIXU_eeVC7CK23_rZIlKMAaIW7zBYdVhHPpIelUkZarxDFBACLD-dnYTJXfgXSJAS9oXJYS5LHmPTK-Zz5Meu_8QFq2KLtiwwb40s7YtNkrR9QNoHoGMt0_-A9YBZ_1tUHvgX9mfSf8M5HrLgxix33W6nHAPV85ViN7trHvWNXXd-Vt0fmJe5DGOYdof3D_1zEd7Rw0ExDuctTtWxMiFRFrbncD6CcZF65Z0bhyEmbJdfvm65jloSkzwBwRQVM6yr9RmFgg2y0CBudxntaKfoGFIRx_nXzVlX0dcCsUfMud0zXQ_DSNGZ-WLPWikHy1xFe2bll5Qlktpn6mC5DGCmdNW6RrzpWXQ5werDGTfTkRq-bbUn7dRcjdwDiA5hNLJK40ZfZaQ-heE-mO_His8ILnE5eDzWKFAVFahSUErYP27Nrpb6Plb8U2DxYN2E3yKZjgx6vKnbfO0ZcYxy_kA-95TmEUrSIIGVIY4yzjruMTiXteJSt7we2vgShVsT0Ywz2WUUlslL9GWo47lJ-EXNpqxiahWwhcIHrKN7chCZx7fAzh8uefuQpcsf0-kwgYSDXoBB_vL074sk1cw73S6lvVZEzM6y3lDD3K9mEaA9PoC_yPLBF6hq3anumiXKQz6_0EZOxyMUawDhgZ0a-fq7soYBrkaWvQK25L392R5zYo-8HHquadpgYuS5dw1Zno3MZ9TsJmopI13k-aMHZzaG1C2yVX-l7phepMk01yMkElfmU3rdXZJ11CWGTCxiyi1sMcz1DxhTmoXCSAGeY0Ym7ffngDYxZ3brw6HIEz18D9AnHTV2ryMUnSWBjjgBlEGNde49ztS7t3z_RUiw5Re2gozKPLFk2pMittBPEzhPp8OC8VafzOrxqwbtsNgKqIHDXV4-Gxiv_JpUculoEqD3h5fytf3T9rJKuq_PhoBIcabc0mGwABlMfEsVQCaHmZWw1uT93IECY8H9UoFKFvVus90tYJqYMK4X2eXG4n0gRdp4ijhFqQMZ_2H7y3QLgD6kh-rqqgBs_SrXJxhkkYcrVgvFP7mCLN4WibOHfOcu5Mg8d4Wm3YttArPDr0rTqkYcEGiwbFbNOrIEFJo4GTnyXzgzemiF8BhhhrExE_NY1iKvvDEimGAc0f-ch1Jlncf3aqIJC5AU9gfLCw9OKbljX6XBSY9-oerO2JTB68TTGaL9_MwpncwHZ7v09g7uKgBj2F2t666GUBtjTkCaWPdY6EfIzyVArbT1nF1wyGNikWL-_iC2jgtg7AyzZA9P_N9yWqqfESAOEkrTKOtdjUh-zigGGAQtGpbAbXp1WoQ7A4N-QqwhZ5p7aNR6og0lhhjVA8Y5wksRLzLJnlD6uOl7Nswc7hbtvnqMU-oerbiPPF6MY7oTkYlJzEgsUJvlIMg4d_1YSQoJ5wbkbTvgUWvIfP06vp420knlLBIr8n5WiAqZ-pYLEOoqTiepbMx7zE3qsrsA68yVQ9DbCDnqshxRVI8uiOLSGC1TBjosU0C9gsLx3yuwH-9m1Zt1QwwezaRNtJnod4xNd8j2E6zp9Ythz8IjojbybyoahaNqWoulq99qJH_l_Hebt_kGeLAv_CFV2D18gEYtNT40qdEIaehFT6JHIDeeh7GkkT_7D1l9v6OsrQW7pDuMkorl0wksMYSupyE0e6gNJZoB_ghcQZG-gJv32Pd_Nt-HSmvr_TwQMySLtP7HnW5Yr0kc67J9nXtM7YAjiFEx7hLXqea4uGfne85lUIcBrMHYh9B0ZgGBPWmVnE4A2LKmUqqWK0BxHAii4blKHk1d7lhAVsf0Esci2EGnGNNZ3Q0fwS0H5HvYOcbTA5z3nTSVp3RT4StIwLNh4C2MHPVWurSBhXbvqcDca0ZFgYq1db-HCRk5bpqmxIAvzMTOQdBE8SW_Di88MBQEz8nM6a0Fzj91X3F_qHxP8Znv-pppOgHdcgBSG8HPdwehTywPnIQIUcwzYcfOy36pOTP8dHoFeAvImMq6hhtmE7CLl7t8UPoJLNRCJ3omhCLXBtO10pDTO3hDB0gZa87cy5o_S-lAqsgeR_GyS4c9gBS3F1bq5v5ie0VMPixhO_lyRSQecVJ_lNkPr4Pgoh9jV3YlL5mEwMDEGfsVW6nNk5umh0MmAKPOWp3OTJwyqCZFRRXDvzr44CzCHgPJlT4nB2_Z-K_gYCfn_mXyOfHE1ndf_EYnA_BYVgiEqKGPM_g8ZLgfiClK0YJc8B4bk5DmDVTI9I8Qqaw-XHWnT7bKmYcS8h3zPJuVlGb1ExW1TSFWd9_SLeyFSZ8yuPG4NPE5bFPaRt0hdWL48-6fmyHi8B6uPn-wM2db4spEoYu-V4dlAW88F6cGEuetQezMK__OVZ0JHvqyOIJENYpp7uYcKfL4V5FpE8j9MGnFiHzDXKWhjvOim2jXHN7HJyNIKfIyP4t_dUfcU6xhtBxxLyHPnuT6h5UddvWBgYad1po_Bm8mqQ5wq55RSjurDVCdJRK_hAxuXVsmeHOaMm8YfnV7Et-jf2MPJUHs8ZdrU28E5mLgDUwXRlZsY2odukysYvt6Djv5F9QcjMD_vlTZGrVfM066zylgaX9zKoSDJVq1YWXcQvKUO1VOYd3hw-kt3_kNlsMNsGwV8EJN62FW3l_4zm3MMzGQ2CS_yLuQ1ie-6eGfoQxU-Nx_Vl5zEnlE_aHsfLQKzehcow3rE1E8IrlJF3j8v5jwH4H6LOqYxKa5WnedCcG9Wo6B8dEV_aKWqio1Po8i9R38rSfYt0jSpxZVc_jAU7j_JHcqB04goDXyJgaAVP-KtXcahJzKUWV82B-ojGqjBc2WA_EA7s610tffU-K3TtXPNlNyAU4z3ceW-Amo7rbB6dqVCSUYGc_GeUhih-ZADbUe15DkzRD0OJRo41f8AAwtz_9lvrbcnWB32LCC4milpaxu_MSRoH1IjXxJ5kMhYYAH67aLTfs2EBfgy3vctIn3JoufwzbUxveSnnPugJ3xvKEgk1rk6TFNOQMUabyzUBP5GUVaMWWqb02gdK78Lj86fD2NJkuNC0cJhca2qtY3ZqeIU6gydvcGiRahFZUyrxhvK_Vc-TSRyJjOQRk3a-NN-pzPN2JN-Kym4pCB3oOr_-uMFU35n_4TxjQ_ZAyPrNpS1-5HU8hbNARgGYhmfo7lvwf5HNIlKy3u4c3CAWvKNwsr_F9ZQIEk2exqR-TI_ZqlidATLtpt3zDvYhY_k3Fyk_QbswLY-j2Zx2Oq0b5vnTLpS2CWaGPO_3mHKJVUWNIlR_XIlZrQlEt-V8iXF-LoTS-co_t6Gx1dTquriLspAX4xQ7xjEhr1uvpR_Y5D4VN6YxGoYxZsLKT7AZidhecTg1CU7gDv7H1W1L9xWRsiDFS-4oyvjr6WdqtFIbzOMM4dObao6KW9gh8IZlLL8VL_xCYQuYKXi15rkiqQ_lA87vBAe9qxiz9xP-OGHmsHgyt-4x54AIPmiq3eeJPOfa-FIDOfl27pCR9hvNoWmBGn523H7BzfXVBbt1QPClLi7anDkpdcT4OB4YFXjjj8hJkIIN41kEiZI66E1S1TDWD2-WuPInwjSq6JP9cLc6K-mXVQtBoIbX0JdnLhwSXK6RPPN6qBKNdt6huFOedYNkmubkCc6Z1UZFvgDhB0j7nRC-YQNu76tSpxOR0WkrGeQjcWmKOidxF4RbfUv1S2gXnR-eNL2NoG4WsQ2kCpOPQvJIC10crQwhJ5kOP1UM_39wlkHEr10N0CaHLAAWocVq1X_IWgokE5P5vbVV1mMNywBgeuKY9Wqdquxr879MFl08icoOWJTjhUCE32Z0YnH0Y6chRsBxXjctgGOHJTEcFotaoXnpNVdkoKYpFABSKquPGA83PQ8A8MgnSzhJ-cfOili9TttWK9Ec1EmvYlTCHob4zm6-E56t7vU_6thwMa4RoLTNMGz-qZE8eeyXYk7jAnhX3kapPGTOTr9C7LFvvy9y2aqr0h7NwabsnmA72xd5clEVO0dY2Umlcmm01OysdUnzvPB5gSa-0c0Uz_phK2Tm9Zeh6-sgPOO-ksWEukSWjPD8yEC5FvsR8iSlbBv_t4iFs7b9EmsCiAWEhcm16IHKJS51L81u-TEg-M5Y26xrvXDJAFlHVPyrE_S244nWZdDWT8yw0xMkFusT63ecaUViRgrFiHhK-1Nmm8MYyIPOU1C8pnLIknI9UjxIuR_R2lhcSQqYY1Q2UWUkPpWt4Cm9z243kPjtoNrQhftU6BxhbVNy_7zBMXPjZ9MwEnhtxoc72rqxQejBz7Yt_SyZV58VntbjTUbHmV5jCjXW3xqY7AmTgRHGNBJpkcfKwyFCQihcwVBeeU9kmXKyhe5I9IECoIfxF1YQXVfbKS-N9K9R9t22MAFL2UQln8GkXp31EXvcmjl0drdOHPzngOpCYi7BRmVlcWccQHC-bmObBbbE34TeXUAGebI0kopz4bct3UOTT-8XOaPl92Xk7DD3OdGTxhnHgULy-GF8jpi1WEXIYl4kHIzzNLOl61fUTPfGABAsOZAVf4lswgpVj2etawWAnrgU7qt5Hxa618aeCesfYOi4y4aFoGb3ALl0hOcjT2Ound1ypeeS3TPq3h47g2v-fl6yvEmcB2wRmJ9UHVWpKOkiQZumpPc7mvkW4shu56ki2lIh-s_DuO8WwKxc3_YHCrMhbWGbxNDnlRy-Xm5K6sKMdHe_Dy2FdztpaWwJeuHr-R_JPjbGjIEaDq5U4ZtSRtM6UxrMMg9Juhe3p6f_gX_t-27cg-NU4-zvjNcouRuOX2kJC8ItjZmGQEqQKU38XtK8AQt6HUQO3fWSQSqUe3wGmuchZsuTltbnWM1xUnMoUIlw0w92SxblnbhBo2mGoZOCOy8omrwkbA4mA97LsPKQO1n7PWmD5xiIy7acwoUEUFxOLE7ysjzwsLvu-9jUGjv0tzKJYZGQqi_wEAi8v8136DoKFh4hXZ2xHAQ0yY0pymKwOf8RX_uJDkqgMisRPJn6idx9Gx-CTngSrYpayrB-uwR6lm2eX9nwcxnEmKsRHDv9-yiCKS8nepl88UQZ4CRKGXwB6qxzHlOV1wBnLBevPwnHxeavn1D76jrVgxFGLPAFPdrHBpxYg2O8Rh7s_fb0oJct2KEhsqHmN3dX_VIATPnlaAK4OR5ZwHsIJgU3D5D6Q6ziB6h6dM3xvTP-_w61x1nIr_Qh150lnQMHFMHpcflGgIjfP2psqgNbQ7kkVuCQOK288RZzw4Um7eE_qzn_1TrdZ5lX-rf6zHw7Jtj-Pdicj2nk6YTw1qbpxSD6cwOrVxO5JAHFuQmoKb2i8GV4x0FiX3ztvSQPOECJxwm5t1vGMfpDVdal1iDYZ1ODxGgscHfD0yS_nDIuYfkw0a97j9Cgc-w==",
+        "summary": []
+      },
+      {
+        "id": "fc_068ef2c1450880b5016ad97e2b87b887d18854dfebc1ba02ad",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"assessments\":[{\"discovered_requirement_key\":\"req_ad7a729596b46383\",\"condition_data_complete\":true,\"available_inputs\":[\"Roadway category and posted speed\"],\"missing_inputs\":[\"Measured longitudinal distances between successive advance warning signs\"],\"data_availability\":\"partial\",\"basis_evidence_ids\":[\"scene_facts.visual_scene_description.facts[12] (urban roadway and posted speed 20 mph)\",\"scene_facts.visual_scene_description.facts[8] (ROAD WORK AHEAD signs; reviewed total 14 observations)\"],\"reason\":\"The frozen scene facts directly state an urban roadway and a 20 mph posted speed, and establish multiple ROAD WORK AHEAD observations; spacing has not been measured. Planned measurement is feasible from the temporal images, ego trajectory, and calibration, but those inventory inputs are not themselves the measured spacing.\",\"planned_tools\":[\"measure_sign_spacing\"],\"planned_evidence_strategy\":\"Identify successive independent ROAD WORK AHEAD signs in the scoped approach, associate them across frames, project their roadway positions using calibrated imagery, trajectory, and corroborating LiDAR where available, then compute longitudinal separations.\",\"planned_decision_rule\":\"Assess each successive spacing against the 100 ft urban low-speed minimum; report compliant only when every applicable measured interval is at least 100 ft, otherwise report a below-minimum interval; unresolved intervals remain unassessed.\"},{\"discovered_requirement_key\":\"req_62474d3d964c6426\",\"condition_data_complete\":false,\"available_inputs\":[\"Posted speed limit\"],\"missing_inputs\":[\"Measured spacing between successive tangent channelizing devices\"],\"data_availability\":\"partial\",\"basis_evidence_ids\":[\"scene_facts.visual_scene_description.facts[11] (20 mph posted speed)\",\"scene_facts.visual_scene_description.facts[4-6] (channelizer line and inferred geometry)\"],\"reason\":\"The posted speed is directly confirmed at 20 mph. Channelizing devices are deployed, but the frozen facts do not resolve which device intervals are tangent rather than taper, and tangent spacing has not been measured.\",\"planned_tools\":[\"audit_channelizer_spacing\"],\"planned_evidence_strategy\":\"Reconstruct representative independent channelizer positions from accepted observations and calibrated temporal imagery/LiDAR, classify tangent versus taper segments from the longitudinal alignment, and calculate successive tangent intervals.\",\"planned_decision_rule\":\"For resolved tangent intervals, compare each with 2 times 20 mph = 40 ft maximum; do not apply the tangent rule to taper intervals, and retain unresolved segment classification or spacing as unassessed.\"},{\"discovered_requirement_key\":\"req_4b36f1dbdb9f7c39\",\"condition_data_complete\":true,\"available_inputs\":[],\"missing_inputs\":[\"Visual inspection of deployed channelizing devices for serviceability\"],\"data_availability\":\"not_attempted\",\"basis_evidence_ids\":[\"scene_facts.visual_scene_description.facts[4] (channelizers deployed)\"],\"reason\":\"Deployment is directly established, but serviceability is a visual semantic inspection not supplied as a frozen fact.\",\"planned_tools\":[\"inspect_temporal_images\"],\"planned_evidence_strategy\":\"Inspect the scoped temporal images for representative channelizers, checking whether devices are intact, clean/visible, upright, and properly positioned; distinguish merged observations from independent devices.\",\"planned_decision_rule\":\"Report serviceable only for devices with sufficient visible condition evidence; report a violation for any device shown no longer serviceable, and otherwise mark condition unresolved where visibility is inadequate.\"},{\"discovered_requirement_key\":\"req_aa7f07b1d07ed2cb\",\"condition_data_complete\":true,\"available_inputs\":[],\"missing_inputs\":[\"raw_images\"],\"data_availability\":\"not_attempted\",\"basis_evidence_ids\":[\"scene_facts.visual_scene_description.facts[4] (other channelizing devices described as cones, drums, and delineators)\"],\"reason\":\"The requirement has no applicability conditions, but raw images remain required for evaluating size, color, stripe pattern, retroreflection, and placement; the image inventory is feasibility only.\",\"planned_tools\":[\"inspect_temporal_images\"],\"planned_evidence_strategy\":\"Inspect representative independent cones, drums, and delineators across the approach and near the taper for the specified general characteristics, using LiDAR/calibration only as corroboration of geometry rather than as visual evidence.\",\"planned_decision_rule\":\"Assess each visible device type against the applicable general characteristics; do not infer compliance from labels or inventory counts, and mark non-visible characteristics unresolved.\"},{\"discovered_requirement_key\":\"req_47aa373310aaf156\",\"condition_data_complete\":true,\"available_inputs\":[],\"missing_inputs\":[\"raw_images\"],\"data_availability\":\"not_attempted\",\"basis_evidence_ids\":[\"scene_facts.visual_scene_description.facts[7] (ROAD WORK AHEAD signs visible)\"],\"reason\":\"The normative sign-location condition can be evaluated in this scene, but raw images are still required to determine the sign and work-space/detour relationship; the frozen fact does not directly state that the sign is in advance.\",\"planned_tools\":[\"measure_longitudinal_distance\"],\"planned_evidence_strategy\":\"Locate independent ROAD WORK signs and the nearest observable work space or detour start in the temporal sequence, then measure signed longitudinal order and distance along the roadway.\",\"planned_decision_rule\":\"The sign passes only if it is on the work road and upstream of the work space or any detour; if the work-space or detour limit cannot be located, report unresolved rather than infer compliance.\"},{\"discovered_requirement_key\":\"req_8934040d233c7213\",\"condition_data_complete\":true,\"available_inputs\":[],\"missing_inputs\":[\"raw_images\"],\"data_availability\":\"not_attempted\",\"basis_evidence_ids\":[\"scene_facts.visual_scene_description.facts[5-6] (channelizers separate the open path from the closed area)\"],\"reason\":\"Redirection is established by the frozen lane-closure facts, but the required raw-image inspection of the path and devices has not been performed.\",\"planned_tools\":[\"inspect_temporal_images\"],\"planned_evidence_strategy\":\"Inspect the transition and channelizer alignment across the scoped approach to verify that road users are directed from the normal path to the available new path by appropriate TTC devices or methods.\",\"planned_decision_rule\":\"Pass only when the observed redirection is visibly effected by appropriate channelizing devices, traffic-control devices, or TTC methods; insufficient visibility remains unresolved.\"},{\"discovered_requirement_key\":\"req_2aaae0362bf83021\",\"condition_data_complete\":true,\"available_inputs\":[],\"missing_inputs\":[\"raw_images\",\"accepted_bbox_observations\",\"ego_trajectory\",\"lidar_points\"],\"data_availability\":\"not_attempted\",\"basis_evidence_ids\":[\"scene_facts.visual_scene_description.facts[4] (drums included in the deployed channelizer description)\",\"scene_data_manifest.counts.accepted_bbox_observations=241\",\"scene_data_manifest.counts.ego_poses=480\",\"scene_data_manifest.counts.lidar_frames=240\"],\"reason\":\"The scene facts indicate drums may be present, but the required visual and geometric inputs have not been semantically acquired for drum-specific construction, dimensions, markings, tops, and material. Inventory availability is not the inspection result.\",\"planned_tools\":[\"inspect_temporal_images\",\"project_bbox_to_lidar\"],\"planned_evidence_strategy\":\"Identify independent drums, inspect their construction, dimensions, stripes, top closure, and apparent material in images, and use trajectory/LiDAR projection only to support object identity and dimensions where visual measurement permits.\",\"planned_decision_rule\":\"Assess each independently identified drum against every stated characteristic; any observed prohibited or undersized characteristic is a failure, while unobservable characteristics remain unresolved.\"},{\"discovered_requirement_key\":\"req_403dd72cd3369844\",\"condition_data_complete\":true,\"available_inputs\":[\"Observed lane-closure routing and channelizer layout\",\"Confirmed opposing-traffic routing\",\"Selected TA layout\"],\"missing_inputs\":[],\"data_availability\":\"available_direct\",\"basis_evidence_ids\":[\"scene_facts.opposing_direction_lane_fully_closed=true\",\"scene_facts.opposing_traffic_detour_confirmed=true\",\"scene_facts.alternating_one_way_operation=false\",\"selected_layouts[0].layout_code=TA-19\",\"scene_facts.visual_scene_description.facts[5-6] (channelizers separate open ego path from closed opposing area)\"],\"reason\":\"The frozen scene facts directly establish the one-direction closure, open ego direction, channelized separation, and off-site detour; the frozen selected-layout record directly identifies TA-19.\",\"planned_tools\":[],\"planned_evidence_strategy\":\"Use the frozen directional-closure and detour facts together with the registered TA-19 selection to compare the observed routing arrangement with the TA-19 directional-detour arrangement.\",\"planned_decision_rule\":\"Pass when opposing traffic is prohibited from the closed direction, the other direction remains available, channelizers separate the paths, and the closed direction is routed off-site; otherwise report the specific mismatch.\"},{\"discovered_requirement_key\":\"req_38a0c44a191a7475\",\"condition_data_complete\":true,\"available_inputs\":[],\"missing_inputs\":[\"raw_images\"],\"data_availability\":\"not_attempted\",\"basis_evidence_ids\":[\"scene_facts.visual_scene_description.facts[7] (orange work-zone signs visible)\"],\"reason\":\"Applicability is unconditional, but raw images are required to inspect shape, legend, border, background, and the grade-crossing exception; sign labels and detections do not establish those attributes.\",\"planned_tools\":[\"inspect_temporal_images\"],\"planned_evidence_strategy\":\"Inspect representative TTC warning signs in the scoped images for diamond shape, black legend and border, and orange background, while checking whether any visible sign is a W10-1 grade-crossing exception.\",\"planned_decision_rule\":\"Pass each inspected warning sign only when the applicable color, shape, legend, and border criteria are visibly satisfied; mark obscured or unreadable attributes unresolved.\"},{\"discovered_requirement_key\":\"req_9684dd549b406cb8\",\"condition_data_complete\":true,\"available_inputs\":[],\"missing_inputs\":[\"raw_images\"],\"data_availability\":\"not_attempted\",\"basis_evidence_ids\":[\"scene_facts.visual_scene_description.facts[4-6] (channelizer deployment and alignment)\"],\"reason\":\"The requirement is applicable to the deployed channelizers, but cleanliness, visibility, and positioning require visual inspection and are not directly stated as frozen condition results.\",\"planned_tools\":[\"inspect_temporal_images\"],\"planned_evidence_strategy\":\"Inspect representative channelizers throughout the scoped zone for cleanliness, conspicuity, and proper placement relative to the intended path and taper.\",\"planned_decision_rule\":\"Report compliant only when the inspected devices are visibly clean, visible, and properly positioned; report deficiencies when observed and unresolved when coverage is inadequate.\"},{\"discovered_requirement_key\":\"req_cb1dccef74232ff1\",\"condition_data_complete\":true,\"available_inputs\":[],\"missing_inputs\":[\"raw_images\"],\"data_availability\":\"not_attempted\",\"basis_evidence_ids\":[\"scene_facts.visual_scene_description.facts[7] (multiple ROAD WORK AHEAD observations)\"],\"reason\":\"The requirement is applicable because multiple advance warning signs are used, but determining which sign is first encountered requires temporal visual inspection; reviewed counts are not independent sign ordering evidence.\",\"planned_tools\":[\"inspect_temporal_images\"],\"planned_evidence_strategy\":\"Order independent advance-warning signs along the approach in the road-user travel direction and identify the first encountered sign, using frame chronology and roadway position to avoid merged-observation double counting.\",\"planned_decision_rule\":\"Pass only if the first independent advance-warning sign encountered is ROAD WORK AHEAD; if the upstream approach is outside scope or ordering is ambiguous, report unresolved.\"}]}",
+        "call_id": "call_uvGiESPkoFXhV26rppIcuZxl",
+        "name": "submit_data_availability_batch"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Page through accepted 2D bbox observations; these are evidence candidates, not compliance labels.",
+        "name": "get_reviewed_observations",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "cursor": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100
+            },
+            "reviewed_class": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "representative_per_entity": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "cursor",
+            "limit",
+            "reviewed_class",
+            "representative_per_entity"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "List direct, locally derivable, and externally retrievable scene inputs.",
+        "name": "get_scene_data_manifest",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Read intrinsic and extrinsic calibration for a sensor channel.",
+        "name": "get_sensor_calibration",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "channel": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "channel"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Page through timestamped ego poses and cumulative road station.",
+        "name": "get_vehicle_trajectory",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "cursor": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50
+            }
+          },
+          "required": [
+            "cursor",
+            "limit"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "List camera and lidar channels and frame counts.",
+        "name": "list_scene_sensors",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Page through the complete time-ordered frame manifest for one sensor.",
+        "name": "list_temporal_frames",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "channel": {
+              "type": "string"
+            },
+            "cursor": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50
+            }
+          },
+          "required": [
+            "channel",
+            "cursor",
+            "limit"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Freeze data-availability decisions and begin evidence acquisition and measurement.",
+        "name": "seal_data_availability",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Record availability of every required input before visual or geometric measurement begins.",
+        "name": "submit_data_availability_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "assessments"
+          ],
+          "properties": {
+            "assessments": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "discovered_requirement_key",
+                  "condition_data_complete",
+                  "available_inputs",
+                  "missing_inputs",
+                  "data_availability",
+                  "basis_evidence_ids",
+                  "reason",
+                  "planned_tools",
+                  "planned_evidence_strategy",
+                  "planned_decision_rule"
+                ],
+                "properties": {
+                  "discovered_requirement_key": {
+                    "type": "string"
+                  },
+                  "condition_data_complete": {
+                    "type": "boolean"
+                  },
+                  "available_inputs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "missing_inputs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "data_availability": {
+                    "enum": [
+                      "acquired",
+                      "available_direct",
+                      "not_attempted",
+                      "partial",
+                      "unavailable_after_attempt"
+                    ]
+                  },
+                  "basis_evidence_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "reason": {
+                    "type": "string"
+                  },
+                  "planned_tools": {
+                    "type": "array",
+                    "items": {
+                      "enum": [
+                        "audit_channelizer_spacing",
+                        "estimate_available_width",
+                        "get_ego_pose",
+                        "get_reviewed_observations",
+                        "get_scene_data_manifest",
+                        "get_sensor_calibration",
+                        "get_sensor_sync",
+                        "get_vehicle_trajectory",
+                        "inspect_observation_images",
+                        "inspect_temporal_images",
+                        "list_scene_sensors",
+                        "list_temporal_frames",
+                        "locate_device_in_scene",
+                        "locate_road_segment",
+                        "lookup_posted_speed",
+                        "measure_buffer_length",
+                        "measure_device_spacing",
+                        "measure_downstream_taper",
+                        "measure_longitudinal_distance",
+                        "measure_sign_spacing",
+                        "measure_taper_length",
+                        "project_bbox_to_lidar",
+                        "query_road_authority_source",
+                        "record_speed_sign_reading",
+                        "resolve_speed_evidence_conflict",
+                        "search_speed_limit_signs"
+                      ]
+                    }
+                  },
+                  "planned_evidence_strategy": {
+                    "type": "string"
+                  },
+                  "planned_decision_rule": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 28185,
+      "input_tokens_details": {
+        "cache_write_tokens": 27097,
+        "cached_tokens": 1085
+      },
+      "output_tokens": 2859,
+      "output_tokens_details": {
+        "reasoning_tokens": 471
+      },
+      "total_tokens": 31044
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_068ef2c1450880b5016ad97e3afff487d1b88ecc5d0770f86d",
+    "object": "response",
+    "created_at": 1792638523,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792638525,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "STAGE 3 CONTRACT — INPUT: frozen registered requirements, scene manifest/facts, and already accepted availability records. OUTPUT: exactly one assessment for each unassessed requirement, then seal_data_availability. REQUIRED INVARIANT for every row: set(available_inputs) union set(missing_inputs) must exactly equal that requirement's required_inputs and the two sets must be disjoint. Copy required_inputs before classifying them. condition_data_complete refers only to whether every applicability condition can be resolved from frozen facts and the selected TA; it does not mean that visual or measurement inputs have already been acquired. It may be true while data_availability is partial or not_attempted. available_direct means no required input is missing; partial requires both available and missing inputs; not_attempted means all required inputs remain missing but can be pursued in Stage 4. unavailable_after_attempt is forbidden in Stage 3 because evidence acquisition has not begun. The manifest's derivable_local list establishes feasibility only, not an acquired semantic input. Raw images, bbox records, lidar, trajectory, or calibration do not make an Observed..., Measured..., sign-legend, display-mode, device-condition, device-position, work-space-location, taper-location, or similar interpretation available. Keep such a required input in missing_inputs until the corresponding Stage 4 inspection or measurement tool actually returns the semantic result. A required input may be available_direct only when a non-null frozen scene fact or inventory field directly states that same value; cite that exact fact or inventory field. planned_tools must include measurement_spec.tool when data is usable; give a concrete evidence strategy and decision rule. Use get_scene_data_manifest and other inventory tools to distinguish direct, locally derivable, and absent data, but do not treat an inventory lookup as visual evidence. Never resubmit an accepted availability key. Do not call visual or geometry measurement tools. THIS REVIEW RUN MUST STOP IMMEDIATELY AFTER Stage 3 is sealed; no Stage 4 call is permitted.",
+    "max_output_tokens": 6000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_068ef2c1450880b5016ad97e3bdedc87d19362a44d5b9fea8c",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2X49ancTe7u1Rk1bV7LxIlBgdt9HIFKWbgMVVkvUFKbxU00M6ubU6Dt1rNC4bl_Xt-cnVNARLKx58SIYVcUfERElwCWov6Jw4cMyaN7Jl3HLvj6dUjSZs_p8D1g6003lnoRkg9Bry0NFQsvgV9QxjD78zTVijNz8MEe_nR6yFwd5ds34KhY7VZRWqP9_7UbGCOgUO7Q51MUhqkb-QnxuzHq30Q8JkqKOFGGcU3Fooz3UzsNmEwTw6nBmKcLp5hCXv7odHIXy3RNjkk5WjdMFC10hXbGWKCV9nsURmNU8ioXcyrjATAWOJRlfKHOJC7afpY03wy1njt_Iwie9r-rr2ZRSgFXyYvyHbNa6FRkJdqhwCx3r0MBLXY0HcJWTXQgbjBDwFna3HSYGJw77E3G6ChcATl7Iga8Rl2LHNVnFJGXT8vWkLSng5_jaeVtXg1Sh1G8iXd5MFsD42iTWseASk-TfBkcL4r-n6K3EtGL-7d8WqixcHS_SEV3W8gjg-ogjKn5Ray94cp0w_4aCOk1RDufMEHurlxRx2HA1uWOntqzUpooAtUfqkxZ2B2uxX8eEEdK_LLVPEcGwMKh3B0oLH0U2J4cVg1wrMM65j12Wu4v6diAMO9_lDU4ANIJEgLcaEHs5GrQV0wkO2GIfcPd1Q6BAODP8UhS6_h-qVnnXmCy-QsxG7iW36RiGTDkp1Htg57SbgF_bRMGFOWAR8iYxQpJrKcc44NzZMk5OF_ka8YPVpGdVYuJejXeL_-D9ZroPK1nQ9p8DUmXCxyuzksf3-zPVGl1eKIuQU35u1-0AU90DYndhHQsiUAv9-AqNQxZrmK2ccnDttCr7rQ10fcvN7Kn3Lug_8Q2c5YmstV4CGkYTFwSE8jSTlDaNo8NPGjSrCCkUS33Ptx2vQoISY-Amq7550jRkuCOPXZTw2nZLonRPYOjXho7e5g1UHTOWpPPQ9aF3e7ndxQvsD68CEyqp1STg24RjtJEaNYlVrcVnpw5qRN_dE5NEcrEA3ckI6UndgbxZjgiqBCLhXIdarcZ7JjdlBxTkbgdb2XhlkUn7Kyo-lYNJfzeOuBNQa070mzPxFDQw9BATAQEvp02W8jzcDitUiZ-jpiAtTKmYpxoX5_-XgOn3Opb11QdBt7kAd7yPHUZQuFLIeueBUemR1S5Xi31MxDe_4yu_QqcvGY846x9m5Is2J1NSA0PC6w0AZNeWPd8l0WggA5lyOuerhYDkSXEcedUk4fVx7NfCE_wN2Iq0DkitMABtlwNRxlypZidlNAE1q648AaXEnuNqw43SBa3cK-DtYOFMtAQG-bSQ4pB-m41tjRgOwdOcOp0CcfTR1x22TDRViELYKhZ3Edi-fF0BSnLSsm0aT_okSyzxFYqGFSqqvGbnufBzm1D0EOaTXFGceYWzKL9NJLghmpH31v3thh_-XEad9V8N_YtfYu4WGsK2ri677AryTsQ7V53Cayf5AxtI-KQgfyZoPsgrGy5nUJy1DIdxHr9OLTZ84iskiKLZrjy7s6sfxSzo9dw9N-5dedptY8z12NsNuJ7id-z-wxCYSVw74JCwZ65qe7bOG_pNjQ4KXfwztBdL411Phhv9thnVbptfjtZ1GvYGuAq5RSkpRqPy8146qPBZ_0HQ6TxxSR6Iy3ZMEyA5EocgUy4u4XdJB5enoRgpXYAGy9sLpiHyi1vqF2G0trYFEcwcL3EW6W67VVVTfoZgq7ioup8gy3R1ZXqqIjAovT56Bu0hlZUQuqcrRTrqS8j20Gr7v2rjPEkl3H0fp-jau5r8WjZfwjcTlnNp-kS5rfoOf9vewxrMU3wU7lftGUXpsojcsTA1LEFVphMF6Yh7yt6jwi6zmvk0wxiH1AZSx17XQIh85Oz6c01q68WJO7B6bstaCzez7QOb-Fhzx0YTzL9zg7x1stD-HxYS3dtMZwo2AgfTY3UGpIOJohVdrAGIs2ioGfA2qcp8zQA66XeEFg2drxtZDpu-DeAIK80FCvhHyBEDtLLKoKD31GFkXg0jtGoenfQbK9TJ94pS9ugplvfR-EZbqdmfiLOrnkKu7QOCfWLBhBPzrOQ77dX1h8qOHT6ef7t-0sBny9tfAtPtmDo1UMCnSAnj_Zpnu0QtZSnPK-PsigU3qeOniOiiuE25mFUC2Whp_Rz7NLexNdzsKRluyFqDcz15guZIthgdvpIdfcg6tVSWDkv1hRMDVnDwzGJ-IU9x_217LoFxgkeuL1z2rf3reKsVzpZWvyeTO8KdpXIQqGpcCmitiRVk3PuS8Ew1b9KJDBGdWQ8kmh0Z7RxdZRZqLhSDLfa9CgyQBcizxlqfZp01z_Mky8Ua2Gz9p_KUcXOobdC8zgBpGWd-xLZMzhU_8duZLJwk5ToaHMTfmMJSEWDqElK3fPjUmxlfpP5Ecp8LPlrS2-VyYRupuyL5clm_gfEq6fNdU_Z5hKiYJA7XPx4AM2_aUAr9Qd2k5F7dE8CUsfV6pxwAenDxraUb8JPDrULpeRXfaqXe1jgut9S62Wz4PCUYtM5YHDJCbuaaJaXQ1J9Wk6bisEvlVedpuAFWA5p2HYP4jV21wv_slAHDMN8ngzj8Sxfm0t3yDOBrNem8qKnjARzJRlZ8fTn2OeQfMKLaETB2WMwoCcN3FPWVBX2dDJVpiyQ0_aoWsfwc3A35ZhFwhcne6HnPzmePNMa1394a7CFyKL1nuR6AWkxA-FvVZgGTDOn3tKKLPdHlJqc0MymM_Avx1xPZb1k1nS_jQO7EjaKe1L4s9Ubb1Se0lZXweV6H5UANeaQKCDy5GFyR979eFLKEuW63e_j3fqam2mFnr5Jo6YwnUwMZBxCIr5TyyZNaA9y4xpIy4nUa3nI-MpKH-D4CPSA74aFiHDpXpTAzr00CWB3rQhwbI-2Yqn6CQLkvDreco8ztPmcWqEKa7XZX0ibKHfBoiIolRaAbwFCwI18-jxZRkHUr79vP8uyaxW_a6p99KM0iW_MoWVihNh41aJO5cVOVm8j5_q9YIwScbOS36Nm-pSIiYd7EX0Ua2W5_06oxbiAg4XvxEtzmjOWL-hSBy_cSDU-ThO7VHs1tpTCXnFUj8pWJz79Y5pu9EQxNcCaGv8FPfU-uQ2oHF7lA653Zp8Qvr7mmrJkUjTsqzDowRvs51DcHr9qLZK3ZkylQjDLAivYGLFk1LKP-pw9uuZ41LrlkGCwF1gCah5n_x6KWNRgyItplKpYF3M127C5Yx5koWqaxx5vSSm6vBrPzISOWQkLCAS2lzcMlyVFxg9e7NW0UW4H5l5aoyVe4drXmTfLMzLp6Kma-XpNV5o_d3zr8Vmcpi0V7O8_ckw-F4co77-A0IaqweKns9qjmvelR9yTeACNSiNqYqTy_ypqhDCFLkfLdjy5hLu9axLLVd1zIRqYO1L6QhoqN-T4B7i3ok5xbwsT9vvwxKSsWgnAwEErXlRtJOUrrtXeEdR8HNKrrVlbHjpyjlOXhOrky9Uajk4rscOB4wAGVVQtq8s0pe85iF0rcVexSIn7yr7AQ_XYC2s60tTDg04ab2yynaAZ8-TURws9y6i8kVnavzm9tVOYuPlo-Ru2KuiIBzI7pkh-B3dtP7Goqo3NKr_4I9prJkyGh8gs18DbORmhkYKzd-MqKdb8UtOCr9Tb0rwRIQe3wWMv9-NuRp6CCg1HwfemlthEwTpl-xAZXRNntMJ0h2nMGxLhlAf00EneX9xEqCQ8EL3RCjyRb7GYUHLrfBZaYk9ovz8zRVZ13jVY4vUXa59WW5xsjquBaeMLNBhWknZO_es0x7H6tch7l7cd1eBTKG7Ah4Nymm8XK0splayG3_3Gz9eDn8FDUOih_",
+        "summary": []
+      },
+      {
+        "id": "fc_068ef2c1450880b5016ad97e3d584887d18c6a4d68492d115a",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{}",
+        "call_id": "call_jlugoHRC3qyJXjQCdjv13wgJ",
+        "name": "get_scene_data_manifest"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Page through accepted 2D bbox observations; these are evidence candidates, not compliance labels.",
+        "name": "get_reviewed_observations",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "cursor": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100
+            },
+            "reviewed_class": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "representative_per_entity": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "cursor",
+            "limit",
+            "reviewed_class",
+            "representative_per_entity"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "List direct, locally derivable, and externally retrievable scene inputs.",
+        "name": "get_scene_data_manifest",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Read intrinsic and extrinsic calibration for a sensor channel.",
+        "name": "get_sensor_calibration",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "channel": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "channel"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Page through timestamped ego poses and cumulative road station.",
+        "name": "get_vehicle_trajectory",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "cursor": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50
+            }
+          },
+          "required": [
+            "cursor",
+            "limit"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "List camera and lidar channels and frame counts.",
+        "name": "list_scene_sensors",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Page through the complete time-ordered frame manifest for one sensor.",
+        "name": "list_temporal_frames",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "channel": {
+              "type": "string"
+            },
+            "cursor": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50
+            }
+          },
+          "required": [
+            "channel",
+            "cursor",
+            "limit"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Freeze data-availability decisions and begin evidence acquisition and measurement.",
+        "name": "seal_data_availability",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Record availability of every required input before visual or geometric measurement begins.",
+        "name": "submit_data_availability_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "assessments"
+          ],
+          "properties": {
+            "assessments": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "discovered_requirement_key",
+                  "condition_data_complete",
+                  "available_inputs",
+                  "missing_inputs",
+                  "data_availability",
+                  "basis_evidence_ids",
+                  "reason",
+                  "planned_tools",
+                  "planned_evidence_strategy",
+                  "planned_decision_rule"
+                ],
+                "properties": {
+                  "discovered_requirement_key": {
+                    "type": "string"
+                  },
+                  "condition_data_complete": {
+                    "type": "boolean"
+                  },
+                  "available_inputs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "missing_inputs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "data_availability": {
+                    "enum": [
+                      "acquired",
+                      "available_direct",
+                      "not_attempted",
+                      "partial",
+                      "unavailable_after_attempt"
+                    ]
+                  },
+                  "basis_evidence_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "reason": {
+                    "type": "string"
+                  },
+                  "planned_tools": {
+                    "type": "array",
+                    "items": {
+                      "enum": [
+                        "audit_channelizer_spacing",
+                        "estimate_available_width",
+                        "get_ego_pose",
+                        "get_reviewed_observations",
+                        "get_scene_data_manifest",
+                        "get_sensor_calibration",
+                        "get_sensor_sync",
+                        "get_vehicle_trajectory",
+                        "inspect_observation_images",
+                        "inspect_temporal_images",
+                        "list_scene_sensors",
+                        "list_temporal_frames",
+                        "locate_device_in_scene",
+                        "locate_road_segment",
+                        "lookup_posted_speed",
+                        "measure_buffer_length",
+                        "measure_device_spacing",
+                        "measure_downstream_taper",
+                        "measure_longitudinal_distance",
+                        "measure_sign_spacing",
+                        "measure_taper_length",
+                        "project_bbox_to_lidar",
+                        "query_road_authority_source",
+                        "record_speed_sign_reading",
+                        "resolve_speed_evidence_conflict",
+                        "search_speed_limit_signs"
+                      ]
+                    }
+                  },
+                  "planned_evidence_strategy": {
+                    "type": "string"
+                  },
+                  "planned_decision_rule": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 30214,
+      "input_tokens_details": {
+        "cache_write_tokens": 29126,
+        "cached_tokens": 1085
+      },
+      "output_tokens": 187,
+      "output_tokens_details": {
+        "reasoning_tokens": 169
+      },
+      "total_tokens": 30401
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_068ef2c1450880b5016ad97e3da62487d1910384fa42da7466",
+    "object": "response",
+    "created_at": 1792638525,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792638542,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "STAGE 3 CONTRACT — INPUT: frozen registered requirements, scene manifest/facts, and already accepted availability records. OUTPUT: exactly one assessment for each unassessed requirement, then seal_data_availability. REQUIRED INVARIANT for every row: set(available_inputs) union set(missing_inputs) must exactly equal that requirement's required_inputs and the two sets must be disjoint. Copy required_inputs before classifying them. condition_data_complete refers only to whether every applicability condition can be resolved from frozen facts and the selected TA; it does not mean that visual or measurement inputs have already been acquired. It may be true while data_availability is partial or not_attempted. available_direct means no required input is missing; partial requires both available and missing inputs; not_attempted means all required inputs remain missing but can be pursued in Stage 4. unavailable_after_attempt is forbidden in Stage 3 because evidence acquisition has not begun. The manifest's derivable_local list establishes feasibility only, not an acquired semantic input. Raw images, bbox records, lidar, trajectory, or calibration do not make an Observed..., Measured..., sign-legend, display-mode, device-condition, device-position, work-space-location, taper-location, or similar interpretation available. Keep such a required input in missing_inputs until the corresponding Stage 4 inspection or measurement tool actually returns the semantic result. A required input may be available_direct only when a non-null frozen scene fact or inventory field directly states that same value; cite that exact fact or inventory field. planned_tools must include measurement_spec.tool when data is usable; give a concrete evidence strategy and decision rule. Use get_scene_data_manifest and other inventory tools to distinguish direct, locally derivable, and absent data, but do not treat an inventory lookup as visual evidence. Never resubmit an accepted availability key. Do not call visual or geometry measurement tools. THIS REVIEW RUN MUST STOP IMMEDIATELY AFTER Stage 3 is sealed; no Stage 4 call is permitted.",
+    "max_output_tokens": 6000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_068ef2c1450880b5016ad97e3e762887d1af1264fe2c7804bd",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2X5OpurRnz9k6yU31ggadz5ZL6LEqHyn0w7d9Ptu7Gt7xNPJkxErti-VkALzUe3SB2Zb8OOdTBQ5rdlFNboxZAZba4QZUHeSD7j2Kx1gXaXjlzbHL5kioBv_Ym3BaB6WWWBuGhkDpUBFajaYzczX1edqBSZmBfdDEV0OUFKcD_xzv3AYppJ2x8oja8GhD8RGoq_pBxvat5mKS4jcB_8elvm7McAZxHEGVSiEgIDoXU3wORWwXcXH-nDZXy-n8H0M7FDtG50FmTZv3hymj-pfSyPGYh6XSA8hmh9ZMzgYlGRBSDRXe9SZYnhTLN2UBZ--q5VysWApdR9I0jyq6zwWNt7NgfmSgTBd5GRhCGo4BTnFTsnQ0_uLx2L6EYYMv5c2VBEcIsa9kQ7SSG6wa-0YDUOZV8UbXFGnv1X8GrN6nOBWLkUhSowG_vmXJUAWhra9eWc002c-5R_csrx3NVPe-5EZVrmr2spP_bp-WaFHGmF7PoIKlEd4u8gv4LgbP1xOpyxb0r10SgiI-gKekdhY2Nd38wJ8NVTYeUIE7d9ciJutwxkSGU8qhPMDxuzJoxELwZfHM6r6_C_5Mo9xCLZPMQOZDxROoDQv5pDZlO3CHYivA7S_hk99k0BN-FsbUFMsw8zZBZRL7WkZQ61UurcneSoMJ9-eP3Ds6JQ2wTtyFDJGLJT7jzou_4tU6nRrroDcE0nhN6QNC-kmTCPctduVMq4yWaI8yVGJ2eHn2E9UXWg4Zb9tb0IRgxR7NOJj0HE_Eenvoq_VhXUDqyyrJ3joCyGqVnnfoyJank6OrhTe8j4rXFpil-2njTqn6-ZPgZ7HXSVQT4xOm72FfDlKTd8jSZqQRSgz0hFJl79gsWRWTooXvbvUCHRP9D78T9rdQqlhUFg_3FdSAlZMajb4OlkhgmMlCUO8OnnTHKuLyxc_5U8qEPZ3_A0XKXK4d4gqvQEUq_jy6aSpQywGl0gYzjXNGhuI4unXwr5Qb8hjo6pKE1OYaAjX8Sp7iI2YZbtoi3-DbWwLiXWeHR89RhkRQN-TcdYWADH12S4dj7haFpTgAa9T5GggFySotzdjAKm7W4vadKlDJor2UCCMLs9MkbigTMveScZDZ10asX9-2ALNRRds89zvQr2os-D7vKspOiPT1b3py5vMPUWgDNs16-n-XXyqH1TmgQpkxGo74ARVIsqlb1r9XAxD_jteO3AD-D0JR5gq92ceD9UVMmSEeWGWpXtlk8HoE-JQZOGQzriFwC-fR7oRpaMs5daNUvsl2UbVXb7l_ALKn7k08oJWNxT8uPf_Ww4SoqNRNOJgoZa6HYAdFHMOGAMiEbMj1I0u77sC7v2vyPcHECIbOUN7ndDRSUboiJwPadw9xEmpgBanTu40pOJnjFENxflr6vCvRHnCYUNy68jFdeX1F2TNS0XtKp7jPD2avXeiCzReuXcSRgeqDdqkW3pnqPZZrItWrnMzfowa2tEI6Uhxrj12uwYUkYvuHYZ91uWMJNZuRmOU_2fCn68itHJfsMZtt1_lSnmDGuq0a0CyayJoPlW-81k0ZkRdpM_E_z9cLlygx1akMVIN28AqhpEKVk_BEdLDoMRwfWy24j4f6CJLzN_obUWvO0QGLirnbX14fJhpT4mMFdx3l9CfTBj4TAJq8YLPBnTmtYLl5rYysUQDTai5wvNafKLjiFNV0hslPdrjK-R7K-Ug3_zFRAv2Mmqxm1Z5ChX-dvw-ls11TN5A9y0C012Bo9UyKnSJvcJdxyR7Itnj08b19of3Ik-11IpNu5AeU18BeeB2pNZffqmFypycsDahsQ-eg9SXm3LGKRasmKtcaIYIluoTtIY5vZ9QOn8nzilp1f6BHwBFlJ3yXKfDJ4vrHluSvtpntSo7UjwQhdmPdCrB2P4n5TPvokpXwSgkgvp4CwBLc2fDBPLFMBfT4I8w8tHfPFB8Em6QcTdLitPPnultmNganvcyS0Ez4Hkm-KoulYEuI41eKJvu23HtiX1IBTxhBG6-gk5T7iuYof3LQpldsTpj49wVVxtzuuihJ3BZX6Q0gZevffbMc2FObrjdm1ySYex9yUUptNu1kbqyFpXZAy6uLHytWlQ7soMBvn-NTVNyX7QU8dZtPm80Zsqefh06gkOXtw7ku22j2-y3JuZ4S_CKldIXwz_NwkpqefEgqM4MqzxFRlhFqwzXXfSmG3U4ctNEaBtr8b7HQDOayZ2GinwF6j1cd82NgFz6Xi7UjJs8M2i4hfmrZ2km8t-IRMFTXEOMjPpViiakPOAUXd4y5R3a_i5DX4N68SOr6ZY6y-YWc9xn0MK-beOfHaRkKjByWbVJWHtjQK6EyFajqRSF6ygO05OP3lbUV5d_RKrOKQzwTgWvH0ap3ep3PUbf5MkERgmGSuwbSmY0Ym-WYnCaUvm3CVWbwLAowo9PN9xf6apOU0eCUXUmCKbdWfJCG-Gf-NPYcpnh8tsEiFrLQAksHYliBddTftVbBkU4jbLyvLlxvbHiGF4aPp3QN0I1wMLWYTyGE6GnifVkDY8BGSmIRSDi00UuLPesccmgb6d1UPE2XL2xk27OpP7KBxd-wc0gQ8nCbXUhp45BfDZq08GmA7fl-2Gj7NS85XBb9qLjouJjdGmQQf69oNtj268z-42LBYXGKVqmnSYdXQdUhFk2rVEDPPqowKTqxcE0VUDPQeukHZQMyQ4rxxAdK0D_4PSfzGk_kXsNKydG_B_zky_3KFgu_wbONU5GBpQPmK-aEFbJGNZmHW4renALjAZNZQiKu5nKpT9mZedvSNWGb4s65LZh8ANy5ueXfWVv04NnnHgjeTXttX88WxQS_PU-NaOo69KprkchirgAGqD36C9AdQq6vk6kTMiphKJSpMzQthr0h9Aq3Fgffh5Z7ya7FmfhU0wdeUIjNMmY38c6ZuDoXpGtNlt5EPz14HQQNOiIQKIVjGzof2s2BPpYmS7zaEIdxWgoAemUFD8Z_kCuNrMAJBep3B2E5ILXTDmlhCejT1w4mVxr2S-9Nd9FftDtri6VzS4VBNZnOJ_P6mU2udA9LCwoFCi7B9qASNbyLl0QjT8PNuKVORWJIN__lBcRz7UXwKoXSv-m7kX-Gko9P06MmiQATXlT1KNm_Gkqnzu0PfsTkk46Xoq6tU4fbxOPnXUObvGYZp7_BYQOZIsWLZQFoFGFDbpsDwX62O5Bh3wBlWthK41nmukaZ8YtCf1_RUdfLAgd4zNYkKHFYuVsKApA-pKxPUH9h4xK4rE5iWZBr7rMpO7kcjC9fx2LMH1m-wKy31wlEhVuhIUHreOG-8Sd7wivzM4DK6waxxm3xnG2sFd666hIMyjAZghkQWZpn4k0_mu6C340iZ-161-UQqw3nLTF2ICE_Tu7C4_Prx8GogrBGMZLtbvk1RapYiXTgC32TFXI9mS2FkVt5YSYNeToFFzFRUZtWnPwazFmOnwRJxQkS6LsaQk_GS8QL74j1Tr8lfR3u9RBg213hIHaSCbZgijAi_JsnAsSXIX54l8zw3-cdDLhADmOhIJU1Cwkkur33wQAFJCv7xIiKuDkILcCwNg3nC5GWUKJ4JqgjsqMX9lQI_l128eDB1YgO_x9AyaqhF26tfXpEn8dfsLlMxkveFluwA4pwgVNvuCCUC0cKbUCKZKOGqv3fozI-S6cK0Moo78jRA-D7s8d_sm8I3LrySRu4i5iYvbse27DnneJwAfSrsCbivigX9iB3sfYXaNu_jMqT3EBEWJWdHH6llrxdnrtGS2Zv67aUzcuSQMUeDijCZb1qAg4qJUPipbHDLmFLIisHqHdeNLEaOxHK2gqTMft-IcfxJ8Ek1nhFc8crsX6elPJEjlzp6WQN2qKZVDYCMNnOEfRF7tjG_VD3bMKAkhP-JkddlhCqPfUTEfkyDgxtwd8n4P4Z4hlRHkp7v0QDqURTulq2ml266h5b4baYA4f_anv-4CPzYPZTGKJ0NVkPfeN8JGnyqzu0wScqVJUH6ToLWe29o3l77KivlxnVjHlgEGv3JKFRFijsg17wN0Olg7xNPqQpS2QqiqmjrWfEe_fmVbN83wm-FfxumLa2Fe3_M3JFSYEbR0cE9KK4NEpIiOgBquGiczHDCZRf7iXmwyDhKmN-c7HVuJO6n1LOIMIUQa-DH8XZ8M3JtfifhYQkHXnW_REY1qfMWogNxq74oXmt7cpk1wysCVjn1QrlWuKFyHwLbazfXMOu_FSUdho54LlyzDE_93hkXDnMJj5md2nRvyqj-FQBkKdymYQIeMjRBKTNOlqRqfRvXBuE64MSXDjVxY0xbWQyQr1lxShjrUX_vrEjHVFRbXxkBhy1ent1WsHpqPPtD_Lr7zY8NYeu2msfBIUwIuV_Km6eXbOyUbyaCxDHAPSt5j_OUhpt50qztKBMpTUYnaQSXBLRv5Uf4edHJ0wmkiOxMypWMu4mVvyiWzTslHXGB8xhCQmTtilQ8NjO2I3-fuXEszY4yV9trgCMvndkJcPAhHl64MMxcbhEath1VngXEnbEQUZ-KL3sWf1ej4GOl9zVaFqwwZE3jAX6647bO_STDFfQda1PjAnOFSMbM808MuXTxpIBS9jF6TTOjjFr1c9begD1Ret0I32B_-JQQ8tViZ8ODpBnwOsgKaKkmrjoyZe_jLJ1hxGI0lWncJAEhg4GbFd8xst4WaPCq8aWtlvJ30IpmVXVi18ELAS0a_L8t858W6CMhTyn9RIWt5wJJb5r1A6gSVPXzLB-LdO75oTwk2vqwRey6zx80Od2nYeaRZKamsMdmy_KsiqHamybVu5Hzd9oKhXYwUbXGgHXelkSlOq_9YhsRfj4lf8G6l2UU9c9r9J3y4CCpCMVExMwZL1-FGL2xmIEe0RcW_bUY39KlNsupOe2VULxYmSmnVgu8CnAm7Zoi7NufbLQp2SPzFqlztlonrJKoYHqdPWP6tJ3od--8ochYzs-nY9hPppGt564ZsT2vZQaIGR8XHGKXBxfcF34KQfYMT77Xuj8coDNlia8EEfQRTw-wJ3Qyxv652DVRIzV4jNZ8TDNAXJb3zrLPv7SWDjjd44IKhwhSF1k7y3YcHkZVFtzO_xst6CrZX_CDhL7z203p5Mlej2vagsceRnqBnztA2x0-1M8A15cAgmc5rQlQBXKQ8XT3-MuZWcte_-Bf6TTNKU6Rf-C2Wwd0vY8yCeUCVXQRO7w4i3RBh5JRB-b4FMPNXZorj4Euf3E38enjnEvyLgtvY_bw9U8juyqSF6rVZRm-DYvCWYkX1hRUIylZs6b2A_XRKclUh5qGk0YeZLDwha79CEQvu_JZLWeR_wUbJsGx1HDv7YSyumUSwWAjsrqnrso3atVhAQOLyUZmeKjuHKGuAu91yDhFfxKk-4nlUxreN_v_P36EpLHTyMjOoLy92Vd33MdpUYRjJ3877uKt-S6N0emdgWOjCtsxNQ6_dsQMD7j_jB5OLyi0RBfTlBkR3-iEE0fJC_BOD80ppedhWdI5nGxSzHWTnOpWjDRNTdivnPVCV_DRWR9eVFh5zp6TZEhSp01Bi3MJdIbKHYSHLCB1n33xs-Y-B84xX-cu98qNCZ4Pm32epfVkuIeaxaSgt1xnV1jAEUs6U6AHQNqXaraN4iTh644yAw9zrrOmTPVHuctsaX5LH-LC8hFym61HAij33E9QBgzCUcezYtJ3hbMtMCwdWTClh5LG36Q-dzRQtnGZTnbhdikENmDSwZPwWur4MO6uJOmoUKTohVWkpVApYNLlfiY7CD-asTcA5a-Rr7CZ61y7JHGTcibm7ZJa3WO1WZML147h70ro3FGxWGbCrsPIYAYD5a8LJh9CTTGXjM4nVU36SfuOOFQTkOwS7YL_YnEysMJoaj6x9bY2zPgQ1popeMNbD2swP4ERmVudw7JBB9CuARpCAzDePkzUOv4oVyOhIYJn3DVTWXV-F6Qk-5zGZMR9PCDxXArA1NiDux1qXmiPqTF4wJl8KnkSPcXxvudgV7i5wWY4rEAhymCMNyihzwYewAx-kZ3zCH0wDI9mmEGDXNIooVD7e8-Ww4Kwl4zgNPYnmwm7XZsBrnCmSb-AdSxlap0Y14B7wwDCCA7LdsIUXJedlYxVNG1Jv8hy8tiTZV0vvzFaEz0vXRAdikB2WqTy79hIgns-EP-p-TRt-WZuJ0AvDATqUZzTQKceB7rpnGuViLZU1BtCmNQrpbp9wPzrZUJFHXb3j7-sXL0qzgoJFHe6GVae7-XkyWJj9lk8dVwmnd1m-CrueUvc4CRWCFMHx7KIh5hhoMNdkPcrm8bj_YC8hTAnlxN3Z8rW2RQZQTlHQ_WDvk2czo0YeBEN8MuhMLSvTblGMSMI1QNjfHXAQKCnoyznxr97u1vQPVjhYo3nAa-T65GPyvNFn6P33hB7AixuLMNTnHcs9_CpMyY6Lad1XHOxPm9D8kagAOxdhcTQI9tISktfeYNgVXHMuwGZYkSHxUbB4AuSXlKuocnFGfdbcTILQVTYFLO-lDM0Fyz07fpTbhJCGSDXdBbnecv3gXO2vEJEuVDOKq5RUDfiRpscoUoi5ULvuhSe96cjcOAMp_668OITrExU87zN6u4lvDQmgkcmPA6uqTIQqynJ4AGStetALAElv5BZXLvAPYeHKYHpd2PI2pxaFCIW6_UA1Tbgo_9CqDQPtDSSQTwsb_r87UYSiREzrKfvG00o-8oxB4QzKRP-AMkjA_5Xlw3HG9yOZJfR92j1PqWCg-hZ2DCxDQNSz45mZ5potFa7reaf3FM73hwKrIkdsrn22hc44A1bfOJJ1QAJcmQdc1iGgFGGhxV0oVTBS8O-BpppW3lLHtjO1MdMyUpl3QDrd3tN5Xh9h-CJfhrxgmroXAwhybrKHgppVaPvIEY_rBa8w-5gJGtDzh5pV2RUC4f1cQbZ6GULMGr_5omQ52rBwXRlJWtxCMCoLGNIw0GlKLN3Y692-Wlg0X3LZrVaU-hHW3f7_W506ccc9b3KVRsaBFyHgnT4_ALs8WezbDL2zTaN8SIZRR4FokmSJHeCZD5b3FPy1sUZaxVO3KLAjhj5tFGXQOgsmuKFQkQrrCOzJ0ERMmAF9YZyekd4VKDaMfmWtthTvv0OqKT9ndBvyBE9H_74CxgrHAoyXCL-uD67xpUIXywn3TTQLkCTPXdjELj1SuJjOFrTAiAOw5rq-gy3ZYgPbHJJdABsmDLa2RSGQJuWoYYHfOydKkWQn8jxrvkuLJ0gv50cmkoX4owjpqxlb5sfT2czwaMhQCANXGyeOHt2blr3L2_26yV4_S1zQ7dFwdBapymHEi6b2SscmqmhDm7c7kplg8luRLc83q6vsKbZHBMlHKpVF53mXJ2vRm7KIPaWYs_ZQBfc53lDJ9G7u00XgCXYFKx4HzR3mNg2uSQvnN-UcVPM0g8JCM65j1as3hZb-ixDY0gKYtlUMdFy4E_bOkCVJh1OmyWAdtoA9VcIrVUN8gzqKwdwSBPUsoaC6PzmerxDXr5AR4B4q6tM7uXISbpCwZOHoPY8tbStf4sAt8uJluOYIbNQvQqN97PLVItgH5JZKC",
+        "summary": []
+      },
+      {
+        "id": "fc_068ef2c1450880b5016ad97e42842c87d1898985cbfe1becbc",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"assessments\":[{\"discovered_requirement_key\":\"req_ad7a729596b46383\",\"condition_data_complete\":false,\"available_inputs\":[\"Roadway category and posted speed\"],\"missing_inputs\":[\"Measured longitudinal distances between successive advance warning signs\"],\"data_availability\":\"partial\",\"basis_evidence_ids\":[\"scene_facts.visual_scene_description.facts[0]\",\"scene_facts.visual_scene_description.facts[7]\",\"scene_facts.posted_speed_mph\"],\"reason\":\"The frozen facts directly establish an urban roadway and 20 mph posted speed, but do not resolve whether the repeated ROAD WORK AHEAD observations are two or more independent advance-warning signs; measured successive-sign distances are not yet acquired.\",\"planned_tools\":[\"measure_sign_spacing\",\"inspect_temporal_images\"],\"planned_evidence_strategy\":\"Inspect temporally separated sign candidates to establish independent signs and project or measure their longitudinal positions along the ego trajectory, then calculate every successive spacing.\",\"planned_decision_rule\":\"If a qualifying series is confirmed, pass only when every successive spacing is at least 100 ft; otherwise report not applicable or insufficient evidence.\"},{\"discovered_requirement_key\":\"req_62474d3d964c6426\",\"condition_data_complete\":true,\"available_inputs\":[\"Posted speed limit\"],\"missing_inputs\":[\"Measured spacing between successive tangent channelizing devices\"],\"data_availability\":\"partial\",\"basis_evidence_ids\":[\"scene_facts.posted_speed_mph\",\"scene_facts.visual_scene_description.facts[5]\",\"scene_facts.visual_scene_description.facts[6]\"],\"reason\":\"The frozen facts establish channelizers in a longitudinal section and the posted speed is directly confirmed as 20 mph; tangent-device spacing has not been measured.\",\"planned_tools\":[\"audit_channelizer_spacing\"],\"planned_evidence_strategy\":\"Use accepted cone observations with temporal imagery and trajectory/calibration as needed to identify successive independent devices in the tangent section and audit their longitudinal spacing.\",\"planned_decision_rule\":\"At 20 mph, pass only if no tangent spacing exceeds 40 ft; otherwise fail for each exceedance, with unresolved identity or geometry reported as insufficient.\"},{\"discovered_requirement_key\":\"req_4b36f1dbdb9f7c39\",\"condition_data_complete\":true,\"available_inputs\":[],\"missing_inputs\":[\"Visual inspection of deployed channelizing devices for serviceability\"],\"data_availability\":\"not_attempted\",\"basis_evidence_ids\":[\"scene_facts.visual_scene_description.facts[4]\",\"scene_facts.opposing_direction_lane_fully_closed\"],\"reason\":\"Deployment in the inspected TTC zone is directly established, but serviceability is a visual semantic inspection input not yet acquired.\",\"planned_tools\":[\"inspect_temporal_images\"],\"planned_evidence_strategy\":\"Inspect close, well-lit temporal views of the deployed cones, drums, and delineators for damage, displacement, contamination, and visibility.\",\"planned_decision_rule\":\"Pass only if all inspected deployed channelizing devices are serviceable; any non-serviceable device is a failure, and obscured devices remain insufficient.\"},{\"discovered_requirement_key\":\"req_aa7f07b1d07ed2cb\",\"condition_data_complete\":true,\"available_inputs\":[],\"missing_inputs\":[\"raw_images\"],\"data_availability\":\"not_attempted\",\"basis_evidence_ids\":[],\"reason\":\"The requirement is unconditional, but raw images are not a frozen direct input; image inventory alone does not supply the required inspection result.\",\"planned_tools\":[\"inspect_temporal_images\"],\"planned_evidence_strategy\":\"Inspect representative temporal images of each deployed channelizer type for size, color, stripe pattern, retroreflection, and placement characteristics.\",\"planned_decision_rule\":\"Pass only for characteristics supported by visible evidence across applicable device types; obscured or unresolvable characteristics are insufficient.\"},{\"discovered_requirement_key\":\"req_47aa373310aaf156\",\"condition_data_complete\":true,\"available_inputs\":[],\"missing_inputs\":[\"raw_images\"],\"data_availability\":\"not_attempted\",\"basis_evidence_ids\":[],\"reason\":\"The requirement is unconditional and requires image inspection; the image inventory is not itself the semantic raw-image input.\",\"planned_tools\":[\"measure_longitudinal_distance\",\"inspect_temporal_images\"],\"planned_evidence_strategy\":\"Inspect each visible ROAD WORK sign and the work-space or detour limit, then measure longitudinal ordering and separation along the roadway.\",\"planned_decision_rule\":\"Pass only when the ROAD WORK sign is demonstrated to be upstream of the work space or any detour on the work road; unresolved work-space location is insufficient.\"},{\"discovered_requirement_key\":\"req_8934040d233c7213\",\"condition_data_complete\":true,\"available_inputs\":[],\"missing_inputs\":[\"raw_images\"],\"data_availability\":\"not_attempted\",\"basis_evidence_ids\":[],\"reason\":\"The requirement is unconditional; frozen scene facts indicate a redirection context, but the required raw-image inspection input has not been acquired for this requirement.\",\"planned_tools\":[\"inspect_temporal_images\"],\"planned_evidence_strategy\":\"Inspect the approach and transition to verify that the normal path is redirected to the open path using appropriate channelizing devices or other TTC methods, excluding mobile operations.\",\"planned_decision_rule\":\"Pass only if the complete observed redirection is visibly supported by appropriate devices or methods; otherwise report failure or insufficient evidence as visibility permits.\"},{\"discovered_requirement_key\":\"req_2aaae0362bf83021\",\"condition_data_complete\":true,\"available_inputs\":[\"accepted_bbox_observations\"],\"missing_inputs\":[\"raw_images\",\"ego_trajectory\",\"lidar_points\"],\"data_availability\":\"partial\",\"basis_evidence_ids\":[\"manifest.accepted_bbox_observations\",\"manifest.accepted_bbox_observations_by_class\",\"scene_facts.visual_scene_description.facts[4]\"],\"reason\":\"Accepted bbox observations are directly available from the frozen inventory, while raw images, trajectory, and lidar are only derivable and have not been acquired as the required inspection or measurement inputs.\",\"planned_tools\":[\"inspect_temporal_images\"],\"planned_evidence_strategy\":\"Inspect images for drum identity and markings, and use trajectory/lidar projection if needed to resolve dimensions, material, stripe count/width, top closure, and device orientation.\",\"planned_decision_rule\":\"Pass only when every applicable drum characteristic is supported; a confirmed noncompliant characteristic fails, while unresolved characteristics remain insufficient.\"},{\"discovered_requirement_key\":\"req_403dd72cd3369844\",\"condition_data_complete\":true,\"available_inputs\":[\"Confirmed opposing-traffic routing\",\"Selected TA layout\"],\"missing_inputs\":[\"Observed lane-closure routing and channelizer layout\"],\"data_availability\":\"partial\",\"basis_evidence_ids\":[\"scene_facts.opposing_traffic_detour_confirmed\",\"selected_layouts[0]\",\"scene_facts.opposing_direction_lane_fully_closed\",\"scene_facts.alternating_one_way_operation\"],\"reason\":\"The frozen user confirmation and selected TA-19 directly establish opposing-traffic routing and the applicable layout, but the required observed routing/layout interpretation must be verified as an acquired observation rather than inferred from inventory alone.\",\"planned_tools\":[\"inspect_temporal_images\"],\"planned_evidence_strategy\":\"Inspect the channelized closure and open ego-direction path across temporal frames, and compare the observed directional routing with TA-19.\",\"planned_decision_rule\":\"Pass only if the closed direction is prohibited and routed off-site, the other direction remains available, and the observed channelization conforms to the selected TA-19 arrangement.\"},{\"discovered_requirement_key\":\"req_38a0c44a191a7475\",\"condition_data_complete\":true,\"available_inputs\":[],\"missing_inputs\":[\"raw_images\"],\"data_availability\":\"not_attempted\",\"basis_evidence_ids\":[],\"reason\":\"The requirement is unconditional; raw image inspection is required to assess warning-sign shape, legend/border, and background.\",\"planned_tools\":[\"inspect_temporal_images\"],\"planned_evidence_strategy\":\"Inspect all visible TTC warning signs in representative temporal images for diamond shape and prescribed colors, treating the grade-crossing exception separately if encountered.\",\"planned_decision_rule\":\"Pass only when each applicable TTC warning sign meets the specified shape and color requirements; obscured signs are insufficient.\"},{\"discovered_requirement_key\":\"req_9684dd549b406cb8\",\"condition_data_complete\":true,\"available_inputs\":[],\"missing_inputs\":[\"raw_images\"],\"data_availability\":\"not_attempted\",\"basis_evidence_ids\":[],\"reason\":\"The requirement is unconditional and requires visual maintenance assessment; raw images are not a frozen direct semantic input.\",\"planned_tools\":[\"inspect_temporal_images\"],\"planned_evidence_strategy\":\"Inspect representative close temporal views for cleanliness, visibility, and proper positioning of each deployed channelizing device.\",\"planned_decision_rule\":\"Pass only when the inspected devices are clean, visible, and properly positioned; any supported defect fails, and obscured devices remain insufficient.\"},{\"discovered_requirement_key\":\"req_cb1dccef74232ff1\",\"condition_data_complete\":true,\"available_inputs\":[],\"missing_inputs\":[\"raw_images\"],\"data_availability\":\"not_attempted\",\"basis_evidence_ids\":[],\"reason\":\"The requirement is unconditional; the frozen observations do not directly establish the encounter order of independent signs well enough for this semantic input.\",\"planned_tools\":[\"inspect_temporal_images\"],\"planned_evidence_strategy\":\"Review the approach chronologically and identify the first independent advance-warning sign encountered before the transition/activity area, then classify its legend.\",\"planned_decision_rule\":\"Pass only if ROAD WORK AHEAD is the first advance-warning sign in a confirmed multi-sign approach; otherwise report noncompliance or insufficient evidence.\"}]}",
+        "call_id": "call_7qU6GujH6M9CqV72kPYJusWm",
+        "name": "submit_data_availability_batch"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Page through accepted 2D bbox observations; these are evidence candidates, not compliance labels.",
+        "name": "get_reviewed_observations",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "cursor": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100
+            },
+            "reviewed_class": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "representative_per_entity": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "cursor",
+            "limit",
+            "reviewed_class",
+            "representative_per_entity"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "List direct, locally derivable, and externally retrievable scene inputs.",
+        "name": "get_scene_data_manifest",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Read intrinsic and extrinsic calibration for a sensor channel.",
+        "name": "get_sensor_calibration",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "channel": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "channel"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Page through timestamped ego poses and cumulative road station.",
+        "name": "get_vehicle_trajectory",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "cursor": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50
+            }
+          },
+          "required": [
+            "cursor",
+            "limit"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "List camera and lidar channels and frame counts.",
+        "name": "list_scene_sensors",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Page through the complete time-ordered frame manifest for one sensor.",
+        "name": "list_temporal_frames",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "channel": {
+              "type": "string"
+            },
+            "cursor": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50
+            }
+          },
+          "required": [
+            "channel",
+            "cursor",
+            "limit"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Freeze data-availability decisions and begin evidence acquisition and measurement.",
+        "name": "seal_data_availability",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Record availability of every required input before visual or geometric measurement begins.",
+        "name": "submit_data_availability_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "assessments"
+          ],
+          "properties": {
+            "assessments": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "discovered_requirement_key",
+                  "condition_data_complete",
+                  "available_inputs",
+                  "missing_inputs",
+                  "data_availability",
+                  "basis_evidence_ids",
+                  "reason",
+                  "planned_tools",
+                  "planned_evidence_strategy",
+                  "planned_decision_rule"
+                ],
+                "properties": {
+                  "discovered_requirement_key": {
+                    "type": "string"
+                  },
+                  "condition_data_complete": {
+                    "type": "boolean"
+                  },
+                  "available_inputs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "missing_inputs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "data_availability": {
+                    "enum": [
+                      "acquired",
+                      "available_direct",
+                      "not_attempted",
+                      "partial",
+                      "unavailable_after_attempt"
+                    ]
+                  },
+                  "basis_evidence_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "reason": {
+                    "type": "string"
+                  },
+                  "planned_tools": {
+                    "type": "array",
+                    "items": {
+                      "enum": [
+                        "audit_channelizer_spacing",
+                        "estimate_available_width",
+                        "get_ego_pose",
+                        "get_reviewed_observations",
+                        "get_scene_data_manifest",
+                        "get_sensor_calibration",
+                        "get_sensor_sync",
+                        "get_vehicle_trajectory",
+                        "inspect_observation_images",
+                        "inspect_temporal_images",
+                        "list_scene_sensors",
+                        "list_temporal_frames",
+                        "locate_device_in_scene",
+                        "locate_road_segment",
+                        "lookup_posted_speed",
+                        "measure_buffer_length",
+                        "measure_device_spacing",
+                        "measure_downstream_taper",
+                        "measure_longitudinal_distance",
+                        "measure_sign_spacing",
+                        "measure_taper_length",
+                        "project_bbox_to_lidar",
+                        "query_road_authority_source",
+                        "record_speed_sign_reading",
+                        "resolve_speed_evidence_conflict",
+                        "search_speed_limit_signs"
+                      ]
+                    }
+                  },
+                  "planned_evidence_strategy": {
+                    "type": "string"
+                  },
+                  "planned_decision_rule": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 28190,
+      "input_tokens_details": {
+        "cache_write_tokens": 27102,
+        "cached_tokens": 1085
+      },
+      "output_tokens": 2366,
+      "output_tokens_details": {
+        "reasoning_tokens": 433
+      },
+      "total_tokens": 30556
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_068ef2c1450880b5016ad97e4f25a087d19ba7abb784839f16",
+    "object": "response",
+    "created_at": 1792638543,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792638555,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "STAGE 3 CONTRACT — INPUT: frozen registered requirements, scene manifest/facts, and already accepted availability records. OUTPUT: exactly one assessment for each unassessed requirement, then seal_data_availability. REQUIRED INVARIANT for every row: set(available_inputs) union set(missing_inputs) must exactly equal that requirement's required_inputs and the two sets must be disjoint. Copy required_inputs before classifying them. condition_data_complete refers only to whether every applicability condition can be resolved from frozen facts and the selected TA; it does not mean that visual or measurement inputs have already been acquired. It may be true while data_availability is partial or not_attempted. available_direct means no required input is missing; partial requires both available and missing inputs; not_attempted means all required inputs remain missing but can be pursued in Stage 4. unavailable_after_attempt is forbidden in Stage 3 because evidence acquisition has not begun. The manifest's derivable_local list establishes feasibility only, not an acquired semantic input. Raw images, bbox records, lidar, trajectory, or calibration do not make an Observed..., Measured..., sign-legend, display-mode, device-condition, device-position, work-space-location, taper-location, or similar interpretation available. Keep such a required input in missing_inputs until the corresponding Stage 4 inspection or measurement tool actually returns the semantic result. A required input may be available_direct only when a non-null frozen scene fact or inventory field directly states that same value; cite that exact fact or inventory field. planned_tools must include measurement_spec.tool when data is usable; give a concrete evidence strategy and decision rule. Use get_scene_data_manifest and other inventory tools to distinguish direct, locally derivable, and absent data, but do not treat an inventory lookup as visual evidence. Never resubmit an accepted availability key. Do not call visual or geometry measurement tools. THIS REVIEW RUN MUST STOP IMMEDIATELY AFTER Stage 3 is sealed; no Stage 4 call is permitted.",
+    "max_output_tokens": 6000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_068ef2c1450880b5016ad97e4fce0887d1965299563d310895",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2X5bh0DMuQega3q-lr0gyHwcbSk7ISBXrZzhnF80mJAq1c2I2Z0wpGXRpYOCFRE2F-OCfZaF5vTD6uNQBy9fiA8ws6NGxMNuWNl_zqpMh2BvLE3YgOdcYh-Zjz53HP_zB1yeaDgl0S9H3LWgn9RY67atFc3yiXE8sLCzGnrasw0jAl0itlPGExZYPqBuLLiEGrqYQBf7Li3Kg4HL8rK3lQhfgF4HtgsCikZ_vfOTgy8hChJEGg6X8ghYQph7eDWTrOMhmigGY_EI05-OzYRMRLISvWd6QqSkZXgxmJc_q65IAi9-ktsGpTL_A0l3hgNzKD6s4eXr6ak5BvmX2HUGyDorAMmRJ59vWcjnJG5rkJ8LXEA8ZT77tZZ5iNAdIt3fA6E7RC0UenTCU5nU7_SThm2_ROYTlwYJx9VXnExlnm0sdXER5F8y8G7g_uHKpDZe-7orDuN3lml9W-vKgt7tmChAH4Fabr1fmxmcdlVOgyekaf85zr63k89Z--6yUbVsP8t7Rlqctiehs8jFykjGV0xE5CKzRzs9q8xsFpsNGtDuMKEJAAMx4iSZH3EqPp4BiHlaC3KO3rxEdUgQl9pcNV4yzV_ryDif1VRj7-4AXpZCjix71eF9-gW5ImK3u__OYhokENOO-jgT8lJRzJUbpAllftGAh8DRFnbq0614RcbU5zXEb-wlX4MR5oPGldkYA0tPBf9Lib_2JYel5fr-b4OZhmONnYtssE3IcLG8bo5IwWasiCWonFTTHCMGIzEVkTvPHZ7HsjQQQwMp2CwTYATLThin92PP2dy5ZbYCmlO_tiTxU-iRyg7d0fuGxW-7XzQHJOzkxnZ7GKFba52W-C7A7kI-SEJMfJcE7NFMMzCn4a6vVItdYXFn3DzxZiFuiVINGQPwNHgneMt__hXiSPkd2O0Z3J9MxO2jBG7pq4ibXjMfvVEeeLvkCOqorfutRc3TFh5FN4Z6Sh9GInhm5WYCi1K5ayjUVQAgW8lFdo0uTpf-SWp6Z-i4XOKQN9DmWXMpSimkfnazBtvit67lGh_HgH2pL70hSX8oGjMGJMZJt459FhonoXSlAScilyCKx7pAMVYAe4HN7uMWU32dNuKqe5cQjcrH8xFHIFE5jApvUASrno9ElMPQ1sUG8pUURg-j6JTQSxVgm1-BqV96MWmPwF88YCr0HSqWEuncD-Y0aivAD6KDn8hYKxmJGCDSk_2Xbla3DyaCyRyozxw8PQVZVwx4QldrPy6zO-W1VNNCgc_CsvIPOQD15cZbB6ZsIXkcbS569sUwkU5Hb6nUKOpGw9Ytkma8YBunP573HeNOwC4PXN63vrHDQI8uC2ZCeLaCqdnldhOdttUWLS7RW8MvtKcjeymOr6nNIH3BCT92CIFBU7-GyWwfQaRNVBLu0xXiGBoJuEA6YD0M7o0g8Dpju1_D7p4M92lIQcPhAlNqO5UdxL5TDtcbY-Eh-912-TU0tt8LN7hzmiMgIBrQzFXwGUipky8ZMvKENcyVg2wJWINtY2Ax0CdwuXssCPUOY432qnAig230qYh1LFNI7-5TY10iRuOiY4iG021ds7weXoRGjNd1WhCBUsbs_k8_UiNZuXTRqKsBkGtACDnvF8KXrkQI7pOzA9E9RktcyVCfESoIAniDWK91_AakkskK21BFWZE4FyqsJOZb913_0ca2f69T4tooy0wF__CRclksG3d7MZLz31Mti7HcO6Noo6mQ1ssFVZ32JBm80iBIH8Gctvx3zqo8QDICNec-rdYu91o2_msnOtiaYW1I4KqGQgi7NAiSoZE-SlwGRHC7u2Tm8CiViZlLYp8iaM8YvMsWg9OljAL_nBjm0htIuWqtrk7Pn1OixNKg6y5xvO_ynPzhldfngCMzzM7nAVsvf14Muz_-so_Mrv69Y6wSEUr158WaLIk026BrHnBxvJO3AUj36krE6cQTsgO2zsJVu-kmeFO4RcRmKTVn0baIhslUIci9PeHsZnKFGBlaNfX45KexcWIbS_8jilb9EGi3ufmzMA4z5q_c89cr482a6CO35j2-JajSTVnEXJiOW0shJnDJOXD1L8ueMmP0NQEVlqGiAhGtCRI_2KRPycDTFd30ejAg_VVpIM9TmGCnhzipZq8wjyRVT_2cDI_21DT0ez9CFvSwKEYQT-IDtusakmY1sDAr2Q5yT4od6VItbssaTGjpz6i6npNpQxOwPh5fqBMd8y_zqJ0b_H8zR-kSm75Zl0jE4nk1DrR6dxZM_Qh8uHuNTJyxWvXwuSi08gOMhQZ-KZRfArHTM5SNizRIL1rt2qBmS_ryVQyFe5j6-CiDROds1Ge7C8RjVlTyUpMrhWa6arOiBFf1VMj5Yi7atmefZcpXFb6didXR8-ozoSGGHW2vGpbYMnEa7wsRbmAv2ZrpLHjQqqD0Oh2eAo4Vngz6eI3weIQ5dIYM8P5nS3ctJnjaJHoHMWMBbefMFp8zp4-A29qRmGsjIEWbOHY8a2wspg19axPAd9-NeddtrTNQgNCDw5PAK1uwkun78T5w60GknQ8J_h8u-F4eDFBCfNTZy67KAajAu78nqJd0SJK-Q3VZf4IE2fJiwwXvfs97-1al9v0OCLTad9vJGHWRxzc7wH7bEzjIAtV8mZDCvQW0jh6mKQEX78Aj6n1ZawXGzDPf7LcdCO72e2dfR9zb1UfeX7rLOh9DsKjw5WhTbclvtVQhQltPjvznxmqbc3fe84Sbf8wdpF4h6RQzHhsRrn0ZNN2Xglj2lfoQQw6Ysj3DIlSnUTDO_fNDOt6flNg3CQmOr4vM6fHhnp5MI6lPQdpJRvKUF7PSVReqyjlL45E-xngoRHOpfQbqHwDmTwwaFfWiyDzhxBMaqHoLU-PB2c5wtyTLCQsZij_9LxfD5rDcFwaQvadrY97j56YTvLDmOeOH1lySg_xa0y065BV9qGRdSiDhpO5DZZEM-Sq_t1Y0Ab-QTs-TFRsDd41jwCdu_ojsF-Vpqyvrqi4WXGSYJx6STzm1CpZ_uYnxcaeI0sgMMIYE78WQzDSjwi88nSoz535uCxPPBG1nHy9-5GhU86MSfiZ4SlRk_oa0SEagS9UjKzsInh7cccUHGLdXa87WSIXY6EFfA9vm8phYeEal0gYcIp9zOO9SrVgMVqSycwrDZgkZuCtxTs3s28JZs81kiJuFcPTHUH8X1X_VtwMz8qpXG-0MAfmhelH3oqgaB5lIPO7asf7m0OJiuCLaxu2OK4r0hDoi38Tp5LQT8cN7FETfuqG6QuQGX4GBe8twzwJIiRjn6gN5IC45YaxBquelmeY-GKxH3qE7zQqQd_aOx4W_kJGtzvFbGfLtpkCkV-WiTX6wsNI0vtRX7FvaAB5VxGCT_3nkUQrxkR-NGjGwYxlVO-4CgxrSS-UA9O5ZNea35cCWXeyzwlWwH0QYC822BRnbHoQz9m0fUeT9hOcsJZTfvzVls2ABHEnxxfw7wLzclkj2D6EJnNv69osmGqrJTNBV5yH5BuNI7Be5v2cKiHLUrOA9PcoiOiptdMXtfB06wpsTMQlgU_TToNNzAwlFdDQh_EyhOh4ylzBs9wHtf6XIdx9UnjvWlKkNqWw7tCEY9uglpi7MiBojlydn3SqVy1BnruT1idGEvBOlDbXAuWSQSCt218SjAHA3r2FMn6VLPz1ETcnR6zCzGPG_uDo_JnM7YWrXPzAwqYaM__PQicbRKHF__ZtJ4ddVGxSCe02CrUgmhisoX5aPab07BHSeU29XDJM=",
+        "summary": []
+      },
+      {
+        "id": "fc_068ef2c1450880b5016ad97e5168b087d1a87e02daf850d402",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"assessments\":[{\"discovered_requirement_key\":\"req_ad7a729596b46383\",\"condition_data_complete\":false,\"available_inputs\":[\"Roadway category and posted speed\"],\"missing_inputs\":[\"Measured longitudinal distances between successive advance warning signs\"],\"data_availability\":\"partial\",\"basis_evidence_ids\":[\"scene_facts.visual_scene_description.facts[0]\",\"scene_facts.posted_speed_mph\",\"scene_facts.visual_scene_description.facts[7]\"],\"reason\":\"Frozen facts directly establish an urban roadway and a 20 mph posted speed, but do not resolve whether the repeated ROAD WORK AHEAD observations are two or more independent advance-warning signs, and successive-sign distances have not been measured.\",\"planned_tools\":[\"measure_sign_spacing\",\"inspect_temporal_images\"],\"planned_evidence_strategy\":\"Inspect temporally separated sign candidates to establish independent signs, then measure or project their longitudinal positions along the roadway and calculate every successive spacing.\",\"planned_decision_rule\":\"If a qualifying series is confirmed, pass only when every successive spacing is at least 100 ft; if the series or spacing cannot be resolved, report insufficient evidence.\"},{\"discovered_requirement_key\":\"req_62474d3d964c6426\",\"condition_data_complete\":true,\"available_inputs\":[\"Posted speed limit\"],\"missing_inputs\":[\"Measured spacing between successive tangent channelizing devices\"],\"data_availability\":\"partial\",\"basis_evidence_ids\":[\"scene_facts.posted_speed_mph\",\"scene_facts.visual_scene_description.facts[5]\",\"scene_facts.visual_scene_description.facts[6]\"],\"reason\":\"Frozen facts establish the 20 mph posted speed and a longitudinal channelizer section, but tangent-device spacing has not been measured.\",\"planned_tools\":[\"audit_channelizer_spacing\"],\"planned_evidence_strategy\":\"Identify successive independent devices in the tangent section from accepted observations and temporal views, then audit their longitudinal spacing using trajectory and calibrated geometry as needed.\",\"planned_decision_rule\":\"At 20 mph, pass only if no tangent spacing exceeds 40 ft; any supported exceedance fails, while unresolved device identity or geometry is insufficient.\"},{\"discovered_requirement_key\":\"req_4b36f1dbdb9f7c39\",\"condition_data_complete\":true,\"available_inputs\":[],\"missing_inputs\":[\"Visual inspection of deployed channelizing devices for serviceability\"],\"data_availability\":\"not_attempted\",\"basis_evidence_ids\":[\"scene_facts.visual_scene_description.facts[4]\",\"scene_facts.opposing_direction_lane_fully_closed\"],\"reason\":\"Deployment in the inspected TTC zone is established by frozen facts, but serviceability is a visual semantic result not yet acquired.\",\"planned_tools\":[\"inspect_temporal_images\"],\"planned_evidence_strategy\":\"Inspect close, well-lit temporal views of the deployed cones, drums, and delineators for damage, displacement, contamination, and visibility.\",\"planned_decision_rule\":\"Pass only if all inspected deployed channelizing devices are serviceable; any supported non-serviceable device fails, and obscured devices remain insufficient.\"},{\"discovered_requirement_key\":\"req_aa7f07b1d07ed2cb\",\"condition_data_complete\":true,\"available_inputs\":[],\"missing_inputs\":[\"raw_images\"],\"data_availability\":\"not_attempted\",\"basis_evidence_ids\":[],\"reason\":\"The requirement is unconditional, but the inventory of images and observations does not itself provide the required visual characteristics.\",\"planned_tools\":[\"inspect_temporal_images\"],\"planned_evidence_strategy\":\"Inspect representative temporal images of each deployed channelizer type for size, color, stripe pattern, retroreflection, and placement characteristics.\",\"planned_decision_rule\":\"Pass only for characteristics supported by visible evidence across applicable device types; obscured or unresolvable characteristics are insufficient.\"},{\"discovered_requirement_key\":\"req_47aa373310aaf156\",\"condition_data_complete\":true,\"available_inputs\":[],\"missing_inputs\":[\"raw_images\"],\"data_availability\":\"not_attempted\",\"basis_evidence_ids\":[],\"reason\":\"The requirement is unconditional and requires visual inspection plus longitudinal interpretation; no frozen semantic result states the sign's position relative to the work space or detour.\",\"planned_tools\":[\"inspect_temporal_images\",\"measure_longitudinal_distance\"],\"planned_evidence_strategy\":\"Inspect each visible ROAD WORK sign and locate the work space or detour, then measure their longitudinal ordering along the roadway.\",\"planned_decision_rule\":\"Pass only when the ROAD WORK sign is demonstrated to be upstream of the work space or any detour on the work road; unresolved work-space location is insufficient.\"},{\"discovered_requirement_key\":\"req_8934040d233c7213\",\"condition_data_complete\":true,\"available_inputs\":[],\"missing_inputs\":[\"raw_images\"],\"data_availability\":\"not_attempted\",\"basis_evidence_ids\":[],\"reason\":\"The requirement is unconditional; frozen facts describe an open ego path and channelizers but do not replace the required visual interpretation of the redirection.\",\"planned_tools\":[\"inspect_temporal_images\"],\"planned_evidence_strategy\":\"Inspect the approach and transition to verify that the normal path is redirected to the open path using appropriate channelizing devices, traffic control devices, or TTC methods, excluding mobile operations.\",\"planned_decision_rule\":\"Pass only if the complete observed redirection is visibly supported by appropriate devices or methods; otherwise report failure or insufficient evidence as visibility permits.\"},{\"discovered_requirement_key\":\"req_2aaae0362bf83021\",\"condition_data_complete\":true,\"available_inputs\":[\"accepted_bbox_observations\"],\"missing_inputs\":[\"raw_images\",\"ego_trajectory\",\"lidar_points\"],\"data_availability\":\"partial\",\"basis_evidence_ids\":[\"manifest.accepted_bbox_observations\",\"manifest.accepted_bbox_observations_by_class\",\"scene_facts.visual_scene_description.facts[4]\"],\"reason\":\"Accepted bbox observations are directly available from the frozen inventory. Raw images, ego trajectory, and lidar points are derivable inputs but have not been acquired as the required inspection or measurement evidence.\",\"planned_tools\":[\"inspect_temporal_images\",\"get_vehicle_trajectory\",\"project_bbox_to_lidar\"],\"planned_evidence_strategy\":\"Inspect images for drum identity and markings, and use trajectory and lidar projection where needed to resolve dimensions, material, stripe count and width, top closure, and device orientation.\",\"planned_decision_rule\":\"Pass only when every applicable drum characteristic is supported; a confirmed noncompliant characteristic fails, while unresolved characteristics remain insufficient.\"},{\"discovered_requirement_key\":\"req_403dd72cd3369844\",\"condition_data_complete\":true,\"available_inputs\":[\"Confirmed opposing-traffic routing\",\"Selected TA layout\"],\"missing_inputs\":[\"Observed lane-closure routing and channelizer layout\"],\"data_availability\":\"partial\",\"basis_evidence_ids\":[\"scene_facts.opposing_traffic_detour_confirmed\",\"selected_layouts[0]\",\"scene_facts.opposing_direction_lane_fully_closed\",\"scene_facts.alternating_one_way_operation\"],\"reason\":\"Frozen user confirmation and the selected TA-19 record directly establish opposing-traffic routing and the applicable layout, but the observed routing and channelizer-layout interpretation must still be acquired from inspection.\",\"planned_tools\":[\"inspect_temporal_images\"],\"planned_evidence_strategy\":\"Inspect the channelized closure and open ego-direction path across temporal frames, and compare the observed directional routing with TA-19.\",\"planned_decision_rule\":\"Pass only if the closed direction is prohibited and routed off-site, the other direction remains available, and observed channelization conforms to the selected TA-19 arrangement.\"},{\"discovered_requirement_key\":\"req_38a0c44a191a7475\",\"condition_data_complete\":true,\"available_inputs\":[],\"missing_inputs\":[\"raw_images\"],\"data_availability\":\"not_attempted\",\"basis_evidence_ids\":[],\"reason\":\"The requirement is unconditional and requires visual inspection of warning-sign shape, legend, border, and background; no frozen semantic result states those characteristics.\",\"planned_tools\":[\"inspect_temporal_images\"],\"planned_evidence_strategy\":\"Inspect all visible TTC warning signs in representative temporal images for diamond shape and prescribed colors, treating any grade-crossing exception separately.\",\"planned_decision_rule\":\"Pass only when each applicable TTC warning sign meets the specified shape and color requirements; obscured signs are insufficient.\"},{\"discovered_requirement_key\":\"req_9684dd549b406cb8\",\"condition_data_complete\":true,\"available_inputs\":[],\"missing_inputs\":[\"raw_images\"],\"data_availability\":\"not_attempted\",\"basis_evidence_ids\":[],\"reason\":\"The requirement is unconditional and requires visual maintenance assessment; no frozen semantic result states that devices are clean, visible, and properly positioned.\",\"planned_tools\":[\"inspect_temporal_images\"],\"planned_evidence_strategy\":\"Inspect representative close temporal views for cleanliness, visibility, and proper positioning of each deployed channelizing device.\",\"planned_decision_rule\":\"Pass only when inspected devices are clean, visible, and properly positioned; any supported defect fails, and obscured devices remain insufficient.\"},{\"discovered_requirement_key\":\"req_cb1dccef74232ff1\",\"condition_data_complete\":true,\"available_inputs\":[],\"missing_inputs\":[\"raw_images\"],\"data_availability\":\"not_attempted\",\"basis_evidence_ids\":[],\"reason\":\"The requirement is unconditional; frozen observations do not directly establish the encounter order of independent advance-warning signs well enough for the required semantic input.\",\"planned_tools\":[\"inspect_temporal_images\"],\"planned_evidence_strategy\":\"Review the approach chronologically and identify the first independent advance-warning sign encountered before the transition or activity area, then classify its legend.\",\"planned_decision_rule\":\"Pass only if ROAD WORK AHEAD is the first advance-warning sign in a confirmed multi-sign approach; otherwise report noncompliance or insufficient evidence.\"}]}",
+        "call_id": "call_ix0gcTbgwVmBHjH62m8lmlfn",
+        "name": "submit_data_availability_batch"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Page through accepted 2D bbox observations; these are evidence candidates, not compliance labels.",
+        "name": "get_reviewed_observations",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "cursor": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100
+            },
+            "reviewed_class": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "representative_per_entity": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "cursor",
+            "limit",
+            "reviewed_class",
+            "representative_per_entity"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "List direct, locally derivable, and externally retrievable scene inputs.",
+        "name": "get_scene_data_manifest",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Read intrinsic and extrinsic calibration for a sensor channel.",
+        "name": "get_sensor_calibration",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "channel": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "channel"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Page through timestamped ego poses and cumulative road station.",
+        "name": "get_vehicle_trajectory",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "cursor": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50
+            }
+          },
+          "required": [
+            "cursor",
+            "limit"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "List camera and lidar channels and frame counts.",
+        "name": "list_scene_sensors",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Page through the complete time-ordered frame manifest for one sensor.",
+        "name": "list_temporal_frames",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "channel": {
+              "type": "string"
+            },
+            "cursor": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50
+            }
+          },
+          "required": [
+            "channel",
+            "cursor",
+            "limit"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Freeze data-availability decisions and begin evidence acquisition and measurement.",
+        "name": "seal_data_availability",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Record availability of every required input before visual or geometric measurement begins.",
+        "name": "submit_data_availability_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "assessments"
+          ],
+          "properties": {
+            "assessments": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "discovered_requirement_key",
+                  "condition_data_complete",
+                  "available_inputs",
+                  "missing_inputs",
+                  "data_availability",
+                  "basis_evidence_ids",
+                  "reason",
+                  "planned_tools",
+                  "planned_evidence_strategy",
+                  "planned_decision_rule"
+                ],
+                "properties": {
+                  "discovered_requirement_key": {
+                    "type": "string"
+                  },
+                  "condition_data_complete": {
+                    "type": "boolean"
+                  },
+                  "available_inputs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "missing_inputs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "data_availability": {
+                    "enum": [
+                      "acquired",
+                      "available_direct",
+                      "not_attempted",
+                      "partial",
+                      "unavailable_after_attempt"
+                    ]
+                  },
+                  "basis_evidence_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "reason": {
+                    "type": "string"
+                  },
+                  "planned_tools": {
+                    "type": "array",
+                    "items": {
+                      "enum": [
+                        "audit_channelizer_spacing",
+                        "estimate_available_width",
+                        "get_ego_pose",
+                        "get_reviewed_observations",
+                        "get_scene_data_manifest",
+                        "get_sensor_calibration",
+                        "get_sensor_sync",
+                        "get_vehicle_trajectory",
+                        "inspect_observation_images",
+                        "inspect_temporal_images",
+                        "list_scene_sensors",
+                        "list_temporal_frames",
+                        "locate_device_in_scene",
+                        "locate_road_segment",
+                        "lookup_posted_speed",
+                        "measure_buffer_length",
+                        "measure_device_spacing",
+                        "measure_downstream_taper",
+                        "measure_longitudinal_distance",
+                        "measure_sign_spacing",
+                        "measure_taper_length",
+                        "project_bbox_to_lidar",
+                        "query_road_authority_source",
+                        "record_speed_sign_reading",
+                        "resolve_speed_evidence_conflict",
+                        "search_speed_limit_signs"
+                      ]
+                    }
+                  },
+                  "planned_evidence_strategy": {
+                    "type": "string"
+                  },
+                  "planned_decision_rule": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 29807,
+      "input_tokens_details": {
+        "cache_write_tokens": 28719,
+        "cached_tokens": 1085
+      },
+      "output_tokens": 2122,
+      "output_tokens_details": {
+        "reasoning_tokens": 167
+      },
+      "total_tokens": 31929
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_068ef2c1450880b5016ad97e5bc0dc87d1aa04f0df99251761",
+    "object": "response",
+    "created_at": 1792638555,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792638557,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "STAGE 3 CONTRACT — INPUT: frozen registered requirements, scene manifest/facts, and already accepted availability records. OUTPUT: exactly one assessment for each unassessed requirement, then seal_data_availability. REQUIRED INVARIANT for every row: set(available_inputs) union set(missing_inputs) must exactly equal that requirement's required_inputs and the two sets must be disjoint. Copy required_inputs before classifying them. condition_data_complete refers only to whether every applicability condition can be resolved from frozen facts and the selected TA; it does not mean that visual or measurement inputs have already been acquired. It may be true while data_availability is partial or not_attempted. available_direct means no required input is missing; partial requires both available and missing inputs; not_attempted means all required inputs remain missing but can be pursued in Stage 4. unavailable_after_attempt is forbidden in Stage 3 because evidence acquisition has not begun. The manifest's derivable_local list establishes feasibility only, not an acquired semantic input. Raw images, bbox records, lidar, trajectory, or calibration do not make an Observed..., Measured..., sign-legend, display-mode, device-condition, device-position, work-space-location, taper-location, or similar interpretation available. Keep such a required input in missing_inputs until the corresponding Stage 4 inspection or measurement tool actually returns the semantic result. A required input may be available_direct only when a non-null frozen scene fact or inventory field directly states that same value; cite that exact fact or inventory field. planned_tools must include measurement_spec.tool when data is usable; give a concrete evidence strategy and decision rule. Use get_scene_data_manifest and other inventory tools to distinguish direct, locally derivable, and absent data, but do not treat an inventory lookup as visual evidence. Never resubmit an accepted availability key. Do not call visual or geometry measurement tools. THIS REVIEW RUN MUST STOP IMMEDIATELY AFTER Stage 3 is sealed; no Stage 4 call is permitted.",
+    "max_output_tokens": 6000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_068ef2c1450880b5016ad97e5ca98c87d1b6790538f4bb24c6",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2X5d3HSJt55IXH1QZBAN43ywuKsGaaD9gtTM_vz23R3zU1GBk1dzXrUFBKY9i128Oxc0jiFOmm9BdsyT1ODRp2MPtpwAOd1bGlrhfBmXJbZ15BJnV4UIx77CSayLMB8gOnjRrC8ZrUq5UFrMK6JFa5acPabrK77gyVIYizQjaGWf_xFyNDgxl3Jf1K3KdkniRubm5Y6RQ5nZj1mwRdDp531OxIMVu_LC-3j7LqaucO9JbPm9KLuHHeLVgD3X3wEepEjDHOB9raP8m7zPa7YRb57IQyM_of4WG7wcsSkqtMe63Gwt7urUb0wDgTreaW43MpoTfr4UpPRrzI7r9oySa0YLnD8umJAgpdHVixlWhTA2UgQZ20xR_lKgXgoF1n4ibcEnW5MFFUJKwNx95vYten5qCFxUYZUMrnXS9hZG3nXPk5aBFTBe2vSKtkmv413uKX9ABuZl9OzSjfaBfZnYQq-ZKSaoKwk_Vh1gyeMQZrYmS6D08PzprKRf3nwWQW7q6ERtICm15geMeBUp98yLvqZ5YXS8H5W9z3wxEcdVOj8LKBeMUHy6kveJPk4gf_0aFrAWqOVTokp_WWi4Jk28rH8xdnSFmD564rvBVIGMKXYGy7V0tvpPkvOOu-ZqB1tJ7SpkQZqpaWgCIWVIAZPcGPtKZk8ASG7Mg_I6z8YyIrOMOHZg_II0jagfpATRKUvtP2pM6nkYnGJyW81U9HquPZ5Ezc3UFu2ykq52tPW5F0JvmzxgviAkkV3G4aLNp60-n2M0FrVVzAYJ01FbKU8p_ipmBfk4cUfk9rs5XCFc86cgF_fc-C-mZc4mq8dr5qhtBWTNNCT-8hzIGIAyDIjTqPb0WgsO0ytsKWlxydUg2rERbHnwrfXMkdmplphY5euBnKT4SrvIQJPUpYsiKHfNDChI6SRhFq0u_XWObuTKHGAHnoLrLrnpCBRDczp2Af48XPjDZDkcjzc3b4LamYciEz8P6RhMBIZfFt7YLdKmimYkAZkpckp3dS7GjVoLtINTbpODP5np7YtfOlRuFxPF5o4_oIBi_BhVMPqKWdRt9JH0hX1pBKxJtIYw63-WEjMGE0b2NS-3meuMwSfwFFS6Mtk65C7CKfTT8CZajz80U07KjodFo9kqYXl1FVd8m795cSlCPX0MxqUHNvaSzfLzE8J4lg3iNSoAAaovPH2EiUzSLoK3lRrdoTKATlwCcZrzWTyxZXDHZL-WtbUuxB2a62qHfEQ9pWi5IXe8EnqGd2oHdZH9N6OqeVgiRfYMdpNwE-cQijwlkhCuMwJzaOkxHUIOUccNG1AhMjRdQSwpi9leD2c6s3qUpUh4cak1kUTbWstsSFo9cKiSVKSBiKDCYiscc8S8NLfel9l-5UnYPIxhbtworR9n47hX1FPp20pEc2xykwzK7iXxTcqL36_6P0NjQUVr60zxodMfcPLojx-Gxhlt5SXNSYekGmD13lmqGmnezaz8zkLJdnJv7AAOXcbIzRTRHjmjz1PNXbn5K8rTOp03K5NALNSuLou2siMTfohVnaAUFTIjHhUkCD2WaHQZ_NWUkDCYzubZ7IxfIOiuqsI7E7XTu3ne4scuVcYGsZGbmPxaYImShHxF17QWuTlHQkwivAkpGbEggHLGA-PXpNXqnC9Ysm-3XGF0K5BPLRa1KO5w-rs7WEM2yRohlCm99hyjvJGDXpzZ_PBxrmno3W3n8hcBMRDSgtT17mc_9sQmH4UhQLYdcaWGqw5NpsPJDX2uYimAlmLNN3xbsKruptx3_T2QELThejiEX-R44pQQOL1AS2dfNtNIYrhi_I7nGvQ3JKCCZSo6MgiQaUFDJt5WTMW93JLU6mBkgoP7Yzjf2XtQVz2inJtA-PyQJqdHDbAbzlpz9LiojDRnjEhm_0MqXSSgosfeyq2YdvHXUNNG3CldysqRkv7Q-AXFsCRGn6dyH-SUebs46DQuL7x-kdjsLJ8i-MrLlfrCjHjtYXkIHkppR8EPhNBYzGVoMDFWzaD2S5YjfXKJrt5OOT9nJBR_UqulmVntvsllxpwto_7mIaUDejN5FUNHYKYdZUyiHM3_mXuODYXWfGkmEScBjHn77-w-2Dtc-ElFqwM5zfn7mlXQqRJbGTPTJbiYxineqKdtuDkJJ6yWpwevd77W8FuBl-9QgsmM2p5D-CeUZzDE",
+        "summary": []
+      },
+      {
+        "id": "fc_068ef2c1450880b5016ad97e5d4e8487d1b829176bb8fc39e0",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{}",
+        "call_id": "call_QsAyVwV3rKknAUC09Pze39Lf",
+        "name": "seal_data_availability"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Page through accepted 2D bbox observations; these are evidence candidates, not compliance labels.",
+        "name": "get_reviewed_observations",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "cursor": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100
+            },
+            "reviewed_class": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "representative_per_entity": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "cursor",
+            "limit",
+            "reviewed_class",
+            "representative_per_entity"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "List direct, locally derivable, and externally retrievable scene inputs.",
+        "name": "get_scene_data_manifest",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Read intrinsic and extrinsic calibration for a sensor channel.",
+        "name": "get_sensor_calibration",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "channel": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "channel"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Page through timestamped ego poses and cumulative road station.",
+        "name": "get_vehicle_trajectory",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "cursor": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50
+            }
+          },
+          "required": [
+            "cursor",
+            "limit"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "List camera and lidar channels and frame counts.",
+        "name": "list_scene_sensors",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Page through the complete time-ordered frame manifest for one sensor.",
+        "name": "list_temporal_frames",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "channel": {
+              "type": "string"
+            },
+            "cursor": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50
+            }
+          },
+          "required": [
+            "channel",
+            "cursor",
+            "limit"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Freeze data-availability decisions and begin evidence acquisition and measurement.",
+        "name": "seal_data_availability",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Record availability of every required input before visual or geometric measurement begins.",
+        "name": "submit_data_availability_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "assessments"
+          ],
+          "properties": {
+            "assessments": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "discovered_requirement_key",
+                  "condition_data_complete",
+                  "available_inputs",
+                  "missing_inputs",
+                  "data_availability",
+                  "basis_evidence_ids",
+                  "reason",
+                  "planned_tools",
+                  "planned_evidence_strategy",
+                  "planned_decision_rule"
+                ],
+                "properties": {
+                  "discovered_requirement_key": {
+                    "type": "string"
+                  },
+                  "condition_data_complete": {
+                    "type": "boolean"
+                  },
+                  "available_inputs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "missing_inputs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "data_availability": {
+                    "enum": [
+                      "acquired",
+                      "available_direct",
+                      "not_attempted",
+                      "partial",
+                      "unavailable_after_attempt"
+                    ]
+                  },
+                  "basis_evidence_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "reason": {
+                    "type": "string"
+                  },
+                  "planned_tools": {
+                    "type": "array",
+                    "items": {
+                      "enum": [
+                        "audit_channelizer_spacing",
+                        "estimate_available_width",
+                        "get_ego_pose",
+                        "get_reviewed_observations",
+                        "get_scene_data_manifest",
+                        "get_sensor_calibration",
+                        "get_sensor_sync",
+                        "get_vehicle_trajectory",
+                        "inspect_observation_images",
+                        "inspect_temporal_images",
+                        "list_scene_sensors",
+                        "list_temporal_frames",
+                        "locate_device_in_scene",
+                        "locate_road_segment",
+                        "lookup_posted_speed",
+                        "measure_buffer_length",
+                        "measure_device_spacing",
+                        "measure_downstream_taper",
+                        "measure_longitudinal_distance",
+                        "measure_sign_spacing",
+                        "measure_taper_length",
+                        "project_bbox_to_lidar",
+                        "query_road_authority_source",
+                        "record_speed_sign_reading",
+                        "resolve_speed_evidence_conflict",
+                        "search_speed_limit_signs"
+                      ]
+                    }
+                  },
+                  "planned_evidence_strategy": {
+                    "type": "string"
+                  },
+                  "planned_decision_rule": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 30074,
+      "input_tokens_details": {
+        "cache_write_tokens": 28986,
+        "cached_tokens": 1085
+      },
+      "output_tokens": 78,
+      "output_tokens_details": {
+        "reasoning_tokens": 59
+      },
+      "total_tokens": 30152
+    },
+    "user": null,
+    "metadata": {}
+  }
+]

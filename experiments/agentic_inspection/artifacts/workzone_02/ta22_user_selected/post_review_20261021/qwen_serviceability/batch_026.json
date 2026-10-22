@@ -1,0 +1,102 @@
+{
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "image_sha256": "690c33f7e5b469267eff06d46b5e0699cbe66a739d58d9da7dccc00aa139a288",
+  "response": {
+    "model": "qwen3-vl:4b-instruct",
+    "created_at": "2026-10-21T14:50:06.960323838Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"items\": [\n    {\n      \"id\": 1,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Orange cone with visible white reflective stripes, intact base, no obvious damage or missing parts; clearly identifiable as a functional channelizing device.\"\n    },\n    {\n      \"id\": 2,\n      \"status\": \"uncertain\",\n      \"reason\": \"Image is blurry and out of focus; details such as stripe integrity or structural condition are indistinct; cannot confidently assess serviceability.\"\n    },\n    {\n      \"id\": 3,\n      \"status\": \"visible_unserviceable\",\n      \"reason\": \"Severe motion blur and haze obscure the cone's structure; appears to be partially or fully obscured, making functional status unassessable due to lack of visible integrity.\"\n    },\n    {\n      \"id\": 4,\n      \"status\": \"uncertain\",\n      \"reason\": \"Multiple cones are visible but heavily blurred; details like stripes or base condition are indiscernible; insufficient visual evidence to determine serviceability.\"\n    },\n    {\n      \"id\": 5,\n      \"status\": \"visible_unserviceable\",\n      \"reason\": \"Image is blurry and lacks clear definition of the cone's structure, stripes, or base; cannot confirm whether it is functional or damaged.\"\n    },\n    {\n      \"id\": 6,\n      \"status\": \"uncertain\",\n      \"reason\": \"Cones are visible but heavily blurred; details such as stripe condition or structural integrity are not discernible; insufficient evidence to assess serviceability.\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 4172830094,
+    "load_duration": 163798061,
+    "prompt_eval_count": 1299,
+    "prompt_eval_duration": 630244000,
+    "eval_count": 330,
+    "eval_duration": 3190139000
+  },
+  "observations": [
+    {
+      "observation_id": "C18_F0512_CAM_FRONT_Q004",
+      "frame": 512,
+      "native_bbox": [
+        2162.6204,
+        1143.6836,
+        2224.9858,
+        1359.0629
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "Orange cone with visible white reflective stripes, intact base, no obvious damage or missing parts; clearly identifiable as a functional channelizing device."
+    },
+    {
+      "observation_id": "C18_F0513_CAM_FRONT_Q010",
+      "frame": 513,
+      "native_bbox": [
+        2355.356,
+        1144.0574,
+        2398.5271,
+        1276.2952
+      ],
+      "id": 2,
+      "status": "uncertain",
+      "reason": "Image is blurry and out of focus; details such as stripe integrity or structural condition are indistinct; cannot confidently assess serviceability."
+    },
+    {
+      "observation_id": "C18_F0517_CAM_FRONT_Q108",
+      "frame": 517,
+      "native_bbox": [
+        2349.3879,
+        1139.0447,
+        2542.0618,
+        1614.4397
+      ],
+      "id": 3,
+      "status": "visible_unserviceable",
+      "reason": "Severe motion blur and haze obscure the cone's structure; appears to be partially or fully obscured, making functional status unassessable due to lack of visible integrity."
+    },
+    {
+      "observation_id": "C18_F0530_CAM_FRONT_Q035",
+      "frame": 530,
+      "native_bbox": [
+        2118.4482,
+        1166.9908,
+        2154.7129,
+        1256.3486
+      ],
+      "id": 4,
+      "status": "uncertain",
+      "reason": "Multiple cones are visible but heavily blurred; details like stripes or base condition are indiscernible; insufficient visual evidence to determine serviceability."
+    },
+    {
+      "observation_id": "C18_F0534_CAM_FRONT_Q007",
+      "frame": 534,
+      "native_bbox": [
+        2157.8352,
+        1177.9916,
+        2203.7375,
+        1297.5338
+      ],
+      "id": 5,
+      "status": "visible_unserviceable",
+      "reason": "Image is blurry and lacks clear definition of the cone's structure, stripes, or base; cannot confirm whether it is functional or damaged."
+    },
+    {
+      "observation_id": "C18_F0536_CAM_FRONT_Q003",
+      "frame": 536,
+      "native_bbox": [
+        2153.7759,
+        1166.8337,
+        2198.3115,
+        1288.0654
+      ],
+      "id": 6,
+      "status": "uncertain",
+      "reason": "Cones are visible but heavily blurred; details such as stripe condition or structural integrity are not discernible; insufficient evidence to assess serviceability."
+    }
+  ],
+  "human_confirmed_condition": false
+}

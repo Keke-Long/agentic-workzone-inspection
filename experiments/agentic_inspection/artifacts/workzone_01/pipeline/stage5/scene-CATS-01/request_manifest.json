@@ -1,0 +1,134 @@
+{
+  "experiment_id": "cats01_current_primary_stage5_v5",
+  "method_id": "kg_plus_bm25",
+  "run": 1,
+  "method_role": "primary_proposed_method",
+  "method_definition_version": "stage1_stage2_methods_v1",
+  "stage2_policy": {
+    "mode": "structured_candidate_decision_v1",
+    "candidate_scope": "initial_compilation_plus_unresolved_deterministic_kg_candidates",
+    "canonical_predicate_binding": true,
+    "explicit_candidate_disposition_required": true
+  },
+  "single_method_development_test": true,
+  "cross_method_comparison_valid": false,
+  "correct_layout_page_region_or_target_supplied": false,
+  "hidden_requirement_id_supplied": false,
+  "scene_view": {
+    "scene_id": "scene-CATS-01",
+    "scene_facts": {
+      "active_work": null,
+      "available_width_ft": null,
+      "closed_lane": "left",
+      "fact_provenance": "frozen benchmark context plus explicit user-provided posted speed; null means unknown, not false",
+      "inspection_period": "daytime",
+      "lanes_closed": 1,
+      "opposite_direction_image_coverage": false,
+      "pcms_deployed": null,
+      "posted_speed_mph": 30,
+      "posted_speed_provenance": "explicit_user_provided_scene_fact_2026-09-15",
+      "roadway_configuration": "multilane_undivided",
+      "roadway_lane_count": 4,
+      "work_duration_category": "long_term_more_than_three_days",
+      "work_ended": null,
+      "arrow_board_deployed": true,
+      "arrow_board_operating": null,
+      "arrow_board_display_mode": null,
+      "arrow_board_direction": null,
+      "arrow_board_at_merging_taper_start": null
+    },
+    "scene_data_manifest": {
+      "scene_id": "scene-CATS-01",
+      "scene_description_redacted": true,
+      "available_direct": [
+        "accepted_bbox_observations",
+        "scene_facts"
+      ],
+      "derivable_local": [
+        "full_temporal_images",
+        "lidar_points",
+        "ego_trajectory",
+        "sensor_calibration",
+        "device_global_position",
+        "longitudinal_distance",
+        "device_spacing",
+        "taper_length",
+        "buffer_length",
+        "sign_spacing",
+        "available_width",
+        "rule_based_channelizer_spacing_audit",
+        "posted_speed_from_visible_sign"
+      ],
+      "retrievable_external": [
+        "posted_speed_if_road_segment_can_be_geolocated"
+      ],
+      "counts": {
+        "samples": 1027,
+        "lidar_frames": 1027,
+        "camera_frames": 6162,
+        "camera_frames_by_channel": {
+          "CAM_FRONT": 1027,
+          "CAM_BACK": 1027,
+          "CAM_FRONT_LEFT": 1027,
+          "CAM_FRONT_RIGHT": 1027,
+          "CAM_BACK_LEFT": 1027,
+          "CAM_BACK_RIGHT": 1027
+        },
+        "ego_poses": 7189,
+        "calibrated_sensors": 7,
+        "accepted_bbox_observations": 3631,
+        "accepted_bbox_observations_by_class": {
+          "arrow_board": 1,
+          "barricade": 56,
+          "channelizing_device": 2,
+          "temporary_safety_fence": 1,
+          "traffic_cone": 3,
+          "traffic_drum": 3015,
+          "traffic_sign": 553
+        },
+        "accepted_pcms_observations": 0,
+        "accepted_arrow_board_observations": 1
+      },
+      "derived_scene_facts": {
+        "pcms_deployed": null,
+        "pcms_deployed_provenance": [],
+        "arrow_board_deployed": true,
+        "arrow_board_deployed_provenance": [
+          "F0316_CAM_BACK_LEFT_010"
+        ]
+      },
+      "trajectory": {
+        "start_timestamp_us": 10000077,
+        "end_timestamp_us": 112600161,
+        "path_length_m": 914.9504294582028
+      },
+      "location": {
+        "dataset_location": "madison-wi-usa",
+        "road_name": null,
+        "latitude_longitude": null,
+        "external_speed_lookup_ready": false,
+        "reason": "Metadata identifies Madison, Wisconsin but contains no road name or geodetic coordinates."
+      },
+      "forbidden_metadata_removed": [
+        "scene.description"
+      ]
+    },
+    "accepted_bbox_count": 3631,
+    "perception_evidence_policy": "human_decision_correct_plus_explicit_expert_or_user_2d_confirmation"
+  },
+  "config_path": "/home/klong23/workzone/experiments/agentic_inspection/config/current_primary_stage5.json",
+  "config_sha256": "16aee5e3f5603eb3b214ba41c1bef4152d737523936c4f7431aab8a5dc74002e",
+  "model": "gpt-5.6-luna",
+  "reasoning_effort": "medium",
+  "resume_stage0_record": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/current/primary_method/stage4_v4_final/scene-CATS-01/stage_0_layout_selection.json",
+  "resume_registry_checkpoint": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/current/primary_method/stage4_v4_final/scene-CATS-01/stage_1_to_6_registry.json",
+  "stage0_prompt_sha256": "1cd560f3e06f4f3ef87982bbae6a5edbfba4d91898a46036a072a4dc4d5fd479",
+  "workflow_prompt_template_sha256": "cbbf9d100168843550c1cf9629d0e156f3dd47be75233eb918aa8d1260141ec5",
+  "scoped_stage1_stage2_test": true,
+  "simplified_inspection_checks": true,
+  "stage1c_gap_retrieval": {
+    "method": "bm25"
+  },
+  "stage1_architecture": "kg_plus_retrieval",
+  "executed": true
+}

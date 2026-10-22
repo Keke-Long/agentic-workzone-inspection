@@ -1,0 +1,2144 @@
+{
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "observations": [
+    {
+      "observation_id": "C18_F0010_CAM_FRONT_Q013",
+      "frame": 10,
+      "native_bbox": [
+        1180.5704,
+        1169.7196,
+        1228.1807,
+        1232.1543
+      ],
+      "id": 1,
+      "status": "uncertain",
+      "reason": "Image is too blurry and lacks sufficient visual evidence to assess serviceability; object appears partially obscured and indistinct."
+    },
+    {
+      "observation_id": "C18_F0212_CAM_FRONT_Q012",
+      "frame": 212,
+      "native_bbox": [
+        2039.8904,
+        1126.1866,
+        2068.6431,
+        1169.6547
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "Device is clearly visible with intact stripes, no obvious damage or missing parts, and appears functional within context."
+    },
+    {
+      "observation_id": "C18_F0213_CAM_FRONT_Q014",
+      "frame": 213,
+      "native_bbox": [
+        2038.8151,
+        1127.4485,
+        2068.9084,
+        1170.4177
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "Device shows no signs of severe breakage, collapse, or missing major parts; stripes are visible and appear undamaged."
+    },
+    {
+      "observation_id": "C18_F0267_CAM_FRONT_Q013",
+      "frame": 267,
+      "native_bbox": [
+        2040.5386,
+        1126.8516,
+        2068.9216,
+        1169.0059
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "Device is fully visible with clear stripes and structural integrity; no obvious functional defects observed."
+    },
+    {
+      "observation_id": "C18_F0270_CAM_FRONT_Q009",
+      "frame": 270,
+      "native_bbox": [
+        2039.3309,
+        1126.6741,
+        2068.7312,
+        1169.6644
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "Device appears intact, with visible stripes and no signs of severe damage or missing parts that would impair function."
+    },
+    {
+      "observation_id": "C18_F0325_CAM_FRONT_Q024",
+      "frame": 325,
+      "native_bbox": [
+        2021.0266,
+        1135.0896,
+        2049.4111,
+        1174.67
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "Device is clearly visible with undamaged stripes and structural form; no obvious functional defects present."
+    },
+    {
+      "observation_id": "C18_F0325_CAM_FRONT_Q025",
+      "frame": 325,
+      "native_bbox": [
+        2038.2032,
+        1135.1938,
+        2065.3047,
+        1175.5166
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "The cone is fully visible with intact stripes and no obvious damage or breakage; appears functional based on visual evidence."
+    },
+    {
+      "observation_id": "C18_F0325_CAM_FRONT_Q033",
+      "frame": 325,
+      "native_bbox": [
+        2002.823,
+        1134.3729,
+        2028.3195,
+        1171.7075
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "All cones are clearly visible, showing full stripes and structural integrity; no signs of severe damage or collapse."
+    },
+    {
+      "observation_id": "C18_F0327_CAM_FRONT_Q005",
+      "frame": 327,
+      "native_bbox": [
+        2038.3864,
+        1139.272,
+        2067.1917,
+        1179.6802
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "Cones appear intact with clear markings and no visible major defects; serviceability is not compromised by visual evidence."
+    },
+    {
+      "observation_id": "C18_F0328_CAM_FRONT_Q007",
+      "frame": 328,
+      "native_bbox": [
+        2040.6592,
+        1142.4982,
+        2068.0911,
+        1181.4429
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "The cone is fully visible, showing standard stripes and no obvious damage or breakage; appears functional."
+    },
+    {
+      "observation_id": "C18_F0329_CAM_FRONT_Q031",
+      "frame": 329,
+      "native_bbox": [
+        2005.215,
+        1146.623,
+        2019.991,
+        1177.597
+      ],
+      "id": 5,
+      "status": "visible_unserviceable",
+      "reason": "The cone is severely blurred and partially occluded, making it impossible to assess structural integrity or stripe visibility. The visual evidence does not support serviceability."
+    },
+    {
+      "observation_id": "C18_F0329_CAM_FRONT_Q032",
+      "frame": 329,
+      "native_bbox": [
+        2017.9447,
+        1141.6215,
+        2044.6447,
+        1178.5813
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "Cones are clearly visible with intact stripes and no obvious damage; appear functional based on the image."
+    },
+    {
+      "observation_id": "C18_F0333_CAM_FRONT_Q012",
+      "frame": 333,
+      "native_bbox": [
+        2019.4823,
+        1146.2535,
+        2045.3794,
+        1185.7319
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "The cone is fully visible with intact red and white stripes, no obvious damage or missing parts, and appears stable in its position."
+    },
+    {
+      "observation_id": "C18_F0334_CAM_FRONT_Q022",
+      "frame": 334,
+      "native_bbox": [
+        2004.408,
+        1150.7,
+        2020.663,
+        1181.751
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "The cone shows clear red and white alternating stripes, no visible breakage or major damage, and is upright with no signs of collapse or severe wear."
+    },
+    {
+      "observation_id": "C18_F0339_CAM_FRONT_Q005",
+      "frame": 339,
+      "native_bbox": [
+        2041.29,
+        1152.1031,
+        2070.8767,
+        1198.7891
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "The cone has distinct stripes, appears structurally intact, and is positioned normally without visible defects that would impair its function."
+    },
+    {
+      "observation_id": "C18_F0339_CAM_FRONT_Q021",
+      "frame": 339,
+      "native_bbox": [
+        2020.6594,
+        1156.0316,
+        2045.9739,
+        1194.2972
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "The cone's stripes are clearly visible, it stands upright with no apparent damage or missing components, indicating normal serviceability."
+    },
+    {
+      "observation_id": "C18_F0343_CAM_FRONT_Q018",
+      "frame": 343,
+      "native_bbox": [
+        2023.3071,
+        1154.379,
+        2049.5701,
+        1195.2703
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "The cone is fully visible with clear alternating stripes and shows no signs of breakage, collapse, or major damage; appears functional as intended."
+    },
+    {
+      "observation_id": "C18_F0344_CAM_FRONT_Q005",
+      "frame": 344,
+      "native_bbox": [
+        2053.376,
+        1157.883,
+        2073.796,
+        1196.416
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "The cone's markings are intact and clearly visible, it is standing upright without obvious defects that would compromise its function."
+    },
+    {
+      "observation_id": "C18_F0344_CAM_FRONT_Q010",
+      "frame": 344,
+      "native_bbox": [
+        2000.0328,
+        1144.6208,
+        2028.2284,
+        1191.2852
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "Cylindrical shape with clear red and white stripes, no visible breakage or missing parts; appears intact and functional based on visual evidence."
+    },
+    {
+      "observation_id": "C18_F0345_CAM_FRONT_Q003",
+      "frame": 345,
+      "native_bbox": [
+        2125.591,
+        1146.758,
+        2155.81,
+        1207.66
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "Stripes are clearly visible and intact; no signs of severe damage or collapse. The device maintains its structural integrity as seen in the image."
+    },
+    {
+      "observation_id": "C18_F0346_CAM_FRONT_Q003",
+      "frame": 346,
+      "native_bbox": [
+        2128.396,
+        1153.206,
+        2159.219,
+        1206.116
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "Red and white stripes are fully visible and undamaged; no obvious functional defects or missing parts observed."
+    },
+    {
+      "observation_id": "C18_F0349_CAM_FRONT_Q008",
+      "frame": 349,
+      "native_bbox": [
+        2052.8354,
+        1148.541,
+        2083.1377,
+        1198.7134
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "Device shows standard red and white striped pattern, appears structurally sound with no visible breakage or major damage."
+    },
+    {
+      "observation_id": "C18_F0349_CAM_FRONT_Q010",
+      "frame": 349,
+      "native_bbox": [
+        2001.4424,
+        1142.5736,
+        2029.4785,
+        1190.3086
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "Multiple devices are visible; all retain their stripes and structural form without signs of collapse or severe damage."
+    },
+    {
+      "observation_id": "C18_F0350_CAM_FRONT_Q019",
+      "frame": 350,
+      "native_bbox": [
+        2138.1101,
+        1156.5165,
+        2170.6169,
+        1211.6525
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "Stripes remain clear and undamaged; no evidence of breakage, missing parts, or heavy dirt obscuring visibility."
+    },
+    {
+      "observation_id": "C18_F0350_CAM_FRONT_Q032",
+      "frame": 350,
+      "native_bbox": [
+        1988.688,
+        1154.012,
+        2005.693,
+        1187.451
+      ],
+      "id": 1,
+      "status": "uncertain",
+      "reason": "Image too small and blurred to assess visible condition or serviceability."
+    },
+    {
+      "observation_id": "C18_F0352_CAM_FRONT_Q019",
+      "frame": 352,
+      "native_bbox": [
+        2146.835,
+        1147.437,
+        2181.697,
+        1215.102
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "Device is fully visible with intact stripes, no obvious damage or missing parts; appears functional for its purpose."
+    },
+    {
+      "observation_id": "C18_F0354_CAM_FRONT_Q003",
+      "frame": 354,
+      "native_bbox": [
+        2151.0232,
+        1146.8527,
+        2187.2659,
+        1213.229
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "Device shows clear red and white stripes, no visible breakage or major damage; appears serviceable."
+    },
+    {
+      "observation_id": "C18_F0354_CAM_FRONT_Q049",
+      "frame": 354,
+      "native_bbox": [
+        1966.181,
+        1149.146,
+        1977.684,
+        1175.966
+      ],
+      "id": 4,
+      "status": "uncertain",
+      "reason": "Image too small and blurred to assess condition reliably; insufficient visual evidence for judgment."
+    },
+    {
+      "observation_id": "C18_F0355_CAM_FRONT_Q009",
+      "frame": 355,
+      "native_bbox": [
+        2101.4519,
+        1136.8303,
+        2194.4277,
+        1217.0728
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "Multiple devices visible with intact stripes, no signs of collapse or major damage; appear serviceable."
+    },
+    {
+      "observation_id": "C18_F0357_CAM_FRONT_Q000",
+      "frame": 357,
+      "native_bbox": [
+        2066.8438,
+        1149.1304,
+        2096.5525,
+        1204.8979
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "Device is clearly visible with distinct stripes and no apparent structural damage or missing parts; appears functional."
+    },
+    {
+      "observation_id": "C18_F0358_CAM_FRONT_Q006",
+      "frame": 358,
+      "native_bbox": [
+        2171.3699,
+        1148.9646,
+        2212.6011,
+        1223.5461
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "Red and white stripes are intact and clearly visible; no obvious damage or missing parts; device appears upright and functional."
+    },
+    {
+      "observation_id": "C18_F0359_CAM_FRONT_Q003",
+      "frame": 359,
+      "native_bbox": [
+        2069.8167,
+        1145.1628,
+        2105.9951,
+        1207.0477
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "Stripes are clear and undamaged; base is stable; no signs of collapse, breakage, or major wear that would impair function."
+    },
+    {
+      "observation_id": "C18_F0359_CAM_FRONT_Q011",
+      "frame": 359,
+      "native_bbox": [
+        2185.8655,
+        1152.1556,
+        2223.0149,
+        1225.2146
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "Stripes are intact and visible; device appears to be standing upright with no obvious structural damage or missing components."
+    },
+    {
+      "observation_id": "C18_F0359_CAM_FRONT_Q055",
+      "frame": 359,
+      "native_bbox": [
+        2012.7913,
+        1145.7466,
+        2047.3263,
+        1196.8047
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "Multiple devices are visible, all with clear red and white stripes; no apparent breakage or collapse; appear functional in context."
+    },
+    {
+      "observation_id": "C18_F0360_CAM_FRONT_Q020",
+      "frame": 360,
+      "native_bbox": [
+        1958.9382,
+        1139.4552,
+        1985.9363,
+        1180.889
+      ],
+      "id": 5,
+      "status": "visible_unserviceable",
+      "reason": "Devices are heavily blurred and out of focus; it is impossible to discern if stripes are intact, if there's damage, or if the device is collapsed. Visibility is insufficient to assess serviceability."
+    },
+    {
+      "observation_id": "C18_F0362_CAM_FRONT_Q033",
+      "frame": 362,
+      "native_bbox": [
+        2174.6921,
+        1138.58,
+        2209.4021,
+        1209.2157
+      ],
+      "id": 6,
+      "status": "visible_unserviceable",
+      "reason": "Image is too blurry and low resolution to determine if stripes are missing, damaged, or if the devices have collapsed; cannot confirm functional integrity."
+    },
+    {
+      "observation_id": "C18_F0364_CAM_FRONT_Q017",
+      "frame": 364,
+      "native_bbox": [
+        1992.8513,
+        1120.0748,
+        2024.1514,
+        1172.9023
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "Multiple channelizing devices visible, intact with clear red and white stripes; no obvious damage or missing parts."
+    },
+    {
+      "observation_id": "C18_F0364_CAM_FRONT_Q029",
+      "frame": 364,
+      "native_bbox": [
+        2183.834,
+        1124.1254,
+        2226.3491,
+        1201.8406
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "Channelizing devices clearly visible with distinct alternating stripes; no signs of severe breakage, collapse, or major damage."
+    },
+    {
+      "observation_id": "C18_F0365_CAM_FRONT_Q016",
+      "frame": 365,
+      "native_bbox": [
+        1957.39,
+        1125.471,
+        1963.429,
+        1158.46
+      ],
+      "id": 3,
+      "status": "uncertain",
+      "reason": "Image too small and blurry to assess condition; insufficient visual evidence for serviceability determination."
+    },
+    {
+      "observation_id": "C18_F0366_CAM_FRONT_Q013",
+      "frame": 366,
+      "native_bbox": [
+        2204.0078,
+        1134.5024,
+        2244.8821,
+        1211.3981
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "Devices visible with full stripes and no apparent structural damage or missing components; adequate visibility for function assessment."
+    },
+    {
+      "observation_id": "C18_F0366_CAM_FRONT_Q027",
+      "frame": 366,
+      "native_bbox": [
+        2224.6475,
+        1133.5366,
+        2262.1726,
+        1211.8265
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "Channelizing devices appear intact, with clear alternating stripes and no obvious defects preventing function."
+    },
+    {
+      "observation_id": "C18_F0366_CAM_FRONT_Q029",
+      "frame": 366,
+      "native_bbox": [
+        2182.49,
+        1138.7416,
+        2216.9211,
+        1204.6464
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "Devices show full visible stripes and no signs of severe breakage or missing major parts; serviceability is not compromised."
+    },
+    {
+      "observation_id": "C18_F0366_CAM_FRONT_Q030",
+      "frame": 366,
+      "native_bbox": [
+        2164.69,
+        1135.752,
+        2192.847,
+        1201.175
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "The cone is fully visible with intact stripes and no obvious damage or missing parts; appears structurally sound."
+    },
+    {
+      "observation_id": "C18_F0366_CAM_FRONT_Q047",
+      "frame": 366,
+      "native_bbox": [
+        2089.8894,
+        1124.3063,
+        2142.7461,
+        1211.5446
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "The cone is upright, has clear alternating stripes, and shows no signs of breakage, collapse, or major damage; appears functional."
+    },
+    {
+      "observation_id": "C18_F0367_CAM_FRONT_Q019",
+      "frame": 367,
+      "native_bbox": [
+        2273.154,
+        1132.72,
+        2316.853,
+        1230.917
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "The cone is standing with visible stripes and no apparent structural failure or missing components; serviceability is not compromised."
+    },
+    {
+      "observation_id": "C18_F0368_CAM_FRONT_Q009",
+      "frame": 368,
+      "native_bbox": [
+        2225.2275,
+        1129.0175,
+        2268.6384,
+        1212.2142
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "Multiple cones are visible, all appear intact with clear stripes and no obvious defects; no signs of collapse or severe damage."
+    },
+    {
+      "observation_id": "C18_F0370_CAM_FRONT_Q007",
+      "frame": 370,
+      "native_bbox": [
+        2323.5986,
+        1129.8707,
+        2375.5959,
+        1237.9932
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "The cone is upright, has distinct alternating stripes, and shows no visible breakage or missing parts; appears serviceable."
+    },
+    {
+      "observation_id": "C18_F0370_CAM_FRONT_Q021",
+      "frame": 370,
+      "native_bbox": [
+        2220.5342,
+        1131.7351,
+        2260.7854,
+        1211.4734
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "All cones are clearly visible with intact stripes and no signs of collapse, severe damage, or missing major components; appear functional."
+    },
+    {
+      "observation_id": "C18_F0371_CAM_FRONT_Q008",
+      "frame": 371,
+      "native_bbox": [
+        2342.1882,
+        1120.3472,
+        2399.9709,
+        1241.3881
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "The cone is upright, shows no visible breakage or missing major parts, stripes are intact and clearly visible, and it appears to be in standard serviceable condition."
+    },
+    {
+      "observation_id": "C18_F0371_CAM_FRONT_Q015",
+      "frame": 371,
+      "native_bbox": [
+        2201.9741,
+        1117.5334,
+        2244.7139,
+        1205.2635
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "The cones are upright with clear, undamaged stripes; no signs of collapse, severe breakage, or missing major parts. They appear functional and visible."
+    },
+    {
+      "observation_id": "C18_F0372_CAM_FRONT_Q005",
+      "frame": 372,
+      "native_bbox": [
+        2363.8259,
+        1119.9613,
+        2427.1282,
+        1248.0865
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "The cone is standing upright with full, intact stripes and no obvious damage or missing components. It appears serviceable based on visual evidence."
+    },
+    {
+      "observation_id": "C18_F0372_CAM_FRONT_Q018",
+      "frame": 372,
+      "native_bbox": [
+        2329.094,
+        1108.8945,
+        2379.0635,
+        1226.1613
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "The cones are upright, show no visible structural damage, and their stripes are clearly distinguishable. No functional defects are evident from the image."
+    },
+    {
+      "observation_id": "C18_F0372_CAM_FRONT_Q039",
+      "frame": 372,
+      "native_bbox": [
+        2012.9216,
+        1126.2078,
+        2043.0128,
+        1175.4116
+      ],
+      "id": 5,
+      "status": "visible_unserviceable",
+      "reason": "The cone appears to be leaning significantly and is partially obscured by blur; its orientation suggests instability or collapse, which likely prevents proper function as a channelizing device."
+    },
+    {
+      "observation_id": "C18_F0374_CAM_FRONT_Q017",
+      "frame": 374,
+      "native_bbox": [
+        1976.5981,
+        1114.6221,
+        2009.5035,
+        1170.5374
+      ],
+      "id": 6,
+      "status": "uncertain",
+      "reason": "The image is too blurry and distant to discern any specific defects. The cones are indistinct and cannot be evaluated for serviceability based on visible evidence alone."
+    },
+    {
+      "observation_id": "C18_F0374_CAM_FRONT_Q023",
+      "frame": 374,
+      "native_bbox": [
+        1997.0677,
+        1127.5721,
+        2027.6414,
+        1180.2535
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "Cones are intact with clear stripes, no visible breakage or missing parts; positioned as intended for channelizing."
+    },
+    {
+      "observation_id": "C18_F0374_CAM_FRONT_Q120",
+      "frame": 374,
+      "native_bbox": [
+        2133.5745,
+        1115.6561,
+        2207.9153,
+        1232.4686
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "Single cone upright and clearly marked with alternating stripes; no obvious damage or functional impairment."
+    },
+    {
+      "observation_id": "C18_F0375_CAM_FRONT_Q022",
+      "frame": 375,
+      "native_bbox": [
+        1998.8862,
+        1127.7284,
+        2027.7908,
+        1183.0845
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "Cones appear intact, stripes are visible and undamaged; no signs of collapse or major wear."
+    },
+    {
+      "observation_id": "C18_F0376_CAM_FRONT_Q006",
+      "frame": 376,
+      "native_bbox": [
+        2491.636,
+        1128.0527,
+        2576.7312,
+        1294.9589
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "Cones show standard construction with full stripes and no apparent structural damage or missing components."
+    },
+    {
+      "observation_id": "C18_F0384_CAM_FRONT_Q010",
+      "frame": 384,
+      "native_bbox": [
+        3020.0603,
+        1115.8134,
+        3216.6492,
+        1422.1903
+      ],
+      "id": 5,
+      "status": "visible_unserviceable",
+      "reason": "Severe motion blur obscures details, but the cone appears to be leaning significantly and possibly damaged; its orientation suggests instability that could impair function."
+    },
+    {
+      "observation_id": "C18_F0386_CAM_FRONT_Q009",
+      "frame": 386,
+      "native_bbox": [
+        3448.8286,
+        1142.4686,
+        3768.3916,
+        1572.2053
+      ],
+      "id": 6,
+      "status": "visible_unserviceable",
+      "reason": "Motion blur indicates rapid movement or instability. The cone is visibly tilted and appears compromised, likely preventing effective channelizing function."
+    },
+    {
+      "observation_id": "C18_F0386_CAM_FRONT_Q022",
+      "frame": 386,
+      "native_bbox": [
+        2043.1073,
+        1135.7166,
+        2076.5437,
+        1199.9016
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "The cone is fully visible with intact stripes and structure, no obvious damage or missing parts."
+    },
+    {
+      "observation_id": "C18_F0387_CAM_FRONT_Q014",
+      "frame": 387,
+      "native_bbox": [
+        1987.125,
+        1146.232,
+        1994.845,
+        1185.906
+      ],
+      "id": 2,
+      "status": "uncertain",
+      "reason": "Image is too small and blurred to assess any functional defect; insufficient visual evidence."
+    },
+    {
+      "observation_id": "C18_F0390_CAM_FRONT_Q014",
+      "frame": 390,
+      "native_bbox": [
+        2065.064,
+        1132.6106,
+        2096.26,
+        1200.3246
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "Cone appears intact with clear stripes and no visible damage or missing parts."
+    },
+    {
+      "observation_id": "C18_F0390_CAM_FRONT_Q093",
+      "frame": 390,
+      "native_bbox": [
+        2227.137,
+        1118.019,
+        2349.4268,
+        1298.8722
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "The cone is fully visible, upright, and shows no signs of breakage, collapse, or missing major parts. Stripes are clearly visible."
+    },
+    {
+      "observation_id": "C18_F0392_CAM_FRONT_Q016",
+      "frame": 392,
+      "native_bbox": [
+        2071.6909,
+        1133.9012,
+        2104.3711,
+        1191.3005
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "Cone appears intact with clear stripes; no obvious functional defects visible despite partial occlusion."
+    },
+    {
+      "observation_id": "C18_F0403_CAM_FRONT_Q059",
+      "frame": 403,
+      "native_bbox": [
+        2004.305,
+        1159.671,
+        2016.117,
+        1197.057
+      ],
+      "id": 6,
+      "status": "uncertain",
+      "reason": "Image is too small and blurred to assess any functional defect; insufficient visual evidence."
+    },
+    {
+      "observation_id": "C18_F0404_CAM_FRONT_Q037",
+      "frame": 404,
+      "native_bbox": [
+        1983.3372,
+        1136.5245,
+        2016.9983,
+        1192.228
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "Multiple channelizing devices are visible in a row, upright and intact with clear stripes; no obvious damage or missing parts."
+    },
+    {
+      "observation_id": "C18_F0405_CAM_FRONT_Q024",
+      "frame": 405,
+      "native_bbox": [
+        2002.221,
+        1149.19,
+        2010.628,
+        1189.417
+      ],
+      "id": 2,
+      "status": "visible_unserviceable",
+      "reason": "Device appears severely damaged or broken, with significant distortion and loss of structural integrity, likely preventing function."
+    },
+    {
+      "observation_id": "C18_F0407_CAM_FRONT_Q018",
+      "frame": 407,
+      "native_bbox": [
+        2004.581,
+        1157.325,
+        2014.547,
+        1198.025
+      ],
+      "id": 3,
+      "status": "visible_unserviceable",
+      "reason": "Device is heavily blurred and distorted, suggesting severe damage or collapse that prevents functional use."
+    },
+    {
+      "observation_id": "C18_F0412_CAM_FRONT_Q033",
+      "frame": 412,
+      "native_bbox": [
+        2672.6377,
+        1089.8207,
+        2762.4587,
+        1171.2617
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "Multiple channelizing devices are visible in a row, upright and intact with clear stripes; no obvious damage or missing parts."
+    },
+    {
+      "observation_id": "C18_F0413_CAM_FRONT_Q008",
+      "frame": 413,
+      "native_bbox": [
+        2705.9238,
+        1084.8552,
+        2802.8833,
+        1171.8124
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "Devices appear intact and properly aligned, with clear stripes and no visible structural defects or missing components."
+    },
+    {
+      "observation_id": "C18_F0413_CAM_FRONT_Q010",
+      "frame": 413,
+      "native_bbox": [
+        3357.0547,
+        1305.1635,
+        3834.6497,
+        2115.512
+      ],
+      "id": 6,
+      "status": "visible_unserviceable",
+      "reason": "Device is blurred due to motion, but the visible structure appears damaged or collapsed; cannot be judged as serviceable from this image alone."
+    },
+    {
+      "observation_id": "C18_F0413_CAM_FRONT_Q075",
+      "frame": 413,
+      "native_bbox": [
+        2204.9446,
+        1139.3572,
+        2295.0083,
+        1271.1318
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "The traffic cone is intact with clear, undamaged stripes and no visible breakage or missing parts; it appears fully serviceable based on visual evidence."
+    },
+    {
+      "observation_id": "C18_F0414_CAM_FRONT_Q006",
+      "frame": 414,
+      "native_bbox": [
+        2744.2749,
+        1082.5967,
+        2849.165,
+        1171.7716
+      ],
+      "id": 2,
+      "status": "visible_unserviceable",
+      "reason": "The channelizing devices are heavily blurred and appear to be in a state of disarray, with multiple units stacked or misaligned, suggesting collapse or severe damage that prevents proper function as a traffic control device."
+    },
+    {
+      "observation_id": "C18_F0414_CAM_FRONT_Q011",
+      "frame": 414,
+      "native_bbox": [
+        2661.0464,
+        1070.5244,
+        2850.4814,
+        1174.6881
+      ],
+      "id": 3,
+      "status": "visible_unserviceable",
+      "reason": "The channelizing devices are visibly damaged and improperly arranged; some appear broken or displaced, with stripes obscured or missing, indicating loss of serviceability."
+    },
+    {
+      "observation_id": "C18_F0415_CAM_FRONT_Q008",
+      "frame": 415,
+      "native_bbox": [
+        2786.0674,
+        1077.7319,
+        2901.8167,
+        1175.8521
+      ],
+      "id": 4,
+      "status": "visible_unserviceable",
+      "reason": "The channelizing devices show significant distortion and apparent damage; the alignment is compromised, and the visual evidence suggests they are not functioning as intended for traffic control."
+    },
+    {
+      "observation_id": "C18_F0416_CAM_FRONT_Q006",
+      "frame": 416,
+      "native_bbox": [
+        2833.8799,
+        1075.5377,
+        2959.1848,
+        1180.0571
+      ],
+      "id": 5,
+      "status": "visible_unserviceable",
+      "reason": "The channelizing devices appear to be in a collapsed or misaligned state with visible structural damage; their arrangement does not indicate proper serviceability for directing traffic."
+    },
+    {
+      "observation_id": "C18_F0417_CAM_FRONT_Q005",
+      "frame": 417,
+      "native_bbox": [
+        2886.0645,
+        1068.7012,
+        3025.5415,
+        1180.9558
+      ],
+      "id": 6,
+      "status": "visible_unserviceable",
+      "reason": "The channelizing devices are visibly damaged and improperly arranged, with some units appearing broken or displaced, indicating loss of function as a traffic control device."
+    },
+    {
+      "observation_id": "C18_F0418_CAM_FRONT_Q007",
+      "frame": 418,
+      "native_bbox": [
+        2943.2705,
+        1061.1277,
+        3102.521,
+        1181.8384
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "Red and white stripes are intact and clearly visible; no signs of breakage, collapse, or missing major parts."
+    },
+    {
+      "observation_id": "C18_F0419_CAM_FRONT_Q004",
+      "frame": 419,
+      "native_bbox": [
+        3010.5479,
+        1060.6497,
+        3189.1824,
+        1181.7915
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "Stripes are intact and legible; no obvious damage or functional defect visible."
+    },
+    {
+      "observation_id": "C18_F0419_CAM_FRONT_Q009",
+      "frame": 419,
+      "native_bbox": [
+        2836.3118,
+        1055.2994,
+        3190.3379,
+        1188.6849
+      ],
+      "id": 3,
+      "status": "visible_unserviceable",
+      "reason": "One device is visibly broken or collapsed, with stripes missing or distorted, indicating loss of function."
+    },
+    {
+      "observation_id": "C18_F0420_CAM_FRONT_Q003",
+      "frame": 420,
+      "native_bbox": [
+        3088.1309,
+        1053.4492,
+        3290.6287,
+        1184.8451
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "Stripes are intact and clearly visible; no signs of damage or functional failure."
+    },
+    {
+      "observation_id": "C18_F0421_CAM_FRONT_Q016",
+      "frame": 421,
+      "native_bbox": [
+        1992.8362,
+        1141.5643,
+        2019.8231,
+        1184.6726
+      ],
+      "id": 5,
+      "status": "uncertain",
+      "reason": "Image is too blurry and low resolution to assess serviceability; objects appear as indistinct red shapes."
+    },
+    {
+      "observation_id": "C18_F0422_CAM_FRONT_Q003",
+      "frame": 422,
+      "native_bbox": [
+        3281.6812,
+        1041.1379,
+        3563.0337,
+        1192.6222
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "Stripes are intact and clearly visible; no signs of breakage or functional defect."
+    },
+    {
+      "observation_id": "C18_F0423_CAM_FRONT_Q003",
+      "frame": 423,
+      "native_bbox": [
+        3405.886,
+        1037.9929,
+        3729.1921,
+        1204.1504
+      ],
+      "id": 1,
+      "status": "uncertain",
+      "reason": "Image is blurry and low resolution; objects appear to be barricades or barriers, but details are indistinct and cannot confirm serviceability."
+    },
+    {
+      "observation_id": "C18_F0423_CAM_FRONT_Q016",
+      "frame": 423,
+      "native_bbox": [
+        2030.5583,
+        1156.5637,
+        2058.5264,
+        1214.597
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "Cones are visible with clear red and white stripes; no obvious damage, breakage, or missing parts; appear functional for their purpose."
+    },
+    {
+      "observation_id": "C18_F0424_CAM_FRONT_Q094",
+      "frame": 424,
+      "native_bbox": [
+        2014.573,
+        1152.5814,
+        2037.366,
+        1194.3176
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "Cones are upright, striped clearly, and show no signs of severe damage or collapse; visible condition suggests serviceability."
+    },
+    {
+      "observation_id": "C18_F0425_CAM_FRONT_Q035",
+      "frame": 425,
+      "native_bbox": [
+        1995.7821,
+        1138.1237,
+        2025.1243,
+        1184.686
+      ],
+      "id": 4,
+      "status": "uncertain",
+      "reason": "Image is blurry and low resolution; cones appear to be in a line but details are indistinct; cannot confidently assess serviceability."
+    },
+    {
+      "observation_id": "C18_F0425_CAM_FRONT_Q090",
+      "frame": 425,
+      "native_bbox": [
+        2058.2019,
+        1150.8739,
+        2119.9985,
+        1264.7047
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "Cones are upright, striped clearly, and show no signs of damage or collapse; visible condition suggests serviceability."
+    },
+    {
+      "observation_id": "C18_F0426_CAM_FRONT_Q014",
+      "frame": 426,
+      "native_bbox": [
+        2002.5414,
+        1135.5994,
+        2031.8159,
+        1186.4486
+      ],
+      "id": 6,
+      "status": "uncertain",
+      "reason": "Image is blurry and low resolution; cones appear to be in a line but details are indistinct; cannot confidently assess serviceability."
+    },
+    {
+      "observation_id": "C18_F0429_CAM_FRONT_Q001",
+      "frame": 429,
+      "native_bbox": [
+        2364.8813,
+        1198.9487,
+        2550.1003,
+        1519.4846
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "The cone is fully visible with intact stripes and no obvious damage or missing parts; appears functional for its purpose."
+    },
+    {
+      "observation_id": "C18_F0430_CAM_FRONT_Q021",
+      "frame": 430,
+      "native_bbox": [
+        2005.9248,
+        1139.0459,
+        2033.212,
+        1184.3447
+      ],
+      "id": 2,
+      "status": "uncertain",
+      "reason": "Image is too blurred to discern any specific defects or serviceability issues; insufficient visual evidence."
+    },
+    {
+      "observation_id": "C18_F0432_CAM_FRONT_Q031",
+      "frame": 432,
+      "native_bbox": [
+        2032.639,
+        1138.823,
+        2046.838,
+        1206.017
+      ],
+      "id": 3,
+      "status": "visible_unserviceable",
+      "reason": "The cone appears heavily obscured and distorted, with no visible stripes or structural integrity; likely non-functional due to poor visibility and apparent damage."
+    },
+    {
+      "observation_id": "C18_F0432_CAM_FRONT_Q058",
+      "frame": 432,
+      "native_bbox": [
+        2060.7397,
+        1154.9355,
+        2119.8364,
+        1265.0134
+      ],
+      "id": 4,
+      "status": "uncertain",
+      "reason": "Image is blurry and lacks clear detail; cannot determine if the cones are serviceable or damaged based on visible evidence alone."
+    },
+    {
+      "observation_id": "C18_F0433_CAM_FRONT_Q028",
+      "frame": 433,
+      "native_bbox": [
+        2106.1323,
+        1100.3512,
+        2304.6978,
+        1413.3091
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "The cone is clearly visible with intact stripes, no missing parts, and appears to be standing upright and functional for channelizing traffic."
+    },
+    {
+      "observation_id": "C18_F0435_CAM_FRONT_Q019",
+      "frame": 435,
+      "native_bbox": [
+        2087.094,
+        1149.3252,
+        2149.9312,
+        1288.6335
+      ],
+      "id": 6,
+      "status": "visible_unserviceable",
+      "reason": "The cone shows significant distortion and blurring; its orientation and condition suggest it may be damaged or improperly positioned, preventing clear assessment of serviceability."
+    },
+    {
+      "observation_id": "C18_F0443_CAM_FRONT_Q005",
+      "frame": 443,
+      "native_bbox": [
+        2066.4365,
+        1166.8243,
+        2102.9529,
+        1246.7628
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "The cone is upright, shows no visible breakage or missing parts, and its stripes are intact and discernible despite low resolution."
+    },
+    {
+      "observation_id": "C18_F0443_CAM_FRONT_Q009",
+      "frame": 443,
+      "native_bbox": [
+        2036.0472,
+        1154.6136,
+        2066.0935,
+        1219.1548
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "Multiple cones are visible in a standard arrangement; none show obvious damage, collapse, or loss of critical markings. The image quality is sufficient to assess their serviceability as intact."
+    },
+    {
+      "observation_id": "C18_F0444_CAM_FRONT_Q005",
+      "frame": 444,
+      "native_bbox": [
+        2040.3212,
+        1161.4618,
+        2071.7256,
+        1233.4797
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "Cones appear upright and undamaged with clear stripes. No signs of severe breakage, missing parts, or heavy dirt obscuring visibility."
+    },
+    {
+      "observation_id": "C18_F0446_CAM_FRONT_Q004",
+      "frame": 446,
+      "native_bbox": [
+        2209.0098,
+        1133.2469,
+        2245.6877,
+        1218.9915
+      ],
+      "id": 4,
+      "status": "uncertain",
+      "reason": "The image is heavily blurred and distorted, making it impossible to assess whether the cone has visible damage, missing parts, or obscured markings. The visual evidence is insufficient for judgment."
+    },
+    {
+      "observation_id": "C18_F0446_CAM_FRONT_Q013",
+      "frame": 446,
+      "native_bbox": [
+        2025.0011,
+        1151.5764,
+        2052.7058,
+        1211.3021
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "Cones are upright with clear stripes; no obvious functional defects such as breakage, collapse, or heavy dirt that defeats visibility are visible."
+    },
+    {
+      "observation_id": "C18_F0448_CAM_FRONT_Q014",
+      "frame": 448,
+      "native_bbox": [
+        2029.6335,
+        1149.25,
+        2062.3018,
+        1219.2832
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "All cones appear intact and properly aligned. Stripes are visible and there is no indication of severe damage or missing parts."
+    },
+    {
+      "observation_id": "C18_F0449_CAM_FRONT_Q006",
+      "frame": 449,
+      "native_bbox": [
+        2116.8828,
+        1139.111,
+        2177.0347,
+        1315.6091
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "The cone is fully visible, upright, with intact stripes and base; no obvious damage or missing parts."
+    },
+    {
+      "observation_id": "C18_F0450_CAM_FRONT_Q016",
+      "frame": 450,
+      "native_bbox": [
+        2042.1201,
+        1166.306,
+        2072.4226,
+        1234.5654
+      ],
+      "id": 2,
+      "status": "visible_unserviceable",
+      "reason": "The image is heavily blurred, making it impossible to assess structural integrity or stripe visibility. The cone appears indistinct and potentially damaged or misaligned due to blur."
+    },
+    {
+      "observation_id": "C18_F0451_CAM_FRONT_Q002",
+      "frame": 451,
+      "native_bbox": [
+        2046.6582,
+        1163.5231,
+        2077.9788,
+        1239.4547
+      ],
+      "id": 3,
+      "status": "visible_unserviceable",
+      "reason": "The image is blurry and lacks sufficient detail to determine if the cone is serviceable; its form is indistinct, suggesting potential damage or poor focus."
+    },
+    {
+      "observation_id": "C18_F0451_CAM_FRONT_Q005",
+      "frame": 451,
+      "native_bbox": [
+        2074.8013,
+        1158.5647,
+        2120.6963,
+        1279.7183
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "The cone is clearly visible with intact stripes and base. Although slightly out of focus, no functional defects are evident."
+    },
+    {
+      "observation_id": "C18_F0451_CAM_FRONT_Q012",
+      "frame": 451,
+      "native_bbox": [
+        2151.505,
+        1132.61,
+        2235.365,
+        1362.157
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "The cone is fully visible, upright, with clear stripes and base; no obvious damage or missing parts."
+    },
+    {
+      "observation_id": "C18_F0453_CAM_FRONT_Q004",
+      "frame": 453,
+      "native_bbox": [
+        2054.6558,
+        1152.2178,
+        2090.4141,
+        1235.2029
+      ],
+      "id": 6,
+      "status": "visible_unserviceable",
+      "reason": "The image is blurry and lacks sufficient detail to determine if the cone is serviceable; its form is indistinct, suggesting potential damage or poor focus."
+    },
+    {
+      "observation_id": "C18_F0454_CAM_FRONT_Q008",
+      "frame": 454,
+      "native_bbox": [
+        2022.2378,
+        1147.678,
+        2051.533,
+        1209.0342
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "The cone is upright, shows no visible breakage or missing parts, and retains its striped pattern despite some blur; appears functional for channelizing."
+    },
+    {
+      "observation_id": "C18_F0458_CAM_FRONT_Q007",
+      "frame": 458,
+      "native_bbox": [
+        2997.3674,
+        1150.3287,
+        3178.1831,
+        1973.6289
+      ],
+      "id": 2,
+      "status": "visible_unserviceable",
+      "reason": "Severe motion blur obscures the cone's structure, but the visual evidence suggests it is leaning or toppled, with no clear indication of being upright and functional; likely not serviceable due to apparent instability."
+    },
+    {
+      "observation_id": "C18_F0459_CAM_FRONT_Q007",
+      "frame": 459,
+      "native_bbox": [
+        2031.726,
+        1153.3971,
+        2062.2163,
+        1221.9922
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "The cone appears upright, intact, and retains its stripes. Although slightly blurred, there is no visible damage or missing parts that would prevent function."
+    },
+    {
+      "observation_id": "C18_F0462_CAM_FRONT_Q004",
+      "frame": 462,
+      "native_bbox": [
+        2061.158,
+        1171.2938,
+        2099.7563,
+        1257.1014
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "The cones are upright, show no obvious breakage or missing major parts, and retain their striped pattern; appear serviceable based on visual evidence."
+    },
+    {
+      "observation_id": "C18_F0463_CAM_FRONT_Q007",
+      "frame": 463,
+      "native_bbox": [
+        2977.0608,
+        1237.9951,
+        3151.6387,
+        1978.0657
+      ],
+      "id": 5,
+      "status": "visible_unserviceable",
+      "reason": "Severe motion blur indicates the cone is likely leaning or has been knocked over. The visual evidence suggests it is not upright and functional, preventing use as a channelizing device."
+    },
+    {
+      "observation_id": "C18_F0463_CAM_FRONT_Q009",
+      "frame": 463,
+      "native_bbox": [
+        1987.2034,
+        1136.0323,
+        2012.146,
+        1182.4069
+      ],
+      "id": 6,
+      "status": "uncertain",
+      "reason": "The image is too blurry and low resolution to determine if the cones are upright, intact, or have visible defects. Cannot assess serviceability with confidence."
+    },
+    {
+      "observation_id": "C18_F0465_CAM_FRONT_Q008",
+      "frame": 465,
+      "native_bbox": [
+        1988.3862,
+        1125.4271,
+        2014.2823,
+        1174.9529
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "Cones are upright, intact with visible stripes, and appear to be in standard condition without obvious damage or missing parts."
+    },
+    {
+      "observation_id": "C18_F0467_CAM_FRONT_Q009",
+      "frame": 467,
+      "native_bbox": [
+        2001.966,
+        1148.883,
+        2012.733,
+        1191.202
+      ],
+      "id": 2,
+      "status": "visible_unserviceable",
+      "reason": "The cone appears significantly damaged or broken; its structure is distorted and the top portion is unclear, suggesting collapse or severe breakage that prevents functional use as a channelizer."
+    },
+    {
+      "observation_id": "C18_F0468_CAM_FRONT_Q039",
+      "frame": 468,
+      "native_bbox": [
+        2006.1045,
+        1159.0111,
+        2032.2784,
+        1204.9427
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "Cones are upright, intact with visible stripes, and appear to be in standard condition without obvious damage or missing parts."
+    },
+    {
+      "observation_id": "C18_F0470_CAM_FRONT_Q005",
+      "frame": 470,
+      "native_bbox": [
+        2034.6316,
+        1157.4144,
+        2063.9856,
+        1222.3519
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "Cones are upright, intact with visible stripes, and appear to be in standard condition without obvious damage or missing parts. Minor perspective distortion does not indicate functional defect."
+    },
+    {
+      "observation_id": "C18_F0470_CAM_FRONT_Q014",
+      "frame": 470,
+      "native_bbox": [
+        2019.7051,
+        1157.0072,
+        2046.3967,
+        1211.7681
+      ],
+      "id": 5,
+      "status": "visible_unserviceable",
+      "reason": "The cone appears significantly damaged; its structure is distorted and the top portion is unclear, suggesting collapse or severe breakage that prevents functional use as a channelizer."
+    },
+    {
+      "observation_id": "C18_F0470_CAM_FRONT_Q020",
+      "frame": 470,
+      "native_bbox": [
+        2089.0862,
+        1146.7827,
+        2167.9814,
+        1306.7301
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "Cones are upright, intact with visible stripes, and appear to be in standard condition without obvious damage or missing parts. Minor perspective distortion does not indicate functional defect."
+    },
+    {
+      "observation_id": "C18_F0471_CAM_FRONT_Q003",
+      "frame": 471,
+      "native_bbox": [
+        2040.6676,
+        1153.9471,
+        2069.8999,
+        1222.6764
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "The cone is upright, shows no visible breakage or missing parts, and its reflective stripes are intact and clearly visible despite low resolution."
+    },
+    {
+      "observation_id": "C18_F0472_CAM_FRONT_Q003",
+      "frame": 472,
+      "native_bbox": [
+        2021.3207,
+        1157.3702,
+        2047.7273,
+        1213.2668
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "Multiple cones are visible in a line; none show obvious damage, collapse, or loss of stripes. They appear structurally sound and functional for their purpose."
+    },
+    {
+      "observation_id": "C18_F0472_CAM_FRONT_Q004",
+      "frame": 472,
+      "native_bbox": [
+        2045.5944,
+        1158.2792,
+        2077.7542,
+        1228.6896
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "The cone is standing upright with clear, unbroken stripes and no visible structural defects or missing components; appears serviceable."
+    },
+    {
+      "observation_id": "C18_F0473_CAM_FRONT_Q011",
+      "frame": 473,
+      "native_bbox": [
+        2022.4208,
+        1160.662,
+        2051.2085,
+        1218.42
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "Cones are aligned in a row; all appear intact, with full stripes and no signs of severe breakage or collapse. No functional defect is evident."
+    },
+    {
+      "observation_id": "C18_F0474_CAM_FRONT_Q008",
+      "frame": 474,
+      "native_bbox": [
+        2013.715,
+        1142.206,
+        2026.867,
+        1196.493
+      ],
+      "id": 5,
+      "status": "visible_unserviceable",
+      "reason": "The cone appears to be broken or collapsed, with its base visibly deformed and the structure leaning significantly; this clearly prevents proper function as a channelizing device."
+    },
+    {
+      "observation_id": "C18_F0474_CAM_FRONT_Q018",
+      "frame": 474,
+      "native_bbox": [
+        2035.062,
+        1143.331,
+        2053.606,
+        1219.034
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "The cone is upright, shows no visible damage, and its stripes are intact. Although partially occluded by another object, it remains serviceable based on visible evidence."
+    },
+    {
+      "observation_id": "C18_F0475_CAM_FRONT_Q018",
+      "frame": 475,
+      "native_bbox": [
+        1994.1504,
+        1131.3347,
+        2022.6403,
+        1186.5277
+      ],
+      "id": 1,
+      "status": "uncertain",
+      "reason": "Image is blurry and low resolution; insufficient visual evidence to assess serviceability."
+    },
+    {
+      "observation_id": "C18_F0475_CAM_FRONT_Q195",
+      "frame": 475,
+      "native_bbox": [
+        2470.9517,
+        1116.4424,
+        2711.6106,
+        1814.267
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "Device is upright, intact with visible stripes, no obvious damage or missing parts; appears functional based on visible condition."
+    },
+    {
+      "observation_id": "C18_F0478_CAM_FRONT_Q010",
+      "frame": 478,
+      "native_bbox": [
+        1999.6561,
+        1139.2455,
+        2029.2496,
+        1196.5542
+      ],
+      "id": 3,
+      "status": "uncertain",
+      "reason": "Image is blurry and low resolution; insufficient visual evidence to assess serviceability."
+    },
+    {
+      "observation_id": "C18_F0478_CAM_FRONT_Q034",
+      "frame": 478,
+      "native_bbox": [
+        2023.613,
+        1161.2229,
+        2051.9431,
+        1216.2744
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "Device appears upright, intact with visible stripes, no obvious damage or missing parts; appears functional based on visible condition."
+    },
+    {
+      "observation_id": "C18_F0479_CAM_FRONT_Q008",
+      "frame": 479,
+      "native_bbox": [
+        2011.811,
+        1139.425,
+        2029.034,
+        1193.353
+      ],
+      "id": 5,
+      "status": "uncertain",
+      "reason": "Image is blurry and low resolution; insufficient visual evidence to assess serviceability."
+    },
+    {
+      "observation_id": "C18_F0479_CAM_FRONT_Q025",
+      "frame": 479,
+      "native_bbox": [
+        2027.3595,
+        1159.1973,
+        2054.9453,
+        1214.5189
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "Device appears upright, intact with visible stripes, no obvious damage or missing parts; appears functional based on visible condition."
+    },
+    {
+      "observation_id": "C18_F0481_CAM_FRONT_Q098",
+      "frame": 481,
+      "native_bbox": [
+        2034.9122,
+        1161.3683,
+        2067.5879,
+        1223.7427
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "The cone is upright, fully visible with clear stripes and no obvious damage or missing parts; appears functional for its purpose."
+    },
+    {
+      "observation_id": "C18_F0482_CAM_FRONT_Q008",
+      "frame": 482,
+      "native_bbox": [
+        2124.6545,
+        1192.5421,
+        2173.4146,
+        1311.0334
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "The cone is standing upright with intact stripes and base; no visible breakage, collapse, or major damage that would impair function."
+    },
+    {
+      "observation_id": "C18_F0482_CAM_FRONT_Q011",
+      "frame": 482,
+      "native_bbox": [
+        2022.646,
+        1160.229,
+        2055.0107,
+        1216.123
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "The cones are upright and clearly visible, showing full stripe patterns without obvious defects preventing their intended use."
+    },
+    {
+      "observation_id": "C18_F0484_CAM_FRONT_Q008",
+      "frame": 484,
+      "native_bbox": [
+        2080.0649,
+        1170.1619,
+        2120.7087,
+        1273.2947
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "The cone is standing upright with clear stripes and no visible damage or missing parts; appears fully serviceable."
+    },
+    {
+      "observation_id": "C18_F0486_CAM_FRONT_Q005",
+      "frame": 486,
+      "native_bbox": [
+        2094.6711,
+        1144.8689,
+        2146.1719,
+        1301.394
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "The cone is upright, clearly visible with intact stripes and base; no signs of severe breakage or functional impairment."
+    },
+    {
+      "observation_id": "C18_F0486_CAM_FRONT_Q009",
+      "frame": 486,
+      "native_bbox": [
+        2052.958,
+        1125.5682,
+        2095.6526,
+        1250.1316
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "The cones are upright and fully visible with clear stripe patterns; no obvious defects that would prevent their function as channelizing devices."
+    },
+    {
+      "observation_id": "C18_F0487_CAM_FRONT_Q002",
+      "frame": 487,
+      "native_bbox": [
+        2061.9429,
+        1169.8363,
+        2096.6748,
+        1252.4683
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "The cone is upright, fully visible with distinct red and white stripes, no apparent damage or missing parts, and appears functional for its purpose."
+    },
+    {
+      "observation_id": "C18_F0491_CAM_FRONT_Q008",
+      "frame": 491,
+      "native_bbox": [
+        2018.3922,
+        1149.9503,
+        2049.592,
+        1217.6857
+      ],
+      "id": 2,
+      "status": "visible_unserviceable",
+      "reason": "Multiple cones are visibly damaged; some appear broken or leaning significantly, and the overall arrangement suggests instability or failure to serve as effective channelizers."
+    },
+    {
+      "observation_id": "C18_F0492_CAM_FRONT_Q016",
+      "frame": 492,
+      "native_bbox": [
+        2016.557,
+        1139.248,
+        2031.29,
+        1198.826
+      ],
+      "id": 3,
+      "status": "visible_unserviceable",
+      "reason": "The cone is heavily blurred and appears distorted, with no clear visibility of its structure or markings; it is unclear if it remains functional or upright."
+    },
+    {
+      "observation_id": "C18_F0493_CAM_FRONT_Q011",
+      "frame": 493,
+      "native_bbox": [
+        2270.8093,
+        1139.2888,
+        2310.4277,
+        1228.1439
+      ],
+      "id": 4,
+      "status": "uncertain",
+      "reason": "The image is too blurry and low-resolution to discern any specific defects. The cone's orientation and condition are indistinct, making judgment impossible."
+    },
+    {
+      "observation_id": "C18_F0493_CAM_FRONT_Q035",
+      "frame": 493,
+      "native_bbox": [
+        2100.3943,
+        1147.0785,
+        2173.0066,
+        1314.9795
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "The cone is upright, clearly visible with intact stripes and no obvious damage or missing parts; it appears to be functioning as intended."
+    },
+    {
+      "observation_id": "C18_F0494_CAM_FRONT_Q013",
+      "frame": 494,
+      "native_bbox": [
+        2017.787,
+        1131.459,
+        2032.769,
+        1194.64
+      ],
+      "id": 6,
+      "status": "uncertain",
+      "reason": "The image is too blurry and low-resolution to assess the condition of the cones. Their orientation and markings are indistinct, making judgment impossible."
+    },
+    {
+      "observation_id": "C18_F0495_CAM_FRONT_Q012",
+      "frame": 495,
+      "native_bbox": [
+        2003.6661,
+        1139.2361,
+        2029.6415,
+        1194.4464
+      ],
+      "id": 1,
+      "status": "uncertain",
+      "reason": "Image is blurred and low resolution; cannot discern stripes, damage, or structural integrity."
+    },
+    {
+      "observation_id": "C18_F0497_CAM_FRONT_Q086",
+      "frame": 497,
+      "native_bbox": [
+        2165.5857,
+        1208.2765,
+        2285.6931,
+        1413.1351
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "Cones are upright, intact with visible stripes, no obvious damage or missing parts; appears functional for channelizing."
+    },
+    {
+      "observation_id": "C18_F0498_CAM_FRONT_Q014",
+      "frame": 498,
+      "native_bbox": [
+        2006.8524,
+        1142.7986,
+        2033.0745,
+        1199.4672
+      ],
+      "id": 3,
+      "status": "uncertain",
+      "reason": "Image is blurred and low resolution; cannot assess condition of cones or their serviceability."
+    },
+    {
+      "observation_id": "C18_F0499_CAM_FRONT_Q028",
+      "frame": 499,
+      "native_bbox": [
+        2192.5044,
+        1160.5643,
+        2439.8296,
+        1541.7628
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "Cones are upright, intact with visible stripes, no obvious damage or missing parts; appears functional for channelizing."
+    },
+    {
+      "observation_id": "C18_F0501_CAM_FRONT_Q003",
+      "frame": 501,
+      "native_bbox": [
+        2058.0613,
+        1144.3013,
+        2100.6421,
+        1260.8811
+      ],
+      "id": 5,
+      "status": "visible_unserviceable",
+      "reason": "Two cones appear to be leaning significantly and possibly damaged or unstable, which would prevent proper function as a channelizer."
+    },
+    {
+      "observation_id": "C18_F0501_CAM_FRONT_Q004",
+      "frame": 501,
+      "native_bbox": [
+        2132.5901,
+        1164.1918,
+        2192.9312,
+        1342.715
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "Cones are upright, intact with visible stripes, no obvious damage or missing parts; appears functional for channelizing."
+    },
+    {
+      "observation_id": "C18_F0503_CAM_FRONT_Q014",
+      "frame": 503,
+      "native_bbox": [
+        2032.4312,
+        1153.9048,
+        2060.9819,
+        1216.1697
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "Cone is upright, intact with visible stripes and base; no obvious damage or missing parts."
+    },
+    {
+      "observation_id": "C18_F0503_CAM_FRONT_Q018",
+      "frame": 503,
+      "native_bbox": [
+        2058.1785,
+        1168.4082,
+        2092.4485,
+        1250.7032
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "Cone appears fully assembled, standing upright with clear markings; no visible breakage or major defects."
+    },
+    {
+      "observation_id": "C18_F0507_CAM_FRONT_Q004",
+      "frame": 507,
+      "native_bbox": [
+        2029.3462,
+        1145.2133,
+        2060.9126,
+        1223.8892
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "Cone is in standard position, shows no signs of collapse, missing parts, or severe damage; stripes are discernible."
+    },
+    {
+      "observation_id": "C18_F0508_CAM_FRONT_Q003",
+      "frame": 508,
+      "native_bbox": [
+        2060.9177,
+        1166.1674,
+        2092.55,
+        1240.0885
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "Cone is stable and fully visible with intact markings; no obvious functional defects or damage."
+    },
+    {
+      "observation_id": "C18_F0509_CAM_FRONT_Q009",
+      "frame": 509,
+      "native_bbox": [
+        2020.1932,
+        1123.5961,
+        2048.1228,
+        1196.2859
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "Multiple cones are upright, in standard configuration, with visible stripes and bases; no apparent damage."
+    },
+    {
+      "observation_id": "C18_F0510_CAM_FRONT_Q005",
+      "frame": 510,
+      "native_bbox": [
+        2043.3158,
+        1159.1882,
+        2073.7769,
+        1228.0238
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "Cone is standing normally, shows no signs of breakage or missing components; markings are legible."
+    },
+    {
+      "observation_id": "C18_F0512_CAM_FRONT_Q004",
+      "frame": 512,
+      "native_bbox": [
+        2162.6204,
+        1143.6836,
+        2224.9858,
+        1359.0629
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "Orange cone with visible white reflective stripes, intact base, no obvious damage or missing parts; clearly identifiable as a functional channelizing device."
+    },
+    {
+      "observation_id": "C18_F0513_CAM_FRONT_Q010",
+      "frame": 513,
+      "native_bbox": [
+        2355.356,
+        1144.0574,
+        2398.5271,
+        1276.2952
+      ],
+      "id": 2,
+      "status": "uncertain",
+      "reason": "Image is blurry and out of focus; details such as stripe integrity or structural condition are indistinct; cannot confidently assess serviceability."
+    },
+    {
+      "observation_id": "C18_F0517_CAM_FRONT_Q108",
+      "frame": 517,
+      "native_bbox": [
+        2349.3879,
+        1139.0447,
+        2542.0618,
+        1614.4397
+      ],
+      "id": 3,
+      "status": "visible_unserviceable",
+      "reason": "Severe motion blur and haze obscure the cone's structure; appears to be partially or fully obscured, making functional status unassessable due to lack of visible integrity."
+    },
+    {
+      "observation_id": "C18_F0530_CAM_FRONT_Q035",
+      "frame": 530,
+      "native_bbox": [
+        2118.4482,
+        1166.9908,
+        2154.7129,
+        1256.3486
+      ],
+      "id": 4,
+      "status": "uncertain",
+      "reason": "Multiple cones are visible but heavily blurred; details like stripes or base condition are indiscernible; insufficient visual evidence to determine serviceability."
+    },
+    {
+      "observation_id": "C18_F0534_CAM_FRONT_Q007",
+      "frame": 534,
+      "native_bbox": [
+        2157.8352,
+        1177.9916,
+        2203.7375,
+        1297.5338
+      ],
+      "id": 5,
+      "status": "visible_unserviceable",
+      "reason": "Image is blurry and lacks clear definition of the cone's structure, stripes, or base; cannot confirm whether it is functional or damaged."
+    },
+    {
+      "observation_id": "C18_F0536_CAM_FRONT_Q003",
+      "frame": 536,
+      "native_bbox": [
+        2153.7759,
+        1166.8337,
+        2198.3115,
+        1288.0654
+      ],
+      "id": 6,
+      "status": "uncertain",
+      "reason": "Cones are visible but heavily blurred; details such as stripe condition or structural integrity are not discernible; insufficient evidence to assess serviceability."
+    },
+    {
+      "observation_id": "C18_F0547_CAM_FRONT_Q816",
+      "frame": 547,
+      "native_bbox": [
+        2833.7236,
+        1140.8794,
+        2951.8601,
+        1814.7349
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "The channelizing device is visible and appears intact with clear vertical orientation, no obvious breakage or missing parts; stripes are discernible despite low resolution."
+    },
+    {
+      "observation_id": "C18_F0564_CAM_FRONT_Q005",
+      "frame": 564,
+      "native_bbox": [
+        3622.7559,
+        962.5692,
+        3664.1289,
+        1060.0393
+      ],
+      "id": 2,
+      "status": "visible_unserviceable",
+      "reason": "The device is heavily blurred and distorted, with indistinct stripes and unclear structure, suggesting significant damage that defeats its primary function of guiding traffic."
+    }
+  ],
+  "counts": {
+    "uncertain": 25,
+    "visible_serviceable": 108,
+    "visible_unserviceable": 31
+  },
+  "scope": "image-visible serviceability only, model evidence, not proof of unseen/night condition or historical replacement"
+}

@@ -1,0 +1,102 @@
+{
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "image_sha256": "ea8bd137652310881c942d872501c0a4b44a4e8886566ee289aacd4592a5ac89",
+  "response": {
+    "model": "qwen3-vl:4b-instruct",
+    "created_at": "2026-10-21T14:49:58.808568297Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"items\": [\n    {\n      \"id\": 1,\n      \"status\": \"uncertain\",\n      \"reason\": \"Image is blurred and low resolution; cannot discern stripes, damage, or structural integrity.\"\n    },\n    {\n      \"id\": 2,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Cones are upright, intact with visible stripes, no obvious damage or missing parts; appears functional for channelizing.\"\n    },\n    {\n      \"id\": 3,\n      \"status\": \"uncertain\",\n      \"reason\": \"Image is blurred and low resolution; cannot assess condition of cones or their serviceability.\"\n    },\n    {\n      \"id\": 4,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Cones are upright, intact with visible stripes, no obvious damage or missing parts; appears functional for channelizing.\"\n    },\n    {\n      \"id\": 5,\n      \"status\": \"visible_unserviceable\",\n      \"reason\": \"Two cones appear to be leaning significantly and possibly damaged or unstable, which would prevent proper function as a channelizer.\"\n    },\n    {\n      \"id\": 6,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Cones are upright, intact with visible stripes, no obvious damage or missing parts; appears functional for channelizing.\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 4094449364,
+    "load_duration": 163770048,
+    "prompt_eval_count": 1299,
+    "prompt_eval_duration": 604263000,
+    "eval_count": 285,
+    "eval_duration": 3140735000
+  },
+  "observations": [
+    {
+      "observation_id": "C18_F0495_CAM_FRONT_Q012",
+      "frame": 495,
+      "native_bbox": [
+        2003.6661,
+        1139.2361,
+        2029.6415,
+        1194.4464
+      ],
+      "id": 1,
+      "status": "uncertain",
+      "reason": "Image is blurred and low resolution; cannot discern stripes, damage, or structural integrity."
+    },
+    {
+      "observation_id": "C18_F0497_CAM_FRONT_Q086",
+      "frame": 497,
+      "native_bbox": [
+        2165.5857,
+        1208.2765,
+        2285.6931,
+        1413.1351
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "Cones are upright, intact with visible stripes, no obvious damage or missing parts; appears functional for channelizing."
+    },
+    {
+      "observation_id": "C18_F0498_CAM_FRONT_Q014",
+      "frame": 498,
+      "native_bbox": [
+        2006.8524,
+        1142.7986,
+        2033.0745,
+        1199.4672
+      ],
+      "id": 3,
+      "status": "uncertain",
+      "reason": "Image is blurred and low resolution; cannot assess condition of cones or their serviceability."
+    },
+    {
+      "observation_id": "C18_F0499_CAM_FRONT_Q028",
+      "frame": 499,
+      "native_bbox": [
+        2192.5044,
+        1160.5643,
+        2439.8296,
+        1541.7628
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "Cones are upright, intact with visible stripes, no obvious damage or missing parts; appears functional for channelizing."
+    },
+    {
+      "observation_id": "C18_F0501_CAM_FRONT_Q003",
+      "frame": 501,
+      "native_bbox": [
+        2058.0613,
+        1144.3013,
+        2100.6421,
+        1260.8811
+      ],
+      "id": 5,
+      "status": "visible_unserviceable",
+      "reason": "Two cones appear to be leaning significantly and possibly damaged or unstable, which would prevent proper function as a channelizer."
+    },
+    {
+      "observation_id": "C18_F0501_CAM_FRONT_Q004",
+      "frame": 501,
+      "native_bbox": [
+        2132.5901,
+        1164.1918,
+        2192.9312,
+        1342.715
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "Cones are upright, intact with visible stripes, no obvious damage or missing parts; appears functional for channelizing."
+    }
+  ],
+  "human_confirmed_condition": false
+}

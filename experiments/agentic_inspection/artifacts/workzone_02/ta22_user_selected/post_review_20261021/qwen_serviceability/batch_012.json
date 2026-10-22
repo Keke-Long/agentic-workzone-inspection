@@ -1,0 +1,102 @@
+{
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "image_sha256": "f03df9e725aa747d951afd0737f2319a2e124660b400f654566d2b5774ddfe74",
+  "response": {
+    "model": "qwen3-vl:4b-instruct",
+    "created_at": "2026-10-21T14:49:10.041225779Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"items\": [\n    {\n      \"id\": 1,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"The traffic cone is intact with clear, undamaged stripes and no visible breakage or missing parts; it appears fully serviceable based on visual evidence.\"\n    },\n    {\n      \"id\": 2,\n      \"status\": \"visible_unserviceable\",\n      \"reason\": \"The channelizing devices are heavily blurred and appear to be in a state of disarray, with multiple units stacked or misaligned, suggesting collapse or severe damage that prevents proper function as a traffic control device.\"\n    },\n    {\n      \"id\": 3,\n      \"status\": \"visible_unserviceable\",\n      \"reason\": \"The channelizing devices are visibly damaged and improperly arranged; some appear broken or displaced, with stripes obscured or missing, indicating loss of serviceability.\"\n    },\n    {\n      \"id\": 4,\n      \"status\": \"visible_unserviceable\",\n      \"reason\": \"The channelizing devices show significant distortion and apparent damage; the alignment is compromised, and the visual evidence suggests they are not functioning as intended for traffic control.\"\n    },\n    {\n      \"id\": 5,\n      \"status\": \"visible_unserviceable\",\n      \"reason\": \"The channelizing devices appear to be in a collapsed or misaligned state with visible structural damage; their arrangement does not indicate proper serviceability for directing traffic.\"\n    },\n    {\n      \"id\": 6,\n      \"status\": \"visible_unserviceable\",\n      \"reason\": \"The channelizing devices are visibly damaged and improperly arranged, with some units appearing broken or displaced, indicating loss of function as a traffic control device.\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 4001377380,
+    "load_duration": 187760796,
+    "prompt_eval_count": 1299,
+    "prompt_eval_duration": 544460000,
+    "eval_count": 356,
+    "eval_duration": 3072405000
+  },
+  "observations": [
+    {
+      "observation_id": "C18_F0413_CAM_FRONT_Q075",
+      "frame": 413,
+      "native_bbox": [
+        2204.9446,
+        1139.3572,
+        2295.0083,
+        1271.1318
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "The traffic cone is intact with clear, undamaged stripes and no visible breakage or missing parts; it appears fully serviceable based on visual evidence."
+    },
+    {
+      "observation_id": "C18_F0414_CAM_FRONT_Q006",
+      "frame": 414,
+      "native_bbox": [
+        2744.2749,
+        1082.5967,
+        2849.165,
+        1171.7716
+      ],
+      "id": 2,
+      "status": "visible_unserviceable",
+      "reason": "The channelizing devices are heavily blurred and appear to be in a state of disarray, with multiple units stacked or misaligned, suggesting collapse or severe damage that prevents proper function as a traffic control device."
+    },
+    {
+      "observation_id": "C18_F0414_CAM_FRONT_Q011",
+      "frame": 414,
+      "native_bbox": [
+        2661.0464,
+        1070.5244,
+        2850.4814,
+        1174.6881
+      ],
+      "id": 3,
+      "status": "visible_unserviceable",
+      "reason": "The channelizing devices are visibly damaged and improperly arranged; some appear broken or displaced, with stripes obscured or missing, indicating loss of serviceability."
+    },
+    {
+      "observation_id": "C18_F0415_CAM_FRONT_Q008",
+      "frame": 415,
+      "native_bbox": [
+        2786.0674,
+        1077.7319,
+        2901.8167,
+        1175.8521
+      ],
+      "id": 4,
+      "status": "visible_unserviceable",
+      "reason": "The channelizing devices show significant distortion and apparent damage; the alignment is compromised, and the visual evidence suggests they are not functioning as intended for traffic control."
+    },
+    {
+      "observation_id": "C18_F0416_CAM_FRONT_Q006",
+      "frame": 416,
+      "native_bbox": [
+        2833.8799,
+        1075.5377,
+        2959.1848,
+        1180.0571
+      ],
+      "id": 5,
+      "status": "visible_unserviceable",
+      "reason": "The channelizing devices appear to be in a collapsed or misaligned state with visible structural damage; their arrangement does not indicate proper serviceability for directing traffic."
+    },
+    {
+      "observation_id": "C18_F0417_CAM_FRONT_Q005",
+      "frame": 417,
+      "native_bbox": [
+        2886.0645,
+        1068.7012,
+        3025.5415,
+        1180.9558
+      ],
+      "id": 6,
+      "status": "visible_unserviceable",
+      "reason": "The channelizing devices are visibly damaged and improperly arranged, with some units appearing broken or displaced, indicating loss of function as a traffic control device."
+    }
+  ],
+  "human_confirmed_condition": false
+}

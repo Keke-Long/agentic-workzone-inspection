@@ -1,0 +1,102 @@
+{
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "image_sha256": "2f882c9a84eb7e211f6931bc24a8229d4923af1413b035922619ad5ef7fafb31",
+  "response": {
+    "model": "qwen3-vl:4b-instruct",
+    "created_at": "2026-10-21T14:49:37.648905494Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"items\": [\n    {\n      \"id\": 1,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Cones are upright, intact with visible stripes, and appear to be in standard condition without obvious damage or missing parts.\"\n    },\n    {\n      \"id\": 2,\n      \"status\": \"visible_unserviceable\",\n      \"reason\": \"The cone appears significantly damaged or broken; its structure is distorted and the top portion is unclear, suggesting collapse or severe breakage that prevents functional use as a channelizer.\"\n    },\n    {\n      \"id\": 3,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Cones are upright, intact with visible stripes, and appear to be in standard condition without obvious damage or missing parts.\"\n    },\n    {\n      \"id\": 4,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Cones are upright, intact with visible stripes, and appear to be in standard condition without obvious damage or missing parts. Minor perspective distortion does not indicate functional defect.\"\n    },\n    {\n      \"id\": 5,\n      \"status\": \"visible_unserviceable\",\n      \"reason\": \"The cone appears significantly damaged; its structure is distorted and the top portion is unclear, suggesting collapse or severe breakage that prevents functional use as a channelizer.\"\n    },\n    {\n      \"id\": 6,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Cones are upright, intact with visible stripes, and appear to be in standard condition without obvious damage or missing parts. Minor perspective distortion does not indicate functional defect.\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 4272544362,
+    "load_duration": 154819420,
+    "prompt_eval_count": 1299,
+    "prompt_eval_duration": 595313000,
+    "eval_count": 342,
+    "eval_duration": 3330758000
+  },
+  "observations": [
+    {
+      "observation_id": "C18_F0465_CAM_FRONT_Q008",
+      "frame": 465,
+      "native_bbox": [
+        1988.3862,
+        1125.4271,
+        2014.2823,
+        1174.9529
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "Cones are upright, intact with visible stripes, and appear to be in standard condition without obvious damage or missing parts."
+    },
+    {
+      "observation_id": "C18_F0467_CAM_FRONT_Q009",
+      "frame": 467,
+      "native_bbox": [
+        2001.966,
+        1148.883,
+        2012.733,
+        1191.202
+      ],
+      "id": 2,
+      "status": "visible_unserviceable",
+      "reason": "The cone appears significantly damaged or broken; its structure is distorted and the top portion is unclear, suggesting collapse or severe breakage that prevents functional use as a channelizer."
+    },
+    {
+      "observation_id": "C18_F0468_CAM_FRONT_Q039",
+      "frame": 468,
+      "native_bbox": [
+        2006.1045,
+        1159.0111,
+        2032.2784,
+        1204.9427
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "Cones are upright, intact with visible stripes, and appear to be in standard condition without obvious damage or missing parts."
+    },
+    {
+      "observation_id": "C18_F0470_CAM_FRONT_Q005",
+      "frame": 470,
+      "native_bbox": [
+        2034.6316,
+        1157.4144,
+        2063.9856,
+        1222.3519
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "Cones are upright, intact with visible stripes, and appear to be in standard condition without obvious damage or missing parts. Minor perspective distortion does not indicate functional defect."
+    },
+    {
+      "observation_id": "C18_F0470_CAM_FRONT_Q014",
+      "frame": 470,
+      "native_bbox": [
+        2019.7051,
+        1157.0072,
+        2046.3967,
+        1211.7681
+      ],
+      "id": 5,
+      "status": "visible_unserviceable",
+      "reason": "The cone appears significantly damaged; its structure is distorted and the top portion is unclear, suggesting collapse or severe breakage that prevents functional use as a channelizer."
+    },
+    {
+      "observation_id": "C18_F0470_CAM_FRONT_Q020",
+      "frame": 470,
+      "native_bbox": [
+        2089.0862,
+        1146.7827,
+        2167.9814,
+        1306.7301
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "Cones are upright, intact with visible stripes, and appear to be in standard condition without obvious damage or missing parts. Minor perspective distortion does not indicate functional defect."
+    }
+  ],
+  "human_confirmed_condition": false
+}

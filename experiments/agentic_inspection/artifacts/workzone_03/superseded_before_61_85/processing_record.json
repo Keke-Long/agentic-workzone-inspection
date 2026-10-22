@@ -1,0 +1,182 @@
+{
+  "schema": "workzone_processing_record_v1",
+  "paper_case_name": "Workzone 3",
+  "workzone_id": "workzone_03",
+  "scene_id": "scene-CATS-15",
+  "raw_dataset_case": "Case_14",
+  "raw_root": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/",
+  "status": "stage0_indeterminate_routing_unconfirmed",
+  "selection_manifest": "/home/klong23/workzone/data/workzone_03/selection_manifest.json",
+  "excluded_interval_s": [
+    0,
+    20
+  ],
+  "retained_camera0_images": 796,
+  "retained_lidar_frames": 796,
+  "primary_method": "kg_plus_bm25",
+  "layout_selection": "pending_case_specific_stage0",
+  "posted_speed_mph": 20,
+  "work_duration_category": null,
+  "calibration": "black",
+  "completed_stages": [
+    0
+  ],
+  "stage_records": [
+    {
+      "stage": 0,
+      "status": "executed_indeterminate",
+      "request": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/benchmark/stage1_stage2/kg_plus_bm25/scene-CATS-15/request_manifest.json",
+      "model_response": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/benchmark/stage1_stage2/kg_plus_bm25/scene-CATS-15/raw_responses.json",
+      "tool_trace": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/benchmark/stage1_stage2/kg_plus_bm25/scene-CATS-15/tool_trace.json",
+      "report": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/benchmark/stage1_stage2/kg_plus_bm25/scene-CATS-15/stage_0_layout_selection.json"
+    },
+    {
+      "stage": 1,
+      "status": "not_started_pending_stage0",
+      "request": null,
+      "model_response": null,
+      "tool_trace": null,
+      "report": null
+    },
+    {
+      "stage": 2,
+      "status": "not_started_pending_stage0",
+      "request": null,
+      "model_response": null,
+      "tool_trace": null,
+      "report": null
+    },
+    {
+      "stage": 3,
+      "status": "not_started_pending_stage0",
+      "request": null,
+      "model_response": null,
+      "tool_trace": null,
+      "report": null
+    },
+    {
+      "stage": 4,
+      "status": "not_started_pending_stage0",
+      "request": null,
+      "model_response": null,
+      "tool_trace": null,
+      "report": null
+    },
+    {
+      "stage": 5,
+      "status": "not_started_pending_stage0",
+      "request": null,
+      "model_response": null,
+      "tool_trace": null,
+      "report": null
+    },
+    {
+      "stage": 6,
+      "status": "not_started_pending_stage0",
+      "request": null,
+      "model_response": null,
+      "tool_trace": null,
+      "report": null
+    }
+  ],
+  "notes": [
+    "Raw sources unchanged; only camera0 selected.",
+    "No earlier case observations, scene parameters, measurements or conclusions reused.",
+    "Detections, BEV and compliance conclusions have not been produced.",
+    "Last camera frame has nearest LiDAR reference delta 100.010444 ms, flagged for synchronization validation."
+  ],
+  "work_duration_days_upper_bound": 3,
+  "work_duration_upper_bound_exclusive": true,
+  "user_confirmed_facts": {
+    "vehicle": "black",
+    "posted_speed_mph": 20,
+    "work_duration": "less_than_3_days",
+    "duration_subcategory": "unknown; less than three days alone does not distinguish short-term from intermediate-term",
+    "opposing_direction_lane_fully_closed": true
+  },
+  "prepared_root": "/home/klong23/workzone/data/workzone_03/processed",
+  "configuration_directory": "/home/klong23/workzone/experiments/agentic_inspection/config/workzone_03",
+  "scene_understanding": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/scene_understanding/result.json",
+  "preflight": {
+    "passed": true,
+    "checks": 18,
+    "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/preflight/workzone_03/stage1_kg_bm25.json"
+  },
+  "pending_scope": null,
+  "bev_status": "sensor_background_complete_objects_pending",
+  "implementation_notes": [
+    "Prepared images use reference undistortion; corrected NovAtel Y-forward ego rotation, not legacy xyz Euler mapping.",
+    "Preflight removed a hash dependency on deleted legacy materialize_current_scene.py; materialized scene and live implementation files remain frozen."
+  ],
+  "inspection_scope": "Only later channelized area; earlier work vehicles/workers excluded",
+  "approach_context_time_range_s": [
+    52,
+    94.6
+  ],
+  "primary_work_area_approximate_time_range_s": [
+    78,
+    90
+  ],
+  "sensor_bev": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev",
+  "invalid_attempt_record": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/diagnostics/invalid_capture_vehicle_inference/invalidation.json",
+  "stage0_outcome": "indeterminate after full opposing-lane closure confirmation",
+  "missing_scene_fields": [
+    "Confirmed opposing-traffic routing: on-site temporary diversion, off-site detour, or another treatment",
+    "Whether a temporary roadway or alignment exists within or adjacent to the right-of-way",
+    "Whether the closure extends to the entire roadway/route or only the opposing-direction lane",
+    "Exact work-area limits relative to the all-way-stop intersection, if an intersection-specific Typical Application is intended"
+  ],
+  "status_report": "/home/klong23/workzone/experiments/agentic_inspection/reports/workzone_03/preparation_status.html",
+  "tentative_user_facts": {
+    "opposing_traffic_detour": "expected, unconfirmed"
+  },
+  "stage0_quality_note": "Selected references TA-7/TA-8 are alternatives, not an approved primary layout. Scope remains single opposing-direction lane; do not infer whole-road closure.",
+  "object_detection": {
+    "status": "initial_detection_and_representative_classification_complete_pending_review",
+    "detector": "IDEA-Research/grounding-dino-tiny",
+    "classification_model": "gpt-5.6-luna",
+    "frame_count": 426,
+    "scope_time_range_s": [
+      52,
+      94.6
+    ],
+    "candidate_root": "/home/klong23/workzone/data/workzone_03/detections",
+    "policy": "unreviewed model predictions; no accepted observations or normative conclusions updated",
+    "viewer_route": "/workzone3/detections",
+    "current_result": "/home/klong23/workzone/data/workzone_03/detections/current_detections.json",
+    "summary": {
+      "schema": "workzone_model_reviewed_tracklet_candidates_v1",
+      "workzone_id": "workzone_03",
+      "frame_count": 426,
+      "raw_candidate_count": 10972,
+      "tracklet_count": 5204,
+      "classification_model": "gpt-5.6-luna",
+      "model_classified_representatives": 571,
+      "filter_group_counts": {
+        "other_sign": 106,
+        "background": 206,
+        "unverified": 4633,
+        "uncertain": 93,
+        "target": 95,
+        "box_review": 71
+      },
+      "target_class_counts": {
+        "traffic_sign": 53,
+        "barricade": 15,
+        "worker": 4,
+        "road_barrier": 6,
+        "traffic_cone": 17
+      },
+      "policy": "Provisional 2D tracklets, not physical object counts. One representative classified for tracklets with >=3 observations; other frames remain inferred/unreviewed. Raw/background/uncertain candidates retained. No human acceptance, 3D verification, or normative findings. Earlier Qwen classification failed spot-check and is not used. Default target view additionally requires model-rated single-object bbox. Multi-object, truncated or unclear boxes have a separate box_review group; no detections deleted.",
+      "box_review_class_counts": {
+        "traffic_sign": 5,
+        "traffic_cone": 54,
+        "barricade": 11,
+        "vertical_panel": 1
+      }
+    },
+    "viewer_report": "/home/klong23/workzone/experiments/agentic_inspection/reports/workzone_03/detections.html",
+    "browser_validation": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/detection_verification/viewer_validation.json",
+    "excluded_classifier": "qwen3-vl:4b-instruct failed visual spot-check; not used in current results"
+  }
+}

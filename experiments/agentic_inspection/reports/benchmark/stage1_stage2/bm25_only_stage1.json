@@ -1,0 +1,178 @@
+{
+  "schema": "case1_stage1_candidate_evaluation_v1",
+  "expected_count": 15,
+  "unique_candidate_count": 26,
+  "surfaced_count": 2,
+  "candidate_recall": 0.13333333333333333,
+  "mandatory": {
+    "expected": 5,
+    "surfaced": 0,
+    "recall": 0.0
+  },
+  "guidance": {
+    "expected": 10,
+    "surfaced": 2,
+    "recall": 0.2
+  },
+  "missed_expected_ids": [
+    "LC-01",
+    "LC-02",
+    "AWS-01",
+    "AWS-02",
+    "AWS-03",
+    "AWS-05",
+    "AWS-06",
+    "CH-01",
+    "CH-02",
+    "CH-03",
+    "TT-04",
+    "AD-01",
+    "AD-03"
+  ],
+  "known_invalid_candidate_count": 0,
+  "known_invalid_candidates": [],
+  "gold_candidate_density": 0.07692307692307693,
+  "returned_counts_by_domain_or_layer": {
+    "advance_warning_sign_system": 16,
+    "channelization_system": 15,
+    "conditional_active_devices": 13,
+    "conditional_termination_area": 15,
+    "lane_closure_layout": 15,
+    "transition_and_taper_geometry": 16
+  },
+  "details": [
+    {
+      "expected_id": "LC-01",
+      "source_node_ids": [
+        "src_25baa4f2f2ea8a767a6a"
+      ],
+      "surfaced": false,
+      "first_seen": null
+    },
+    {
+      "expected_id": "LC-02",
+      "source_node_ids": [
+        "src_e65583438482e0520dd4"
+      ],
+      "surfaced": false,
+      "first_seen": null
+    },
+    {
+      "expected_id": "AWS-01",
+      "source_node_ids": [
+        "src_3a61a102f3394eb624c4"
+      ],
+      "surfaced": false,
+      "first_seen": null
+    },
+    {
+      "expected_id": "AWS-02",
+      "source_node_ids": [
+        "src_26bd048211769b2b09e8"
+      ],
+      "surfaced": false,
+      "first_seen": null
+    },
+    {
+      "expected_id": "AWS-03",
+      "source_node_ids": [
+        "src_34c2cf162b6da3a055fe"
+      ],
+      "surfaced": false,
+      "first_seen": null
+    },
+    {
+      "expected_id": "AWS-04",
+      "source_node_ids": [
+        "src_eafd02c3dbce3f8109a1"
+      ],
+      "surfaced": true,
+      "first_seen": {
+        "tool": "load_domain_gap_candidates",
+        "domain_or_layer": "advance_warning_sign_system",
+        "rank_in_call": 13,
+        "retrieval_score": 11.481941
+      }
+    },
+    {
+      "expected_id": "AWS-05",
+      "source_node_ids": [
+        "src_f4754637d8b58f23e636"
+      ],
+      "surfaced": false,
+      "first_seen": null
+    },
+    {
+      "expected_id": "AWS-06",
+      "source_node_ids": [
+        "src_6ee70d9c1617acd549c4",
+        "src_7a245af2a19d44b87030"
+      ],
+      "surfaced": false,
+      "first_seen": null
+    },
+    {
+      "expected_id": "CH-01",
+      "source_node_ids": [
+        "src_2afdeb6d23fb7be10144"
+      ],
+      "surfaced": false,
+      "first_seen": null
+    },
+    {
+      "expected_id": "CH-02",
+      "source_node_ids": [
+        "src_65f8e6d2257292e4b29b"
+      ],
+      "surfaced": false,
+      "first_seen": null
+    },
+    {
+      "expected_id": "CH-03",
+      "source_node_ids": [
+        "src_c20be98384c5d0b17a53"
+      ],
+      "surfaced": false,
+      "first_seen": null
+    },
+    {
+      "expected_id": "TT-03",
+      "source_node_ids": [
+        "src_84bd10c92c883edc52f8",
+        "src_8830bc798575a0d34908",
+        "src_efd418222a3f416f1e38"
+      ],
+      "surfaced": true,
+      "first_seen": {
+        "tool": "load_domain_gap_candidates",
+        "domain_or_layer": "transition_and_taper_geometry",
+        "rank_in_call": 5,
+        "retrieval_score": 12.940759
+      }
+    },
+    {
+      "expected_id": "TT-04",
+      "source_node_ids": [
+        "src_4f2b68c743a6b9bd3723"
+      ],
+      "surfaced": false,
+      "first_seen": null
+    },
+    {
+      "expected_id": "AD-01",
+      "source_node_ids": [
+        "src_221a2387ff9abfa9e69e"
+      ],
+      "surfaced": false,
+      "first_seen": null
+    },
+    {
+      "expected_id": "AD-03",
+      "source_node_ids": [
+        "src_7ef08d9dba4ab38ffa40"
+      ],
+      "surfaced": false,
+      "first_seen": null
+    }
+  ]
+}

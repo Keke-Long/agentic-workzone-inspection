@@ -1,0 +1,775 @@
+{
+  "schema": "srag_bm25_v5_stage_order_preflight_v1",
+  "config_path": "/home/klong23/workzone/experiments/agentic_inspection/config/workzone_01/stage1_bm25_only.json",
+  "passed": true,
+  "checks": [
+    {
+      "number": 1,
+      "name": "configured credential is present and private",
+      "passed": true,
+      "status": "passed",
+      "critical": true,
+      "evidence": {
+        "credential_path": "/home/klong23/.config/workzone/openai_credentials.json",
+        "file_mode": "0o600"
+      }
+    },
+    {
+      "number": 2,
+      "name": "unregistered normative measurement is rejected",
+      "passed": true,
+      "status": "passed",
+      "critical": true,
+      "evidence": {
+        "status": "failure",
+        "failure_reason": "measurement_before_requirement_registration",
+        "tool": "audit_channelizer_spacing"
+      }
+    },
+    {
+      "number": 3,
+      "name": "nonexistent run-local key is rejected",
+      "passed": true,
+      "status": "passed",
+      "critical": true,
+      "evidence": {
+        "status": "failure",
+        "failure_reason": "measurement_before_requirement_registration",
+        "tool": "audit_channelizer_spacing"
+      }
+    },
+    {
+      "number": 4,
+      "name": "registered generic spacing measurement succeeds",
+      "passed": true,
+      "status": "passed",
+      "critical": true,
+      "evidence": {
+        "status": "acquired",
+        "measurement_id": "measurement_9600065ddcb95df76f49",
+        "gaps_evaluated": 30,
+        "clear_exceedance_gap_count": 0,
+        "violation_run_count": 0
+      }
+    },
+    {
+      "number": 5,
+      "name": "threshold is derived from registered formula and scene fact",
+      "passed": true,
+      "status": "passed",
+      "critical": true,
+      "evidence": {
+        "taper": {
+          "value": 30.0,
+          "unit": "ft",
+          "violation_when": "above_maximum",
+          "value_m": 9.144
+        },
+        "tangent": {
+          "value": 60.0,
+          "unit": "ft",
+          "violation_when": "above_maximum",
+          "value_m": 18.288
+        }
+      }
+    },
+    {
+      "number": 6,
+      "name": "every current measurement follows its requirement registration",
+      "passed": true,
+      "status": "passed",
+      "critical": true,
+      "evidence": {
+        "issues": [],
+        "registration_event": 3,
+        "measurement_event": 14
+      }
+    },
+    {
+      "number": 7,
+      "name": "measurement tool names descriptions schemas and defaults contain no answer leak",
+      "passed": true,
+      "status": "passed",
+      "critical": true,
+      "evidence": {
+        "leaks": [],
+        "spacing_parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "discovered_requirement_key": {
+              "type": "string",
+              "description": "Run-local key returned by submit_requirement_batch."
+            }
+          },
+          "required": [
+            "discovered_requirement_key"
+          ]
+        }
+      }
+    },
+    {
+      "number": 8,
+      "name": "all normative geometry tools require a run-local requirement key",
+      "passed": true,
+      "status": "passed",
+      "critical": true,
+      "evidence": {
+        "normative_tools": [
+          "audit_channelizer_spacing",
+          "estimate_available_width",
+          "measure_buffer_length",
+          "measure_device_spacing",
+          "measure_downstream_taper",
+          "measure_longitudinal_distance",
+          "measure_sign_spacing",
+          "measure_taper_length"
+        ],
+        "missing_key": []
+      }
+    },
+    {
+      "number": 9,
+      "name": "model payload boundary contains no hidden target requirement ID",
+      "passed": true,
+      "status": "passed",
+      "critical": true,
+      "evidence": {
+        "pattern_matches": []
+      }
+    },
+    {
+      "number": 10,
+      "name": "phase-specific tool exposure enforces the seven-stage sequence",
+      "passed": true,
+      "status": "passed",
+      "critical": true,
+      "evidence": {
+        "phase": "measurement",
+        "available_tools": [
+          "audit_channelizer_spacing",
+          "estimate_available_width",
+          "get_ego_pose",
+          "get_reviewed_observations",
+          "get_scene_data_manifest",
+          "get_sensor_calibration",
+          "get_sensor_sync",
+          "get_vehicle_trajectory",
+          "inspect_observation_images",
+          "inspect_temporal_images",
+          "list_scene_sensors",
+          "list_temporal_frames",
+          "locate_device_in_scene",
+          "locate_road_segment",
+          "lookup_posted_speed",
+          "measure_buffer_length",
+          "measure_device_spacing",
+          "measure_downstream_taper",
+          "measure_longitudinal_distance",
+          "measure_sign_spacing",
+          "measure_taper_length",
+          "project_bbox_to_lidar",
+          "query_road_authority_source",
+          "record_evidence_batch",
+          "record_speed_sign_reading",
+          "resolve_speed_evidence_conflict",
+          "seal_measurements",
+          "search_speed_limit_signs"
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "name": "stage contracts state inputs outputs prohibitions and completion boundary",
+      "passed": true,
+      "status": "passed",
+      "critical": true,
+      "evidence": {
+        "requirement_discovery": "STAGE 1 CONTRACT — INPUT: frozen scene facts, selected primary TA, full-manual retrieval tools, and prior retrieval state. OUTPUT: enough retrieved source nodes to support each retained atomic requirement, followed by begin_requirement_registration. First expand the selected TA without a region filter so its complete notes and figure OCR are visible. Then follow its explicit table/section/application cross-references and search the full manual for governing provisions for each device or control type visible in the TA figure or listed in the accepted-observation class inventory. An empty region-filtered TA expansion means the index has no node tagged with that region; it does not prove the figure contains no such element. Use only natural-language/manual-native queries. COMPLETION: begin registration once (a) the selected TA has been fully paged, (b) its explicit cross-references needed to interpret the diagram have been expanded, and (c) each observed control-device class has either a retrieved governing clause or one documented no-candidate search. Do not reformulate and repeat the same information need after its ranked results have already been returned. A continuation_token is bound to the exact query or expansion arguments that produced it; reuse it only with those arguments. Do not register until discovery is complete; do not measure or inspect scene evidence. THIS REVIEW RUN MUST STOP IMMEDIATELY AFTER Stage 3 is sealed; no Stage 4 call is permitted.",
+        "requirement_registration": "STAGE 2 CONTRACT — INPUT: only source nodes already returned in Stage 1 and current accepted requirement keys. OUTPUT: atomic submit_requirement_batch records, terminal coverage for every region, then seal_requirement_registration. source_node_ids must be retrieved hashes; source_locator must exactly equal the selected node locator; source_span must be a non-empty contiguous excerpt copied from that node. Never resubmit an accepted requirement. Retain only a concrete compliance predicate that the later inspection could evaluate; do not register background support, classification prose, an inapplicable alternative, or a purely optional device as a standalone inspection item. A figure-depicted sign, placement, sequence, taper, or device line can be retained when its retrieved source node exposes the supporting figure text. For every measured rule, measurement_spec.tool and every threshold/formula must be explicit. No scene or measurement tool is allowed. THIS REVIEW RUN MUST STOP IMMEDIATELY AFTER Stage 3 is sealed; no Stage 4 call is permitted.",
+        "data_availability": "STAGE 3 CONTRACT — INPUT: frozen registered requirements, scene manifest/facts, and already accepted availability records. OUTPUT: exactly one assessment for each unassessed requirement, then seal_data_availability. REQUIRED INVARIANT for every row: set(available_inputs) union set(missing_inputs) must exactly equal that requirement's required_inputs and the two sets must be disjoint. Copy required_inputs before classifying them. condition_data_complete refers only to whether every applicability condition can be resolved from frozen facts and the selected TA; it does not mean that visual or measurement inputs have already been acquired. It may be true while data_availability is partial or not_attempted. available_direct means no required input is missing; partial requires both available and missing inputs; not_attempted means all required inputs remain missing but can be pursued in Stage 4. unavailable_after_attempt is forbidden in Stage 3 because evidence acquisition has not begun. The manifest's derivable_local list establishes feasibility only, not an acquired semantic input. Raw images, bbox records, lidar, trajectory, or calibration do not make an Observed..., Measured..., sign-legend, display-mode, device-condition, device-position, work-space-location, taper-location, or similar interpretation available. Keep such a required input in missing_inputs until the corresponding Stage 4 inspection or measurement tool actually returns the semantic result. A required input may be available_direct only when a non-null frozen scene fact or inventory field directly states that same value; cite that exact fact or inventory field. planned_tools must include measurement_spec.tool when data is usable; give a concrete evidence strategy and decision rule. Use get_scene_data_manifest and other inventory tools to distinguish direct, locally derivable, and absent data, but do not treat an inventory lookup as visual evidence. Never resubmit an accepted availability key. Do not call visual or geometry measurement tools. THIS REVIEW RUN MUST STOP IMMEDIATELY AFTER Stage 3 is sealed; no Stage 4 call is permitted."
+      }
+    },
+    {
+      "number": 12,
+      "name": "full-manual structure remains query-independent and has no page whitelist",
+      "passed": true,
+      "status": "passed",
+      "critical": true,
+      "evidence": {
+        "query_independent": true,
+        "scene_manifest_read": false,
+        "hidden_reference_read": false,
+        "internal_requirement_ids_used": false,
+        "identifier_policy": "manual-native unit codes plus source-content hashes"
+      }
+    },
+    {
+      "number": 13,
+      "name": "MUTCD structure validation and all Typical Application images are frozen",
+      "passed": true,
+      "status": "passed",
+      "critical": true,
+      "evidence": {
+        "validation_report": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_structure_v1_validation.json",
+        "figure_asset_count": 54,
+        "asset_failures": [],
+        "missing_ta_assets": [],
+        "unexpected_ta_assets": []
+      }
+    },
+    {
+      "number": 14,
+      "name": "KG-first Stage 1 graph is source-bound, scene-independent, and complete over TAs",
+      "passed": true,
+      "status": "passed",
+      "critical": true,
+      "evidence": {
+        "graph": {
+          "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_knowledge_graph_v2.json",
+          "sha256": "d2d24b2b4f76996f8a0efbdf22941cc8b86543cc1227e9489b251c7963c6f384",
+          "size_bytes": 963957
+        },
+        "statistics": {
+          "typical_application_count": 54,
+          "component_count": 114,
+          "normative_provision_count": 904,
+          "edge_count": 1693
+        },
+        "build_policy": {
+          "query_independent": true,
+          "scene_manifest_read": false,
+          "hidden_reference_read": false,
+          "benchmark_requirement_ids_present": false,
+          "relationship_basis": [
+            "manual cross-reference",
+            "TA figure component",
+            "TA numbered normative note",
+            "manual identifier/title match",
+            "manual category-title match",
+            "6P.01 figure Guidance basis",
+            "structure containment"
+          ]
+        },
+        "ta_count": 54,
+        "figure_guidance_provision_count": 289,
+        "unknown_provision_count": 0
+      }
+    },
+    {
+      "number": 15,
+      "name": "current scene preserves confirmed Arrow Board and removes superseded PCMS",
+      "passed": true,
+      "status": "passed",
+      "critical": true,
+      "evidence": {
+        "accepted_arrow_board": 1,
+        "arrow_board_provenance": [
+          "F0316_CAM_BACK_LEFT_010"
+        ],
+        "accepted_pcms": 0
+      }
+    },
+    {
+      "number": 16,
+      "name": "distance policy reports no clear spacing defect on current accepted line",
+      "passed": true,
+      "status": "passed",
+      "critical": true,
+      "evidence": {
+        "clear_exceedance_gap_count": 0,
+        "violation_run_count": 0,
+        "deficiency_supported": false
+      }
+    },
+    {
+      "number": 17,
+      "name": "isolated Stage 1-2 mode stops after registration without perception leakage",
+      "passed": true,
+      "status": "passed",
+      "critical": true,
+      "evidence": {
+        "stop_after_requirement_registration": true,
+        "coverage_domains": [
+          "lane_closure_layout",
+          "advance_warning_sign_system",
+          "channelization_system",
+          "transition_and_taper_geometry",
+          "conditional_active_devices",
+          "conditional_termination_area"
+        ],
+        "pcms_fact_exposed": null,
+        "arrow_board_fact_exposed": true,
+        "bbox_inventory_exposed": false
+      }
+    },
+    {
+      "number": 18,
+      "name": "configured Stage 1 architecture and program-grounded registration are enforced",
+      "passed": true,
+      "status": "passed",
+      "critical": true,
+      "evidence": {
+        "architecture": "retrieval_only",
+        "discovery_tools": [
+          "begin_requirement_registration",
+          "load_domain_gap_candidates"
+        ],
+        "early_registration_result": {
+          "status": "failure",
+          "failure_reason": "simplified six-domain retrieval is incomplete: ['lane_closure_layout', 'advance_warning_sign_system', 'channelization_system', 'transition_and_taper_geometry', 'conditional_active_devices', 'conditional_termination_area']",
+          "tool": "begin_requirement_registration"
+        }
+      }
+    },
+    {
+      "number": 19,
+      "name": "frozen method role uses the architecture-compatible Stage 2 policy",
+      "passed": true,
+      "status": "passed",
+      "critical": true,
+      "evidence": {
+        "method_role": "retrieval_only_baseline",
+        "architecture": "retrieval_only",
+        "expected_stage2_mode": "free_form_atomic_registration_v1",
+        "configured_stage2_policy": {
+          "mode": "free_form_atomic_registration_v1",
+          "primary_comparison_scope": "stage1_retrieval_only",
+          "reason": "The structured candidate compiler requires deterministic KG candidates and is therefore not attributed to this no-KG baseline."
+        }
+      }
+    }
+  ],
+  "frozen_inputs": {
+    "config": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/config/workzone_01/stage1_bm25_only.json",
+      "sha256": "85d2b301cbfc530c7d544f892e8d610a7e44b3f58306dacfed82b9aa63cb2c4e",
+      "size_bytes": 2798
+    },
+    "scene_manifest": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/cases/workzone_01/scene.json",
+      "sha256": "9f8102a996ad178a0ad86f75afaea50c304ada49d7d35c2911d82602d186f957",
+      "size_bytes": 3096985
+    },
+    "public_scene_manifest": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/cases/workzone_01/scene.json",
+      "sha256": "9f8102a996ad178a0ad86f75afaea50c304ada49d7d35c2911d82602d186f957",
+      "size_bytes": 3096985
+    },
+    "manual_structure": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_structure_v1.json",
+      "sha256": "40c96734b42baaae8ace0fa2764184cd20e3a9ddb787bce48d56e1f932b8e904",
+      "size_bytes": 27764120
+    },
+    "reference": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/ground_truth/workzone_01/active_requirements.json",
+      "sha256": "9eb1e0f8423c0ee5f18d8c318cf55d67689dff3ffb9578a1fc787ac6f7955896",
+      "size_bytes": 7882
+    },
+    "normative_manual_pdf": {
+      "path": "inputs/manuals/MUTCD_11th_Edition_2023_Hotlinks.pdf",
+      "sha256": "5221404db3c27ec302d04d202c0e4b3b297857acebe94c632933f91c210ff835",
+      "size_bytes": 28706828
+    },
+    "credential_identity": {
+      "path": "/home/klong23/.config/workzone/openai_credentials.json",
+      "sha256": "425c4a180150f1b113647570339238b754bf4ad5517b3ab314105ae4facd1146",
+      "size_bytes": 295
+    },
+    "manual_structure_manifest": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_structure_v1_manifest.json",
+      "sha256": "a3e01b58dad68a5fbe8472d2a1f5ae21c072a6259d817670748d8df835d42fd5",
+      "size_bytes": 17241
+    },
+    "manual_structure_validation": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_structure_v1_validation.json",
+      "sha256": "6721f359763b6c5b03b02f5636d09710799f3900497b69ca082d1b2fbfe68955",
+      "size_bytes": 3874
+    },
+    "manual_figure_asset_00": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-1_pdf_page_0901.jpg",
+      "sha256": "eb0b075792f48b212cd30dfe5b1e12b44d6cce7f5617acc815cc8046c23ca772",
+      "size_bytes": 57328
+    },
+    "manual_figure_asset_01": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-10_pdf_page_0919.jpg",
+      "sha256": "4d19c28629cc5753e883245e17807ed82ea72ae1fb12e959c9ebbc9320c196f5",
+      "size_bytes": 117913
+    },
+    "manual_figure_asset_02": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-11_pdf_page_0921.jpg",
+      "sha256": "266bfbff89847c3b14e6859f0cae192dd919dc8d640c2aeba012087398faaa77",
+      "size_bytes": 113293
+    },
+    "manual_figure_asset_03": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-12_pdf_page_0923.jpg",
+      "sha256": "f6b1740876d21f70853d6bd5a6eeeaf43d144fb468fafa7db1b3549d27f8d9a7",
+      "size_bytes": 122795
+    },
+    "manual_figure_asset_04": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-13_pdf_page_0925.jpg",
+      "sha256": "866ba926b882cd540e704b78beea2d684a4c55901f494fd6718a296773a7feed",
+      "size_bytes": 86686
+    },
+    "manual_figure_asset_05": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-14_pdf_page_0927.jpg",
+      "sha256": "64bbb3e365c3741ed05b7f12d5d0105563405b52f931494243f1e2a9be7a5fa0",
+      "size_bytes": 106297
+    },
+    "manual_figure_asset_06": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-15_pdf_page_0929.jpg",
+      "sha256": "f5b4f9612d839e2e81ee185288405b4ac34cdf05e22d19a91fa22d6ee52f5bb7",
+      "size_bytes": 102991
+    },
+    "manual_figure_asset_07": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-16_pdf_page_0931.jpg",
+      "sha256": "a88353bbb344004d5a228245dd41bb1682eee02c832b6d4dc4e5be26b6266c45",
+      "size_bytes": 88825
+    },
+    "manual_figure_asset_08": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-17_pdf_page_0933.jpg",
+      "sha256": "69f6c21c009dc79315b9c922aa2a6061130dd8660ac21ceb147d01e7de7c185d",
+      "size_bytes": 70754
+    },
+    "manual_figure_asset_09": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-18_pdf_page_0935.jpg",
+      "sha256": "5fdf5eeebb3e010f7c2e3f4c8e056d5840ec4db85533e01ef2eb6b6ca8ff3723",
+      "size_bytes": 73651
+    },
+    "manual_figure_asset_10": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-19_pdf_page_0937.jpg",
+      "sha256": "d9f8c4b3355e07dc1cb5eb3d3190496cc27532bf2914ed9bf333f7e4848e464a",
+      "size_bytes": 166510
+    },
+    "manual_figure_asset_11": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-2_pdf_page_0903.jpg",
+      "sha256": "5af8b1a32eb33f660320bc6a5ff9822543965d4cf725712a22c8d4714e6efcb3",
+      "size_bytes": 99342
+    },
+    "manual_figure_asset_12": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-20_pdf_page_0939.jpg",
+      "sha256": "b89845d03b23185eca4c317215dafc29d2440c198d5712d733d198b87c6b1d76",
+      "size_bytes": 148788
+    },
+    "manual_figure_asset_13": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-21_pdf_page_0941.jpg",
+      "sha256": "c9aa9b5317f1fab075fea2f53868ff3ef5ecbd6e0045d636c784c89bd4262c4e",
+      "size_bytes": 93060
+    },
+    "manual_figure_asset_14": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-22_pdf_page_0943.jpg",
+      "sha256": "665759023c8eee338935bc8bd0123d903bfcc0dc6aa025bfc60a66d94ffc9508",
+      "size_bytes": 120165
+    },
+    "manual_figure_asset_15": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-23_pdf_page_0945.jpg",
+      "sha256": "cfebd180a9f0c9aef4201a92405a58059477ab2d49eda8ecd41e70e3bdc498f8",
+      "size_bytes": 117478
+    },
+    "manual_figure_asset_16": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-24_pdf_page_0947.jpg",
+      "sha256": "968127b74f797c4d5c9d13cd8e34fecd8a36123a0bd3c50432caa191d5eadd1e",
+      "size_bytes": 143268
+    },
+    "manual_figure_asset_17": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-25_pdf_page_0949.jpg",
+      "sha256": "0857a41dae5c2e48dc5310a462c03cc8ee4e1eed7fb41c8d870d6701c0c13987",
+      "size_bytes": 138867
+    },
+    "manual_figure_asset_18": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-26_pdf_page_0951.jpg",
+      "sha256": "caf4a45e03bc600da6488ac27746b5c2d40a5b4e88b8bb71c0e5b9a98dd40bd7",
+      "size_bytes": 114929
+    },
+    "manual_figure_asset_19": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-27_pdf_page_0953.jpg",
+      "sha256": "972bc570772791c0f45d6b861a9bd512891f43450c8a293af2d65cff3bbf05cd",
+      "size_bytes": 138668
+    },
+    "manual_figure_asset_20": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-28_pdf_page_0955.jpg",
+      "sha256": "6f4dcf1401fb08cf79017020b9b48458f0f9da8fef84e183b8ff4aabdf5ce818",
+      "size_bytes": 128768
+    },
+    "manual_figure_asset_21": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-29_pdf_page_0957.jpg",
+      "sha256": "64b74cf12bc234456062eaba310529baeac577f6834044e4d121c5c856231f46",
+      "size_bytes": 142330
+    },
+    "manual_figure_asset_22": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-3_pdf_page_0905.jpg",
+      "sha256": "0e909c5fee5fa3c70f042b263c10f3bee307bb1250b319ffc95e1e031d8d5ce2",
+      "size_bytes": 124888
+    },
+    "manual_figure_asset_23": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-30_pdf_page_0959.jpg",
+      "sha256": "3b7f0f3e2da5f97ff3822aa72d70ad32464f262000f831ac1ed86692d9d55981",
+      "size_bytes": 113789
+    },
+    "manual_figure_asset_24": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-31_pdf_page_0961.jpg",
+      "sha256": "c3d8fc94ebbb61f6870ed8641e441096e1b84675c7c3fa541cc5bbf116ea15a4",
+      "size_bytes": 113878
+    },
+    "manual_figure_asset_25": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-32_pdf_page_0963.jpg",
+      "sha256": "e62e13c29578e03da3cbe55d16ea55348dce74e02878d937055b49ba8bb41f57",
+      "size_bytes": 124644
+    },
+    "manual_figure_asset_26": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-33_pdf_page_0965.jpg",
+      "sha256": "7c3e6ebcb0c4e4688ee54f66b714098e91dff5e5bb98cadc7da10025aa74905b",
+      "size_bytes": 124250
+    },
+    "manual_figure_asset_27": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-34_pdf_page_0967.jpg",
+      "sha256": "6b53321c1206469d12d939bee5771747750e14d7a32d31ba3d8afb733ef08bbe",
+      "size_bytes": 115772
+    },
+    "manual_figure_asset_28": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-35_pdf_page_0969.jpg",
+      "sha256": "13837d94d08c30b36f55ab88c38d30f7a1a84d3cd321382e1ccf58a567dcf223",
+      "size_bytes": 75046
+    },
+    "manual_figure_asset_29": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-36_pdf_page_0971.jpg",
+      "sha256": "56c7ac1692026e024dd753827a0fd82708998493c1e33e73c3892e4ec0defcc3",
+      "size_bytes": 115620
+    },
+    "manual_figure_asset_30": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-37_pdf_page_0973.jpg",
+      "sha256": "417c938809b14c3a8ba6750515127716000fd79bddea4a648fee2951f38615df",
+      "size_bytes": 97609
+    },
+    "manual_figure_asset_31": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-38_pdf_page_0975.jpg",
+      "sha256": "c49e43baa84c251e75b33786ceab613265a948f27c31eb7123d226df3b6d8a22",
+      "size_bytes": 120419
+    },
+    "manual_figure_asset_32": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-39_pdf_page_0977.jpg",
+      "sha256": "e27a7f5b95a5fd8d2afb744fd952c4d73e17235065e565901a07d2b81df5bc82",
+      "size_bytes": 155552
+    },
+    "manual_figure_asset_33": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-4_pdf_page_0907.jpg",
+      "sha256": "771d19f3a2d8bd80c68ad8a087faa5e1df8fbf5c300d0fd06d9117a186209efd",
+      "size_bytes": 82689
+    },
+    "manual_figure_asset_34": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-40_pdf_page_0979.jpg",
+      "sha256": "39f8d7babc50ca7bd35265c136c0cd4100f73062534e6348b1f23593b80250b2",
+      "size_bytes": 154710
+    },
+    "manual_figure_asset_35": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-41_pdf_page_0981.jpg",
+      "sha256": "72f088aa7f5c948e41cb7d85175f86b5c1d49b0bcd0508328c402ca5c3403493",
+      "size_bytes": 141264
+    },
+    "manual_figure_asset_36": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-42_pdf_page_0983.jpg",
+      "sha256": "dd9fc14ed21690450406757271308cc69dbaba03a2eab2ac9d39ec09dbedd9e9",
+      "size_bytes": 137995
+    },
+    "manual_figure_asset_37": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-43_pdf_page_0985.jpg",
+      "sha256": "61a01352bf7e9d07cc71f408201aec6ba2146a5f9ba454159ff4d983a62a7585",
+      "size_bytes": 80526
+    },
+    "manual_figure_asset_38": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-44_pdf_page_0987.jpg",
+      "sha256": "8f3f2b17364da421ae5faa122e7d74795283190b5bf8863619a74ff9d17bd482",
+      "size_bytes": 155468
+    },
+    "manual_figure_asset_39": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-45_pdf_page_0989.jpg",
+      "sha256": "a57d8b0ee61673dd36ee5af8582545765fea16427a2f4d010c3af92a283d1189",
+      "size_bytes": 191175
+    },
+    "manual_figure_asset_40": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-46_pdf_page_0991.jpg",
+      "sha256": "54ce13a3dd02bac5597a676a9585579ae0715220a2eaab0af36a1ed1010e06ae",
+      "size_bytes": 112587
+    },
+    "manual_figure_asset_41": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-47_pdf_page_0993.jpg",
+      "sha256": "ed221107e0afb4c82ee3b814b4d614643d47c6343f7653d534da864b0efdddf6",
+      "size_bytes": 97048
+    },
+    "manual_figure_asset_42": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-48_pdf_page_0995.jpg",
+      "sha256": "60ca596cb9432961eed1cd32922d06f1c47d5d8614329818b3d9de72ea8defd2",
+      "size_bytes": 119305
+    },
+    "manual_figure_asset_43": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-49_pdf_page_0997.jpg",
+      "sha256": "beff4476d5c22baa83b43de5fd355bbc37b57d43a23b56e713f8dc0d59a7024e",
+      "size_bytes": 101226
+    },
+    "manual_figure_asset_44": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-5_pdf_page_0909.jpg",
+      "sha256": "fe0f1290ed6db98cbc938543360a67cfba0a52371bc2cf632827d78042bf883a",
+      "size_bytes": 106815
+    },
+    "manual_figure_asset_45": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-50_pdf_page_0999.jpg",
+      "sha256": "d32d336740f27de7a3a63f2b97af5c022c2ac2b97f2e3efc3ca1964c83c19d21",
+      "size_bytes": 167788
+    },
+    "manual_figure_asset_46": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-51_pdf_page_1001.jpg",
+      "sha256": "c8d248ba2d491eb71fc52b9a424ce22f3443c61d13b38d0aef899a087c9cc2a6",
+      "size_bytes": 109849
+    },
+    "manual_figure_asset_47": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-52_pdf_page_1003.jpg",
+      "sha256": "cf8d254e9a9aff912196546abdb59b3aad1875ed4adff36dd22a57fc98264847",
+      "size_bytes": 112674
+    },
+    "manual_figure_asset_48": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-53_pdf_page_1005.jpg",
+      "sha256": "c3bd013b9ae99ab775e3cc93f0f5edf8eefc341dc6001e5f854a7fbbb6eb2985",
+      "size_bytes": 135340
+    },
+    "manual_figure_asset_49": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-54_pdf_page_1007.jpg",
+      "sha256": "1893ef44595a79c746378044820d31cc7287da271d6eb10ee7318df39b472a02",
+      "size_bytes": 154137
+    },
+    "manual_figure_asset_50": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-6_pdf_page_0911.jpg",
+      "sha256": "9f4f652de31a4542cedcd2b9cb0488d61aaec9493bb2e9041eeed484a352cb76",
+      "size_bytes": 89276
+    },
+    "manual_figure_asset_51": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-7_pdf_page_0913.jpg",
+      "sha256": "787e9347d08a5eee177b7826e710053c3da33c6f6f59b57aa8e239d45e2b5b93",
+      "size_bytes": 125622
+    },
+    "manual_figure_asset_52": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-8_pdf_page_0915.jpg",
+      "sha256": "69c70aed1efa7626ef55a9b13b27c2ecda88fdc82c1cbcdf19ec1c0f0485dad0",
+      "size_bytes": 112696
+    },
+    "manual_figure_asset_53": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-9_pdf_page_0917.jpg",
+      "sha256": "91da46804f94e11bc8926b76c241dc1e05cf5be6454cf0ee5964523f1991b63f",
+      "size_bytes": 183280
+    },
+    "raw_image_00": {
+      "path": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/scene-CATS-01/CAM_FRONT/cats001-2026-04-28-15-30-0500__CAM_FRONT__53733333.jpg",
+      "sha256": "ea97e548376a818658abd1aca72066a4a514ed076604266316e77a2b1aca682b",
+      "size_bytes": 1889596
+    },
+    "raw_image_01": {
+      "path": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/scene-CATS-01/CAM_FRONT_LEFT/cats001-2026-04-28-15-30-0500__CAM_FRONT_LEFT__56133333.jpg",
+      "sha256": "19c24cf63d06eca5cbc7e9fd44524a90a219c9a618afa39cc5fe6d73a14c896b",
+      "size_bytes": 498449
+    },
+    "raw_image_02": {
+      "path": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/scene-CATS-01/CAM_FRONT/cats001-2026-04-28-15-30-0500__CAM_FRONT__63633333.jpg",
+      "sha256": "e1a46870593212e1130dadad789f732fab172a7a74eb687928feb5eab7e706db",
+      "size_bytes": 2076582
+    },
+    "raw_image_03": {
+      "path": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/scene-CATS-01/CAM_FRONT/cats001-2026-04-28-15-30-0500__CAM_FRONT__13533333.jpg",
+      "sha256": "4f07972e02dd31013cc57e44d3aa03c21cd2edc7e910cd01dcbed8d0f6aa1233",
+      "size_bytes": 2328030
+    },
+    "raw_image_04": {
+      "path": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/scene-CATS-01/CAM_FRONT/cats001-2026-04-28-15-30-0500__CAM_FRONT__18833333.jpg",
+      "sha256": "c458620bebab392e86eb1c51185c60d96ae2c1371d88477781551c56c8b23954",
+      "size_bytes": 2395792
+    },
+    "raw_image_05": {
+      "path": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/scene-CATS-01/CAM_FRONT/cats001-2026-04-28-15-30-0500__CAM_FRONT__27933333.jpg",
+      "sha256": "424698f0d607b196d5da9f012d2ca527fa4d350273d4cda2e615f222b44992cf",
+      "size_bytes": 2368569
+    },
+    "raw_image_06": {
+      "path": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/scene-CATS-01/CAM_FRONT/cats001-2026-04-28-15-30-0500__CAM_FRONT__47433333.jpg",
+      "sha256": "a7de6b3d4d06e3731c2f0be927fa08ae11a187014de2cfea4c986874471daa8d",
+      "size_bytes": 1891088
+    },
+    "raw_image_07": {
+      "path": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/scene-CATS-01/CAM_BACK/cats001-2026-04-28-15-30-0500__CAM_BACK__49733333.jpg",
+      "sha256": "5a79546e65436f355aca317448f0c50aa84389732fba90826aa03f664ac55784",
+      "size_bytes": 1847477
+    },
+    "raw_image_08": {
+      "path": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/scene-CATS-01/CAM_FRONT/cats001-2026-04-28-15-30-0500__CAM_FRONT__51033333.jpg",
+      "sha256": "0ecd504cbb630ef945d601faa449a20eeb089439a5589ccacdc729b6840fb5a2",
+      "size_bytes": 1877688
+    },
+    "raw_image_09": {
+      "path": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/scene-CATS-01/CAM_FRONT/cats001-2026-04-28-15-30-0500__CAM_FRONT__41033333.jpg",
+      "sha256": "cbf208eba07e71f4a5cff1ef96a73ad068d517237b80ac4e24f2f333975404bf",
+      "size_bytes": 2108984
+    },
+    "raw_image_10": {
+      "path": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/scene-CATS-01/CAM_FRONT/cats001-2026-04-28-15-30-0500__CAM_FRONT__110733333.jpg",
+      "sha256": "9bcf5041321cac377291105d2c93df3c4ee6e6ee3cad84932fcdd0a3f348cb76",
+      "size_bytes": 1916059
+    },
+    "raw_image_11": {
+      "path": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/scene-CATS-01/CAM_FRONT/cats001-2026-04-28-15-30-0500__CAM_FRONT__71733333.jpg",
+      "sha256": "f6e8f9d2f2a386cef4c9b923f043198dda4f32bd2a135bd5cbaa76b2fe1ce059",
+      "size_bytes": 2129889
+    },
+    "raw_image_12": {
+      "path": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/scene-CATS-01/CAM_FRONT_LEFT/cats001-2026-04-28-15-30-0500__CAM_FRONT_LEFT__89833333.jpg",
+      "sha256": "083d0c08447a5f7eb78f771d0ed73cfacdfc661026a40d96c1744642776204b7",
+      "size_bytes": 507043
+    },
+    "raw_image_13": {
+      "path": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/scene-CATS-01/CAM_FRONT/cats001-2026-04-28-15-30-0500__CAM_FRONT__100833333.jpg",
+      "sha256": "74ae6e0c09e711322c03a70c2d36782a2237cfbe2cd8b26225e0a0006c16b7a6",
+      "size_bytes": 1820970
+    },
+    "raw_image_14": {
+      "path": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/scene-CATS-01/CAM_BACK_LEFT/cats001-2026-04-28-15-30-0500__CAM_BACK_LEFT__41666666.jpg",
+      "sha256": "c81e37d0ead538543b657517c2b4f1ea910acedb525604fe5316cdbbb6294869",
+      "size_bytes": 650967
+    },
+    "raw_image_15": {
+      "path": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/scene-CATS-01/CAM_FRONT/cats001-2026-04-28-15-30-0500__CAM_FRONT__43733333.jpg",
+      "sha256": "a9777d1b7ed606898ee29939572f572778c7242cda0a7ce96d2d2d16dcb8bfd9",
+      "size_bytes": 1920415
+    },
+    "raw_image_16": {
+      "path": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/scene-CATS-01/CAM_FRONT/cats001-2026-04-28-15-30-0500__CAM_FRONT__44933333.jpg",
+      "sha256": "b1cb3ae7945cb5aa3c6dda3c6f16f53e39fbfd622ff148c24be21f6bb18e20a8",
+      "size_bytes": 1868023
+    },
+    "bbox_source_0": {
+      "path": "/home/klong23/workzone/bev_full_scene/scene_evidence_current/bbox_review_decisions.csv",
+      "sha256": "c70f39b49209f26cd3efaff95e238613886db92da0987b865eabba6ff803a85b",
+      "size_bytes": 1900591
+    },
+    "bbox_source_1": {
+      "path": "config/expert_evidence_confirmations.json",
+      "sha256": "a6f7e506722f8804b4b86ed514488717d139197926fb5807eaaa5c4fb3f17811",
+      "size_bytes": 763
+    },
+    "bbox_source_2": {
+      "path": "config/user_adjudications.json",
+      "sha256": "85ad81dc56d17f10a1739c3ee91c28396da5b7abe4a74bf8d2152029c1ee238f",
+      "size_bytes": 5083
+    }
+  },
+  "implementation_sha256": {
+    "/home/klong23/workzone/experiments/agentic_inspection/scripts/inspection_registry_v5.py": "8426943086457a85b40165d94f62529a162f0df08911291389b95a39131ddc94",
+    "/home/klong23/workzone/experiments/agentic_inspection/scripts/scene_data_tools_v5.py": "823a12f13ad41de98124e82114a3847fe7af506bee7eddc23e2c8ec1c10f5022",
+    "/home/klong23/workzone/experiments/agentic_inspection/scripts/srag_bm25_tools_v5.py": "928bc0c38b18d84124555102b6e5f5a4409fdb746a4a1722c4ca5f3e5f0eadbd",
+    "/home/klong23/workzone/experiments/agentic_inspection/scripts/srag_bm25_retrieval_v5.py": "7abeafc88477173981717285b04be9eba00f978d0d495cd1b4e0390a8d5b97a7",
+    "/home/klong23/workzone/experiments/agentic_inspection/scripts/run_srag_bm25_v5.py": "7b98a56c018c8e33693f841d1058b0dd8282aa29447ca18b5a9aebbd5138f51c",
+    "/home/klong23/workzone/experiments/agentic_inspection/scripts/preflight_srag_bm25_v5.py": "3330a765dae361a3d40973eb685b3515da135a179a7e5871967883effd7b56df",
+    "/home/klong23/workzone/experiments/agentic_inspection/scripts/test_srag_bm25_v5.py": "06328e0e5c7f5df90f5f94cf93eaca8efda9676db73aecc7d48c26657fde5e57",
+    "/home/klong23/workzone/experiments/agentic_inspection/scripts/materialize_current_scene.py": "81cc71578324be0af0a00b3a96811a9a5bf6184b0ba7eb32d6fadaecfd082625",
+    "/home/klong23/workzone/experiments/agentic_inspection/scripts/api_client.py": "25535b0bcd2e8ececc415243d96d1e690ab208e741240d36171002f040ba4bc4",
+    "/home/klong23/workzone/experiments/agentic_inspection/scripts/mutcd_knowledge_graph_v2.py": "6314da55f4f8a2f437775737edaa79d707608842d12633856a199112a1aaa62a",
+    "/home/klong23/workzone/experiments/agentic_inspection/scripts/dense_gap_retrieval.py": "15fa3b4a44e7f0263d6a048c341120a865b903a29eaa583b03d7a3e49fc5ac16"
+  },
+  "tool_schema_sha256": "76f4c08d4a8edc12be5d8f5c4720c30ffee0de0e02bfb0da4f8dadda4f50d000",
+  "reference_notice": "evaluator-only corrected Case 1 active set"
+}

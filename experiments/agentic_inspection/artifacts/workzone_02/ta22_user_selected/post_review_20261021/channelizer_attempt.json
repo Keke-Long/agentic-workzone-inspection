@@ -1,0 +1,58 @@
+{
+  "status": "acquired",
+  "measurement_id": "measurement_3e307fd8e0ff60084934",
+  "measurement_type": "channelizer_spacing_series",
+  "thresholds_applied": {
+    "taper": {
+      "value": 25,
+      "unit": "ft",
+      "violation_when": "above_maximum",
+      "value_m": 7.62
+    },
+    "tangent": {
+      "value": 50,
+      "unit": "ft",
+      "violation_when": "above_maximum",
+      "value_m": 15.24
+    }
+  },
+  "deficiency_supported": false,
+  "minimum_consecutive_exceedances": 2,
+  "accepted_channelizer_observations_scanned": 0,
+  "physical_entity_candidates": 0,
+  "candidate_sequence_count": 0,
+  "sequences_evaluated": 0,
+  "selected_sequence_policy": "continuous channelizer line with minimum median absolute lateral offset from ego trajectory",
+  "selected_sequence_median_abs_lateral_m": null,
+  "selected_sequence_entity_ids": [],
+  "selected_sequence_reviewed_class_counts": {},
+  "region_classification_method": "three-point median lateral smoothing followed by deterministic piecewise road-coordinate fitting of a sloped taper and constant-lateral tangent",
+  "included_reviewed_classes": [
+    "channelizing_device",
+    "traffic_cone",
+    "traffic_drum"
+  ],
+  "gaps_evaluated": 0,
+  "clear_exceedance_gap_count": 0,
+  "gaps_vetoed_by_possible_intervener": 0,
+  "violation_run_count": 0,
+  "violation_runs": [],
+  "sequence_summaries": [],
+  "associated_bbox_ids": [],
+  "associated_image_ids": [],
+  "endpoint_semantics_valid": true,
+  "geometry_direction_valid": true,
+  "sequence_inference_valid": false,
+  "measurement_method": "rule-based accepted-track deduplication, Frenet path cover, nearest-trajectory sequence selection, and exhaustive adjacent-gap audit",
+  "quality_flags": [
+    "accepted_bbox_class_only",
+    "track_positions_are_not_survey_grade",
+    "sequence_membership_is_rule_based",
+    "single_gap_is_not_a_formal_deficiency",
+    "farther_parallel_channelizer_lines_excluded",
+    "complete_automatic_inventory_used_only_to_veto_possible_missed_devices"
+  ],
+  "excluded_low_support_entities": 0,
+  "excluded_unstable_entities": 0,
+  "failure_reason": null
+}

@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "changes": {
+    "stage1_kg_bm25": [
+      "experiment_id",
+      "status",
+      "scene_manifest",
+      "public_scene_manifest",
+      "output_directory",
+      "report_directory",
+      "execution",
+      "reporting"
+    ],
+    "stage3": [
+      "experiment_id",
+      "status",
+      "scene_manifest",
+      "public_scene_manifest",
+      "output_directory",
+      "report_directory",
+      "execution",
+      "reporting"
+    ]
+  },
+  "models_retrieval_stage2_policy_and_stop_boundaries_unchanged": true
+}

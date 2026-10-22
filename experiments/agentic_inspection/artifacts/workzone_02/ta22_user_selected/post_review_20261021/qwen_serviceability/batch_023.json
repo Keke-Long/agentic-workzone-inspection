@@ -1,0 +1,102 @@
+{
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "image_sha256": "389f62314158a44ead2f7c36cc240aa859863252fd3303f9a206ce5a9e19ca9e",
+  "response": {
+    "model": "qwen3-vl:4b-instruct",
+    "created_at": "2026-10-21T14:49:54.544243827Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"items\": [\n    {\n      \"id\": 1,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"The cone is upright, fully visible with distinct red and white stripes, no apparent damage or missing parts, and appears functional for its purpose.\"\n    },\n    {\n      \"id\": 2,\n      \"status\": \"visible_unserviceable\",\n      \"reason\": \"Multiple cones are visibly damaged; some appear broken or leaning significantly, and the overall arrangement suggests instability or failure to serve as effective channelizers.\"\n    },\n    {\n      \"id\": 3,\n      \"status\": \"visible_unserviceable\",\n      \"reason\": \"The cone is heavily blurred and appears distorted, with no clear visibility of its structure or markings; it is unclear if it remains functional or upright.\"\n    },\n    {\n      \"id\": 4,\n      \"status\": \"uncertain\",\n      \"reason\": \"The image is too blurry and low-resolution to discern any specific defects. The cone's orientation and condition are indistinct, making judgment impossible.\"\n    },\n    {\n      \"id\": 5,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"The cone is upright, clearly visible with intact stripes and no obvious damage or missing parts; it appears to be functioning as intended.\"\n    },\n    {\n      \"id\": 6,\n      \"status\": \"uncertain\",\n      \"reason\": \"The image is too blurry and low-resolution to assess the condition of the cones. Their orientation and markings are indistinct, making judgment impossible.\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 4199881387,
+    "load_duration": 168572446,
+    "prompt_eval_count": 1299,
+    "prompt_eval_duration": 541949000,
+    "eval_count": 329,
+    "eval_duration": 3305896000
+  },
+  "observations": [
+    {
+      "observation_id": "C18_F0487_CAM_FRONT_Q002",
+      "frame": 487,
+      "native_bbox": [
+        2061.9429,
+        1169.8363,
+        2096.6748,
+        1252.4683
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "The cone is upright, fully visible with distinct red and white stripes, no apparent damage or missing parts, and appears functional for its purpose."
+    },
+    {
+      "observation_id": "C18_F0491_CAM_FRONT_Q008",
+      "frame": 491,
+      "native_bbox": [
+        2018.3922,
+        1149.9503,
+        2049.592,
+        1217.6857
+      ],
+      "id": 2,
+      "status": "visible_unserviceable",
+      "reason": "Multiple cones are visibly damaged; some appear broken or leaning significantly, and the overall arrangement suggests instability or failure to serve as effective channelizers."
+    },
+    {
+      "observation_id": "C18_F0492_CAM_FRONT_Q016",
+      "frame": 492,
+      "native_bbox": [
+        2016.557,
+        1139.248,
+        2031.29,
+        1198.826
+      ],
+      "id": 3,
+      "status": "visible_unserviceable",
+      "reason": "The cone is heavily blurred and appears distorted, with no clear visibility of its structure or markings; it is unclear if it remains functional or upright."
+    },
+    {
+      "observation_id": "C18_F0493_CAM_FRONT_Q011",
+      "frame": 493,
+      "native_bbox": [
+        2270.8093,
+        1139.2888,
+        2310.4277,
+        1228.1439
+      ],
+      "id": 4,
+      "status": "uncertain",
+      "reason": "The image is too blurry and low-resolution to discern any specific defects. The cone's orientation and condition are indistinct, making judgment impossible."
+    },
+    {
+      "observation_id": "C18_F0493_CAM_FRONT_Q035",
+      "frame": 493,
+      "native_bbox": [
+        2100.3943,
+        1147.0785,
+        2173.0066,
+        1314.9795
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "The cone is upright, clearly visible with intact stripes and no obvious damage or missing parts; it appears to be functioning as intended."
+    },
+    {
+      "observation_id": "C18_F0494_CAM_FRONT_Q013",
+      "frame": 494,
+      "native_bbox": [
+        2017.787,
+        1131.459,
+        2032.769,
+        1194.64
+      ],
+      "id": 6,
+      "status": "uncertain",
+      "reason": "The image is too blurry and low-resolution to assess the condition of the cones. Their orientation and markings are indistinct, making judgment impossible."
+    }
+  ],
+  "human_confirmed_condition": false
+}

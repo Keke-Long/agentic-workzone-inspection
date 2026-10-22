@@ -1,0 +1,33 @@
+{
+  "scene_id": "scene-CATS-15",
+  "layout_selection_status": "determined",
+  "selected_layouts": [
+    {
+      "layout_code": "TA-16",
+      "layout_role": "primary_applicable",
+      "source_locator": "TA-16, Figure 6P-16, MUTCD 11th Edition PDF pages 930-931 (printed pages 890-891)",
+      "matched_scene_facts": [
+        "User-confirmed survey vehicle is present.",
+        "The scoped area is a channelized work or obstruction area on an apparent urban two-way roadway.",
+        "The survey vehicle's forward travel lane remains usable while the channelized area is primarily along the left/opposing-direction side.",
+        "The inspection period is daytime, matching the depicted short-duration surveying context.",
+        "The posted speed is 20 mph, consistent with a low-speed roadway context."
+      ],
+      "conflicting_scene_facts": [
+        "The scene does not confirm that the channelizer line is exactly on the centerline.",
+        "The scene does not establish whether the opposing lane is fully closed.",
+        "No accepted detections are available; visual evidence is model-derived and unreviewed.",
+        "The exact work-area limits relative to the intersection are uncertain."
+      ]
+    }
+  ],
+  "missing_scene_fields": [
+    "confirmed active survey operation versus another type of center-road work",
+    "confirmed roadway configuration and lane count",
+    "confirmed channelizer offset from the centerline",
+    "confirmed opposing-lane closure status",
+    "confirmed work-area limits relative to the all-way-stop intersection",
+    "confirmed bicycle-lane involvement"
+  ],
+  "selection_reason": "TA-16 is the directly applicable primary Typical Application because the strongest available activity cue is the user-confirmed survey vehicle and the scene depicts a channelized center/opposing-side work space while the survey vehicle's lane remains usable. The manual evidence identifies TA-16 as Surveying Along the Center Line of a Road with Low Traffic Volumes and includes the depicted channelizing devices, buffer spaces, and advance warning. TA-15 (Work in the Center of a Road with Low Traffic Volumes) is a generic alternative for center-road work, but it is not selected as primary because the survey-specific facts favor TA-16. The unresolved centerline, lane-closure, width, and intersection details affect later requirement applicability and adaptation, not the primary TA selection."
+}

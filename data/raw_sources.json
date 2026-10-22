@@ -1,0 +1,14 @@
+{
+  "schema": "external_raw_sources_v1",
+  "workzone_01": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_00/",
+  "workzone_02": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/",
+  "policy": "Raw data remain external. Current processed images, metadata, calibration, final detections, geometry, BEV and reports reside under /home/klong23/workzone/. Original executed logs preserve historical path strings.",
+  "workzone_01_source_verification": {
+    "scene_id": "scene-CATS-01",
+    "raw_case": "Case_00",
+    "matched_INS_positions": 1027,
+    "max_difference_m": 0.0,
+    "correction": "Earlier Case_01 mapping was incorrect."
+  },
+  "workzone_03": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/"
+}

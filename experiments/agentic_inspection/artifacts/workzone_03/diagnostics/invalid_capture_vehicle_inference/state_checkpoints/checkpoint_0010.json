@@ -1,0 +1,220 @@
+{
+  "scene_id": "scene-CATS-15",
+  "selected_layouts": [
+    {
+      "layout_code": "TA-16",
+      "layout_role": "primary_applicable",
+      "source_locator": "TA-16, Figure 6P-16, MUTCD 11th Edition PDF pages 930-931 (printed pages 890-891)",
+      "matched_scene_facts": [
+        "User-confirmed survey vehicle is present.",
+        "The scoped area is a channelized work or obstruction area on an apparent urban two-way roadway.",
+        "The survey vehicle's forward travel lane remains usable while the channelized area is primarily along the left/opposing-direction side.",
+        "The inspection period is daytime, matching the depicted short-duration surveying context.",
+        "The posted speed is 20 mph, consistent with a low-speed roadway context."
+      ],
+      "conflicting_scene_facts": [
+        "The scene does not confirm that the channelizer line is exactly on the centerline.",
+        "The scene does not establish whether the opposing lane is fully closed.",
+        "No accepted detections are available; visual evidence is model-derived and unreviewed.",
+        "The exact work-area limits relative to the intersection are uncertain."
+      ]
+    }
+  ],
+  "phase": "requirement_registration",
+  "region_coverage": {
+    "lane_closure_layout": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": [
+        "req_b54ee5ec89195a65",
+        "req_ccadf7df23284f89"
+      ]
+    },
+    "advance_warning_sign_system": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "channelization_system": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "transition_and_taper_geometry": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "conditional_active_devices": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "conditional_termination_area": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    }
+  },
+  "requirements": [
+    {
+      "candidate_label": "Minimum lane width beside center work space",
+      "subject": "lane on either side of the center work space",
+      "relation": "has minimum clear width",
+      "threshold": "at least 10 ft measured from the near edge of channelizing devices to pavement or outside paved shoulder edge",
+      "applicability_conditions": [
+        "TA-16 center-line surveying arrangement is used",
+        "a center work space is present"
+      ],
+      "required_inputs": [
+        "channelizing-device near edge",
+        "pavement or paved-shoulder outside edge"
+      ],
+      "measurement_spec": {
+        "required": true,
+        "tool": "estimate_available_width",
+        "quantity": "clear lane width from channelizer near edge to pavement or outside paved shoulder edge",
+        "thresholds": [
+          {
+            "condition": "always",
+            "value": 10,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_b8ccd683d4e4b6fa18ee"
+        ],
+        "explanation": "TA-16 is selected and the scoped scene is a center-line/channelized surveying arrangement."
+      },
+      "source_node_ids": [
+        "src_b8ccd683d4e4b6fa18ee"
+      ],
+      "modality": "should",
+      "source_locator": "TA-16 paragraph 01; PDF page 930",
+      "source_span": "The lanes on either side of the center work space should have a minimum width of 10 feet as measured from the near edge of the channelizing devices to the edge of the pavement or the outside edge of the paved shoulder.",
+      "discovered_requirement_key": "req_b54ee5ec89195a65",
+      "region": "lane_closure_layout",
+      "requirement_fingerprint": "b54ee5ec89195a6511885fbb16c0c7caa820faeeb3cc92c45154f6487a85b2b9",
+      "registration_event_index": 2,
+      "registration_timestamp": "2026-10-21T21:47:49.579246+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "Cones offset from center line",
+      "subject": "cones used for TA-16 center-line surveying",
+      "relation": "are placed",
+      "threshold": "6 to 12 inches on either side of the center line",
+      "applicability_conditions": [
+        "TA-16 center-line surveying arrangement is used",
+        "cones are the channelizing devices"
+      ],
+      "required_inputs": [
+        "center-line location",
+        "cone locations"
+      ],
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_device_spacing",
+        "quantity": "lateral offset of each cone from center line",
+        "thresholds": [
+          {
+            "condition": "each cone offset",
+            "value": 0.5,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          },
+          {
+            "condition": "each cone offset",
+            "value": 1,
+            "unit": "ft",
+            "violation_when": "above_maximum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_63061b124a732ff83828"
+        ],
+        "explanation": "The selected TA-16 arrangement expressly governs cone placement around the center line."
+      },
+      "source_node_ids": [
+        "src_63061b124a732ff83828"
+      ],
+      "modality": "should",
+      "source_locator": "TA-16 paragraph 02; PDF page 930",
+      "source_span": "Cones should be placed 6 to 12 inches on either side of the center line.",
+      "discovered_requirement_key": "req_ccadf7df23284f89",
+      "region": "lane_closure_layout",
+      "requirement_fingerprint": "ccadf7df23284f89f51166da61d6916f10cc05b97b0f8c7cfe8031f610632056",
+      "registration_event_index": 3,
+      "registration_timestamp": "2026-10-21T21:47:49.579354+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    }
+  ],
+  "data_availability": {},
+  "evidence_records": {},
+  "stage4_plan": null,
+  "inspection_bundles": {},
+  "acquisition_attempts": {},
+  "measurement_records": {},
+  "stage4_readiness": null,
+  "stage5_plan": null,
+  "conclusion_drafts": {},
+  "stage5_readiness": null,
+  "tool_calls": [],
+  "event_history": [
+    {
+      "event_index": 1,
+      "timestamp": "2026-10-21T21:47:37.255735+00:00",
+      "event_type": "phase_transition",
+      "phase": "requirement_discovery",
+      "from_phase": "requirement_discovery",
+      "to_phase": "requirement_registration"
+    },
+    {
+      "event_index": 2,
+      "timestamp": "2026-10-21T21:47:49.579246+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_b54ee5ec89195a65",
+      "candidate_label": "Minimum lane width beside center work space",
+      "region": "lane_closure_layout",
+      "requirement_fingerprint": "b54ee5ec89195a6511885fbb16c0c7caa820faeeb3cc92c45154f6487a85b2b9"
+    },
+    {
+      "event_index": 3,
+      "timestamp": "2026-10-21T21:47:49.579354+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_ccadf7df23284f89",
+      "candidate_label": "Cones offset from center line",
+      "region": "lane_closure_layout",
+      "requirement_fingerprint": "ccadf7df23284f89f51166da61d6916f10cc05b97b0f8c7cfe8031f610632056"
+    }
+  ],
+  "completion": null,
+  "finalized": false
+}

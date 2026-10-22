@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene-CATS-15",
+  "layout_selection_status": "determined",
+  "selected_layouts": [
+    {
+      "layout_code": "TA-8",
+      "layout_role": "primary_applicable",
+      "source_locator": "TA-8, Figure 6P-8, Road Closure with an Off-Site Detour, PDF pages 914–915 / printed pages 874–875; TA-8 paragraph 01",
+      "matched_scene_facts": [
+        "The opposing-direction lane is explicitly confirmed fully closed.",
+        "Opposing traffic is prohibited from entering the closed route and detours via other roads.",
+        "The work zone is adjacent to an intersection.",
+        "Channelizing devices define the closed-route boundary and taper.",
+        "The work duration is less than three days.",
+        "The roadway is an urban two-way street with the ego-direction path remaining open."
+      ],
+      "conflicting_scene_facts": [
+        "TA-8 depicts road-closure and off-site-detour controls, while the observed closure is direction-specific: the opposing lane is closed and the ego-direction lane remains open. This requires interpreting the TA-8 closure treatment for the affected direction rather than treating the entire cross-section as closed."
+      ]
+    }
+  ],
+  "missing_scene_fields": [],
+  "selection_reason": "TA-8 is the closest directly applicable primary Typical Application because the defining traffic operation is an off-site detour for traffic prohibited from entering the closed opposing-direction route. TA-10, TA-11, and TA-12 are not primary because they retain alternating one-lane passage through the work area, whereas alternating operation is explicitly false. The unresolved exact closure limits and lane width affect later device and distance requirements but do not prevent selecting the detour-based primary treatment."
+}

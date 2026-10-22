@@ -1,0 +1,169 @@
+{
+  "timestamp": "2026-10-21T22:56:35.373584-05:00",
+  "deleted": [
+    {
+      "path": "/home/klong23/workzone/data/workzone_03/detections/candidates.json",
+      "bytes": 3345039
+    },
+    {
+      "path": "/home/klong23/workzone/data/workzone_03/detections/current_detections.json",
+      "bytes": 3378333
+    },
+    {
+      "path": "/home/klong23/workzone/data/workzone_03/detections/pending_bbox_corrections.json",
+      "bytes": 23107
+    },
+    {
+      "path": "/home/klong23/workzone/data/workzone_03/detections/frames",
+      "bytes": 3409348
+    },
+    {
+      "path": "/home/klong23/workzone/data/workzone_03/detections/verification_summary.json",
+      "bytes": 1207
+    },
+    {
+      "path": "/home/klong23/workzone/data/workzone_03/detections/run_manifest.json",
+      "bytes": 1900
+    },
+    {
+      "path": "/home/klong23/workzone/data/workzone_03/detections/human_review.sqlite3",
+      "bytes": 57827328
+    },
+    {
+      "path": "/home/klong23/workzone/data/workzone_03/detections/summary.json",
+      "bytes": 469
+    },
+    {
+      "path": "/home/klong23/workzone/data/workzone_03/detections/review_scope.json",
+      "bytes": 19358
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/detection_verification",
+      "bytes": 7804654
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/reports/workzone_03/detection_crops",
+      "bytes": 34169932
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/reports/workzone_03/cone_single.html",
+      "bytes": 3618988
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/reports/workzone_03/detections.html",
+      "bytes": 3631636
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/reports/workzone_03/fix_boxes.html",
+      "bytes": 8451
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/reports/workzone_03/preparation_status.html",
+      "bytes": 1676
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/scripts/workzone3_cone_single.html",
+      "bytes": 5054
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/scripts/workzone3_detections.html",
+      "bytes": 17702
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/scripts/workzone3_fix_boxes.html",
+      "bytes": 8451
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/scripts/workzone3_review_store.py",
+      "bytes": 5490
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/scripts/workzone3_render_detections.py",
+      "bytes": 2229
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/scripts/workzone3_finalize_review.py",
+      "bytes": 3121
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/scripts/workzone3_finalize_detections.py",
+      "bytes": 1259
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/scripts/validate_workzone3_cone_gallery.py",
+      "bytes": 2705
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/scripts/validate_workzone3_detections_browser.py",
+      "bytes": 5217
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/scripts/validate_workzone3_fix_boxes.py",
+      "bytes": 3282
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/scripts/validate_workzone3_other_object.py",
+      "bytes": 2553
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/scripts/validate_workzone3_review_labels.py",
+      "bytes": 2389
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/scripts/validate_workzone3_single_review.py",
+      "bytes": 3714
+    },
+    {
+      "path": "/home/klong23/workzone/dependencies/python/websocket/__pycache__",
+      "bytes": 127104
+    },
+    {
+      "path": "/home/klong23/workzone/dependencies/preprocess/nuScenes/__pycache__",
+      "bytes": 8493
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/scripts/__pycache__",
+      "bytes": 955835
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/superseded_before_61_85/api_batches",
+      "bytes": 27110506
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/superseded_before_61_85/tracklets.json",
+      "bytes": 4347881
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/superseded_before_61_85/summary.json",
+      "bytes": 430
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/superseded_before_61_85/run_manifest.json",
+      "bytes": 1614
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/scripts/test_workzone3_single_review.py",
+      "bytes": 1348
+    },
+    {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/scripts/test_workzone3_review_store.py",
+      "bytes": 1815
+    }
+  ],
+  "deleted_bytes": 149859618,
+  "preserved_final_detection_sha256": {
+    "/home/klong23/workzone/data/workzone_01/detections/final_detections.json": "7fb51e5f191100550e9dbca31f1adbb2c1a2bf7b55861cc1017da65599c0c67f",
+    "/home/klong23/workzone/data/workzone_02/detections/final_detections.json": "a7f13d0890a8d544512f53baaef41ab56dd42266103cd602a60cb04e8c09ec98",
+    "/home/klong23/workzone/data/workzone_03/detections/final_detections.json": "78fba38e3b39e808a8c9908143329c3f030fa540c99ba91c6480c8c757a051e6"
+  },
+  "updated_current_bindings": [
+    "/home/klong23/workzone/experiments/agentic_inspection/cases/workzone_02/scene.json"
+  ],
+  "policy": "Retain final perception inputs, BEV, reports, and Agentic stage records. Remove obsolete detection review data and interfaces. Historical model records unchanged.",
+  "validation": {
+    "workzone1": "HTTP 200; BEV data and inline report present; final detection hash unchanged; only final detection file retained",
+    "workzone2": "HTTP 200; BEV data and inline report present; final detection hash unchanged; only final detection file retained",
+    "workzone3": "HTTP 200; BEV data and inline report present; final detection hash unchanged; only final detection file retained",
+    "review_routes": "404; POST disabled (405)"
+  }
+}

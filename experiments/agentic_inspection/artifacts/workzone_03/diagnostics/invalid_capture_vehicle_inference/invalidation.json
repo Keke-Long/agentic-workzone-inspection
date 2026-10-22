@@ -1,0 +1,91 @@
+{
+  "valid_for_inspection": false,
+  "reason": "Stage0 incorrectly treated the black sensor-recording ego vehicle as evidence of road surveying work. User confirmed calibration vehicle only, not construction activity.",
+  "action": "Interrupted downstream run; corrected scene input role separation; no findings promoted.",
+  "original_scene_input": {
+    "schema": "current_scene_v1",
+    "scene_id": "scene-CATS-15",
+    "scene_facts": {
+      "posted_speed_mph": 20,
+      "posted_speed_provenance": "explicit_user_confirmation",
+      "work_duration_category": null,
+      "work_duration_days_less_than": 3,
+      "work_duration_description": "User: less than three days; subcategory unknown",
+      "opposite_direction_image_coverage": false,
+      "roadway_configuration": null,
+      "roadway_lane_count": null,
+      "closed_lane": null,
+      "lanes_closed": null,
+      "active_work": null,
+      "arrow_board_deployed": null,
+      "pcms_deployed": null,
+      "visual_scene_description": {
+        "scope": "Only the later channelized work area visible approximately 78-90 seconds is described. The approach view at 52 seconds is included only for potentially relevant warning-sign evidence; association with the later work area is unconfirmed.",
+        "evidence_status": "Model-derived visual evidence, not human-confirmed ground truth.",
+        "survey_vehicle": "Black survey vehicle, user-confirmed.",
+        "posted_speed": "20 mph, user-confirmed.",
+        "work_duration": "Strictly less than three days, user-confirmed; more precise duration unknown.",
+        "road_geometry": "Urban two-way roadway with one apparent lane in each direction and a centerline visible through much of the approach. The roadway is generally straight in the scoped segment and crosses an all-way-stop intersection near the end of the channelized area.",
+        "traffic_directions": "The survey vehicle travels forward in its apparent right-hand travel lane. Opposing traffic would use the lane to the left of the centerline.",
+        "closure_or_obstruction": "The channelizers appear to delineate a localized work-area obstruction or closure primarily along the left/opposing-direction side of the roadway. The survey vehicle's forward travel lane remains usable through the approach. The images do not establish whether the opposing lane is fully closed for the entire work area.",
+        "intersection_relationship": "The channelized area is encountered immediately before and alongside an all-way-stop-controlled intersection visible around 83.8-90.1 seconds. The exact work-area limits relative to the intersection are uncertain.",
+        "apparent_work_vehicles": "No clearly identifiable work vehicle is visible within the scoped channelized area. Vehicles visible near the intersection and beyond cannot be reliably classified as work vehicles.",
+        "apparent_workers": "No person is clearly identifiable as a worker actively performing traffic control or construction within the scoped area.",
+        "flagger_evidence": "No reliable evidence of a flagger directing traffic. High-visibility orange elements are attached to channelizers and signs; clothing alone would not establish flagger activity.",
+        "bicycle_lane": "A distinct bicycle-lane boundary is not confidently identifiable within the scoped 78-90 second segment. A bicycle marking visible after the scoped area is not used to characterize this work area.",
+        "separately_encountered_work_areas": "One later channelized work area is supported by the images. The orange warning sign visible during the 52-61 second approach may relate to this area, but that association is not assumed."
+      },
+      "visual_scene_description_provenance": "Model-derived 16 scoped camera0 images; artifacts/workzone_03/scene_understanding_later_area; uncertainty retained",
+      "layout_uncertainties": [
+        "Is the left/opposing-direction lane fully closed, or is only part of it locally occupied or restricted?",
+        "Does the channelizer line lie directly on the centerline, or is it offset into the opposing lane?",
+        "What is the exact longitudinal start and end of the work area relative to the all-way-stop intersection?",
+        "Is any portion of a bicycle lane included in, displaced by, or outside the channelized area?",
+        "Are the visible ROAD WORK AHEAD signs associated with this later work area or with a separate work area farther along the route?",
+        "Were any workers or flaggers present outside the camera's visible field or between the sampled frames?",
+        "Are any vehicles near the intersection work-related, or are they ordinary traffic or parked vehicles?"
+      ],
+      "inspection_period": "daytime",
+      "inspection_period_provenance": "Daylit selected camera0 frames",
+      "inspection_scope": "User selects ONLY later channelized area approximately 78-90s. Approach warning signs from 52s are context with unconfirmed association; earlier work vehicles/personnel are excluded."
+    },
+    "raw_images": [
+      "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__52099999.jpg",
+      "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__54599999.jpg",
+      "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__57099999.jpg",
+      "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__59599999.jpg",
+      "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__62099999.jpg",
+      "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__64599999.jpg",
+      "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__67099999.jpg",
+      "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__69599999.jpg",
+      "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__72099999.jpg",
+      "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__74599999.jpg",
+      "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__77099999.jpg",
+      "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__79599999.jpg",
+      "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__82099999.jpg",
+      "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__84599999.jpg",
+      "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__87099999.jpg",
+      "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__89599999.jpg",
+      "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__92099999.jpg",
+      "/home/klong23/workzone/data/workzone_03/processed/scene-CATS-15/CAM_FRONT/workzone3__CAM_FRONT__94599999.jpg"
+    ],
+    "accepted_observations": [],
+    "semantic_only_observations": [],
+    "confirmed_device_condition_findings": [],
+    "available_inputs": [
+      "posted_speed_mph",
+      "raw_images"
+    ],
+    "perception_evidence_policy": "No human-reviewed or accepted detections yet. Empty inventory means unprocessed/unknown, not absence. Model-derived scene descriptions retain separate provenance.",
+    "dataset_root": "/home/klong23/workzone/data/workzone_03/processed",
+    "metadata_root": "/home/klong23/workzone/data/workzone_03/processed/CATS_scope_later_area",
+    "source_raw_root": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14",
+    "source_case_id": "Case_14",
+    "data_sources": {
+      "reviewed_bboxes": "/home/klong23/workzone/experiments/agentic_inspection/cases/workzone_03/input_evidence/reviewed_bboxes.json",
+      "expert_evidence_confirmations": "/home/klong23/workzone/experiments/agentic_inspection/cases/workzone_03/input_evidence/expert_evidence_confirmations.json",
+      "user_adjudications": "/home/klong23/workzone/experiments/agentic_inspection/cases/workzone_03/input_evidence/user_adjudications.json",
+      "device_inventory": "/home/klong23/workzone/experiments/agentic_inspection/cases/workzone_03/input_evidence/device_inventory.csv"
+    }
+  }
+}

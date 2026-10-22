@@ -1,0 +1,102 @@
+{
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "image_sha256": "cfe85829de9dc6d9194a219c3eae189062fbf0ca50d774236c037da22fb453ab",
+  "response": {
+    "model": "qwen3-vl:4b-instruct",
+    "created_at": "2026-10-21T14:48:14.118792046Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"items\": [\n    {\n      \"id\": 1,\n      \"status\": \"uncertain\",\n      \"reason\": \"Image is too blurry and lacks sufficient visual evidence to assess serviceability; object appears partially obscured and indistinct.\"\n    },\n    {\n      \"id\": 2,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Device is clearly visible with intact stripes, no obvious damage or missing parts, and appears functional within context.\"\n    },\n    {\n      \"id\": 3,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Device shows no signs of severe breakage, collapse, or missing major parts; stripes are visible and appear undamaged.\"\n    },\n    {\n      \"id\": 4,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Device is fully visible with clear stripes and structural integrity; no obvious functional defects observed.\"\n    },\n    {\n      \"id\": 5,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Device appears intact, with visible stripes and no signs of severe damage or missing parts that would impair function.\"\n    },\n    {\n      \"id\": 6,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Device is clearly visible with undamaged stripes and structural form; no obvious functional defects present.\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 17068915770,
+    "load_duration": 6965539740,
+    "prompt_eval_count": 1299,
+    "prompt_eval_duration": 3626238000,
+    "eval_count": 283,
+    "eval_duration": 6416091000
+  },
+  "observations": [
+    {
+      "observation_id": "C18_F0010_CAM_FRONT_Q013",
+      "frame": 10,
+      "native_bbox": [
+        1180.5704,
+        1169.7196,
+        1228.1807,
+        1232.1543
+      ],
+      "id": 1,
+      "status": "uncertain",
+      "reason": "Image is too blurry and lacks sufficient visual evidence to assess serviceability; object appears partially obscured and indistinct."
+    },
+    {
+      "observation_id": "C18_F0212_CAM_FRONT_Q012",
+      "frame": 212,
+      "native_bbox": [
+        2039.8904,
+        1126.1866,
+        2068.6431,
+        1169.6547
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "Device is clearly visible with intact stripes, no obvious damage or missing parts, and appears functional within context."
+    },
+    {
+      "observation_id": "C18_F0213_CAM_FRONT_Q014",
+      "frame": 213,
+      "native_bbox": [
+        2038.8151,
+        1127.4485,
+        2068.9084,
+        1170.4177
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "Device shows no signs of severe breakage, collapse, or missing major parts; stripes are visible and appear undamaged."
+    },
+    {
+      "observation_id": "C18_F0267_CAM_FRONT_Q013",
+      "frame": 267,
+      "native_bbox": [
+        2040.5386,
+        1126.8516,
+        2068.9216,
+        1169.0059
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "Device is fully visible with clear stripes and structural integrity; no obvious functional defects observed."
+    },
+    {
+      "observation_id": "C18_F0270_CAM_FRONT_Q009",
+      "frame": 270,
+      "native_bbox": [
+        2039.3309,
+        1126.6741,
+        2068.7312,
+        1169.6644
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "Device appears intact, with visible stripes and no signs of severe damage or missing parts that would impair function."
+    },
+    {
+      "observation_id": "C18_F0325_CAM_FRONT_Q024",
+      "frame": 325,
+      "native_bbox": [
+        2021.0266,
+        1135.0896,
+        2049.4111,
+        1174.67
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "Device is clearly visible with undamaged stripes and structural form; no obvious functional defects present."
+    }
+  ],
+  "human_confirmed_condition": false
+}

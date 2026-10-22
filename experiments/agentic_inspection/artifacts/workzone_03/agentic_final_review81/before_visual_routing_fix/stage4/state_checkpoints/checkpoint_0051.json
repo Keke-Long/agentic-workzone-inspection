@@ -1,0 +1,2007 @@
+{
+  "scene_id": "scene-CATS-15",
+  "selected_layouts": [
+    {
+      "layout_code": "TA-19",
+      "layout_role": "primary_applicable",
+      "source_locator": "TA-19, Figure 6P-19, PDF page 937 / printed page 897; source unit expanded from the full-manual index",
+      "matched_scene_facts": [
+        "Opposing traffic is explicitly prohibited from entering the closed direction and detours via other roads.",
+        "The ego-direction lane remains open; alternating one-way operation is not occurring.",
+        "The scene is an urban two-way street with one apparent lane in each direction.",
+        "The opposing-direction roadway portion is fully closed and separated by channelizing devices."
+      ],
+      "conflicting_scene_facts": [
+        "The exact off-site detour route and its signing are outside the camera scope.",
+        "Whether the street has a posted route number is unresolved; TA-19 guidance addresses streets without posted route numbers.",
+        "The precise local intersection geometry and limits of the closure are unresolved, but those facts are not needed to establish the directional-detour operation."
+      ]
+    },
+    {
+      "layout_code": "TA-24",
+      "layout_role": "cross_reference_only",
+      "source_locator": "TA-24, Figure 6P-24, PDF page 947 / printed page 907; source unit expanded from the full-manual index",
+      "matched_scene_facts": [
+        "One roadway direction is closed while the other direction remains open.",
+        "Channelizing devices approach and taper near a cross-street intersection."
+      ],
+      "conflicting_scene_facts": [
+        "The defining far-side condition of TA-24 is not established. The channelizer line may end at the intersection, continue beyond it, or turn into the cross street.",
+        "The precise work-space location and longitudinal limits of the opposing-direction closure are unresolved."
+      ]
+    },
+    {
+      "layout_code": "TA-8",
+      "layout_role": "cross_reference_only",
+      "source_locator": "TA-8, Figure 6P-8, PDF page 915 / printed page 875; source unit expanded from the full-manual index",
+      "matched_scene_facts": [
+        "An off-site detour for opposing traffic is explicitly confirmed.",
+        "The closure is associated with an intersection."
+      ],
+      "conflicting_scene_facts": [
+        "TA-8 depicts a road closure with an off-site detour, whereas the confirmed operation closes only one travel direction and leaves the ego-direction lane open.",
+        "The complete TA-8 road-closure and detour-signing arrangement is not established."
+      ]
+    },
+    {
+      "layout_code": "TA-20",
+      "layout_role": "cross_reference_only",
+      "source_locator": "TA-20, Figure 6P-20, PDF page 939 / printed page 899; source unit expanded from the full-manual index",
+      "matched_scene_facts": [
+        "An off-site detour for opposing traffic is explicitly confirmed.",
+        "The closure is near an intersection."
+      ],
+      "conflicting_scene_facts": [
+        "TA-20 addresses detour signing for a closed street, not the confirmed directional closure with the other travel direction remaining open.",
+        "Whether the street has a posted route number is unresolved, and the specific TA-20 signing arrangement is not covered."
+      ]
+    }
+  ],
+  "phase": "measurement",
+  "region_coverage": {
+    "lane_closure_layout": {
+      "status": "screened",
+      "reason": "Initial compilation registered the selected TA-19 directional-detour layout; remaining ledger candidates were screened and excluded where activation or inspectability was not established.",
+      "requirement_keys": [
+        "req_403dd72cd3369844"
+      ]
+    },
+    "advance_warning_sign_system": {
+      "status": "screened",
+      "reason": "Initial compilation registered sign-spacing and ROAD WORK sign checks; remaining ledger candidates were screened and excluded where activation or field inspectability was not established.",
+      "requirement_keys": [
+        "req_ad7a729596b46383",
+        "req_47aa373310aaf156",
+        "req_38a0c44a191a7475",
+        "req_cb1dccef74232ff1"
+      ]
+    },
+    "channelization_system": {
+      "status": "screened",
+      "reason": "Initial compilation registered spacing, serviceability, other-device characteristics, and drum characteristics; remaining ledger candidates were screened and excluded where activation was not established.",
+      "requirement_keys": [
+        "req_62474d3d964c6426",
+        "req_4b36f1dbdb9f7c39",
+        "req_aa7f07b1d07ed2cb",
+        "req_2aaae0362bf83021",
+        "req_9684dd549b406cb8"
+      ]
+    },
+    "transition_and_taper_geometry": {
+      "status": "screened",
+      "reason": "Initial compilation registered the applicable path-redirection check; remaining ledger candidates were screened and excluded where activation, inspectability, or independence was not established.",
+      "requirement_keys": [
+        "req_8934040d233c7213"
+      ]
+    },
+    "conditional_active_devices": {
+      "status": "skipped_no_inspectable_candidate",
+      "reason": "No active device is established in the scene; conditional candidates were screened and excluded.",
+      "requirement_keys": []
+    },
+    "conditional_termination_area": {
+      "status": "skipped_no_inspectable_candidate",
+      "reason": "No applicable termination-area condition is established; candidates were screened and excluded.",
+      "requirement_keys": []
+    }
+  },
+  "requirements": [
+    {
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_sign_spacing",
+        "quantity": "successive advance-warning sign spacing",
+        "thresholds": [
+          {
+            "condition": "each spacing",
+            "value": 100,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "source_locator": "TABLE-6B-1; PDF page 813",
+      "discovered_requirement_key": "req_ad7a729596b46383",
+      "subject": "successive advance warning signs",
+      "requirement_fingerprint": "ad7a729596b46383c34d9cb9e1b7afed6b5820b49d18aa4a300a989157c516ee",
+      "modality": "should",
+      "source_node_ids": [
+        "src_6ee70d9c1617acd549c4"
+      ],
+      "registration_timestamp": "2026-10-22T03:04:55.831176+00:00",
+      "region": "advance_warning_sign_system",
+      "source_span": "Table 6B-1. Recommended Advance Warning Sign Minimum Spacing. Urban (low speed): 100 feet, 100 feet, 100 feet. Urban (high speed): 350 feet, 350 feet, 350 feet. Rural: 500 feet, 500 feet, 500 feet. Expressway / Freeway: 1,000 feet, 1,500 feet, 2,640 feet. The column headings A, B, and C are the dimensions shown in Figures 6P-1 through 6P-54.",
+      "required_inputs": [
+        "Measured longitudinal distances between successive advance warning signs",
+        "Roadway category and posted speed"
+      ],
+      "relation": "are spaced at least",
+      "registration_event_index": 2,
+      "threshold": "100 ft minimum between each successive sign in the urban low-speed category",
+      "applicability_conditions": [
+        "A series of two or more advance warning signs is used",
+        "Posted speed is 20 mph and the roadway is urban low-speed"
+      ],
+      "candidate_label": "Urban low-speed advance-warning spacing",
+      "data_availability_record": {
+        "discovered_requirement_key": "req_ad7a729596b46383",
+        "condition_data_complete": false,
+        "available_inputs": [
+          "Roadway category and posted speed"
+        ],
+        "missing_inputs": [
+          "Measured longitudinal distances between successive advance warning signs"
+        ],
+        "data_availability": "partial",
+        "basis_evidence_ids": [
+          "scene_facts.visual_scene_description.facts[0]",
+          "scene_facts.posted_speed_mph",
+          "scene_facts.visual_scene_description.facts[7]"
+        ],
+        "reason": "Frozen facts directly establish an urban roadway and a 20 mph posted speed, but do not resolve whether the repeated ROAD WORK AHEAD observations are two or more independent advance-warning signs, and successive-sign distances have not been measured.",
+        "planned_tools": [
+          "measure_sign_spacing",
+          "inspect_temporal_images"
+        ],
+        "planned_evidence_strategy": "Inspect temporally separated sign candidates to establish independent signs, then measure or project their longitudinal positions along the roadway and calculate every successive spacing.",
+        "planned_decision_rule": "If a qualifying series is confirmed, pass only when every successive spacing is at least 100 ft; if the series or spacing cannot be resolved, report insufficient evidence.",
+        "availability_event_index": 20,
+        "availability_timestamp": "2026-10-22T03:09:15.625393+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "measurement_spec": {
+        "required": true,
+        "tool": "audit_channelizer_spacing",
+        "quantity": "successive tangent channelizer spacing",
+        "thresholds": [
+          {
+            "condition": "tangent section",
+            "value": 40,
+            "unit": "ft",
+            "violation_when": "above_maximum",
+            "formula_parameter": "posted_speed_mph",
+            "multiplier": 2
+          }
+        ]
+      },
+      "source_locator": "SEC-6K.01 paragraph 04; PDF page 855",
+      "discovered_requirement_key": "req_62474d3d964c6426",
+      "subject": "tangent channelizing devices",
+      "requirement_fingerprint": "62474d3d964c642662f5d4a82929d1d6df4893e51c0a1bc7cd04c8efed07aa34",
+      "modality": "should",
+      "source_node_ids": [
+        "src_2afdeb6d23fb7be10144"
+      ],
+      "registration_timestamp": "2026-10-22T03:05:29.186766+00:00",
+      "region": "channelization_system",
+      "source_span": "The spacing between cones, tubular markers, vertical panels, drums, and barricades should not exceed a distance in feet equal to 1 times the speed limit in mph when used for taper channelization, and should not exceed a distance in feet equal to 2 times the speed limit in mph when used for tangent channelization.",
+      "required_inputs": [
+        "Measured spacing between successive tangent channelizing devices",
+        "Posted speed limit"
+      ],
+      "relation": "should be spaced no farther apart than",
+      "registration_event_index": 3,
+      "threshold": "2 times the posted speed limit in feet; at 20 mph, 40 ft maximum",
+      "applicability_conditions": [
+        "Channelizing devices are used in a tangent section"
+      ],
+      "candidate_label": "Tangent channelizer spacing",
+      "data_availability_record": {
+        "discovered_requirement_key": "req_62474d3d964c6426",
+        "condition_data_complete": true,
+        "available_inputs": [
+          "Posted speed limit"
+        ],
+        "missing_inputs": [
+          "Measured spacing between successive tangent channelizing devices"
+        ],
+        "data_availability": "partial",
+        "basis_evidence_ids": [
+          "scene_facts.posted_speed_mph",
+          "scene_facts.visual_scene_description.facts[5]",
+          "scene_facts.visual_scene_description.facts[6]"
+        ],
+        "reason": "Frozen facts establish the 20 mph posted speed and a longitudinal channelizer section, but tangent-device spacing has not been measured.",
+        "planned_tools": [
+          "audit_channelizer_spacing"
+        ],
+        "planned_evidence_strategy": "Identify successive independent devices in the tangent section from accepted observations and temporal views, then audit their longitudinal spacing using trajectory and calibrated geometry as needed.",
+        "planned_decision_rule": "At 20 mph, pass only if no tangent spacing exceeds 40 ft; any supported exceedance fails, while unresolved device identity or geometry is insufficient.",
+        "availability_event_index": 21,
+        "availability_timestamp": "2026-10-22T03:09:15.625410+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "source_locator": "SEC-6K.01 paragraph 15; PDF page 855",
+      "discovered_requirement_key": "req_4b36f1dbdb9f7c39",
+      "subject": "channelizing devices",
+      "requirement_fingerprint": "4b36f1dbdb9f7c39405b16c75352e0173f431e7686df2c365837e662af357e2c",
+      "modality": "shall",
+      "source_node_ids": [
+        "src_65f8e6d2257292e4b29b"
+      ],
+      "registration_timestamp": "2026-10-22T03:05:33.519819+00:00",
+      "region": "channelization_system",
+      "source_span": "Channelizing devices that are no longer serviceable (see definition in Section 1C.02) shall be replaced.",
+      "required_inputs": [
+        "Visual inspection of deployed channelizing devices for serviceability"
+      ],
+      "relation": "shall be",
+      "registration_event_index": 4,
+      "threshold": "serviceable; devices no longer serviceable shall be replaced",
+      "applicability_conditions": [
+        "Channelizing devices are deployed in the inspected TTC zone"
+      ],
+      "candidate_label": "Channelizer serviceability",
+      "data_availability_record": {
+        "discovered_requirement_key": "req_4b36f1dbdb9f7c39",
+        "condition_data_complete": true,
+        "available_inputs": [],
+        "missing_inputs": [
+          "Visual inspection of deployed channelizing devices for serviceability"
+        ],
+        "data_availability": "not_attempted",
+        "basis_evidence_ids": [
+          "scene_facts.visual_scene_description.facts[4]",
+          "scene_facts.opposing_direction_lane_fully_closed"
+        ],
+        "reason": "Deployment in the inspected TTC zone is established by frozen facts, but serviceability is a visual semantic result not yet acquired.",
+        "planned_tools": [
+          "inspect_temporal_images"
+        ],
+        "planned_evidence_strategy": "Inspect close, well-lit temporal views of the deployed cones, drums, and delineators for damage, displacement, contamination, and visibility.",
+        "planned_decision_rule": "Pass only if all inspected deployed channelizing devices are serviceable; any supported non-serviceable device fails, and obscured devices remain insufficient.",
+        "availability_event_index": 22,
+        "availability_timestamp": "2026-10-22T03:09:15.625415+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "source_locator": "SEC-6K.12 paragraph 02; PDF page 863",
+      "discovered_requirement_key": "req_aa7f07b1d07ed2cb",
+      "model_extracted_source_span": "Other channelizing devices should comply with the general size, color, stripe pattern, retroreflection, and placement characteristics established for the devices described in this Chapter. December 2023 Sect. 6K.11 to 6K.12 Page 824 MUTCD 11th Edition CHAPTER 6L. OTHER TTC ZONE TRAFFIC CONTROL DEVICES",
+      "subject": "Other channelizing devices",
+      "requirement_fingerprint": "aa7f07b1d07ed2cbe66b8002cebb4fddeacf5ef5d8cb36f5115d19d1c2988d4f",
+      "modality": "should",
+      "source_node_ids": [
+        "src_05ce54d97e292ab88f8f"
+      ],
+      "registration_timestamp": "2026-10-22T03:05:47.555949+00:00",
+      "region": "channelization_system",
+      "source_span": "Other channelizing devices should comply with the general size, color, stripe pattern, retroreflection, and placement characteristics established for the devices described in this Chapter. December 2023 Sect. 6K.11 to 6K.12 Page 824 MUTCD 11th Edition CHAPTER 6L. OTHER TTC ZONE TRAFFIC CONTROL DEVICES",
+      "required_inputs": [
+        "raw_images"
+      ],
+      "relation": "should_comply",
+      "registration_event_index": 5,
+      "threshold": "Other channelizing devices should comply with the general size, color, stripe pattern, retroreflection, and placement characteristics established for the devices described in this Chapter. December 2023 Sect. 6K.11 to 6K.12 Page 824 MUTCD 11th Edition CHAPTER 6L. OTHER TTC ZONE TRAFFIC CONTROL DEVICES",
+      "applicability_conditions": [],
+      "candidate_label": "SEC-6K.12 02: Other channelizing devices",
+      "data_availability_record": {
+        "discovered_requirement_key": "req_aa7f07b1d07ed2cb",
+        "condition_data_complete": true,
+        "available_inputs": [],
+        "missing_inputs": [
+          "raw_images"
+        ],
+        "data_availability": "not_attempted",
+        "basis_evidence_ids": [],
+        "reason": "The requirement is unconditional, but the inventory of images and observations does not itself provide the required visual characteristics.",
+        "planned_tools": [
+          "inspect_temporal_images"
+        ],
+        "planned_evidence_strategy": "Inspect representative temporal images of each deployed channelizer type for size, color, stripe pattern, retroreflection, and placement characteristics.",
+        "planned_decision_rule": "Pass only for characteristics supported by visible evidence across applicable device types; obscured or unresolvable characteristics are insufficient.",
+        "availability_event_index": 23,
+        "availability_timestamp": "2026-10-22T03:09:15.625419+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_longitudinal_distance",
+        "quantity": "distance from ROAD WORK sign to work space or any detour",
+        "thresholds": [
+          {
+            "condition": "sign is not in advance of work space or detour",
+            "value": 0,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "source_locator": "SEC-6H.03 paragraph 01; PDF page 842",
+      "discovered_requirement_key": "req_47aa373310aaf156",
+      "model_extracted_source_span": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions, should be located in advance of the work space or any detour, on the road where the work is taking place.",
+      "subject": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions,",
+      "requirement_fingerprint": "47aa373310aaf15621501fc2453e067af4e4daf67dc67cbf7e6d395bda9d67ae",
+      "modality": "should",
+      "source_node_ids": [
+        "src_26bd048211769b2b09e8"
+      ],
+      "registration_timestamp": "2026-10-22T03:05:51.004631+00:00",
+      "region": "advance_warning_sign_system",
+      "source_span": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions, should be located in advance of the work space or any detour, on the road where the work is taking place.",
+      "required_inputs": [
+        "raw_images"
+      ],
+      "relation": "should_comply",
+      "registration_event_index": 6,
+      "threshold": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions, should be located in advance of the work space or any detour, on the road where the work is taking place.",
+      "applicability_conditions": [],
+      "candidate_label": "SEC-6H.03 01: The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions",
+      "data_availability_record": {
+        "discovered_requirement_key": "req_47aa373310aaf156",
+        "condition_data_complete": true,
+        "available_inputs": [],
+        "missing_inputs": [
+          "raw_images"
+        ],
+        "data_availability": "not_attempted",
+        "basis_evidence_ids": [],
+        "reason": "The requirement is unconditional and requires visual inspection plus longitudinal interpretation; no frozen semantic result states the sign's position relative to the work space or detour.",
+        "planned_tools": [
+          "inspect_temporal_images",
+          "measure_longitudinal_distance"
+        ],
+        "planned_evidence_strategy": "Inspect each visible ROAD WORK sign and locate the work space or detour, then measure their longitudinal ordering along the roadway.",
+        "planned_decision_rule": "Pass only when the ROAD WORK sign is demonstrated to be upstream of the work space or any detour on the work road; unresolved work-space location is insufficient.",
+        "availability_event_index": 24,
+        "availability_timestamp": "2026-10-22T03:09:15.625422+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "source_locator": "SEC-6B.05 paragraph 02; PDF page 811",
+      "discovered_requirement_key": "req_8934040d233c7213",
+      "model_extracted_source_span": "Except for mobile operations, when redirection of the road users’ normal path is required, road users shall be directed from the normal path to a new path with appropriate channelizing devices, traffic control devices, and/or TTC methods.",
+      "subject": "Except for mobile operations, when redirection of the road users’ normal path is required, road users",
+      "requirement_fingerprint": "8934040d233c7213b2ca4a155dc91f50f2700f23ec818987f4a92bd91fa280e8",
+      "modality": "shall",
+      "source_node_ids": [
+        "src_586d1639348f00b7b529"
+      ],
+      "registration_timestamp": "2026-10-22T03:06:09.513531+00:00",
+      "region": "transition_and_taper_geometry",
+      "source_span": "Except for mobile operations, when redirection of the road users’ normal path is required, road users shall be directed from the normal path to a new path with appropriate channelizing devices, traffic control devices, and/or TTC methods.",
+      "required_inputs": [
+        "raw_images"
+      ],
+      "relation": "shall_comply",
+      "registration_event_index": 7,
+      "threshold": "Except for mobile operations, when redirection of the road users’ normal path is required, road users shall be directed from the normal path to a new path with appropriate channelizing devices, traffic control devices, and/or TTC methods.",
+      "applicability_conditions": [],
+      "candidate_label": "SEC-6B.05 02: Except for mobile operations, when redirection of the road users’ normal path is required, road users",
+      "data_availability_record": {
+        "discovered_requirement_key": "req_8934040d233c7213",
+        "condition_data_complete": true,
+        "available_inputs": [],
+        "missing_inputs": [
+          "raw_images"
+        ],
+        "data_availability": "not_attempted",
+        "basis_evidence_ids": [],
+        "reason": "The requirement is unconditional; frozen facts describe an open ego path and channelizers but do not replace the required visual interpretation of the redirection.",
+        "planned_tools": [
+          "inspect_temporal_images"
+        ],
+        "planned_evidence_strategy": "Inspect the approach and transition to verify that the normal path is redirected to the open path using appropriate channelizing devices, traffic control devices, or TTC methods, excluding mobile operations.",
+        "planned_decision_rule": "Pass only if the complete observed redirection is visibly supported by appropriate devices or methods; otherwise report failure or insufficient evidence as visibility permits.",
+        "availability_event_index": 25,
+        "availability_timestamp": "2026-10-22T03:09:15.625425+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "source_locator": "SEC-6K.06 paragraph 01; PDF page 860",
+      "discovered_requirement_key": "req_2aaae0362bf83021",
+      "model_extracted_source_span": "Drums (see Figure 6K-1) used for road user warning or channelization shall be constructed of lightweight, deformable materials. They shall be a minimum of 36 inches in height and have at least an 18-inch minimum width regardless of orientation. Metal drums shall not be used. The markings on drums shall be horizontal, circumferential, alternating orange and white retroreflective stripes 4 to 6 inches wide. Each drum shall have a minimum of two orange and two white stripes with the top stripe being orange. Any non-retroreflectorized spaces between the horizontal orange and white stripes shall not exceed 3 inches wide. Drums shall have closed tops that will not allow collection of construction debris or other debris.",
+      "subject": "Drums (see Figure 6K-1) used for road user warning or channelization",
+      "requirement_fingerprint": "2aaae0362bf830218cecaed4cc53b30e11ea41f2dbda4ba2da2e5556d1cf7c3e",
+      "modality": "shall",
+      "source_node_ids": [
+        "src_608804d2b34f811a3a6c"
+      ],
+      "registration_timestamp": "2026-10-22T03:06:09.513619+00:00",
+      "region": "channelization_system",
+      "source_span": "Drums (see Figure 6K-1) used for road user warning or channelization shall be constructed of lightweight, deformable materials. They shall be a minimum of 36 inches in height and have at least an 18-inch minimum width regardless of orientation. Metal drums shall not be used. The markings on drums shall be horizontal, circumferential, alternating orange and white retroreflective stripes 4 to 6 inches wide. Each drum shall have a minimum of two orange and two white stripes with the top stripe being orange. Any non-retroreflectorized spaces between the horizontal orange and white stripes shall not exceed 3 inches wide. Drums shall have closed tops that will not allow collection of construction debris or other debris.",
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations",
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "relation": "shall_comply",
+      "registration_event_index": 8,
+      "threshold": "Drums (see Figure 6K-1) used for road user warning or channelization shall be constructed of lightweight, deformable materials. They shall be a minimum of 36 inches in height and have at least an 18-inch minimum width regardless of orientation. Metal drums shall not be used. The markings on drums shall be horizontal, circumferential, alternating orange and white retroreflective stripes 4 to 6 inches wide. Each drum shall have a minimum of two orange and two white stripes with the top stripe being orange. Any non-retroreflectorized spaces between the horizontal orange and white stripes shall not exceed 3 inches wide. Drums shall have closed tops that will not allow collection of construction debris or other debris.",
+      "applicability_conditions": [],
+      "candidate_label": "SEC-6K.06 01: Drums (see Figure 6K-1) used for road user warning or channelization",
+      "data_availability_record": {
+        "discovered_requirement_key": "req_2aaae0362bf83021",
+        "condition_data_complete": true,
+        "available_inputs": [
+          "accepted_bbox_observations"
+        ],
+        "missing_inputs": [
+          "raw_images",
+          "ego_trajectory",
+          "lidar_points"
+        ],
+        "data_availability": "partial",
+        "basis_evidence_ids": [
+          "manifest.accepted_bbox_observations",
+          "manifest.accepted_bbox_observations_by_class",
+          "scene_facts.visual_scene_description.facts[4]"
+        ],
+        "reason": "Accepted bbox observations are directly available from the frozen inventory. Raw images, ego trajectory, and lidar points are derivable inputs but have not been acquired as the required inspection or measurement evidence.",
+        "planned_tools": [
+          "inspect_temporal_images",
+          "get_vehicle_trajectory",
+          "project_bbox_to_lidar"
+        ],
+        "planned_evidence_strategy": "Inspect images for drum identity and markings, and use trajectory and lidar projection where needed to resolve dimensions, material, stripe count and width, top closure, and device orientation.",
+        "planned_decision_rule": "Pass only when every applicable drum characteristic is supported; a confirmed noncompliant characteristic fails, while unresolved characteristics remain insufficient.",
+        "availability_event_index": 26,
+        "availability_timestamp": "2026-10-22T03:09:15.625428+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "source_locator": "TA-19 paragraph 01; PDF page 936",
+      "discovered_requirement_key": "req_403dd72cd3369844",
+      "subject": "directional lane-closure layout",
+      "requirement_fingerprint": "403dd72cd3369844c2a6a509192b4c4e32d96d9773b23b28be360097c4f7c98b",
+      "modality": "should",
+      "source_node_ids": [
+        "src_ff92896162b8a01b0836"
+      ],
+      "registration_timestamp": "2026-10-22T03:06:57.519402+00:00",
+      "region": "lane_closure_layout",
+      "source_span": "This plan should be used for streets without posted route numbers.",
+      "required_inputs": [
+        "Observed lane-closure routing and channelizer layout",
+        "Confirmed opposing-traffic routing",
+        "Selected TA layout"
+      ],
+      "relation": "should conform to the selected TA-19 detour-for-one-travel-direction arrangement",
+      "registration_event_index": 9,
+      "threshold": "opposing traffic is prohibited from the closed direction, the open direction remains available to road users, and the closed direction is routed to an off-site detour",
+      "applicability_conditions": [
+        "TA-19 is the selected applicable layout",
+        "One travel direction is closed while the other remains open"
+      ],
+      "candidate_label": "TA-19 directional-detour layout",
+      "data_availability_record": {
+        "discovered_requirement_key": "req_403dd72cd3369844",
+        "condition_data_complete": true,
+        "available_inputs": [
+          "Confirmed opposing-traffic routing",
+          "Selected TA layout"
+        ],
+        "missing_inputs": [
+          "Observed lane-closure routing and channelizer layout"
+        ],
+        "data_availability": "partial",
+        "basis_evidence_ids": [
+          "scene_facts.opposing_traffic_detour_confirmed",
+          "selected_layouts[0]",
+          "scene_facts.opposing_direction_lane_fully_closed",
+          "scene_facts.alternating_one_way_operation"
+        ],
+        "reason": "Frozen user confirmation and the selected TA-19 record directly establish opposing-traffic routing and the applicable layout, but the observed routing and channelizer-layout interpretation must still be acquired from inspection.",
+        "planned_tools": [
+          "inspect_temporal_images"
+        ],
+        "planned_evidence_strategy": "Inspect the channelized closure and open ego-direction path across temporal frames, and compare the observed directional routing with TA-19.",
+        "planned_decision_rule": "Pass only if the closed direction is prohibited and routed off-site, the other direction remains available, and observed channelization conforms to the selected TA-19 arrangement.",
+        "availability_event_index": 27,
+        "availability_timestamp": "2026-10-22T03:09:15.625431+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "source_locator": "SEC-6H.01 paragraph 04; PDF page 838",
+      "discovered_requirement_key": "req_38a0c44a191a7475",
+      "model_extracted_source_span": "Except as provided in Paragraph 5 of this Section, TTC warning signs shall be diamond-shaped with a black legend and border on an orange background, except for the Grade Crossing Advance Warning (W10-1) sign, which shall have a black legend and border on a yellow background.",
+      "subject": "Except as provided in Paragraph 5 of this Section, TTC warning signs",
+      "requirement_fingerprint": "38a0c44a191a7475de45eb1970c49e014c2087b03af9f2fd7396f4806c64d1c2",
+      "modality": "shall",
+      "source_node_ids": [
+        "src_9da08448efd96ba6ade8"
+      ],
+      "registration_timestamp": "2026-10-22T03:07:16.992806+00:00",
+      "region": "advance_warning_sign_system",
+      "source_span": "Except as provided in Paragraph 5 of this Section, TTC warning signs shall be diamond-shaped with a black legend and border on an orange background, except for the Grade Crossing Advance Warning (W10-1) sign, which shall have a black legend and border on a yellow background.",
+      "required_inputs": [
+        "raw_images"
+      ],
+      "relation": "shall_comply",
+      "registration_event_index": 16,
+      "threshold": "Except as provided in Paragraph 5 of this Section, TTC warning signs shall be diamond-shaped with a black legend and border on an orange background, except for the Grade Crossing Advance Warning (W10-1) sign, which shall have a black legend and border on a yellow background.",
+      "applicability_conditions": [],
+      "candidate_label": "SEC-6H.01 04: Except as provided in Paragraph 5 of this Section, TTC warning signs",
+      "data_availability_record": {
+        "discovered_requirement_key": "req_38a0c44a191a7475",
+        "condition_data_complete": true,
+        "available_inputs": [],
+        "missing_inputs": [
+          "raw_images"
+        ],
+        "data_availability": "not_attempted",
+        "basis_evidence_ids": [],
+        "reason": "The requirement is unconditional and requires visual inspection of warning-sign shape, legend, border, and background; no frozen semantic result states those characteristics.",
+        "planned_tools": [
+          "inspect_temporal_images"
+        ],
+        "planned_evidence_strategy": "Inspect all visible TTC warning signs in representative temporal images for diamond shape and prescribed colors, treating any grade-crossing exception separately.",
+        "planned_decision_rule": "Pass only when each applicable TTC warning sign meets the specified shape and color requirements; obscured signs are insufficient.",
+        "availability_event_index": 28,
+        "availability_timestamp": "2026-10-22T03:09:15.625435+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "source_locator": "SEC-6K.01 paragraph 14; PDF page 855",
+      "discovered_requirement_key": "req_9684dd549b406cb8",
+      "model_extracted_source_span": "Particular attention should be given to maintaining the channelizing devices to keep them clean, visible, and properly positioned at all times.",
+      "subject": "Particular attention",
+      "requirement_fingerprint": "9684dd549b406cb85053ef34162a5a4cc7582e13f56980cfe9f635a16b1e8a5d",
+      "modality": "should",
+      "source_node_ids": [
+        "src_c20be98384c5d0b17a53"
+      ],
+      "registration_timestamp": "2026-10-22T03:07:35.536768+00:00",
+      "region": "channelization_system",
+      "source_span": "Particular attention should be given to maintaining the channelizing devices to keep them clean, visible, and properly positioned at all times.",
+      "required_inputs": [
+        "raw_images"
+      ],
+      "relation": "should_comply",
+      "registration_event_index": 17,
+      "threshold": "Particular attention should be given to maintaining the channelizing devices to keep them clean, visible, and properly positioned at all times.",
+      "applicability_conditions": [],
+      "candidate_label": "SEC-6K.01 14: Particular attention",
+      "data_availability_record": {
+        "discovered_requirement_key": "req_9684dd549b406cb8",
+        "condition_data_complete": true,
+        "available_inputs": [],
+        "missing_inputs": [
+          "raw_images"
+        ],
+        "data_availability": "not_attempted",
+        "basis_evidence_ids": [],
+        "reason": "The requirement is unconditional and requires visual maintenance assessment; no frozen semantic result states that devices are clean, visible, and properly positioned.",
+        "planned_tools": [
+          "inspect_temporal_images"
+        ],
+        "planned_evidence_strategy": "Inspect representative close temporal views for cleanliness, visibility, and proper positioning of each deployed channelizing device.",
+        "planned_decision_rule": "Pass only when inspected devices are clean, visible, and properly positioned; any supported defect fails, and obscured devices remain insufficient.",
+        "availability_event_index": 29,
+        "availability_timestamp": "2026-10-22T03:09:15.625437+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "source_locator": "SEC-6H.02 paragraph 02; PDF page 838",
+      "discovered_requirement_key": "req_cb1dccef74232ff1",
+      "model_extracted_source_span": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+      "subject": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign",
+      "requirement_fingerprint": "cb1dccef74232ff1b0c8c2e1f2c0b92e12117b87f5905eb17ed9bedc438b4a58",
+      "modality": "should",
+      "source_node_ids": [
+        "src_eafd02c3dbce3f8109a1"
+      ],
+      "registration_timestamp": "2026-10-22T03:08:00.123265+00:00",
+      "region": "advance_warning_sign_system",
+      "source_span": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+      "required_inputs": [
+        "raw_images"
+      ],
+      "relation": "should_comply",
+      "registration_event_index": 18,
+      "threshold": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+      "applicability_conditions": [],
+      "candidate_label": "SEC-6H.02 02: Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (",
+      "data_availability_record": {
+        "discovered_requirement_key": "req_cb1dccef74232ff1",
+        "condition_data_complete": true,
+        "available_inputs": [],
+        "missing_inputs": [
+          "raw_images"
+        ],
+        "data_availability": "not_attempted",
+        "basis_evidence_ids": [],
+        "reason": "The requirement is unconditional; frozen observations do not directly establish the encounter order of independent advance-warning signs well enough for the required semantic input.",
+        "planned_tools": [
+          "inspect_temporal_images"
+        ],
+        "planned_evidence_strategy": "Review the approach chronologically and identify the first independent advance-warning sign encountered before the transition or activity area, then classify its legend.",
+        "planned_decision_rule": "Pass only if ROAD WORK AHEAD is the first advance-warning sign in a confirmed multi-sign approach; otherwise report noncompliance or insufficient evidence.",
+        "availability_event_index": 30,
+        "availability_timestamp": "2026-10-22T03:09:15.625441+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    }
+  ],
+  "data_availability": {
+    "req_ad7a729596b46383": {
+      "discovered_requirement_key": "req_ad7a729596b46383",
+      "condition_data_complete": false,
+      "available_inputs": [
+        "Roadway category and posted speed"
+      ],
+      "missing_inputs": [
+        "Measured longitudinal distances between successive advance warning signs"
+      ],
+      "data_availability": "partial",
+      "basis_evidence_ids": [
+        "scene_facts.visual_scene_description.facts[0]",
+        "scene_facts.posted_speed_mph",
+        "scene_facts.visual_scene_description.facts[7]"
+      ],
+      "reason": "Frozen facts directly establish an urban roadway and a 20 mph posted speed, but do not resolve whether the repeated ROAD WORK AHEAD observations are two or more independent advance-warning signs, and successive-sign distances have not been measured.",
+      "planned_tools": [
+        "measure_sign_spacing",
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect temporally separated sign candidates to establish independent signs, then measure or project their longitudinal positions along the roadway and calculate every successive spacing.",
+      "planned_decision_rule": "If a qualifying series is confirmed, pass only when every successive spacing is at least 100 ft; if the series or spacing cannot be resolved, report insufficient evidence.",
+      "availability_event_index": 20,
+      "availability_timestamp": "2026-10-22T03:09:15.625393+00:00"
+    },
+    "req_62474d3d964c6426": {
+      "discovered_requirement_key": "req_62474d3d964c6426",
+      "condition_data_complete": true,
+      "available_inputs": [
+        "Posted speed limit"
+      ],
+      "missing_inputs": [
+        "Measured spacing between successive tangent channelizing devices"
+      ],
+      "data_availability": "partial",
+      "basis_evidence_ids": [
+        "scene_facts.posted_speed_mph",
+        "scene_facts.visual_scene_description.facts[5]",
+        "scene_facts.visual_scene_description.facts[6]"
+      ],
+      "reason": "Frozen facts establish the 20 mph posted speed and a longitudinal channelizer section, but tangent-device spacing has not been measured.",
+      "planned_tools": [
+        "audit_channelizer_spacing"
+      ],
+      "planned_evidence_strategy": "Identify successive independent devices in the tangent section from accepted observations and temporal views, then audit their longitudinal spacing using trajectory and calibrated geometry as needed.",
+      "planned_decision_rule": "At 20 mph, pass only if no tangent spacing exceeds 40 ft; any supported exceedance fails, while unresolved device identity or geometry is insufficient.",
+      "availability_event_index": 21,
+      "availability_timestamp": "2026-10-22T03:09:15.625410+00:00"
+    },
+    "req_4b36f1dbdb9f7c39": {
+      "discovered_requirement_key": "req_4b36f1dbdb9f7c39",
+      "condition_data_complete": true,
+      "available_inputs": [],
+      "missing_inputs": [
+        "Visual inspection of deployed channelizing devices for serviceability"
+      ],
+      "data_availability": "not_attempted",
+      "basis_evidence_ids": [
+        "scene_facts.visual_scene_description.facts[4]",
+        "scene_facts.opposing_direction_lane_fully_closed"
+      ],
+      "reason": "Deployment in the inspected TTC zone is established by frozen facts, but serviceability is a visual semantic result not yet acquired.",
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect close, well-lit temporal views of the deployed cones, drums, and delineators for damage, displacement, contamination, and visibility.",
+      "planned_decision_rule": "Pass only if all inspected deployed channelizing devices are serviceable; any supported non-serviceable device fails, and obscured devices remain insufficient.",
+      "availability_event_index": 22,
+      "availability_timestamp": "2026-10-22T03:09:15.625415+00:00"
+    },
+    "req_aa7f07b1d07ed2cb": {
+      "discovered_requirement_key": "req_aa7f07b1d07ed2cb",
+      "condition_data_complete": true,
+      "available_inputs": [],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "data_availability": "not_attempted",
+      "basis_evidence_ids": [],
+      "reason": "The requirement is unconditional, but the inventory of images and observations does not itself provide the required visual characteristics.",
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect representative temporal images of each deployed channelizer type for size, color, stripe pattern, retroreflection, and placement characteristics.",
+      "planned_decision_rule": "Pass only for characteristics supported by visible evidence across applicable device types; obscured or unresolvable characteristics are insufficient.",
+      "availability_event_index": 23,
+      "availability_timestamp": "2026-10-22T03:09:15.625419+00:00"
+    },
+    "req_47aa373310aaf156": {
+      "discovered_requirement_key": "req_47aa373310aaf156",
+      "condition_data_complete": true,
+      "available_inputs": [],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "data_availability": "not_attempted",
+      "basis_evidence_ids": [],
+      "reason": "The requirement is unconditional and requires visual inspection plus longitudinal interpretation; no frozen semantic result states the sign's position relative to the work space or detour.",
+      "planned_tools": [
+        "inspect_temporal_images",
+        "measure_longitudinal_distance"
+      ],
+      "planned_evidence_strategy": "Inspect each visible ROAD WORK sign and locate the work space or detour, then measure their longitudinal ordering along the roadway.",
+      "planned_decision_rule": "Pass only when the ROAD WORK sign is demonstrated to be upstream of the work space or any detour on the work road; unresolved work-space location is insufficient.",
+      "availability_event_index": 24,
+      "availability_timestamp": "2026-10-22T03:09:15.625422+00:00"
+    },
+    "req_8934040d233c7213": {
+      "discovered_requirement_key": "req_8934040d233c7213",
+      "condition_data_complete": true,
+      "available_inputs": [],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "data_availability": "not_attempted",
+      "basis_evidence_ids": [],
+      "reason": "The requirement is unconditional; frozen facts describe an open ego path and channelizers but do not replace the required visual interpretation of the redirection.",
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect the approach and transition to verify that the normal path is redirected to the open path using appropriate channelizing devices, traffic control devices, or TTC methods, excluding mobile operations.",
+      "planned_decision_rule": "Pass only if the complete observed redirection is visibly supported by appropriate devices or methods; otherwise report failure or insufficient evidence as visibility permits.",
+      "availability_event_index": 25,
+      "availability_timestamp": "2026-10-22T03:09:15.625425+00:00"
+    },
+    "req_2aaae0362bf83021": {
+      "discovered_requirement_key": "req_2aaae0362bf83021",
+      "condition_data_complete": true,
+      "available_inputs": [
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images",
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "data_availability": "partial",
+      "basis_evidence_ids": [
+        "manifest.accepted_bbox_observations",
+        "manifest.accepted_bbox_observations_by_class",
+        "scene_facts.visual_scene_description.facts[4]"
+      ],
+      "reason": "Accepted bbox observations are directly available from the frozen inventory. Raw images, ego trajectory, and lidar points are derivable inputs but have not been acquired as the required inspection or measurement evidence.",
+      "planned_tools": [
+        "inspect_temporal_images",
+        "get_vehicle_trajectory",
+        "project_bbox_to_lidar"
+      ],
+      "planned_evidence_strategy": "Inspect images for drum identity and markings, and use trajectory and lidar projection where needed to resolve dimensions, material, stripe count and width, top closure, and device orientation.",
+      "planned_decision_rule": "Pass only when every applicable drum characteristic is supported; a confirmed noncompliant characteristic fails, while unresolved characteristics remain insufficient.",
+      "availability_event_index": 26,
+      "availability_timestamp": "2026-10-22T03:09:15.625428+00:00"
+    },
+    "req_403dd72cd3369844": {
+      "discovered_requirement_key": "req_403dd72cd3369844",
+      "condition_data_complete": true,
+      "available_inputs": [
+        "Confirmed opposing-traffic routing",
+        "Selected TA layout"
+      ],
+      "missing_inputs": [
+        "Observed lane-closure routing and channelizer layout"
+      ],
+      "data_availability": "partial",
+      "basis_evidence_ids": [
+        "scene_facts.opposing_traffic_detour_confirmed",
+        "selected_layouts[0]",
+        "scene_facts.opposing_direction_lane_fully_closed",
+        "scene_facts.alternating_one_way_operation"
+      ],
+      "reason": "Frozen user confirmation and the selected TA-19 record directly establish opposing-traffic routing and the applicable layout, but the observed routing and channelizer-layout interpretation must still be acquired from inspection.",
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect the channelized closure and open ego-direction path across temporal frames, and compare the observed directional routing with TA-19.",
+      "planned_decision_rule": "Pass only if the closed direction is prohibited and routed off-site, the other direction remains available, and observed channelization conforms to the selected TA-19 arrangement.",
+      "availability_event_index": 27,
+      "availability_timestamp": "2026-10-22T03:09:15.625431+00:00"
+    },
+    "req_38a0c44a191a7475": {
+      "discovered_requirement_key": "req_38a0c44a191a7475",
+      "condition_data_complete": true,
+      "available_inputs": [],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "data_availability": "not_attempted",
+      "basis_evidence_ids": [],
+      "reason": "The requirement is unconditional and requires visual inspection of warning-sign shape, legend, border, and background; no frozen semantic result states those characteristics.",
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect all visible TTC warning signs in representative temporal images for diamond shape and prescribed colors, treating any grade-crossing exception separately.",
+      "planned_decision_rule": "Pass only when each applicable TTC warning sign meets the specified shape and color requirements; obscured signs are insufficient.",
+      "availability_event_index": 28,
+      "availability_timestamp": "2026-10-22T03:09:15.625435+00:00"
+    },
+    "req_9684dd549b406cb8": {
+      "discovered_requirement_key": "req_9684dd549b406cb8",
+      "condition_data_complete": true,
+      "available_inputs": [],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "data_availability": "not_attempted",
+      "basis_evidence_ids": [],
+      "reason": "The requirement is unconditional and requires visual maintenance assessment; no frozen semantic result states that devices are clean, visible, and properly positioned.",
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect representative close temporal views for cleanliness, visibility, and proper positioning of each deployed channelizing device.",
+      "planned_decision_rule": "Pass only when inspected devices are clean, visible, and properly positioned; any supported defect fails, and obscured devices remain insufficient.",
+      "availability_event_index": 29,
+      "availability_timestamp": "2026-10-22T03:09:15.625437+00:00"
+    },
+    "req_cb1dccef74232ff1": {
+      "discovered_requirement_key": "req_cb1dccef74232ff1",
+      "condition_data_complete": true,
+      "available_inputs": [],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "data_availability": "not_attempted",
+      "basis_evidence_ids": [],
+      "reason": "The requirement is unconditional; frozen observations do not directly establish the encounter order of independent advance-warning signs well enough for the required semantic input.",
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Review the approach chronologically and identify the first independent advance-warning sign encountered before the transition or activity area, then classify its legend.",
+      "planned_decision_rule": "Pass only if ROAD WORK AHEAD is the first advance-warning sign in a confirmed multi-sign approach; otherwise report noncompliance or insufficient evidence.",
+      "availability_event_index": 30,
+      "availability_timestamp": "2026-10-22T03:09:15.625441+00:00"
+    }
+  },
+  "evidence_records": {
+    "evidence_32925328c38405feb2f9": {
+      "discovered_requirement_key": "req_ad7a729596b46383",
+      "evidence_kind": "acquisition_failure",
+      "source_ids": [
+        "attempt_70052e2cf58c1fa7190d"
+      ],
+      "acquired_inputs": [],
+      "unresolved_inputs": [
+        "Measured longitudinal distances between successive advance warning signs"
+      ],
+      "finding": "No authorized Stage 4 tool can acquire this frozen required input.",
+      "limitations": "The frozen Stage 3 plan and registered tools provide no acquisition route.",
+      "tools_used": [],
+      "acquisition_attempt_id": "attempt_70052e2cf58c1fa7190d",
+      "evidence_id": "evidence_32925328c38405feb2f9",
+      "evidence_fingerprint": "32925328c38405feb2f9cf27665e7a06c2a4343b23a2677ea5cd473ea9e1bc93",
+      "evidence_event_index": 33,
+      "evidence_timestamp": "2026-10-22T03:12:47.677083+00:00"
+    },
+    "evidence_422e83353e938f392d5e": {
+      "discovered_requirement_key": "req_4b36f1dbdb9f7c39",
+      "evidence_kind": "acquisition_failure",
+      "source_ids": [
+        "attempt_e9ecce5f2edcf0998d60"
+      ],
+      "acquired_inputs": [],
+      "unresolved_inputs": [
+        "Visual inspection of deployed channelizing devices for serviceability"
+      ],
+      "finding": "No authorized Stage 4 tool can acquire this frozen required input.",
+      "limitations": "The frozen Stage 3 plan and registered tools provide no acquisition route.",
+      "tools_used": [],
+      "acquisition_attempt_id": "attempt_e9ecce5f2edcf0998d60",
+      "evidence_id": "evidence_422e83353e938f392d5e",
+      "evidence_fingerprint": "422e83353e938f392d5e60e7702a2a9ec7d9ee8bae147b348c3e6526590a293d",
+      "evidence_event_index": 35,
+      "evidence_timestamp": "2026-10-22T03:12:47.677131+00:00"
+    },
+    "evidence_bd6e0ae5db11067e2981": {
+      "discovered_requirement_key": "req_2aaae0362bf83021",
+      "evidence_kind": "acquisition_failure",
+      "source_ids": [
+        "attempt_d1a4ee1fa640f8bc8caa"
+      ],
+      "acquired_inputs": [],
+      "unresolved_inputs": [
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "finding": "No authorized Stage 4 tool can acquire this frozen required input.",
+      "limitations": "The frozen Stage 3 plan and registered tools provide no acquisition route.",
+      "tools_used": [],
+      "acquisition_attempt_id": "attempt_d1a4ee1fa640f8bc8caa",
+      "evidence_id": "evidence_bd6e0ae5db11067e2981",
+      "evidence_fingerprint": "bd6e0ae5db11067e298168080cb474e4a263287e8965eb5d7a901b4e3d8e2488",
+      "evidence_event_index": 37,
+      "evidence_timestamp": "2026-10-22T03:12:47.677171+00:00"
+    },
+    "evidence_5295af8791385cdabc4e": {
+      "discovered_requirement_key": "req_ad7a729596b46383",
+      "evidence_kind": "direct_fact",
+      "source_ids": [
+        "scene_facts.visual_scene_description.facts[0]",
+        "scene_facts.posted_speed_mph",
+        "scene_facts.visual_scene_description.facts[7]"
+      ],
+      "acquired_inputs": [
+        "Roadway category and posted speed"
+      ],
+      "unresolved_inputs": [],
+      "finding": "Frozen direct inputs: Roadway category and posted speed.",
+      "limitations": "Only the listed direct inputs are established; remaining inputs require Stage 4 acquisition.",
+      "tools_used": [],
+      "evidence_id": "evidence_5295af8791385cdabc4e",
+      "evidence_fingerprint": "5295af8791385cdabc4e8c053b6110e9464e06bca1483e6f7ae2df106a495ead",
+      "evidence_event_index": 38,
+      "evidence_timestamp": "2026-10-22T03:12:47.677244+00:00"
+    },
+    "evidence_db7bd3c1bf8a4a9e5724": {
+      "discovered_requirement_key": "req_62474d3d964c6426",
+      "evidence_kind": "direct_fact",
+      "source_ids": [
+        "scene_facts.posted_speed_mph",
+        "scene_facts.visual_scene_description.facts[5]",
+        "scene_facts.visual_scene_description.facts[6]"
+      ],
+      "acquired_inputs": [
+        "Posted speed limit"
+      ],
+      "unresolved_inputs": [],
+      "finding": "Frozen direct inputs: Posted speed limit.",
+      "limitations": "Only the listed direct inputs are established; remaining inputs require Stage 4 acquisition.",
+      "tools_used": [],
+      "evidence_id": "evidence_db7bd3c1bf8a4a9e5724",
+      "evidence_fingerprint": "db7bd3c1bf8a4a9e57240e50a31cdaf7c44de1c299994acc3c4d580769279466",
+      "evidence_event_index": 39,
+      "evidence_timestamp": "2026-10-22T03:12:47.677248+00:00"
+    },
+    "evidence_7b27a2eda90995b5a5b7": {
+      "discovered_requirement_key": "req_2aaae0362bf83021",
+      "evidence_kind": "direct_fact",
+      "source_ids": [
+        "manifest.accepted_bbox_observations",
+        "manifest.accepted_bbox_observations_by_class",
+        "scene_facts.visual_scene_description.facts[4]"
+      ],
+      "acquired_inputs": [
+        "accepted_bbox_observations"
+      ],
+      "unresolved_inputs": [],
+      "finding": "Frozen direct inputs: accepted_bbox_observations.",
+      "limitations": "Only the listed direct inputs are established; remaining inputs require Stage 4 acquisition.",
+      "tools_used": [],
+      "evidence_id": "evidence_7b27a2eda90995b5a5b7",
+      "evidence_fingerprint": "7b27a2eda90995b5a5b725e6594e6146031fc3beb7c67d4379e8cc847791f8e5",
+      "evidence_event_index": 40,
+      "evidence_timestamp": "2026-10-22T03:12:47.677252+00:00"
+    },
+    "evidence_78866275c4e0937e29b9": {
+      "discovered_requirement_key": "req_403dd72cd3369844",
+      "evidence_kind": "direct_fact",
+      "source_ids": [
+        "scene_facts.opposing_traffic_detour_confirmed",
+        "selected_layouts[0]",
+        "scene_facts.opposing_direction_lane_fully_closed",
+        "scene_facts.alternating_one_way_operation"
+      ],
+      "acquired_inputs": [
+        "Confirmed opposing-traffic routing",
+        "Selected TA layout"
+      ],
+      "unresolved_inputs": [],
+      "finding": "Frozen direct inputs: Confirmed opposing-traffic routing; Selected TA layout.",
+      "limitations": "Only the listed direct inputs are established; remaining inputs require Stage 4 acquisition.",
+      "tools_used": [],
+      "evidence_id": "evidence_78866275c4e0937e29b9",
+      "evidence_fingerprint": "78866275c4e0937e29b9af02cb3d74f72aedfbd91167ac0a4dd679798f8183c1",
+      "evidence_event_index": 41,
+      "evidence_timestamp": "2026-10-22T03:12:47.677255+00:00"
+    }
+  },
+  "stage4_plan": {
+    "plan_id": "stage4_plan_2899479c5aac7cc55e68",
+    "requirement_keys": [
+      "req_2aaae0362bf83021",
+      "req_38a0c44a191a7475",
+      "req_403dd72cd3369844",
+      "req_47aa373310aaf156",
+      "req_4b36f1dbdb9f7c39",
+      "req_62474d3d964c6426",
+      "req_8934040d233c7213",
+      "req_9684dd549b406cb8",
+      "req_aa7f07b1d07ed2cb",
+      "req_ad7a729596b46383",
+      "req_cb1dccef74232ff1"
+    ],
+    "visual_jobs": [
+      {
+        "visual_job_id": "visual_job_903fffcead25af19b770",
+        "job_type": "observation_batch",
+        "role": "traffic_sign_representatives",
+        "observation_ids": [
+          "W3_T63799999_Q008",
+          "W3_T71699999_Q006",
+          "W3_T82899999_Q016",
+          "W3_T84199999_Q017",
+          "W3_T84399999_Q016"
+        ],
+        "reviewed_classes": [
+          "road_work_ahead"
+        ],
+        "relevant_requirement_keys": [
+          "req_38a0c44a191a7475",
+          "req_47aa373310aaf156",
+          "req_cb1dccef74232ff1"
+        ],
+        "target_inputs_by_requirement": {
+          "req_38a0c44a191a7475": [
+            "raw_images"
+          ],
+          "req_47aa373310aaf156": [
+            "raw_images"
+          ],
+          "req_cb1dccef74232ff1": [
+            "raw_images"
+          ]
+        }
+      },
+      {
+        "visual_job_id": "visual_job_377e1e21f9226bd64400",
+        "job_type": "observation_batch",
+        "role": "device_representatives",
+        "observation_ids": [
+          "W3_T83999990_Q001"
+        ],
+        "reviewed_classes": [
+          "traffic_cone"
+        ],
+        "relevant_requirement_keys": [
+          "req_2aaae0362bf83021",
+          "req_403dd72cd3369844",
+          "req_8934040d233c7213",
+          "req_9684dd549b406cb8",
+          "req_aa7f07b1d07ed2cb"
+        ],
+        "target_inputs_by_requirement": {
+          "req_2aaae0362bf83021": [
+            "raw_images"
+          ],
+          "req_403dd72cd3369844": [
+            "Observed lane-closure routing and channelizer layout"
+          ],
+          "req_8934040d233c7213": [
+            "raw_images"
+          ],
+          "req_9684dd549b406cb8": [
+            "raw_images"
+          ],
+          "req_aa7f07b1d07ed2cb": [
+            "raw_images"
+          ]
+        }
+      },
+      {
+        "visual_job_id": "visual_job_a62829223ad28c5dcce8",
+        "job_type": "temporal_batch",
+        "role": "route_temporal_coverage",
+        "channel": "CAM_FRONT",
+        "start_cursor": 0,
+        "count": 8,
+        "stride": 34,
+        "total_frames": 240,
+        "relevant_requirement_keys": [
+          "req_38a0c44a191a7475",
+          "req_403dd72cd3369844",
+          "req_47aa373310aaf156",
+          "req_8934040d233c7213",
+          "req_cb1dccef74232ff1"
+        ],
+        "target_inputs_by_requirement": {
+          "req_38a0c44a191a7475": [
+            "raw_images"
+          ],
+          "req_403dd72cd3369844": [
+            "Observed lane-closure routing and channelizer layout"
+          ],
+          "req_47aa373310aaf156": [
+            "raw_images"
+          ],
+          "req_8934040d233c7213": [
+            "raw_images"
+          ],
+          "req_cb1dccef74232ff1": [
+            "raw_images"
+          ]
+        }
+      }
+    ],
+    "measurement_jobs": [
+      {
+        "measurement_job_id": "measurement_job_dcdaff638dbe73d7ad46",
+        "discovered_requirement_key": "req_ad7a729596b46383",
+        "candidate_label": "Urban low-speed advance-warning spacing",
+        "tool": "measure_sign_spacing",
+        "target_inputs": [],
+        "quantity": "successive advance-warning sign spacing",
+        "thresholds": [
+          {
+            "condition": "each spacing",
+            "value": 100,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      {
+        "measurement_job_id": "measurement_job_246e168cd78ed4b62353",
+        "discovered_requirement_key": "req_62474d3d964c6426",
+        "candidate_label": "Tangent channelizer spacing",
+        "tool": "audit_channelizer_spacing",
+        "target_inputs": [
+          "Measured spacing between successive tangent channelizing devices"
+        ],
+        "quantity": "successive tangent channelizer spacing",
+        "thresholds": [
+          {
+            "condition": "tangent section",
+            "value": 40,
+            "unit": "ft",
+            "violation_when": "above_maximum",
+            "formula_parameter": "posted_speed_mph",
+            "multiplier": 2
+          }
+        ]
+      },
+      {
+        "measurement_job_id": "measurement_job_9db5f1871b459ca89f91",
+        "discovered_requirement_key": "req_47aa373310aaf156",
+        "candidate_label": "SEC-6H.03 01: The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions",
+        "tool": "measure_longitudinal_distance",
+        "target_inputs": [],
+        "quantity": "distance from ROAD WORK sign to work space or any detour",
+        "thresholds": [
+          {
+            "condition": "sign is not in advance of work space or detour",
+            "value": 0,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      }
+    ],
+    "blocked_attempts": [
+      {
+        "attempt_id": "attempt_70052e2cf58c1fa7190d",
+        "measurement_job_id": null,
+        "discovered_requirement_key": "req_ad7a729596b46383",
+        "tool": null,
+        "target_inputs": [
+          "Measured longitudinal distances between successive advance warning signs"
+        ],
+        "status": "blocked_before_call",
+        "failure_reason": "No authorized Stage 4 tool can acquire this frozen required input.",
+        "source_ids": []
+      },
+      {
+        "attempt_id": "attempt_e9ecce5f2edcf0998d60",
+        "measurement_job_id": null,
+        "discovered_requirement_key": "req_4b36f1dbdb9f7c39",
+        "tool": null,
+        "target_inputs": [
+          "Visual inspection of deployed channelizing devices for serviceability"
+        ],
+        "status": "blocked_before_call",
+        "failure_reason": "No authorized Stage 4 tool can acquire this frozen required input.",
+        "source_ids": []
+      },
+      {
+        "attempt_id": "attempt_d1a4ee1fa640f8bc8caa",
+        "measurement_job_id": null,
+        "discovered_requirement_key": "req_2aaae0362bf83021",
+        "tool": null,
+        "target_inputs": [
+          "ego_trajectory",
+          "lidar_points"
+        ],
+        "status": "blocked_before_call",
+        "failure_reason": "No authorized Stage 4 tool can acquire this frozen required input.",
+        "source_ids": []
+      }
+    ],
+    "coverage_policy": {
+      "all_representative_traffic_signs": true,
+      "all_arrow_boards": false,
+      "one_per_present_channelizer_class": true,
+      "cam_front_minimum_frames": 8,
+      "cam_front_minimum_span_ratio": 0.7
+    },
+    "plan_event_index": 42,
+    "plan_timestamp": "2026-10-22T03:12:47.677299+00:00"
+  },
+  "inspection_bundles": {
+    "visual_bundle_ad7020064a32d6c4eee8": {
+      "inspection_bundle_id": "visual_bundle_ad7020064a32d6c4eee8",
+      "visual_job_id": "visual_job_903fffcead25af19b770",
+      "role": "traffic_sign_representatives",
+      "job_type": "observation_batch",
+      "source_ids": [
+        "W3_T63799999_Q008",
+        "W3_T71699999_Q006",
+        "W3_T82899999_Q016",
+        "W3_T84199999_Q017",
+        "W3_T84399999_Q016"
+      ],
+      "source_metadata": {
+        "W3_T63799999_Q008": {
+          "reviewed_class": "road_work_ahead"
+        },
+        "W3_T71699999_Q006": {
+          "reviewed_class": "road_work_ahead"
+        },
+        "W3_T82899999_Q016": {
+          "reviewed_class": "road_work_ahead"
+        },
+        "W3_T84199999_Q017": {
+          "reviewed_class": "road_work_ahead"
+        },
+        "W3_T84399999_Q016": {
+          "reviewed_class": "road_work_ahead"
+        }
+      },
+      "reviewed_classes": [
+        "road_work_ahead"
+      ],
+      "relevant_requirement_keys": [
+        "req_38a0c44a191a7475",
+        "req_47aa373310aaf156",
+        "req_cb1dccef74232ff1"
+      ],
+      "underlying_tool": "inspect_observation_images",
+      "item_count": 5,
+      "bundle_event_index": 44,
+      "bundle_timestamp": "2026-10-22T03:12:49.784498+00:00",
+      "model_observation": {
+        "finding": "The acquired inspection bundle contains five CAM_FRONT representative observations classified as road_work_ahead: W3_T63799999_Q008 (frame 27), W3_T71699999_Q006 (frame 106), W3_T82899999_Q016 (frame 218), W3_T84199999_Q017 (frame 231), and W3_T84399999_Q016 (frame 233). Three have refined element IDs W3_OBJ_030, W3_OBJ_031, and W3_OBJ_032; two have no refined element ID. The bundle is relevant to warning-sign shape/color, ROAD WORK sign placement, and first-sign ordering requirements.",
+        "limitations": "The bundle metadata does not provide a semantic visual finding beyond reviewed class and bounding boxes. It does not establish successive-sign distances, work-space or detour longitudinal position, or chronological first-sign ordering. No additional image job was opened.",
+        "note_event_index": 45,
+        "note_timestamp": "2026-10-22T03:12:54.371051+00:00"
+      }
+    },
+    "visual_bundle_bd69f7488e5029149e69": {
+      "inspection_bundle_id": "visual_bundle_bd69f7488e5029149e69",
+      "visual_job_id": "visual_job_377e1e21f9226bd64400",
+      "role": "device_representatives",
+      "job_type": "observation_batch",
+      "source_ids": [
+        "W3_T83999990_Q001"
+      ],
+      "source_metadata": {
+        "W3_T83999990_Q001": {
+          "reviewed_class": "traffic_cone"
+        }
+      },
+      "reviewed_classes": [
+        "traffic_cone"
+      ],
+      "relevant_requirement_keys": [
+        "req_2aaae0362bf83021",
+        "req_403dd72cd3369844",
+        "req_8934040d233c7213",
+        "req_9684dd549b406cb8",
+        "req_aa7f07b1d07ed2cb"
+      ],
+      "underlying_tool": "inspect_observation_images",
+      "item_count": 1,
+      "bundle_event_index": 47,
+      "bundle_timestamp": "2026-10-22T03:12:55.840527+00:00",
+      "model_observation": {
+        "finding": "The acquired bundle contains one CAM_FRONT representative observation classified as traffic_cone (W3_T83999990_Q001, frame 229). The image shows a closely spaced orange-and-white channelizer line along the opposing-side roadway boundary, with the ego-direction path open to the right; visible devices appear upright and visually conspicuous in this frame. The observation supports visual review of channelizer placement, redirection, and general device characteristics.",
+        "limitations": "This single representative frame does not establish successive-device spacing, complete longitudinal routing, all-device serviceability, dimensional/material compliance of drums or other devices, or the full temporal behavior of the closure. It is not sufficient to infer lidar or trajectory measurements.",
+        "note_event_index": 48,
+        "note_timestamp": "2026-10-22T03:12:59.835716+00:00"
+      }
+    },
+    "visual_bundle_64205d8bc0d3b80065a4": {
+      "inspection_bundle_id": "visual_bundle_64205d8bc0d3b80065a4",
+      "visual_job_id": "visual_job_a62829223ad28c5dcce8",
+      "role": "route_temporal_coverage",
+      "job_type": "temporal_batch",
+      "source_ids": [
+        "workzone3__CAM_FRONT__61099999",
+        "workzone3__CAM_FRONT__64499999",
+        "workzone3__CAM_FRONT__67899999",
+        "workzone3__CAM_FRONT__71299999",
+        "workzone3__CAM_FRONT__74699999",
+        "workzone3__CAM_FRONT__78099999",
+        "workzone3__CAM_FRONT__81499999",
+        "workzone3__CAM_FRONT__84899999"
+      ],
+      "source_metadata": {
+        "workzone3__CAM_FRONT__61099999": {
+          "timestamp_us": 61099999
+        },
+        "workzone3__CAM_FRONT__64499999": {
+          "timestamp_us": 64499999
+        },
+        "workzone3__CAM_FRONT__67899999": {
+          "timestamp_us": 67899999
+        },
+        "workzone3__CAM_FRONT__71299999": {
+          "timestamp_us": 71299999
+        },
+        "workzone3__CAM_FRONT__74699999": {
+          "timestamp_us": 74699999
+        },
+        "workzone3__CAM_FRONT__78099999": {
+          "timestamp_us": 78099999
+        },
+        "workzone3__CAM_FRONT__81499999": {
+          "timestamp_us": 81499999
+        },
+        "workzone3__CAM_FRONT__84899999": {
+          "timestamp_us": 84899999
+        }
+      },
+      "reviewed_classes": [],
+      "relevant_requirement_keys": [
+        "req_38a0c44a191a7475",
+        "req_403dd72cd3369844",
+        "req_47aa373310aaf156",
+        "req_8934040d233c7213",
+        "req_cb1dccef74232ff1"
+      ],
+      "underlying_tool": "inspect_temporal_images",
+      "item_count": 8,
+      "bundle_event_index": 50,
+      "bundle_timestamp": "2026-10-22T03:13:02.334216+00:00",
+      "model_observation": {
+        "finding": "The acquired temporal bundle contains eight CAM_FRONT images at timestamps 61099999, 64499999, 67899999, 71299999, 74699999, 78099999, 81499999, and 84899999 microseconds. Across the returned sequence, the urban street remains passable in the ego direction; orange channelizing devices increasingly delineate the opposing-side closure toward a cross-street intersection, while ROAD WORK AHEAD/work-zone signs and STOP signs are visible. The channelizer line remains on the opposing side and the ego path remains open.",
+        "limitations": "The temporal bundle does not establish exact longitudinal distances between successive warning signs or channelizers, exact work-space/detour limits, complete off-site detour signing, or dimensional/material compliance of devices. It does not establish serviceability of every deployed device or provide trajectory/lidar measurements.",
+        "note_event_index": 51,
+        "note_timestamp": "2026-10-22T03:13:07.974883+00:00"
+      }
+    }
+  },
+  "acquisition_attempts": {
+    "attempt_70052e2cf58c1fa7190d": {
+      "attempt_id": "attempt_70052e2cf58c1fa7190d",
+      "measurement_job_id": null,
+      "discovered_requirement_key": "req_ad7a729596b46383",
+      "tool": null,
+      "target_inputs": [
+        "Measured longitudinal distances between successive advance warning signs"
+      ],
+      "status": "blocked_before_call",
+      "failure_reason": "No authorized Stage 4 tool can acquire this frozen required input.",
+      "source_ids": [],
+      "attempt_event_index": 32,
+      "attempt_timestamp": "2026-10-22T03:12:47.677032+00:00"
+    },
+    "attempt_e9ecce5f2edcf0998d60": {
+      "attempt_id": "attempt_e9ecce5f2edcf0998d60",
+      "measurement_job_id": null,
+      "discovered_requirement_key": "req_4b36f1dbdb9f7c39",
+      "tool": null,
+      "target_inputs": [
+        "Visual inspection of deployed channelizing devices for serviceability"
+      ],
+      "status": "blocked_before_call",
+      "failure_reason": "No authorized Stage 4 tool can acquire this frozen required input.",
+      "source_ids": [],
+      "attempt_event_index": 34,
+      "attempt_timestamp": "2026-10-22T03:12:47.677098+00:00"
+    },
+    "attempt_d1a4ee1fa640f8bc8caa": {
+      "attempt_id": "attempt_d1a4ee1fa640f8bc8caa",
+      "measurement_job_id": null,
+      "discovered_requirement_key": "req_2aaae0362bf83021",
+      "tool": null,
+      "target_inputs": [
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "status": "blocked_before_call",
+      "failure_reason": "No authorized Stage 4 tool can acquire this frozen required input.",
+      "source_ids": [],
+      "attempt_event_index": 36,
+      "attempt_timestamp": "2026-10-22T03:12:47.677144+00:00"
+    }
+  },
+  "measurement_records": {},
+  "stage4_readiness": null,
+  "stage5_plan": null,
+  "conclusion_drafts": {},
+  "stage5_readiness": null,
+  "tool_calls": [
+    {
+      "tool": "inspect_observation_images",
+      "status": "acquired",
+      "event_index": 43,
+      "timestamp": "2026-10-22T03:12:49.784463+00:00",
+      "discovered_requirement_key": null
+    },
+    {
+      "tool": "inspect_observation_images",
+      "status": "acquired",
+      "event_index": 46,
+      "timestamp": "2026-10-22T03:12:55.840484+00:00",
+      "discovered_requirement_key": null
+    },
+    {
+      "tool": "inspect_temporal_images",
+      "status": "returned",
+      "event_index": 49,
+      "timestamp": "2026-10-22T03:13:02.334181+00:00",
+      "discovered_requirement_key": null
+    }
+  ],
+  "event_history": [
+    {
+      "event_index": 1,
+      "timestamp": "2026-10-22T03:04:47.707987+00:00",
+      "event_type": "phase_transition",
+      "phase": "requirement_discovery",
+      "from_phase": "requirement_discovery",
+      "to_phase": "requirement_registration"
+    },
+    {
+      "event_index": 2,
+      "timestamp": "2026-10-22T03:04:55.831176+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_ad7a729596b46383",
+      "candidate_label": "Urban low-speed advance-warning spacing",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "ad7a729596b46383c34d9cb9e1b7afed6b5820b49d18aa4a300a989157c516ee"
+    },
+    {
+      "event_index": 3,
+      "timestamp": "2026-10-22T03:05:29.186766+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_62474d3d964c6426",
+      "candidate_label": "Tangent channelizer spacing",
+      "region": "channelization_system",
+      "requirement_fingerprint": "62474d3d964c642662f5d4a82929d1d6df4893e51c0a1bc7cd04c8efed07aa34"
+    },
+    {
+      "event_index": 4,
+      "timestamp": "2026-10-22T03:05:33.519819+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_4b36f1dbdb9f7c39",
+      "candidate_label": "Channelizer serviceability",
+      "region": "channelization_system",
+      "requirement_fingerprint": "4b36f1dbdb9f7c39405b16c75352e0173f431e7686df2c365837e662af357e2c"
+    },
+    {
+      "event_index": 5,
+      "timestamp": "2026-10-22T03:05:47.555949+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_aa7f07b1d07ed2cb",
+      "candidate_label": "SEC-6K.12 02: Other channelizing devices",
+      "region": "channelization_system",
+      "requirement_fingerprint": "aa7f07b1d07ed2cbe66b8002cebb4fddeacf5ef5d8cb36f5115d19d1c2988d4f"
+    },
+    {
+      "event_index": 6,
+      "timestamp": "2026-10-22T03:05:51.004631+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_47aa373310aaf156",
+      "candidate_label": "SEC-6H.03 01: The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "47aa373310aaf15621501fc2453e067af4e4daf67dc67cbf7e6d395bda9d67ae"
+    },
+    {
+      "event_index": 7,
+      "timestamp": "2026-10-22T03:06:09.513531+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_8934040d233c7213",
+      "candidate_label": "SEC-6B.05 02: Except for mobile operations, when redirection of the road users’ normal path is required, road users",
+      "region": "transition_and_taper_geometry",
+      "requirement_fingerprint": "8934040d233c7213b2ca4a155dc91f50f2700f23ec818987f4a92bd91fa280e8"
+    },
+    {
+      "event_index": 8,
+      "timestamp": "2026-10-22T03:06:09.513619+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_2aaae0362bf83021",
+      "candidate_label": "SEC-6K.06 01: Drums (see Figure 6K-1) used for road user warning or channelization",
+      "region": "channelization_system",
+      "requirement_fingerprint": "2aaae0362bf830218cecaed4cc53b30e11ea41f2dbda4ba2da2e5556d1cf7c3e"
+    },
+    {
+      "event_index": 9,
+      "timestamp": "2026-10-22T03:06:57.519402+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_403dd72cd3369844",
+      "candidate_label": "TA-19 directional-detour layout",
+      "region": "lane_closure_layout",
+      "requirement_fingerprint": "403dd72cd3369844c2a6a509192b4c4e32d96d9773b23b28be360097c4f7c98b"
+    },
+    {
+      "event_index": 10,
+      "timestamp": "2026-10-22T03:07:00.804996+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "lane_closure_layout",
+      "status": "screened"
+    },
+    {
+      "event_index": 11,
+      "timestamp": "2026-10-22T03:07:00.805010+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "advance_warning_sign_system",
+      "status": "screened"
+    },
+    {
+      "event_index": 12,
+      "timestamp": "2026-10-22T03:07:00.805015+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "channelization_system",
+      "status": "screened"
+    },
+    {
+      "event_index": 13,
+      "timestamp": "2026-10-22T03:07:00.805019+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "transition_and_taper_geometry",
+      "status": "screened"
+    },
+    {
+      "event_index": 14,
+      "timestamp": "2026-10-22T03:07:00.805023+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "conditional_active_devices",
+      "status": "skipped_no_inspectable_candidate"
+    },
+    {
+      "event_index": 15,
+      "timestamp": "2026-10-22T03:07:00.805026+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "conditional_termination_area",
+      "status": "skipped_no_inspectable_candidate"
+    },
+    {
+      "event_index": 16,
+      "timestamp": "2026-10-22T03:07:16.992806+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_38a0c44a191a7475",
+      "candidate_label": "SEC-6H.01 04: Except as provided in Paragraph 5 of this Section, TTC warning signs",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "38a0c44a191a7475de45eb1970c49e014c2087b03af9f2fd7396f4806c64d1c2"
+    },
+    {
+      "event_index": 17,
+      "timestamp": "2026-10-22T03:07:35.536768+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_9684dd549b406cb8",
+      "candidate_label": "SEC-6K.01 14: Particular attention",
+      "region": "channelization_system",
+      "requirement_fingerprint": "9684dd549b406cb85053ef34162a5a4cc7582e13f56980cfe9f635a16b1e8a5d"
+    },
+    {
+      "event_index": 18,
+      "timestamp": "2026-10-22T03:08:00.123265+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_cb1dccef74232ff1",
+      "candidate_label": "SEC-6H.02 02: Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "cb1dccef74232ff1b0c8c2e1f2c0b92e12117b87f5905eb17ed9bedc438b4a58"
+    },
+    {
+      "event_index": 19,
+      "timestamp": "2026-10-22T03:08:03.216683+00:00",
+      "event_type": "phase_transition",
+      "phase": "requirement_registration",
+      "from_phase": "requirement_registration",
+      "to_phase": "data_availability"
+    },
+    {
+      "event_index": 20,
+      "timestamp": "2026-10-22T03:09:15.625393+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_ad7a729596b46383",
+      "data_availability": "partial"
+    },
+    {
+      "event_index": 21,
+      "timestamp": "2026-10-22T03:09:15.625410+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_62474d3d964c6426",
+      "data_availability": "partial"
+    },
+    {
+      "event_index": 22,
+      "timestamp": "2026-10-22T03:09:15.625415+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_4b36f1dbdb9f7c39",
+      "data_availability": "not_attempted"
+    },
+    {
+      "event_index": 23,
+      "timestamp": "2026-10-22T03:09:15.625419+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_aa7f07b1d07ed2cb",
+      "data_availability": "not_attempted"
+    },
+    {
+      "event_index": 24,
+      "timestamp": "2026-10-22T03:09:15.625422+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_47aa373310aaf156",
+      "data_availability": "not_attempted"
+    },
+    {
+      "event_index": 25,
+      "timestamp": "2026-10-22T03:09:15.625425+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_8934040d233c7213",
+      "data_availability": "not_attempted"
+    },
+    {
+      "event_index": 26,
+      "timestamp": "2026-10-22T03:09:15.625428+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_2aaae0362bf83021",
+      "data_availability": "partial"
+    },
+    {
+      "event_index": 27,
+      "timestamp": "2026-10-22T03:09:15.625431+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_403dd72cd3369844",
+      "data_availability": "partial"
+    },
+    {
+      "event_index": 28,
+      "timestamp": "2026-10-22T03:09:15.625435+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_38a0c44a191a7475",
+      "data_availability": "not_attempted"
+    },
+    {
+      "event_index": 29,
+      "timestamp": "2026-10-22T03:09:15.625437+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_9684dd549b406cb8",
+      "data_availability": "not_attempted"
+    },
+    {
+      "event_index": 30,
+      "timestamp": "2026-10-22T03:09:15.625441+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_cb1dccef74232ff1",
+      "data_availability": "not_attempted"
+    },
+    {
+      "event_index": 31,
+      "timestamp": "2026-10-22T03:09:17.525068+00:00",
+      "event_type": "phase_transition",
+      "phase": "data_availability",
+      "from_phase": "data_availability",
+      "to_phase": "measurement"
+    },
+    {
+      "event_index": 32,
+      "timestamp": "2026-10-22T03:12:47.677032+00:00",
+      "event_type": "acquisition_attempt_recorded",
+      "phase": "measurement",
+      "attempt_id": "attempt_70052e2cf58c1fa7190d",
+      "measurement_job_id": null,
+      "status": "blocked_before_call"
+    },
+    {
+      "event_index": 33,
+      "timestamp": "2026-10-22T03:12:47.677083+00:00",
+      "event_type": "evidence_recorded",
+      "phase": "measurement",
+      "discovered_requirement_key": "req_ad7a729596b46383",
+      "evidence_id": "evidence_32925328c38405feb2f9",
+      "evidence_kind": "acquisition_failure"
+    },
+    {
+      "event_index": 34,
+      "timestamp": "2026-10-22T03:12:47.677098+00:00",
+      "event_type": "acquisition_attempt_recorded",
+      "phase": "measurement",
+      "attempt_id": "attempt_e9ecce5f2edcf0998d60",
+      "measurement_job_id": null,
+      "status": "blocked_before_call"
+    },
+    {
+      "event_index": 35,
+      "timestamp": "2026-10-22T03:12:47.677131+00:00",
+      "event_type": "evidence_recorded",
+      "phase": "measurement",
+      "discovered_requirement_key": "req_4b36f1dbdb9f7c39",
+      "evidence_id": "evidence_422e83353e938f392d5e",
+      "evidence_kind": "acquisition_failure"
+    },
+    {
+      "event_index": 36,
+      "timestamp": "2026-10-22T03:12:47.677144+00:00",
+      "event_type": "acquisition_attempt_recorded",
+      "phase": "measurement",
+      "attempt_id": "attempt_d1a4ee1fa640f8bc8caa",
+      "measurement_job_id": null,
+      "status": "blocked_before_call"
+    },
+    {
+      "event_index": 37,
+      "timestamp": "2026-10-22T03:12:47.677171+00:00",
+      "event_type": "evidence_recorded",
+      "phase": "measurement",
+      "discovered_requirement_key": "req_2aaae0362bf83021",
+      "evidence_id": "evidence_bd6e0ae5db11067e2981",
+      "evidence_kind": "acquisition_failure"
+    },
+    {
+      "event_index": 38,
+      "timestamp": "2026-10-22T03:12:47.677244+00:00",
+      "event_type": "evidence_recorded",
+      "phase": "measurement",
+      "discovered_requirement_key": "req_ad7a729596b46383",
+      "evidence_id": "evidence_5295af8791385cdabc4e",
+      "evidence_kind": "direct_fact"
+    },
+    {
+      "event_index": 39,
+      "timestamp": "2026-10-22T03:12:47.677248+00:00",
+      "event_type": "evidence_recorded",
+      "phase": "measurement",
+      "discovered_requirement_key": "req_62474d3d964c6426",
+      "evidence_id": "evidence_db7bd3c1bf8a4a9e5724",
+      "evidence_kind": "direct_fact"
+    },
+    {
+      "event_index": 40,
+      "timestamp": "2026-10-22T03:12:47.677252+00:00",
+      "event_type": "evidence_recorded",
+      "phase": "measurement",
+      "discovered_requirement_key": "req_2aaae0362bf83021",
+      "evidence_id": "evidence_7b27a2eda90995b5a5b7",
+      "evidence_kind": "direct_fact"
+    },
+    {
+      "event_index": 41,
+      "timestamp": "2026-10-22T03:12:47.677255+00:00",
+      "event_type": "evidence_recorded",
+      "phase": "measurement",
+      "discovered_requirement_key": "req_403dd72cd3369844",
+      "evidence_id": "evidence_78866275c4e0937e29b9",
+      "evidence_kind": "direct_fact"
+    },
+    {
+      "event_index": 42,
+      "timestamp": "2026-10-22T03:12:47.677299+00:00",
+      "event_type": "stage4_plan_frozen",
+      "phase": "measurement",
+      "plan_id": "stage4_plan_2899479c5aac7cc55e68"
+    },
+    {
+      "event_index": 43,
+      "timestamp": "2026-10-22T03:12:49.784463+00:00",
+      "event_type": "tool_called",
+      "phase": "measurement",
+      "tool": "inspect_observation_images",
+      "discovered_requirement_key": null,
+      "status": "acquired"
+    },
+    {
+      "event_index": 44,
+      "timestamp": "2026-10-22T03:12:49.784498+00:00",
+      "event_type": "inspection_bundle_recorded",
+      "phase": "measurement",
+      "inspection_bundle_id": "visual_bundle_ad7020064a32d6c4eee8",
+      "visual_job_id": "visual_job_903fffcead25af19b770"
+    },
+    {
+      "event_index": 45,
+      "timestamp": "2026-10-22T03:12:54.371051+00:00",
+      "event_type": "inspection_bundle_note_recorded",
+      "phase": "measurement",
+      "inspection_bundle_id": "visual_bundle_ad7020064a32d6c4eee8"
+    },
+    {
+      "event_index": 46,
+      "timestamp": "2026-10-22T03:12:55.840484+00:00",
+      "event_type": "tool_called",
+      "phase": "measurement",
+      "tool": "inspect_observation_images",
+      "discovered_requirement_key": null,
+      "status": "acquired"
+    },
+    {
+      "event_index": 47,
+      "timestamp": "2026-10-22T03:12:55.840527+00:00",
+      "event_type": "inspection_bundle_recorded",
+      "phase": "measurement",
+      "inspection_bundle_id": "visual_bundle_bd69f7488e5029149e69",
+      "visual_job_id": "visual_job_377e1e21f9226bd64400"
+    },
+    {
+      "event_index": 48,
+      "timestamp": "2026-10-22T03:12:59.835716+00:00",
+      "event_type": "inspection_bundle_note_recorded",
+      "phase": "measurement",
+      "inspection_bundle_id": "visual_bundle_bd69f7488e5029149e69"
+    },
+    {
+      "event_index": 49,
+      "timestamp": "2026-10-22T03:13:02.334181+00:00",
+      "event_type": "tool_called",
+      "phase": "measurement",
+      "tool": "inspect_temporal_images",
+      "discovered_requirement_key": null,
+      "status": "returned"
+    },
+    {
+      "event_index": 50,
+      "timestamp": "2026-10-22T03:13:02.334216+00:00",
+      "event_type": "inspection_bundle_recorded",
+      "phase": "measurement",
+      "inspection_bundle_id": "visual_bundle_64205d8bc0d3b80065a4",
+      "visual_job_id": "visual_job_a62829223ad28c5dcce8"
+    },
+    {
+      "event_index": 51,
+      "timestamp": "2026-10-22T03:13:07.974883+00:00",
+      "event_type": "inspection_bundle_note_recorded",
+      "phase": "measurement",
+      "inspection_bundle_id": "visual_bundle_64205d8bc0d3b80065a4"
+    }
+  ],
+  "completion": null,
+  "finalized": false
+}

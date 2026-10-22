@@ -1,0 +1,10 @@
+{
+  "load_930_observations": true,
+  "object_selection_and_frame_switch": true,
+  "stable_filter": true,
+  "class_filter_traffic_sign": true,
+  "real_mouse_wheel_zoom": true,
+  "unresolved_observation_search": true,
+  "osm_removed": true,
+  "human_review_writes": 0
+}

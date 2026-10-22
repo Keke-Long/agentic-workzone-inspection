@@ -1,0 +1,2199 @@
+[
+  {
+    "step": 1,
+    "phase": "requirement_discovery",
+    "tool": "load_domain_gap_candidates",
+    "arguments": {
+      "domain": "lane_closure_layout"
+    },
+    "result": {
+      "layer": "stage1_retrieval_only",
+      "domain": "lane_closure_layout",
+      "query": "temporary traffic control lane closure layout and traffic path",
+      "covered_node_count": 0,
+      "uncovered_corpus_count": 904,
+      "uncovered_candidate_count": 18,
+      "ranking_policy": {
+        "type": "dense_cosine_top_k",
+        "embedding_model": "intfloat/e5-large-v2",
+        "normalized_embeddings": true,
+        "top_score": 0.844876,
+        "minimum_eligible_score": 0.830053,
+        "candidate_count_cap": 18
+      },
+      "internal_page_count": 2,
+      "has_more": false,
+      "continuation_token": null,
+      "items": [
+        {
+          "source_node_id": "src_94075b24254b71020089",
+          "source_unit_code": "TA-12",
+          "paragraph": "figure:dimensions:A-B-C",
+          "modality": "should",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-12. Lane Closure on a Two-Lane Road Using Temporary Traffic Control Signals (TA-12) W20-1 W13-1P (optional) C (optional) W20-4 G20-2 (optional) B 500 to (optional) 600 ft Temporary markings A 40 to 180 ft W3-3 50 to 100 ft R10-6 Lighting (optional) Lighting (optional) 50 to 100 ft 40 to 180 ft Temporary markings 500 to 600 ft A R10-6 W3-3 G20-2 (optional) B (optional) Notes: See Table 6P-2 for the meanings ",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.844876
+        },
+        {
+          "source_node_id": "src_7a66c4b9571cc402cc79",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "03",
+          "modality": "shall",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "A temporary traffic control signal that is used to control traffic through a one-lane, two-way section of roadway shall comply with the provisions of Section 4O.02.",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.841144
+        },
+        {
+          "source_node_id": "src_ed46a4ffcd18cc791858",
+          "source_unit_code": "TA-12",
+          "paragraph": "figure:sign:W20-4",
+          "modality": "should",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-12. Lane Closure on a Two-Lane Road Using Temporary Traffic Control Signals (TA-12) W20-1 W13-1P (optional) C (optional) W20-4 G20-2 (optional) B 500 to (optional) 600 ft Temporary markings A 40 to 180 ft W3-3 50 to 100 ft R10-6 Lighting (optional) Lighting (optional) 50 to 100 ft 40 to 180 ft Temporary markings 500 to 600 ft A R10-6 W3-3 G20-2 (optional) B (optional) Notes: See Table 6P-2 for the meanings ",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.839624
+        },
+        {
+          "source_node_id": "src_fa6818bec9428dd5668e",
+          "source_unit_code": "TA-38",
+          "paragraph": "figure:dimension:L",
+          "modality": "should",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-38. Interior Lane Closure on a Freeway (TA-38) Temporary white lane line G20-2 (optional) Buffer space (optional) 16 ft MIN. W12-1 Temporary solid double 1/2 L white lane line (optional) 2L R4-9 A W9-3L L A W4-2L Shoulder taper B Temporary yellow edge line W20-5L C Notes: See Table 6P-2 for the meanings of W20-1 the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in thi",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.838248
+        },
+        {
+          "source_node_id": "src_aa4431f0fd3496a2b9d3",
+          "source_unit_code": "TA-51",
+          "paragraph": "figure:dimensions:A-B-C",
+          "modality": "should",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-51. Paved Shoulder Closure with a Bicycle Diversion onto a Temporary Path (TA-51) G20-2 (optional) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in this figure. See Table 6B-4 for formulas for calculating taper length (L). Speed(s) shall be motor vehicle speeds. W11-1 M6-2PL Temporary path 1/3 L W11-1 A M6-2PR Based on spe",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.835967
+        },
+        {
+          "source_node_id": "src_0adab6a573f859041c12",
+          "source_unit_code": "SEC-6N.11",
+          "paragraph": "14",
+          "modality": "shall",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When a directional roadway is closed, inapplicable WRONG WAY signs and markings, and other existing traffic control devices at intersections within the temporary two-lane, two-way operations section shall be covered, removed, or obliterated.",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.835675
+        },
+        {
+          "source_node_id": "src_72a92ef5e78b2ad9d228",
+          "source_unit_code": "TA-12",
+          "paragraph": "figure:sign:W3-3",
+          "modality": "should",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-12. Lane Closure on a Two-Lane Road Using Temporary Traffic Control Signals (TA-12) W20-1 W13-1P (optional) C (optional) W20-4 G20-2 (optional) B 500 to (optional) 600 ft Temporary markings A 40 to 180 ft W3-3 50 to 100 ft R10-6 Lighting (optional) Lighting (optional) 50 to 100 ft 40 to 180 ft Temporary markings 500 to 600 ft A R10-6 W3-3 G20-2 (optional) B (optional) Notes: See Table 6P-2 for the meanings ",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.835624
+        },
+        {
+          "source_node_id": "src_efd418222a3f416f1e38",
+          "source_unit_code": "TABLE-6B-3",
+          "paragraph": "table",
+          "modality": "guidance",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Table 6B-3. Taper Length Criteria for Temporary Traffic Control Zones. Merging Taper: at least L. Shifting Taper: at least 0.5 L. Shoulder Taper: at least 0.33 L. One-Lane, Two-Way Traffic Taper: 50 feet minimum, 100 feet maximum. Downstream Taper: 50 feet minimum, 100 feet maximum.",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.835225
+        },
+        {
+          "source_node_id": "src_72c34a3d153fa4d560d4",
+          "source_unit_code": "TA-12",
+          "paragraph": "02",
+          "modality": "shall",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signal timing shall be established by authorized officials. Durations of red clearance intervals shall be adequate to clear the one-lane section of conflicting vehicles.",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.835194
+        },
+        {
+          "source_node_id": "src_6f7e4baadad0f4428bd8",
+          "source_unit_code": "TA-14",
+          "paragraph": "08",
+          "modality": "shall",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The temporary traffic control signals shall control both the highway and the haul road and shall meet the physical display and operational requirements of conventional traffic control signals as described in Part 4. Traffic control signal timing shall be established by authorized officials.",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.832955
+        },
+        {
+          "source_node_id": "src_dbaa81ae8afd41f20040",
+          "source_unit_code": "TA-38",
+          "paragraph": "figure:sign:W4-2L",
+          "modality": "should",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-38. Interior Lane Closure on a Freeway (TA-38) Temporary white lane line G20-2 (optional) Buffer space (optional) 16 ft MIN. W12-1 Temporary solid double 1/2 L white lane line (optional) 2L R4-9 A W9-3L L A W4-2L Shoulder taper B Temporary yellow edge line W20-5L C Notes: See Table 6P-2 for the meanings of W20-1 the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in thi",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.832835
+        },
+        {
+          "source_node_id": "src_430190723b59f83f8cd7",
+          "source_unit_code": "TA-51",
+          "paragraph": "figure:sign:M6-2PL",
+          "modality": "should",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-51. Paved Shoulder Closure with a Bicycle Diversion onto a Temporary Path (TA-51) G20-2 (optional) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in this figure. See Table 6B-4 for formulas for calculating taper length (L). Speed(s) shall be motor vehicle speeds. W11-1 M6-2PL Temporary path 1/3 L W11-1 A M6-2PR Based on spe",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.832289
+        },
+        {
+          "source_node_id": "src_8da6d88ba4d549c66634",
+          "source_unit_code": "TA-51",
+          "paragraph": "figure:sign:W21-5a",
+          "modality": "should",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-51. Paved Shoulder Closure with a Bicycle Diversion onto a Temporary Path (TA-51) G20-2 (optional) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in this figure. See Table 6B-4 for formulas for calculating taper length (L). Speed(s) shall be motor vehicle speeds. W11-1 M6-2PL Temporary path 1/3 L W11-1 A M6-2PR Based on spe",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.831462
+        },
+        {
+          "source_node_id": "src_ba6a156672fff29ce0f4",
+          "source_unit_code": "TA-51",
+          "paragraph": "figure:dimension:L",
+          "modality": "should",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-51. Paved Shoulder Closure with a Bicycle Diversion onto a Temporary Path (TA-51) G20-2 (optional) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in this figure. See Table 6B-4 for formulas for calculating taper length (L). Speed(s) shall be motor vehicle speeds. W11-1 M6-2PL Temporary path 1/3 L W11-1 A M6-2PR Based on spe",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.831132
+        },
+        {
+          "source_node_id": "src_951fd2cf84aa0e019cf2",
+          "source_unit_code": "TA-51",
+          "paragraph": "figure:sign:M6-2PR",
+          "modality": "should",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-51. Paved Shoulder Closure with a Bicycle Diversion onto a Temporary Path (TA-51) G20-2 (optional) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in this figure. See Table 6B-4 for formulas for calculating taper length (L). Speed(s) shall be motor vehicle speeds. W11-1 M6-2PL Temporary path 1/3 L W11-1 A M6-2PR Based on spe",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.830751
+        },
+        {
+          "source_node_id": "src_2a41df55d6dd27b5c5a9",
+          "source_unit_code": "TA-38",
+          "paragraph": "figure:dimensions:A-B-C",
+          "modality": "should",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-38. Interior Lane Closure on a Freeway (TA-38) Temporary white lane line G20-2 (optional) Buffer space (optional) 16 ft MIN. W12-1 Temporary solid double 1/2 L white lane line (optional) 2L R4-9 A W9-3L L A W4-2L Shoulder taper B Temporary yellow edge line W20-5L C Notes: See Table 6P-2 for the meanings of W20-1 the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in thi",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.830686
+        },
+        {
+          "source_node_id": "src_5198ca6a7f0599fbf51c",
+          "source_unit_code": "TA-38",
+          "paragraph": "figure:sign:R4-9",
+          "modality": "should",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-38. Interior Lane Closure on a Freeway (TA-38) Temporary white lane line G20-2 (optional) Buffer space (optional) 16 ft MIN. W12-1 Temporary solid double 1/2 L white lane line (optional) 2L R4-9 A W9-3L L A W4-2L Shoulder taper B Temporary yellow edge line W20-5L C Notes: See Table 6P-2 for the meanings of W20-1 the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in thi",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.83064
+        },
+        {
+          "source_node_id": "src_ff2781a140cc533b8603",
+          "source_unit_code": "TA-38",
+          "paragraph": "figure:sign:W20-5L",
+          "modality": "should",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-38. Interior Lane Closure on a Freeway (TA-38) Temporary white lane line G20-2 (optional) Buffer space (optional) 16 ft MIN. W12-1 Temporary solid double 1/2 L white lane line (optional) 2L R4-9 A W9-3L L A W4-2L Shoulder taper B Temporary yellow edge line W20-5L C Notes: See Table 6P-2 for the meanings of W20-1 the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in thi",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.830053
+        }
+      ]
+    }
+  },
+  {
+    "step": 2,
+    "phase": "requirement_discovery",
+    "tool": "load_domain_gap_candidates",
+    "arguments": {
+      "domain": "advance_warning_sign_system"
+    },
+    "result": {
+      "layer": "stage1_retrieval_only",
+      "domain": "advance_warning_sign_system",
+      "query": "temporary traffic control advance warning sign system",
+      "covered_node_count": 0,
+      "uncovered_corpus_count": 904,
+      "uncovered_candidate_count": 16,
+      "ranking_policy": {
+        "type": "dense_cosine_top_k",
+        "embedding_model": "intfloat/e5-large-v2",
+        "normalized_embeddings": true,
+        "top_score": 0.848358,
+        "minimum_eligible_score": 0.834929,
+        "candidate_count_cap": 18
+      },
+      "internal_page_count": 2,
+      "has_more": false,
+      "continuation_token": null,
+      "items": [
+        {
+          "source_node_id": "src_ed46a4ffcd18cc791858",
+          "source_unit_code": "TA-12",
+          "paragraph": "figure:sign:W20-4",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-12. Lane Closure on a Two-Lane Road Using Temporary Traffic Control Signals (TA-12) W20-1 W13-1P (optional) C (optional) W20-4 G20-2 (optional) B 500 to (optional) 600 ft Temporary markings A 40 to 180 ft W3-3 50 to 100 ft R10-6 Lighting (optional) Lighting (optional) 50 to 100 ft 40 to 180 ft Temporary markings 500 to 600 ft A R10-6 W3-3 G20-2 (optional) B (optional) Notes: See Table 6P-2 for the meanings ",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.848358
+        },
+        {
+          "source_node_id": "src_72a92ef5e78b2ad9d228",
+          "source_unit_code": "TA-12",
+          "paragraph": "figure:sign:W3-3",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-12. Lane Closure on a Two-Lane Road Using Temporary Traffic Control Signals (TA-12) W20-1 W13-1P (optional) C (optional) W20-4 G20-2 (optional) B 500 to (optional) 600 ft Temporary markings A 40 to 180 ft W3-3 50 to 100 ft R10-6 Lighting (optional) Lighting (optional) 50 to 100 ft 40 to 180 ft Temporary markings 500 to 600 ft A R10-6 W3-3 G20-2 (optional) B (optional) Notes: See Table 6P-2 for the meanings ",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.847487
+        },
+        {
+          "source_node_id": "src_6f7e4baadad0f4428bd8",
+          "source_unit_code": "TA-14",
+          "paragraph": "08",
+          "modality": "shall",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The temporary traffic control signals shall control both the highway and the haul road and shall meet the physical display and operational requirements of conventional traffic control signals as described in Part 4. Traffic control signal timing shall be established by authorized officials.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.847024
+        },
+        {
+          "source_node_id": "src_1273341a3aa6dff5709f",
+          "source_unit_code": "TA-41",
+          "paragraph": "05",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Advance guide signs providing information related to the temporary exit should be relocated or duplicated adjacent to the temporary roadway.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.846273
+        },
+        {
+          "source_node_id": "src_7a245af2a19d44b87030",
+          "source_unit_code": "SEC-6H.02",
+          "paragraph": "01",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Where highway conditions permit, warning signs should be placed in advance of the transition and activity areas at varying distances depending on roadway type, condition, and posted speed. Table 6B-1 contains information regarding the spacing of advance warning signs. Where a series of two or more advance warning signs is used, the closest sign to the transition and activity areas should be placed approximately 100 f",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.84603
+        },
+        {
+          "source_node_id": "src_248f026b1e13960c2d5c",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "07",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals should only be used in situations where temporary traffic control signals are preferable to other means of traffic control, such as changing the work staging or work zone size to eliminate one-way vehicular traffic movements, using flaggers to control one-way or crossing movements, using STOP or YIELD signs, and using warning devices alone.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.845843
+        },
+        {
+          "source_node_id": "src_eafd02c3dbce3f8109a1",
+          "source_unit_code": "SEC-6H.02",
+          "paragraph": "02",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.844081
+        },
+        {
+          "source_node_id": "src_72c34a3d153fa4d560d4",
+          "source_unit_code": "TA-12",
+          "paragraph": "02",
+          "modality": "shall",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signal timing shall be established by authorized officials. Durations of red clearance intervals shall be adequate to clear the one-lane section of conflicting vehicles.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.842692
+        },
+        {
+          "source_node_id": "src_038ca4dd7b0f197a9418",
+          "source_unit_code": "SEC-6L.02",
+          "paragraph": "15",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When an AFAD is used, the advance warning signing should include a ROAD WORK AHEAD (W20-1) sign, a ONE LANE ROAD (W20-4) sign, and a BE PREPARED TO STOP (W3-4) sign.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.841601
+        },
+        {
+          "source_node_id": "src_14995069759acceb0640",
+          "source_unit_code": "TA-12",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals shall be installed and operated in accordance with the provisions of Part 4. Temporary traffic control signals shall meet the physical display and operational requirements of conventional traffic control signals.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.841079
+        },
+        {
+          "source_node_id": "src_4249c3390fdc0f4110bd",
+          "source_unit_code": "TA-14",
+          "paragraph": "figure:sign:W20-1",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-14. Haul Road Crossing (TA-14) Haul road See Note 7 See Note 7 40 to Temporary 180 ft marking (optional) R10-6 A (optional) B W3-3 G20-2 (optional) A – Using temporary traffic control signals W20-1 Haul road See Note 4 See Note 4 30 ft Temporary marking (optional) A Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in this fig",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.840645
+        },
+        {
+          "source_node_id": "src_fbb96fb8ac3e0df04a9b",
+          "source_unit_code": "TA-14",
+          "paragraph": "figure:sign:W20-7",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-14. Haul Road Crossing (TA-14) Haul road See Note 7 See Note 7 40 to Temporary 180 ft marking (optional) R10-6 A (optional) B W3-3 G20-2 (optional) A – Using temporary traffic control signals W20-1 Haul road See Note 4 See Note 4 30 ft Temporary marking (optional) A Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in this fig",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.839977
+        },
+        {
+          "source_node_id": "src_d81dd874f4ac0f05a8c6",
+          "source_unit_code": "SEC-6L.02",
+          "paragraph": "10",
+          "modality": "shall",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "If used, AFADs shall be placed so that all of the signs and other items controlling traffic movement are readily visible to the driver of the initial approaching vehicle with advance warning signs alerting other approaching traffic to be prepared to stop.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.839243
+        },
+        {
+          "source_node_id": "src_6b5400eaf346050a079a",
+          "source_unit_code": "TA-12",
+          "paragraph": "03",
+          "modality": "shall",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When the temporary traffic control signal is changed to the flashing mode, either manually or automatically, red signal indications shall be flashed to both approaches.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.837969
+        },
+        {
+          "source_node_id": "src_954e7e72c1c215bc571b",
+          "source_unit_code": "SEC-6H.03",
+          "paragraph": "02",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Where traffic can enter a TTC zone from a crossroad or a major (high-volume) driveway, an advance warning sign should be used on the crossroad or major driveway.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.836163
+        },
+        {
+          "source_node_id": "src_261691802d137201322c",
+          "source_unit_code": "SEC-6N.01",
+          "paragraph": "16",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When mobile operations are being performed, a shadow vehicle equipped with an arrow board or a sign should follow the work vehicle, especially when vehicular traffic speeds or volumes are high. Where feasible, warning signs should be placed along the roadway and moved periodically as work progresses.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.834929
+        }
+      ]
+    }
+  },
+  {
+    "step": 3,
+    "phase": "requirement_discovery",
+    "tool": "load_domain_gap_candidates",
+    "arguments": {
+      "domain": "channelization_system"
+    },
+    "result": {
+      "layer": "stage1_retrieval_only",
+      "domain": "channelization_system",
+      "query": "temporary traffic control channelization system",
+      "covered_node_count": 0,
+      "uncovered_corpus_count": 904,
+      "uncovered_candidate_count": 7,
+      "ranking_policy": {
+        "type": "dense_cosine_top_k",
+        "embedding_model": "intfloat/e5-large-v2",
+        "normalized_embeddings": true,
+        "top_score": 0.864922,
+        "minimum_eligible_score": 0.824613,
+        "candidate_count_cap": 18
+      },
+      "internal_page_count": 2,
+      "has_more": false,
+      "continuation_token": null,
+      "items": [
+        {
+          "source_node_id": "src_b2c0d83f8cc4d3882196",
+          "source_unit_code": "SEC-6K.11",
+          "paragraph": "04",
+          "modality": "should",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "A temporary lane separator should be stabilized by affixing it to the pavement in a manner suitable to its design, while allowing the unit to be intentionally moved from place to place within the TTC zone in order to accommodate changing conditions.",
+          "graph_paths": [
+            [
+              "channelization_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.841856
+        },
+        {
+          "source_node_id": "src_58ceb7312c181704600b",
+          "source_unit_code": "SEC-6K.11",
+          "paragraph": "02",
+          "modality": "shall",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary lane separators shall consist of a longitudinal base component with a maximum height of 4 inches and a maximum width of 1 foot. The longitudinal base shall have sloping sides in order to facilitate crossover by emergency vehicles. One or more types of channelizing devices, such as tubular markers, vertical panels, or a Narrow Two-Way Traffic (W6-4) sign (see Section 6H.17) mounted on flexible supports, shal",
+          "graph_paths": [
+            [
+              "channelization_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.838833
+        },
+        {
+          "source_node_id": "src_72c34a3d153fa4d560d4",
+          "source_unit_code": "TA-12",
+          "paragraph": "02",
+          "modality": "shall",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signal timing shall be established by authorized officials. Durations of red clearance intervals shall be adequate to clear the one-lane section of conflicting vehicles.",
+          "graph_paths": [
+            [
+              "channelization_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.834074
+        },
+        {
+          "source_node_id": "src_7a66c4b9571cc402cc79",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "03",
+          "modality": "shall",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "A temporary traffic control signal that is used to control traffic through a one-lane, two-way section of roadway shall comply with the provisions of Section 4O.02.",
+          "graph_paths": [
+            [
+              "channelization_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.829191
+        },
+        {
+          "source_node_id": "src_6f7e4baadad0f4428bd8",
+          "source_unit_code": "TA-14",
+          "paragraph": "08",
+          "modality": "shall",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The temporary traffic control signals shall control both the highway and the haul road and shall meet the physical display and operational requirements of conventional traffic control signals as described in Part 4. Traffic control signal timing shall be established by authorized officials.",
+          "graph_paths": [
+            [
+              "channelization_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.827236
+        },
+        {
+          "source_node_id": "src_6489282d91418b6be68b",
+          "source_unit_code": "TA-39",
+          "paragraph": "07",
+          "modality": "should",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When channelizing devices have the potential of leading vehicular traffic out of the intended traffic space, the channelizing devices should be extended a distance in feet of 2 times the speed limit in mph beyond the downstream end of the transition area as depicted.",
+          "graph_paths": [
+            [
+              "channelization_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.826228
+        },
+        {
+          "source_node_id": "src_83a6d30a5006e7746b9c",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals (see Section 4D.11) used to control road user movements through TTC zones and in other TTC situations shall comply with the applicable provisions of Part 4.",
+          "graph_paths": [
+            [
+              "channelization_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.824613
+        }
+      ]
+    }
+  },
+  {
+    "step": 4,
+    "phase": "requirement_discovery",
+    "tool": "load_domain_gap_candidates",
+    "arguments": {
+      "domain": "transition_and_taper_geometry"
+    },
+    "result": {
+      "layer": "stage1_retrieval_only",
+      "domain": "transition_and_taper_geometry",
+      "query": "temporary traffic control transition and taper geometry",
+      "covered_node_count": 0,
+      "uncovered_corpus_count": 904,
+      "uncovered_candidate_count": 15,
+      "ranking_policy": {
+        "type": "dense_cosine_top_k",
+        "embedding_model": "intfloat/e5-large-v2",
+        "normalized_embeddings": true,
+        "top_score": 0.885935,
+        "minimum_eligible_score": 0.843229,
+        "candidate_count_cap": 18
+      },
+      "internal_page_count": 2,
+      "has_more": false,
+      "continuation_token": null,
+      "items": [
+        {
+          "source_node_id": "src_efd418222a3f416f1e38",
+          "source_unit_code": "TABLE-6B-3",
+          "paragraph": "table",
+          "modality": "guidance",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Table 6B-3. Taper Length Criteria for Temporary Traffic Control Zones. Merging Taper: at least L. Shifting Taper: at least 0.5 L. Shoulder Taper: at least 0.33 L. One-Lane, Two-Way Traffic Taper: 50 feet minimum, 100 feet maximum. Downstream Taper: 50 feet minimum, 100 feet maximum.",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.885935
+        },
+        {
+          "source_node_id": "src_9d99124851a9e27ef289",
+          "source_unit_code": "TA-36",
+          "paragraph": "figure:dimension:L",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-36. Lane Shift on a Freeway (TA-36) G20-2 (optional) Temporary solid Temporary yellow white lane lines edge line (see Notes 7 and 8) 1/2 L W1-4cL (see Notes 7 and 8) W1-4cL W13-1P (optional) Crash cushion W13-1P (optional) 1/2 L Lighting Temporary white (optional) edge line Lighting (optional) 1/3 L (see Notes 7 and 8) A W1-4cR W13-1P (optional) Notes: See Table 6P-2 for the meanings of the symbols B used i",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.853898
+        },
+        {
+          "source_node_id": "src_931f161f3928a6d546d8",
+          "source_unit_code": "TA-45",
+          "paragraph": "figure:dimension:L",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-45. Temporary Reversible Lane Using Movable Barriers (TA-45) Phase A Transition from Phase A to Phase B W20-1 W20-1 C C W20-5aL W20-5aL B B W4-2L W4-2L A A L L 2L G20-2 2L G20-2 (optional) (optional) W4-2L Parking location W4-2L Parking location L for transfer vehicle L for transfer vehicle during Phase B during Phase B Buffer space Movable Buffer space Movable (optional) attenuator (optional) attenuator Mo",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.851587
+        },
+        {
+          "source_node_id": "src_ba6a156672fff29ce0f4",
+          "source_unit_code": "TA-51",
+          "paragraph": "figure:dimension:L",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-51. Paved Shoulder Closure with a Bicycle Diversion onto a Temporary Path (TA-51) G20-2 (optional) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in this figure. See Table 6B-4 for formulas for calculating taper length (L). Speed(s) shall be motor vehicle speeds. W11-1 M6-2PL Temporary path 1/3 L W11-1 A M6-2PR Based on spe",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.850392
+        },
+        {
+          "source_node_id": "src_e302e9a440a541f5a612",
+          "source_unit_code": "TA-15",
+          "paragraph": "figure:dimension:L",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-15. Work in the Center of a Road with Low Traffic Volumes (TA-15) G20-2 (optional) W20-1 A Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in this figure. See Table 6B-4 for formulas for calculating taper length (L). 1/2 L R4-7 (optional) (optional) 1/2 L 10 feet MIN. to edge R4-7 of pavement or outside edge of paved shoulde",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.850256
+        },
+        {
+          "source_node_id": "src_09bd82aef9cf0bc0cf77",
+          "source_unit_code": "TA-31",
+          "paragraph": "figure:dimension:L",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-31. Lane Closure on a Street with Uneven Directional Volumes (TA-31) W20-1 B A W4-2L L (optional) Buffer space (optional) 1/2 L 100 ft Temporary solid A white lane line W1-4bR Buffer space (optional) W13-1P (optional) * S = speed in mph 1/2 L W1-4bL A 4S ft* W13-1P (optional) B Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.849696
+        },
+        {
+          "source_node_id": "src_fa6818bec9428dd5668e",
+          "source_unit_code": "TA-38",
+          "paragraph": "figure:dimension:L",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-38. Interior Lane Closure on a Freeway (TA-38) Temporary white lane line G20-2 (optional) Buffer space (optional) 16 ft MIN. W12-1 Temporary solid double 1/2 L white lane line (optional) 2L R4-9 A W9-3L L A W4-2L Shoulder taper B Temporary yellow edge line W20-5L C Notes: See Table 6P-2 for the meanings of W20-1 the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in thi",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.84963
+        },
+        {
+          "source_node_id": "src_d7eac71951a52dd390f9",
+          "source_unit_code": "TA-34",
+          "paragraph": "figure:dimension:L",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-34. Lane Closure with a Temporary Traffic Barrier (TA-34) G20-2 W20-1 (optional) (optional) 1,500 ft Temporary white edge line Median Crash cushion Buffer space (optional) Shoulder taper L A W4-2R G20-2 (optional) B Notes: See Table 6P-2 for the meanings of the symbols W20-5R used in this figure. C See Table 6B-1 for the meanings of the letter codes used in this figure. See Table 6B-4 for formulas for calcu",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.84899
+        },
+        {
+          "source_node_id": "src_04ada038fa06abca2af3",
+          "source_unit_code": "TA-32",
+          "paragraph": "figure:dimension:L",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-32. Half Road Closure on a Multi-Lane, High-Speed Highway (TA-32) W20-1 C W20-5L B B A W20-5L G20-2 (optional) L Temporary white edge line W4-2L Buffer space (optional) W1-4R 1/2 L MIN. W13-1P (optional) Temporary 1/2 L MIN. W1-4L yellow lines W13-1P 1/2 L MIN. (optional) L A W4-2R G20-2 B (optional) W20-5R Shoulder taper B (see Note 2) C Notes: See Table 6P-2 for the meanings of the symbols used in this fi",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.846319
+        },
+        {
+          "source_node_id": "src_a036617fa2c603601069",
+          "source_unit_code": "TA-33",
+          "paragraph": "figure:dimension:L",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-33. Stationary Lane Closure on a Divided Highway (TA-33) G20-2 (optional) 500 ft G20-2 (optional) 100 ft (optional) 500 ft Work vehicle Truck-mounted attenuator (optional) Buffer space (optional) Buffer space (optional) Temporary white edge line L L Shoulder taper Shoulder taper A (see Note 3) A (see Note 3) W4-2R W4-2R B B W20-5R W20-5R C C W20-1 W20-1 Notes: See Table 6P-2 for the meanings of the symbols ",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.845558
+        },
+        {
+          "source_node_id": "src_8ab99cf8d6b8bbf54456",
+          "source_unit_code": "TA-24",
+          "paragraph": "figure:dimension:L",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-24. Half Road Closure on the Far Side of an Intersection (TA-24) W20-1 C W20-5L B W4-2L A G20-2 (optional) (optional) L (optional) (optional) Buffer space R3-1 R3-2 1/2 L W20-1 (optional) A G20-2 (optional) R4-7c A A R3-7R G20-2 W20-1 (optional) R3-2 L (optional) W4-2R (optional) A G20-2 (optional) W20-5R B Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the mea",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.844946
+        },
+        {
+          "source_node_id": "src_e65583438482e0520dd4",
+          "source_unit_code": "SEC-6N.11",
+          "paragraph": "03",
+          "modality": "shall",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When a lane is closed on a multi-lane road for other than a mobile operation, a transition area containing a merging taper shall be used.",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.844676
+        },
+        {
+          "source_node_id": "src_8b3466a16684d1104d51",
+          "source_unit_code": "TA-21",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The merging taper shall direct vehicular traffic into either the right-hand or left-hand lane, but not both.",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.844306
+        },
+        {
+          "source_node_id": "src_77497e26286c1c095471",
+          "source_unit_code": "TA-25",
+          "paragraph": "figure:dimension:L",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-25. Multiple Lane Closures at an Intersection (TA-25) A G20-2 W20-1 (optional) R4-7 W20-1 G20-2 A (optional) R3-2 (optional) A (optional) W20-1 G20-2 (optional) 1/2 L G20-2 (optional) R3-7L L (optional) A W4-2L Notes: See Table 6P-2 for the meanings of B the symbols used in this figure. W20-5L See Table 6B-1 for the meanings of the letter codes used in this figure. See Table 6B-4 for formulas for calculatin",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.844212
+        },
+        {
+          "source_node_id": "src_388f08b58488f79c8a77",
+          "source_unit_code": "TA-10",
+          "paragraph": "06",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The buffer space should be extended so that the two-way traffic taper is placed before a horizontal (or crest vertical) curve to provide adequate sight distance for the flagger and a queue of stopped vehicles.",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.843229
+        }
+      ]
+    }
+  },
+  {
+    "step": 5,
+    "phase": "requirement_discovery",
+    "tool": "load_domain_gap_candidates",
+    "arguments": {
+      "domain": "conditional_active_devices"
+    },
+    "result": {
+      "layer": "stage1_retrieval_only",
+      "domain": "conditional_active_devices",
+      "query": "temporary traffic control active devices",
+      "covered_node_count": 0,
+      "uncovered_corpus_count": 904,
+      "uncovered_candidate_count": 9,
+      "ranking_policy": {
+        "type": "dense_cosine_top_k",
+        "embedding_model": "intfloat/e5-large-v2",
+        "normalized_embeddings": true,
+        "top_score": 0.858631,
+        "minimum_eligible_score": 0.827641,
+        "candidate_count_cap": 18
+      },
+      "internal_page_count": 2,
+      "has_more": false,
+      "continuation_token": null,
+      "items": [
+        {
+          "source_node_id": "src_83a6d30a5006e7746b9c",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals (see Section 4D.11) used to control road user movements through TTC zones and in other TTC situations shall comply with the applicable provisions of Part 4.",
+          "graph_paths": [
+            [
+              "conditional_active_devices provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.845963
+        },
+        {
+          "source_node_id": "src_6f7e4baadad0f4428bd8",
+          "source_unit_code": "TA-14",
+          "paragraph": "08",
+          "modality": "shall",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The temporary traffic control signals shall control both the highway and the haul road and shall meet the physical display and operational requirements of conventional traffic control signals as described in Part 4. Traffic control signal timing shall be established by authorized officials.",
+          "graph_paths": [
+            [
+              "conditional_active_devices provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.840121
+        },
+        {
+          "source_node_id": "src_b2c0d83f8cc4d3882196",
+          "source_unit_code": "SEC-6K.11",
+          "paragraph": "04",
+          "modality": "should",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "A temporary lane separator should be stabilized by affixing it to the pavement in a manner suitable to its design, while allowing the unit to be intentionally moved from place to place within the TTC zone in order to accommodate changing conditions.",
+          "graph_paths": [
+            [
+              "conditional_active_devices provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.837687
+        },
+        {
+          "source_node_id": "src_14995069759acceb0640",
+          "source_unit_code": "TA-12",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals shall be installed and operated in accordance with the provisions of Part 4. Temporary traffic control signals shall meet the physical display and operational requirements of conventional traffic control signals.",
+          "graph_paths": [
+            [
+              "conditional_active_devices provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.837223
+        },
+        {
+          "source_node_id": "src_248f026b1e13960c2d5c",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "07",
+          "modality": "should",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals should only be used in situations where temporary traffic control signals are preferable to other means of traffic control, such as changing the work staging or work zone size to eliminate one-way vehicular traffic movements, using flaggers to control one-way or crossing movements, using STOP or YIELD signs, and using warning devices alone.",
+          "graph_paths": [
+            [
+              "conditional_active_devices provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.834769
+        },
+        {
+          "source_node_id": "src_72c34a3d153fa4d560d4",
+          "source_unit_code": "TA-12",
+          "paragraph": "02",
+          "modality": "shall",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signal timing shall be established by authorized officials. Durations of red clearance intervals shall be adequate to clear the one-lane section of conflicting vehicles.",
+          "graph_paths": [
+            [
+              "conditional_active_devices provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.832351
+        },
+        {
+          "source_node_id": "src_7a66c4b9571cc402cc79",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "03",
+          "modality": "shall",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "A temporary traffic control signal that is used to control traffic through a one-lane, two-way section of roadway shall comply with the provisions of Section 4O.02.",
+          "graph_paths": [
+            [
+              "conditional_active_devices provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.832338
+        },
+        {
+          "source_node_id": "src_410959bb3c2e1280fb48",
+          "source_unit_code": "TA-14",
+          "paragraph": "09",
+          "modality": "shall",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Stop lines shall be used on existing highways with temporary traffic control signals.",
+          "graph_paths": [
+            [
+              "conditional_active_devices provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.830852
+        },
+        {
+          "source_node_id": "src_dbb2acee17a8ace3a65f",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "04",
+          "modality": "should",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When temporary traffic control signals are used, conflict monitors typical of traditional traffic control signal operations should be used.",
+          "graph_paths": [
+            [
+              "conditional_active_devices provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.829476
+        }
+      ]
+    }
+  },
+  {
+    "step": 6,
+    "phase": "requirement_discovery",
+    "tool": "load_domain_gap_candidates",
+    "arguments": {
+      "domain": "lane_closure_layout"
+    },
+    "result": {
+      "status": "failure",
+      "failure_reason": "simplified graph-gap audit already completed for lane_closure_layout",
+      "tool": "load_domain_gap_candidates"
+    }
+  },
+  {
+    "step": 7,
+    "phase": "requirement_discovery",
+    "tool": "load_domain_gap_candidates",
+    "arguments": {
+      "domain": "conditional_termination_area"
+    },
+    "result": {
+      "layer": "stage1_retrieval_only",
+      "domain": "conditional_termination_area",
+      "query": "temporary traffic control termination area",
+      "covered_node_count": 0,
+      "uncovered_corpus_count": 904,
+      "uncovered_candidate_count": 14,
+      "ranking_policy": {
+        "type": "dense_cosine_top_k",
+        "embedding_model": "intfloat/e5-large-v2",
+        "normalized_embeddings": true,
+        "top_score": 0.844911,
+        "minimum_eligible_score": 0.82145,
+        "candidate_count_cap": 18
+      },
+      "internal_page_count": 2,
+      "has_more": false,
+      "continuation_token": null,
+      "items": [
+        {
+          "source_node_id": "src_72c34a3d153fa4d560d4",
+          "source_unit_code": "TA-12",
+          "paragraph": "02",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signal timing shall be established by authorized officials. Durations of red clearance intervals shall be adequate to clear the one-lane section of conflicting vehicles.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.844911
+        },
+        {
+          "source_node_id": "src_efd418222a3f416f1e38",
+          "source_unit_code": "TABLE-6B-3",
+          "paragraph": "table",
+          "modality": "guidance",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Table 6B-3. Taper Length Criteria for Temporary Traffic Control Zones. Merging Taper: at least L. Shifting Taper: at least 0.5 L. Shoulder Taper: at least 0.33 L. One-Lane, Two-Way Traffic Taper: 50 feet minimum, 100 feet maximum. Downstream Taper: 50 feet minimum, 100 feet maximum.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.841416
+        },
+        {
+          "source_node_id": "src_83a6d30a5006e7746b9c",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals (see Section 4D.11) used to control road user movements through TTC zones and in other TTC situations shall comply with the applicable provisions of Part 4.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.840749
+        },
+        {
+          "source_node_id": "src_248f026b1e13960c2d5c",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "07",
+          "modality": "should",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals should only be used in situations where temporary traffic control signals are preferable to other means of traffic control, such as changing the work staging or work zone size to eliminate one-way vehicular traffic movements, using flaggers to control one-way or crossing movements, using STOP or YIELD signs, and using warning devices alone.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.837762
+        },
+        {
+          "source_node_id": "src_6f7e4baadad0f4428bd8",
+          "source_unit_code": "TA-14",
+          "paragraph": "08",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The temporary traffic control signals shall control both the highway and the haul road and shall meet the physical display and operational requirements of conventional traffic control signals as described in Part 4. Traffic control signal timing shall be established by authorized officials.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.83718
+        },
+        {
+          "source_node_id": "src_666c8016f45a380aceaf",
+          "source_unit_code": "TA-12",
+          "paragraph": "04",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Stop lines shall be installed with temporary traffic control signals for long-term closures. Existing conflicting pavement markings and raised pavement marker reflectors between the activity area and each stop line shall be removed. After the temporary traffic control signal is removed, the stop lines and other temporary pavement markings shall be removed and the permanent pavement markings restored.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.836134
+        },
+        {
+          "source_node_id": "src_b54332b30b202e7f6ec8",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "12",
+          "modality": "should",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "If a temporary traffic control signal is located within ½ mile of an adjacent traffic control signal, consideration should be given to interconnected operation.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.833333
+        },
+        {
+          "source_node_id": "src_7a66c4b9571cc402cc79",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "03",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "A temporary traffic control signal that is used to control traffic through a one-lane, two-way section of roadway shall comply with the provisions of Section 4O.02.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.832366
+        },
+        {
+          "source_node_id": "src_14995069759acceb0640",
+          "source_unit_code": "TA-12",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals shall be installed and operated in accordance with the provisions of Part 4. Temporary traffic control signals shall meet the physical display and operational requirements of conventional traffic control signals.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.831403
+        },
+        {
+          "source_node_id": "src_ab41a5a2af6588f67419",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "11",
+          "modality": "should",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals not in use should be covered or removed.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.831402
+        },
+        {
+          "source_node_id": "src_9d9ef4bfdcbe9561ec13",
+          "source_unit_code": "SEC-2H.13",
+          "paragraph": "05",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Acknowledgment signs shall not be installed at any of the following locations: A. On the front or back of, adjacent to, or around any other traffic control device, including traffic signs, highway traffic signals, and changeable message signs; B. On the front or back of, adjacent to, or around the supports or structures of other traffic control devices, or bridge piers; or C. At key decision points where a road user’",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.829995
+        },
+        {
+          "source_node_id": "src_f2c69c93ced8d3551027",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "13",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals shall not be located within 200 feet of a grade crossing unless the temporary traffic control signal is provided with preemption in accordance with Sections 4F.18, 4F.19, and 8D.09, or unless a uniformed officer or flagger is provided at the crossing to prevent vehicles from stopping within the crossing.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.829491
+        },
+        {
+          "source_node_id": "src_410959bb3c2e1280fb48",
+          "source_unit_code": "TA-14",
+          "paragraph": "09",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Stop lines shall be used on existing highways with temporary traffic control signals.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.822021
+        },
+        {
+          "source_node_id": "src_94075b24254b71020089",
+          "source_unit_code": "TA-12",
+          "paragraph": "figure:dimensions:A-B-C",
+          "modality": "should",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Figure 6P-12. Lane Closure on a Two-Lane Road Using Temporary Traffic Control Signals (TA-12) W20-1 W13-1P (optional) C (optional) W20-4 G20-2 (optional) B 500 to (optional) 600 ft Temporary markings A 40 to 180 ft W3-3 50 to 100 ft R10-6 Lighting (optional) Lighting (optional) 50 to 100 ft 40 to 180 ft Temporary markings 500 to 600 ft A R10-6 W3-3 G20-2 (optional) B (optional) Notes: See Table 6P-2 for the meanings ",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_dense_score": 0.82145
+        }
+      ]
+    }
+  },
+  {
+    "step": 8,
+    "phase": "requirement_registration",
+    "tool": "begin_requirement_registration",
+    "arguments": {},
+    "result": {
+      "phase": "requirement_registration",
+      "transition_event_index": 1
+    }
+  },
+  {
+    "step": 9,
+    "phase": "requirement_registration",
+    "tool": "submit_inspection_check_batch",
+    "arguments": {
+      "domain": "advance_warning_sign_system",
+      "requirements": [
+        {
+          "candidate_label": "Advance-warning sign sequence and spacing",
+          "subject": "advance warning signs approaching the transition and activity areas",
+          "relation": "are placed in the proper approach sequence, with the closest sign approximately 100 ft in advance where a series is used",
+          "threshold": "closest advance warning sign approximately 100 ft before the transition/activity area; ROAD WORK AHEAD is first when multiple signs are used",
+          "applicability_conditions": [
+            "TA-30 primary layout",
+            "a series of advance warning signs is used"
+          ],
+          "required_inputs": [
+            "field locations and identities of advance warning signs",
+            "distance from closest sign to transition/activity area"
+          ],
+          "source_node_id": "src_7a245af2a19d44b87030",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "activation_basis": {
+            "type": "selected_ta",
+            "fact_keys": [
+              "TA-30"
+            ],
+            "evidence_source_node_ids": [
+              "src_7a245af2a19d44b87030",
+              "src_eafd02c3dbce3f8109a1"
+            ],
+            "explanation": "TA-30 is the selected primary layout and the source gives the general advance-warning sequence and closest-sign placement guidance."
+          }
+        }
+      ]
+    },
+    "result": {
+      "status": "failure",
+      "failure_reason": "atomic batch for advance_warning_sign_system rejected: Advance-warning sign sequence and spacing: selected-TA activation requires retrieved evidence from the selected TA",
+      "tool": "submit_inspection_check_batch"
+    }
+  },
+  {
+    "step": 10,
+    "phase": "requirement_registration",
+    "tool": "submit_inspection_check_batch",
+    "arguments": {
+      "domain": "advance_warning_sign_system",
+      "requirements": [
+        {
+          "candidate_label": "Advance-warning sign order and nearest-sign placement",
+          "subject": "a series of advance warning signs approaching a TTC transition/activity area",
+          "relation": "places ROAD WORK AHEAD first and the closest sign approximately 100 ft before the transition/activity area",
+          "threshold": "ROAD WORK AHEAD is first when multiple signs are used; closest sign approximately 100 ft in advance",
+          "applicability_conditions": [
+            "two or more advance warning signs are used"
+          ],
+          "required_inputs": [
+            "sign identities and approach order",
+            "distance from closest sign to transition/activity area"
+          ],
+          "source_node_id": "src_eafd02c3dbce3f8109a1",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "activation_basis": {
+            "type": "unconditional",
+            "fact_keys": [],
+            "evidence_source_node_ids": [
+              "src_eafd02c3dbce3f8109a1",
+              "src_7a245af2a19d44b87030"
+            ],
+            "explanation": "The check is a generally applicable field check whenever a series of advance warning signs is present; the applicability condition limits it to that observable situation."
+          }
+        }
+      ]
+    },
+    "result": {
+      "status": "failure",
+      "failure_reason": "atomic batch for advance_warning_sign_system rejected: Advance-warning sign order and nearest-sign placement: unconditional activation must not cite conditional facts or TA evidence",
+      "tool": "submit_inspection_check_batch"
+    }
+  },
+  {
+    "step": 11,
+    "phase": "requirement_registration",
+    "tool": "submit_inspection_check_batch",
+    "arguments": {
+      "domain": "advance_warning_sign_system",
+      "requirements": [
+        {
+          "candidate_label": "ROAD WORK AHEAD first sign",
+          "subject": "multiple advance warning signs approaching a transition/activity area",
+          "relation": "has ROAD WORK AHEAD (W20-1) as the first sign encountered by road users",
+          "threshold": "W20-1 is first in approach order",
+          "applicability_conditions": [
+            "multiple advance warning signs are present"
+          ],
+          "required_inputs": [
+            "identities and approach order of advance warning signs"
+          ],
+          "source_node_id": "src_eafd02c3dbce3f8109a1",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "activation_basis": {
+            "type": "unconditional",
+            "fact_keys": [],
+            "evidence_source_node_ids": [
+              "src_eafd02c3dbce3f8109a1"
+            ],
+            "explanation": "Screen the warning-sign series for the prescribed first sign; the check is executable when such a series is observed."
+          }
+        }
+      ]
+    },
+    "result": {
+      "status": "failure",
+      "failure_reason": "atomic batch for advance_warning_sign_system rejected: ROAD WORK AHEAD first sign: unconditional activation must not cite conditional facts or TA evidence",
+      "tool": "submit_inspection_check_batch"
+    }
+  },
+  {
+    "step": 12,
+    "phase": "requirement_registration",
+    "tool": "submit_inspection_check_batch",
+    "arguments": {
+      "domain": "advance_warning_sign_system",
+      "requirements": [
+        {
+          "candidate_label": "ROAD WORK AHEAD first sign",
+          "subject": "multiple advance warning signs approaching a transition/activity area",
+          "relation": "has ROAD WORK AHEAD (W20-1) as the first sign encountered by road users",
+          "threshold": "W20-1 is first in approach order",
+          "applicability_conditions": [
+            "multiple advance warning signs are used on the approach"
+          ],
+          "required_inputs": [
+            "identities and approach order of advance warning signs"
+          ],
+          "source_node_id": "src_eafd02c3dbce3f8109a1",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "activation_basis": {
+            "type": "unconditional",
+            "fact_keys": [],
+            "evidence_source_node_ids": [],
+            "explanation": "This is a direct inspection of the approach sign order whenever a multiple-sign warning series is present."
+          }
+        }
+      ]
+    },
+    "result": {
+      "accepted_requirements": [
+        {
+          "candidate_label": "ROAD WORK AHEAD first sign",
+          "discovered_requirement_key": "req_22663f19aca4c09a",
+          "registration_event_index": 2,
+          "requirement_fingerprint": "22663f19aca4c09ae1ea00117e7792072a6eb61e92b9cd54cca331a0bfd0448e"
+        }
+      ],
+      "accepted_requirement_keys": [
+        "req_22663f19aca4c09a"
+      ],
+      "rejected_requirements": [],
+      "registry_requirement_count": 1
+    }
+  },
+  {
+    "step": 13,
+    "phase": "requirement_registration",
+    "tool": "submit_inspection_check_batch",
+    "arguments": {
+      "domain": "advance_warning_sign_system",
+      "requirements": [
+        {
+          "candidate_label": "Advance warning sign spacing to activity area",
+          "subject": "closest sign in a series of two or more advance warning signs",
+          "relation": "is placed approximately 100 feet in advance of the transition and activity area",
+          "threshold": "100 ft approximate placement distance",
+          "applicability_conditions": [
+            "a series of two or more advance warning signs is used",
+            "the approach is suitable for advance warning signs"
+          ],
+          "required_inputs": [
+            "distance from closest advance warning sign to transition/activity area",
+            "whether multiple advance warning signs are used"
+          ],
+          "source_node_id": "src_7a245af2a19d44b87030",
+          "measurement_spec": {
+            "required": true,
+            "tool": "measure_sign_spacing",
+            "quantity": "longitudinal distance from closest advance warning sign to transition/activity area",
+            "thresholds": [
+              {
+                "condition": "multiple advance warning signs are used",
+                "value": 100,
+                "unit": "ft",
+                "violation_when": "above_maximum",
+                "formula_parameter": null,
+                "multiplier": null
+              }
+            ]
+          },
+          "activation_basis": {
+            "type": "combined",
+            "fact_keys": [
+              "selected_layouts"
+            ],
+            "evidence_source_node_ids": [
+              "src_7a245af2a19d44b87030"
+            ],
+            "explanation": "The selected TA-30 is a stationary lane-closure layout with an approach transition; inspect the sign series when two or more advance warning signs are present."
+          }
+        }
+      ]
+    },
+    "result": {
+      "status": "failure",
+      "failure_reason": "atomic batch for advance_warning_sign_system rejected: Advance warning sign spacing to activity area: combined activation has unestablished scene facts: ['selected_layouts']",
+      "tool": "submit_inspection_check_batch"
+    }
+  },
+  {
+    "step": 14,
+    "phase": "requirement_registration",
+    "tool": "submit_inspection_check_batch",
+    "arguments": {
+      "domain": "transition_and_taper_geometry",
+      "requirements": [
+        {
+          "candidate_label": "Merging taper directs traffic to one lane",
+          "subject": "merging taper for the closed left lane on the multilane roadway",
+          "relation": "directs vehicular traffic into the right-hand lane and not into both lanes",
+          "threshold": "one receiving lane only",
+          "applicability_conditions": [
+            "one lane is closed on a multilane road",
+            "the closure is not a mobile operation",
+            "a merging taper is present"
+          ],
+          "required_inputs": [
+            "observed taper path and receiving lane"
+          ],
+          "source_node_id": "src_8b3466a16684d1104d51",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "activation_basis": {
+            "type": "unconditional",
+            "fact_keys": [],
+            "evidence_source_node_ids": [
+              "src_8b3466a16684d1104d51",
+              "src_e65583438482e0520dd4"
+            ],
+            "explanation": "The frozen scene establishes a one-lane closure on a multilane undivided roadway during long-term stationary work; the source requires a merging taper and specifies that it direct traffic into one lane, not both."
+          }
+        }
+      ]
+    },
+    "result": {
+      "status": "failure",
+      "failure_reason": "atomic batch for transition_and_taper_geometry rejected: Merging taper directs traffic to one lane: unconditional activation must not cite conditional facts or TA evidence",
+      "tool": "submit_inspection_check_batch"
+    }
+  },
+  {
+    "step": 15,
+    "phase": "requirement_registration",
+    "tool": "submit_inspection_check_batch",
+    "arguments": {
+      "domain": "transition_and_taper_geometry",
+      "requirements": [
+        {
+          "candidate_label": "Merging taper directs traffic to one lane",
+          "subject": "merging taper for the closed left lane on the multilane roadway",
+          "relation": "directs vehicular traffic into either the right-hand or left-hand lane, but not both",
+          "threshold": "one receiving lane only",
+          "applicability_conditions": [
+            "one lane is closed on a multilane road",
+            "the closure is not a mobile operation",
+            "a merging taper is present"
+          ],
+          "required_inputs": [
+            "observed taper path and receiving lane"
+          ],
+          "source_node_id": "src_8b3466a16684d1104d51",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "activation_basis": {
+            "type": "combined",
+            "fact_keys": [
+              "lanes_closed",
+              "roadway_configuration",
+              "work_duration_category"
+            ],
+            "evidence_source_node_ids": [
+              "src_8b3466a16684d1104d51",
+              "src_e65583438482e0520dd4"
+            ],
+            "explanation": "The scene establishes one lane closed on a multilane undivided roadway in a long-term stationary work-zone context, which activates the non-mobile lane-closure transition requirement; the field check applies if the required merging taper is present."
+          }
+        }
+      ]
+    },
+    "result": {
+      "accepted_requirements": [
+        {
+          "candidate_label": "Merging taper directs traffic to one lane",
+          "discovered_requirement_key": "req_9732095f29b92b84",
+          "registration_event_index": 3,
+          "requirement_fingerprint": "9732095f29b92b8478c2eb19a1b883f94272826b0212f7046843003ca6307b22"
+        }
+      ],
+      "accepted_requirement_keys": [
+        "req_9732095f29b92b84"
+      ],
+      "rejected_requirements": [],
+      "registry_requirement_count": 2
+    }
+  },
+  {
+    "step": 16,
+    "phase": "requirement_registration",
+    "tool": "complete_region_batch",
+    "arguments": {
+      "regions": [
+        {
+          "region": "lane_closure_layout",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "Retrieved candidates concern excluded layouts (freeway, shoulder/bicycle diversion, directional-roadway closure, or two-lane signal control); no source-grounded inspectable lane-layout predicate matches selected TA-30 and known scene facts."
+        },
+        {
+          "region": "advance_warning_sign_system",
+          "status": "screened",
+          "reason": "Registered the distinct ROAD WORK AHEAD first-sign sequence check from SEC-6H.02 paragraph 02; applicability is limited to approaches using multiple advance warning signs."
+        },
+        {
+          "region": "channelization_system",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "Retrieved channelization provisions are conditional on temporary lane separators or a documented potential for devices to lead traffic out of the intended space; those scene conditions and device observations are unavailable."
+        },
+        {
+          "region": "transition_and_taper_geometry",
+          "status": "screened",
+          "reason": "Registered the distinct merging-taper receiving-lane check from TA-21 paragraph 01 for the selected one-lane closure context."
+        },
+        {
+          "region": "conditional_active_devices",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "Retrieved provisions concern temporary traffic signals, AFADs, or temporary lane separators; no applicable operating-state predicate is inspectable from the known scene facts."
+        },
+        {
+          "region": "conditional_termination_area",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "Retrieved termination candidates are specific to temporary traffic signals, one-lane two-way control, or other excluded layouts; no applicable termination-area predicate is inspectable for selected TA-30."
+        }
+      ]
+    },
+    "result": {
+      "completed_regions": [
+        {
+          "region": "lane_closure_layout",
+          "status": "skipped_no_inspectable_candidate"
+        },
+        {
+          "region": "advance_warning_sign_system",
+          "status": "screened"
+        },
+        {
+          "region": "channelization_system",
+          "status": "skipped_no_inspectable_candidate"
+        },
+        {
+          "region": "transition_and_taper_geometry",
+          "status": "screened"
+        },
+        {
+          "region": "conditional_active_devices",
+          "status": "skipped_no_inspectable_candidate"
+        },
+        {
+          "region": "conditional_termination_area",
+          "status": "skipped_no_inspectable_candidate"
+        }
+      ]
+    }
+  },
+  {
+    "step": 17,
+    "phase": "data_availability",
+    "tool": "seal_requirement_registration",
+    "arguments": {},
+    "result": {
+      "phase": "data_availability",
+      "transition_event_index": 10,
+      "frozen_requirement_count": 2
+    }
+  }
+]

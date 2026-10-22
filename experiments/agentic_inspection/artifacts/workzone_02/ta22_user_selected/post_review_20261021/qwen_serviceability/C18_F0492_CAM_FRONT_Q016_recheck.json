@@ -1,0 +1,23 @@
+{
+  "prompt": "Assess the central work-zone device in this single image. Return JSON {\"status\":\"visible_serviceable|visible_unserviceable|uncertain\",\"reason\":\"concrete evidence\"}. visible_unserviceable requires an actual visible functional defect (collapsed, severely broken, missing essential parts, markings obscured by dirt). Blur, small size, glare or occlusion are uncertain, NOT defects. If there is enough visible evidence and no obvious functional defect, use visible_serviceable. Do not invent damage. Do not infer nighttime performance.",
+  "response": {
+    "model": "qwen3-vl:4b-instruct",
+    "created_at": "2026-10-21T14:51:15.092587223Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"status\": \"uncertain\",\n  \"reason\": \"The image is severely blurred and lacks sufficient visual detail to assess the condition of any device or work-zone equipment. No functional defects can be identified based on available evidence.\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1428454430,
+    "load_duration": 161163352,
+    "prompt_eval_count": 1157,
+    "prompt_eval_duration": 574772000,
+    "eval_count": 49,
+    "eval_duration": 547234000
+  },
+  "verdict": {
+    "status": "uncertain",
+    "reason": "The image is severely blurred and lacks sufficient visual detail to assess the condition of any device or work-zone equipment. No functional defects can be identified based on available evidence."
+  }
+}

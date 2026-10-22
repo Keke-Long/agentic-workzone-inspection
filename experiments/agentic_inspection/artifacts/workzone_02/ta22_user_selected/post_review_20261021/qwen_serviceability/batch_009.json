@@ -1,0 +1,102 @@
+{
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "image_sha256": "a53ad68a1e714661a8241871647723f11deb4ca1b1d3c73f111e9455e48828ee",
+  "response": {
+    "model": "qwen3-vl:4b-instruct",
+    "created_at": "2026-10-21T14:48:58.738821558Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"items\": [\n    {\n      \"id\": 1,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Cones are intact with clear stripes, no visible breakage or missing parts; positioned as intended for channelizing.\"\n    },\n    {\n      \"id\": 2,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Single cone upright and clearly marked with alternating stripes; no obvious damage or functional impairment.\"\n    },\n    {\n      \"id\": 3,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Cones appear intact, stripes are visible and undamaged; no signs of collapse or major wear.\"\n    },\n    {\n      \"id\": 4,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Cones show standard construction with full stripes and no apparent structural damage or missing components.\"\n    },\n    {\n      \"id\": 5,\n      \"status\": \"visible_unserviceable\",\n      \"reason\": \"Severe motion blur obscures details, but the cone appears to be leaning significantly and possibly damaged; its orientation suggests instability that could impair function.\"\n    },\n    {\n      \"id\": 6,\n      \"status\": \"visible_unserviceable\",\n      \"reason\": \"Motion blur indicates rapid movement or instability. The cone is visibly tilted and appears compromised, likely preventing effective channelizing function.\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 3694986139,
+    "load_duration": 172818001,
+    "prompt_eval_count": 1299,
+    "prompt_eval_duration": 486108000,
+    "eval_count": 292,
+    "eval_duration": 2838589000
+  },
+  "observations": [
+    {
+      "observation_id": "C18_F0374_CAM_FRONT_Q023",
+      "frame": 374,
+      "native_bbox": [
+        1997.0677,
+        1127.5721,
+        2027.6414,
+        1180.2535
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "Cones are intact with clear stripes, no visible breakage or missing parts; positioned as intended for channelizing."
+    },
+    {
+      "observation_id": "C18_F0374_CAM_FRONT_Q120",
+      "frame": 374,
+      "native_bbox": [
+        2133.5745,
+        1115.6561,
+        2207.9153,
+        1232.4686
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "Single cone upright and clearly marked with alternating stripes; no obvious damage or functional impairment."
+    },
+    {
+      "observation_id": "C18_F0375_CAM_FRONT_Q022",
+      "frame": 375,
+      "native_bbox": [
+        1998.8862,
+        1127.7284,
+        2027.7908,
+        1183.0845
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "Cones appear intact, stripes are visible and undamaged; no signs of collapse or major wear."
+    },
+    {
+      "observation_id": "C18_F0376_CAM_FRONT_Q006",
+      "frame": 376,
+      "native_bbox": [
+        2491.636,
+        1128.0527,
+        2576.7312,
+        1294.9589
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "Cones show standard construction with full stripes and no apparent structural damage or missing components."
+    },
+    {
+      "observation_id": "C18_F0384_CAM_FRONT_Q010",
+      "frame": 384,
+      "native_bbox": [
+        3020.0603,
+        1115.8134,
+        3216.6492,
+        1422.1903
+      ],
+      "id": 5,
+      "status": "visible_unserviceable",
+      "reason": "Severe motion blur obscures details, but the cone appears to be leaning significantly and possibly damaged; its orientation suggests instability that could impair function."
+    },
+    {
+      "observation_id": "C18_F0386_CAM_FRONT_Q009",
+      "frame": 386,
+      "native_bbox": [
+        3448.8286,
+        1142.4686,
+        3768.3916,
+        1572.2053
+      ],
+      "id": 6,
+      "status": "visible_unserviceable",
+      "reason": "Motion blur indicates rapid movement or instability. The cone is visibly tilted and appears compromised, likely preventing effective channelizing function."
+    }
+  ],
+  "human_confirmed_condition": false
+}

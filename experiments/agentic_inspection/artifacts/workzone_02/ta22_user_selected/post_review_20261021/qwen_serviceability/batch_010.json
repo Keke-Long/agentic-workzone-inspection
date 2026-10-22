@@ -1,0 +1,102 @@
+{
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "image_sha256": "9a26bf157810111dd5ece2c97a7f81564dff23d7020ef019a2899e269e77d5ce",
+  "response": {
+    "model": "qwen3-vl:4b-instruct",
+    "created_at": "2026-10-21T14:49:01.84817088Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"items\": [\n    {\n      \"id\": 1,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"The cone is fully visible with intact stripes and structure, no obvious damage or missing parts.\"\n    },\n    {\n      \"id\": 2,\n      \"status\": \"uncertain\",\n      \"reason\": \"Image is too small and blurred to assess any functional defect; insufficient visual evidence.\"\n    },\n    {\n      \"id\": 3,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Cone appears intact with clear stripes and no visible damage or missing parts.\"\n    },\n    {\n      \"id\": 4,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"The cone is fully visible, upright, and shows no signs of breakage, collapse, or missing major parts. Stripes are clearly visible.\"\n    },\n    {\n      \"id\": 5,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Cone appears intact with clear stripes; no obvious functional defects visible despite partial occlusion.\"\n    },\n    {\n      \"id\": 6,\n      \"status\": \"uncertain\",\n      \"reason\": \"Image is too small and blurred to assess any functional defect; insufficient visual evidence.\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 2946693139,
+    "load_duration": 157477366,
+    "prompt_eval_count": 1299,
+    "prompt_eval_duration": 480053000,
+    "eval_count": 270,
+    "eval_duration": 2115185000
+  },
+  "observations": [
+    {
+      "observation_id": "C18_F0386_CAM_FRONT_Q022",
+      "frame": 386,
+      "native_bbox": [
+        2043.1073,
+        1135.7166,
+        2076.5437,
+        1199.9016
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "The cone is fully visible with intact stripes and structure, no obvious damage or missing parts."
+    },
+    {
+      "observation_id": "C18_F0387_CAM_FRONT_Q014",
+      "frame": 387,
+      "native_bbox": [
+        1987.125,
+        1146.232,
+        1994.845,
+        1185.906
+      ],
+      "id": 2,
+      "status": "uncertain",
+      "reason": "Image is too small and blurred to assess any functional defect; insufficient visual evidence."
+    },
+    {
+      "observation_id": "C18_F0390_CAM_FRONT_Q014",
+      "frame": 390,
+      "native_bbox": [
+        2065.064,
+        1132.6106,
+        2096.26,
+        1200.3246
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "Cone appears intact with clear stripes and no visible damage or missing parts."
+    },
+    {
+      "observation_id": "C18_F0390_CAM_FRONT_Q093",
+      "frame": 390,
+      "native_bbox": [
+        2227.137,
+        1118.019,
+        2349.4268,
+        1298.8722
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "The cone is fully visible, upright, and shows no signs of breakage, collapse, or missing major parts. Stripes are clearly visible."
+    },
+    {
+      "observation_id": "C18_F0392_CAM_FRONT_Q016",
+      "frame": 392,
+      "native_bbox": [
+        2071.6909,
+        1133.9012,
+        2104.3711,
+        1191.3005
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "Cone appears intact with clear stripes; no obvious functional defects visible despite partial occlusion."
+    },
+    {
+      "observation_id": "C18_F0403_CAM_FRONT_Q059",
+      "frame": 403,
+      "native_bbox": [
+        2004.305,
+        1159.671,
+        2016.117,
+        1197.057
+      ],
+      "id": 6,
+      "status": "uncertain",
+      "reason": "Image is too small and blurred to assess any functional defect; insufficient visual evidence."
+    }
+  ],
+  "human_confirmed_condition": false
+}

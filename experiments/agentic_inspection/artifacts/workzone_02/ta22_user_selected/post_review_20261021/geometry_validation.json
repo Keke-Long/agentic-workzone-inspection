@@ -1,0 +1,40 @@
+{
+  "stationary_track_checks": [
+    {
+      "track": "road_work_ahead",
+      "observations": 30,
+      "station_range_m": [
+        9.508947648168013,
+        57.518490393959794
+      ],
+      "world_xy_max_pairwise_distance_m": 67.22630507676959,
+      "accepted_for_measurement": false,
+      "reason": "Same stationary sign has inconsistent multi-frame world positions; bounding-frustum association does not establish reliable target depth."
+    },
+    {
+      "track": "right_lane_closed",
+      "observations": 22,
+      "station_range_m": [
+        105.03592472688464,
+        147.0566597381374
+      ],
+      "world_xy_max_pairwise_distance_m": 42.456273940931304,
+      "accepted_for_measurement": false,
+      "reason": "Same stationary sign has inconsistent multi-frame world positions; bounding-frustum association does not establish reliable target depth."
+    },
+    {
+      "track": "merging_sign",
+      "observations": 17,
+      "station_range_m": [
+        131.36926108310382,
+        220.42171732050318
+      ],
+      "world_xy_max_pairwise_distance_m": 93.76245172748905,
+      "accepted_for_measurement": false,
+      "reason": "Same stationary sign has inconsistent multi-frame world positions; bounding-frustum association does not establish reliable target depth."
+    }
+  ],
+  "reliable_geometry_count": 0,
+  "diagnostic_locations": 238,
+  "reason": "Do not use per-frame acquired status as geometry acceptance. Calibration, coordinate conventions, synchronization and foreground depth association require diagnosis; root cause not established."
+}

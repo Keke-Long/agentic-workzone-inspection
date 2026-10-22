@@ -1,0 +1,121 @@
+{
+  "method_id": "kg_plus_bm25",
+  "run": 1,
+  "status": "method_failure",
+  "failure_reason": "Stage 0 did not determine a primary MUTCD Typical Application",
+  "stage0": {
+    "scene_id": "scene-CATS-15",
+    "layout_selection_status": "indeterminate",
+    "selected_layouts": [
+      {
+        "layout_code": "TA-10",
+        "layout_role": "cross_reference_only",
+        "source_locator": "Figure 6P-10, MUTCD 11th Edition PDF pages 918–919; TA-10 general notes and diagram",
+        "matched_scene_facts": [
+          "Urban two-way roadway with one apparent lane in each direction",
+          "One opposing-direction lane is closed and the ego-direction lane remains open",
+          "Channelizing devices form a longitudinal separation and taper",
+          "Work duration is less than three days",
+          "Posted speed is 20 mph"
+        ],
+        "conflicting_scene_facts": [
+          "TA-10 depicts a lane closure on a two-lane road using flaggers and therefore presumes alternating one-way traffic through the remaining lane; the scene explicitly does not establish an alternating-traffic operation or flaggers"
+        ]
+      },
+      {
+        "layout_code": "TA-8",
+        "layout_role": "cross_reference_only",
+        "source_locator": "Figure 6P-8, MUTCD 11th Edition PDF pages 914–915; Road Closure with an Off-Site Detour",
+        "matched_scene_facts": [
+          "Opposing traffic is expected to detour",
+          "The work zone is near an intersection"
+        ],
+        "conflicting_scene_facts": [
+          "TA-8 depicts a road closure with an off-site detour, while only the opposing-direction lane is confirmed closed and the actual detour route and detour signing are unconfirmed"
+        ]
+      }
+    ],
+    "missing_scene_fields": [
+      "Confirmed traffic-control method for opposing traffic (alternating one-way operation, full directional detour, or another control method)",
+      "Confirmed opposing-traffic detour route and associated detour signing",
+      "Whether the roadway configuration is actually one lane in each direction throughout the TTC zone",
+      "Whether the intersection approach or only the opposing lane is closed"
+    ],
+    "selection_reason": "The manual evidence identifies TA-10 as the closest two-lane lane-closure application, but its flagger/alternating-traffic arrangement conflicts with the explicit scene constraint that alternating traffic must not be inferred. TA-8 addresses a full road closure with an off-site detour, but the scene confirms only closure of the opposing-direction lane and does not confirm the detour route or control devices. Because the primary routing/control condition determines which mutually exclusive Typical Application applies, no primary TA can be selected without guessing."
+  },
+  "resources": {
+    "regulation_retrieval_calls": 7,
+    "retrieval_queries": [
+      {
+        "operation": "search_manual",
+        "query": "Typical Application two-lane urban roadway one direction lane closed opposing lane closed channelizing devices intersection detour opposing traffic ROAD WORK AHEAD short duration"
+      },
+      {
+        "operation": "search_manual",
+        "query": "Typical Application TA road closure detour two-lane road one direction traffic remains open opposing lane closed intersection channelizing devices Figure 6P"
+      },
+      {
+        "operation": "search_manual",
+        "query": "Typical Application lane closure on two-lane road opposing direction closed traffic detour no alternating traffic Figure 6P-8 6P-9 6P-10"
+      },
+      {
+        "operation": "search_manual",
+        "query": "Typical Application \"one lane\" \"two-lane road\" closure flagger TA-9 TA-10 TA-11"
+      },
+      {
+        "operation": "search_manual",
+        "query": "Typical Application closed opposing lane detour one direction remains open urban two-lane street channelizing devices intersection \"lane closure\" detour"
+      },
+      {
+        "operation": "expand_source_unit",
+        "query": "TA-10|applicability"
+      },
+      {
+        "operation": "expand_source_unit",
+        "query": "TA-10|general_notes"
+      }
+    ],
+    "retrieved_chunks_nodes": 68,
+    "retrieved_characters": 104390,
+    "point_cloud_frames_processed": 0,
+    "points_processed": 0,
+    "geometry_tool_calls": 0,
+    "map_web_lookup_calls": 0,
+    "image_files_returned": 0,
+    "cpu_seconds": 0.0,
+    "measurements_saved": 0,
+    "speed_evidence_saved": 0,
+    "external_query_sources": [],
+    "external_queries": [],
+    "tool_calls_total": 7,
+    "tool_failures": 0,
+    "resumed_tool_calls": 0,
+    "session_tool_calls": 7,
+    "resumed_tool_failures": 0,
+    "session_tool_failures": 0,
+    "tool_retries": 0,
+    "high_confidence_disposition_gap_count": 0,
+    "high_confidence_disposition_gaps": [],
+    "stage2_candidate_audit_calls": 0,
+    "stage2_audited_candidate_count": 0,
+    "stage2_structured_decision_count": 0,
+    "stage2_structured_decisions": {},
+    "stage2_decision_revision": 0,
+    "stage2_audit_revision": null,
+    "stage2_verification_unresolved_count": 0,
+    "stage2_verification_unresolved": [],
+    "input_tokens": 160919,
+    "output_tokens": 1775,
+    "total_tokens": 162694,
+    "cached_tokens": 128700,
+    "model_api_calls": 8,
+    "model_api_retries": 0,
+    "actual_model_api_cost_usd": 0.0111478,
+    "model_pricing_usd_per_million": {
+      "input": 0.2,
+      "cached_input": 0.02,
+      "output": 1.2,
+      "pricing_scope": "recorded checkpoint pricing"
+    }
+  }
+}

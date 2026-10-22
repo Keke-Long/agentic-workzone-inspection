@@ -1,0 +1,333 @@
+{
+  "schema": "case18_validated_sign_geometry_v1",
+  "status": "validated_for_observed_sign_spacing",
+  "scope": "three observed approach signs only; not channelizer/taper reconstruction",
+  "fixes": [
+    "INS attitude: Y-forward NovAtel vehicle convention Rz(-azimuth) Rx(pitch) Ry(roll), instead of X-forward xyz(roll,pitch,90-azimuth)",
+    "Raw point timestamps transformed directly to ENU using interpolated corrected INS pose; old deskewed clouds bypassed",
+    "Select nearest raw LiDAR timestamp to each camera timestamp instead of sample_token pairing about 100 ms apart",
+    "Central diamond ROI and nearest-depth cluster; minimum point support and cross-frame consistency gates"
+  ],
+  "calibration_unchanged": true,
+  "source_images_and_human_boxes_unchanged": true,
+  "source_references": [
+    "https://docs.novatel.com/OEM7/Content/SPAN_Operation/Definition_Reference_Frames.htm",
+    "https://docs.novatel.com/OEM7/Content/App_Notes/APN080_SetupConfiguration.htm"
+  ],
+  "tracks": [
+    {
+      "class": "road_work_ahead",
+      "independent_frames": 29,
+      "observation_ids": [
+        "C18S_F0000_P000",
+        "C18S_F0001_P000",
+        "C18S_F0002_P000",
+        "C18S_F0003_P000",
+        "C18S_F0004_P000",
+        "C18S_F0005_P000",
+        "C18S_F0006_P000",
+        "C18S_F0007_P000",
+        "C18S_F0008_P000",
+        "C18S_F0009_P000",
+        "C18S_F0010_P000",
+        "C18S_F0011_P000",
+        "C18S_F0012_P000",
+        "C18S_F0013_P000",
+        "C18S_F0014_P000",
+        "C18S_F0015_P000",
+        "C18S_F0016_P000",
+        "C18S_F0017_P000",
+        "C18S_F0018_P000",
+        "C18S_F0019_P000",
+        "C18S_F0020_P000",
+        "C18S_F0021_P000",
+        "C18S_F0022_P000",
+        "C18S_F0023_P000",
+        "C18S_F0024_P000",
+        "C18S_F0025_P000",
+        "C18S_F0026_P000",
+        "C18S_F0027_P000",
+        "C18S_F0028_P000"
+      ],
+      "frame_range": [
+        0,
+        28
+      ],
+      "world_xyz_m": [
+        -263.4435171720959,
+        -241.2838210569914,
+        -0.9650305401340834
+      ],
+      "station_m": 55.0747966384303,
+      "station_full_range_m": [
+        54.96664169423937,
+        55.200423903111975
+      ],
+      "station_peak_to_peak_m": 0.23378220887260426,
+      "world_xy_max_pairwise_distance_m": 0.5032207618196215,
+      "early_late_station_difference_m": 0.10036901743983151,
+      "station_sensitivity_envelope_m": [
+        53.96664169423937,
+        56.200423903111975
+      ],
+      "quality_gate_passed": true
+    },
+    {
+      "class": "right_lane_closed",
+      "independent_frames": 21,
+      "observation_ids": [
+        "C18S_F0063_P000",
+        "C18S_F0064_P000",
+        "C18S_F0065_P000",
+        "C18S_F0066_P000",
+        "C18S_F0067_P000",
+        "C18S_F0068_P000",
+        "C18S_F0069_P000",
+        "C18S_F0070_P000",
+        "C18S_F0071_P000",
+        "C18S_F0072_P000",
+        "C18S_F0073_P000",
+        "C18S_F0074_P000",
+        "C18S_F0075_P000",
+        "C18S_F0076_P000",
+        "C18S_F0077_P000",
+        "C18S_F0078_P000",
+        "C18S_F0079_P000",
+        "C18S_F0080_P000",
+        "C18S_F0081_P000",
+        "C18S_F0082_P000",
+        "C18S_F0083_P000"
+      ],
+      "frame_range": [
+        63,
+        83
+      ],
+      "world_xyz_m": [
+        -325.41539669365886,
+        -301.5938212223506,
+        -0.7115071778530397
+      ],
+      "station_m": 141.7322007913166,
+      "station_full_range_m": [
+        141.6161489767277,
+        141.8201480307624
+      ],
+      "station_peak_to_peak_m": 0.20399905403471053,
+      "world_xy_max_pairwise_distance_m": 0.2957975975277901,
+      "early_late_station_difference_m": 0.08853847888272526,
+      "station_sensitivity_envelope_m": [
+        140.6161489767277,
+        142.8201480307624
+      ],
+      "quality_gate_passed": true
+    },
+    {
+      "class": "merging_sign",
+      "independent_frames": 13,
+      "observation_ids": [
+        "C18_F0103_CAM_FRONT_Q005",
+        "C18_F0132_CAM_FRONT_Q015",
+        "C18_F0134_CAM_FRONT_Q005",
+        "C18_F0135_CAM_FRONT_Q004",
+        "C18_F0136_CAM_FRONT_Q041",
+        "C18_F0137_CAM_FRONT_Q005",
+        "C18_F0138_CAM_FRONT_Q012",
+        "C18_F0140_CAM_FRONT_Q005",
+        "C18_F0141_CAM_FRONT_Q005",
+        "C18_F0147_CAM_FRONT_Q009",
+        "C18_F0152_CAM_FRONT_Q015",
+        "C18_F0154_CAM_FRONT_Q001",
+        "C18_F0157_CAM_FRONT_Q001"
+      ],
+      "frame_range": [
+        103,
+        157
+      ],
+      "world_xyz_m": [
+        -382.5851050826941,
+        -355.86832183277863,
+        -0.9785147342283773
+      ],
+      "station_m": 220.47510414426483,
+      "station_full_range_m": [
+        220.38803986127806,
+        220.72999562436428
+      ],
+      "station_peak_to_peak_m": 0.34195576308621867,
+      "world_xy_max_pairwise_distance_m": 0.7561815213838189,
+      "early_late_station_difference_m": 0.04002234446801367,
+      "station_sensitivity_envelope_m": [
+        219.38803986127806,
+        221.72999562436428
+      ],
+      "quality_gate_passed": true
+    }
+  ],
+  "excluded_observations": [
+    {
+      "observation_id": "C18S_F0029_MANUAL001",
+      "reasons": [
+        "image_edge_truncation"
+      ]
+    },
+    {
+      "observation_id": "C18S_F0062_P000",
+      "reasons": [
+        "fewer_than_30_target_points"
+      ]
+    },
+    {
+      "observation_id": "C18_F0078_CAM_FRONT_Q001",
+      "reasons": [
+        "fewer_than_30_target_points",
+        "beyond_60m_association_gate"
+      ]
+    },
+    {
+      "observation_id": "C18_F0082_CAM_FRONT_Q012",
+      "reasons": [
+        "fewer_than_30_target_points",
+        "beyond_60m_association_gate"
+      ]
+    }
+  ],
+  "measurements": [
+    {
+      "from": "road_work_ahead",
+      "to": "right_lane_closed",
+      "distance_m": 86.65740415288629,
+      "distance_ft": 284.3090687430652,
+      "sensitivity_envelope_m": [
+        84.4157250736157,
+        88.85350633652303
+      ],
+      "threshold_m": 30.48,
+      "threshold_ft": 100,
+      "threshold_type": "MUTCD Table 6B-1 urban low-speed guidance",
+      "result": "supported",
+      "evidence_ids": [
+        "C18S_F0000_P000",
+        "C18S_F0001_P000",
+        "C18S_F0002_P000",
+        "C18S_F0003_P000",
+        "C18S_F0004_P000",
+        "C18S_F0005_P000",
+        "C18S_F0006_P000",
+        "C18S_F0007_P000",
+        "C18S_F0008_P000",
+        "C18S_F0009_P000",
+        "C18S_F0010_P000",
+        "C18S_F0011_P000",
+        "C18S_F0012_P000",
+        "C18S_F0013_P000",
+        "C18S_F0014_P000",
+        "C18S_F0015_P000",
+        "C18S_F0016_P000",
+        "C18S_F0017_P000",
+        "C18S_F0018_P000",
+        "C18S_F0019_P000",
+        "C18S_F0020_P000",
+        "C18S_F0021_P000",
+        "C18S_F0022_P000",
+        "C18S_F0023_P000",
+        "C18S_F0024_P000",
+        "C18S_F0025_P000",
+        "C18S_F0026_P000",
+        "C18S_F0027_P000",
+        "C18S_F0028_P000",
+        "C18S_F0063_P000",
+        "C18S_F0064_P000",
+        "C18S_F0065_P000",
+        "C18S_F0066_P000",
+        "C18S_F0067_P000",
+        "C18S_F0068_P000",
+        "C18S_F0069_P000",
+        "C18S_F0070_P000",
+        "C18S_F0071_P000",
+        "C18S_F0072_P000",
+        "C18S_F0073_P000",
+        "C18S_F0074_P000",
+        "C18S_F0075_P000",
+        "C18S_F0076_P000",
+        "C18S_F0077_P000",
+        "C18S_F0078_P000",
+        "C18S_F0079_P000",
+        "C18S_F0080_P000",
+        "C18S_F0081_P000",
+        "C18S_F0082_P000",
+        "C18S_F0083_P000"
+      ]
+    },
+    {
+      "from": "right_lane_closed",
+      "to": "merging_sign",
+      "distance_m": 78.74290335294825,
+      "distance_ft": 258.34285876951526,
+      "sensitivity_envelope_m": [
+        76.56789183051566,
+        81.11384664763659
+      ],
+      "threshold_m": 30.48,
+      "threshold_ft": 100,
+      "threshold_type": "MUTCD Table 6B-1 urban low-speed guidance",
+      "result": "supported",
+      "evidence_ids": [
+        "C18S_F0063_P000",
+        "C18S_F0064_P000",
+        "C18S_F0065_P000",
+        "C18S_F0066_P000",
+        "C18S_F0067_P000",
+        "C18S_F0068_P000",
+        "C18S_F0069_P000",
+        "C18S_F0070_P000",
+        "C18S_F0071_P000",
+        "C18S_F0072_P000",
+        "C18S_F0073_P000",
+        "C18S_F0074_P000",
+        "C18S_F0075_P000",
+        "C18S_F0076_P000",
+        "C18S_F0077_P000",
+        "C18S_F0078_P000",
+        "C18S_F0079_P000",
+        "C18S_F0080_P000",
+        "C18S_F0081_P000",
+        "C18S_F0082_P000",
+        "C18S_F0083_P000",
+        "C18_F0103_CAM_FRONT_Q005",
+        "C18_F0132_CAM_FRONT_Q015",
+        "C18_F0134_CAM_FRONT_Q005",
+        "C18_F0135_CAM_FRONT_Q004",
+        "C18_F0136_CAM_FRONT_Q041",
+        "C18_F0137_CAM_FRONT_Q005",
+        "C18_F0138_CAM_FRONT_Q012",
+        "C18_F0140_CAM_FRONT_Q005",
+        "C18_F0141_CAM_FRONT_Q005",
+        "C18_F0147_CAM_FRONT_Q009",
+        "C18_F0152_CAM_FRONT_Q015",
+        "C18_F0154_CAM_FRONT_Q001",
+        "C18_F0157_CAM_FRONT_Q001"
+      ]
+    }
+  ],
+  "time_sync": {
+    "maximum_abs_reference_difference_s": 0.00025553600000094434,
+    "all_points_inside_ins_time_range": true,
+    "per_point_motion_compensation": true
+  },
+  "uncertainty_note": "Sensitivity envelope uses full observed station range plus an explicit 1 m endpoint allowance. This is not a calibrated statistical confidence interval or survey accuracy guarantee; systematic calibration error is not independently surveyed.",
+  "tests": {
+    "cardinal_heading_axis_test": "passed",
+    "static_target_transform_roundtrip": "passed",
+    "at_least_5_independent_frames_per_sign": "passed",
+    "world_xy_radius_under_1m": "passed",
+    "early_late_station_difference_under_0_5m": "passed"
+  },
+  "source_sha256": {
+    "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/ins/gnss.csv": "534cf649b16300e1b3b40fabc46826233648423a506eabebbd57cd2da31d0904",
+    "/home/klong23/workzone/data/shared/calibration/calib_black_ins.json": "f0f50d179af16357e6d90aafb16c064c78e7b1a2fbc909439dc02c591ac58153",
+    "/home/klong23/workzone/data/shared/calibration/calib_black_camera0.json": "fe00ebf23244ef561f87764ac8c10d1bb2b467a1e9968a29ca718da9f4fa5dcc",
+    "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_18/ta22_user_selected/post_review_20261021/scene.json": "bc428bf91b1687bf2b7d45c0d14b0df19b23b0f6b8c5e44862befbfa1f244e4b",
+    "/home/klong23/workzone/experiments/agentic_inspection/scripts/case18_validate_sign_geometry.py": "0f717d686a6a0ddebc74288e54e4d19f2b6abb90f474067a98fe602533cc8ea9",
+    "/home/klong23/workzone/experiments/agentic_inspection/scripts/case18_sign_geometry.py": "f3b82de322148554f66c9e97363374ff0ef15a03f0130377ef2f2520fd5664f6"
+  }
+}

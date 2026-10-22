@@ -1,0 +1,642 @@
+{
+  "status": "acquired",
+  "measurement_id": "measurement_3e307fd8e0ff60084934",
+  "measurement_type": "channelizer_spacing_series",
+  "thresholds_applied": {
+    "taper": {
+      "value": 25,
+      "unit": "ft",
+      "violation_when": "above_maximum",
+      "value_m": 7.62
+    },
+    "tangent": {
+      "value": 50,
+      "unit": "ft",
+      "violation_when": "above_maximum",
+      "value_m": 15.24
+    }
+  },
+  "deficiency_supported": false,
+  "minimum_consecutive_exceedances": 1,
+  "accepted_channelizer_observations_scanned": 114,
+  "physical_entity_candidates": 25,
+  "candidate_sequence_count": 1,
+  "sequences_evaluated": 1,
+  "selected_sequence_policy": "continuous channelizer line with minimum median absolute lateral offset from ego trajectory",
+  "selected_sequence_median_abs_lateral_m": 2.5207766811452137,
+  "selected_sequence_entity_ids": [
+    "C18_OBJ_021",
+    "C18_OBJ_020",
+    "C18_OBJ_007",
+    "C18_OBJ_030",
+    "C18_OBJ_031",
+    "C18_OBJ_010",
+    "C18_OBJ_009",
+    "C18_OBJ_036",
+    "C18_OBJ_038",
+    "C18_OBJ_037",
+    "C18_OBJ_002",
+    "C18_OBJ_041",
+    "C18_OBJ_022",
+    "C18_OBJ_024",
+    "C18_OBJ_023",
+    "C18_OBJ_043",
+    "C18_OBJ_044",
+    "C18_OBJ_025",
+    "C18_OBJ_015",
+    "C18_OBJ_026",
+    "C18_OBJ_027",
+    "C18_OBJ_017",
+    "C18_OBJ_016",
+    "C18_OBJ_011"
+  ],
+  "selected_sequence_reviewed_class_counts": {
+    "channelizing_device": 24
+  },
+  "region_classification_method": "three-point median lateral smoothing followed by deterministic piecewise road-coordinate fitting of a sloped taper and constant-lateral tangent",
+  "included_reviewed_classes": [
+    "channelizing_device",
+    "traffic_cone",
+    "traffic_drum"
+  ],
+  "gaps_evaluated": 23,
+  "clear_exceedance_gap_count": 0,
+  "gaps_vetoed_by_possible_intervener": 1,
+  "violation_run_count": 0,
+  "violation_runs": [],
+  "sequence_summaries": [
+    {
+      "sequence_id": "sequence_01",
+      "entity_count": 24,
+      "gap_count": 23,
+      "start_station_m": 263.50734723450216,
+      "end_station_m": 434.22320675483303,
+      "taper_gap_count": 6,
+      "tangent_gap_count": 17,
+      "region_model": {
+        "gap_regions": [
+          "taper",
+          "taper",
+          "taper",
+          "taper",
+          "taper",
+          "taper",
+          "tangent",
+          "tangent",
+          "tangent",
+          "tangent",
+          "tangent",
+          "tangent",
+          "tangent",
+          "tangent",
+          "tangent",
+          "tangent",
+          "tangent",
+          "tangent",
+          "tangent",
+          "tangent",
+          "tangent",
+          "tangent",
+          "tangent"
+        ],
+        "model": "piecewise road-coordinate linear taper plus constant-lateral tangent",
+        "orientation": "taper_then_tangent",
+        "change_station_m": 319.8737864199546,
+        "taper_lateral_slope": 0.10872140104370194,
+        "taper_lateral_shift_m": 3.263616057080089,
+        "piecewise_error": 0.648587019759207,
+        "constant_error": 59.32027362433302
+      },
+      "device_road_coordinates": [
+        {
+          "entity_id": "C18_OBJ_021",
+          "station_m": 263.50734723450216,
+          "lateral_m": -6.4938686993786785
+        },
+        {
+          "entity_id": "C18_OBJ_020",
+          "station_m": 267.62506542190704,
+          "lateral_m": -6.560757502337838
+        },
+        {
+          "entity_id": "C18_OBJ_007",
+          "station_m": 275.3471548650161,
+          "lateral_m": -5.956829819127114
+        },
+        {
+          "entity_id": "C18_OBJ_030",
+          "station_m": 278.8174482145783,
+          "lateral_m": -5.228242704256358
+        },
+        {
+          "entity_id": "C18_OBJ_031",
+          "station_m": 283.4316242743276,
+          "lateral_m": -4.653415136234633
+        },
+        {
+          "entity_id": "C18_OBJ_010",
+          "station_m": 288.7109093798441,
+          "lateral_m": -3.9383030799093985
+        },
+        {
+          "entity_id": "C18_OBJ_009",
+          "station_m": 293.5255039704353,
+          "lateral_m": -3.504060963045086
+        },
+        {
+          "entity_id": "C18_OBJ_036",
+          "station_m": 319.8737864199546,
+          "lateral_m": -2.743678421628773
+        },
+        {
+          "entity_id": "C18_OBJ_038",
+          "station_m": 327.76296633848153,
+          "lateral_m": -2.5353542733752956
+        },
+        {
+          "entity_id": "C18_OBJ_037",
+          "station_m": 334.0387731941546,
+          "lateral_m": -2.470125862780865
+        },
+        {
+          "entity_id": "C18_OBJ_002",
+          "station_m": 341.349907422689,
+          "lateral_m": -2.3439831292433926
+        },
+        {
+          "entity_id": "C18_OBJ_041",
+          "station_m": 347.11160417064303,
+          "lateral_m": -2.464098039642593
+        },
+        {
+          "entity_id": "C18_OBJ_022",
+          "station_m": 353.5877305248083,
+          "lateral_m": -2.389337988756132
+        },
+        {
+          "entity_id": "C18_OBJ_024",
+          "station_m": 362.66182737927784,
+          "lateral_m": -2.36043126575559
+        },
+        {
+          "entity_id": "C18_OBJ_023",
+          "station_m": 367.27317297408297,
+          "lateral_m": -2.4774655687751608
+        },
+        {
+          "entity_id": "C18_OBJ_043",
+          "station_m": 379.8626502445146,
+          "lateral_m": -2.5203239238444755
+        },
+        {
+          "entity_id": "C18_OBJ_044",
+          "station_m": 385.2797570893809,
+          "lateral_m": -2.4470811370019874
+        },
+        {
+          "entity_id": "C18_OBJ_025",
+          "station_m": 391.80910293635475,
+          "lateral_m": -2.4583105741497038
+        },
+        {
+          "entity_id": "C18_OBJ_015",
+          "station_m": 398.21064768141486,
+          "lateral_m": -2.466538125988182
+        },
+        {
+          "entity_id": "C18_OBJ_026",
+          "station_m": 405.2355458162348,
+          "lateral_m": -2.4682298149587494
+        },
+        {
+          "entity_id": "C18_OBJ_027",
+          "station_m": 408.6492834974353,
+          "lateral_m": -2.3246082088705924
+        },
+        {
+          "entity_id": "C18_OBJ_017",
+          "station_m": 415.91048550327747,
+          "lateral_m": -2.8027209845565033
+        },
+        {
+          "entity_id": "C18_OBJ_016",
+          "station_m": 418.98362122801416,
+          "lateral_m": -2.521229438445952
+        },
+        {
+          "entity_id": "C18_OBJ_011",
+          "station_m": 434.22320675483303,
+          "lateral_m": -2.798888231805825
+        }
+      ],
+      "clear_exceedance_gap_count": 0,
+      "sustained_violation_run_count": 0,
+      "gaps": [
+        {
+          "gap_index": 1,
+          "from_entity_id": "C18_OBJ_021",
+          "to_entity_id": "C18_OBJ_020",
+          "channelization_region": "taper",
+          "threshold_m": 7.62,
+          "value_m": 4.128400785904854,
+          "confidence_interval_m": [
+            3.128400785904854,
+            5.128400785904854
+          ],
+          "possible_intervening_entity_ids": [],
+          "clear_exceedance": false
+        },
+        {
+          "gap_index": 2,
+          "from_entity_id": "C18_OBJ_020",
+          "to_entity_id": "C18_OBJ_007",
+          "channelization_region": "taper",
+          "threshold_m": 7.62,
+          "value_m": 7.75404824906482,
+          "confidence_interval_m": [
+            6.75404824906482,
+            8.75404824906482
+          ],
+          "possible_intervening_entity_ids": [
+            "C18_OBJ_028",
+            "C18_OBJ_029"
+          ],
+          "clear_exceedance": false
+        },
+        {
+          "gap_index": 3,
+          "from_entity_id": "C18_OBJ_007",
+          "to_entity_id": "C18_OBJ_030",
+          "channelization_region": "taper",
+          "threshold_m": 7.62,
+          "value_m": 3.5471597742778473,
+          "confidence_interval_m": [
+            2.5471597742778473,
+            4.547159774277848
+          ],
+          "possible_intervening_entity_ids": [],
+          "clear_exceedance": false
+        },
+        {
+          "gap_index": 4,
+          "from_entity_id": "C18_OBJ_030",
+          "to_entity_id": "C18_OBJ_031",
+          "channelization_region": "taper",
+          "threshold_m": 7.62,
+          "value_m": 4.674936938678585,
+          "confidence_interval_m": [
+            3.6749369386785853,
+            5.674936938678585
+          ],
+          "possible_intervening_entity_ids": [
+            "C18_OBJ_032"
+          ],
+          "clear_exceedance": false
+        },
+        {
+          "gap_index": 5,
+          "from_entity_id": "C18_OBJ_031",
+          "to_entity_id": "C18_OBJ_010",
+          "channelization_region": "taper",
+          "threshold_m": 7.62,
+          "value_m": 5.319264989907948,
+          "confidence_interval_m": [
+            4.319264989907948,
+            6.319264989907948
+          ],
+          "possible_intervening_entity_ids": [],
+          "clear_exceedance": false
+        },
+        {
+          "gap_index": 6,
+          "from_entity_id": "C18_OBJ_010",
+          "to_entity_id": "C18_OBJ_009",
+          "channelization_region": "taper",
+          "threshold_m": 7.62,
+          "value_m": 4.845280896372838,
+          "confidence_interval_m": [
+            3.845280896372838,
+            5.845280896372838
+          ],
+          "possible_intervening_entity_ids": [],
+          "clear_exceedance": false
+        },
+        {
+          "gap_index": 7,
+          "from_entity_id": "C18_OBJ_009",
+          "to_entity_id": "C18_OBJ_036",
+          "channelization_region": "tangent",
+          "threshold_m": 15.24,
+          "value_m": 26.334339009911478,
+          "confidence_interval_m": [
+            25.334339009911478,
+            27.334339009911478
+          ],
+          "possible_intervening_entity_ids": [
+            "C18_OBJ_033",
+            "C18_OBJ_034",
+            "C18_OBJ_035"
+          ],
+          "clear_exceedance": false
+        },
+        {
+          "gap_index": 8,
+          "from_entity_id": "C18_OBJ_036",
+          "to_entity_id": "C18_OBJ_038",
+          "channelization_region": "tangent",
+          "threshold_m": 15.24,
+          "value_m": 7.868610320209397,
+          "confidence_interval_m": [
+            6.868610320209397,
+            8.868610320209397
+          ],
+          "possible_intervening_entity_ids": [],
+          "clear_exceedance": false
+        },
+        {
+          "gap_index": 9,
+          "from_entity_id": "C18_OBJ_038",
+          "to_entity_id": "C18_OBJ_037",
+          "channelization_region": "tangent",
+          "threshold_m": 15.24,
+          "value_m": 6.264133989372531,
+          "confidence_interval_m": [
+            5.264133989372531,
+            7.264133989372531
+          ],
+          "possible_intervening_entity_ids": [],
+          "clear_exceedance": false
+        },
+        {
+          "gap_index": 10,
+          "from_entity_id": "C18_OBJ_037",
+          "to_entity_id": "C18_OBJ_002",
+          "channelization_region": "tangent",
+          "threshold_m": 15.24,
+          "value_m": 7.3095140564693475,
+          "confidence_interval_m": [
+            6.3095140564693475,
+            8.309514056469347
+          ],
+          "possible_intervening_entity_ids": [],
+          "clear_exceedance": false
+        },
+        {
+          "gap_index": 11,
+          "from_entity_id": "C18_OBJ_002",
+          "to_entity_id": "C18_OBJ_041",
+          "channelization_region": "tangent",
+          "threshold_m": 15.24,
+          "value_m": 5.759609841281987,
+          "confidence_interval_m": [
+            4.759609841281987,
+            6.759609841281987
+          ],
+          "possible_intervening_entity_ids": [
+            "C18_OBJ_003"
+          ],
+          "clear_exceedance": false
+        },
+        {
+          "gap_index": 12,
+          "from_entity_id": "C18_OBJ_041",
+          "to_entity_id": "C18_OBJ_022",
+          "channelization_region": "tangent",
+          "threshold_m": 15.24,
+          "value_m": 6.483387644485908,
+          "confidence_interval_m": [
+            5.483387644485908,
+            7.483387644485908
+          ],
+          "possible_intervening_entity_ids": [
+            "C18_OBJ_042"
+          ],
+          "clear_exceedance": false
+        },
+        {
+          "gap_index": 13,
+          "from_entity_id": "C18_OBJ_022",
+          "to_entity_id": "C18_OBJ_024",
+          "channelization_region": "tangent",
+          "threshold_m": 15.24,
+          "value_m": 9.073195259162208,
+          "confidence_interval_m": [
+            8.073195259162208,
+            10.073195259162208
+          ],
+          "possible_intervening_entity_ids": [],
+          "clear_exceedance": false
+        },
+        {
+          "gap_index": 14,
+          "from_entity_id": "C18_OBJ_024",
+          "to_entity_id": "C18_OBJ_023",
+          "channelization_region": "tangent",
+          "threshold_m": 15.24,
+          "value_m": 4.6115355341912885,
+          "confidence_interval_m": [
+            3.6115355341912885,
+            5.6115355341912885
+          ],
+          "possible_intervening_entity_ids": [],
+          "clear_exceedance": false
+        },
+        {
+          "gap_index": 15,
+          "from_entity_id": "C18_OBJ_023",
+          "to_entity_id": "C18_OBJ_043",
+          "channelization_region": "tangent",
+          "threshold_m": 15.24,
+          "value_m": 12.57097212178552,
+          "confidence_interval_m": [
+            11.57097212178552,
+            13.57097212178552
+          ],
+          "possible_intervening_entity_ids": [],
+          "clear_exceedance": false
+        },
+        {
+          "gap_index": 16,
+          "from_entity_id": "C18_OBJ_043",
+          "to_entity_id": "C18_OBJ_044",
+          "channelization_region": "tangent",
+          "threshold_m": 15.24,
+          "value_m": 5.416678157013802,
+          "confidence_interval_m": [
+            4.416678157013802,
+            6.416678157013802
+          ],
+          "possible_intervening_entity_ids": [],
+          "clear_exceedance": false
+        },
+        {
+          "gap_index": 17,
+          "from_entity_id": "C18_OBJ_044",
+          "to_entity_id": "C18_OBJ_025",
+          "channelization_region": "tangent",
+          "threshold_m": 15.24,
+          "value_m": 6.536254810298407,
+          "confidence_interval_m": [
+            5.536254810298407,
+            7.536254810298407
+          ],
+          "possible_intervening_entity_ids": [],
+          "clear_exceedance": false
+        },
+        {
+          "gap_index": 18,
+          "from_entity_id": "C18_OBJ_025",
+          "to_entity_id": "C18_OBJ_015",
+          "channelization_region": "tangent",
+          "threshold_m": 15.24,
+          "value_m": 6.4088607866259615,
+          "confidence_interval_m": [
+            5.4088607866259615,
+            7.4088607866259615
+          ],
+          "possible_intervening_entity_ids": [],
+          "clear_exceedance": false
+        },
+        {
+          "gap_index": 19,
+          "from_entity_id": "C18_OBJ_015",
+          "to_entity_id": "C18_OBJ_026",
+          "channelization_region": "tangent",
+          "threshold_m": 15.24,
+          "value_m": 7.030384439172257,
+          "confidence_interval_m": [
+            6.030384439172257,
+            8.030384439172257
+          ],
+          "possible_intervening_entity_ids": [],
+          "clear_exceedance": false
+        },
+        {
+          "gap_index": 20,
+          "from_entity_id": "C18_OBJ_026",
+          "to_entity_id": "C18_OBJ_027",
+          "channelization_region": "tangent",
+          "threshold_m": 15.24,
+          "value_m": 3.415804149645076,
+          "confidence_interval_m": [
+            2.415804149645076,
+            4.415804149645076
+          ],
+          "possible_intervening_entity_ids": [],
+          "clear_exceedance": false
+        },
+        {
+          "gap_index": 21,
+          "from_entity_id": "C18_OBJ_027",
+          "to_entity_id": "C18_OBJ_017",
+          "channelization_region": "tangent",
+          "threshold_m": 15.24,
+          "value_m": 7.265280293446976,
+          "confidence_interval_m": [
+            6.265280293446976,
+            8.265280293446976
+          ],
+          "possible_intervening_entity_ids": [],
+          "clear_exceedance": false
+        },
+        {
+          "gap_index": 22,
+          "from_entity_id": "C18_OBJ_017",
+          "to_entity_id": "C18_OBJ_016",
+          "channelization_region": "tangent",
+          "threshold_m": 15.24,
+          "value_m": 3.076524128835311,
+          "confidence_interval_m": [
+            2.076524128835311,
+            4.076524128835311
+          ],
+          "possible_intervening_entity_ids": [],
+          "clear_exceedance": false
+        },
+        {
+          "gap_index": 23,
+          "from_entity_id": "C18_OBJ_016",
+          "to_entity_id": "C18_OBJ_011",
+          "channelization_region": "tangent",
+          "threshold_m": 15.24,
+          "value_m": 15.198840677059723,
+          "confidence_interval_m": [
+            14.198840677059723,
+            16.19884067705972
+          ],
+          "possible_intervening_entity_ids": [
+            "C18_OBJ_014"
+          ],
+          "clear_exceedance": false
+        }
+      ]
+    }
+  ],
+  "associated_bbox_ids": [
+    "C18_F0325_CAM_FRONT_Q025",
+    "C18_F0329_CAM_FRONT_Q032",
+    "C18_F0344_CAM_FRONT_Q010",
+    "C18_F0358_CAM_FRONT_Q006",
+    "C18_F0364_CAM_FRONT_Q017",
+    "C18_F0366_CAM_FRONT_Q013",
+    "C18_F0374_CAM_FRONT_Q023",
+    "C18_F0424_CAM_FRONT_Q094",
+    "C18_F0425_CAM_FRONT_Q090",
+    "C18_F0432_CAM_FRONT_Q058",
+    "C18_F0443_CAM_FRONT_Q005",
+    "C18_F0444_CAM_FRONT_Q005",
+    "C18_F0450_CAM_FRONT_Q016",
+    "C18_F0462_CAM_FRONT_Q004",
+    "C18_F0470_CAM_FRONT_Q020",
+    "C18_F0471_CAM_FRONT_Q003",
+    "C18_F0473_CAM_FRONT_Q011",
+    "C18_F0479_CAM_FRONT_Q008",
+    "C18_F0481_CAM_FRONT_Q098",
+    "C18_F0491_CAM_FRONT_Q008",
+    "C18_F0495_CAM_FRONT_Q012",
+    "C18_F0507_CAM_FRONT_Q004",
+    "C18_F0512_CAM_FRONT_Q004",
+    "C18_F0530_CAM_FRONT_Q035"
+  ],
+  "associated_image_ids": [
+    "cats019-2026-10-06-17-38-48__CAM_FRONT__52599999",
+    "cats019-2026-10-06-17-38-48__CAM_FRONT__52999990",
+    "cats019-2026-10-06-17-38-48__CAM_FRONT__54499999",
+    "cats019-2026-10-06-17-38-48__CAM_FRONT__55899999",
+    "cats019-2026-10-06-17-38-48__CAM_FRONT__56499999",
+    "cats019-2026-10-06-17-38-48__CAM_FRONT__56699999",
+    "cats019-2026-10-06-17-38-48__CAM_FRONT__57499999",
+    "cats019-2026-10-06-17-38-48__CAM_FRONT__62499999",
+    "cats019-2026-10-06-17-38-48__CAM_FRONT__62599999",
+    "cats019-2026-10-06-17-38-48__CAM_FRONT__63299999",
+    "cats019-2026-10-06-17-38-48__CAM_FRONT__64399999",
+    "cats019-2026-10-06-17-38-48__CAM_FRONT__64499999",
+    "cats019-2026-10-06-17-38-48__CAM_FRONT__65099999",
+    "cats019-2026-10-06-17-38-48__CAM_FRONT__66299999",
+    "cats019-2026-10-06-17-38-48__CAM_FRONT__67099999",
+    "cats019-2026-10-06-17-38-48__CAM_FRONT__67199999",
+    "cats019-2026-10-06-17-38-48__CAM_FRONT__67399999",
+    "cats019-2026-10-06-17-38-48__CAM_FRONT__67999990",
+    "cats019-2026-10-06-17-38-48__CAM_FRONT__68199999",
+    "cats019-2026-10-06-17-38-48__CAM_FRONT__69199999",
+    "cats019-2026-10-06-17-38-48__CAM_FRONT__69599999",
+    "cats019-2026-10-06-17-38-48__CAM_FRONT__70799999",
+    "cats019-2026-10-06-17-38-48__CAM_FRONT__71299999",
+    "cats019-2026-10-06-17-38-48__CAM_FRONT__73099999"
+  ],
+  "endpoint_semantics_valid": true,
+  "geometry_direction_valid": true,
+  "sequence_inference_valid": true,
+  "measurement_method": "rule-based accepted-track deduplication, Frenet path cover, nearest-trajectory sequence selection, and exhaustive adjacent-gap audit",
+  "quality_flags": [
+    "accepted_bbox_class_only",
+    "track_positions_are_not_survey_grade",
+    "sequence_membership_is_rule_based",
+    "single_gap_is_not_a_formal_deficiency",
+    "farther_parallel_channelizer_lines_excluded",
+    "complete_automatic_inventory_used_only_to_veto_possible_missed_devices"
+  ],
+  "excluded_low_support_entities": 0,
+  "excluded_unstable_entities": 0,
+  "failure_reason": null
+}

@@ -1,0 +1,102 @@
+{
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "image_sha256": "961759d9ef70a6a7680f7ba650132ee2f5406c2d4b5f1fb6394b4a5bf6118eab",
+  "response": {
+    "model": "qwen3-vl:4b-instruct",
+    "created_at": "2026-10-21T14:49:24.161749555Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"items\": [\n    {\n      \"id\": 1,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"The cone is upright, shows no visible breakage or missing parts, and its stripes are intact and discernible despite low resolution.\"\n    },\n    {\n      \"id\": 2,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Multiple cones are visible in a standard arrangement; none show obvious damage, collapse, or loss of critical markings. The image quality is sufficient to assess their serviceability as intact.\"\n    },\n    {\n      \"id\": 3,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Cones appear upright and undamaged with clear stripes. No signs of severe breakage, missing parts, or heavy dirt obscuring visibility.\"\n    },\n    {\n      \"id\": 4,\n      \"status\": \"uncertain\",\n      \"reason\": \"The image is heavily blurred and distorted, making it impossible to assess whether the cone has visible damage, missing parts, or obscured markings. The visual evidence is insufficient for judgment.\"\n    },\n    {\n      \"id\": 5,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Cones are upright with clear stripes; no obvious functional defects such as breakage, collapse, or heavy dirt that defeats visibility are visible.\"\n    },\n    {\n      \"id\": 6,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"All cones appear intact and properly aligned. Stripes are visible and there is no indication of severe damage or missing parts.\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 4551510248,
+    "load_duration": 157740614,
+    "prompt_eval_count": 1299,
+    "prompt_eval_duration": 564699000,
+    "eval_count": 335,
+    "eval_duration": 3640027000
+  },
+  "observations": [
+    {
+      "observation_id": "C18_F0443_CAM_FRONT_Q005",
+      "frame": 443,
+      "native_bbox": [
+        2066.4365,
+        1166.8243,
+        2102.9529,
+        1246.7628
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "The cone is upright, shows no visible breakage or missing parts, and its stripes are intact and discernible despite low resolution."
+    },
+    {
+      "observation_id": "C18_F0443_CAM_FRONT_Q009",
+      "frame": 443,
+      "native_bbox": [
+        2036.0472,
+        1154.6136,
+        2066.0935,
+        1219.1548
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "Multiple cones are visible in a standard arrangement; none show obvious damage, collapse, or loss of critical markings. The image quality is sufficient to assess their serviceability as intact."
+    },
+    {
+      "observation_id": "C18_F0444_CAM_FRONT_Q005",
+      "frame": 444,
+      "native_bbox": [
+        2040.3212,
+        1161.4618,
+        2071.7256,
+        1233.4797
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "Cones appear upright and undamaged with clear stripes. No signs of severe breakage, missing parts, or heavy dirt obscuring visibility."
+    },
+    {
+      "observation_id": "C18_F0446_CAM_FRONT_Q004",
+      "frame": 446,
+      "native_bbox": [
+        2209.0098,
+        1133.2469,
+        2245.6877,
+        1218.9915
+      ],
+      "id": 4,
+      "status": "uncertain",
+      "reason": "The image is heavily blurred and distorted, making it impossible to assess whether the cone has visible damage, missing parts, or obscured markings. The visual evidence is insufficient for judgment."
+    },
+    {
+      "observation_id": "C18_F0446_CAM_FRONT_Q013",
+      "frame": 446,
+      "native_bbox": [
+        2025.0011,
+        1151.5764,
+        2052.7058,
+        1211.3021
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "Cones are upright with clear stripes; no obvious functional defects such as breakage, collapse, or heavy dirt that defeats visibility are visible."
+    },
+    {
+      "observation_id": "C18_F0448_CAM_FRONT_Q014",
+      "frame": 448,
+      "native_bbox": [
+        2029.6335,
+        1149.25,
+        2062.3018,
+        1219.2832
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "All cones appear intact and properly aligned. Stripes are visible and there is no indication of severe damage or missing parts."
+    }
+  ],
+  "human_confirmed_condition": false
+}

@@ -1,0 +1,2072 @@
+<!doctype html><html lang="zh"><meta charset="utf-8"><title>Workzone 3 规范评判</title>
+<style>body{font:16px/1.6 system-ui;margin:24px;color:#183047}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ccd5dd;padding:12px;text-align:left;vertical-align:top}th{background:#eaf1f6}small{color:#526575}pre{white-space:pre-wrap;overflow-wrap:anywhere;max-height:500px;overflow:auto;font-size:12px}.satisfied{color:#157047}.deficient{color:#ae2929}.not_assessed{color:#8a6100}summary{cursor:pointer}</style><body>
+<h1>Workzone 3 · Agentic AI 规范评判</h1>
+<p>Case_14 · 原始时间 61–85 秒 · camera0 + 原始 LiDAR + INS · 人工审核版本 81<br>
+限速 20 mph；施工小于 3 天；对向车道封闭、车辆经其他道路绕行。主要布局：TA-19。</p>
+<p>流程说明：Stage 0 经来源复核后选定 TA-19，并由用户确认。本轮修复了类别触发遗漏、补充候选处置遗漏及证据批次错误；失败尝试与纠错记录均保留。因此本轮属于经干预修复的执行，不代表首次无干预成功。</p>
+<p>规范来源：MUTCD 11th Edition (December 2023)，KG + BM25。Stage 0–6 的配置、请求、模型响应和工具轨迹均保存在项目中。</p>
+<p>共 11 条：未发现明显不符 9；不符合 0；未评判 2。本流程的 satisfied 表示现有证据未发现明显不符，不是对全部对象和不可见区域的合规证明。未评判不代表合规或违规。</p>
+<p>原始点云与 INS 已存在；条目中的“未获取”指该要求所需证据未通过当前工具链取得，不表示传感器文件缺失。空间证据采用人工确认检测框的 BEV 关联。单帧身份暂定、未定位目标及未拍摄的绕行路线仍存在证据限制；本报告不是对场景中所有潜在规范的完整性保证。</p>
+<table><thead><tr><th>#</th><th>要求与出处</th><th>结果</th><th>理由与证据</th></tr></thead><tbody><tr><td>1</td><td>Urban low-speed advance-warning spacing<br><small>should · TABLE-6B-1; PDF page 813</small></td><td class="not_assessed">证据不足 / 未评判<br><small>适用性：indeterminate</small></td><td>The urban low-speed context and posted 20 mph speed are established, but the existence and spacing of successive independent advance-warning signs were not resolved. The registered spacing measurement failed its geometry-quality gate and cannot establish compliance or deficiency.<br><small>未解决输入：Measured longitudinal distances between successive advance warning signs</small><details><summary>规范原文、证据与测量记录</summary><pre>{
+  &quot;requirement&quot;: {
+    &quot;requirement_fingerprint&quot;: &quot;ad7a729596b46383c34d9cb9e1b7afed6b5820b49d18aa4a300a989157c516ee&quot;,
+    &quot;candidate_label&quot;: &quot;Urban low-speed advance-warning spacing&quot;,
+    &quot;relation&quot;: &quot;are spaced at least&quot;,
+    &quot;measurement_spec&quot;: {
+      &quot;required&quot;: true,
+      &quot;tool&quot;: &quot;measure_sign_spacing&quot;,
+      &quot;quantity&quot;: &quot;successive advance-warning sign spacing&quot;,
+      &quot;thresholds&quot;: [
+        {
+          &quot;condition&quot;: &quot;each spacing&quot;,
+          &quot;value&quot;: 100,
+          &quot;unit&quot;: &quot;ft&quot;,
+          &quot;violation_when&quot;: &quot;below_minimum&quot;,
+          &quot;formula_parameter&quot;: null,
+          &quot;multiplier&quot;: null
+        }
+      ]
+    },
+    &quot;discovered_requirement_key&quot;: &quot;req_ad7a729596b46383&quot;,
+    &quot;required_inputs&quot;: [
+      &quot;Measured longitudinal distances between successive advance warning signs&quot;,
+      &quot;Roadway category and posted speed&quot;
+    ],
+    &quot;source_node_ids&quot;: [
+      &quot;src_6ee70d9c1617acd549c4&quot;
+    ],
+    &quot;source_locator&quot;: &quot;TABLE-6B-1; PDF page 813&quot;,
+    &quot;source_span&quot;: &quot;Table 6B-1. Recommended Advance Warning Sign Minimum Spacing. Urban (low speed): 100 feet, 100 feet, 100 feet. Urban (high speed): 350 feet, 350 feet, 350 feet. Rural: 500 feet, 500 feet, 500 feet. Expressway / Freeway: 1,000 feet, 1,500 feet, 2,640 feet. The column headings A, B, and C are the dimensions shown in Figures 6P-1 through 6P-54.&quot;,
+    &quot;modality&quot;: &quot;should&quot;,
+    &quot;subject&quot;: &quot;successive advance warning signs&quot;,
+    &quot;threshold&quot;: &quot;100 ft minimum between each successive sign in the urban low-speed category&quot;,
+    &quot;registration_timestamp&quot;: &quot;2026-10-22T03:04:55.831176+00:00&quot;,
+    &quot;applicability_conditions&quot;: [
+      &quot;A series of two or more advance warning signs is used&quot;,
+      &quot;Posted speed is 20 mph and the roadway is urban low-speed&quot;
+    ],
+    &quot;registration_event_index&quot;: 2,
+    &quot;region&quot;: &quot;advance_warning_sign_system&quot;,
+    &quot;data_availability_record&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_ad7a729596b46383&quot;,
+      &quot;condition_data_complete&quot;: false,
+      &quot;available_inputs&quot;: [
+        &quot;Roadway category and posted speed&quot;
+      ],
+      &quot;missing_inputs&quot;: [
+        &quot;Measured longitudinal distances between successive advance warning signs&quot;
+      ],
+      &quot;data_availability&quot;: &quot;partial&quot;,
+      &quot;basis_evidence_ids&quot;: [
+        &quot;scene_facts.visual_scene_description.facts[0]&quot;,
+        &quot;scene_facts.posted_speed_mph&quot;,
+        &quot;scene_facts.visual_scene_description.facts[7]&quot;
+      ],
+      &quot;reason&quot;: &quot;Frozen facts directly establish an urban roadway and a 20 mph posted speed, but do not resolve whether the repeated ROAD WORK AHEAD observations are two or more independent advance-warning signs, and successive-sign distances have not been measured.&quot;,
+      &quot;planned_tools&quot;: [
+        &quot;measure_sign_spacing&quot;,
+        &quot;inspect_temporal_images&quot;
+      ],
+      &quot;planned_evidence_strategy&quot;: &quot;Inspect temporally separated sign candidates to establish independent signs, then measure or project their longitudinal positions along the roadway and calculate every successive spacing.&quot;,
+      &quot;planned_decision_rule&quot;: &quot;If a qualifying series is confirmed, pass only when every successive spacing is at least 100 ft; if the series or spacing cannot be resolved, report insufficient evidence.&quot;,
+      &quot;availability_event_index&quot;: 20,
+      &quot;availability_timestamp&quot;: &quot;2026-10-22T03:09:15.625393+00:00&quot;
+    },
+    &quot;normative_applicability&quot;: &quot;indeterminate&quot;,
+    &quot;acquisition_plan&quot;: [
+      &quot;measure_sign_spacing&quot;,
+      &quot;inspect_temporal_images&quot;
+    ],
+    &quot;acquisition_attempts&quot;: [
+      &quot;attempt_cdb1e32df13102d3a7df&quot;
+    ],
+    &quot;tools_called&quot;: [
+      &quot;measure_sign_spacing&quot;
+    ],
+    &quot;acquired_inputs&quot;: [
+      &quot;Roadway category and posted speed&quot;
+    ],
+    &quot;derivation_evidence_ids&quot;: [],
+    &quot;external_evidence_ids&quot;: [],
+    &quot;unresolved_inputs&quot;: [
+      &quot;Measured longitudinal distances between successive advance warning signs&quot;
+    ],
+    &quot;final_data_availability&quot;: &quot;partial&quot;,
+    &quot;failure_reason&quot;: &quot;Required inputs remain unresolved: Measured longitudinal distances between successive advance warning signs&quot;,
+    &quot;image_assessable&quot;: false,
+    &quot;inspection_status&quot;: &quot;not_assessed&quot;,
+    &quot;evidence_ids&quot;: [
+      &quot;evidence_5295af8791385cdabc4e&quot;,
+      &quot;evidence_8be9efb8a92c5897202d&quot;
+    ],
+    &quot;measurement_ids&quot;: [
+      &quot;measurement_a5e2bbd0a2ac4b002886&quot;
+    ],
+    &quot;inspection_reason&quot;: &quot;The urban low-speed context and posted 20 mph speed are established, but the existence and spacing of successive independent advance-warning signs were not resolved. The registered spacing measurement failed its geometry-quality gate and cannot establish compliance or deficiency.&quot;,
+    &quot;requires_human_review&quot;: false,
+    &quot;inspection_event_index&quot;: 93,
+    &quot;inspection_timestamp&quot;: &quot;2026-10-22T03:18:10.396253+00:00&quot;
+  },
+  &quot;cited_evidence&quot;: {
+    &quot;evidence_5295af8791385cdabc4e&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_ad7a729596b46383&quot;,
+      &quot;evidence_kind&quot;: &quot;direct_fact&quot;,
+      &quot;source_ids&quot;: [
+        &quot;scene_facts.visual_scene_description.facts[0]&quot;,
+        &quot;scene_facts.posted_speed_mph&quot;,
+        &quot;scene_facts.visual_scene_description.facts[7]&quot;
+      ],
+      &quot;acquired_inputs&quot;: [
+        &quot;Roadway category and posted speed&quot;
+      ],
+      &quot;unresolved_inputs&quot;: [],
+      &quot;finding&quot;: &quot;Frozen direct inputs: Roadway category and posted speed.&quot;,
+      &quot;limitations&quot;: &quot;Only the listed direct inputs are established; remaining inputs require Stage 4 acquisition.&quot;,
+      &quot;tools_used&quot;: [],
+      &quot;evidence_id&quot;: &quot;evidence_5295af8791385cdabc4e&quot;,
+      &quot;evidence_fingerprint&quot;: &quot;5295af8791385cdabc4e8c053b6110e9464e06bca1483e6f7ae2df106a495ead&quot;,
+      &quot;evidence_event_index&quot;: 34,
+      &quot;evidence_timestamp&quot;: &quot;2026-10-22T03:14:56.903254+00:00&quot;
+    },
+    &quot;evidence_8be9efb8a92c5897202d&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_ad7a729596b46383&quot;,
+      &quot;evidence_kind&quot;: &quot;acquisition_failure&quot;,
+      &quot;source_ids&quot;: [
+        &quot;measurement_a5e2bbd0a2ac4b002886&quot;
+      ],
+      &quot;acquired_inputs&quot;: [],
+      &quot;unresolved_inputs&quot;: [
+        &quot;Measured longitudinal distances between successive advance warning signs&quot;
+      ],
+      &quot;finding&quot;: &quot;Advance-warning sign spacing measurement was acquired but failed the registered quality gate. The output reported a 168.66846756308107 m value with a conservative support range of 167.58319595068048–169.7161828152799 m, but threshold assessment was geometry_not_eligible and no deficiency was supported.&quot;,
+      &quot;limitations&quot;: &quot;The output flagged longitudinal geometry as not usable, failed the lateral gate, and noted non-survey-grade and single-frame/ambiguous-position limitations; therefore it cannot establish compliance with the 100 ft minimum spacing requirement.&quot;,
+      &quot;tools_used&quot;: [
+        &quot;measure_sign_spacing&quot;
+      ],
+      &quot;acquisition_attempt_id&quot;: &quot;attempt_cdb1e32df13102d3a7df&quot;,
+      &quot;evidence_id&quot;: &quot;evidence_8be9efb8a92c5897202d&quot;,
+      &quot;evidence_fingerprint&quot;: &quot;8be9efb8a92c5897202de674264856d7455a87e29aefafd6cf0a14aea55d6692&quot;,
+      &quot;evidence_event_index&quot;: 66,
+      &quot;evidence_timestamp&quot;: &quot;2026-10-22T03:17:46.337814+00:00&quot;
+    }
+  },
+  &quot;cited_measurements&quot;: {
+    &quot;measurement_a5e2bbd0a2ac4b002886&quot;: {
+      &quot;status&quot;: &quot;acquired&quot;,
+      &quot;measurement_id&quot;: &quot;measurement_a5e2bbd0a2ac4b002886&quot;,
+      &quot;measurement_type&quot;: &quot;sign_spacing&quot;,
+      &quot;geometry_direction&quot;: &quot;longitudinal_station&quot;,
+      &quot;value&quot;: 168.66846756308107,
+      &quot;unit&quot;: &quot;m&quot;,
+      &quot;uncertainty&quot;: 1.0852716124005894,
+      &quot;confidence_interval&quot;: [
+        167.58319595068048,
+        169.7161828152799
+      ],
+      &quot;start_anchor&quot;: {
+        &quot;status&quot;: &quot;acquired&quot;,
+        &quot;location_id&quot;: &quot;bev_W3_OBJ_030_W3_T63799999_Q008&quot;,
+        &quot;observation_id&quot;: &quot;W3_T63799999_Q008&quot;,
+        &quot;global_xyz_m&quot;: [
+          167.81264185407255,
+          137.9345234509737,
+          -0.4826350411688297
+        ],
+        &quot;uncertainty_m&quot;: 0.6432326436849425,
+        &quot;spatial_uncertainty_m&quot;: 0.6432326436849425,
+        &quot;road_station_m&quot;: 18.39303657161322,
+        &quot;station_confidence_interval_m&quot;: [
+          17.845321319414392,
+          18.978308184013798
+        ],
+        &quot;station_uncertainty_m&quot;: 0.5852716124005788,
+        &quot;station_sample_count&quot;: 10,
+        &quot;trajectory_lateral_offset_m&quot;: -4.678540189025291,
+        &quot;lateral_confidence_interval_m&quot;: [
+          -5.316709227493318,
+          -4.091945612437865
+        ],
+        &quot;trajectory_lateral_residual_m&quot;: 4.678540189025291,
+        &quot;trajectory_lateral_residual_p95_m&quot;: 5.316709227493318,
+        &quot;longitudinal_geometry_usable&quot;: true,
+        &quot;trajectory_local_tangent_xy&quot;: [
+          0.7169957405118692,
+          0.6970775481163028
+        ],
+        &quot;trajectory_local_normal_xy&quot;: [
+          -0.6970775481163028,
+          0.7169957405118692
+        ],
+        &quot;projected_points_in_bbox&quot;: 1322,
+        &quot;depth_cluster_points&quot;: 1322,
+        &quot;associated_image_ids&quot;: [
+          &quot;workzone3__CAM_FRONT__63799999&quot;
+        ],
+        &quot;associated_bbox_ids&quot;: [
+          &quot;W3_T63799999_Q008&quot;
+        ],
+        &quot;associated_lidar_frames&quot;: [
+          &quot;61.700219393.pcd&quot;,
+          &quot;62.899994373.pcd&quot;,
+          &quot;63.200025558.pcd&quot;,
+          &quot;63.300112486.pcd&quot;,
+          &quot;63.400196552.pcd&quot;,
+          &quot;63.500232458.pcd&quot;,
+          &quot;63.600230455.pcd&quot;,
+          &quot;63.700193405.pcd&quot;,
+          &quot;63.800147533.pcd&quot;,
+          &quot;63.900097370.pcd&quot;
+        ],
+        &quot;trajectory_pose_source&quot;: &quot;/home/klong23/workzone/data/workzone_03/processed/CATS_v1.0/ego_pose.json&quot;,
+        &quot;calibration_source&quot;: &quot;/home/klong23/workzone/data/workzone_03/processed/CATS_v1.0/calibrated_sensor.json&quot;,
+        &quot;measurement_method&quot;: &quot;Previously validated per-point raw-LiDAR + INS reconstruction, complete-link multi-frame object; conservative support range expanded by 0.5 m (not calibrated statistical CI)&quot;,
+        &quot;quality_flags&quot;: [
+          &quot;not_survey_grade&quot;,
+          &quot;conservative_support_range_not_statistical_confidence_interval&quot;
+        ],
+        &quot;failure_reason&quot;: null,
+        &quot;object_id&quot;: &quot;W3_OBJ_030&quot;,
+        &quot;independent_geometry_frames&quot;: 10,
+        &quot;source_files&quot;: {
+          &quot;observations&quot;: {
+            &quot;path&quot;: &quot;/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/observations.json&quot;,
+            &quot;sha256&quot;: &quot;e124082211a7c9753532bff0e1d82839773bee5431ae948860d7ea4b9b39a4c3&quot;
+          },
+          &quot;objects&quot;: {
+            &quot;path&quot;: &quot;/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/objects.json&quot;,
+            &quot;sha256&quot;: &quot;7f8e9938d309195a3c37e77035f27c9c839a27e8202c8eafb57147516d504951&quot;
+          },
+          &quot;validation&quot;: {
+            &quot;path&quot;: &quot;/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/validation.json&quot;,
+            &quot;sha256&quot;: &quot;0e15b5e302c633cbe2f005441389c581948befe7023d9d33fbf6301283f6e7d9&quot;
+          },
+          &quot;reconstruction&quot;: {
+            &quot;path&quot;: &quot;/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/reconstruction.json&quot;,
+            &quot;sha256&quot;: &quot;85677d8240090e01ae86f1cbeb8ab6c1c3fdf2a999fe0d61669c6d25952570ce&quot;
+          }
+        },
+        &quot;semantic_role&quot;: &quot;upstream_sign&quot;
+      },
+      &quot;end_anchor&quot;: {
+        &quot;status&quot;: &quot;acquired&quot;,
+        &quot;location_id&quot;: &quot;bev_W3_OBJ_032_W3_T84399999_Q016&quot;,
+        &quot;observation_id&quot;: &quot;W3_T84399999_Q016&quot;,
+        &quot;global_xyz_m&quot;: [
+          287.7031570939541,
+          261.538284980301,
+          -1.2814756903907476
+        ],
+        &quot;uncertainty_m&quot;: 0.5,
+        &quot;spatial_uncertainty_m&quot;: 0.5,
+        &quot;road_station_m&quot;: 187.06150413469427,
+        &quot;station_confidence_interval_m&quot;: [
+          186.56150413469427,
+          187.56150413469427
+        ],
+        &quot;station_uncertainty_m&quot;: 0.5,
+        &quot;station_sample_count&quot;: 1,
+        &quot;trajectory_lateral_offset_m&quot;: 2.77226314072444,
+        &quot;lateral_confidence_interval_m&quot;: [
+          2.27226314072444,
+          3.27226314072444
+        ],
+        &quot;trajectory_lateral_residual_m&quot;: 2.77226314072444,
+        &quot;trajectory_lateral_residual_p95_m&quot;: 3.27226314072444,
+        &quot;longitudinal_geometry_usable&quot;: false,
+        &quot;trajectory_local_tangent_xy&quot;: [
+          0.7031359600068865,
+          0.7110554280400327
+        ],
+        &quot;trajectory_local_normal_xy&quot;: [
+          -0.7110554280400327,
+          0.7031359600068865
+        ],
+        &quot;projected_points_in_bbox&quot;: 40,
+        &quot;depth_cluster_points&quot;: 40,
+        &quot;associated_image_ids&quot;: [
+          &quot;workzone3__CAM_FRONT__84399999&quot;
+        ],
+        &quot;associated_bbox_ids&quot;: [
+          &quot;W3_T84399999_Q016&quot;
+        ],
+        &quot;associated_lidar_frames&quot;: [
+          &quot;84.400207520.pcd&quot;
+        ],
+        &quot;trajectory_pose_source&quot;: &quot;/home/klong23/workzone/data/workzone_03/processed/CATS_v1.0/ego_pose.json&quot;,
+        &quot;calibration_source&quot;: &quot;/home/klong23/workzone/data/workzone_03/processed/CATS_v1.0/calibrated_sensor.json&quot;,
+        &quot;measurement_method&quot;: &quot;Previously validated per-point raw-LiDAR + INS reconstruction, complete-link multi-frame object; conservative support range expanded by 0.5 m (not calibrated statistical CI)&quot;,
+        &quot;quality_flags&quot;: [
+          &quot;not_survey_grade&quot;,
+          &quot;conservative_support_range_not_statistical_confidence_interval&quot;,
+          &quot;single_frame_or_ambiguous_position&quot;,
+          &quot;longitudinal_geometry_not_usable&quot;
+        ],
+        &quot;failure_reason&quot;: null,
+        &quot;object_id&quot;: &quot;W3_OBJ_032&quot;,
+        &quot;independent_geometry_frames&quot;: 1,
+        &quot;source_files&quot;: {
+          &quot;observations&quot;: {
+            &quot;path&quot;: &quot;/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/observations.json&quot;,
+            &quot;sha256&quot;: &quot;e124082211a7c9753532bff0e1d82839773bee5431ae948860d7ea4b9b39a4c3&quot;
+          },
+          &quot;objects&quot;: {
+            &quot;path&quot;: &quot;/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/objects.json&quot;,
+            &quot;sha256&quot;: &quot;7f8e9938d309195a3c37e77035f27c9c839a27e8202c8eafb57147516d504951&quot;
+          },
+          &quot;validation&quot;: {
+            &quot;path&quot;: &quot;/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/validation.json&quot;,
+            &quot;sha256&quot;: &quot;0e15b5e302c633cbe2f005441389c581948befe7023d9d33fbf6301283f6e7d9&quot;
+          },
+          &quot;reconstruction&quot;: {
+            &quot;path&quot;: &quot;/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/reconstruction.json&quot;,
+            &quot;sha256&quot;: &quot;85677d8240090e01ae86f1cbeb8ab6c1c3fdf2a999fe0d61669c6d25952570ce&quot;
+          }
+        },
+        &quot;semantic_role&quot;: &quot;downstream_sign&quot;
+      },
+      &quot;ordered_anchors&quot;: [
+        {
+          &quot;status&quot;: &quot;acquired&quot;,
+          &quot;location_id&quot;: &quot;bev_W3_OBJ_030_W3_T63799999_Q008&quot;,
+          &quot;observation_id&quot;: &quot;W3_T63799999_Q008&quot;,
+          &quot;global_xyz_m&quot;: [
+            167.81264185407255,
+            137.9345234509737,
+            -0.4826350411688297
+          ],
+          &quot;uncertainty_m&quot;: 0.6432326436849425,
+          &quot;spatial_uncertainty_m&quot;: 0.6432326436849425,
+          &quot;road_station_m&quot;: 18.39303657161322,
+          &quot;station_confidence_interval_m&quot;: [
+            17.845321319414392,
+            18.978308184013798
+          ],
+          &quot;station_uncertainty_m&quot;: 0.5852716124005788,
+          &quot;station_sample_count&quot;: 10,
+          &quot;trajectory_lateral_offset_m&quot;: -4.678540189025291,
+          &quot;lateral_confidence_interval_m&quot;: [
+            -5.316709227493318,
+            -4.091945612437865
+          ],
+          &quot;trajectory_lateral_residual_m&quot;: 4.678540189025291,
+          &quot;trajectory_lateral_residual_p95_m&quot;: 5.316709227493318,
+          &quot;longitudinal_geometry_usable&quot;: true,
+          &quot;trajectory_local_tangent_xy&quot;: [
+            0.7169957405118692,
+            0.6970775481163028
+          ],
+          &quot;trajectory_local_normal_xy&quot;: [
+            -0.6970775481163028,
+            0.7169957405118692
+          ],
+          &quot;projected_points_in_bbox&quot;: 1322,
+          &quot;depth_cluster_points&quot;: 1322,
+          &quot;associated_image_ids&quot;: [
+            &quot;workzone3__CAM_FRONT__63799999&quot;
+          ],
+          &quot;associated_bbox_ids&quot;: [
+            &quot;W3_T63799999_Q008&quot;
+          ],
+          &quot;associated_lidar_frames&quot;: [
+            &quot;61.700219393.pcd&quot;,
+            &quot;62.899994373.pcd&quot;,
+            &quot;63.200025558.pcd&quot;,
+            &quot;63.300112486.pcd&quot;,
+            &quot;63.400196552.pcd&quot;,
+            &quot;63.500232458.pcd&quot;,
+            &quot;63.600230455.pcd&quot;,
+            &quot;63.700193405.pcd&quot;,
+            &quot;63.800147533.pcd&quot;,
+            &quot;63.900097370.pcd&quot;
+          ],
+          &quot;trajectory_pose_source&quot;: &quot;/home/klong23/workzone/data/workzone_03/processed/CATS_v1.0/ego_pose.json&quot;,
+          &quot;calibration_source&quot;: &quot;/home/klong23/workzone/data/workzone_03/processed/CATS_v1.0/calibrated_sensor.json&quot;,
+          &quot;measurement_method&quot;: &quot;Previously validated per-point raw-LiDAR + INS reconstruction, complete-link multi-frame object; conservative support range expanded by 0.5 m (not calibrated statistical CI)&quot;,
+          &quot;quality_flags&quot;: [
+            &quot;not_survey_grade&quot;,
+            &quot;conservative_support_range_not_statistical_confidence_interval&quot;
+          ],
+          &quot;failure_reason&quot;: null,
+          &quot;object_id&quot;: &quot;W3_OBJ_030&quot;,
+          &quot;independent_geometry_frames&quot;: 10,
+          &quot;source_files&quot;: {
+            &quot;observations&quot;: {
+              &quot;path&quot;: &quot;/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/observations.json&quot;,
+              &quot;sha256&quot;: &quot;e124082211a7c9753532bff0e1d82839773bee5431ae948860d7ea4b9b39a4c3&quot;
+            },
+            &quot;objects&quot;: {
+              &quot;path&quot;: &quot;/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/objects.json&quot;,
+              &quot;sha256&quot;: &quot;7f8e9938d309195a3c37e77035f27c9c839a27e8202c8eafb57147516d504951&quot;
+            },
+            &quot;validation&quot;: {
+              &quot;path&quot;: &quot;/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/validation.json&quot;,
+              &quot;sha256&quot;: &quot;0e15b5e302c633cbe2f005441389c581948befe7023d9d33fbf6301283f6e7d9&quot;
+            },
+            &quot;reconstruction&quot;: {
+              &quot;path&quot;: &quot;/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/reconstruction.json&quot;,
+              &quot;sha256&quot;: &quot;85677d8240090e01ae86f1cbeb8ab6c1c3fdf2a999fe0d61669c6d25952570ce&quot;
+            }
+          },
+          &quot;semantic_role&quot;: &quot;upstream_sign&quot;
+        },
+        {
+          &quot;status&quot;: &quot;acquired&quot;,
+          &quot;location_id&quot;: &quot;bev_W3_OBJ_032_W3_T84399999_Q016&quot;,
+          &quot;observation_id&quot;: &quot;W3_T84399999_Q016&quot;,
+          &quot;global_xyz_m&quot;: [
+            287.7031570939541,
+            261.538284980301,
+            -1.2814756903907476
+          ],
+          &quot;uncertainty_m&quot;: 0.5,
+          &quot;spatial_uncertainty_m&quot;: 0.5,
+          &quot;road_station_m&quot;: 187.06150413469427,
+          &quot;station_confidence_interval_m&quot;: [
+            186.56150413469427,
+            187.56150413469427
+          ],
+          &quot;station_uncertainty_m&quot;: 0.5,
+          &quot;station_sample_count&quot;: 1,
+          &quot;trajectory_lateral_offset_m&quot;: 2.77226314072444,
+          &quot;lateral_confidence_interval_m&quot;: [
+            2.27226314072444,
+            3.27226314072444
+          ],
+          &quot;trajectory_lateral_residual_m&quot;: 2.77226314072444,
+          &quot;trajectory_lateral_residual_p95_m&quot;: 3.27226314072444,
+          &quot;longitudinal_geometry_usable&quot;: false,
+          &quot;trajectory_local_tangent_xy&quot;: [
+            0.7031359600068865,
+            0.7110554280400327
+          ],
+          &quot;trajectory_local_normal_xy&quot;: [
+            -0.7110554280400327,
+            0.7031359600068865
+          ],
+          &quot;projected_points_in_bbox&quot;: 40,
+          &quot;depth_cluster_points&quot;: 40,
+          &quot;associated_image_ids&quot;: [
+            &quot;workzone3__CAM_FRONT__84399999&quot;
+          ],
+          &quot;associated_bbox_ids&quot;: [
+            &quot;W3_T84399999_Q016&quot;
+          ],
+          &quot;associated_lidar_frames&quot;: [
+            &quot;84.400207520.pcd&quot;
+          ],
+          &quot;trajectory_pose_source&quot;: &quot;/home/klong23/workzone/data/workzone_03/processed/CATS_v1.0/ego_pose.json&quot;,
+          &quot;calibration_source&quot;: &quot;/home/klong23/workzone/data/workzone_03/processed/CATS_v1.0/calibrated_sensor.json&quot;,
+          &quot;measurement_method&quot;: &quot;Previously validated per-point raw-LiDAR + INS reconstruction, complete-link multi-frame object; conservative support range expanded by 0.5 m (not calibrated statistical CI)&quot;,
+          &quot;quality_flags&quot;: [
+            &quot;not_survey_grade&quot;,
+            &quot;conservative_support_range_not_statistical_confidence_interval&quot;,
+            &quot;single_frame_or_ambiguous_position&quot;,
+            &quot;longitudinal_geometry_not_usable&quot;
+          ],
+          &quot;failure_reason&quot;: null,
+          &quot;object_id&quot;: &quot;W3_OBJ_032&quot;,
+          &quot;independent_geometry_frames&quot;: 1,
+          &quot;source_files&quot;: {
+            &quot;observations&quot;: {
+              &quot;path&quot;: &quot;/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/observations.json&quot;,
+              &quot;sha256&quot;: &quot;e124082211a7c9753532bff0e1d82839773bee5431ae948860d7ea4b9b39a4c3&quot;
+            },
+            &quot;objects&quot;: {
+              &quot;path&quot;: &quot;/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/objects.json&quot;,
+              &quot;sha256&quot;: &quot;7f8e9938d309195a3c37e77035f27c9c839a27e8202c8eafb57147516d504951&quot;
+            },
+            &quot;validation&quot;: {
+              &quot;path&quot;: &quot;/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/validation.json&quot;,
+              &quot;sha256&quot;: &quot;0e15b5e302c633cbe2f005441389c581948befe7023d9d33fbf6301283f6e7d9&quot;
+            },
+            &quot;reconstruction&quot;: {
+              &quot;path&quot;: &quot;/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/reconstruction.json&quot;,
+              &quot;sha256&quot;: &quot;85677d8240090e01ae86f1cbeb8ab6c1c3fdf2a999fe0d61669c6d25952570ce&quot;
+            }
+          },
+          &quot;semantic_role&quot;: &quot;downstream_sign&quot;
+        }
+      ],
+      &quot;endpoint_semantics_valid&quot;: true,
+      &quot;geometry_direction_valid&quot;: false,
+      &quot;threshold_assessment&quot;: {
+        &quot;status&quot;: &quot;geometry_not_eligible&quot;,
+        &quot;threshold_m&quot;: 30.48,
+        &quot;violation_when&quot;: &quot;below_minimum&quot;,
+        &quot;clear_violation&quot;: false,
+        &quot;reason&quot;: &quot;Endpoint semantics or measurement direction failed validation.&quot;
+      },
+      &quot;deficiency_supported&quot;: false,
+      &quot;associated_image_ids&quot;: [
+        &quot;workzone3__CAM_FRONT__63799999&quot;,
+        &quot;workzone3__CAM_FRONT__84399999&quot;
+      ],
+      &quot;associated_bbox_ids&quot;: [
+        &quot;W3_T63799999_Q008&quot;,
+        &quot;W3_T84399999_Q016&quot;
+      ],
+      &quot;associated_lidar_frames&quot;: [
+        &quot;61.700219393.pcd&quot;,
+        &quot;62.899994373.pcd&quot;,
+        &quot;63.200025558.pcd&quot;,
+        &quot;63.300112486.pcd&quot;,
+        &quot;63.400196552.pcd&quot;,
+        &quot;63.500232458.pcd&quot;,
+        &quot;63.600230455.pcd&quot;,
+        &quot;63.700193405.pcd&quot;,
+        &quot;63.800147533.pcd&quot;,
+        &quot;63.900097370.pcd&quot;,
+        &quot;84.400207520.pcd&quot;
+      ],
+      &quot;trajectory_pose_source&quot;: &quot;/home/klong23/workzone/data/workzone_03/processed/CATS_v1.0/ego_pose.json&quot;,
+      &quot;calibration_source&quot;: &quot;/home/klong23/workzone/data/workzone_03/processed/CATS_v1.0/calibrated_sensor.json&quot;,
+      &quot;measurement_method&quot;: &quot;difference of automatically station-sorted endpoint medians; confidence interval derived from endpoint station support intervals (see anchor provenance); lateral residual used only as a quality gate&quot;,
+      &quot;quality_flags&quot;: [
+        &quot;conservative_support_range_not_statistical_confidence_interval&quot;,
+        &quot;longitudinal_geometry_failed_lateral_gate&quot;,
+        &quot;longitudinal_geometry_not_usable&quot;,
+        &quot;not_survey_grade&quot;,
+        &quot;single_frame_or_ambiguous_position&quot;
+      ],
+      &quot;failure_reason&quot;: null,
+      &quot;discovered_requirement_key&quot;: &quot;req_ad7a729596b46383&quot;,
+      &quot;requirement_fingerprint&quot;: &quot;ad7a729596b46383c34d9cb9e1b7afed6b5820b49d18aa4a300a989157c516ee&quot;,
+      &quot;requirement_registration_event_index&quot;: 2,
+      &quot;requirement_registration_timestamp&quot;: &quot;2026-10-22T03:04:55.831176+00:00&quot;,
+      &quot;measurement_event_index&quot;: 60,
+      &quot;measurement_timestamp&quot;: &quot;2026-10-22T03:17:38.622794+00:00&quot;,
+      &quot;registered_source_locator&quot;: &quot;TABLE-6B-1; PDF page 813&quot;
+    }
+  }
+}</pre></details></td></tr><tr><td>2</td><td>Tangent channelizer spacing<br><small>should · SEC-6K.01 paragraph 04; PDF page 855</small></td><td class="satisfied">未发现明显不符<br><small>适用性：true</small></td><td>Tangent channelizer use and the 20 mph posted speed are established. The registered series audit applied the 40 ft maximum and identified no supported threshold exceedance or clear deficiency.<br><small>未解决输入：无</small><details><summary>规范原文、证据与测量记录</summary><pre>{
+  &quot;requirement&quot;: {
+    &quot;requirement_fingerprint&quot;: &quot;62474d3d964c642662f5d4a82929d1d6df4893e51c0a1bc7cd04c8efed07aa34&quot;,
+    &quot;candidate_label&quot;: &quot;Tangent channelizer spacing&quot;,
+    &quot;relation&quot;: &quot;should be spaced no farther apart than&quot;,
+    &quot;measurement_spec&quot;: {
+      &quot;required&quot;: true,
+      &quot;tool&quot;: &quot;audit_channelizer_spacing&quot;,
+      &quot;quantity&quot;: &quot;successive tangent channelizer spacing&quot;,
+      &quot;thresholds&quot;: [
+        {
+          &quot;condition&quot;: &quot;tangent section&quot;,
+          &quot;value&quot;: 40,
+          &quot;unit&quot;: &quot;ft&quot;,
+          &quot;violation_when&quot;: &quot;above_maximum&quot;,
+          &quot;formula_parameter&quot;: &quot;posted_speed_mph&quot;,
+          &quot;multiplier&quot;: 2
+        }
+      ]
+    },
+    &quot;discovered_requirement_key&quot;: &quot;req_62474d3d964c6426&quot;,
+    &quot;required_inputs&quot;: [
+      &quot;Measured spacing between successive tangent channelizing devices&quot;,
+      &quot;Posted speed limit&quot;
+    ],
+    &quot;source_node_ids&quot;: [
+      &quot;src_2afdeb6d23fb7be10144&quot;
+    ],
+    &quot;source_locator&quot;: &quot;SEC-6K.01 paragraph 04; PDF page 855&quot;,
+    &quot;source_span&quot;: &quot;The spacing between cones, tubular markers, vertical panels, drums, and barricades should not exceed a distance in feet equal to 1 times the speed limit in mph when used for taper channelization, and should not exceed a distance in feet equal to 2 times the speed limit in mph when used for tangent channelization.&quot;,
+    &quot;modality&quot;: &quot;should&quot;,
+    &quot;subject&quot;: &quot;tangent channelizing devices&quot;,
+    &quot;threshold&quot;: &quot;2 times the posted speed limit in feet; at 20 mph, 40 ft maximum&quot;,
+    &quot;registration_timestamp&quot;: &quot;2026-10-22T03:05:29.186766+00:00&quot;,
+    &quot;applicability_conditions&quot;: [
+      &quot;Channelizing devices are used in a tangent section&quot;
+    ],
+    &quot;registration_event_index&quot;: 3,
+    &quot;region&quot;: &quot;channelization_system&quot;,
+    &quot;data_availability_record&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_62474d3d964c6426&quot;,
+      &quot;condition_data_complete&quot;: true,
+      &quot;available_inputs&quot;: [
+        &quot;Posted speed limit&quot;
+      ],
+      &quot;missing_inputs&quot;: [
+        &quot;Measured spacing between successive tangent channelizing devices&quot;
+      ],
+      &quot;data_availability&quot;: &quot;partial&quot;,
+      &quot;basis_evidence_ids&quot;: [
+        &quot;scene_facts.posted_speed_mph&quot;,
+        &quot;scene_facts.visual_scene_description.facts[5]&quot;,
+        &quot;scene_facts.visual_scene_description.facts[6]&quot;
+      ],
+      &quot;reason&quot;: &quot;Frozen facts establish the 20 mph posted speed and a longitudinal channelizer section, but tangent-device spacing has not been measured.&quot;,
+      &quot;planned_tools&quot;: [
+        &quot;audit_channelizer_spacing&quot;
+      ],
+      &quot;planned_evidence_strategy&quot;: &quot;Identify successive independent devices in the tangent section from accepted observations and temporal views, then audit their longitudinal spacing using trajectory and calibrated geometry as needed.&quot;,
+      &quot;planned_decision_rule&quot;: &quot;At 20 mph, pass only if no tangent spacing exceeds 40 ft; any supported exceedance fails, while unresolved device identity or geometry is insufficient.&quot;,
+      &quot;availability_event_index&quot;: 21,
+      &quot;availability_timestamp&quot;: &quot;2026-10-22T03:09:15.625410+00:00&quot;
+    },
+    &quot;normative_applicability&quot;: &quot;true&quot;,
+    &quot;acquisition_plan&quot;: [
+      &quot;audit_channelizer_spacing&quot;
+    ],
+    &quot;acquisition_attempts&quot;: [
+      &quot;attempt_40e212979321f7e18d7a&quot;
+    ],
+    &quot;tools_called&quot;: [
+      &quot;audit_channelizer_spacing&quot;
+    ],
+    &quot;acquired_inputs&quot;: [
+      &quot;Measured spacing between successive tangent channelizing devices&quot;,
+      &quot;Posted speed limit&quot;
+    ],
+    &quot;derivation_evidence_ids&quot;: [],
+    &quot;external_evidence_ids&quot;: [],
+    &quot;unresolved_inputs&quot;: [],
+    &quot;final_data_availability&quot;: &quot;acquired&quot;,
+    &quot;failure_reason&quot;: null,
+    &quot;image_assessable&quot;: false,
+    &quot;inspection_status&quot;: &quot;satisfied&quot;,
+    &quot;evidence_ids&quot;: [
+      &quot;evidence_6680c22dc4405c94f2f8&quot;,
+      &quot;evidence_db7bd3c1bf8a4a9e5724&quot;
+    ],
+    &quot;measurement_ids&quot;: [
+      &quot;measurement_775c616dc49bee4eb485&quot;
+    ],
+    &quot;inspection_reason&quot;: &quot;Tangent channelizer use and the 20 mph posted speed are established. The registered series audit applied the 40 ft maximum and identified no supported threshold exceedance or clear deficiency.&quot;,
+    &quot;requires_human_review&quot;: false,
+    &quot;inspection_event_index&quot;: 89,
+    &quot;inspection_timestamp&quot;: &quot;2026-10-22T03:18:10.396240+00:00&quot;
+  },
+  &quot;cited_evidence&quot;: {
+    &quot;evidence_6680c22dc4405c94f2f8&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_62474d3d964c6426&quot;,
+      &quot;evidence_kind&quot;: &quot;measurement_context&quot;,
+      &quot;source_ids&quot;: [
+        &quot;measurement_775c616dc49bee4eb485&quot;
+      ],
+      &quot;acquired_inputs&quot;: [
+        &quot;Measured spacing between successive tangent channelizing devices&quot;
+      ],
+      &quot;unresolved_inputs&quot;: [],
+      &quot;finding&quot;: &quot;Tangent channelizer spacing measurement acquired. The registered audit used a 40 ft maximum threshold at the 20 mph posted speed; no supported deficiency was identified, and the measurement output did not report a clear threshold exceedance.&quot;,
+      &quot;limitations&quot;: &quot;The measurement output is a series audit with quality flags noting accepted bounding-box class observations, rule-based sequence membership, non-survey-grade track positions, exclusion of farther parallel lines, and that a single gap is not a formal deficiency. No numeric series value was returned.&quot;,
+      &quot;tools_used&quot;: [
+        &quot;audit_channelizer_spacing&quot;
+      ],
+      &quot;acquisition_attempt_id&quot;: &quot;attempt_40e212979321f7e18d7a&quot;,
+      &quot;evidence_id&quot;: &quot;evidence_6680c22dc4405c94f2f8&quot;,
+      &quot;evidence_fingerprint&quot;: &quot;6680c22dc4405c94f2f8971de9d7be91571978416d1961ecbacafb72e50a1774&quot;,
+      &quot;evidence_event_index&quot;: 65,
+      &quot;evidence_timestamp&quot;: &quot;2026-10-22T03:17:46.337785+00:00&quot;
+    },
+    &quot;evidence_db7bd3c1bf8a4a9e5724&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_62474d3d964c6426&quot;,
+      &quot;evidence_kind&quot;: &quot;direct_fact&quot;,
+      &quot;source_ids&quot;: [
+        &quot;scene_facts.posted_speed_mph&quot;,
+        &quot;scene_facts.visual_scene_description.facts[5]&quot;,
+        &quot;scene_facts.visual_scene_description.facts[6]&quot;
+      ],
+      &quot;acquired_inputs&quot;: [
+        &quot;Posted speed limit&quot;
+      ],
+      &quot;unresolved_inputs&quot;: [],
+      &quot;finding&quot;: &quot;Frozen direct inputs: Posted speed limit.&quot;,
+      &quot;limitations&quot;: &quot;Only the listed direct inputs are established; remaining inputs require Stage 4 acquisition.&quot;,
+      &quot;tools_used&quot;: [],
+      &quot;evidence_id&quot;: &quot;evidence_db7bd3c1bf8a4a9e5724&quot;,
+      &quot;evidence_fingerprint&quot;: &quot;db7bd3c1bf8a4a9e57240e50a31cdaf7c44de1c299994acc3c4d580769279466&quot;,
+      &quot;evidence_event_index&quot;: 35,
+      &quot;evidence_timestamp&quot;: &quot;2026-10-22T03:14:56.903260+00:00&quot;
+    }
+  },
+  &quot;cited_measurements&quot;: {
+    &quot;measurement_775c616dc49bee4eb485&quot;: {
+      &quot;status&quot;: &quot;acquired&quot;,
+      &quot;measurement_id&quot;: &quot;measurement_775c616dc49bee4eb485&quot;,
+      &quot;measurement_type&quot;: &quot;channelizer_spacing_series&quot;,
+      &quot;thresholds_applied&quot;: {
+        &quot;tangent&quot;: {
+          &quot;value&quot;: 40.0,
+          &quot;unit&quot;: &quot;ft&quot;,
+          &quot;violation_when&quot;: &quot;above_maximum&quot;,
+          &quot;value_m&quot;: 12.192
+        }
+      },
+      &quot;deficiency_supported&quot;: false,
+      &quot;minimum_consecutive_exceedances&quot;: 2,
+      &quot;accepted_channelizer_observations_scanned&quot;: 132,
+      &quot;physical_entity_candidates&quot;: 21,
+      &quot;candidate_sequence_count&quot;: 2,
+      &quot;sequences_evaluated&quot;: 1,
+      &quot;selected_sequence_policy&quot;: &quot;continuous channelizer line with minimum median absolute lateral offset from ego trajectory&quot;,
+      &quot;selected_sequence_median_abs_lateral_m&quot;: 2.318442254737757,
+      &quot;selected_sequence_entity_ids&quot;: [
+        &quot;W3_OBJ_019&quot;,
+        &quot;W3_OBJ_021&quot;,
+        &quot;W3_OBJ_020&quot;,
+        &quot;W3_OBJ_003&quot;,
+        &quot;W3_OBJ_008&quot;,
+        &quot;W3_OBJ_007&quot;,
+        &quot;W3_OBJ_001&quot;
+      ],
+      &quot;selected_sequence_reviewed_class_counts&quot;: {
+        &quot;traffic_cone&quot;: 7
+      },
+      &quot;region_classification_method&quot;: &quot;three-point median lateral smoothing followed by deterministic piecewise road-coordinate fitting of a sloped taper and constant-lateral tangent&quot;,
+      &quot;included_reviewed_classes&quot;: [
+        &quot;channelizing_device&quot;,
+        &quot;traffic_cone&quot;,
+        &quot;traffic_drum&quot;
+      ],
+      &quot;gaps_evaluated&quot;: 6,
+      &quot;clear_exceedance_gap_count&quot;: 0,
+      &quot;gaps_vetoed_by_possible_intervener&quot;: 0,
+      &quot;violation_run_count&quot;: 0,
+      &quot;violation_runs&quot;: [],
+      &quot;sequence_summaries&quot;: [
+        {
+          &quot;sequence_id&quot;: &quot;sequence_01&quot;,
+          &quot;entity_count&quot;: 7,
+          &quot;gap_count&quot;: 6,
+          &quot;start_station_m&quot;: 183.51611587641474,
+          &quot;end_station_m&quot;: 187.06150413469427,
+          &quot;taper_gap_count&quot;: 0,
+          &quot;tangent_gap_count&quot;: 6,
+          &quot;region_model&quot;: {
+            &quot;gap_regions&quot;: [
+              &quot;tangent&quot;,
+              &quot;tangent&quot;,
+              &quot;tangent&quot;,
+              &quot;tangent&quot;,
+              &quot;tangent&quot;,
+              &quot;tangent&quot;
+            ],
+            &quot;model&quot;: &quot;piecewise road-coordinate linear taper plus constant-lateral tangent&quot;,
+            &quot;orientation&quot;: &quot;all_tangent&quot;,
+            &quot;change_station_m&quot;: null,
+            &quot;taper_lateral_slope&quot;: null,
+            &quot;taper_lateral_shift_m&quot;: null,
+            &quot;piecewise_error&quot;: null,
+            &quot;constant_error&quot;: 0.9806662616423549
+          },
+          &quot;device_road_coordinates&quot;: [
+            {
+              &quot;entity_id&quot;: &quot;W3_OBJ_019&quot;,
+              &quot;station_m&quot;: 183.51611587641474,
+              &quot;lateral_m&quot;: 2.919098095438719
+            },
+            {
+              &quot;entity_id&quot;: &quot;W3_OBJ_021&quot;,
+              &quot;station_m&quot;: 183.5835640988173,
+              &quot;lateral_m&quot;: 2.318442254737757
+            },
+            {
+              &quot;entity_id&quot;: &quot;W3_OBJ_020&quot;,
+              &quot;station_m&quot;: 184.40917893442273,
+              &quot;lateral_m&quot;: 2.7298842917497472
+            },
+            {
+              &quot;entity_id&quot;: &quot;W3_OBJ_003&quot;,
+              &quot;station_m&quot;: 185.20791011196442,
+              &quot;lateral_m&quot;: 2.284350530832369
+            },
+            {
+              &quot;entity_id&quot;: &quot;W3_OBJ_008&quot;,
+              &quot;station_m&quot;: 185.99818861352222,
+              &quot;lateral_m&quot;: 2.2848205838709683
+            },
+            {
+              &quot;entity_id&quot;: &quot;W3_OBJ_007&quot;,
+              &quot;station_m&quot;: 186.95399219208713,
+              &quot;lateral_m&quot;: 2.4491714729522087
+            },
+            {
+              &quot;entity_id&quot;: &quot;W3_OBJ_001&quot;,
+              &quot;station_m&quot;: 187.06150413469427,
+              &quot;lateral_m&quot;: 1.6690721131955675
+            }
+          ],
+          &quot;clear_exceedance_gap_count&quot;: 0,
+          &quot;sustained_violation_run_count&quot;: 0,
+          &quot;gaps&quot;: [
+            {
+              &quot;gap_index&quot;: 1,
+              &quot;from_entity_id&quot;: &quot;W3_OBJ_019&quot;,
+              &quot;to_entity_id&quot;: &quot;W3_OBJ_021&quot;,
+              &quot;channelization_region&quot;: &quot;tangent&quot;,
+              &quot;threshold_m&quot;: 12.192,
+              &quot;evaluated_against_registered_rule&quot;: true,
+              &quot;value_m&quot;: 0.6044308907339199,
+              &quot;confidence_interval_m&quot;: [
+                0.0,
+                1.6197227360535238
+              ],
+              &quot;possible_intervening_entity_ids&quot;: [
+                &quot;W3_OBJ_020&quot;
+              ],
+              &quot;clear_exceedance&quot;: false
+            },
+            {
+              &quot;gap_index&quot;: 2,
+              &quot;from_entity_id&quot;: &quot;W3_OBJ_021&quot;,
+              &quot;to_entity_id&quot;: &quot;W3_OBJ_020&quot;,
+              &quot;channelization_region&quot;: &quot;tangent&quot;,
+              &quot;threshold_m&quot;: 12.192,
+              &quot;evaluated_against_registered_rule&quot;: true,
+              &quot;value_m&quot;: 0.8933915174737779,
+              &quot;confidence_interval_m&quot;: [
+                0.0,
+                1.8933915174737779
+              ],
+              &quot;possible_intervening_entity_ids&quot;: [
+                &quot;W3_OBJ_019&quot;
+              ],
+              &quot;clear_exceedance&quot;: false
+            },
+            {
+              &quot;gap_index&quot;: 3,
+              &quot;from_entity_id&quot;: &quot;W3_OBJ_020&quot;,
+              &quot;to_entity_id&quot;: &quot;W3_OBJ_003&quot;,
+              &quot;channelization_region&quot;: &quot;tangent&quot;,
+              &quot;threshold_m&quot;: 12.192,
+              &quot;evaluated_against_registered_rule&quot;: true,
+              &quot;value_m&quot;: 0.9115777852966198,
+              &quot;confidence_interval_m&quot;: [
+                0.0,
+                1.9115777852966198
+              ],
+              &quot;possible_intervening_entity_ids&quot;: [
+                &quot;W3_OBJ_004&quot;
+              ],
+              &quot;clear_exceedance&quot;: false
+            },
+            {
+              &quot;gap_index&quot;: 4,
+              &quot;from_entity_id&quot;: &quot;W3_OBJ_003&quot;,
+              &quot;to_entity_id&quot;: &quot;W3_OBJ_008&quot;,
+              &quot;channelization_region&quot;: &quot;tangent&quot;,
+              &quot;threshold_m&quot;: 12.192,
+              &quot;evaluated_against_registered_rule&quot;: true,
+              &quot;value_m&quot;: 0.7899956195098757,
+              &quot;confidence_interval_m&quot;: [
+                0.0,
+                1.7899956195098756
+              ],
+              &quot;possible_intervening_entity_ids&quot;: [
+                &quot;W3_OBJ_004&quot;
+              ],
+              &quot;clear_exceedance&quot;: false
+            },
+            {
+              &quot;gap_index&quot;: 5,
+              &quot;from_entity_id&quot;: &quot;W3_OBJ_008&quot;,
+              &quot;to_entity_id&quot;: &quot;W3_OBJ_007&quot;,
+              &quot;channelization_region&quot;: &quot;tangent&quot;,
+              &quot;threshold_m&quot;: 12.192,
+              &quot;evaluated_against_registered_rule&quot;: true,
+              &quot;value_m&quot;: 0.9677605292234717,
+              &quot;confidence_interval_m&quot;: [
+                0.0,
+                1.9677605292234717
+              ],
+              &quot;possible_intervening_entity_ids&quot;: [],
+              &quot;clear_exceedance&quot;: false
+            },
+            {
+              &quot;gap_index&quot;: 6,
+              &quot;from_entity_id&quot;: &quot;W3_OBJ_007&quot;,
+              &quot;to_entity_id&quot;: &quot;W3_OBJ_001&quot;,
+              &quot;channelization_region&quot;: &quot;tangent&quot;,
+              &quot;threshold_m&quot;: 12.192,
+              &quot;evaluated_against_registered_rule&quot;: true,
+              &quot;value_m&quot;: 3.4507854179663053,
+              &quot;confidence_interval_m&quot;: [
+                2.157983430012233,
+                4.743587405920378
+              ],
+              &quot;possible_intervening_entity_ids&quot;: [
+                &quot;W3_OBJ_006&quot;,
+                &quot;W3_OBJ_012&quot;,
+                &quot;W3_OBJ_013&quot;
+              ],
+              &quot;clear_exceedance&quot;: false
+            }
+          ]
+        }
+      ],
+      &quot;associated_bbox_ids&quot;: [
+        &quot;W3_T76199999_Q008&quot;,
+        &quot;W3_T81699999_Q011&quot;,
+        &quot;W3_T81799999_Q013&quot;,
+        &quot;W3_T82199999_Q017&quot;,
+        &quot;W3_T83099999_Q016&quot;,
+        &quot;W3_T84299999_Q009&quot;,
+        &quot;W3_T84699999_Q004&quot;
+      ],
+      &quot;associated_image_ids&quot;: [
+        &quot;workzone3__CAM_FRONT__76199999&quot;,
+        &quot;workzone3__CAM_FRONT__81699999&quot;,
+        &quot;workzone3__CAM_FRONT__81799999&quot;,
+        &quot;workzone3__CAM_FRONT__82199999&quot;,
+        &quot;workzone3__CAM_FRONT__83099999&quot;,
+        &quot;workzone3__CAM_FRONT__84299999&quot;,
+        &quot;workzone3__CAM_FRONT__84699999&quot;
+      ],
+      &quot;endpoint_semantics_valid&quot;: true,
+      &quot;geometry_direction_valid&quot;: true,
+      &quot;sequence_inference_valid&quot;: true,
+      &quot;measurement_method&quot;: &quot;rule-based accepted-track deduplication, Frenet path cover, nearest-trajectory sequence selection, and exhaustive adjacent-gap audit&quot;,
+      &quot;quality_flags&quot;: [
+        &quot;accepted_bbox_class_only&quot;,
+        &quot;track_positions_are_not_survey_grade&quot;,
+        &quot;sequence_membership_is_rule_based&quot;,
+        &quot;single_gap_is_not_a_formal_deficiency&quot;,
+        &quot;farther_parallel_channelizer_lines_excluded&quot;,
+        &quot;complete_automatic_inventory_used_only_to_veto_possible_missed_devices&quot;
+      ],
+      &quot;excluded_low_support_entities&quot;: 0,
+      &quot;excluded_unstable_entities&quot;: 0,
+      &quot;failure_reason&quot;: null,
+      &quot;discovered_requirement_key&quot;: &quot;req_62474d3d964c6426&quot;,
+      &quot;requirement_fingerprint&quot;: &quot;62474d3d964c642662f5d4a82929d1d6df4893e51c0a1bc7cd04c8efed07aa34&quot;,
+      &quot;requirement_registration_event_index&quot;: 3,
+      &quot;requirement_registration_timestamp&quot;: &quot;2026-10-22T03:05:29.186766+00:00&quot;,
+      &quot;measurement_event_index&quot;: 57,
+      &quot;measurement_timestamp&quot;: &quot;2026-10-22T03:17:36.149825+00:00&quot;,
+      &quot;registered_source_locator&quot;: &quot;SEC-6K.01 paragraph 04; PDF page 855&quot;
+    }
+  }
+}</pre></details></td></tr><tr><td>3</td><td>Channelizer serviceability<br><small>shall · SEC-6K.01 paragraph 15; PDF page 855</small></td><td class="satisfied">未发现明显不符<br><small>适用性：true</small></td><td>Channelizing devices are deployed, and the inspected representative view shows devices upright, visible, and generally intact, with the line continuing toward the intersection. No clear material serviceability violation is established.<br><small>未解决输入：无</small><details><summary>规范原文、证据与测量记录</summary><pre>{
+  &quot;requirement&quot;: {
+    &quot;requirement_fingerprint&quot;: &quot;4b36f1dbdb9f7c39405b16c75352e0173f431e7686df2c365837e662af357e2c&quot;,
+    &quot;candidate_label&quot;: &quot;Channelizer serviceability&quot;,
+    &quot;relation&quot;: &quot;shall be&quot;,
+    &quot;measurement_spec&quot;: {
+      &quot;required&quot;: false,
+      &quot;tool&quot;: null,
+      &quot;quantity&quot;: null,
+      &quot;thresholds&quot;: []
+    },
+    &quot;discovered_requirement_key&quot;: &quot;req_4b36f1dbdb9f7c39&quot;,
+    &quot;required_inputs&quot;: [
+      &quot;Visual inspection of deployed channelizing devices for serviceability&quot;
+    ],
+    &quot;source_node_ids&quot;: [
+      &quot;src_65f8e6d2257292e4b29b&quot;
+    ],
+    &quot;source_locator&quot;: &quot;SEC-6K.01 paragraph 15; PDF page 855&quot;,
+    &quot;source_span&quot;: &quot;Channelizing devices that are no longer serviceable (see definition in Section 1C.02) shall be replaced.&quot;,
+    &quot;modality&quot;: &quot;shall&quot;,
+    &quot;subject&quot;: &quot;channelizing devices&quot;,
+    &quot;threshold&quot;: &quot;serviceable; devices no longer serviceable shall be replaced&quot;,
+    &quot;registration_timestamp&quot;: &quot;2026-10-22T03:05:33.519819+00:00&quot;,
+    &quot;applicability_conditions&quot;: [
+      &quot;Channelizing devices are deployed in the inspected TTC zone&quot;
+    ],
+    &quot;registration_event_index&quot;: 4,
+    &quot;region&quot;: &quot;channelization_system&quot;,
+    &quot;data_availability_record&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_4b36f1dbdb9f7c39&quot;,
+      &quot;condition_data_complete&quot;: true,
+      &quot;available_inputs&quot;: [],
+      &quot;missing_inputs&quot;: [
+        &quot;Visual inspection of deployed channelizing devices for serviceability&quot;
+      ],
+      &quot;data_availability&quot;: &quot;not_attempted&quot;,
+      &quot;basis_evidence_ids&quot;: [
+        &quot;scene_facts.visual_scene_description.facts[4]&quot;,
+        &quot;scene_facts.opposing_direction_lane_fully_closed&quot;
+      ],
+      &quot;reason&quot;: &quot;Deployment in the inspected TTC zone is established by frozen facts, but serviceability is a visual semantic result not yet acquired.&quot;,
+      &quot;planned_tools&quot;: [
+        &quot;inspect_temporal_images&quot;
+      ],
+      &quot;planned_evidence_strategy&quot;: &quot;Inspect close, well-lit temporal views of the deployed cones, drums, and delineators for damage, displacement, contamination, and visibility.&quot;,
+      &quot;planned_decision_rule&quot;: &quot;Pass only if all inspected deployed channelizing devices are serviceable; any supported non-serviceable device fails, and obscured devices remain insufficient.&quot;,
+      &quot;availability_event_index&quot;: 22,
+      &quot;availability_timestamp&quot;: &quot;2026-10-22T03:09:15.625415+00:00&quot;
+    },
+    &quot;normative_applicability&quot;: &quot;true&quot;,
+    &quot;acquisition_plan&quot;: [
+      &quot;inspect_temporal_images&quot;
+    ],
+    &quot;acquisition_attempts&quot;: [],
+    &quot;tools_called&quot;: [
+      &quot;inspect_observation_images&quot;
+    ],
+    &quot;acquired_inputs&quot;: [
+      &quot;Visual inspection of deployed channelizing devices for serviceability&quot;
+    ],
+    &quot;derivation_evidence_ids&quot;: [],
+    &quot;external_evidence_ids&quot;: [],
+    &quot;unresolved_inputs&quot;: [],
+    &quot;final_data_availability&quot;: &quot;acquired&quot;,
+    &quot;failure_reason&quot;: null,
+    &quot;image_assessable&quot;: true,
+    &quot;inspection_status&quot;: &quot;satisfied&quot;,
+    &quot;evidence_ids&quot;: [
+      &quot;evidence_bd634f5e94c32bb88256&quot;
+    ],
+    &quot;measurement_ids&quot;: [],
+    &quot;inspection_reason&quot;: &quot;Channelizing devices are deployed, and the inspected representative view shows devices upright, visible, and generally intact, with the line continuing toward the intersection. No clear material serviceability violation is established.&quot;,
+    &quot;requires_human_review&quot;: false,
+    &quot;inspection_event_index&quot;: 88,
+    &quot;inspection_timestamp&quot;: &quot;2026-10-22T03:18:10.396237+00:00&quot;
+  },
+  &quot;cited_evidence&quot;: {
+    &quot;evidence_bd634f5e94c32bb88256&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_4b36f1dbdb9f7c39&quot;,
+      &quot;evidence_kind&quot;: &quot;visual_observation&quot;,
+      &quot;source_ids&quot;: [
+        &quot;W3_T83999990_Q001&quot;
+      ],
+      &quot;acquired_inputs&quot;: [
+        &quot;Visual inspection of deployed channelizing devices for serviceability&quot;
+      ],
+      &quot;unresolved_inputs&quot;: [],
+      &quot;finding&quot;: &quot;The inspected channelizing devices appear upright, visible, and generally intact in the representative close view; the temporal sequence shows the deployed line continuing toward the intersection.&quot;,
+      &quot;limitations&quot;: &quot;A single representative close view and temporal coverage do not establish serviceability of every deployed device.&quot;,
+      &quot;tools_used&quot;: [
+        &quot;inspect_observation_images&quot;
+      ],
+      &quot;inspection_bundle_ids&quot;: [
+        &quot;visual_bundle_bd69f7488e5029149e69&quot;
+      ],
+      &quot;evidence_id&quot;: &quot;evidence_bd634f5e94c32bb88256&quot;,
+      &quot;evidence_fingerprint&quot;: &quot;bd634f5e94c32bb88256ed779e93cb658ecdf125bab28f7e1bf56d0153f4d534&quot;,
+      &quot;evidence_event_index&quot;: 52,
+      &quot;evidence_timestamp&quot;: &quot;2026-10-22T03:15:26.356542+00:00&quot;
+    }
+  },
+  &quot;cited_measurements&quot;: {}
+}</pre></details></td></tr><tr><td>4</td><td>SEC-6K.12 02: Other channelizing devices<br><small>should · SEC-6K.12 paragraph 02; PDF page 863</small></td><td class="satisfied">未发现明显不符<br><small>适用性：true</small></td><td>The inspected images show orange-and-white channelizing devices used for the closure, with no clear material violation established. Exact characteristics for every device are not resolved, but unresolved visual detail is not proof of deficiency.<br><small>未解决输入：无</small><details><summary>规范原文、证据与测量记录</summary><pre>{
+  &quot;requirement&quot;: {
+    &quot;requirement_fingerprint&quot;: &quot;aa7f07b1d07ed2cbe66b8002cebb4fddeacf5ef5d8cb36f5115d19d1c2988d4f&quot;,
+    &quot;candidate_label&quot;: &quot;SEC-6K.12 02: Other channelizing devices&quot;,
+    &quot;relation&quot;: &quot;should_comply&quot;,
+    &quot;measurement_spec&quot;: {
+      &quot;required&quot;: false,
+      &quot;tool&quot;: null,
+      &quot;quantity&quot;: null,
+      &quot;thresholds&quot;: []
+    },
+    &quot;discovered_requirement_key&quot;: &quot;req_aa7f07b1d07ed2cb&quot;,
+    &quot;required_inputs&quot;: [
+      &quot;raw_images&quot;
+    ],
+    &quot;source_node_ids&quot;: [
+      &quot;src_05ce54d97e292ab88f8f&quot;
+    ],
+    &quot;source_locator&quot;: &quot;SEC-6K.12 paragraph 02; PDF page 863&quot;,
+    &quot;source_span&quot;: &quot;Other channelizing devices should comply with the general size, color, stripe pattern, retroreflection, and placement characteristics established for the devices described in this Chapter. December 2023 Sect. 6K.11 to 6K.12 Page 824 MUTCD 11th Edition CHAPTER 6L. OTHER TTC ZONE TRAFFIC CONTROL DEVICES&quot;,
+    &quot;modality&quot;: &quot;should&quot;,
+    &quot;subject&quot;: &quot;Other channelizing devices&quot;,
+    &quot;threshold&quot;: &quot;Other channelizing devices should comply with the general size, color, stripe pattern, retroreflection, and placement characteristics established for the devices described in this Chapter. December 2023 Sect. 6K.11 to 6K.12 Page 824 MUTCD 11th Edition CHAPTER 6L. OTHER TTC ZONE TRAFFIC CONTROL DEVICES&quot;,
+    &quot;registration_timestamp&quot;: &quot;2026-10-22T03:05:47.555949+00:00&quot;,
+    &quot;applicability_conditions&quot;: [],
+    &quot;registration_event_index&quot;: 5,
+    &quot;model_extracted_source_span&quot;: &quot;Other channelizing devices should comply with the general size, color, stripe pattern, retroreflection, and placement characteristics established for the devices described in this Chapter. December 2023 Sect. 6K.11 to 6K.12 Page 824 MUTCD 11th Edition CHAPTER 6L. OTHER TTC ZONE TRAFFIC CONTROL DEVICES&quot;,
+    &quot;region&quot;: &quot;channelization_system&quot;,
+    &quot;data_availability_record&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_aa7f07b1d07ed2cb&quot;,
+      &quot;condition_data_complete&quot;: true,
+      &quot;available_inputs&quot;: [],
+      &quot;missing_inputs&quot;: [
+        &quot;raw_images&quot;
+      ],
+      &quot;data_availability&quot;: &quot;not_attempted&quot;,
+      &quot;basis_evidence_ids&quot;: [],
+      &quot;reason&quot;: &quot;The requirement is unconditional, but the inventory of images and observations does not itself provide the required visual characteristics.&quot;,
+      &quot;planned_tools&quot;: [
+        &quot;inspect_temporal_images&quot;
+      ],
+      &quot;planned_evidence_strategy&quot;: &quot;Inspect representative temporal images of each deployed channelizer type for size, color, stripe pattern, retroreflection, and placement characteristics.&quot;,
+      &quot;planned_decision_rule&quot;: &quot;Pass only for characteristics supported by visible evidence across applicable device types; obscured or unresolvable characteristics are insufficient.&quot;,
+      &quot;availability_event_index&quot;: 23,
+      &quot;availability_timestamp&quot;: &quot;2026-10-22T03:09:15.625419+00:00&quot;
+    },
+    &quot;normative_applicability&quot;: &quot;true&quot;,
+    &quot;acquisition_plan&quot;: [
+      &quot;inspect_temporal_images&quot;
+    ],
+    &quot;acquisition_attempts&quot;: [],
+    &quot;tools_called&quot;: [
+      &quot;inspect_observation_images&quot;
+    ],
+    &quot;acquired_inputs&quot;: [
+      &quot;raw_images&quot;
+    ],
+    &quot;derivation_evidence_ids&quot;: [],
+    &quot;external_evidence_ids&quot;: [],
+    &quot;unresolved_inputs&quot;: [],
+    &quot;final_data_availability&quot;: &quot;acquired&quot;,
+    &quot;failure_reason&quot;: null,
+    &quot;image_assessable&quot;: true,
+    &quot;inspection_status&quot;: &quot;satisfied&quot;,
+    &quot;evidence_ids&quot;: [
+      &quot;evidence_79c8355791d38b6a75ab&quot;
+    ],
+    &quot;measurement_ids&quot;: [],
+    &quot;inspection_reason&quot;: &quot;The inspected images show orange-and-white channelizing devices used for the closure, with no clear material violation established. Exact characteristics for every device are not resolved, but unresolved visual detail is not proof of deficiency.&quot;,
+    &quot;requires_human_review&quot;: false,
+    &quot;inspection_event_index&quot;: 92,
+    &quot;inspection_timestamp&quot;: &quot;2026-10-22T03:18:10.396250+00:00&quot;
+  },
+  &quot;cited_evidence&quot;: {
+    &quot;evidence_79c8355791d38b6a75ab&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_aa7f07b1d07ed2cb&quot;,
+      &quot;evidence_kind&quot;: &quot;visual_observation&quot;,
+      &quot;source_ids&quot;: [
+        &quot;W3_T83999990_Q001&quot;
+      ],
+      &quot;acquired_inputs&quot;: [
+        &quot;raw_images&quot;
+      ],
+      &quot;unresolved_inputs&quot;: [],
+      &quot;finding&quot;: &quot;Inspected images show orange-and-white channelizing devices, including closely spaced cones/drums/delineators, used to delineate the opposing-side closure.&quot;,
+      &quot;limitations&quot;: &quot;Exact size, stripe pattern, retroreflection, and placement characteristics for every applicable device type are not resolved.&quot;,
+      &quot;tools_used&quot;: [
+        &quot;inspect_observation_images&quot;
+      ],
+      &quot;inspection_bundle_ids&quot;: [
+        &quot;visual_bundle_bd69f7488e5029149e69&quot;
+      ],
+      &quot;evidence_id&quot;: &quot;evidence_79c8355791d38b6a75ab&quot;,
+      &quot;evidence_fingerprint&quot;: &quot;79c8355791d38b6a75ab5ab0370488321d2bdebd0b6dbe2f9ed6085f07c8d496&quot;,
+      &quot;evidence_event_index&quot;: 55,
+      &quot;evidence_timestamp&quot;: &quot;2026-10-22T03:15:26.356552+00:00&quot;
+    }
+  },
+  &quot;cited_measurements&quot;: {}
+}</pre></details></td></tr><tr><td>5</td><td>SEC-6H.03 01: The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions<br><small>should · SEC-6H.03 paragraph 01; PDF page 842</small></td><td class="satisfied">未发现明显不符<br><small>适用性：true</small></td><td>ROAD WORK AHEAD signs are visibly present on the approach. The work-space or detour endpoint and precise longitudinal ordering could not be resolved, and the failed measurement provides no deficiency evidence; therefore no clear material violation is established.<br><small>未解决输入：无</small><details><summary>规范原文、证据与测量记录</summary><pre>{
+  &quot;requirement&quot;: {
+    &quot;requirement_fingerprint&quot;: &quot;47aa373310aaf15621501fc2453e067af4e4daf67dc67cbf7e6d395bda9d67ae&quot;,
+    &quot;candidate_label&quot;: &quot;SEC-6H.03 01: The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions&quot;,
+    &quot;relation&quot;: &quot;should_comply&quot;,
+    &quot;measurement_spec&quot;: {
+      &quot;required&quot;: true,
+      &quot;tool&quot;: &quot;measure_longitudinal_distance&quot;,
+      &quot;quantity&quot;: &quot;distance from ROAD WORK sign to work space or any detour&quot;,
+      &quot;thresholds&quot;: [
+        {
+          &quot;condition&quot;: &quot;sign is not in advance of work space or detour&quot;,
+          &quot;value&quot;: 0,
+          &quot;unit&quot;: &quot;ft&quot;,
+          &quot;violation_when&quot;: &quot;below_minimum&quot;,
+          &quot;formula_parameter&quot;: null,
+          &quot;multiplier&quot;: null
+        }
+      ]
+    },
+    &quot;discovered_requirement_key&quot;: &quot;req_47aa373310aaf156&quot;,
+    &quot;required_inputs&quot;: [
+      &quot;raw_images&quot;
+    ],
+    &quot;source_node_ids&quot;: [
+      &quot;src_26bd048211769b2b09e8&quot;
+    ],
+    &quot;source_locator&quot;: &quot;SEC-6H.03 paragraph 01; PDF page 842&quot;,
+    &quot;source_span&quot;: &quot;The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions, should be located in advance of the work space or any detour, on the road where the work is taking place.&quot;,
+    &quot;modality&quot;: &quot;should&quot;,
+    &quot;subject&quot;: &quot;The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions,&quot;,
+    &quot;threshold&quot;: &quot;The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions, should be located in advance of the work space or any detour, on the road where the work is taking place.&quot;,
+    &quot;registration_timestamp&quot;: &quot;2026-10-22T03:05:51.004631+00:00&quot;,
+    &quot;applicability_conditions&quot;: [],
+    &quot;registration_event_index&quot;: 6,
+    &quot;model_extracted_source_span&quot;: &quot;The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions, should be located in advance of the work space or any detour, on the road where the work is taking place.&quot;,
+    &quot;region&quot;: &quot;advance_warning_sign_system&quot;,
+    &quot;data_availability_record&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_47aa373310aaf156&quot;,
+      &quot;condition_data_complete&quot;: true,
+      &quot;available_inputs&quot;: [],
+      &quot;missing_inputs&quot;: [
+        &quot;raw_images&quot;
+      ],
+      &quot;data_availability&quot;: &quot;not_attempted&quot;,
+      &quot;basis_evidence_ids&quot;: [],
+      &quot;reason&quot;: &quot;The requirement is unconditional and requires visual inspection plus longitudinal interpretation; no frozen semantic result states the sign&#x27;s position relative to the work space or detour.&quot;,
+      &quot;planned_tools&quot;: [
+        &quot;inspect_temporal_images&quot;,
+        &quot;measure_longitudinal_distance&quot;
+      ],
+      &quot;planned_evidence_strategy&quot;: &quot;Inspect each visible ROAD WORK sign and locate the work space or detour, then measure their longitudinal ordering along the roadway.&quot;,
+      &quot;planned_decision_rule&quot;: &quot;Pass only when the ROAD WORK sign is demonstrated to be upstream of the work space or any detour on the work road; unresolved work-space location is insufficient.&quot;,
+      &quot;availability_event_index&quot;: 24,
+      &quot;availability_timestamp&quot;: &quot;2026-10-22T03:09:15.625422+00:00&quot;
+    },
+    &quot;normative_applicability&quot;: &quot;true&quot;,
+    &quot;acquisition_plan&quot;: [
+      &quot;inspect_temporal_images&quot;,
+      &quot;measure_longitudinal_distance&quot;
+    ],
+    &quot;acquisition_attempts&quot;: [
+      &quot;attempt_e52a36ed119c44b9df03&quot;
+    ],
+    &quot;tools_called&quot;: [
+      &quot;inspect_observation_images&quot;,
+      &quot;inspect_temporal_images&quot;,
+      &quot;measure_longitudinal_distance&quot;
+    ],
+    &quot;acquired_inputs&quot;: [
+      &quot;raw_images&quot;
+    ],
+    &quot;derivation_evidence_ids&quot;: [],
+    &quot;external_evidence_ids&quot;: [],
+    &quot;unresolved_inputs&quot;: [],
+    &quot;final_data_availability&quot;: &quot;acquired&quot;,
+    &quot;failure_reason&quot;: null,
+    &quot;image_assessable&quot;: true,
+    &quot;inspection_status&quot;: &quot;satisfied&quot;,
+    &quot;evidence_ids&quot;: [
+      &quot;evidence_1cfa7f20cf22277a5f69&quot;,
+      &quot;evidence_b54bb129421882f09dc5&quot;
+    ],
+    &quot;measurement_ids&quot;: [],
+    &quot;inspection_reason&quot;: &quot;ROAD WORK AHEAD signs are visibly present on the approach. The work-space or detour endpoint and precise longitudinal ordering could not be resolved, and the failed measurement provides no deficiency evidence; therefore no clear material violation is established.&quot;,
+    &quot;requires_human_review&quot;: false,
+    &quot;inspection_event_index&quot;: 87,
+    &quot;inspection_timestamp&quot;: &quot;2026-10-22T03:18:10.396234+00:00&quot;
+  },
+  &quot;cited_evidence&quot;: {
+    &quot;evidence_1cfa7f20cf22277a5f69&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_47aa373310aaf156&quot;,
+      &quot;evidence_kind&quot;: &quot;visual_observation&quot;,
+      &quot;source_ids&quot;: [
+        &quot;W3_T63799999_Q008&quot;,
+        &quot;W3_T71699999_Q006&quot;,
+        &quot;W3_T82899999_Q016&quot;,
+        &quot;W3_T84199999_Q017&quot;,
+        &quot;W3_T84399999_Q016&quot;,
+        &quot;workzone3__CAM_FRONT__61099999&quot;,
+        &quot;workzone3__CAM_FRONT__64499999&quot;,
+        &quot;workzone3__CAM_FRONT__67899999&quot;,
+        &quot;workzone3__CAM_FRONT__71299999&quot;,
+        &quot;workzone3__CAM_FRONT__74699999&quot;,
+        &quot;workzone3__CAM_FRONT__78099999&quot;,
+        &quot;workzone3__CAM_FRONT__81499999&quot;,
+        &quot;workzone3__CAM_FRONT__84899999&quot;
+      ],
+      &quot;acquired_inputs&quot;: [
+        &quot;raw_images&quot;
+      ],
+      &quot;unresolved_inputs&quot;: [],
+      &quot;finding&quot;: &quot;Inspected representative and temporal images acquired raw visual input showing ROAD WORK AHEAD/work-zone signs in the approach to the channelized area.&quot;,
+      &quot;limitations&quot;: &quot;The images do not establish the work-space or detour longitudinal position needed to determine the required sign ordering.&quot;,
+      &quot;tools_used&quot;: [
+        &quot;inspect_observation_images&quot;,
+        &quot;inspect_temporal_images&quot;
+      ],
+      &quot;inspection_bundle_ids&quot;: [
+        &quot;visual_bundle_64205d8bc0d3b80065a4&quot;,
+        &quot;visual_bundle_ad7020064a32d6c4eee8&quot;
+      ],
+      &quot;evidence_id&quot;: &quot;evidence_1cfa7f20cf22277a5f69&quot;,
+      &quot;evidence_fingerprint&quot;: &quot;1cfa7f20cf22277a5f692f8b286d6565a0dc1181d010cdc4413d611361f9ad53&quot;,
+      &quot;evidence_event_index&quot;: 51,
+      &quot;evidence_timestamp&quot;: &quot;2026-10-22T03:15:26.356538+00:00&quot;
+    },
+    &quot;evidence_b54bb129421882f09dc5&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_47aa373310aaf156&quot;,
+      &quot;evidence_kind&quot;: &quot;acquisition_failure&quot;,
+      &quot;source_ids&quot;: [
+        &quot;attempt_e52a36ed119c44b9df03&quot;
+      ],
+      &quot;acquired_inputs&quot;: [],
+      &quot;unresolved_inputs&quot;: [],
+      &quot;finding&quot;: &quot;The registered longitudinal-distance measurement for the ROAD WORK sign relative to the work space or detour failed because the requirement was unavailable to the measurement tool; no measurement value or threshold assessment was acquired.&quot;,
+      &quot;limitations&quot;: &quot;The measurement output had quality flag registered_measurement_unavailable and failure reason measurement_for_unavailable_requirement. The work-space or detour endpoint semantics were not available for a valid measurement.&quot;,
+      &quot;tools_used&quot;: [
+        &quot;measure_longitudinal_distance&quot;
+      ],
+      &quot;acquisition_attempt_id&quot;: &quot;attempt_e52a36ed119c44b9df03&quot;,
+      &quot;evidence_id&quot;: &quot;evidence_b54bb129421882f09dc5&quot;,
+      &quot;evidence_fingerprint&quot;: &quot;b54bb129421882f09dc5138557dafb3e2f1157780ccc40cfeaee03eb0baaf017&quot;,
+      &quot;evidence_event_index&quot;: 67,
+      &quot;evidence_timestamp&quot;: &quot;2026-10-22T03:17:46.337826+00:00&quot;
+    }
+  },
+  &quot;cited_measurements&quot;: {}
+}</pre></details></td></tr><tr><td>6</td><td>SEC-6B.05 02: Except for mobile operations, when redirection of the road users’ normal path is required, road users<br><small>shall · SEC-6B.05 paragraph 02; PDF page 811</small></td><td class="satisfied">未发现明显不符<br><small>适用性：true</small></td><td>Temporal evidence shows the closed opposing-direction path separated by channelizing devices while the ego-direction path remains open, with a taper or narrowing end near the intersection. No clear material failure to redirect road users is established.<br><small>未解决输入：无</small><details><summary>规范原文、证据与测量记录</summary><pre>{
+  &quot;requirement&quot;: {
+    &quot;requirement_fingerprint&quot;: &quot;8934040d233c7213b2ca4a155dc91f50f2700f23ec818987f4a92bd91fa280e8&quot;,
+    &quot;candidate_label&quot;: &quot;SEC-6B.05 02: Except for mobile operations, when redirection of the road users’ normal path is required, road users&quot;,
+    &quot;relation&quot;: &quot;shall_comply&quot;,
+    &quot;measurement_spec&quot;: {
+      &quot;required&quot;: false,
+      &quot;tool&quot;: null,
+      &quot;quantity&quot;: null,
+      &quot;thresholds&quot;: []
+    },
+    &quot;discovered_requirement_key&quot;: &quot;req_8934040d233c7213&quot;,
+    &quot;required_inputs&quot;: [
+      &quot;raw_images&quot;
+    ],
+    &quot;source_node_ids&quot;: [
+      &quot;src_586d1639348f00b7b529&quot;
+    ],
+    &quot;source_locator&quot;: &quot;SEC-6B.05 paragraph 02; PDF page 811&quot;,
+    &quot;source_span&quot;: &quot;Except for mobile operations, when redirection of the road users’ normal path is required, road users shall be directed from the normal path to a new path with appropriate channelizing devices, traffic control devices, and/or TTC methods.&quot;,
+    &quot;modality&quot;: &quot;shall&quot;,
+    &quot;subject&quot;: &quot;Except for mobile operations, when redirection of the road users’ normal path is required, road users&quot;,
+    &quot;threshold&quot;: &quot;Except for mobile operations, when redirection of the road users’ normal path is required, road users shall be directed from the normal path to a new path with appropriate channelizing devices, traffic control devices, and/or TTC methods.&quot;,
+    &quot;registration_timestamp&quot;: &quot;2026-10-22T03:06:09.513531+00:00&quot;,
+    &quot;applicability_conditions&quot;: [],
+    &quot;registration_event_index&quot;: 7,
+    &quot;model_extracted_source_span&quot;: &quot;Except for mobile operations, when redirection of the road users’ normal path is required, road users shall be directed from the normal path to a new path with appropriate channelizing devices, traffic control devices, and/or TTC methods.&quot;,
+    &quot;region&quot;: &quot;transition_and_taper_geometry&quot;,
+    &quot;data_availability_record&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_8934040d233c7213&quot;,
+      &quot;condition_data_complete&quot;: true,
+      &quot;available_inputs&quot;: [],
+      &quot;missing_inputs&quot;: [
+        &quot;raw_images&quot;
+      ],
+      &quot;data_availability&quot;: &quot;not_attempted&quot;,
+      &quot;basis_evidence_ids&quot;: [],
+      &quot;reason&quot;: &quot;The requirement is unconditional; frozen facts describe an open ego path and channelizers but do not replace the required visual interpretation of the redirection.&quot;,
+      &quot;planned_tools&quot;: [
+        &quot;inspect_temporal_images&quot;
+      ],
+      &quot;planned_evidence_strategy&quot;: &quot;Inspect the approach and transition to verify that the normal path is redirected to the open path using appropriate channelizing devices, traffic control devices, or TTC methods, excluding mobile operations.&quot;,
+      &quot;planned_decision_rule&quot;: &quot;Pass only if the complete observed redirection is visibly supported by appropriate devices or methods; otherwise report failure or insufficient evidence as visibility permits.&quot;,
+      &quot;availability_event_index&quot;: 25,
+      &quot;availability_timestamp&quot;: &quot;2026-10-22T03:09:15.625425+00:00&quot;
+    },
+    &quot;normative_applicability&quot;: &quot;true&quot;,
+    &quot;acquisition_plan&quot;: [
+      &quot;inspect_temporal_images&quot;
+    ],
+    &quot;acquisition_attempts&quot;: [],
+    &quot;tools_called&quot;: [
+      &quot;inspect_observation_images&quot;,
+      &quot;inspect_temporal_images&quot;
+    ],
+    &quot;acquired_inputs&quot;: [
+      &quot;raw_images&quot;
+    ],
+    &quot;derivation_evidence_ids&quot;: [],
+    &quot;external_evidence_ids&quot;: [],
+    &quot;unresolved_inputs&quot;: [],
+    &quot;final_data_availability&quot;: &quot;acquired&quot;,
+    &quot;failure_reason&quot;: null,
+    &quot;image_assessable&quot;: true,
+    &quot;inspection_status&quot;: &quot;satisfied&quot;,
+    &quot;evidence_ids&quot;: [
+      &quot;evidence_3083778e45ddad6be7a2&quot;
+    ],
+    &quot;measurement_ids&quot;: [],
+    &quot;inspection_reason&quot;: &quot;Temporal evidence shows the closed opposing-direction path separated by channelizing devices while the ego-direction path remains open, with a taper or narrowing end near the intersection. No clear material failure to redirect road users is established.&quot;,
+    &quot;requires_human_review&quot;: false,
+    &quot;inspection_event_index&quot;: 90,
+    &quot;inspection_timestamp&quot;: &quot;2026-10-22T03:18:10.396244+00:00&quot;
+  },
+  &quot;cited_evidence&quot;: {
+    &quot;evidence_3083778e45ddad6be7a2&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_8934040d233c7213&quot;,
+      &quot;evidence_kind&quot;: &quot;visual_observation&quot;,
+      &quot;source_ids&quot;: [
+        &quot;W3_T83999990_Q001&quot;,
+        &quot;workzone3__CAM_FRONT__61099999&quot;,
+        &quot;workzone3__CAM_FRONT__64499999&quot;,
+        &quot;workzone3__CAM_FRONT__67899999&quot;,
+        &quot;workzone3__CAM_FRONT__71299999&quot;,
+        &quot;workzone3__CAM_FRONT__74699999&quot;,
+        &quot;workzone3__CAM_FRONT__78099999&quot;,
+        &quot;workzone3__CAM_FRONT__81499999&quot;,
+        &quot;workzone3__CAM_FRONT__84899999&quot;
+      ],
+      &quot;acquired_inputs&quot;: [
+        &quot;raw_images&quot;
+      ],
+      &quot;unresolved_inputs&quot;: [],
+      &quot;finding&quot;: &quot;Temporal inspection acquired visual evidence that the normal opposing-direction path is closed and separated from the open ego-direction path by channelizing devices, with a taper or narrowing end near the intersection.&quot;,
+      &quot;limitations&quot;: &quot;The complete transition geometry and all applicable TTC methods are not fully measurable from the inspected images.&quot;,
+      &quot;tools_used&quot;: [
+        &quot;inspect_observation_images&quot;,
+        &quot;inspect_temporal_images&quot;
+      ],
+      &quot;inspection_bundle_ids&quot;: [
+        &quot;visual_bundle_64205d8bc0d3b80065a4&quot;,
+        &quot;visual_bundle_bd69f7488e5029149e69&quot;
+      ],
+      &quot;evidence_id&quot;: &quot;evidence_3083778e45ddad6be7a2&quot;,
+      &quot;evidence_fingerprint&quot;: &quot;3083778e45ddad6be7a2353b96224025fb352724891b3328505ed70b0315e7a0&quot;,
+      &quot;evidence_event_index&quot;: 53,
+      &quot;evidence_timestamp&quot;: &quot;2026-10-22T03:15:26.356545+00:00&quot;
+    }
+  },
+  &quot;cited_measurements&quot;: {}
+}</pre></details></td></tr><tr><td>7</td><td>SEC-6K.06 01: Drums (see Figure 6K-1) used for road user warning or channelization<br><small>shall · SEC-6K.06 paragraph 01; PDF page 860</small></td><td class="not_assessed">证据不足 / 未评判<br><small>适用性：true</small></td><td>Required ego-trajectory and LiDAR inputs were not acquired and no authorized route was available. The images show orange-and-white devices but cannot resolve all required drum dimensions, material, markings, or top-closure characteristics.<br><small>未解决输入：ego_trajectory, lidar_points</small><details><summary>规范原文、证据与测量记录</summary><pre>{
+  &quot;requirement&quot;: {
+    &quot;requirement_fingerprint&quot;: &quot;2aaae0362bf830218cecaed4cc53b30e11ea41f2dbda4ba2da2e5556d1cf7c3e&quot;,
+    &quot;candidate_label&quot;: &quot;SEC-6K.06 01: Drums (see Figure 6K-1) used for road user warning or channelization&quot;,
+    &quot;relation&quot;: &quot;shall_comply&quot;,
+    &quot;measurement_spec&quot;: {
+      &quot;required&quot;: false,
+      &quot;tool&quot;: null,
+      &quot;quantity&quot;: null,
+      &quot;thresholds&quot;: []
+    },
+    &quot;discovered_requirement_key&quot;: &quot;req_2aaae0362bf83021&quot;,
+    &quot;required_inputs&quot;: [
+      &quot;raw_images&quot;,
+      &quot;accepted_bbox_observations&quot;,
+      &quot;ego_trajectory&quot;,
+      &quot;lidar_points&quot;
+    ],
+    &quot;source_node_ids&quot;: [
+      &quot;src_608804d2b34f811a3a6c&quot;
+    ],
+    &quot;source_locator&quot;: &quot;SEC-6K.06 paragraph 01; PDF page 860&quot;,
+    &quot;source_span&quot;: &quot;Drums (see Figure 6K-1) used for road user warning or channelization shall be constructed of lightweight, deformable materials. They shall be a minimum of 36 inches in height and have at least an 18-inch minimum width regardless of orientation. Metal drums shall not be used. The markings on drums shall be horizontal, circumferential, alternating orange and white retroreflective stripes 4 to 6 inches wide. Each drum shall have a minimum of two orange and two white stripes with the top stripe being orange. Any non-retroreflectorized spaces between the horizontal orange and white stripes shall not exceed 3 inches wide. Drums shall have closed tops that will not allow collection of construction debris or other debris.&quot;,
+    &quot;modality&quot;: &quot;shall&quot;,
+    &quot;subject&quot;: &quot;Drums (see Figure 6K-1) used for road user warning or channelization&quot;,
+    &quot;threshold&quot;: &quot;Drums (see Figure 6K-1) used for road user warning or channelization shall be constructed of lightweight, deformable materials. They shall be a minimum of 36 inches in height and have at least an 18-inch minimum width regardless of orientation. Metal drums shall not be used. The markings on drums shall be horizontal, circumferential, alternating orange and white retroreflective stripes 4 to 6 inches wide. Each drum shall have a minimum of two orange and two white stripes with the top stripe being orange. Any non-retroreflectorized spaces between the horizontal orange and white stripes shall not exceed 3 inches wide. Drums shall have closed tops that will not allow collection of construction debris or other debris.&quot;,
+    &quot;registration_timestamp&quot;: &quot;2026-10-22T03:06:09.513619+00:00&quot;,
+    &quot;applicability_conditions&quot;: [],
+    &quot;registration_event_index&quot;: 8,
+    &quot;model_extracted_source_span&quot;: &quot;Drums (see Figure 6K-1) used for road user warning or channelization shall be constructed of lightweight, deformable materials. They shall be a minimum of 36 inches in height and have at least an 18-inch minimum width regardless of orientation. Metal drums shall not be used. The markings on drums shall be horizontal, circumferential, alternating orange and white retroreflective stripes 4 to 6 inches wide. Each drum shall have a minimum of two orange and two white stripes with the top stripe being orange. Any non-retroreflectorized spaces between the horizontal orange and white stripes shall not exceed 3 inches wide. Drums shall have closed tops that will not allow collection of construction debris or other debris.&quot;,
+    &quot;region&quot;: &quot;channelization_system&quot;,
+    &quot;data_availability_record&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_2aaae0362bf83021&quot;,
+      &quot;condition_data_complete&quot;: true,
+      &quot;available_inputs&quot;: [
+        &quot;accepted_bbox_observations&quot;
+      ],
+      &quot;missing_inputs&quot;: [
+        &quot;raw_images&quot;,
+        &quot;ego_trajectory&quot;,
+        &quot;lidar_points&quot;
+      ],
+      &quot;data_availability&quot;: &quot;partial&quot;,
+      &quot;basis_evidence_ids&quot;: [
+        &quot;manifest.accepted_bbox_observations&quot;,
+        &quot;manifest.accepted_bbox_observations_by_class&quot;,
+        &quot;scene_facts.visual_scene_description.facts[4]&quot;
+      ],
+      &quot;reason&quot;: &quot;Accepted bbox observations are directly available from the frozen inventory. Raw images, ego trajectory, and lidar points are derivable inputs but have not been acquired as the required inspection or measurement evidence.&quot;,
+      &quot;planned_tools&quot;: [
+        &quot;inspect_temporal_images&quot;,
+        &quot;get_vehicle_trajectory&quot;,
+        &quot;project_bbox_to_lidar&quot;
+      ],
+      &quot;planned_evidence_strategy&quot;: &quot;Inspect images for drum identity and markings, and use trajectory and lidar projection where needed to resolve dimensions, material, stripe count and width, top closure, and device orientation.&quot;,
+      &quot;planned_decision_rule&quot;: &quot;Pass only when every applicable drum characteristic is supported; a confirmed noncompliant characteristic fails, while unresolved characteristics remain insufficient.&quot;,
+      &quot;availability_event_index&quot;: 26,
+      &quot;availability_timestamp&quot;: &quot;2026-10-22T03:09:15.625428+00:00&quot;
+    },
+    &quot;normative_applicability&quot;: &quot;true&quot;,
+    &quot;acquisition_plan&quot;: [
+      &quot;inspect_temporal_images&quot;,
+      &quot;get_vehicle_trajectory&quot;,
+      &quot;project_bbox_to_lidar&quot;
+    ],
+    &quot;acquisition_attempts&quot;: [
+      &quot;attempt_d1a4ee1fa640f8bc8caa&quot;
+    ],
+    &quot;tools_called&quot;: [
+      &quot;inspect_observation_images&quot;
+    ],
+    &quot;acquired_inputs&quot;: [
+      &quot;accepted_bbox_observations&quot;,
+      &quot;raw_images&quot;
+    ],
+    &quot;derivation_evidence_ids&quot;: [],
+    &quot;external_evidence_ids&quot;: [],
+    &quot;unresolved_inputs&quot;: [
+      &quot;ego_trajectory&quot;,
+      &quot;lidar_points&quot;
+    ],
+    &quot;final_data_availability&quot;: &quot;partial&quot;,
+    &quot;failure_reason&quot;: &quot;Required inputs remain unresolved: ego_trajectory; lidar_points&quot;,
+    &quot;image_assessable&quot;: true,
+    &quot;inspection_status&quot;: &quot;not_assessed&quot;,
+    &quot;evidence_ids&quot;: [
+      &quot;evidence_048b0c5e0fe5b3f0b8d2&quot;,
+      &quot;evidence_7b27a2eda90995b5a5b7&quot;,
+      &quot;evidence_bd6e0ae5db11067e2981&quot;
+    ],
+    &quot;measurement_ids&quot;: [],
+    &quot;inspection_reason&quot;: &quot;Required ego-trajectory and LiDAR inputs were not acquired and no authorized route was available. The images show orange-and-white devices but cannot resolve all required drum dimensions, material, markings, or top-closure characteristics.&quot;,
+    &quot;requires_human_review&quot;: false,
+    &quot;inspection_event_index&quot;: 84,
+    &quot;inspection_timestamp&quot;: &quot;2026-10-22T03:18:10.396210+00:00&quot;
+  },
+  &quot;cited_evidence&quot;: {
+    &quot;evidence_048b0c5e0fe5b3f0b8d2&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_2aaae0362bf83021&quot;,
+      &quot;evidence_kind&quot;: &quot;visual_observation&quot;,
+      &quot;source_ids&quot;: [
+        &quot;W3_T83999990_Q001&quot;
+      ],
+      &quot;acquired_inputs&quot;: [
+        &quot;raw_images&quot;
+      ],
+      &quot;unresolved_inputs&quot;: [],
+      &quot;finding&quot;: &quot;The inspected representative traffic-cone image and temporal CAM_FRONT frames acquired raw visual input showing orange-and-white channelizing devices along the opposing-side closure.&quot;,
+      &quot;limitations&quot;: &quot;Ego trajectory and LiDAR points were not acquired; raw images do not establish all drum dimensions, material, stripe widths/count, top closure, or every device characteristic.&quot;,
+      &quot;tools_used&quot;: [
+        &quot;inspect_observation_images&quot;
+      ],
+      &quot;inspection_bundle_ids&quot;: [
+        &quot;visual_bundle_bd69f7488e5029149e69&quot;
+      ],
+      &quot;evidence_id&quot;: &quot;evidence_048b0c5e0fe5b3f0b8d2&quot;,
+      &quot;evidence_fingerprint&quot;: &quot;048b0c5e0fe5b3f0b8d2fb4fb21181d6ae3c6a07cb69ba1f5ef80aa5880253d2&quot;,
+      &quot;evidence_event_index&quot;: 48,
+      &quot;evidence_timestamp&quot;: &quot;2026-10-22T03:15:26.356515+00:00&quot;
+    },
+    &quot;evidence_7b27a2eda90995b5a5b7&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_2aaae0362bf83021&quot;,
+      &quot;evidence_kind&quot;: &quot;direct_fact&quot;,
+      &quot;source_ids&quot;: [
+        &quot;manifest.accepted_bbox_observations&quot;,
+        &quot;manifest.accepted_bbox_observations_by_class&quot;,
+        &quot;scene_facts.visual_scene_description.facts[4]&quot;
+      ],
+      &quot;acquired_inputs&quot;: [
+        &quot;accepted_bbox_observations&quot;
+      ],
+      &quot;unresolved_inputs&quot;: [],
+      &quot;finding&quot;: &quot;Frozen direct inputs: accepted_bbox_observations.&quot;,
+      &quot;limitations&quot;: &quot;Only the listed direct inputs are established; remaining inputs require Stage 4 acquisition.&quot;,
+      &quot;tools_used&quot;: [],
+      &quot;evidence_id&quot;: &quot;evidence_7b27a2eda90995b5a5b7&quot;,
+      &quot;evidence_fingerprint&quot;: &quot;7b27a2eda90995b5a5b725e6594e6146031fc3beb7c67d4379e8cc847791f8e5&quot;,
+      &quot;evidence_event_index&quot;: 36,
+      &quot;evidence_timestamp&quot;: &quot;2026-10-22T03:14:56.903264+00:00&quot;
+    },
+    &quot;evidence_bd6e0ae5db11067e2981&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_2aaae0362bf83021&quot;,
+      &quot;evidence_kind&quot;: &quot;acquisition_failure&quot;,
+      &quot;source_ids&quot;: [
+        &quot;attempt_d1a4ee1fa640f8bc8caa&quot;
+      ],
+      &quot;acquired_inputs&quot;: [],
+      &quot;unresolved_inputs&quot;: [
+        &quot;ego_trajectory&quot;,
+        &quot;lidar_points&quot;
+      ],
+      &quot;finding&quot;: &quot;No authorized Stage 4 tool can acquire this frozen required input.&quot;,
+      &quot;limitations&quot;: &quot;The frozen Stage 3 plan and registered tools provide no acquisition route.&quot;,
+      &quot;tools_used&quot;: [],
+      &quot;acquisition_attempt_id&quot;: &quot;attempt_d1a4ee1fa640f8bc8caa&quot;,
+      &quot;evidence_id&quot;: &quot;evidence_bd6e0ae5db11067e2981&quot;,
+      &quot;evidence_fingerprint&quot;: &quot;bd6e0ae5db11067e298168080cb474e4a263287e8965eb5d7a901b4e3d8e2488&quot;,
+      &quot;evidence_event_index&quot;: 33,
+      &quot;evidence_timestamp&quot;: &quot;2026-10-22T03:14:56.903169+00:00&quot;
+    }
+  },
+  &quot;cited_measurements&quot;: {}
+}</pre></details></td></tr><tr><td>8</td><td>TA-19 directional-detour layout<br><small>should · TA-19 paragraph 01; PDF page 936</small></td><td class="satisfied">未发现明显不符<br><small>适用性：true</small></td><td>TA-19 is selected, opposing traffic is confirmed prohibited and routed via other roads, and temporal evidence shows the opposing direction closed and the ego-direction path open with channelization. No clear material departure from the selected directional-detour arrangement is established.<br><small>未解决输入：无</small><details><summary>规范原文、证据与测量记录</summary><pre>{
+  &quot;requirement&quot;: {
+    &quot;requirement_fingerprint&quot;: &quot;403dd72cd3369844c2a6a509192b4c4e32d96d9773b23b28be360097c4f7c98b&quot;,
+    &quot;candidate_label&quot;: &quot;TA-19 directional-detour layout&quot;,
+    &quot;relation&quot;: &quot;should conform to the selected TA-19 detour-for-one-travel-direction arrangement&quot;,
+    &quot;measurement_spec&quot;: {
+      &quot;required&quot;: false,
+      &quot;tool&quot;: null,
+      &quot;quantity&quot;: null,
+      &quot;thresholds&quot;: []
+    },
+    &quot;discovered_requirement_key&quot;: &quot;req_403dd72cd3369844&quot;,
+    &quot;required_inputs&quot;: [
+      &quot;Observed lane-closure routing and channelizer layout&quot;,
+      &quot;Confirmed opposing-traffic routing&quot;,
+      &quot;Selected TA layout&quot;
+    ],
+    &quot;source_node_ids&quot;: [
+      &quot;src_ff92896162b8a01b0836&quot;
+    ],
+    &quot;source_locator&quot;: &quot;TA-19 paragraph 01; PDF page 936&quot;,
+    &quot;source_span&quot;: &quot;This plan should be used for streets without posted route numbers.&quot;,
+    &quot;modality&quot;: &quot;should&quot;,
+    &quot;subject&quot;: &quot;directional lane-closure layout&quot;,
+    &quot;threshold&quot;: &quot;opposing traffic is prohibited from the closed direction, the open direction remains available to road users, and the closed direction is routed to an off-site detour&quot;,
+    &quot;registration_timestamp&quot;: &quot;2026-10-22T03:06:57.519402+00:00&quot;,
+    &quot;applicability_conditions&quot;: [
+      &quot;TA-19 is the selected applicable layout&quot;,
+      &quot;One travel direction is closed while the other remains open&quot;
+    ],
+    &quot;registration_event_index&quot;: 9,
+    &quot;region&quot;: &quot;lane_closure_layout&quot;,
+    &quot;data_availability_record&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_403dd72cd3369844&quot;,
+      &quot;condition_data_complete&quot;: true,
+      &quot;available_inputs&quot;: [
+        &quot;Confirmed opposing-traffic routing&quot;,
+        &quot;Selected TA layout&quot;
+      ],
+      &quot;missing_inputs&quot;: [
+        &quot;Observed lane-closure routing and channelizer layout&quot;
+      ],
+      &quot;data_availability&quot;: &quot;partial&quot;,
+      &quot;basis_evidence_ids&quot;: [
+        &quot;scene_facts.opposing_traffic_detour_confirmed&quot;,
+        &quot;selected_layouts[0]&quot;,
+        &quot;scene_facts.opposing_direction_lane_fully_closed&quot;,
+        &quot;scene_facts.alternating_one_way_operation&quot;
+      ],
+      &quot;reason&quot;: &quot;Frozen user confirmation and the selected TA-19 record directly establish opposing-traffic routing and the applicable layout, but the observed routing and channelizer-layout interpretation must still be acquired from inspection.&quot;,
+      &quot;planned_tools&quot;: [
+        &quot;inspect_temporal_images&quot;
+      ],
+      &quot;planned_evidence_strategy&quot;: &quot;Inspect the channelized closure and open ego-direction path across temporal frames, and compare the observed directional routing with TA-19.&quot;,
+      &quot;planned_decision_rule&quot;: &quot;Pass only if the closed direction is prohibited and routed off-site, the other direction remains available, and observed channelization conforms to the selected TA-19 arrangement.&quot;,
+      &quot;availability_event_index&quot;: 27,
+      &quot;availability_timestamp&quot;: &quot;2026-10-22T03:09:15.625431+00:00&quot;
+    },
+    &quot;normative_applicability&quot;: &quot;true&quot;,
+    &quot;acquisition_plan&quot;: [
+      &quot;inspect_temporal_images&quot;
+    ],
+    &quot;acquisition_attempts&quot;: [],
+    &quot;tools_called&quot;: [
+      &quot;inspect_observation_images&quot;,
+      &quot;inspect_temporal_images&quot;
+    ],
+    &quot;acquired_inputs&quot;: [
+      &quot;Confirmed opposing-traffic routing&quot;,
+      &quot;Observed lane-closure routing and channelizer layout&quot;,
+      &quot;Selected TA layout&quot;
+    ],
+    &quot;derivation_evidence_ids&quot;: [],
+    &quot;external_evidence_ids&quot;: [],
+    &quot;unresolved_inputs&quot;: [],
+    &quot;final_data_availability&quot;: &quot;acquired&quot;,
+    &quot;failure_reason&quot;: null,
+    &quot;image_assessable&quot;: true,
+    &quot;inspection_status&quot;: &quot;satisfied&quot;,
+    &quot;evidence_ids&quot;: [
+      &quot;evidence_07da6858a7017862f97b&quot;,
+      &quot;evidence_78866275c4e0937e29b9&quot;
+    ],
+    &quot;measurement_ids&quot;: [],
+    &quot;inspection_reason&quot;: &quot;TA-19 is selected, opposing traffic is confirmed prohibited and routed via other roads, and temporal evidence shows the opposing direction closed and the ego-direction path open with channelization. No clear material departure from the selected directional-detour arrangement is established.&quot;,
+    &quot;requires_human_review&quot;: false,
+    &quot;inspection_event_index&quot;: 86,
+    &quot;inspection_timestamp&quot;: &quot;2026-10-22T03:18:10.396230+00:00&quot;
+  },
+  &quot;cited_evidence&quot;: {
+    &quot;evidence_07da6858a7017862f97b&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_403dd72cd3369844&quot;,
+      &quot;evidence_kind&quot;: &quot;visual_observation&quot;,
+      &quot;source_ids&quot;: [
+        &quot;W3_T83999990_Q001&quot;,
+        &quot;workzone3__CAM_FRONT__61099999&quot;,
+        &quot;workzone3__CAM_FRONT__64499999&quot;,
+        &quot;workzone3__CAM_FRONT__67899999&quot;,
+        &quot;workzone3__CAM_FRONT__71299999&quot;,
+        &quot;workzone3__CAM_FRONT__74699999&quot;,
+        &quot;workzone3__CAM_FRONT__78099999&quot;,
+        &quot;workzone3__CAM_FRONT__81499999&quot;,
+        &quot;workzone3__CAM_FRONT__84899999&quot;
+      ],
+      &quot;acquired_inputs&quot;: [
+        &quot;Observed lane-closure routing and channelizer layout&quot;
+      ],
+      &quot;unresolved_inputs&quot;: [],
+      &quot;finding&quot;: &quot;Temporal inspection acquired the observed routing and layout: the ego-direction path remains open, the opposing direction is separated by a longitudinal orange-and-white channelizer line, and the line approaches and tapers near the intersection.&quot;,
+      &quot;limitations&quot;: &quot;The full off-site detour signing and exact closure limits are outside the inspected image scope.&quot;,
+      &quot;tools_used&quot;: [
+        &quot;inspect_observation_images&quot;,
+        &quot;inspect_temporal_images&quot;
+      ],
+      &quot;inspection_bundle_ids&quot;: [
+        &quot;visual_bundle_64205d8bc0d3b80065a4&quot;,
+        &quot;visual_bundle_bd69f7488e5029149e69&quot;
+      ],
+      &quot;evidence_id&quot;: &quot;evidence_07da6858a7017862f97b&quot;,
+      &quot;evidence_fingerprint&quot;: &quot;07da6858a7017862f97b425292fdba5a38355d45fbcc49cb11fe46f85788a120&quot;,
+      &quot;evidence_event_index&quot;: 50,
+      &quot;evidence_timestamp&quot;: &quot;2026-10-22T03:15:26.356534+00:00&quot;
+    },
+    &quot;evidence_78866275c4e0937e29b9&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_403dd72cd3369844&quot;,
+      &quot;evidence_kind&quot;: &quot;direct_fact&quot;,
+      &quot;source_ids&quot;: [
+        &quot;scene_facts.opposing_traffic_detour_confirmed&quot;,
+        &quot;selected_layouts[0]&quot;,
+        &quot;scene_facts.opposing_direction_lane_fully_closed&quot;,
+        &quot;scene_facts.alternating_one_way_operation&quot;
+      ],
+      &quot;acquired_inputs&quot;: [
+        &quot;Confirmed opposing-traffic routing&quot;,
+        &quot;Selected TA layout&quot;
+      ],
+      &quot;unresolved_inputs&quot;: [],
+      &quot;finding&quot;: &quot;Frozen direct inputs: Confirmed opposing-traffic routing; Selected TA layout.&quot;,
+      &quot;limitations&quot;: &quot;Only the listed direct inputs are established; remaining inputs require Stage 4 acquisition.&quot;,
+      &quot;tools_used&quot;: [],
+      &quot;evidence_id&quot;: &quot;evidence_78866275c4e0937e29b9&quot;,
+      &quot;evidence_fingerprint&quot;: &quot;78866275c4e0937e29b9af02cb3d74f72aedfbd91167ac0a4dd679798f8183c1&quot;,
+      &quot;evidence_event_index&quot;: 37,
+      &quot;evidence_timestamp&quot;: &quot;2026-10-22T03:14:56.903267+00:00&quot;
+    }
+  },
+  &quot;cited_measurements&quot;: {}
+}</pre></details></td></tr><tr><td>9</td><td>SEC-6H.01 04: Except as provided in Paragraph 5 of this Section, TTC warning signs<br><small>shall · SEC-6H.01 paragraph 04; PDF page 838</small></td><td class="satisfied">未发现明显不符<br><small>适用性：true</small></td><td>Inspected warning-sign images show the applicable ROAD WORK AHEAD/work-zone signs in the expected orange diamond warning-sign presentation, and no clear material shape or color violation is established.<br><small>未解决输入：无</small><details><summary>规范原文、证据与测量记录</summary><pre>{
+  &quot;requirement&quot;: {
+    &quot;requirement_fingerprint&quot;: &quot;38a0c44a191a7475de45eb1970c49e014c2087b03af9f2fd7396f4806c64d1c2&quot;,
+    &quot;candidate_label&quot;: &quot;SEC-6H.01 04: Except as provided in Paragraph 5 of this Section, TTC warning signs&quot;,
+    &quot;relation&quot;: &quot;shall_comply&quot;,
+    &quot;measurement_spec&quot;: {
+      &quot;required&quot;: false,
+      &quot;tool&quot;: null,
+      &quot;quantity&quot;: null,
+      &quot;thresholds&quot;: []
+    },
+    &quot;discovered_requirement_key&quot;: &quot;req_38a0c44a191a7475&quot;,
+    &quot;required_inputs&quot;: [
+      &quot;raw_images&quot;
+    ],
+    &quot;source_node_ids&quot;: [
+      &quot;src_9da08448efd96ba6ade8&quot;
+    ],
+    &quot;source_locator&quot;: &quot;SEC-6H.01 paragraph 04; PDF page 838&quot;,
+    &quot;source_span&quot;: &quot;Except as provided in Paragraph 5 of this Section, TTC warning signs shall be diamond-shaped with a black legend and border on an orange background, except for the Grade Crossing Advance Warning (W10-1) sign, which shall have a black legend and border on a yellow background.&quot;,
+    &quot;modality&quot;: &quot;shall&quot;,
+    &quot;subject&quot;: &quot;Except as provided in Paragraph 5 of this Section, TTC warning signs&quot;,
+    &quot;threshold&quot;: &quot;Except as provided in Paragraph 5 of this Section, TTC warning signs shall be diamond-shaped with a black legend and border on an orange background, except for the Grade Crossing Advance Warning (W10-1) sign, which shall have a black legend and border on a yellow background.&quot;,
+    &quot;registration_timestamp&quot;: &quot;2026-10-22T03:07:16.992806+00:00&quot;,
+    &quot;applicability_conditions&quot;: [],
+    &quot;registration_event_index&quot;: 16,
+    &quot;model_extracted_source_span&quot;: &quot;Except as provided in Paragraph 5 of this Section, TTC warning signs shall be diamond-shaped with a black legend and border on an orange background, except for the Grade Crossing Advance Warning (W10-1) sign, which shall have a black legend and border on a yellow background.&quot;,
+    &quot;region&quot;: &quot;advance_warning_sign_system&quot;,
+    &quot;data_availability_record&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_38a0c44a191a7475&quot;,
+      &quot;condition_data_complete&quot;: true,
+      &quot;available_inputs&quot;: [],
+      &quot;missing_inputs&quot;: [
+        &quot;raw_images&quot;
+      ],
+      &quot;data_availability&quot;: &quot;not_attempted&quot;,
+      &quot;basis_evidence_ids&quot;: [],
+      &quot;reason&quot;: &quot;The requirement is unconditional and requires visual inspection of warning-sign shape, legend, border, and background; no frozen semantic result states those characteristics.&quot;,
+      &quot;planned_tools&quot;: [
+        &quot;inspect_temporal_images&quot;
+      ],
+      &quot;planned_evidence_strategy&quot;: &quot;Inspect all visible TTC warning signs in representative temporal images for diamond shape and prescribed colors, treating any grade-crossing exception separately.&quot;,
+      &quot;planned_decision_rule&quot;: &quot;Pass only when each applicable TTC warning sign meets the specified shape and color requirements; obscured signs are insufficient.&quot;,
+      &quot;availability_event_index&quot;: 28,
+      &quot;availability_timestamp&quot;: &quot;2026-10-22T03:09:15.625435+00:00&quot;
+    },
+    &quot;normative_applicability&quot;: &quot;true&quot;,
+    &quot;acquisition_plan&quot;: [
+      &quot;inspect_temporal_images&quot;
+    ],
+    &quot;acquisition_attempts&quot;: [],
+    &quot;tools_called&quot;: [
+      &quot;inspect_observation_images&quot;,
+      &quot;inspect_temporal_images&quot;
+    ],
+    &quot;acquired_inputs&quot;: [
+      &quot;raw_images&quot;
+    ],
+    &quot;derivation_evidence_ids&quot;: [],
+    &quot;external_evidence_ids&quot;: [],
+    &quot;unresolved_inputs&quot;: [],
+    &quot;final_data_availability&quot;: &quot;acquired&quot;,
+    &quot;failure_reason&quot;: null,
+    &quot;image_assessable&quot;: true,
+    &quot;inspection_status&quot;: &quot;satisfied&quot;,
+    &quot;evidence_ids&quot;: [
+      &quot;evidence_74e2cf4ba85ca1613297&quot;
+    ],
+    &quot;measurement_ids&quot;: [],
+    &quot;inspection_reason&quot;: &quot;Inspected warning-sign images show the applicable ROAD WORK AHEAD/work-zone signs in the expected orange diamond warning-sign presentation, and no clear material shape or color violation is established.&quot;,
+    &quot;requires_human_review&quot;: false,
+    &quot;inspection_event_index&quot;: 85,
+    &quot;inspection_timestamp&quot;: &quot;2026-10-22T03:18:10.396225+00:00&quot;
+  },
+  &quot;cited_evidence&quot;: {
+    &quot;evidence_74e2cf4ba85ca1613297&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_38a0c44a191a7475&quot;,
+      &quot;evidence_kind&quot;: &quot;visual_observation&quot;,
+      &quot;source_ids&quot;: [
+        &quot;W3_T63799999_Q008&quot;,
+        &quot;W3_T71699999_Q006&quot;,
+        &quot;W3_T82899999_Q016&quot;,
+        &quot;W3_T84199999_Q017&quot;,
+        &quot;W3_T84399999_Q016&quot;,
+        &quot;workzone3__CAM_FRONT__61099999&quot;,
+        &quot;workzone3__CAM_FRONT__64499999&quot;,
+        &quot;workzone3__CAM_FRONT__67899999&quot;,
+        &quot;workzone3__CAM_FRONT__71299999&quot;,
+        &quot;workzone3__CAM_FRONT__74699999&quot;,
+        &quot;workzone3__CAM_FRONT__78099999&quot;,
+        &quot;workzone3__CAM_FRONT__81499999&quot;,
+        &quot;workzone3__CAM_FRONT__84899999&quot;
+      ],
+      &quot;acquired_inputs&quot;: [
+        &quot;raw_images&quot;
+      ],
+      &quot;unresolved_inputs&quot;: [],
+      &quot;finding&quot;: &quot;Inspected representative sign images and temporal frames acquired raw visual input showing ROAD WORK AHEAD/work-zone warning signs on the approach.&quot;,
+      &quot;limitations&quot;: &quot;The visual evidence does not resolve every warning-sign characteristic for every visible sign with sufficient detail.&quot;,
+      &quot;tools_used&quot;: [
+        &quot;inspect_observation_images&quot;,
+        &quot;inspect_temporal_images&quot;
+      ],
+      &quot;inspection_bundle_ids&quot;: [
+        &quot;visual_bundle_64205d8bc0d3b80065a4&quot;,
+        &quot;visual_bundle_ad7020064a32d6c4eee8&quot;
+      ],
+      &quot;evidence_id&quot;: &quot;evidence_74e2cf4ba85ca1613297&quot;,
+      &quot;evidence_fingerprint&quot;: &quot;74e2cf4ba85ca16132974f35d2c703a3279f171b5cfb2ee7096d5e94f74d4cb8&quot;,
+      &quot;evidence_event_index&quot;: 49,
+      &quot;evidence_timestamp&quot;: &quot;2026-10-22T03:15:26.356530+00:00&quot;
+    }
+  },
+  &quot;cited_measurements&quot;: {}
+}</pre></details></td></tr><tr><td>10</td><td>SEC-6K.01 14: Particular attention<br><small>should · SEC-6K.01 paragraph 14; PDF page 855</small></td><td class="satisfied">未发现明显不符<br><small>适用性：true</small></td><td>The representative channelizers appear clean or discernible, upright, and properly positioned along the observed boundary. No clear maintenance deficiency is established.<br><small>未解决输入：无</small><details><summary>规范原文、证据与测量记录</summary><pre>{
+  &quot;requirement&quot;: {
+    &quot;requirement_fingerprint&quot;: &quot;9684dd549b406cb85053ef34162a5a4cc7582e13f56980cfe9f635a16b1e8a5d&quot;,
+    &quot;candidate_label&quot;: &quot;SEC-6K.01 14: Particular attention&quot;,
+    &quot;relation&quot;: &quot;should_comply&quot;,
+    &quot;measurement_spec&quot;: {
+      &quot;required&quot;: false,
+      &quot;tool&quot;: null,
+      &quot;quantity&quot;: null,
+      &quot;thresholds&quot;: []
+    },
+    &quot;discovered_requirement_key&quot;: &quot;req_9684dd549b406cb8&quot;,
+    &quot;required_inputs&quot;: [
+      &quot;raw_images&quot;
+    ],
+    &quot;source_node_ids&quot;: [
+      &quot;src_c20be98384c5d0b17a53&quot;
+    ],
+    &quot;source_locator&quot;: &quot;SEC-6K.01 paragraph 14; PDF page 855&quot;,
+    &quot;source_span&quot;: &quot;Particular attention should be given to maintaining the channelizing devices to keep them clean, visible, and properly positioned at all times.&quot;,
+    &quot;modality&quot;: &quot;should&quot;,
+    &quot;subject&quot;: &quot;Particular attention&quot;,
+    &quot;threshold&quot;: &quot;Particular attention should be given to maintaining the channelizing devices to keep them clean, visible, and properly positioned at all times.&quot;,
+    &quot;registration_timestamp&quot;: &quot;2026-10-22T03:07:35.536768+00:00&quot;,
+    &quot;applicability_conditions&quot;: [],
+    &quot;registration_event_index&quot;: 17,
+    &quot;model_extracted_source_span&quot;: &quot;Particular attention should be given to maintaining the channelizing devices to keep them clean, visible, and properly positioned at all times.&quot;,
+    &quot;region&quot;: &quot;channelization_system&quot;,
+    &quot;data_availability_record&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_9684dd549b406cb8&quot;,
+      &quot;condition_data_complete&quot;: true,
+      &quot;available_inputs&quot;: [],
+      &quot;missing_inputs&quot;: [
+        &quot;raw_images&quot;
+      ],
+      &quot;data_availability&quot;: &quot;not_attempted&quot;,
+      &quot;basis_evidence_ids&quot;: [],
+      &quot;reason&quot;: &quot;The requirement is unconditional and requires visual maintenance assessment; no frozen semantic result states that devices are clean, visible, and properly positioned.&quot;,
+      &quot;planned_tools&quot;: [
+        &quot;inspect_temporal_images&quot;
+      ],
+      &quot;planned_evidence_strategy&quot;: &quot;Inspect representative close temporal views for cleanliness, visibility, and proper positioning of each deployed channelizing device.&quot;,
+      &quot;planned_decision_rule&quot;: &quot;Pass only when inspected devices are clean, visible, and properly positioned; any supported defect fails, and obscured devices remain insufficient.&quot;,
+      &quot;availability_event_index&quot;: 29,
+      &quot;availability_timestamp&quot;: &quot;2026-10-22T03:09:15.625437+00:00&quot;
+    },
+    &quot;normative_applicability&quot;: &quot;true&quot;,
+    &quot;acquisition_plan&quot;: [
+      &quot;inspect_temporal_images&quot;
+    ],
+    &quot;acquisition_attempts&quot;: [],
+    &quot;tools_called&quot;: [
+      &quot;inspect_observation_images&quot;
+    ],
+    &quot;acquired_inputs&quot;: [
+      &quot;raw_images&quot;
+    ],
+    &quot;derivation_evidence_ids&quot;: [],
+    &quot;external_evidence_ids&quot;: [],
+    &quot;unresolved_inputs&quot;: [],
+    &quot;final_data_availability&quot;: &quot;acquired&quot;,
+    &quot;failure_reason&quot;: null,
+    &quot;image_assessable&quot;: true,
+    &quot;inspection_status&quot;: &quot;satisfied&quot;,
+    &quot;evidence_ids&quot;: [
+      &quot;evidence_d24ae0ca0de31b43c0fd&quot;
+    ],
+    &quot;measurement_ids&quot;: [],
+    &quot;inspection_reason&quot;: &quot;The representative channelizers appear clean or discernible, upright, and properly positioned along the observed boundary. No clear maintenance deficiency is established.&quot;,
+    &quot;requires_human_review&quot;: false,
+    &quot;inspection_event_index&quot;: 91,
+    &quot;inspection_timestamp&quot;: &quot;2026-10-22T03:18:10.396247+00:00&quot;
+  },
+  &quot;cited_evidence&quot;: {
+    &quot;evidence_d24ae0ca0de31b43c0fd&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_9684dd549b406cb8&quot;,
+      &quot;evidence_kind&quot;: &quot;visual_observation&quot;,
+      &quot;source_ids&quot;: [
+        &quot;W3_T83999990_Q001&quot;
+      ],
+      &quot;acquired_inputs&quot;: [
+        &quot;raw_images&quot;
+      ],
+      &quot;unresolved_inputs&quot;: [],
+      &quot;finding&quot;: &quot;The inspected representative channelizers appear clean or visibly discernible, upright, and properly positioned along the observed boundary.&quot;,
+      &quot;limitations&quot;: &quot;The evidence does not support a device-by-device maintenance assessment for the full deployment.&quot;,
+      &quot;tools_used&quot;: [
+        &quot;inspect_observation_images&quot;
+      ],
+      &quot;inspection_bundle_ids&quot;: [
+        &quot;visual_bundle_bd69f7488e5029149e69&quot;
+      ],
+      &quot;evidence_id&quot;: &quot;evidence_d24ae0ca0de31b43c0fd&quot;,
+      &quot;evidence_fingerprint&quot;: &quot;d24ae0ca0de31b43c0fdd01adbaf374542c62290defe8abc3e07f393422ed564&quot;,
+      &quot;evidence_event_index&quot;: 54,
+      &quot;evidence_timestamp&quot;: &quot;2026-10-22T03:15:26.356549+00:00&quot;
+    }
+  },
+  &quot;cited_measurements&quot;: {}
+}</pre></details></td></tr><tr><td>11</td><td>SEC-6H.02 02: Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (<br><small>should · SEC-6H.02 paragraph 02; PDF page 838</small></td><td class="satisfied">未发现明显不符<br><small>适用性：true</small></td><td>ROAD WORK AHEAD signs are visible in the approach, but the complete encounter order of independent advance-warning signs is not resolved. The unresolved ordering is not proof of a violation, and no clear material deficiency is established.<br><small>未解决输入：无</small><details><summary>规范原文、证据与测量记录</summary><pre>{
+  &quot;requirement&quot;: {
+    &quot;requirement_fingerprint&quot;: &quot;cb1dccef74232ff1b0c8c2e1f2c0b92e12117b87f5905eb17ed9bedc438b4a58&quot;,
+    &quot;candidate_label&quot;: &quot;SEC-6H.02 02: Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (&quot;,
+    &quot;relation&quot;: &quot;should_comply&quot;,
+    &quot;measurement_spec&quot;: {
+      &quot;required&quot;: false,
+      &quot;tool&quot;: null,
+      &quot;quantity&quot;: null,
+      &quot;thresholds&quot;: []
+    },
+    &quot;discovered_requirement_key&quot;: &quot;req_cb1dccef74232ff1&quot;,
+    &quot;required_inputs&quot;: [
+      &quot;raw_images&quot;
+    ],
+    &quot;source_node_ids&quot;: [
+      &quot;src_eafd02c3dbce3f8109a1&quot;
+    ],
+    &quot;source_locator&quot;: &quot;SEC-6H.02 paragraph 02; PDF page 838&quot;,
+    &quot;source_span&quot;: &quot;Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.&quot;,
+    &quot;modality&quot;: &quot;should&quot;,
+    &quot;subject&quot;: &quot;Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign&quot;,
+    &quot;threshold&quot;: &quot;Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.&quot;,
+    &quot;registration_timestamp&quot;: &quot;2026-10-22T03:08:00.123265+00:00&quot;,
+    &quot;applicability_conditions&quot;: [],
+    &quot;registration_event_index&quot;: 18,
+    &quot;model_extracted_source_span&quot;: &quot;Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.&quot;,
+    &quot;region&quot;: &quot;advance_warning_sign_system&quot;,
+    &quot;data_availability_record&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_cb1dccef74232ff1&quot;,
+      &quot;condition_data_complete&quot;: true,
+      &quot;available_inputs&quot;: [],
+      &quot;missing_inputs&quot;: [
+        &quot;raw_images&quot;
+      ],
+      &quot;data_availability&quot;: &quot;not_attempted&quot;,
+      &quot;basis_evidence_ids&quot;: [],
+      &quot;reason&quot;: &quot;The requirement is unconditional; frozen observations do not directly establish the encounter order of independent advance-warning signs well enough for the required semantic input.&quot;,
+      &quot;planned_tools&quot;: [
+        &quot;inspect_temporal_images&quot;
+      ],
+      &quot;planned_evidence_strategy&quot;: &quot;Review the approach chronologically and identify the first independent advance-warning sign encountered before the transition or activity area, then classify its legend.&quot;,
+      &quot;planned_decision_rule&quot;: &quot;Pass only if ROAD WORK AHEAD is the first advance-warning sign in a confirmed multi-sign approach; otherwise report noncompliance or insufficient evidence.&quot;,
+      &quot;availability_event_index&quot;: 30,
+      &quot;availability_timestamp&quot;: &quot;2026-10-22T03:09:15.625441+00:00&quot;
+    },
+    &quot;normative_applicability&quot;: &quot;true&quot;,
+    &quot;acquisition_plan&quot;: [
+      &quot;inspect_temporal_images&quot;
+    ],
+    &quot;acquisition_attempts&quot;: [],
+    &quot;tools_called&quot;: [
+      &quot;inspect_observation_images&quot;,
+      &quot;inspect_temporal_images&quot;
+    ],
+    &quot;acquired_inputs&quot;: [
+      &quot;raw_images&quot;
+    ],
+    &quot;derivation_evidence_ids&quot;: [],
+    &quot;external_evidence_ids&quot;: [],
+    &quot;unresolved_inputs&quot;: [],
+    &quot;final_data_availability&quot;: &quot;acquired&quot;,
+    &quot;failure_reason&quot;: null,
+    &quot;image_assessable&quot;: true,
+    &quot;inspection_status&quot;: &quot;satisfied&quot;,
+    &quot;evidence_ids&quot;: [
+      &quot;evidence_b2597bc5361a3ab79284&quot;
+    ],
+    &quot;measurement_ids&quot;: [],
+    &quot;inspection_reason&quot;: &quot;ROAD WORK AHEAD signs are visible in the approach, but the complete encounter order of independent advance-warning signs is not resolved. The unresolved ordering is not proof of a violation, and no clear material deficiency is established.&quot;,
+    &quot;requires_human_review&quot;: false,
+    &quot;inspection_event_index&quot;: 94,
+    &quot;inspection_timestamp&quot;: &quot;2026-10-22T03:18:10.396256+00:00&quot;
+  },
+  &quot;cited_evidence&quot;: {
+    &quot;evidence_b2597bc5361a3ab79284&quot;: {
+      &quot;discovered_requirement_key&quot;: &quot;req_cb1dccef74232ff1&quot;,
+      &quot;evidence_kind&quot;: &quot;visual_observation&quot;,
+      &quot;source_ids&quot;: [
+        &quot;W3_T63799999_Q008&quot;,
+        &quot;W3_T71699999_Q006&quot;,
+        &quot;W3_T82899999_Q016&quot;,
+        &quot;W3_T84199999_Q017&quot;,
+        &quot;W3_T84399999_Q016&quot;,
+        &quot;workzone3__CAM_FRONT__61099999&quot;,
+        &quot;workzone3__CAM_FRONT__64499999&quot;,
+        &quot;workzone3__CAM_FRONT__67899999&quot;,
+        &quot;workzone3__CAM_FRONT__71299999&quot;,
+        &quot;workzone3__CAM_FRONT__74699999&quot;,
+        &quot;workzone3__CAM_FRONT__78099999&quot;,
+        &quot;workzone3__CAM_FRONT__81499999&quot;,
+        &quot;workzone3__CAM_FRONT__84899999&quot;
+      ],
+      &quot;acquired_inputs&quot;: [
+        &quot;raw_images&quot;
+      ],
+      &quot;unresolved_inputs&quot;: [],
+      &quot;finding&quot;: &quot;The routed sign-representative and route-temporal visual inputs were acquired. The inspected sequence shows ROAD WORK AHEAD/work-zone signs in the approach, but the available visual observations do not establish the encounter order of independent advance-warning signs across the full approach.&quot;,
+      &quot;limitations&quot;: &quot;The visual evidence does not resolve whether the ROAD WORK AHEAD sign was the first advance-warning sign encountered in a confirmed multi-sign approach.&quot;,
+      &quot;tools_used&quot;: [
+        &quot;inspect_observation_images&quot;,
+        &quot;inspect_temporal_images&quot;
+      ],
+      &quot;inspection_bundle_ids&quot;: [
+        &quot;visual_bundle_64205d8bc0d3b80065a4&quot;,
+        &quot;visual_bundle_ad7020064a32d6c4eee8&quot;
+      ],
+      &quot;evidence_id&quot;: &quot;evidence_b2597bc5361a3ab79284&quot;,
+      &quot;evidence_fingerprint&quot;: &quot;b2597bc5361a3ab79284be39a5ec45b0b90f2f6f74b7403baacdfe8451c0a7bb&quot;,
+      &quot;evidence_event_index&quot;: 56,
+      &quot;evidence_timestamp&quot;: &quot;2026-10-22T03:17:34.708483+00:00&quot;
+    }
+  },
+  &quot;cited_measurements&quot;: {}
+}</pre></details></td></tr></tbody></table>
+<details><summary>完整性与流程完成记录</summary><pre>{
+  &quot;stop_reason&quot;: &quot;Every registered requirement has one final result copied from the sealed Stage 5 conclusion ledger.&quot;,
+  &quot;searched_layouts&quot;: [
+    &quot;TA-19&quot;,
+    &quot;TA-20&quot;,
+    &quot;TA-24&quot;,
+    &quot;TA-8&quot;
+  ],
+  &quot;searched_regions&quot;: [
+    &quot;advance_warning_sign_system&quot;,
+    &quot;channelization_system&quot;,
+    &quot;conditional_active_devices&quot;,
+    &quot;conditional_termination_area&quot;,
+    &quot;lane_closure_layout&quot;,
+    &quot;transition_and_taper_geometry&quot;
+  ],
+  &quot;followed_cross_references&quot;: [
+    &quot;SEC-6B.05 paragraph 02&quot;,
+    &quot;SEC-6H.01 paragraph 04&quot;,
+    &quot;SEC-6H.02 paragraph 02&quot;,
+    &quot;SEC-6H.03 paragraph 01&quot;,
+    &quot;SEC-6K.01 paragraph 04&quot;,
+    &quot;SEC-6K.01 paragraph 14&quot;,
+    &quot;SEC-6K.01 paragraph 15&quot;,
+    &quot;SEC-6K.06 paragraph 01&quot;,
+    &quot;SEC-6K.12 paragraph 02&quot;,
+    &quot;TA-19 paragraph 01&quot;,
+    &quot;TABLE-6B-1&quot;
+  ],
+  &quot;unresolved_queries&quot;: [
+    &quot;Some registered requirements remain not assessed because their bound evidence ledger contains unresolved inputs or does not support a definitive conclusion.&quot;
+  ],
+  &quot;remaining_potentially_checkable_items&quot;: [
+    &quot;req_2aaae0362bf83021&quot;,
+    &quot;req_ad7a729596b46383&quot;
+  ],
+  &quot;agent_declared_completion_status&quot;: &quot;complete&quot;
+}</pre></details>
+<p>结果目录：/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/agentic_final_review81/stage6<br>本页直接呈现已提交结果，未修改模型结论。独立参考答案尚未建立，不报告准确率。</p></body></html>

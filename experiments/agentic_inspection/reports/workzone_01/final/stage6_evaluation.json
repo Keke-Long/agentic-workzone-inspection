@@ -1,0 +1,24 @@
+{
+  "schema_version": "stage6_final_evaluation_v1",
+  "passed": true,
+  "registered_requirement_count": 19,
+  "final_result_count": 19,
+  "conclusion_draft_count": 19,
+  "exact_stage5_copy_count": 19,
+  "copy_mismatches": {},
+  "normative_class_counts": {
+    "Mandatory": 6,
+    "Guidance": 13
+  },
+  "inspection_status_counts": {
+    "satisfied": 14,
+    "not_assessed": 3,
+    "deficient": 2
+  },
+  "session_tool_calls": 3,
+  "session_tool_failures": 0,
+  "model_api_calls": 3,
+  "total_tokens": 202742,
+  "wall_clock_seconds": 5.883218555012718,
+  "actual_model_api_cost_usd": 0.0407134
+}

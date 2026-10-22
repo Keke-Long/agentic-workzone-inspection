@@ -1,0 +1,85 @@
+{
+  "model": "gpt-5.6-luna",
+  "instructions": "SIMPLIFIED STAGE 1 — Call load_ta_core_graph, then load_scene_condition_graph, then load_domain_gap_candidates exactly once for each of the six domains. The program handles relevance filtering and paging. Do not create a discovery ledger. Begin registration after all six domains load. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 2 is sealed; no Stage 3 call is permitted.",
+  "input": [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "input_text",
+          "text": "Simplified Stage 1–2 MUTCD problem-discovery test. Work only within these six inspection domains: [\"lane_closure_layout\", \"advance_warning_sign_system\", \"channelization_system\", \"transition_and_taper_geometry\", \"conditional_active_devices\", \"conditional_termination_area\"]. The goal is a small, clear set of executable field inspection checks that can reveal distinct work-zone problems; the goal is not to reproduce every applicable manual clause or any hidden checklist shape. No target IDs, target citations, or target count are supplied.\n\nStage 1 has three transparent layers. Call load_ta_core_graph once. Then call load_scene_condition_graph once. Then call load_domain_gap_candidates once for each of the six domains; the configured Stage 1C method is BM25 retrieval over normative atomic provisions. The program performs ranking, candidate limiting, paging, and project-scope filtering internally. After all six domain calls, begin requirement registration. Do not run free-form searches and do not build or close a candidate ledger. After all six domain calls, begin requirement registration. The six-domain framework is a coverage guide, not a list of answers: {\"lane_closure_layout\": {\"purpose\": \"overall lane-closure configuration and traffic-path redirection\", \"review_dimensions\": [\"Typical Application context\", \"transition mechanism\", \"closed-lane-side channelization placement\"]}, \"advance_warning_sign_system\": {\"purpose\": \"the advance-warning system shown or implied by the selected layout\", \"review_dimensions\": [\"sign use/presence\", \"legend and closure-direction consistency\", \"placement relative to the work/closure\", \"encounter sequence\", \"spacing applicability\"]}, \"channelization_system\": {\"purpose\": \"the channelizing-device system that defines the transition and closed lane\", \"review_dimensions\": [\"spacing in each alignment type\", \"condition and maintenance\", \"response to no-longer-serviceable devices\"]}, \"transition_and_taper_geometry\": {\"purpose\": \"the operational function and geometry of the merging transition\", \"review_dimensions\": [\"driver warning/merge adequacy\", \"length criteria and formula applicability\"]}, \"conditional_active_devices\": {\"purpose\": \"active devices only when their presence is established by scene facts\", \"review_dimensions\": [\"device applicability\", \"permitted operating mode/direction\", \"placement and integration with other TTC devices\"]}, \"conditional_termination_area\": {\"purpose\": \"termination controls only when their physical predicate is established\", \"review_dimensions\": [\"downstream taper\", \"termination signing\"]}}\n\nStage 2 compiles retrieved provisions into the complete set of distinct, currently applicable field inspection predicates. Use submit_inspection_check_batch. Do not optimize for a target count. Register every applicable predicate that can be violated independently; shared evidence, a shared measurement tool, or related subject matter is not by itself a reason to merge predicates. Combine branches only when they are inseparable conditions or thresholds of the same compliance decision. Preserve the canonical shall/should modality supplied by the program and keep a concrete MUTCD source. A true component-presence fact activates provisions whose antecedent is that the component is used, even when the later compliance observation is unknown. It does not establish a narrower antecedent requiring a particular mode, state, roadway condition, or configuration. Unknown or false presence facts do not activate a family. Exclude pavement markings; buffer and activity area; positive protection and attenuators; nighttime visibility; pedestrian, bicycle, and accessibility; opposing-direction-only layouts; material/crashworthiness certification; sign mounting height; and device product construction or capability specifications. Do not include a general manual statement unless it can produce a distinct field finding in this scene. Semantic duplicates expressing the same subject, condition, relation, threshold, and modality should be merged; requirements that differ on any of those dimensions remain separate. Non-optional components of the selected Typical Application may serve as Guidance sources when the returned node carries a normative_basis from the manual. After the initial compilation, call audit_stage2_candidate_coverage. Review every returned deterministic KG candidate with submit_stage2_candidate_decision_batch. For each candidate explicitly state whether its activation antecedent is established, whether it can be violated independently, whether it duplicates another predicate, and retain or exclude it with a reason. The program binds canonical predicate text and source provenance and directly registers retained decisions. Submit a decision for every pending candidate. Then call the audit again; seal only when new_candidate_count and pending_structured_decision_count are both zero. Mark all six regions screened, seal registration, and stop immediately after Stage 2.\n\nPrimary Typical Application: [{\"layout_code\": \"TA-16\", \"layout_role\": \"primary_applicable\", \"source_locator\": \"TA-16, Figure 6P-16, MUTCD 11th Edition PDF pages 930-931 (printed pages 890-891)\", \"matched_scene_facts\": [\"User-confirmed survey vehicle is present.\", \"The scoped area is a channelized work or obstruction area on an apparent urban two-way roadway.\", \"The survey vehicle's forward travel lane remains usable while the channelized area is primarily along the left/opposing-direction side.\", \"The inspection period is daytime, matching the depicted short-duration surveying context.\", \"The posted speed is 20 mph, consistent with a low-speed roadway context.\"], \"conflicting_scene_facts\": [\"The scene does not confirm that the channelizer line is exactly on the centerline.\", \"The scene does not establish whether the opposing lane is fully closed.\", \"No accepted detections are available; visual evidence is model-derived and unreviewed.\", \"The exact work-area limits relative to the intersection are uncertain.\"]}]\nScene facts: {\"scene_facts\": {\"active_work\": null, \"arrow_board_deployed\": null, \"closed_lane\": null, \"inspection_period\": \"daytime\", \"inspection_period_provenance\": \"Daylit selected camera0 frames\", \"inspection_scope\": \"User selects ONLY later channelized area approximately 78-90s. Approach warning signs from 52s are context with unconfirmed association; earlier work vehicles/personnel are excluded.\", \"lanes_closed\": null, \"layout_uncertainties\": [\"Is the left/opposing-direction lane fully closed, or is only part of it locally occupied or restricted?\", \"Does the channelizer line lie directly on the centerline, or is it offset into the opposing lane?\", \"What is the exact longitudinal start and end of the work area relative to the all-way-stop intersection?\", \"Is any portion of a bicycle lane included in, displaced by, or outside the channelized area?\", \"Are the visible ROAD WORK AHEAD signs associated with this later work area or with a separate work area farther along the route?\", \"Were any workers or flaggers present outside the camera's visible field or between the sampled frames?\", \"Are any vehicles near the intersection work-related, or are they ordinary traffic or parked vehicles?\"], \"opposite_direction_image_coverage\": false, \"pcms_deployed\": null, \"posted_speed_mph\": 20, \"posted_speed_provenance\": \"explicit_user_confirmation\", \"roadway_configuration\": null, \"roadway_lane_count\": null, \"visual_scene_description\": {\"apparent_work_vehicles\": \"No clearly identifiable work vehicle is visible within the scoped channelized area. Vehicles visible near the intersection and beyond cannot be reliably classified as work vehicles.\", \"apparent_workers\": \"No person is clearly identifiable as a worker actively performing traffic control or construction within the scoped area.\", \"bicycle_lane\": \"A distinct bicycle-lane boundary is not confidently identifiable within the scoped 78-90 second segment. A bicycle marking visible after the scoped area is not used to characterize this work area.\", \"closure_or_obstruction\": \"The channelizers appear to delineate a localized work-area obstruction or closure primarily along the left/opposing-direction side of the roadway. The survey vehicle's forward travel lane remains usable through the approach. The images do not establish whether the opposing lane is fully closed for the entire work area.\", \"evidence_status\": \"Model-derived visual evidence, not human-confirmed ground truth.\", \"flagger_evidence\": \"No reliable evidence of a flagger directing traffic. High-visibility orange elements are attached to channelizers and signs; clothing alone would not establish flagger activity.\", \"intersection_relationship\": \"The channelized area is encountered immediately before and alongside an all-way-stop-controlled intersection visible around 83.8-90.1 seconds. The exact work-area limits relative to the intersection are uncertain.\", \"posted_speed\": \"20 mph, user-confirmed.\", \"road_geometry\": \"Urban two-way roadway with one apparent lane in each direction and a centerline visible through much of the approach. The roadway is generally straight in the scoped segment and crosses an all-way-stop intersection near the end of the channelized area.\", \"scope\": \"Only the later channelized work area visible approximately 78-90 seconds is described. The approach view at 52 seconds is included only for potentially relevant warning-sign evidence; association with the later work area is unconfirmed.\", \"separately_encountered_work_areas\": \"One later channelized work area is supported by the images. The orange warning sign visible during the 52-61 second approach may relate to this area, but that association is not assumed.\", \"survey_vehicle\": \"Black survey vehicle, user-confirmed.\", \"traffic_directions\": \"The survey vehicle travels forward in its apparent right-hand travel lane. Opposing traffic would use the lane to the left of the centerline.\", \"work_duration\": \"Strictly less than three days, user-confirmed; more precise duration unknown.\"}, \"visual_scene_description_provenance\": \"Model-derived 16 scoped camera0 images; artifacts/workzone_03/scene_understanding_later_area; uncertainty retained\", \"work_duration_category\": null, \"work_duration_days_less_than\": 3, \"work_duration_description\": \"User: less than three days; subcategory unknown\"}, \"scene_id\": \"scene-CATS-15\"}"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "type": "function",
+      "name": "begin_requirement_registration",
+      "strict": true,
+      "description": "End manual discovery and begin registering the retained requirements.",
+      "parameters": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {},
+        "required": []
+      }
+    },
+    {
+      "type": "function",
+      "name": "load_domain_gap_candidates",
+      "description": "Simplified Stage 1C: in one call, return the configured retriever's bounded graph-gap candidates for one inspection domain; no model-controlled pagination.",
+      "strict": true,
+      "parameters": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "domain": {
+            "enum": [
+              "lane_closure_layout",
+              "advance_warning_sign_system",
+              "channelization_system",
+              "transition_and_taper_geometry",
+              "conditional_active_devices",
+              "conditional_termination_area"
+            ]
+          }
+        },
+        "required": [
+          "domain"
+        ]
+      }
+    },
+    {
+      "type": "function",
+      "name": "load_scene_condition_graph",
+      "description": "Stage 1B deterministic graph query: activate component requirement families from true scene facts, accepted component classes, and TA-core required-device implications.",
+      "strict": true,
+      "parameters": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {},
+        "required": []
+      }
+    },
+    {
+      "type": "function",
+      "name": "load_ta_core_graph",
+      "description": "Stage 1A deterministic graph query: load the selected Typical Application's components, explicit references, governing source units, and reachable normative candidates.",
+      "strict": true,
+      "parameters": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {},
+        "required": []
+      }
+    }
+  ],
+  "tool_choice": "auto",
+  "parallel_tool_calls": false,
+  "reasoning": {
+    "effort": "medium"
+  },
+  "max_output_tokens": 5000,
+  "store": false
+}

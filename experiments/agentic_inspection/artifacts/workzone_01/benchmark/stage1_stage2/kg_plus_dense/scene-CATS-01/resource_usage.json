@@ -1,0 +1,684 @@
+{
+  "regulation_retrieval_calls": 0,
+  "retrieval_queries": [],
+  "retrieved_chunks_nodes": 0,
+  "retrieved_characters": 0,
+  "point_cloud_frames_processed": 0,
+  "points_processed": 0,
+  "geometry_tool_calls": 0,
+  "map_web_lookup_calls": 0,
+  "image_files_returned": 0,
+  "cpu_seconds": 0.0,
+  "measurements_saved": 0,
+  "speed_evidence_saved": 0,
+  "external_query_sources": [],
+  "external_queries": [],
+  "tool_calls_total": 35,
+  "tool_failures": 1,
+  "resumed_tool_calls": 0,
+  "session_tool_calls": 35,
+  "resumed_tool_failures": 0,
+  "session_tool_failures": 1,
+  "tool_retries": 0,
+  "high_confidence_disposition_gap_count": 0,
+  "high_confidence_disposition_gaps": [],
+  "stage2_candidate_audit_calls": 11,
+  "stage2_audited_candidate_count": 35,
+  "stage2_structured_decision_count": 35,
+  "stage2_structured_decisions": {
+    "src_f4754637d8b58f23e636": {
+      "source_node_id": "src_f4754637d8b58f23e636",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "TA-30 is selected, and the depicted W4-2L sign position and sequence can fail independently of sign presence, legend, or spacing checks.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": "req_5081859b24526a1e"
+    },
+    "src_c20be98384c5d0b17a53": {
+      "source_node_id": "src_c20be98384c5d0b17a53",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "Deployed channelizing devices can be dirty, non-visible, or mispositioned while remaining serviceable; this is distinct from replacement of unserviceable devices.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "channelization_system",
+      "registered_requirement_key": "req_9684dd549b406cb8"
+    },
+    "src_84bd10c92c883edc52f8": {
+      "source_node_id": "src_84bd10c92c883edc52f8",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "TA-30 uses taper dimension L and the selected 30 mph speed establishes the low-speed formula branch; computed taper length is independently inspectable.",
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_taper_length",
+        "quantity": "merging taper length versus calculated L",
+        "thresholds": [
+          {
+            "condition": "speed 40 mph or less",
+            "value": null,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": "W*S^2/60",
+            "multiplier": null
+          }
+        ]
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": "req_a5fc47623e93a8b8"
+    },
+    "src_7ef08d9dba4ab38ffa40": {
+      "source_node_id": "src_7ef08d9dba4ab38ffa40",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "An arrow board is deployed, so its combination with appropriate TTC devices is an applicable, separately violable field condition.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": "req_a8c93c0420630ba5"
+    },
+    "src_7662572d8b0e293f54e4": {
+      "source_node_id": "src_7662572d8b0e293f54e4",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "The arrow board is deployed; placement away from the traveled lane and retroreflective delineation are independently observable, including treatment when not operating.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": "req_23c001f1e68a3929"
+    },
+    "src_ddedafacb0ee3244ff60": {
+      "source_node_id": "src_ddedafacb0ee3244ff60",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "The required directional peak-volume imbalance and work-side facts are not established in the scene, so this conditional consideration cannot be activated.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "lane_closure_layout",
+      "registered_requirement_key": null
+    },
+    "src_6c5e6e478c3ea830a922": {
+      "source_node_id": "src_6c5e6e478c3ea830a922",
+      "activation_status": "false",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "The scene states that only one lane is closed, so the multiple-lanes-closed condition is false.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "lane_closure_layout",
+      "registered_requirement_key": null
+    },
+    "src_0adab6a573f859041c12": {
+      "source_node_id": "src_0adab6a573f859041c12",
+      "activation_status": "false",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "The scene is a multilane undivided roadway and does not establish a closed directional roadway with temporary two-lane two-way operations.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "lane_closure_layout",
+      "registered_requirement_key": null
+    },
+    "src_b380e86f9f8149fd82cd": {
+      "source_node_id": "src_b380e86f9f8149fd82cd",
+      "activation_status": "established",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": "src_6ee70d9c1617acd549c4",
+      "action": "exclude",
+      "decision_basis": "duplicate",
+      "reason": "The A, B, and C dimensions are the same advance-warning spacing compliance predicate already registered from Table 6B-1; the figure only references those dimensions.",
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_sign_spacing",
+        "quantity": "A, B, and C sign spacing",
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_809402e88dcdf9f91cd6": {
+      "source_node_id": "src_809402e88dcdf9f91cd6",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "TA-30 is selected and the W20-1 sign's depicted position and sequence are independently inspectable beyond generic sign presence and legend checks.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": "req_ac9833c628610286"
+    },
+    "src_3a5f0e4f2d9ae2b70b9d": {
+      "source_node_id": "src_3a5f0e4f2d9ae2b70b9d",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "TA-30 is selected and the W20-5L sign's depicted position and sequence are independently inspectable beyond the registered lane-closed sign presence/legend check.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": "req_37a99d2885c5d190"
+    },
+    "src_7a245af2a19d44b87030": {
+      "source_node_id": "src_7a245af2a19d44b87030",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "The selected low-speed urban TA requires advance placement and the actual longitudinal placement can fail independently of the individual sign legend and sequence checks.",
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_longitudinal_distance",
+        "quantity": "closest advance warning sign distance upstream of transition/activity area",
+        "thresholds": [
+          {
+            "condition": "low-speed urban closest sign",
+            "value": 100,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": "req_18690067f1a5b827"
+    },
+    "src_0473f2ab2f1d17a85291": {
+      "source_node_id": "src_0473f2ab2f1d17a85291",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "The scene has a stationary one-lane closure on a multilane roadway; the arrow/chevron-mode restriction is independently inspectable for the deployed arrow board.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": "req_5f4e38b58f191dd6"
+    },
+    "src_0782ada99cead9bb2cea": {
+      "source_node_id": "src_0782ada99cead9bb2cea",
+      "activation_status": "false",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "This provision concerns a taper guiding traffic into a one-lane section and a downstream taper in the one-lane/two-way context, which is not the selected multilane TA-30 scene.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": null
+    },
+    "src_17d12869af1669b6d7f7": {
+      "source_node_id": "src_17d12869af1669b6d7f7",
+      "activation_status": "established",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "not_field_inspectable",
+      "reason": "Coordination with authorities to avoid confusion is administrative context rather than a distinct executable field-inspection predicate.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_205ddee52c04a0b94e59": {
+      "source_node_id": "src_205ddee52c04a0b94e59",
+      "activation_status": "false",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "The scene establishes a lane closure with merging taper, not a lane shift directing traffic around an interior closed lane with a shifting taper.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_221a2387ff9abfa9e69e": {
+      "source_node_id": "src_221a2387ff9abfa9e69e",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "Stationary operation is not explicitly established because active_work is null; the conditional arrow-board placement predicate cannot be activated from the frozen facts.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": null
+    },
+    "src_25365a587c5b37aa675c": {
+      "source_node_id": "src_25365a587c5b37aa675c",
+      "activation_status": "false",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Only one lane is closed, so the multiple-closed-lanes condition is false.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": null
+    },
+    "src_265e61762ff3e58a7ee4": {
+      "source_node_id": "src_265e61762ff3e58a7ee4",
+      "activation_status": "false",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "The scene does not establish a Late Merge application or alternate-lane take-turns merge point.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_26bd048211769b2b09e8": {
+      "source_node_id": "src_26bd048211769b2b09e8",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "TA-30 is selected and the work-space advance warning placement is independently inspectable from the ROAD WORK sign location, even though sign sequence is a separate predicate.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": "req_1f5b96171b9b31be"
+    },
+    "src_34c2cf162b6da3a055fe": {
+      "source_node_id": "src_34c2cf162b6da3a055fe",
+      "activation_status": "established",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": "src_3a61a102f3394eb624c4",
+      "action": "exclude",
+      "decision_basis": "duplicate",
+      "reason": "The single-lane LEFT LANE CLOSED legend requirement is identical to the already registered Lane(s) Closed sign predicate in subject, condition, relation, and threshold.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_392e42892ae199220fba": {
+      "source_node_id": "src_392e42892ae199220fba",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "The scene does not establish that the shoulder is narrow, so the conditional placement-in-closed-lane predicate cannot be activated.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": null
+    },
+    "src_4f2b68c743a6b9bd3723": {
+      "source_node_id": "src_4f2b68c743a6b9bd3723",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "A merging taper is required by the selected lane-closure layout; whether it provides adequate advance warning, speed adjustment, and merging distance is separately violable from merely having a taper.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": "req_17df942f4f008f8e"
+    },
+    "src_535649b5a9a1da8092f4": {
+      "source_node_id": "src_535649b5a9a1da8092f4",
+      "activation_status": "false",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "No shifting taper is established; the selected TA-30 arrangement uses a merging taper.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": null
+    },
+    "src_773f5051c6890e5174a9": {
+      "source_node_id": "src_773f5051c6890e5174a9",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "An arrow board is deployed and the scene establishes a one-lane closure on a multilane roadway; the prohibition on using arrow boards for lane shifts is an independently inspectable mode/use predicate.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": "req_b9abfc9121b3344e"
+    },
+    "src_84a92bf0997d7f494fa4": {
+      "source_node_id": "src_84a92bf0997d7f494fa4",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "The scene does not establish heavy traffic, high speed, limited sight distance, or another condition making this conditional arrow-board recommendation applicable; posted speed is known but the remaining antecedents are unknown.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": null
+    },
+    "src_8830bc798575a0d34908": {
+      "source_node_id": "src_8830bc798575a0d34908",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "TA-30 contains a merging taper and the posted speed is established at 30 mph, so the taper-length calculation predicate is applicable and independently measurable against the lateral offset width.",
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_taper_length",
+        "quantity": "merging taper length versus calculated L",
+        "thresholds": [
+          {
+            "condition": "posted speed 40 mph or less",
+            "value": null,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": "W*S^2/60",
+            "multiplier": null
+          }
+        ]
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": "req_4cbe2fd40788f913"
+    },
+    "src_9222e24a20cef67f3fba": {
+      "source_node_id": "src_9222e24a20cef67f3fba",
+      "activation_status": "false",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "The scene is not shoulder work, shoulder blocking, roadside shoulder work, or a temporary closure on a two-lane two-way roadway; it is a multilane undivided roadway with a left-lane closure.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": null
+    },
+    "src_954e7e72c1c215bc571b": {
+      "source_node_id": "src_954e7e72c1c215bc571b",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "The scene does not establish that traffic can enter the TTC zone from a crossroad or major driveway, so this crossroad/driveway warning-sign predicate cannot be activated.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_9ce271fd1e9ef3b8f6d4": {
+      "source_node_id": "src_9ce271fd1e9ef3b8f6d4",
+      "activation_status": "false",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "TA-30 does not establish a shoulder taper or use of a shoulder as a travel lane; its selected arrangement is an interior left-lane closure with a merging taper.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": null
+    },
+    "src_a6ee5cf272b8725e60b5": {
+      "source_node_id": "src_a6ee5cf272b8725e60b5",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "The scene establishes channelizing devices but does not establish the specific potential for the devices to lead traffic out of the intended traffic space that activates this extension requirement.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "channelization_system",
+      "registered_requirement_key": null
+    },
+    "src_c21b5c473719aad3f0c5": {
+      "source_node_id": "src_c21b5c473719aad3f0c5",
+      "activation_status": "established",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": "src_8830bc798575a0d34908",
+      "action": "exclude",
+      "decision_basis": "duplicate",
+      "reason": "The TA-30 figure's L dimension is the same taper-length calculation and compliance predicate already retained from SEC-6B.08 paragraph 04; the figure does not create a separate independently violable requirement.",
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_taper_length",
+        "quantity": "merging taper length versus calculated L",
+        "thresholds": [
+          {
+            "condition": "posted speed 40 mph or less",
+            "value": null,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": "W*S^2/60",
+            "multiplier": null
+          }
+        ]
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": null
+    },
+    "src_c686ec726be71aa04b1e": {
+      "source_node_id": "src_c686ec726be71aa04b1e",
+      "activation_status": "false",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "Only one lane is closed in the scene, so the multiple-lanes-closed arrow-board arrangement is inapplicable.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": null
+    },
+    "src_ea59665fb4a439d7a4e1": {
+      "source_node_id": "src_ea59665fb4a439d7a4e1",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "The scene does not establish a mobile operation; active_work is null, so the mobile-operation arrow-board separation predicate cannot be activated.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "conditional_active_devices",
+      "registered_requirement_key": null
+    },
+    "src_ec75a38ea2a490acf832": {
+      "source_node_id": "src_ec75a38ea2a490acf832",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "The selected TA-30 facts do not establish that a downstream taper is used, so the conditional downstream-taper length and spacing predicate cannot be activated.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "transition_and_taper_geometry",
+      "registered_requirement_key": null
+    }
+  },
+  "stage2_decision_revision": 6,
+  "stage2_audit_revision": 6,
+  "stage2_verification_unresolved_count": 0,
+  "stage2_verification_unresolved": [],
+  "input_tokens": 1014569,
+  "output_tokens": 13725,
+  "total_tokens": 1028294,
+  "cached_tokens": 336285,
+  "controller_turns": 35,
+  "model_api_calls": 35,
+  "wall_clock_seconds": 133.6545887219254,
+  "gpu_seconds": null,
+  "image_tokens_or_processed_pixels": null,
+  "actual_model_api_cost_usd": 0.1588525,
+  "model_pricing_usd_per_million": {
+    "input": 0.2,
+    "cached_input": 0.02,
+    "output": 1.2,
+    "pricing_scope": "standard short-context Responses API pricing recorded for this checkpoint"
+  },
+  "model_api_retries": 0,
+  "estimated_external_api_cost_usd": 0.0,
+  "emergency_ceiling_triggered": false
+}

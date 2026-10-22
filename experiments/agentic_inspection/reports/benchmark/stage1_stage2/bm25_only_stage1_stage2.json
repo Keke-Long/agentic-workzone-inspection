@@ -1,0 +1,83 @@
+{
+  "schema": "case1_active_requirement_evaluation_v2",
+  "passed": false,
+  "expected_count": 15,
+  "discovered_count": 3,
+  "matched_count": 2,
+  "overall_recall": 0.13333333333333333,
+  "activation_precision": 0.6666666666666666,
+  "stage_metrics": {
+    "stage1_candidate_recall": 0.13333333333333333,
+    "stage1_surfaced_count": 2,
+    "stage1_missed_expected_ids": [
+      "LC-01",
+      "LC-02",
+      "AWS-01",
+      "AWS-02",
+      "AWS-03",
+      "AWS-05",
+      "AWS-06",
+      "CH-01",
+      "CH-02",
+      "CH-03",
+      "TT-04",
+      "AD-01",
+      "AD-03"
+    ],
+    "stage2_compilation_recall_among_surfaced": 1.0,
+    "stage2_compiled_surfaced_count": 2,
+    "end_to_end_registered_recall": 0.13333333333333333
+  },
+  "mandatory": {
+    "expected": 5,
+    "matched": 0,
+    "recall": 0.0
+  },
+  "guidance": {
+    "expected": 10,
+    "matched": 2,
+    "recall": 0.2
+  },
+  "missed_expected_ids": [
+    "LC-01",
+    "LC-02",
+    "AWS-01",
+    "AWS-02",
+    "AWS-03",
+    "AWS-05",
+    "AWS-06",
+    "CH-01",
+    "CH-02",
+    "CH-03",
+    "TT-04",
+    "AD-01",
+    "AD-03"
+  ],
+  "invalid_activation_count": 0,
+  "invalid_activations": [],
+  "unmatched_prediction_count": 1,
+  "unmatched_prediction_keys": [
+    "req_af2b490f58803b02"
+  ],
+  "source_integrity": {
+    "passed": true,
+    "verified_count": 3,
+    "failures": []
+  },
+  "matches": [
+    {
+      "expected_id": "AWS-04",
+      "discovered_requirement_key": "req_93efa667aaf6a09f",
+      "normative_level": "guidance",
+      "semantic_score": 0.7692,
+      "source_node_id": "src_eafd02c3dbce3f8109a1"
+    },
+    {
+      "expected_id": "TT-03",
+      "discovered_requirement_key": "req_675187fe77b70b1e",
+      "normative_level": "guidance",
+      "semantic_score": 0.3333,
+      "source_node_id": "src_efd418222a3f416f1e38"
+    }
+  ]
+}

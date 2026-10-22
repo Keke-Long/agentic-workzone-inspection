@@ -1,0 +1,135 @@
+{
+  "schema": "mutcd_structure_v1_validation_v1",
+  "passed": true,
+  "index_path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_structure_v1.json",
+  "index_sha256": "40c96734b42baaae8ace0fa2764184cd20e3a9ddb787bce48d56e1f932b8e904",
+  "source_unit_count": 1013,
+  "atomic_node_count": 8741,
+  "cross_reference_count": 2576,
+  "node_type_counts": {
+    "figure_component": 461,
+    "normative_clause": 8276,
+    "table_rule": 4
+  },
+  "checks": [
+    {
+      "name": "manual build is query-independent and ID-free",
+      "passed": true,
+      "evidence": {
+        "query_independent": true,
+        "scene_manifest_read": false,
+        "hidden_reference_read": false,
+        "internal_requirement_ids_used": false,
+        "identifier_policy": "manual-native unit codes plus source-content hashes"
+      }
+    },
+    {
+      "name": "every source hash is unique",
+      "passed": true,
+      "evidence": {
+        "node_count": 8741,
+        "unique_node_count": 8741
+      }
+    },
+    {
+      "name": "all 54 Typical Applications have a diagram node",
+      "passed": true,
+      "evidence": {
+        "typical_application_count": 54,
+        "diagram_node_count": 54
+      }
+    },
+    {
+      "name": "all Typical Application diagrams have frozen source-page images",
+      "passed": true,
+      "evidence": {
+        "diagram_nodes": 54,
+        "missing_images": []
+      }
+    },
+    {
+      "name": "diagram reference tables are first-class source units",
+      "passed": true,
+      "evidence": {
+        "required": [
+          "TABLE-6B-1",
+          "TABLE-6B-3",
+          "TABLE-6B-4",
+          "TABLE-6P-2"
+        ],
+        "present": [
+          "TABLE-6B-1",
+          "TABLE-6B-3",
+          "TABLE-6B-4",
+          "TABLE-6P-2"
+        ]
+      }
+    },
+    {
+      "name": "manual-native table and rule queries rank the correct source first",
+      "passed": true,
+      "evidence": {
+        "expected": {
+          "Table 6P-2 meanings of symbols used in Typical Application diagrams": "TABLE-6P-2",
+          "Table 6B-1 letter codes A B C warning sign spacing": "TABLE-6B-1",
+          "Table 6B-4 taper length formula": "TABLE-6B-4",
+          "channelizing device spacing taper tangent S 2S": "SEC-6K.01"
+        },
+        "actual": {
+          "Table 6P-2 meanings of symbols used in Typical Application diagrams": "TABLE-6P-2",
+          "Table 6B-1 letter codes A B C warning sign spacing": "TABLE-6B-1",
+          "Table 6B-4 taper length formula": "TABLE-6B-4",
+          "channelizing device spacing taper tangent S 2S": "SEC-6K.01"
+        }
+      }
+    },
+    {
+      "name": "TA-30 exposes its machine-readable diagram components",
+      "passed": true,
+      "evidence": {
+        "expected": [
+          "figure:buffer_space",
+          "figure:diagram",
+          "figure:dimension:L",
+          "figure:dimensions:A-B-C",
+          "figure:sign:W20-1",
+          "figure:sign:W20-5L",
+          "figure:sign:W4-2L",
+          "figure:truck_mounted_attenuator",
+          "figure:work_vehicle"
+        ],
+        "actual": [
+          "figure:buffer_space",
+          "figure:diagram",
+          "figure:dimension:L",
+          "figure:dimensions:A-B-C",
+          "figure:sign:W20-1",
+          "figure:sign:W20-5L",
+          "figure:sign:W4-2L",
+          "figure:truck_mounted_attenuator",
+          "figure:work_vehicle"
+        ]
+      }
+    },
+    {
+      "name": "TA-30 graph reaches its explicitly referenced tables",
+      "passed": true,
+      "evidence": {
+        "targets": [
+          "SEC-6M.02",
+          "TABLE-6B-1",
+          "TABLE-6B-4",
+          "TABLE-6P-2"
+        ]
+      }
+    },
+    {
+      "name": "every atomic node has page locator and nonempty source span",
+      "passed": true,
+      "evidence": {
+        "failure_count": 0,
+        "examples": []
+      }
+    }
+  ]
+}

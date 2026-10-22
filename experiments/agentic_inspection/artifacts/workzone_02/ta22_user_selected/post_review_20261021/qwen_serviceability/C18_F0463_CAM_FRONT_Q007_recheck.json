@@ -1,0 +1,23 @@
+{
+  "prompt": "Assess the central work-zone device in this single image. Return JSON {\"status\":\"visible_serviceable|visible_unserviceable|uncertain\",\"reason\":\"concrete evidence\"}. visible_unserviceable requires an actual visible functional defect (collapsed, severely broken, missing essential parts, markings obscured by dirt). Blur, small size, glare or occlusion are uncertain, NOT defects. If there is enough visible evidence and no obvious functional defect, use visible_serviceable. Do not invent damage. Do not infer nighttime performance.",
+  "response": {
+    "model": "qwen3-vl:4b-instruct",
+    "created_at": "2026-10-21T14:51:08.105232812Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"status\": \"uncertain\",\n  \"reason\": \"The image is heavily blurred due to motion, making it impossible to assess the device's condition or functionality. There is no clear evidence of a functional defect such as collapse, breakage, or obscured markings. The blur is consistent with movement and not an indicator of damage.\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1456957788,
+    "load_duration": 160098703,
+    "prompt_eval_count": 1175,
+    "prompt_eval_duration": 424566000,
+    "eval_count": 70,
+    "eval_duration": 713369000
+  },
+  "verdict": {
+    "status": "uncertain",
+    "reason": "The image is heavily blurred due to motion, making it impossible to assess the device's condition or functionality. There is no clear evidence of a functional defect such as collapse, breakage, or obscured markings. The blur is consistent with movement and not an indicator of damage."
+  }
+}

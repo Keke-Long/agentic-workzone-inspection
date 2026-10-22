@@ -1,0 +1,1520 @@
+[
+  {
+    "observation_id": "C18S_F0000_P000",
+    "class": "road_work_ahead",
+    "frame": 0,
+    "point_count": 40,
+    "world_xyz_m": [
+      -263.7587657292104,
+      -241.14079668740783,
+      -1.1833176424591627
+    ],
+    "station_m": 55.200423903111975,
+    "lateral_m": -8.27785859168558,
+    "range_m": 53.11295111681359,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/20.100191355.pcd",
+    "camera_timestamp_s": 20.099999,
+    "lidar_reference_delta_s": 0.00019235499999936678,
+    "point_time_range_s": [
+      20.100191354751587,
+      20.20016646385193
+    ],
+    "point_spread_p90_m": 0.3707726189566464
+  },
+  {
+    "observation_id": "C18S_F0001_P000",
+    "class": "road_work_ahead",
+    "frame": 1,
+    "point_count": 38,
+    "world_xyz_m": [
+      -263.6988791712604,
+      -241.14757826839,
+      -1.1879551262894574
+    ],
+    "station_m": 55.15238542265071,
+    "lateral_m": -8.32303768730641,
+    "range_m": 51.39422899584446,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/20.200173378.pcd",
+    "camera_timestamp_s": 20.199999,
+    "lidar_reference_delta_s": 0.00017437800000053016,
+    "point_time_range_s": [
+      20.200173377990723,
+      20.30011558532715
+    ],
+    "point_spread_p90_m": 0.35060158220787097
+  },
+  {
+    "observation_id": "C18S_F0002_P000",
+    "class": "road_work_ahead",
+    "frame": 2,
+    "point_count": 46,
+    "world_xyz_m": [
+      -263.63197453608933,
+      -241.13088239664174,
+      -1.1785204312992914
+    ],
+    "station_m": 55.128149946003234,
+    "lateral_m": -8.242534235433649,
+    "range_m": 49.701517367589126,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/20.300122499.pcd",
+    "camera_timestamp_s": 20.299999,
+    "lidar_reference_delta_s": 0.00012349900000074854,
+    "point_time_range_s": [
+      20.300122499465942,
+      20.400055646896362
+    ],
+    "point_spread_p90_m": 0.37576942521821044
+  },
+  {
+    "observation_id": "C18S_F0003_P000",
+    "class": "road_work_ahead",
+    "frame": 3,
+    "point_count": 48,
+    "world_xyz_m": [
+      -263.66860034138153,
+      -241.20919958738358,
+      -1.151996689567281
+    ],
+    "station_m": 55.195067057127694,
+    "lateral_m": -8.198258899394407,
+    "range_m": 48.10115348742396,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/20.400062561.pcd",
+    "camera_timestamp_s": 20.399999,
+    "lidar_reference_delta_s": 6.356099999749176e-05,
+    "point_time_range_s": [
+      20.400062561035156,
+      20.500008583068848
+    ],
+    "point_spread_p90_m": 0.3597426831637193
+  },
+  {
+    "observation_id": "C18S_F0004_P000",
+    "class": "road_work_ahead",
+    "frame": 4,
+    "point_count": 48,
+    "world_xyz_m": [
+      -263.5983383814766,
+      -241.2143257649447,
+      -1.1710416301826805
+    ],
+    "station_m": 55.1355890934721,
+    "lateral_m": -8.19763610617175,
+    "range_m": 46.37232488775774,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/20.500015497.pcd",
+    "camera_timestamp_s": 20.499999,
+    "lidar_reference_delta_s": 1.6497000000725848e-05,
+    "point_time_range_s": [
+      20.50001549720764,
+      20.599973440170288
+    ],
+    "point_spread_p90_m": 0.37789670155635213
+  },
+  {
+    "observation_id": "C18S_F0005_P000",
+    "class": "road_work_ahead",
+    "frame": 5,
+    "point_count": 54,
+    "world_xyz_m": [
+      -263.60459061215937,
+      -241.25848384759354,
+      -1.1913860267286605
+    ],
+    "station_m": 55.158071782353574,
+    "lateral_m": -8.117266533361713,
+    "range_m": 44.73848581264741,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/20.599980354.pcd",
+    "camera_timestamp_s": 20.599999,
+    "lidar_reference_delta_s": -1.864600000089922e-05,
+    "point_time_range_s": [
+      20.599980354309082,
+      20.699965476989746
+    ],
+    "point_spread_p90_m": 0.3538081596871999
+  },
+  {
+    "observation_id": "C18S_F0006_P000",
+    "class": "road_work_ahead",
+    "frame": 6,
+    "point_count": 58,
+    "world_xyz_m": [
+      -263.55357333689074,
+      -241.19915985030755,
+      -1.1845567453969648
+    ],
+    "station_m": 55.1231591205215,
+    "lateral_m": -8.11413339492661,
+    "range_m": 43.047708328012206,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/20.699972391.pcd",
+    "camera_timestamp_s": 20.699999,
+    "lidar_reference_delta_s": -2.660899999895605e-05,
+    "point_time_range_s": [
+      20.69997239112854,
+      20.799988508224487
+    ],
+    "point_spread_p90_m": 0.3637770441015033
+  },
+  {
+    "observation_id": "C18S_F0007_P000",
+    "class": "road_work_ahead",
+    "frame": 7,
+    "point_count": 64,
+    "world_xyz_m": [
+      -263.5846444142307,
+      -241.2419674517052,
+      -1.0976583332063692
+    ],
+    "station_m": 55.16991953541513,
+    "lateral_m": -8.11282745316905,
+    "range_m": 41.42716802536684,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/20.799995422.pcd",
+    "camera_timestamp_s": 20.799999,
+    "lidar_reference_delta_s": -3.578000001169812e-06,
+    "point_time_range_s": [
+      20.79999542236328,
+      20.900019645690918
+    ],
+    "point_spread_p90_m": 0.32435112756099677
+  },
+  {
+    "observation_id": "C18S_F0008_P000",
+    "class": "road_work_ahead",
+    "frame": 8,
+    "point_count": 70,
+    "world_xyz_m": [
+      -263.56645364558847,
+      -241.2189798543757,
+      -1.028578720005433
+    ],
+    "station_m": 55.131260461705835,
+    "lateral_m": -8.165353393973545,
+    "range_m": 39.7281743845855,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/20.900026560.pcd",
+    "camera_timestamp_s": 20.899999,
+    "lidar_reference_delta_s": 2.7559999999482443e-05,
+    "point_time_range_s": [
+      20.900026559829712,
+      21.000037670135498
+    ],
+    "point_spread_p90_m": 0.3666326424216087
+  },
+  {
+    "observation_id": "C18S_F0009_P000",
+    "class": "road_work_ahead",
+    "frame": 9,
+    "point_count": 70,
+    "world_xyz_m": [
+      -263.54913186844954,
+      -241.25917401112127,
+      -1.0561153390957059
+    ],
+    "station_m": 55.140435067374376,
+    "lateral_m": -8.118765048300217,
+    "range_m": 38.088541991590866,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/21.000044584.pcd",
+    "camera_timestamp_s": 20.999989,
+    "lidar_reference_delta_s": 5.558400000182928e-05,
+    "point_time_range_s": [
+      21.000044584274292,
+      21.100050449371338
+    ],
+    "point_spread_p90_m": 0.3302208039596717
+  },
+  {
+    "observation_id": "C18S_F0010_P000",
+    "class": "road_work_ahead",
+    "frame": 10,
+    "point_count": 86,
+    "world_xyz_m": [
+      -263.54396073691413,
+      -241.2588959674639,
+      -0.9995428991806945
+    ],
+    "station_m": 55.14682144381307,
+    "lateral_m": -8.063515136230885,
+    "range_m": 36.43417503673101,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/21.100057364.pcd",
+    "camera_timestamp_s": 21.099999,
+    "lidar_reference_delta_s": 5.8364000000921124e-05,
+    "point_time_range_s": [
+      21.100057363510132,
+      21.200039625167847
+    ],
+    "point_spread_p90_m": 0.346418028696123
+  },
+  {
+    "observation_id": "C18S_F0011_P000",
+    "class": "road_work_ahead",
+    "frame": 11,
+    "point_count": 90,
+    "world_xyz_m": [
+      -263.4928620471008,
+      -241.2838210569914,
+      -0.9998470600215579
+    ],
+    "station_m": 55.09020405766244,
+    "lateral_m": -8.037863844941562,
+    "range_m": 34.725338709905046,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/21.200046539.pcd",
+    "camera_timestamp_s": 21.199999,
+    "lidar_reference_delta_s": 4.7539000000540454e-05,
+    "point_time_range_s": [
+      21.20004653930664,
+      21.30001950263977
+    ],
+    "point_spread_p90_m": 0.34431613200322286
+  },
+  {
+    "observation_id": "C18S_F0012_P000",
+    "class": "road_work_ahead",
+    "frame": 12,
+    "point_count": 86,
+    "world_xyz_m": [
+      -263.4031216145422,
+      -241.2678637770516,
+      -1.0725867683136014
+    ],
+    "station_m": 55.055762185408,
+    "lateral_m": -8.004800444143582,
+    "range_m": 33.03293041990331,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/21.300026417.pcd",
+    "camera_timestamp_s": 21.299999,
+    "lidar_reference_delta_s": 2.7417000001861425e-05,
+    "point_time_range_s": [
+      21.300026416778564,
+      21.400007486343384
+    ],
+    "point_spread_p90_m": 0.34697704133387375
+  },
+  {
+    "observation_id": "C18S_F0013_P000",
+    "class": "road_work_ahead",
+    "frame": 13,
+    "point_count": 102,
+    "world_xyz_m": [
+      -263.4585090802175,
+      -241.2665591093679,
+      -0.9792151653030123
+    ],
+    "station_m": 55.07393650208638,
+    "lateral_m": -8.035210255360056,
+    "range_m": 31.403791938980326,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/21.400014400.pcd",
+    "camera_timestamp_s": 21.399999,
+    "lidar_reference_delta_s": 1.5399999998777503e-05,
+    "point_time_range_s": [
+      21.400014400482178,
+      21.50002956390381
+    ],
+    "point_spread_p90_m": 0.32410020809584794
+  },
+  {
+    "observation_id": "C18S_F0014_P000",
+    "class": "road_work_ahead",
+    "frame": 14,
+    "point_count": 114,
+    "world_xyz_m": [
+      -263.42934357848367,
+      -241.31392580461403,
+      -0.9650305401340834
+    ],
+    "station_m": 55.0747966384303,
+    "lateral_m": -7.982521661662278,
+    "range_m": 29.757482149779534,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/21.500036478.pcd",
+    "camera_timestamp_s": 21.499999,
+    "lidar_reference_delta_s": 3.747799999942458e-05,
+    "point_time_range_s": [
+      21.500036478042603,
+      21.600048542022705
+    ],
+    "point_spread_p90_m": 0.32284197309834073
+  },
+  {
+    "observation_id": "C18S_F0015_P000",
+    "class": "road_work_ahead",
+    "frame": 15,
+    "point_count": 144,
+    "world_xyz_m": [
+      -263.4435171720959,
+      -241.28858180217705,
+      -0.9163634302743129
+    ],
+    "station_m": 55.0847533553403,
+    "lateral_m": -7.988188934867114,
+    "range_m": 28.1185411215998,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/21.600055456.pcd",
+    "camera_timestamp_s": 21.599999,
+    "lidar_reference_delta_s": 5.64559999993719e-05,
+    "point_time_range_s": [
+      21.6000554561615,
+      21.70006561279297
+    ],
+    "point_spread_p90_m": 0.354651991083589
+  },
+  {
+    "observation_id": "C18S_F0016_P000",
+    "class": "road_work_ahead",
+    "frame": 16,
+    "point_count": 154,
+    "world_xyz_m": [
+      -263.4602677982614,
+      -241.28654584116754,
+      -0.8029698277246244
+    ],
+    "station_m": 55.09442020399984,
+    "lateral_m": -8.013584063275456,
+    "range_m": 26.477879587664397,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/21.700072527.pcd",
+    "camera_timestamp_s": 21.699999,
+    "lidar_reference_delta_s": 7.352700000140544e-05,
+    "point_time_range_s": [
+      21.700072526931763,
+      21.800066471099854
+    ],
+    "point_spread_p90_m": 0.3441374256261336
+  },
+  {
+    "observation_id": "C18S_F0017_P000",
+    "class": "road_work_ahead",
+    "frame": 17,
+    "point_count": 156,
+    "world_xyz_m": [
+      -263.41213558480786,
+      -241.2921358819857,
+      -0.8823181023482325
+    ],
+    "station_m": 55.05392329087646,
+    "lateral_m": -7.964316056949831,
+    "range_m": 24.798553887201216,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/21.800073385.pcd",
+    "camera_timestamp_s": 21.799999,
+    "lidar_reference_delta_s": 7.43850000013424e-05,
+    "point_time_range_s": [
+      21.800073385238647,
+      21.900052547454834
+    ],
+    "point_spread_p90_m": 0.33272678427663366
+  },
+  {
+    "observation_id": "C18S_F0018_P000",
+    "class": "road_work_ahead",
+    "frame": 18,
+    "point_count": 192,
+    "world_xyz_m": [
+      -263.4221126106773,
+      -241.30329562454972,
+      -0.853475427833612
+    ],
+    "station_m": 55.07169880975384,
+    "lateral_m": -7.977694223746274,
+    "range_m": 23.17582969592693,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/21.900059462.pcd",
+    "camera_timestamp_s": 21.899999,
+    "lidar_reference_delta_s": 6.046200000042745e-05,
+    "point_time_range_s": [
+      21.900059461593628,
+      22.000040531158447
+    ],
+    "point_spread_p90_m": 0.34136634641052194
+  },
+  {
+    "observation_id": "C18S_F0019_P000",
+    "class": "road_work_ahead",
+    "frame": 19,
+    "point_count": 192,
+    "world_xyz_m": [
+      -263.3603494701941,
+      -241.3049996333576,
+      -0.8503680150891125
+    ],
+    "station_m": 55.03957263059956,
+    "lateral_m": -7.941740326530335,
+    "range_m": 21.508623046139896,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/22.000047445.pcd",
+    "camera_timestamp_s": 21.99999,
+    "lidar_reference_delta_s": 5.744499999948971e-05,
+    "point_time_range_s": [
+      22.00004744529724,
+      22.100034475326538
+    ],
+    "point_spread_p90_m": 0.32642198017999874
+  },
+  {
+    "observation_id": "C18S_F0020_P000",
+    "class": "road_work_ahead",
+    "frame": 20,
+    "point_count": 226,
+    "world_xyz_m": [
+      -263.3753086808116,
+      -241.3108192040147,
+      -0.8442947839090285
+    ],
+    "station_m": 55.043065223314635,
+    "lateral_m": -7.944008302197439,
+    "range_m": 19.871372564698675,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/22.100041389.pcd",
+    "camera_timestamp_s": 22.099999,
+    "lidar_reference_delta_s": 4.2389000000753185e-05,
+    "point_time_range_s": [
+      22.100041389465332,
+      22.20002245903015
+    ],
+    "point_spread_p90_m": 0.31984982848452875
+  },
+  {
+    "observation_id": "C18S_F0021_P000",
+    "class": "road_work_ahead",
+    "frame": 21,
+    "point_count": 240,
+    "world_xyz_m": [
+      -263.3334196406035,
+      -241.3100926492088,
+      -0.8253303672518706
+    ],
+    "station_m": 55.01878842312746,
+    "lateral_m": -7.908006421668629,
+    "range_m": 18.20587758867513,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/22.200029373.pcd",
+    "camera_timestamp_s": 22.199999,
+    "lidar_reference_delta_s": 3.0373000001304717e-05,
+    "point_time_range_s": [
+      22.200029373168945,
+      22.300005674362183
+    ],
+    "point_spread_p90_m": 0.32470300091829185
+  },
+  {
+    "observation_id": "C18S_F0022_P000",
+    "class": "road_work_ahead",
+    "frame": 22,
+    "point_count": 278,
+    "world_xyz_m": [
+      -263.3360084817782,
+      -241.32798279608753,
+      -0.7908954446899166
+    ],
+    "station_m": 55.037643062983406,
+    "lateral_m": -7.895683347747655,
+    "range_m": 16.58231381693652,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/22.300012589.pcd",
+    "camera_timestamp_s": 22.299999,
+    "lidar_reference_delta_s": 1.3589000001701379e-05,
+    "point_time_range_s": [
+      22.300012588500977,
+      22.400009632110596
+    ],
+    "point_spread_p90_m": 0.30570298664615736
+  },
+  {
+    "observation_id": "C18S_F0023_P000",
+    "class": "road_work_ahead",
+    "frame": 23,
+    "point_count": 288,
+    "world_xyz_m": [
+      -263.3089129921831,
+      -241.32927035569784,
+      -0.7710120824724951
+    ],
+    "station_m": 55.014567346819646,
+    "lateral_m": -7.882733229576772,
+    "range_m": 14.930356145634047,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/22.400016546.pcd",
+    "camera_timestamp_s": 22.399999,
+    "lidar_reference_delta_s": 1.7545999998702655e-05,
+    "point_time_range_s": [
+      22.40001654624939,
+      22.500030517578125
+    ],
+    "point_spread_p90_m": 0.30123621991168636
+  },
+  {
+    "observation_id": "C18S_F0024_P000",
+    "class": "road_work_ahead",
+    "frame": 24,
+    "point_count": 302,
+    "world_xyz_m": [
+      -263.330277888942,
+      -241.3198543474889,
+      -0.7468157151585353
+    ],
+    "station_m": 55.0150070908998,
+    "lateral_m": -7.903883908350551,
+    "range_m": 13.2967923414613,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/22.500037432.pcd",
+    "camera_timestamp_s": 22.499999,
+    "lidar_reference_delta_s": 3.8432000000199196e-05,
+    "point_time_range_s": [
+      22.50003743171692,
+      22.600061655044556
+    ],
+    "point_spread_p90_m": 0.2782240988038837
+  },
+  {
+    "observation_id": "C18S_F0025_P000",
+    "class": "road_work_ahead",
+    "frame": 25,
+    "point_count": 284,
+    "world_xyz_m": [
+      -263.31016129689715,
+      -241.31989627241458,
+      -0.7504834515168012
+    ],
+    "station_m": 55.00020681926959,
+    "lateral_m": -7.883953090600794,
+    "range_m": 11.64866436791347,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/22.600068569.pcd",
+    "camera_timestamp_s": 22.599999,
+    "lidar_reference_delta_s": 6.956900000076871e-05,
+    "point_time_range_s": [
+      22.60006856918335,
+      22.700098514556885
+    ],
+    "point_spread_p90_m": 0.2540717661579554
+  },
+  {
+    "observation_id": "C18S_F0026_P000",
+    "class": "road_work_ahead",
+    "frame": 26,
+    "point_count": 276,
+    "world_xyz_m": [
+      -263.2820637185242,
+      -241.30077364007013,
+      -0.7419789578270051
+    ],
+    "station_m": 54.978420909647454,
+    "lateral_m": -7.876402073105899,
+    "range_m": 10.000891486850811,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/22.700105429.pcd",
+    "camera_timestamp_s": 22.699999,
+    "lidar_reference_delta_s": 0.00010642900000235045,
+    "point_time_range_s": [
+      22.70010542869568,
+      22.80013155937195
+    ],
+    "point_spread_p90_m": 0.24462136318757216
+  },
+  {
+    "observation_id": "C18S_F0027_P000",
+    "class": "road_work_ahead",
+    "frame": 27,
+    "point_count": 214,
+    "world_xyz_m": [
+      -263.278172399735,
+      -241.28999851980308,
+      -0.7353595930411689
+    ],
+    "station_m": 54.96982881564112,
+    "lateral_m": -7.899092267689273,
+    "range_m": 8.364004034899597,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/22.800138474.pcd",
+    "camera_timestamp_s": 22.799999,
+    "lidar_reference_delta_s": 0.00013947400000091648,
+    "point_time_range_s": [
+      22.800138473510742,
+      22.90016746520996
+    ],
+    "point_spread_p90_m": 0.19683990284352013
+  },
+  {
+    "observation_id": "C18S_F0028_P000",
+    "class": "road_work_ahead",
+    "frame": 28,
+    "point_count": 126,
+    "world_xyz_m": [
+      -263.3187736429461,
+      -241.25832059401773,
+      -0.720783904970957
+    ],
+    "station_m": 54.96664169423937,
+    "lateral_m": -7.932771259939388,
+    "range_m": 6.7318278429235425,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/22.900174379.pcd",
+    "camera_timestamp_s": 22.899999,
+    "lidar_reference_delta_s": 0.00017537899999808815,
+    "point_time_range_s": [
+      22.900174379348755,
+      23.000208616256714
+    ],
+    "point_spread_p90_m": 0.1682025143559826
+  },
+  {
+    "observation_id": "C18S_F0029_MANUAL001",
+    "class": "road_work_ahead",
+    "frame": 29,
+    "point_count": 202,
+    "world_xyz_m": [
+      -263.29547907741767,
+      -241.29299794593658,
+      -0.6625843556019722
+    ],
+    "station_m": 54.97235722476806,
+    "lateral_m": -7.904972086946049,
+    "range_m": 5.108237158925224,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/23.000215530.pcd",
+    "camera_timestamp_s": 22.999989,
+    "lidar_reference_delta_s": 0.00022652999999905887,
+    "point_time_range_s": [
+      23.000215530395508,
+      23.10026454925537
+    ],
+    "point_spread_p90_m": 0.15546148396243042
+  },
+  {
+    "observation_id": "C18S_F0062_P000",
+    "class": "right_lane_closed",
+    "frame": 62,
+    "point_count": 10,
+    "world_xyz_m": [
+      -308.5108441207795,
+      -290.7574214119924,
+      -0.6534644109725272
+    ],
+    "station_m": 121.93306547780112,
+    "lateral_m": -3.6567556535995105,
+    "range_m": 18.719411234510154,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/26.300115585.pcd",
+    "camera_timestamp_s": 26.299999,
+    "lidar_reference_delta_s": 0.00011658500000066851,
+    "point_time_range_s": [
+      26.30011558532715,
+      26.40010666847229
+    ],
+    "point_spread_p90_m": 0.414038949802942
+  },
+  {
+    "observation_id": "C18S_F0063_P000",
+    "class": "right_lane_closed",
+    "frame": 63,
+    "point_count": 62,
+    "world_xyz_m": [
+      -325.52301175586615,
+      -301.5589436257699,
+      -0.9305692062468675
+    ],
+    "station_m": 141.8201480307624,
+    "lateral_m": -7.365015107453341,
+    "range_m": 36.99587467782828,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/26.400113583.pcd",
+    "camera_timestamp_s": 26.399999,
+    "lidar_reference_delta_s": 0.00011458299999844712,
+    "point_time_range_s": [
+      26.400113582611084,
+      26.50009250640869
+    ],
+    "point_spread_p90_m": 0.3147325082923717
+  },
+  {
+    "observation_id": "C18S_F0064_P000",
+    "class": "right_lane_closed",
+    "frame": 64,
+    "point_count": 64,
+    "world_xyz_m": [
+      -325.53205644962054,
+      -301.5171720651591,
+      -0.8838669632638415
+    ],
+    "station_m": 141.75635701851576,
+    "lateral_m": -7.3531234005228026,
+    "range_m": 35.33466377345373,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/26.500099421.pcd",
+    "camera_timestamp_s": 26.499999,
+    "lidar_reference_delta_s": 0.00010042100000262622,
+    "point_time_range_s": [
+      26.500099420547485,
+      26.600061655044556
+    ],
+    "point_spread_p90_m": 0.3125968398112151
+  },
+  {
+    "observation_id": "C18S_F0065_P000",
+    "class": "right_lane_closed",
+    "frame": 65,
+    "point_count": 90,
+    "world_xyz_m": [
+      -325.5421780019361,
+      -301.55582789512187,
+      -0.8051431273406113
+    ],
+    "station_m": 141.7916809903933,
+    "lateral_m": -7.367886734175664,
+    "range_m": 33.7735262762346,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/26.600068569.pcd",
+    "camera_timestamp_s": 26.599999,
+    "lidar_reference_delta_s": 6.956900000076871e-05,
+    "point_time_range_s": [
+      26.60006856918335,
+      26.700039625167847
+    ],
+    "point_spread_p90_m": 0.33065230871412316
+  },
+  {
+    "observation_id": "C18S_F0066_P000",
+    "class": "right_lane_closed",
+    "frame": 66,
+    "point_count": 92,
+    "world_xyz_m": [
+      -325.536686478359,
+      -301.52975723183846,
+      -0.795511603000488
+    ],
+    "station_m": 141.76403075779663,
+    "lateral_m": -7.38326823754681,
+    "range_m": 32.14845796783024,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/26.700046539.pcd",
+    "camera_timestamp_s": 26.699999,
+    "lidar_reference_delta_s": 4.7539000000540454e-05,
+    "point_time_range_s": [
+      26.70004653930664,
+      26.80004858970642
+    ],
+    "point_spread_p90_m": 0.34126805235571916
+  },
+  {
+    "observation_id": "C18S_F0067_P000",
+    "class": "right_lane_closed",
+    "frame": 67,
+    "point_count": 98,
+    "world_xyz_m": [
+      -325.51002135291054,
+      -301.5464669768446,
+      -0.824331366186942
+    ],
+    "station_m": 141.74470718904607,
+    "lateral_m": -7.352466541110764,
+    "range_m": 30.53284331011426,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/26.800055504.pcd",
+    "camera_timestamp_s": 26.799999,
+    "lidar_reference_delta_s": 5.650399999979072e-05,
+    "point_time_range_s": [
+      26.800055503845215,
+      26.900079488754272
+    ],
+    "point_spread_p90_m": 0.32727526243341953
+  },
+  {
+    "observation_id": "C18S_F0068_P000",
+    "class": "right_lane_closed",
+    "frame": 68,
+    "point_count": 110,
+    "world_xyz_m": [
+      -325.4830885217475,
+      -301.5840394342563,
+      -0.8345131477439607
+    ],
+    "station_m": 141.7498661418599,
+    "lateral_m": -7.316538259127046,
+    "range_m": 28.937685880598423,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/26.900086403.pcd",
+    "camera_timestamp_s": 26.899999,
+    "lidar_reference_delta_s": 8.74029999984316e-05,
+    "point_time_range_s": [
+      26.900086402893066,
+      27.000118494033813
+    ],
+    "point_spread_p90_m": 0.3257824704215256
+  },
+  {
+    "observation_id": "C18S_F0069_P000",
+    "class": "right_lane_closed",
+    "frame": 69,
+    "point_count": 124,
+    "world_xyz_m": [
+      -325.4992313759713,
+      -301.5796940663265,
+      -0.7422631825148938
+    ],
+    "station_m": 141.77002844620213,
+    "lateral_m": -7.322709071247448,
+    "range_m": 27.361800028075187,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/27.000125408.pcd",
+    "camera_timestamp_s": 26.999989,
+    "lidar_reference_delta_s": 0.00013640799999947717,
+    "point_time_range_s": [
+      27.000125408172607,
+      27.100149631500244
+    ],
+    "point_spread_p90_m": 0.3132758090926999
+  },
+  {
+    "observation_id": "C18S_F0070_P000",
+    "class": "right_lane_closed",
+    "frame": 70,
+    "point_count": 130,
+    "world_xyz_m": [
+      -325.4493304337914,
+      -301.5820817893123,
+      -0.7616089956796526
+    ],
+    "station_m": 141.75065967768603,
+    "lateral_m": -7.293511455415438,
+    "range_m": 25.75820433338214,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/27.100156546.pcd",
+    "camera_timestamp_s": 27.099999,
+    "lidar_reference_delta_s": 0.000157546000000508,
+    "point_time_range_s": [
+      27.100156545639038,
+      27.200180530548096
+    ],
+    "point_spread_p90_m": 0.3161415432850513
+  },
+  {
+    "observation_id": "C18S_F0071_P000",
+    "class": "right_lane_closed",
+    "frame": 71,
+    "point_count": 158,
+    "world_xyz_m": [
+      -325.4615768851907,
+      -301.5938212223506,
+      -0.7115071778530397
+    ],
+    "station_m": 141.76128935312965,
+    "lateral_m": -7.2724207576626885,
+    "range_m": 24.176084099543004,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/27.200187445.pcd",
+    "camera_timestamp_s": 27.199999,
+    "lidar_reference_delta_s": 0.0001884450000027016,
+    "point_time_range_s": [
+      27.20018744468689,
+      27.300185441970825
+    ],
+    "point_spread_p90_m": 0.3190013360808361
+  },
+  {
+    "observation_id": "C18S_F0072_P000",
+    "class": "right_lane_closed",
+    "frame": 72,
+    "point_count": 184,
+    "world_xyz_m": [
+      -325.41539669365886,
+      -301.602710582608,
+      -0.7427994475502675
+    ],
+    "station_m": 141.7322007913166,
+    "lateral_m": -7.242070633191878,
+    "range_m": 22.56908704480155,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/27.300192356.pcd",
+    "camera_timestamp_s": 27.299999,
+    "lidar_reference_delta_s": 0.00019335600000047748,
+    "point_time_range_s": [
+      27.30019235610962,
+      27.400163650512695
+    ],
+    "point_spread_p90_m": 0.3245910466929517
+  },
+  {
+    "observation_id": "C18S_F0073_P000",
+    "class": "right_lane_closed",
+    "frame": 73,
+    "point_count": 216,
+    "world_xyz_m": [
+      -325.4440503201391,
+      -301.59490127097484,
+      -0.661785924570433
+    ],
+    "station_m": 141.74518678068455,
+    "lateral_m": -7.266460765762105,
+    "range_m": 21.000831794443446,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/27.400170565.pcd",
+    "camera_timestamp_s": 27.399999,
+    "lidar_reference_delta_s": 0.0001715649999987079,
+    "point_time_range_s": [
+      27.40017056465149,
+      27.50013756752014
+    ],
+    "point_spread_p90_m": 0.3353048139616243
+  },
+  {
+    "observation_id": "C18S_F0074_P000",
+    "class": "right_lane_closed",
+    "frame": 74,
+    "point_count": 212,
+    "world_xyz_m": [
+      -325.37295423666694,
+      -301.601382586323,
+      -0.7129409234316118
+    ],
+    "station_m": 141.7043825907795,
+    "lateral_m": -7.213942145462717,
+    "range_m": 19.38427546216608,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/27.500144482.pcd",
+    "camera_timestamp_s": 27.499999,
+    "lidar_reference_delta_s": 0.0001454820000006407,
+    "point_time_range_s": [
+      27.500144481658936,
+      27.600128650665283
+    ],
+    "point_spread_p90_m": 0.3156990067703346
+  },
+  {
+    "observation_id": "C18S_F0075_P000",
+    "class": "right_lane_closed",
+    "frame": 75,
+    "point_count": 256,
+    "world_xyz_m": [
+      -325.3842396823793,
+      -301.5992885059542,
+      -0.6787086203620531
+    ],
+    "station_m": 141.706923093949,
+    "lateral_m": -7.215359699484357,
+    "range_m": 17.816786956346498,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/27.600135565.pcd",
+    "camera_timestamp_s": 27.599999,
+    "lidar_reference_delta_s": 0.00013656499999825655,
+    "point_time_range_s": [
+      27.600135564804077,
+      27.70014452934265
+    ],
+    "point_spread_p90_m": 0.3172820649878555
+  },
+  {
+    "observation_id": "C18S_F0076_P000",
+    "class": "right_lane_closed",
+    "frame": 76,
+    "point_count": 304,
+    "world_xyz_m": [
+      -325.37665672531773,
+      -301.60016587273583,
+      -0.626765262219475
+    ],
+    "station_m": 141.70305361858465,
+    "lateral_m": -7.209436981457802,
+    "range_m": 16.25139827500235,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/27.700151443.pcd",
+    "camera_timestamp_s": 27.699999,
+    "lidar_reference_delta_s": 0.00015244300000105682,
+    "point_time_range_s": [
+      27.700151443481445,
+      27.800177574157715
+    ],
+    "point_spread_p90_m": 0.3294935311915437
+  },
+  {
+    "observation_id": "C18S_F0077_P000",
+    "class": "right_lane_closed",
+    "frame": 77,
+    "point_count": 346,
+    "world_xyz_m": [
+      -325.37664209887157,
+      -301.5981544447862,
+      -0.6117509308830185
+    ],
+    "station_m": 141.69715257369145,
+    "lateral_m": -7.210579567991849,
+    "range_m": 14.6862543117297,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/27.800184488.pcd",
+    "camera_timestamp_s": 27.799999,
+    "lidar_reference_delta_s": 0.00018548799999962284,
+    "point_time_range_s": [
+      27.80018448829651,
+      27.900217533111572
+    ],
+    "point_spread_p90_m": 0.305227778063789
+  },
+  {
+    "observation_id": "C18_F0078_CAM_FRONT_Q001",
+    "class": "merging_sign",
+    "frame": 78,
+    "point_count": 20,
+    "world_xyz_m": [
+      -383.6714243901084,
+      -354.96424381862903,
+      -1.555295907314318
+    ],
+    "station_m": 220.764534665765,
+    "lateral_m": -7.825729358727182,
+    "range_m": 92.21597335166146,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/27.900224447.pcd",
+    "camera_timestamp_s": 27.899999,
+    "lidar_reference_delta_s": 0.0002254469999982689,
+    "point_time_range_s": [
+      27.900224447250366,
+      28.000235557556152
+    ],
+    "point_spread_p90_m": 0.4673898571917551
+  },
+  {
+    "observation_id": "C18S_F0078_P000",
+    "class": "right_lane_closed",
+    "frame": 78,
+    "point_count": 396,
+    "world_xyz_m": [
+      -325.34412109225536,
+      -301.5958663671576,
+      -0.6058225406770474
+    ],
+    "station_m": 141.6691661733161,
+    "lateral_m": -7.182279010985916,
+    "range_m": 13.100149939068801,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/27.900224447.pcd",
+    "camera_timestamp_s": 27.899999,
+    "lidar_reference_delta_s": 0.0002254469999982689,
+    "point_time_range_s": [
+      27.900224447250366,
+      28.000235557556152
+    ],
+    "point_spread_p90_m": 0.3100907978771251
+  },
+  {
+    "observation_id": "C18S_F0079_P000",
+    "class": "right_lane_closed",
+    "frame": 79,
+    "point_count": 410,
+    "world_xyz_m": [
+      -325.3351445950113,
+      -301.603997540573,
+      -0.605753292717743
+    ],
+    "station_m": 141.67028470693998,
+    "lateral_m": -7.178748146377529,
+    "range_m": 11.56608315312549,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/28.000242472.pcd",
+    "camera_timestamp_s": 27.99999,
+    "lidar_reference_delta_s": 0.0002524719999996705,
+    "point_time_range_s": [
+      28.000242471694946,
+      28.100247621536255
+    ],
+    "point_spread_p90_m": 0.29954209655239933
+  },
+  {
+    "observation_id": "C18S_F0080_P000",
+    "class": "right_lane_closed",
+    "frame": 80,
+    "point_count": 314,
+    "world_xyz_m": [
+      -325.31150586153086,
+      -301.56590441998463,
+      -0.5614360964406685
+    ],
+    "station_m": 141.635520779087,
+    "lateral_m": -7.20536933741169,
+    "range_m": 9.996498691249739,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/28.100254536.pcd",
+    "camera_timestamp_s": 28.099999,
+    "lidar_reference_delta_s": 0.00025553600000094434,
+    "point_time_range_s": [
+      28.10025453567505,
+      28.200204610824585
+    ],
+    "point_spread_p90_m": 0.22876237373951566
+  },
+  {
+    "observation_id": "C18S_F0081_P000",
+    "class": "right_lane_closed",
+    "frame": 81,
+    "point_count": 348,
+    "world_xyz_m": [
+      -325.27757367823375,
+      -301.57370143366813,
+      -0.5661224620777818
+    ],
+    "station_m": 141.6161489767277,
+    "lateral_m": -7.174886226700818,
+    "range_m": 8.459430115268482,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/28.200211525.pcd",
+    "camera_timestamp_s": 28.199999,
+    "lidar_reference_delta_s": 0.00021252500000201735,
+    "point_time_range_s": [
+      28.20021152496338,
+      28.300151586532593
+    ],
+    "point_spread_p90_m": 0.22443295000095176
+  },
+  {
+    "observation_id": "C18_F0082_CAM_FRONT_Q012",
+    "class": "merging_sign",
+    "frame": 82,
+    "point_count": 24,
+    "world_xyz_m": [
+      -383.3941100882511,
+      -355.0981467535857,
+      -1.7699800790220417
+    ],
+    "station_m": 220.51215252109813,
+    "lateral_m": -7.600679578529674,
+    "range_m": 85.91297917286502,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/28.300158501.pcd",
+    "camera_timestamp_s": 28.299999,
+    "lidar_reference_delta_s": 0.0001595009999988406,
+    "point_time_range_s": [
+      28.300158500671387,
+      28.400107622146606
+    ],
+    "point_spread_p90_m": 0.4319575256896012
+  },
+  {
+    "observation_id": "C18S_F0082_P000",
+    "class": "right_lane_closed",
+    "frame": 82,
+    "point_count": 630,
+    "world_xyz_m": [
+      -325.2595389079552,
+      -301.632195576616,
+      -0.5527412123116506
+    ],
+    "station_m": 141.6411786274271,
+    "lateral_m": -7.11146818406068,
+    "range_m": 6.9792512926871915,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/28.300158501.pcd",
+    "camera_timestamp_s": 28.299999,
+    "lidar_reference_delta_s": 0.0001595009999988406,
+    "point_time_range_s": [
+      28.300158500671387,
+      28.400107622146606
+    ],
+    "point_spread_p90_m": 0.27257404595704654
+  },
+  {
+    "observation_id": "C18S_F0083_P000",
+    "class": "right_lane_closed",
+    "frame": 83,
+    "point_count": 584,
+    "world_xyz_m": [
+      -325.2747023204155,
+      -301.6196841786123,
+      -0.5407266971156854
+    ],
+    "station_m": 141.63778555356498,
+    "lateral_m": -7.131307460524543,
+    "range_m": 5.483369988833641,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/28.400114536.pcd",
+    "camera_timestamp_s": 28.399999,
+    "lidar_reference_delta_s": 0.000115535999999139,
+    "point_time_range_s": [
+      28.4001145362854,
+      28.500091552734375
+    ],
+    "point_spread_p90_m": 0.2368601780939166
+  },
+  {
+    "observation_id": "C18_F0103_CAM_FRONT_Q005",
+    "class": "merging_sign",
+    "frame": 103,
+    "point_count": 46,
+    "world_xyz_m": [
+      -383.12723306837864,
+      -355.5168881496214,
+      -1.2982642247578826
+    ],
+    "station_m": 220.72999562436428,
+    "lateral_m": -7.095005905623468,
+    "range_m": 57.199947595252205,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/30.400131464.pcd",
+    "camera_timestamp_s": 30.399999,
+    "lidar_reference_delta_s": 0.0001324639999999988,
+    "point_time_range_s": [
+      30.400131464004517,
+      30.500105619430542
+    ],
+    "point_spread_p90_m": 0.44041731839351744
+  },
+  {
+    "observation_id": "C18_F0132_CAM_FRONT_Q015",
+    "class": "merging_sign",
+    "frame": 132,
+    "point_count": 280,
+    "world_xyz_m": [
+      -382.6460035525755,
+      -355.8150267199941,
+      -1.0873452332281277
+    ],
+    "station_m": 220.45376463328964,
+    "lateral_m": -6.5983956240163195,
+    "range_m": 24.34126905433415,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/33.300074577.pcd",
+    "camera_timestamp_s": 33.299999,
+    "lidar_reference_delta_s": 7.557699999694023e-05,
+    "point_time_range_s": [
+      33.30007457733154,
+      33.400089502334595
+    ],
+    "point_spread_p90_m": 0.4270659988441691
+  },
+  {
+    "observation_id": "C18_F0134_CAM_FRONT_Q005",
+    "class": "merging_sign",
+    "frame": 134,
+    "point_count": 408,
+    "world_xyz_m": [
+      -382.6493381121071,
+      -355.8398846923281,
+      -0.9971920636613514
+    ],
+    "station_m": 220.48893922846955,
+    "lateral_m": -6.569240718901612,
+    "range_m": 22.513512058344205,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/33.500121355.pcd",
+    "camera_timestamp_s": 33.499999,
+    "lidar_reference_delta_s": 0.0001223549999949114,
+    "point_time_range_s": [
+      33.50012135505676,
+      33.60013151168823
+    ],
+    "point_spread_p90_m": 0.49561424525574166
+  },
+  {
+    "observation_id": "C18_F0135_CAM_FRONT_Q004",
+    "class": "merging_sign",
+    "frame": 135,
+    "point_count": 462,
+    "world_xyz_m": [
+      -382.649131995212,
+      -355.8481383226525,
+      -0.981826580583818
+    ],
+    "station_m": 220.49871236440765,
+    "lateral_m": -6.569563357255013,
+    "range_m": 21.612824714124727,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/33.600138426.pcd",
+    "camera_timestamp_s": 33.599999,
+    "lidar_reference_delta_s": 0.00013942600000405037,
+    "point_time_range_s": [
+      33.600138425827026,
+      33.70013952255249
+    ],
+    "point_spread_p90_m": 0.5016452804687423
+  },
+  {
+    "observation_id": "C18_F0136_CAM_FRONT_Q041",
+    "class": "merging_sign",
+    "frame": 136,
+    "point_count": 592,
+    "world_xyz_m": [
+      -382.6379028836275,
+      -355.88472167698444,
+      -0.9785147342283773
+    ],
+    "station_m": 220.51611013564747,
+    "lateral_m": -6.529048562611524,
+    "range_m": 20.732940942746495,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/33.700146437.pcd",
+    "camera_timestamp_s": 33.699999,
+    "lidar_reference_delta_s": 0.00014743700000252602,
+    "point_time_range_s": [
+      33.700146436691284,
+      33.80013847351074
+    ],
+    "point_spread_p90_m": 0.5682263650001248
+  },
+  {
+    "observation_id": "C18_F0136_CAM_FRONT_Q002",
+    "class": "merging_sign",
+    "frame": 136,
+    "point_count": 284,
+    "world_xyz_m": [
+      -382.6540202334662,
+      -355.83898720202023,
+      -0.9604650142426183
+    ],
+    "station_m": 220.50426712048403,
+    "lateral_m": -6.560277049177245,
+    "range_m": 20.72793901434911,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/33.700146437.pcd",
+    "camera_timestamp_s": 33.699999,
+    "lidar_reference_delta_s": 0.00014743700000252602,
+    "point_time_range_s": [
+      33.700146436691284,
+      33.80013847351074
+    ],
+    "point_spread_p90_m": 0.38707902004982087
+  },
+  {
+    "observation_id": "C18_F0137_CAM_FRONT_Q005",
+    "class": "merging_sign",
+    "frame": 137,
+    "point_count": 486,
+    "world_xyz_m": [
+      -382.611460032676,
+      -355.8624032012367,
+      -0.9994750549537703
+    ],
+    "station_m": 220.47510414426483,
+    "lateral_m": -6.54167431199585,
+    "range_m": 19.80962887295684,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/33.800145388.pcd",
+    "camera_timestamp_s": 33.799999,
+    "lidar_reference_delta_s": 0.00014638799999744379,
+    "point_time_range_s": [
+      33.800145387649536,
+      33.900129556655884
+    ],
+    "point_spread_p90_m": 0.49059214805859885
+  },
+  {
+    "observation_id": "C18_F0138_CAM_FRONT_Q001",
+    "class": "merging_sign",
+    "frame": 138,
+    "point_count": 322,
+    "world_xyz_m": [
+      -382.64048991721427,
+      -355.8566830703221,
+      -0.942797329826368
+    ],
+    "station_m": 220.4878545459969,
+    "lateral_m": -6.537369843658567,
+    "range_m": 18.958152607181532,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/33.900136471.pcd",
+    "camera_timestamp_s": 33.899999,
+    "lidar_reference_delta_s": 0.00013747100000216506,
+    "point_time_range_s": [
+      33.90013647079468,
+      34.00012755393982
+    ],
+    "point_spread_p90_m": 0.3742776191191277
+  },
+  {
+    "observation_id": "C18_F0138_CAM_FRONT_Q012",
+    "class": "merging_sign",
+    "frame": 138,
+    "point_count": 566,
+    "world_xyz_m": [
+      -382.5851050826941,
+      -355.8888598963281,
+      -1.008025334567019
+    ],
+    "station_m": 220.47682272123942,
+    "lateral_m": -6.491254236898115,
+    "range_m": 18.94423841964326,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/33.900136471.pcd",
+    "camera_timestamp_s": 33.899999,
+    "lidar_reference_delta_s": 0.00013747100000216506,
+    "point_time_range_s": [
+      33.90013647079468,
+      34.00012755393982
+    ],
+    "point_spread_p90_m": 0.5045098710497441
+  },
+  {
+    "observation_id": "C18_F0140_CAM_FRONT_Q005",
+    "class": "merging_sign",
+    "frame": 140,
+    "point_count": 586,
+    "world_xyz_m": [
+      -382.5711008391655,
+      -355.88010528879136,
+      -0.9710371648502545
+    ],
+    "station_m": 220.48813606677786,
+    "lateral_m": -6.498735578383821,
+    "range_m": 17.259373215112678,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/34.100155354.pcd",
+    "camera_timestamp_s": 34.099999,
+    "lidar_reference_delta_s": 0.00015635400000491018,
+    "point_time_range_s": [
+      34.10015535354614,
+      34.20016646385193
+    ],
+    "point_spread_p90_m": 0.47231855216002966
+  },
+  {
+    "observation_id": "C18_F0141_CAM_FRONT_Q005",
+    "class": "merging_sign",
+    "frame": 141,
+    "point_count": 600,
+    "world_xyz_m": [
+      -382.5733198143869,
+      -355.8719587694041,
+      -0.9502631403600589
+    ],
+    "station_m": 220.4679776129375,
+    "lateral_m": -6.48641460891883,
+    "range_m": 16.413682488044202,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/34.200173378.pcd",
+    "camera_timestamp_s": 34.199999,
+    "lidar_reference_delta_s": 0.00017437800000408288,
+    "point_time_range_s": [
+      34.20017337799072,
+      34.30016851425171
+    ],
+    "point_spread_p90_m": 0.4629398642866085
+  },
+  {
+    "observation_id": "C18_F0147_CAM_FRONT_Q009",
+    "class": "merging_sign",
+    "frame": 147,
+    "point_count": 1002,
+    "world_xyz_m": [
+      -382.5157073634398,
+      -355.90384640185,
+      -0.9358803522331921
+    ],
+    "station_m": 220.4374999266846,
+    "lateral_m": -6.427291177311817,
+    "range_m": 11.804009061023862,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/34.800020456.pcd",
+    "camera_timestamp_s": 34.799999,
+    "lidar_reference_delta_s": 2.145599999892056e-05,
+    "point_time_range_s": [
+      34.80002045631409,
+      34.900044441223145
+    ],
+    "point_spread_p90_m": 0.48396598374553884
+  },
+  {
+    "observation_id": "C18_F0152_CAM_FRONT_Q015",
+    "class": "merging_sign",
+    "frame": 152,
+    "point_count": 1154,
+    "world_xyz_m": [
+      -382.4746388901487,
+      -355.8988977461275,
+      -0.9121314096658841
+    ],
+    "station_m": 220.38803986127806,
+    "lateral_m": -6.401216006069536,
+    "range_m": 8.50355185733807,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/35.300108433.pcd",
+    "camera_timestamp_s": 35.299999,
+    "lidar_reference_delta_s": 0.00010943299999865985,
+    "point_time_range_s": [
+      35.300108432769775,
+      35.400113582611084
+    ],
+    "point_spread_p90_m": 0.4540871299663271
+  },
+  {
+    "observation_id": "C18_F0154_CAM_FRONT_Q001",
+    "class": "merging_sign",
+    "frame": 154,
+    "point_count": 898,
+    "world_xyz_m": [
+      -382.53268147394544,
+      -355.86832183277863,
+      -0.82549304782853
+    ],
+    "station_m": 220.4357191827882,
+    "lateral_m": -6.464564382800532,
+    "range_m": 7.361032239008612,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/35.500137568.pcd",
+    "camera_timestamp_s": 35.499999,
+    "lidar_reference_delta_s": 0.00013856799999700797,
+    "point_time_range_s": [
+      35.50013756752014,
+      35.60014843940735
+    ],
+    "point_spread_p90_m": 0.3500054057387469
+  },
+  {
+    "observation_id": "C18_F0157_CAM_FRONT_Q001",
+    "class": "merging_sign",
+    "frame": 157,
+    "point_count": 860,
+    "world_xyz_m": [
+      -382.5839282193667,
+      -355.86212205975335,
+      -0.7842155902435837
+    ],
+    "station_m": 220.4538034519706,
+    "lateral_m": -6.507466235367729,
+    "range_m": 5.787105315941835,
+    "raw_lidar": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar/35.800172567.pcd",
+    "camera_timestamp_s": 35.799999,
+    "lidar_reference_delta_s": 0.00017356699999737657,
+    "point_time_range_s": [
+      35.800172567367554,
+      35.90015649795532
+    ],
+    "point_spread_p90_m": 0.3741841217251715
+  }
+]

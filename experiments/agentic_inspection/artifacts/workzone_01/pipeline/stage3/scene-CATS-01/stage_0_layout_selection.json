@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene-CATS-01",
+  "layout_selection_status": "determined",
+  "selected_layouts": [
+    {
+      "layout_code": "TA-30",
+      "layout_role": "primary_applicable",
+      "source_locator": "TA-30, Figure 6P-30, MUTCD 11th Edition, PDF pages 958–959 (printed pages 918–919)",
+      "matched_scene_facts": [
+        "One lane is closed: the left lane",
+        "Four-lane multilane undivided roadway",
+        "Posted speed is 30 mph, consistent with the low-speed street context of TA-30",
+        "Long-term stationary work-zone context",
+        "Daytime inspection period"
+      ],
+      "conflicting_scene_facts": [
+        "Traffic volume is unknown, while TA-30 states that it applies to low-volume urban streets; this does not prevent primary selection because no competing primary TA is better supported by the known roadway configuration and 30 mph speed."
+      ]
+    }
+  ],
+  "missing_scene_fields": [
+    "traffic_volume",
+    "available_width_ft",
+    "active_work"
+  ],
+  "selection_reason": "TA-30 is the directly applicable manual-native Typical Application for an interior lane closure on a multilane street. The scene is not a divided highway, so TA-33 is not primary. The 30 mph posted speed supports the low-speed condition in TA-30; the unknown traffic volume is retained for later applicability or augmentation review rather than blocking selection. The deployed PCMS is an implementation detail and does not displace the lane-closure TA."
+}

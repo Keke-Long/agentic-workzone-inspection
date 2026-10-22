@@ -1,0 +1,11 @@
+[
+  {
+    "token": "47e18ab50e3457fa8fcd933245958021",
+    "log_token": "8abb26623c4b57c3bc0d9fdc55f16502",
+    "nbr_samples": 632,
+    "first_sample_token": "4f0ef59858125c68bd66b894b81651e0",
+    "last_sample_token": "fea8aec6e9c65544aa8dc091899a0d43",
+    "name": "scene-CATS-19",
+    "description": "Case_18; raw sensor preparation; perception review pending"
+  }
+]

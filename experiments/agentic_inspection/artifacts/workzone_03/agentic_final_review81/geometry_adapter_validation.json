@@ -1,0 +1,1459 @@
+{
+  "passed": true,
+  "accepted_count": 241,
+  "statuses": {
+    "acquired": 166,
+    "unavailable_after_attempt": 75
+  },
+  "usable_count": 157,
+  "single_frame_not_usable": true,
+  "user_removed_observation_absent": true,
+  "rows": [
+    {
+      "id": "W3_T61199999_Q012",
+      "status": "acquired",
+      "usable": true,
+      "frames": 7
+    },
+    {
+      "id": "W3_T61299999_Q012",
+      "status": "acquired",
+      "usable": true,
+      "frames": 7
+    },
+    {
+      "id": "W3_T61399999_Q012",
+      "status": "acquired",
+      "usable": true,
+      "frames": 7
+    },
+    {
+      "id": "W3_T61499999_Q009",
+      "status": "acquired",
+      "usable": true,
+      "frames": 7
+    },
+    {
+      "id": "W3_T61599999_Q010",
+      "status": "acquired",
+      "usable": true,
+      "frames": 7
+    },
+    {
+      "id": "W3_T61699999_Q012",
+      "status": "acquired",
+      "usable": true,
+      "frames": 10
+    },
+    {
+      "id": "W3_T61699999_Q014",
+      "status": "acquired",
+      "usable": true,
+      "frames": 7
+    },
+    {
+      "id": "W3_T61799999_Q014",
+      "status": "acquired",
+      "usable": true,
+      "frames": 7
+    },
+    {
+      "id": "W3_T61899999_Q012",
+      "status": "acquired",
+      "usable": false,
+      "frames": 1
+    },
+    {
+      "id": "W3_T62899999_Q010",
+      "status": "acquired",
+      "usable": true,
+      "frames": 10
+    },
+    {
+      "id": "W3_T63199999_Q008",
+      "status": "acquired",
+      "usable": true,
+      "frames": 10
+    },
+    {
+      "id": "W3_T63299999_Q004",
+      "status": "acquired",
+      "usable": true,
+      "frames": 10
+    },
+    {
+      "id": "W3_T63399999_Q008",
+      "status": "acquired",
+      "usable": true,
+      "frames": 10
+    },
+    {
+      "id": "W3_T63499999_Q005",
+      "status": "acquired",
+      "usable": true,
+      "frames": 10
+    },
+    {
+      "id": "W3_T63599999_Q005",
+      "status": "acquired",
+      "usable": true,
+      "frames": 10
+    },
+    {
+      "id": "W3_T63699999_Q010",
+      "status": "acquired",
+      "usable": true,
+      "frames": 10
+    },
+    {
+      "id": "W3_T63799999_Q008",
+      "status": "acquired",
+      "usable": true,
+      "frames": 10
+    },
+    {
+      "id": "W3_T63899999_Q008",
+      "status": "acquired",
+      "usable": true,
+      "frames": 10
+    },
+    {
+      "id": "W3_T69499999_Q006",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T69899999_Q008",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T70599999_Q004",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T71699999_Q006",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T74099999_Q007",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T74599999_Q005",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T74899999_Q007",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T74999990_Q008",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T75099999_Q007",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T75399999_Q010",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T75599999_Q012",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T75899999_Q009",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T76199999_Q008",
+      "status": "acquired",
+      "usable": true,
+      "frames": 2
+    },
+    {
+      "id": "W3_T76399999_Q009",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    },
+    {
+      "id": "W3_T76499999_Q007",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    },
+    {
+      "id": "W3_T76699999_Q008",
+      "status": "acquired",
+      "usable": true,
+      "frames": 8
+    },
+    {
+      "id": "W3_T76899999_Q008",
+      "status": "acquired",
+      "usable": true,
+      "frames": 8
+    },
+    {
+      "id": "W3_T76999990_Q007",
+      "status": "acquired",
+      "usable": true,
+      "frames": 8
+    },
+    {
+      "id": "W3_T77499999_Q007",
+      "status": "acquired",
+      "usable": true,
+      "frames": 8
+    },
+    {
+      "id": "W3_T77499999_Q009",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T77699999_Q006",
+      "status": "acquired",
+      "usable": true,
+      "frames": 8
+    },
+    {
+      "id": "W3_T77899999_Q010",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    },
+    {
+      "id": "W3_T78099999_Q010",
+      "status": "acquired",
+      "usable": true,
+      "frames": 8
+    },
+    {
+      "id": "W3_T78499999_Q009",
+      "status": "acquired",
+      "usable": true,
+      "frames": 13
+    },
+    {
+      "id": "W3_T78499999_Q010",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    },
+    {
+      "id": "W3_T78499999_Q011",
+      "status": "acquired",
+      "usable": true,
+      "frames": 2
+    },
+    {
+      "id": "W3_T78699999_Q010",
+      "status": "acquired",
+      "usable": true,
+      "frames": 13
+    },
+    {
+      "id": "W3_T78899999_Q007",
+      "status": "acquired",
+      "usable": true,
+      "frames": 13
+    },
+    {
+      "id": "W3_T79299999_Q007",
+      "status": "acquired",
+      "usable": true,
+      "frames": 14
+    },
+    {
+      "id": "W3_T79699999_Q010",
+      "status": "acquired",
+      "usable": true,
+      "frames": 14
+    },
+    {
+      "id": "W3_T79999990_Q010",
+      "status": "acquired",
+      "usable": true,
+      "frames": 13
+    },
+    {
+      "id": "W3_T80299999_Q007",
+      "status": "acquired",
+      "usable": true,
+      "frames": 20
+    },
+    {
+      "id": "W3_T80299999_Q011",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    },
+    {
+      "id": "W3_T80399999_Q013",
+      "status": "acquired",
+      "usable": true,
+      "frames": 9
+    },
+    {
+      "id": "W3_T80499999_Q010",
+      "status": "acquired",
+      "usable": true,
+      "frames": 20
+    },
+    {
+      "id": "W3_T80599999_Q010",
+      "status": "acquired",
+      "usable": true,
+      "frames": 14
+    },
+    {
+      "id": "W3_T80599999_Q011",
+      "status": "acquired",
+      "usable": true,
+      "frames": 9
+    },
+    {
+      "id": "W3_T80699999_Q012",
+      "status": "acquired",
+      "usable": true,
+      "frames": 20
+    },
+    {
+      "id": "W3_T80699999_Q014",
+      "status": "acquired",
+      "usable": true,
+      "frames": 14
+    },
+    {
+      "id": "W3_T80699999_Q016",
+      "status": "acquired",
+      "usable": true,
+      "frames": 9
+    },
+    {
+      "id": "W3_T80699999_Q029",
+      "status": "acquired",
+      "usable": true,
+      "frames": 20
+    },
+    {
+      "id": "W3_T80799999_Q009",
+      "status": "acquired",
+      "usable": true,
+      "frames": 20
+    },
+    {
+      "id": "W3_T80899999_Q009",
+      "status": "acquired",
+      "usable": true,
+      "frames": 20
+    },
+    {
+      "id": "W3_T80999990_Q007",
+      "status": "acquired",
+      "usable": true,
+      "frames": 20
+    },
+    {
+      "id": "W3_T80999990_Q009",
+      "status": "acquired",
+      "usable": true,
+      "frames": 14
+    },
+    {
+      "id": "W3_T81099999_Q006",
+      "status": "acquired",
+      "usable": true,
+      "frames": 20
+    },
+    {
+      "id": "W3_T81099999_Q008",
+      "status": "acquired",
+      "usable": true,
+      "frames": 14
+    },
+    {
+      "id": "W3_T81199999_Q005",
+      "status": "acquired",
+      "usable": true,
+      "frames": 20
+    },
+    {
+      "id": "W3_T81199999_Q008",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    },
+    {
+      "id": "W3_T81199999_Q011",
+      "status": "acquired",
+      "usable": true,
+      "frames": 9
+    },
+    {
+      "id": "W3_T81299999_Q007",
+      "status": "acquired",
+      "usable": true,
+      "frames": 20
+    },
+    {
+      "id": "W3_T81299999_Q010",
+      "status": "acquired",
+      "usable": true,
+      "frames": 14
+    },
+    {
+      "id": "W3_T81299999_Q011",
+      "status": "acquired",
+      "usable": true,
+      "frames": 9
+    },
+    {
+      "id": "W3_T81299999_Q012",
+      "status": "acquired",
+      "usable": true,
+      "frames": 9
+    },
+    {
+      "id": "W3_T81399999_Q017",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    },
+    {
+      "id": "W3_T81499999_Q013",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    },
+    {
+      "id": "W3_T81599999_Q010",
+      "status": "acquired",
+      "usable": true,
+      "frames": 20
+    },
+    {
+      "id": "W3_T81599999_Q013",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    },
+    {
+      "id": "W3_T81599999_Q015",
+      "status": "acquired",
+      "usable": true,
+      "frames": 9
+    },
+    {
+      "id": "W3_T81699999_Q007",
+      "status": "acquired",
+      "usable": true,
+      "frames": 20
+    },
+    {
+      "id": "W3_T81699999_Q008",
+      "status": "acquired",
+      "usable": true,
+      "frames": 14
+    },
+    {
+      "id": "W3_T81699999_Q011",
+      "status": "acquired",
+      "usable": true,
+      "frames": 9
+    },
+    {
+      "id": "W3_T81799999_Q006",
+      "status": "acquired",
+      "usable": false,
+      "frames": 1
+    },
+    {
+      "id": "W3_T81799999_Q007",
+      "status": "acquired",
+      "usable": true,
+      "frames": 13
+    },
+    {
+      "id": "W3_T81799999_Q008",
+      "status": "acquired",
+      "usable": true,
+      "frames": 20
+    },
+    {
+      "id": "W3_T81799999_Q009",
+      "status": "acquired",
+      "usable": true,
+      "frames": 8
+    },
+    {
+      "id": "W3_T81799999_Q010",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T81799999_Q013",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    },
+    {
+      "id": "W3_T81899999_Q006",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T81899999_Q007",
+      "status": "acquired",
+      "usable": true,
+      "frames": 20
+    },
+    {
+      "id": "W3_T81899999_Q009",
+      "status": "acquired",
+      "usable": true,
+      "frames": 14
+    },
+    {
+      "id": "W3_T81899999_Q012",
+      "status": "acquired",
+      "usable": true,
+      "frames": 9
+    },
+    {
+      "id": "W3_T81999990_Q008",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T81999990_Q010",
+      "status": "acquired",
+      "usable": true,
+      "frames": 20
+    },
+    {
+      "id": "W3_T81999990_Q012",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    },
+    {
+      "id": "W3_T81999990_Q014",
+      "status": "acquired",
+      "usable": true,
+      "frames": 4
+    },
+    {
+      "id": "W3_T81999990_Q015",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    },
+    {
+      "id": "W3_T82099999_Q011",
+      "status": "acquired",
+      "usable": true,
+      "frames": 20
+    },
+    {
+      "id": "W3_T82099999_Q013",
+      "status": "acquired",
+      "usable": true,
+      "frames": 13
+    },
+    {
+      "id": "W3_T82099999_Q014",
+      "status": "acquired",
+      "usable": true,
+      "frames": 14
+    },
+    {
+      "id": "W3_T82199999_Q002",
+      "status": "acquired",
+      "usable": true,
+      "frames": 9
+    },
+    {
+      "id": "W3_T82199999_Q012",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T82199999_Q013",
+      "status": "acquired",
+      "usable": true,
+      "frames": 20
+    },
+    {
+      "id": "W3_T82199999_Q014",
+      "status": "acquired",
+      "usable": true,
+      "frames": 13
+    },
+    {
+      "id": "W3_T82199999_Q015",
+      "status": "acquired",
+      "usable": true,
+      "frames": 14
+    },
+    {
+      "id": "W3_T82199999_Q016",
+      "status": "acquired",
+      "usable": true,
+      "frames": 9
+    },
+    {
+      "id": "W3_T82199999_Q017",
+      "status": "acquired",
+      "usable": true,
+      "frames": 4
+    },
+    {
+      "id": "W3_T82299999_Q005",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T82299999_Q007",
+      "status": "acquired",
+      "usable": true,
+      "frames": 13
+    },
+    {
+      "id": "W3_T82299999_Q008",
+      "status": "acquired",
+      "usable": true,
+      "frames": 14
+    },
+    {
+      "id": "W3_T82299999_Q009",
+      "status": "acquired",
+      "usable": true,
+      "frames": 9
+    },
+    {
+      "id": "W3_T82399999_Q007",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T82399999_Q009",
+      "status": "acquired",
+      "usable": true,
+      "frames": 20
+    },
+    {
+      "id": "W3_T82399999_Q010",
+      "status": "acquired",
+      "usable": true,
+      "frames": 13
+    },
+    {
+      "id": "W3_T82399999_Q012",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T82399999_Q013",
+      "status": "acquired",
+      "usable": true,
+      "frames": 4
+    },
+    {
+      "id": "W3_T82399999_Q014",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    },
+    {
+      "id": "W3_T82499999_Q010",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T82499999_Q013",
+      "status": "acquired",
+      "usable": true,
+      "frames": 9
+    },
+    {
+      "id": "W3_T82499999_Q014",
+      "status": "acquired",
+      "usable": true,
+      "frames": 3
+    },
+    {
+      "id": "W3_T82499999_Q016",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T82599999_Q005",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T82599999_Q006",
+      "status": "acquired",
+      "usable": true,
+      "frames": 20
+    },
+    {
+      "id": "W3_T82599999_Q008",
+      "status": "acquired",
+      "usable": true,
+      "frames": 13
+    },
+    {
+      "id": "W3_T82599999_Q009",
+      "status": "acquired",
+      "usable": true,
+      "frames": 9
+    },
+    {
+      "id": "W3_T82599999_Q012",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T82699999_Q010",
+      "status": "acquired",
+      "usable": true,
+      "frames": 20
+    },
+    {
+      "id": "W3_T82699999_Q011",
+      "status": "acquired",
+      "usable": true,
+      "frames": 20
+    },
+    {
+      "id": "W3_T82699999_Q013",
+      "status": "acquired",
+      "usable": true,
+      "frames": 13
+    },
+    {
+      "id": "W3_T82699999_Q014",
+      "status": "acquired",
+      "usable": true,
+      "frames": 9
+    },
+    {
+      "id": "W3_T82699999_Q015",
+      "status": "acquired",
+      "usable": false,
+      "frames": 1
+    },
+    {
+      "id": "W3_T82799999_Q012",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T82799999_Q013",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T82799999_Q016",
+      "status": "acquired",
+      "usable": true,
+      "frames": 8
+    },
+    {
+      "id": "W3_T82799999_Q017",
+      "status": "acquired",
+      "usable": true,
+      "frames": 3
+    },
+    {
+      "id": "W3_T82799999_Q018",
+      "status": "acquired",
+      "usable": true,
+      "frames": 2
+    },
+    {
+      "id": "W3_T82799999_Q019",
+      "status": "acquired",
+      "usable": true,
+      "frames": 2
+    },
+    {
+      "id": "W3_T82799999_Q020",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    },
+    {
+      "id": "W3_T82899999_Q009",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T82899999_Q010",
+      "status": "acquired",
+      "usable": true,
+      "frames": 14
+    },
+    {
+      "id": "W3_T82899999_Q011",
+      "status": "acquired",
+      "usable": true,
+      "frames": 13
+    },
+    {
+      "id": "W3_T82899999_Q013",
+      "status": "acquired",
+      "usable": true,
+      "frames": 8
+    },
+    {
+      "id": "W3_T82899999_Q014",
+      "status": "acquired",
+      "usable": true,
+      "frames": 3
+    },
+    {
+      "id": "W3_T82899999_Q015",
+      "status": "acquired",
+      "usable": true,
+      "frames": 2
+    },
+    {
+      "id": "W3_T82899999_Q016",
+      "status": "acquired",
+      "usable": false,
+      "frames": 1
+    },
+    {
+      "id": "W3_T82999990_Q007",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T82999990_Q008",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T82999990_Q009",
+      "status": "acquired",
+      "usable": true,
+      "frames": 14
+    },
+    {
+      "id": "W3_T82999990_Q010",
+      "status": "acquired",
+      "usable": true,
+      "frames": 13
+    },
+    {
+      "id": "W3_T82999990_Q011",
+      "status": "acquired",
+      "usable": true,
+      "frames": 13
+    },
+    {
+      "id": "W3_T82999990_Q012",
+      "status": "acquired",
+      "usable": true,
+      "frames": 8
+    },
+    {
+      "id": "W3_T82999990_Q013",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T82999990_Q014",
+      "status": "acquired",
+      "usable": true,
+      "frames": 9
+    },
+    {
+      "id": "W3_T82999990_Q015",
+      "status": "acquired",
+      "usable": true,
+      "frames": 2
+    },
+    {
+      "id": "W3_T82999990_Q016",
+      "status": "acquired",
+      "usable": true,
+      "frames": 4
+    },
+    {
+      "id": "W3_T82999990_Q017",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T82999990_Q019",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    },
+    {
+      "id": "W3_T83099999_Q009",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T83099999_Q010",
+      "status": "acquired",
+      "usable": true,
+      "frames": 14
+    },
+    {
+      "id": "W3_T83099999_Q014",
+      "status": "acquired",
+      "usable": true,
+      "frames": 9
+    },
+    {
+      "id": "W3_T83099999_Q015",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T83099999_Q016",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    },
+    {
+      "id": "W3_T83199999_Q001",
+      "status": "acquired",
+      "usable": true,
+      "frames": 20
+    },
+    {
+      "id": "W3_T83199999_Q011",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T83199999_Q012",
+      "status": "acquired",
+      "usable": true,
+      "frames": 9
+    },
+    {
+      "id": "W3_T83199999_Q014",
+      "status": "acquired",
+      "usable": true,
+      "frames": 3
+    },
+    {
+      "id": "W3_T83199999_Q015",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    },
+    {
+      "id": "W3_T83299999_Q012",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T83299999_Q013",
+      "status": "acquired",
+      "usable": true,
+      "frames": 9
+    },
+    {
+      "id": "W3_T83299999_Q014",
+      "status": "acquired",
+      "usable": true,
+      "frames": 3
+    },
+    {
+      "id": "W3_T83299999_Q017",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    },
+    {
+      "id": "W3_T83399999_Q011",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T83399999_Q013",
+      "status": "acquired",
+      "usable": true,
+      "frames": 2
+    },
+    {
+      "id": "W3_T83399999_Q014",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T83399999_Q015",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T83499999_Q008",
+      "status": "acquired",
+      "usable": true,
+      "frames": 9
+    },
+    {
+      "id": "W3_T83499999_Q009",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T83499999_Q011",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    },
+    {
+      "id": "W3_T83599999_Q011",
+      "status": "acquired",
+      "usable": true,
+      "frames": 2
+    },
+    {
+      "id": "W3_T83599999_Q013",
+      "status": "acquired",
+      "usable": true,
+      "frames": 2
+    },
+    {
+      "id": "W3_T83699999_Q013",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T83699999_Q014",
+      "status": "acquired",
+      "usable": true,
+      "frames": 2
+    },
+    {
+      "id": "W3_T83699999_Q015",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T83799999_Q013",
+      "status": "acquired",
+      "usable": true,
+      "frames": 2
+    },
+    {
+      "id": "W3_T83799999_Q014",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T83799999_Q015",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T83899999_Q007",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T83899999_Q009",
+      "status": "acquired",
+      "usable": true,
+      "frames": 2
+    },
+    {
+      "id": "W3_T83899999_Q010",
+      "status": "acquired",
+      "usable": true,
+      "frames": 4
+    },
+    {
+      "id": "W3_T83899999_Q012",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    },
+    {
+      "id": "W3_T83999990_Q001",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T83999990_Q009",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T83999990_Q010",
+      "status": "acquired",
+      "usable": true,
+      "frames": 2
+    },
+    {
+      "id": "W3_T83999990_Q011",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T83999990_Q012",
+      "status": "acquired",
+      "usable": true,
+      "frames": 2
+    },
+    {
+      "id": "W3_T83999990_Q013",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84099999_Q008",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84099999_Q009",
+      "status": "acquired",
+      "usable": true,
+      "frames": 2
+    },
+    {
+      "id": "W3_T84099999_Q010",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84099999_Q011",
+      "status": "acquired",
+      "usable": true,
+      "frames": 2
+    },
+    {
+      "id": "W3_T84099999_Q012",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84099999_Q013",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    },
+    {
+      "id": "W3_T84199999_Q015",
+      "status": "acquired",
+      "usable": true,
+      "frames": 4
+    },
+    {
+      "id": "W3_T84199999_Q016",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84199999_Q017",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84299999_Q009",
+      "status": "acquired",
+      "usable": true,
+      "frames": 2
+    },
+    {
+      "id": "W3_T84299999_Q011",
+      "status": "acquired",
+      "usable": true,
+      "frames": 4
+    },
+    {
+      "id": "W3_T84299999_Q013",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84299999_Q014",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84399999_Q011",
+      "status": "acquired",
+      "usable": true,
+      "frames": 4
+    },
+    {
+      "id": "W3_T84399999_Q012",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84399999_Q016",
+      "status": "acquired",
+      "usable": false,
+      "frames": 1
+    },
+    {
+      "id": "W3_T84399999_Q017",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84499999_Q007",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84499999_Q008",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84499999_Q010",
+      "status": "acquired",
+      "usable": false,
+      "frames": 1
+    },
+    {
+      "id": "W3_T84499999_Q012",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84599999_Q009",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84599999_Q010",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84599999_Q011",
+      "status": "acquired",
+      "usable": true,
+      "frames": 2
+    },
+    {
+      "id": "W3_T84599999_Q012",
+      "status": "acquired",
+      "usable": true,
+      "frames": 2
+    },
+    {
+      "id": "W3_T84599999_Q013",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84699999_Q004",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    },
+    {
+      "id": "W3_T84699999_Q015",
+      "status": "acquired",
+      "usable": true,
+      "frames": 2
+    },
+    {
+      "id": "W3_T84699999_Q017",
+      "status": "acquired",
+      "usable": false,
+      "frames": 1
+    },
+    {
+      "id": "W3_T84799999_Q008",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84799999_Q010",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84799999_Q012",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84899999_Q008",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84899999_Q009",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84899999_Q013",
+      "status": "acquired",
+      "usable": false,
+      "frames": 1
+    },
+    {
+      "id": "W3_T84899999_Q014",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84899999_Q015",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    },
+    {
+      "id": "W3_T84899999_Q016",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    },
+    {
+      "id": "W3_T84899999_Q017",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84999990_Q008",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84999990_Q009",
+      "status": "acquired",
+      "usable": true,
+      "frames": 2
+    },
+    {
+      "id": "W3_T84999990_Q010",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84999990_Q011",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84999990_Q013",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84999990_Q014",
+      "status": "acquired",
+      "usable": false,
+      "frames": 1
+    },
+    {
+      "id": "W3_T84999990_Q015",
+      "status": "unavailable_after_attempt",
+      "usable": false,
+      "frames": 0
+    },
+    {
+      "id": "W3_T84999990_Q016",
+      "status": "acquired",
+      "usable": true,
+      "frames": 6
+    }
+  ]
+}

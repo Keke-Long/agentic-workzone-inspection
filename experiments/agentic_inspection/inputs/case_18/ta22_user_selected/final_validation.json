@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "report_links_checked": 8,
+  "prior_artifacts_unchanged": 144,
+  "current_inputs_frozen": 10,
+  "available_camera_channels": [
+    "CAM_FRONT"
+  ],
+  "layout_selection_origin": "user_directed",
+  "primary_layout": "TA-22",
+  "requirements": 13,
+  "stage3_passed": true
+}

@@ -1,0 +1,12 @@
+{
+  "scripts/run_srag_bm25_v5.py": "c3cbcb2bacfd5e4c97800f1084609d85647d8a0dfed0a63a4156fa529e422092",
+  "scripts/select_prepared_cameras.py": "901f46440e70d1185f4b6aa388d7ccf4361035bd24aa7f8e6502260d14711569",
+  "scripts/render_case18_ta22_report.py": "1c1125470a6d5baaf0076efa0ee41386f28abba36c5d4ff562b3b3092a3d743c",
+  "config/stage1_stage2_method_manifest.json": "711d5d04be14c931756e430043715d0e85e7c45eee90d7f1bf27a1ac8a66b357",
+  "cases/workzone_18/scene_ta22_user_selected.json": "d7a498efa365b98ebfe986751c869c49dd175af6687d9afd369faa6bb26e6bb9",
+  "config/workzone_18/ta22_user_selected/stage1_kg_bm25.json": "2af02a4bb66d0c0deae9b9109fbe32f66e6ec1d5a8c5c1e2fde425b5a91abe27",
+  "config/workzone_18/ta22_user_selected/stage3.json": "9a58c2db55d0f571a785361d81dabc1aaf64d27d7f1163f9f77b560176ce1bcd",
+  "inputs/case_18/ta22_user_selected/stage_0_layout_selection.json": "901f014b2fcd396c3a0635a73fd8e159799919cdab32c03e04d4de84056f936a",
+  "inputs/case_18/ta22_user_selected/config_consistency.json": "c68bfbe27509f21980829d005c49d1ecc22c7cc875573b2fded237f90b76c1d4",
+  "inputs/case_18/ta22_user_selected/runtime_scene_manifest.json": "44e3aa0dd01113b238af94fb9d3502164496a3f5132028539fc0c8337d7539d2"
+}

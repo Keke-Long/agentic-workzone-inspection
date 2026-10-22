@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "review_revision": 81,
+  "observations": 241,
+  "class_counts": {
+    "traffic_cone": 227,
+    "road_work_ahead": 14
+  },
+  "corrected_boxes_used": 41,
+  "counts": {
+    "observations": 241,
+    "objects_with_candidate_position": 31,
+    "multi_frame_supported_objects": 22,
+    "mapped_observations": 166,
+    "unresolved_observations": 75,
+    "object_condition_counts": {
+      "not_reassessed": 31
+    },
+    "uncertain_views_resolved_by_same_object": 0
+  },
+  "object_families": {
+    "channelizer": 28,
+    "road_work_ahead": 3
+  },
+  "geometry_flags": {
+    "range_over_60m": 7,
+    "insufficient_target_points": 8,
+    "cluster_spread_over_1m": 81
+  },
+  "input_window_s": [
+    61,
+    85
+  ],
+  "raw_lidar_frames": 240,
+  "display_points": 191120,
+  "reviewed_boxes_match_exactly": true,
+  "object_mapping_partition_complete": true,
+  "max_clustering_diameter_m": 1,
+  "multi_frame_support_uses_distinct_image_timestamps": true,
+  "compliance_assessed": false
+}

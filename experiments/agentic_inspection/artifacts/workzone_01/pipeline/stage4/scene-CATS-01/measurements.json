@@ -1,0 +1,1075 @@
+[
+  {
+    "status": "acquired",
+    "measurement_id": "measurement_9600065ddcb95df76f49",
+    "measurement_type": "channelizer_spacing_series",
+    "thresholds_applied": {
+      "taper": {
+        "value": 30.0,
+        "unit": "ft",
+        "violation_when": "above_maximum",
+        "value_m": 9.144
+      },
+      "tangent": {
+        "value": 60.0,
+        "unit": "ft",
+        "violation_when": "above_maximum",
+        "value_m": 18.288
+      }
+    },
+    "deficiency_supported": false,
+    "minimum_consecutive_exceedances": 2,
+    "accepted_channelizer_observations_scanned": 3019,
+    "physical_entity_candidates": 82,
+    "candidate_sequence_count": 8,
+    "sequences_evaluated": 1,
+    "selected_sequence_policy": "continuous channelizer line with minimum median absolute lateral offset from ego trajectory",
+    "selected_sequence_median_abs_lateral_m": 2.9820354347366664,
+    "selected_sequence_entity_ids": [
+      "I2103",
+      "I2160",
+      "I2232",
+      "I2287",
+      "I2369",
+      "I2425",
+      "D01",
+      "D02",
+      "D03",
+      "D04",
+      "D05",
+      "D06",
+      "D07",
+      "D08",
+      "D09",
+      "D10",
+      "I3469",
+      "I3550",
+      "I3670",
+      "I3851",
+      "I4010",
+      "I4138",
+      "I4246",
+      "I4368",
+      "I4483",
+      "I4578",
+      "I4748",
+      "I4911",
+      "I5042",
+      "I5156",
+      "I5311"
+    ],
+    "selected_sequence_reviewed_class_counts": {
+      "traffic_drum": 31
+    },
+    "region_classification_method": "three-point median lateral smoothing followed by deterministic piecewise road-coordinate fitting of a sloped taper and constant-lateral tangent",
+    "included_reviewed_classes": [
+      "channelizing_device",
+      "traffic_cone",
+      "traffic_drum"
+    ],
+    "gaps_evaluated": 30,
+    "clear_exceedance_gap_count": 0,
+    "gaps_vetoed_by_possible_intervener": 0,
+    "violation_run_count": 0,
+    "violation_runs": [],
+    "sequence_summaries": [
+      {
+        "sequence_id": "sequence_01",
+        "entity_count": 31,
+        "gap_count": 30,
+        "start_station_m": 284.92221492310136,
+        "end_station_m": 580.7906420547042,
+        "taper_gap_count": 6,
+        "tangent_gap_count": 24,
+        "region_model": {
+          "gap_regions": [
+            "taper",
+            "taper",
+            "taper",
+            "taper",
+            "taper",
+            "taper",
+            "tangent",
+            "tangent",
+            "tangent",
+            "tangent",
+            "tangent",
+            "tangent",
+            "tangent",
+            "tangent",
+            "tangent",
+            "tangent",
+            "tangent",
+            "tangent",
+            "tangent",
+            "tangent",
+            "tangent",
+            "tangent",
+            "tangent",
+            "tangent",
+            "tangent",
+            "tangent",
+            "tangent",
+            "tangent",
+            "tangent",
+            "tangent"
+          ],
+          "model": "piecewise road-coordinate linear taper plus constant-lateral tangent",
+          "orientation": "taper_then_tangent",
+          "change_station_m": 333.2852354132138,
+          "taper_lateral_slope": -0.08029174802202466,
+          "taper_lateral_shift_m": 2.863318942336278,
+          "piecewise_error": 1.6733311104736646,
+          "constant_error": 14.961407250676878
+        },
+        "device_road_coordinates": [
+          {
+            "entity_id": "I2103",
+            "station_m": 284.92221492310136,
+            "lateral_m": 5.3065062006971715
+          },
+          {
+            "entity_id": "I2160",
+            "station_m": 290.1845604352957,
+            "lateral_m": 5.00015555503137
+          },
+          {
+            "entity_id": "I2232",
+            "station_m": 296.46521146753753,
+            "lateral_m": 4.483282921245363
+          },
+          {
+            "entity_id": "I2287",
+            "station_m": 302.1308080071071,
+            "lateral_m": 4.08143920476206
+          },
+          {
+            "entity_id": "I2369",
+            "station_m": 308.5489922896438,
+            "lateral_m": 2.8278644437653457
+          },
+          {
+            "entity_id": "I2425",
+            "station_m": 315.1008586512005,
+            "lateral_m": 3.3639117045082845
+          },
+          {
+            "entity_id": "D01",
+            "station_m": 320.58364978874715,
+            "lateral_m": 2.522967351423974
+          },
+          {
+            "entity_id": "D02",
+            "station_m": 333.2852354132138,
+            "lateral_m": 2.6155564526699298
+          },
+          {
+            "entity_id": "D03",
+            "station_m": 345.17811256069695,
+            "lateral_m": 3.3089175229006225
+          },
+          {
+            "entity_id": "D04",
+            "station_m": 356.62263006910297,
+            "lateral_m": 3.1584700995492425
+          },
+          {
+            "entity_id": "D05",
+            "station_m": 363.03403849745933,
+            "lateral_m": 2.515609490720896
+          },
+          {
+            "entity_id": "D06",
+            "station_m": 369.0515066930482,
+            "lateral_m": 3.111148264956117
+          },
+          {
+            "entity_id": "D07",
+            "station_m": 377.94104170520194,
+            "lateral_m": 2.9820354347366664
+          },
+          {
+            "entity_id": "D08",
+            "station_m": 385.29466475046667,
+            "lateral_m": 2.4898355778608248
+          },
+          {
+            "entity_id": "D09",
+            "station_m": 392.0808912336957,
+            "lateral_m": 2.46683946065602
+          },
+          {
+            "entity_id": "D10",
+            "station_m": 403.86508244654857,
+            "lateral_m": 2.7926435440696817
+          },
+          {
+            "entity_id": "I3469",
+            "station_m": 417.4784991513717,
+            "lateral_m": 3.328896079686123
+          },
+          {
+            "entity_id": "I3550",
+            "station_m": 429.51628483596414,
+            "lateral_m": 3.5477554723768954
+          },
+          {
+            "entity_id": "I3670",
+            "station_m": 439.341034017167,
+            "lateral_m": 2.263862649026454
+          },
+          {
+            "entity_id": "I3851",
+            "station_m": 450.3653846753497,
+            "lateral_m": 2.851866699348022
+          },
+          {
+            "entity_id": "I4010",
+            "station_m": 465.46821049718193,
+            "lateral_m": 2.4569936233906446
+          },
+          {
+            "entity_id": "I4138",
+            "station_m": 478.3438844017179,
+            "lateral_m": 3.3059194241011323
+          },
+          {
+            "entity_id": "I4246",
+            "station_m": 491.50928524593127,
+            "lateral_m": 3.0273133908047054
+          },
+          {
+            "entity_id": "I4368",
+            "station_m": 502.2988040528319,
+            "lateral_m": 3.0969417804035997
+          },
+          {
+            "entity_id": "I4483",
+            "station_m": 514.335078419421,
+            "lateral_m": 2.4226454495081637
+          },
+          {
+            "entity_id": "I4578",
+            "station_m": 522.3743995887818,
+            "lateral_m": 3.363216111686184
+          },
+          {
+            "entity_id": "I4748",
+            "station_m": 537.8205155295657,
+            "lateral_m": 2.904175850369944
+          },
+          {
+            "entity_id": "I4911",
+            "station_m": 550.481177673027,
+            "lateral_m": 3.2102230537116614
+          },
+          {
+            "entity_id": "I5042",
+            "station_m": 563.96585829523,
+            "lateral_m": 2.7012690092241507
+          },
+          {
+            "entity_id": "I5156",
+            "station_m": 574.0694089013602,
+            "lateral_m": 1.8349885728928073
+          },
+          {
+            "entity_id": "I5311",
+            "station_m": 580.7906420547042,
+            "lateral_m": 2.6202631867802513
+          }
+        ],
+        "clear_exceedance_gap_count": 0,
+        "sustained_violation_run_count": 0,
+        "gaps": [
+          {
+            "gap_index": 1,
+            "from_entity_id": "I2103",
+            "to_entity_id": "I2160",
+            "channelization_region": "taper",
+            "threshold_m": 9.144,
+            "value_m": 5.254951017882326,
+            "confidence_interval_m": [
+              3.9080775698104917,
+              6.60182446595416
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 2,
+            "from_entity_id": "I2160",
+            "to_entity_id": "I2232",
+            "channelization_region": "taper",
+            "threshold_m": 9.144,
+            "value_m": 6.307545802989082,
+            "confidence_interval_m": [
+              5.307545802989082,
+              7.307545802989082
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 3,
+            "from_entity_id": "I2232",
+            "to_entity_id": "I2287",
+            "channelization_region": "taper",
+            "threshold_m": 9.144,
+            "value_m": 5.678180186603209,
+            "confidence_interval_m": [
+              4.277169407970365,
+              7.0791909652360525
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 4,
+            "from_entity_id": "I2287",
+            "to_entity_id": "I2369",
+            "channelization_region": "taper",
+            "threshold_m": 9.144,
+            "value_m": 6.551284447526299,
+            "confidence_interval_m": [
+              5.097863874120862,
+              8.004705020931736
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 5,
+            "from_entity_id": "I2369",
+            "to_entity_id": "I2425",
+            "channelization_region": "taper",
+            "threshold_m": 9.144,
+            "value_m": 6.580872169821469,
+            "confidence_interval_m": [
+              5.528462375048877,
+              7.633281964594062
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 6,
+            "from_entity_id": "I2425",
+            "to_entity_id": "D01",
+            "channelization_region": "taper",
+            "threshold_m": 9.144,
+            "value_m": 5.549848751344879,
+            "confidence_interval_m": [
+              4.319759571377141,
+              6.779937931312617
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 7,
+            "from_entity_id": "D01",
+            "to_entity_id": "D02",
+            "channelization_region": "tangent",
+            "threshold_m": 18.288,
+            "value_m": 12.6914766750854,
+            "confidence_interval_m": [
+              11.005080058142516,
+              14.377873292028285
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 8,
+            "from_entity_id": "D02",
+            "to_entity_id": "D03",
+            "channelization_region": "tangent",
+            "threshold_m": 18.288,
+            "value_m": 11.903172391897291,
+            "confidence_interval_m": [
+              9.835426541340958,
+              13.970918242453624
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 9,
+            "from_entity_id": "D03",
+            "to_entity_id": "D04",
+            "channelization_region": "tangent",
+            "threshold_m": 18.288,
+            "value_m": 11.450165760625195,
+            "confidence_interval_m": [
+              9.7636731842882,
+              13.13665833696219
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 10,
+            "from_entity_id": "D04",
+            "to_entity_id": "D05",
+            "channelization_region": "tangent",
+            "threshold_m": 18.288,
+            "value_m": 6.443019463835289,
+            "confidence_interval_m": [
+              4.935630974413484,
+              7.950407953257094
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 11,
+            "from_entity_id": "D05",
+            "to_entity_id": "D06",
+            "channelization_region": "tangent",
+            "threshold_m": 18.288,
+            "value_m": 6.046942992500754,
+            "confidence_interval_m": [
+              4.286025938256803,
+              7.807860046744705
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 12,
+            "from_entity_id": "D06",
+            "to_entity_id": "D07",
+            "channelization_region": "tangent",
+            "threshold_m": 18.288,
+            "value_m": 8.88835922941513,
+            "confidence_interval_m": [
+              7.3083034131923,
+              10.46841504563796
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 13,
+            "from_entity_id": "D07",
+            "to_entity_id": "D08",
+            "channelization_region": "tangent",
+            "threshold_m": 18.288,
+            "value_m": 7.3757629479645015,
+            "confidence_interval_m": [
+              5.995859838610773,
+              8.75566605731823
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 14,
+            "from_entity_id": "D08",
+            "to_entity_id": "D09",
+            "channelization_region": "tangent",
+            "threshold_m": 18.288,
+            "value_m": 6.796540928587412,
+            "confidence_interval_m": [
+              5.575788035356048,
+              8.017293821818775
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 15,
+            "from_entity_id": "D09",
+            "to_entity_id": "D10",
+            "channelization_region": "tangent",
+            "threshold_m": 18.288,
+            "value_m": 11.802608948570988,
+            "confidence_interval_m": [
+              10.533177622206445,
+              13.072040274935532
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 16,
+            "from_entity_id": "D10",
+            "to_entity_id": "I3469",
+            "channelization_region": "tangent",
+            "threshold_m": 18.288,
+            "value_m": 13.648547376016857,
+            "confidence_interval_m": [
+              12.016238826870515,
+              15.2808559251632
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 17,
+            "from_entity_id": "I3469",
+            "to_entity_id": "I3550",
+            "channelization_region": "tangent",
+            "threshold_m": 18.288,
+            "value_m": 12.067382761624698,
+            "confidence_interval_m": [
+              10.612182666320388,
+              13.522582856929008
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 18,
+            "from_entity_id": "I3550",
+            "to_entity_id": "I3670",
+            "channelization_region": "tangent",
+            "threshold_m": 18.288,
+            "value_m": 9.926499564830072,
+            "confidence_interval_m": [
+              8.709308838765214,
+              11.14369029089493
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 19,
+            "from_entity_id": "I3670",
+            "to_entity_id": "I3851",
+            "channelization_region": "tangent",
+            "threshold_m": 18.288,
+            "value_m": 11.047194003641943,
+            "confidence_interval_m": [
+              9.830003277577084,
+              12.264384729706801
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 20,
+            "from_entity_id": "I3851",
+            "to_entity_id": "I4010",
+            "channelization_region": "tangent",
+            "threshold_m": 18.288,
+            "value_m": 15.103600726182332,
+            "confidence_interval_m": [
+              13.929805345399904,
+              16.27739610696476
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 21,
+            "from_entity_id": "I4010",
+            "to_entity_id": "I4138",
+            "channelization_region": "tangent",
+            "threshold_m": 18.288,
+            "value_m": 12.899779462053113,
+            "confidence_interval_m": [
+              11.725984081270685,
+              14.07357484283554
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 22,
+            "from_entity_id": "I4138",
+            "to_entity_id": "I4246",
+            "channelization_region": "tangent",
+            "threshold_m": 18.288,
+            "value_m": 13.177697858858691,
+            "confidence_interval_m": [
+              12.031985584201342,
+              14.32341013351604
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 23,
+            "from_entity_id": "I4246",
+            "to_entity_id": "I4368",
+            "channelization_region": "tangent",
+            "threshold_m": 18.288,
+            "value_m": 10.774944864107312,
+            "confidence_interval_m": [
+              9.524604887717802,
+              12.025284840496822
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 24,
+            "from_entity_id": "I4368",
+            "to_entity_id": "I4483",
+            "channelization_region": "tangent",
+            "threshold_m": 18.288,
+            "value_m": 12.062006236813573,
+            "confidence_interval_m": [
+              10.957378535081412,
+              13.166633938545734
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 25,
+            "from_entity_id": "I4483",
+            "to_entity_id": "I4578",
+            "channelization_region": "tangent",
+            "threshold_m": 18.288,
+            "value_m": 8.101326896527016,
+            "confidence_interval_m": [
+              7.101326896527016,
+              9.101326896527016
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 26,
+            "from_entity_id": "I4578",
+            "to_entity_id": "I4748",
+            "channelization_region": "tangent",
+            "threshold_m": 18.288,
+            "value_m": 15.470152209499657,
+            "confidence_interval_m": [
+              14.329335582061782,
+              16.61096883693753
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 27,
+            "from_entity_id": "I4748",
+            "to_entity_id": "I4911",
+            "channelization_region": "tangent",
+            "threshold_m": 18.288,
+            "value_m": 12.649747995424002,
+            "confidence_interval_m": [
+              11.508931367986127,
+              13.790564622861877
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 28,
+            "from_entity_id": "I4911",
+            "to_entity_id": "I5042",
+            "channelization_region": "tangent",
+            "threshold_m": 18.288,
+            "value_m": 13.489498918516547,
+            "confidence_interval_m": [
+              12.464352705515175,
+              14.51464513151792
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 29,
+            "from_entity_id": "I5042",
+            "to_entity_id": "I5156",
+            "channelization_region": "tangent",
+            "threshold_m": 18.288,
+            "value_m": 10.141663304816205,
+            "confidence_interval_m": [
+              9.116517091814833,
+              11.166809517817578
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          },
+          {
+            "gap_index": 30,
+            "from_entity_id": "I5156",
+            "to_entity_id": "I5311",
+            "channelization_region": "tangent",
+            "threshold_m": 18.288,
+            "value_m": 6.708978676441363,
+            "confidence_interval_m": [
+              5.708978676441363,
+              7.708978676441363
+            ],
+            "possible_intervening_entity_ids": [],
+            "clear_exceedance": false
+          }
+        ]
+      }
+    ],
+    "associated_bbox_ids": [
+      "F0276_CAM_FRONT_LEFT_S000",
+      "F0296_CAM_FRONT_LEFT_S001",
+      "F0320_CAM_FRONT_014",
+      "F0323_CAM_BACK_LEFT_S001",
+      "F0330_CAM_BACK_LEFT_S000",
+      "F0333_CAM_BACK_LEFT_S001",
+      "F0334_CAM_BACK_LEFT_S002",
+      "F0343_CAM_BACK_LEFT_S003",
+      "F0352_CAM_FRONT_LEFT_S002",
+      "F0381_CAM_FRONT_LEFT_014",
+      "F0385_CAM_BACK_LEFT_S000",
+      "F0391_CAM_FRONT_LEFT_015",
+      "F0397_CAM_BACK_LEFT_S000",
+      "F0397_CAM_BACK_LEFT_S004",
+      "F0407_CAM_BACK_LEFT_S001",
+      "F0425_CAM_BACK_000",
+      "F0437_CAM_FRONT_007",
+      "F0451_CAM_BACK_S001",
+      "F0459_CAM_FRONT_013",
+      "F0476_CAM_BACK_S000",
+      "F0501_CAM_FRONT_LEFT_S001",
+      "F0502_CAM_BACK_S001",
+      "F0516_CAM_BACK_LEFT_017",
+      "F0530_CAM_BACK_S000",
+      "F0537_CAM_BACK_013",
+      "F0567_CAM_BACK_LEFT_S000",
+      "F0568_CAM_FRONT_038",
+      "F0575_CAM_BACK_LEFT_010",
+      "F0627_CAM_BACK_016",
+      "F0656_CAM_BACK_S000",
+      "F0802_CAM_BACK_LEFT_S000"
+    ],
+    "associated_image_ids": [
+      "cats001-2026-04-28-15-30-0500__CAM_BACK_LEFT__42366666",
+      "cats001-2026-04-28-15-30-0500__CAM_BACK_LEFT__43066666",
+      "cats001-2026-04-28-15-30-0500__CAM_BACK_LEFT__43366666",
+      "cats001-2026-04-28-15-30-0500__CAM_BACK_LEFT__43466666",
+      "cats001-2026-04-28-15-30-0500__CAM_BACK_LEFT__44366666",
+      "cats001-2026-04-28-15-30-0500__CAM_BACK_LEFT__48566666",
+      "cats001-2026-04-28-15-30-0500__CAM_BACK_LEFT__49766666",
+      "cats001-2026-04-28-15-30-0500__CAM_BACK_LEFT__50766666",
+      "cats001-2026-04-28-15-30-0500__CAM_BACK_LEFT__61666666",
+      "cats001-2026-04-28-15-30-0500__CAM_BACK_LEFT__66766666",
+      "cats001-2026-04-28-15-30-0500__CAM_BACK_LEFT__67566666",
+      "cats001-2026-04-28-15-30-0500__CAM_BACK_LEFT__90266666",
+      "cats001-2026-04-28-15-30-0500__CAM_BACK__52533333",
+      "cats001-2026-04-28-15-30-0500__CAM_BACK__55133333",
+      "cats001-2026-04-28-15-30-0500__CAM_BACK__57633333",
+      "cats001-2026-04-28-15-30-0500__CAM_BACK__60233333",
+      "cats001-2026-04-28-15-30-0500__CAM_BACK__63033333",
+      "cats001-2026-04-28-15-30-0500__CAM_BACK__63733333",
+      "cats001-2026-04-28-15-30-0500__CAM_BACK__72733333",
+      "cats001-2026-04-28-15-30-0500__CAM_BACK__75633333",
+      "cats001-2026-04-28-15-30-0500__CAM_FRONT_LEFT__37633333",
+      "cats001-2026-04-28-15-30-0500__CAM_FRONT_LEFT__39633333",
+      "cats001-2026-04-28-15-30-0500__CAM_FRONT_LEFT__45233333",
+      "cats001-2026-04-28-15-30-0500__CAM_FRONT_LEFT__48133333",
+      "cats001-2026-04-28-15-30-0500__CAM_FRONT_LEFT__49133333",
+      "cats001-2026-04-28-15-30-0500__CAM_FRONT_LEFT__60133333",
+      "cats001-2026-04-28-15-30-0500__CAM_FRONT__42033333",
+      "cats001-2026-04-28-15-30-0500__CAM_FRONT__53733333",
+      "cats001-2026-04-28-15-30-0500__CAM_FRONT__55933333",
+      "cats001-2026-04-28-15-30-0500__CAM_FRONT__66833332"
+    ],
+    "endpoint_semantics_valid": true,
+    "geometry_direction_valid": true,
+    "sequence_inference_valid": true,
+    "measurement_method": "rule-based accepted-track deduplication, Frenet path cover, nearest-trajectory sequence selection, and exhaustive adjacent-gap audit",
+    "quality_flags": [
+      "accepted_bbox_class_only",
+      "track_positions_are_not_survey_grade",
+      "sequence_membership_is_rule_based",
+      "single_gap_is_not_a_formal_deficiency",
+      "farther_parallel_channelizer_lines_excluded",
+      "complete_automatic_inventory_used_only_to_veto_possible_missed_devices"
+    ],
+    "excluded_low_support_entities": 20,
+    "excluded_unstable_entities": 0,
+    "failure_reason": null,
+    "discovered_requirement_key": "req_b93cf081b51794cc",
+    "requirement_fingerprint": "b93cf081b51794cccd1bc7368eafd37af7e6df19382517113b3818406e0f6616",
+    "requirement_registration_event_index": 6,
+    "requirement_registration_timestamp": "2026-09-24T19:43:10.144703+00:00",
+    "measurement_event_index": 94,
+    "measurement_timestamp": "2026-09-25T00:45:50.816572+00:00",
+    "registered_source_locator": "SEC-6K.01 paragraph 04; PDF page 855"
+  },
+  {
+    "status": "acquired",
+    "measurement_id": "measurement_55530ef277083ea152ea",
+    "measurement_type": "sign_spacing",
+    "geometry_direction": "longitudinal_station",
+    "value": 845.663504116101,
+    "unit": "m",
+    "uncertainty": 1.1902412219239977,
+    "confidence_interval": [
+      844.8076672319695,
+      846.853745338025
+    ],
+    "start_anchor": {
+      "status": "acquired",
+      "location_id": "location_d8353f78f8363b58c779",
+      "observation_id": "F0020_CAM_FRONT_008",
+      "global_xyz_m": [
+        172.27095305854886,
+        30.820368252566364,
+        2.561959734173893
+      ],
+      "uncertainty_m": 4.057869295075662,
+      "spatial_uncertainty_m": 4.057869295075662,
+      "road_station_m": 34.56322708877067,
+      "station_confidence_interval_m": [
+        33.757576412007865,
+        35.10138113501582
+      ],
+      "station_uncertainty_m": 0.8056506767628022,
+      "station_sample_count": 772,
+      "trajectory_lateral_offset_m": 29.934693807869095,
+      "lateral_confidence_interval_m": [
+        25.798939833867884,
+        30.069368771678747
+      ],
+      "trajectory_lateral_residual_m": 29.934693807869095,
+      "trajectory_lateral_residual_p95_m": 30.069368771678747,
+      "longitudinal_geometry_usable": false,
+      "trajectory_local_tangent_xy": [
+        0.9999790506751234,
+        0.006472882733298119
+      ],
+      "trajectory_local_normal_xy": [
+        -0.006472882733298119,
+        0.9999790506751234
+      ],
+      "projected_points_in_bbox": 1990,
+      "depth_cluster_points": 772,
+      "associated_image_ids": [
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__12033333"
+      ],
+      "associated_bbox_ids": [
+        "F0020_CAM_FRONT_008"
+      ],
+      "associated_lidar_frames": [
+        "scene-CATS-01/LIDAR_TOP/cats001-2026-04-28-15-30-0500__LIDAR_TOP__12000044.pcd.bin"
+      ],
+      "trajectory_pose_source": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/CATS_v1.0/ego_pose.json",
+      "calibration_source": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/CATS_v1.0/calibrated_sensor.json",
+      "measurement_method": "synchronized lidar projection into accepted 2D bbox; nearest-depth robust cluster; each retained point projected independently to trajectory station",
+      "quality_flags": [
+        "bbox_frustum_can_include_background",
+        "not_survey_grade",
+        "large_trajectory_lateral_residual",
+        "trajectory_lateral_residual_exceeds_gate"
+      ],
+      "failure_reason": null,
+      "semantic_role": "upstream_sign"
+    },
+    "end_anchor": {
+      "status": "acquired",
+      "location_id": "location_68a9b3a23c8ff0825662",
+      "observation_id": "F1011_CAM_FRONT_S000",
+      "global_xyz_m": [
+        1019.0320250568268,
+        -9.036419800198882,
+        0.3671382846260689
+      ],
+      "uncertainty_m": 0.5,
+      "spatial_uncertainty_m": 0.5,
+      "road_station_m": 880.2267312048716,
+      "station_confidence_interval_m": [
+        879.9090483669853,
+        880.6113217500329
+      ],
+      "station_uncertainty_m": 0.38459054516124525,
+      "station_sample_count": 692,
+      "trajectory_lateral_offset_m": 8.714203006698671,
+      "lateral_confidence_interval_m": [
+        8.583499243622384,
+        8.77418627897754
+      ],
+      "trajectory_lateral_residual_m": 8.714203006698671,
+      "trajectory_lateral_residual_p95_m": 8.77418627897754,
+      "longitudinal_geometry_usable": true,
+      "trajectory_local_tangent_xy": [
+        0.9822621120931778,
+        -0.18751304793600135
+      ],
+      "trajectory_local_normal_xy": [
+        0.18751304793600135,
+        0.9822621120931778
+      ],
+      "projected_points_in_bbox": 1232,
+      "depth_cluster_points": 692,
+      "associated_image_ids": [
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__111133333"
+      ],
+      "associated_bbox_ids": [
+        "F1011_CAM_FRONT_S000"
+      ],
+      "associated_lidar_frames": [
+        "scene-CATS-01/LIDAR_TOP/cats001-2026-04-28-15-30-0500__LIDAR_TOP__111100260.pcd.bin"
+      ],
+      "trajectory_pose_source": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/CATS_v1.0/ego_pose.json",
+      "calibration_source": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/CATS_v1.0/calibrated_sensor.json",
+      "measurement_method": "synchronized lidar projection into accepted 2D bbox; nearest-depth robust cluster; each retained point projected independently to trajectory station",
+      "quality_flags": [
+        "bbox_frustum_can_include_background",
+        "not_survey_grade"
+      ],
+      "failure_reason": null,
+      "semantic_role": "downstream_sign"
+    },
+    "ordered_anchors": [
+      {
+        "status": "acquired",
+        "location_id": "location_d8353f78f8363b58c779",
+        "observation_id": "F0020_CAM_FRONT_008",
+        "global_xyz_m": [
+          172.27095305854886,
+          30.820368252566364,
+          2.561959734173893
+        ],
+        "uncertainty_m": 4.057869295075662,
+        "spatial_uncertainty_m": 4.057869295075662,
+        "road_station_m": 34.56322708877067,
+        "station_confidence_interval_m": [
+          33.757576412007865,
+          35.10138113501582
+        ],
+        "station_uncertainty_m": 0.8056506767628022,
+        "station_sample_count": 772,
+        "trajectory_lateral_offset_m": 29.934693807869095,
+        "lateral_confidence_interval_m": [
+          25.798939833867884,
+          30.069368771678747
+        ],
+        "trajectory_lateral_residual_m": 29.934693807869095,
+        "trajectory_lateral_residual_p95_m": 30.069368771678747,
+        "longitudinal_geometry_usable": false,
+        "trajectory_local_tangent_xy": [
+          0.9999790506751234,
+          0.006472882733298119
+        ],
+        "trajectory_local_normal_xy": [
+          -0.006472882733298119,
+          0.9999790506751234
+        ],
+        "projected_points_in_bbox": 1990,
+        "depth_cluster_points": 772,
+        "associated_image_ids": [
+          "cats001-2026-04-28-15-30-0500__CAM_FRONT__12033333"
+        ],
+        "associated_bbox_ids": [
+          "F0020_CAM_FRONT_008"
+        ],
+        "associated_lidar_frames": [
+          "scene-CATS-01/LIDAR_TOP/cats001-2026-04-28-15-30-0500__LIDAR_TOP__12000044.pcd.bin"
+        ],
+        "trajectory_pose_source": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/CATS_v1.0/ego_pose.json",
+        "calibration_source": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/CATS_v1.0/calibrated_sensor.json",
+        "measurement_method": "synchronized lidar projection into accepted 2D bbox; nearest-depth robust cluster; each retained point projected independently to trajectory station",
+        "quality_flags": [
+          "bbox_frustum_can_include_background",
+          "not_survey_grade",
+          "large_trajectory_lateral_residual",
+          "trajectory_lateral_residual_exceeds_gate"
+        ],
+        "failure_reason": null,
+        "semantic_role": "upstream_sign"
+      },
+      {
+        "status": "acquired",
+        "location_id": "location_68a9b3a23c8ff0825662",
+        "observation_id": "F1011_CAM_FRONT_S000",
+        "global_xyz_m": [
+          1019.0320250568268,
+          -9.036419800198882,
+          0.3671382846260689
+        ],
+        "uncertainty_m": 0.5,
+        "spatial_uncertainty_m": 0.5,
+        "road_station_m": 880.2267312048716,
+        "station_confidence_interval_m": [
+          879.9090483669853,
+          880.6113217500329
+        ],
+        "station_uncertainty_m": 0.38459054516124525,
+        "station_sample_count": 692,
+        "trajectory_lateral_offset_m": 8.714203006698671,
+        "lateral_confidence_interval_m": [
+          8.583499243622384,
+          8.77418627897754
+        ],
+        "trajectory_lateral_residual_m": 8.714203006698671,
+        "trajectory_lateral_residual_p95_m": 8.77418627897754,
+        "longitudinal_geometry_usable": true,
+        "trajectory_local_tangent_xy": [
+          0.9822621120931778,
+          -0.18751304793600135
+        ],
+        "trajectory_local_normal_xy": [
+          0.18751304793600135,
+          0.9822621120931778
+        ],
+        "projected_points_in_bbox": 1232,
+        "depth_cluster_points": 692,
+        "associated_image_ids": [
+          "cats001-2026-04-28-15-30-0500__CAM_FRONT__111133333"
+        ],
+        "associated_bbox_ids": [
+          "F1011_CAM_FRONT_S000"
+        ],
+        "associated_lidar_frames": [
+          "scene-CATS-01/LIDAR_TOP/cats001-2026-04-28-15-30-0500__LIDAR_TOP__111100260.pcd.bin"
+        ],
+        "trajectory_pose_source": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/CATS_v1.0/ego_pose.json",
+        "calibration_source": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/CATS_v1.0/calibrated_sensor.json",
+        "measurement_method": "synchronized lidar projection into accepted 2D bbox; nearest-depth robust cluster; each retained point projected independently to trajectory station",
+        "quality_flags": [
+          "bbox_frustum_can_include_background",
+          "not_survey_grade"
+        ],
+        "failure_reason": null,
+        "semantic_role": "downstream_sign"
+      }
+    ],
+    "endpoint_semantics_valid": true,
+    "geometry_direction_valid": false,
+    "threshold_assessment": {
+      "status": "geometry_not_eligible",
+      "threshold_m": 30.48,
+      "violation_when": "below_minimum",
+      "clear_violation": false,
+      "reason": "Endpoint semantics or measurement direction failed validation."
+    },
+    "deficiency_supported": false,
+    "associated_image_ids": [
+      "cats001-2026-04-28-15-30-0500__CAM_FRONT__12033333",
+      "cats001-2026-04-28-15-30-0500__CAM_FRONT__111133333"
+    ],
+    "associated_bbox_ids": [
+      "F0020_CAM_FRONT_008",
+      "F1011_CAM_FRONT_S000"
+    ],
+    "associated_lidar_frames": [
+      "scene-CATS-01/LIDAR_TOP/cats001-2026-04-28-15-30-0500__LIDAR_TOP__12000044.pcd.bin",
+      "scene-CATS-01/LIDAR_TOP/cats001-2026-04-28-15-30-0500__LIDAR_TOP__111100260.pcd.bin"
+    ],
+    "trajectory_pose_source": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/CATS_v1.0/ego_pose.json",
+    "calibration_source": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/CATS_v1.0/calibrated_sensor.json",
+    "measurement_method": "difference of automatically station-sorted endpoint medians; confidence interval derived from per-candidate trajectory-station distributions; lateral residual used only as a quality gate",
+    "quality_flags": [
+      "bbox_frustum_can_include_background",
+      "large_trajectory_lateral_residual",
+      "longitudinal_geometry_failed_lateral_gate",
+      "not_survey_grade",
+      "trajectory_lateral_residual_exceeds_gate"
+    ],
+    "failure_reason": null,
+    "discovered_requirement_key": "req_3ff5962a4759ea94",
+    "requirement_fingerprint": "3ff5962a4759ea943150e68e94d67178decddee891771764db2c4ae61b6942bf",
+    "requirement_registration_event_index": 18,
+    "requirement_registration_timestamp": "2026-09-24T19:43:48.430161+00:00",
+    "measurement_event_index": 99,
+    "measurement_timestamp": "2026-09-25T00:45:57.802651+00:00",
+    "registered_source_locator": "SEC-6H.02 paragraph 01; PDF page 838"
+  }
+]

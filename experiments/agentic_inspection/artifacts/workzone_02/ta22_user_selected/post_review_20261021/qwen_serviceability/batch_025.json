@@ -1,0 +1,102 @@
+{
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "image_sha256": "ac7dc4648c0b33e982d412cec650d1e87e32f27298684c29810f84a65e973e8d",
+  "response": {
+    "model": "qwen3-vl:4b-instruct",
+    "created_at": "2026-10-21T14:50:02.633560853Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"items\": [\n    {\n      \"id\": 1,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Cone is upright, intact with visible stripes and base; no obvious damage or missing parts.\"\n    },\n    {\n      \"id\": 2,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Cone appears fully assembled, standing upright with clear markings; no visible breakage or major defects.\"\n    },\n    {\n      \"id\": 3,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Cone is in standard position, shows no signs of collapse, missing parts, or severe damage; stripes are discernible.\"\n    },\n    {\n      \"id\": 4,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Cone is stable and fully visible with intact markings; no obvious functional defects or damage.\"\n    },\n    {\n      \"id\": 5,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Multiple cones are upright, in standard configuration, with visible stripes and bases; no apparent damage.\"\n    },\n    {\n      \"id\": 6,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Cone is standing normally, shows no signs of breakage or missing components; markings are legible.\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 3670996629,
+    "load_duration": 154407448,
+    "prompt_eval_count": 1299,
+    "prompt_eval_duration": 458113000,
+    "eval_count": 282,
+    "eval_duration": 2879228000
+  },
+  "observations": [
+    {
+      "observation_id": "C18_F0503_CAM_FRONT_Q014",
+      "frame": 503,
+      "native_bbox": [
+        2032.4312,
+        1153.9048,
+        2060.9819,
+        1216.1697
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "Cone is upright, intact with visible stripes and base; no obvious damage or missing parts."
+    },
+    {
+      "observation_id": "C18_F0503_CAM_FRONT_Q018",
+      "frame": 503,
+      "native_bbox": [
+        2058.1785,
+        1168.4082,
+        2092.4485,
+        1250.7032
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "Cone appears fully assembled, standing upright with clear markings; no visible breakage or major defects."
+    },
+    {
+      "observation_id": "C18_F0507_CAM_FRONT_Q004",
+      "frame": 507,
+      "native_bbox": [
+        2029.3462,
+        1145.2133,
+        2060.9126,
+        1223.8892
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "Cone is in standard position, shows no signs of collapse, missing parts, or severe damage; stripes are discernible."
+    },
+    {
+      "observation_id": "C18_F0508_CAM_FRONT_Q003",
+      "frame": 508,
+      "native_bbox": [
+        2060.9177,
+        1166.1674,
+        2092.55,
+        1240.0885
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "Cone is stable and fully visible with intact markings; no obvious functional defects or damage."
+    },
+    {
+      "observation_id": "C18_F0509_CAM_FRONT_Q009",
+      "frame": 509,
+      "native_bbox": [
+        2020.1932,
+        1123.5961,
+        2048.1228,
+        1196.2859
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "Multiple cones are upright, in standard configuration, with visible stripes and bases; no apparent damage."
+    },
+    {
+      "observation_id": "C18_F0510_CAM_FRONT_Q005",
+      "frame": 510,
+      "native_bbox": [
+        2043.3158,
+        1159.1882,
+        2073.7769,
+        1228.0238
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "Cone is standing normally, shows no signs of breakage or missing components; markings are legible."
+    }
+  ],
+  "human_confirmed_condition": false
+}

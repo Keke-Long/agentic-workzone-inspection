@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "report_links_checked": 16,
+  "prior_result_files_unchanged": 111,
+  "frozen_continuation_files_verified": 13,
+  "regression_tests_passed": 87,
+  "final_result_count": 13,
+  "final_outcomes": {
+    "not_assessed": 13
+  },
+  "cleanup_removed_transient_paths": [
+    "artifacts/workzone_18/ta22_user_selected/stage4/scene-CATS-19/stage_1_to_6_raw_responses_in_progress.json",
+    "artifacts/workzone_18/ta22_user_selected/stage4/scene-CATS-19/stage_1_to_6_tool_trace_in_progress.json",
+    "artifacts/workzone_18/ta22_user_selected/stage4/scene-CATS-19/payloads",
+    "artifacts/workzone_18/ta22_user_selected/stage4/scene-CATS-19/state_checkpoints",
+    "artifacts/workzone_18/ta22_user_selected/stage5/scene-CATS-19/stage_1_to_6_raw_responses_in_progress.json",
+    "artifacts/workzone_18/ta22_user_selected/stage5/scene-CATS-19/stage_1_to_6_tool_trace_in_progress.json",
+    "artifacts/workzone_18/ta22_user_selected/stage5/scene-CATS-19/payloads",
+    "artifacts/workzone_18/ta22_user_selected/stage5/scene-CATS-19/state_checkpoints",
+    "artifacts/workzone_18/ta22_user_selected/stage6/scene-CATS-19/stage_1_to_6_raw_responses_in_progress.json",
+    "artifacts/workzone_18/ta22_user_selected/stage6/scene-CATS-19/stage_1_to_6_tool_trace_in_progress.json",
+    "artifacts/workzone_18/ta22_user_selected/stage6/scene-CATS-19/payloads",
+    "artifacts/workzone_18/ta22_user_selected/stage6/scene-CATS-19/state_checkpoints",
+    "artifacts/workzone_18/ta22_user_selected/stage4_failed_missing_provenance_guard/scene-CATS-19/stage_1_to_6_raw_responses_in_progress.json",
+    "artifacts/workzone_18/ta22_user_selected/stage4_failed_missing_provenance_guard/scene-CATS-19/stage_1_to_6_tool_trace_in_progress.json",
+    "artifacts/workzone_18/ta22_user_selected/stage4_failed_missing_provenance_guard/scene-CATS-19/payloads",
+    "artifacts/workzone_18/ta22_user_selected/stage4_failed_missing_provenance_guard/scene-CATS-19/state_checkpoints",
+    "artifacts/workzone_18/ta22_user_selected/stage4_failed_blocked_measurement_seal/scene-CATS-19/stage_1_to_6_raw_responses_in_progress.json",
+    "artifacts/workzone_18/ta22_user_selected/stage4_failed_blocked_measurement_seal/scene-CATS-19/stage_1_to_6_tool_trace_in_progress.json",
+    "artifacts/workzone_18/ta22_user_selected/stage4_failed_blocked_measurement_seal/scene-CATS-19/payloads",
+    "artifacts/workzone_18/ta22_user_selected/stage4_failed_blocked_measurement_seal/scene-CATS-19/state_checkpoints"
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "model": "gpt-5.6-luna",
+  "instructions": "Select MUTCD Typical Applications only from manual evidence retrieved from the full index. Never emit benchmark IDs.",
+  "input": [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "input_text",
+          "text": "Stage 0 — autonomous scene understanding and primary MUTCD Typical Application selection. No correct Typical Application, manual page, region, internal requirement ID, or inspection target is supplied. Search the complete manual using the structured BM25 tools. Generate natural-language queries from the frozen scene facts, inspect additional sections/Typical Applications with continuation when needed, and distinguish a directly applicable primary Typical Application from a cross-reference. Put the selected manual-native TA code in layout_code for schema compatibility. A missing fact is layout-blocking only when it prevents choosing among mutually exclusive primary Typical Applications. If the best-matching TA itself states a conditional augmentation for a higher, lower, or otherwise unknown condition, keep that TA as primary and preserve the unresolved condition for later requirement applicability instead of demoting the whole TA. Return indeterminate only when the primary TA itself cannot be selected; list missing fields and do not guess. You must call search_manual at least once before returning JSON.\nScene input:\n{\"accepted_bbox_count\": 241, \"perception_evidence_policy\": \"Only final human retained representatives, using corrected boxes; rejected/unreviewed proposals excluded.\", \"scene_data_manifest\": {\"available_direct\": [\"accepted_bbox_observations\", \"scene_facts\"], \"counts\": {\"accepted_arrow_board_observations\": 0, \"accepted_bbox_observations\": 241, \"accepted_bbox_observations_by_class\": {\"road_work_ahead\": 14, \"traffic_cone\": 227}, \"accepted_pcms_observations\": 0, \"calibrated_sensors\": 2, \"camera_frames\": 240, \"camera_frames_by_channel\": {\"CAM_FRONT\": 240}, \"ego_poses\": 480, \"lidar_frames\": 240, \"samples\": 240}, \"derivable_local\": [\"full_temporal_images\", \"lidar_points\", \"ego_trajectory\", \"sensor_calibration\", \"device_global_position\", \"longitudinal_distance\", \"device_spacing\", \"taper_length\", \"buffer_length\", \"sign_spacing\", \"available_width\", \"rule_based_channelizer_spacing_audit\", \"posted_speed_from_visible_sign\"], \"derived_scene_facts\": {\"arrow_board_deployed\": null, \"arrow_board_deployed_provenance\": [], \"pcms_deployed\": null, \"pcms_deployed_provenance\": []}, \"forbidden_metadata_removed\": [\"scene.description\"], \"location\": {\"dataset_location\": \"madison-wi-usa\", \"external_speed_lookup_ready\": false, \"latitude_longitude\": null, \"reason\": \"Metadata identifies Madison, Wisconsin but contains no road name or geodetic coordinates.\", \"road_name\": null}, \"retrievable_external\": [\"posted_speed_if_road_segment_can_be_geolocated\"], \"scene_description_redacted\": true, \"scene_id\": \"scene-CATS-15\", \"trajectory\": {\"end_timestamp_us\": 84900060, \"path_length_m\": 187.06150413469427, \"start_timestamp_us\": 61000182}}, \"scene_facts\": {\"active_work\": null, \"alternating_one_way_operation\": false, \"arrow_board_deployed\": false, \"capture_vehicle_role\": \"The black vehicle is ONLY the research sensor-recording ego vehicle. It is NOT a work-zone device or construction vehicle. Its presence is NOT evidence of surveying, mobile work, a shadow vehicle, or any construction activity. No surveying operation is established.\", \"closed_lane\": null, \"device_absence_provenance\": \"Explicit user case-level statement during final review, not inferred from zero detections.\", \"geometry_evidence_summary\": {\"candidate_positions\": 31, \"multi_frame_supported\": 22, \"source\": \"validated raw LiDAR reconstruction, not surveyed truth\", \"unresolved_observations\": 75}, \"inspection_period\": \"daytime\", \"inspection_period_provenance\": \"Daylit selected camera0 frames\", \"inspection_scope\": \"Only Case_14 61–85 seconds camera0 and LiDAR. Opposing lane fully closed, ego lane open; opposing traffic confirmed to detour via other roads.\", \"lanes_closed\": null, \"layout_uncertainties\": [\"The precise longitudinal limits and width of the closed opposing lane are not established from these frames.\", \"It is unresolved whether the channelizer line continues beyond the intersection, turns into the cross street, or ends at the intersection.\", \"The exact location and extent of the work activity behind the channelizers are not visible.\", \"The specific opposing-traffic detour route is not visible or confirmed.\", \"Opposing traffic prohibition and off-site detour are confirmed by the user; physical traffic-control devices on the unobserved opposing approach cannot be verified from scoped images.\", \"The purpose of the visible STOP signs relative to the work-zone routing and intersection operations is not established.\"], \"opposing_direction_lane_fully_closed\": true, \"opposing_direction_lane_fully_closed_provenance\": \"User explicitly confirmed full closure of the opposing-direction lane in the later channelized area.\", \"opposing_traffic_control_description\": \"User explicitly confirms opposing traffic is prohibited from entering and detours via other roads; it does not use the remaining ego-direction lane for alternating passage. Exact off-site route and its signs are not covered by camera0.\", \"opposing_traffic_control_provenance\": \"Explicit user confirmation in this conversation, 2026-10-21\", \"opposing_traffic_detour_confirmed\": true, \"opposite_direction_image_coverage\": false, \"pcms_deployed\": false, \"posted_speed_mph\": 20, \"posted_speed_provenance\": \"explicit_user_confirmation\", \"roadway_configuration\": null, \"roadway_lane_count\": null, \"user_confirmed_absent_classes\": [\"barricade\", \"road_barrier\", \"vertical_panel\", \"arrow_board\", \"pcms\", \"worker\", \"work_vehicle\"], \"visual_scene_description\": {\"corrections\": [\"20 mph is the posted speed, NOT ego vehicle travel speed.\", \"Visible STOP signs do not establish traffic-signal deployment. Intersection control beyond visible signs remains unconfirmed.\"], \"facts\": [{\"basis\": \"Visual observation; images 61.1-85.0 seconds.\", \"fact\": \"The scoped roadway is an urban two-way street with one apparent lane in each direction, bounded by curbs and sidewalks.\"}, {\"basis\": \"Visual observation; images 62.7, 65.9, 72.3, 77.0, 80.2, 84.99999 seconds.\", \"fact\": \"A double yellow centerline is visible through much of the roadway and continues toward the intersection.\"}, {\"basis\": \"Explicit user fact.\", \"fact\": \"The full opposing-direction lane is closed as an explicit scoped user fact; the ego-direction lane remains open.\"}, {\"basis\": \"Reviewed labels and visual arrangement.\", \"fact\": \"The apparent channelizer line is formed by closely spaced orange-and-white cones, drums, and delineators, represented in the review as 227 merged traffic_cone observations rather than 227 confirmed independent objects.\"}, {\"basis\": \"Inferred roadway geometry from images 76.99999-84.99999 seconds.\", \"fact\": \"The channelizers become prominent ahead in the opposing-side portion of the roadway, extend longitudinally toward the intersection, and form a tapered or narrowing end near the crossing.\"}, {\"basis\": \"Inferred geometry from images 80.2-84.99999 seconds.\", \"fact\": \"The channelizer alignment separates the open ego-direction path on the right side of the centerline from the closed opposing-side area on the left side of the roadway, as viewed in the direction of travel.\"}, {\"basis\": \"Visual observation; images 80.2-84.99999 seconds.\", \"fact\": \"The work zone is adjacent to or terminates at a cross street intersection with visible STOP signs; signalization is not established with multiple visible STOP signs.\"}, {\"basis\": \"Reviewed labels and images 61.1, 62.7, 78.6, 80.2, 81.8, 83.4, and 84.99999 seconds.\", \"fact\": \"ROAD WORK AHEAD signs are visible on the right side earlier in the approach and again near the work-zone area; the reviewed total is 14 observations, not 14 confirmed independent signs.\"}, {\"basis\": \"Visual observation; images 80.2-84.99999 seconds.\", \"fact\": \"The roadway remains visually passable in the ego direction through the observed approach, including the channelized section near the intersection.\"}, {\"basis\": \"Explicit user confirmation in this conversation, 2026-10-21\", \"fact\": \"User explicitly confirms opposing traffic is prohibited from entering and detours via other roads; it does not use the remaining ego-direction lane for alternating passage. Exact off-site route and its signs are not covered by camera0.\"}, {\"basis\": \"Explicit user fact.\", \"fact\": \"The black sensor car is not construction or surveying activity.\"}, {\"basis\": \"Explicit user facts.\", \"fact\": \"The scoped work-zone duration is less than three days and the posted speed limit is 20 mph.\"}], \"visible_features\": [{\"description\": \"An orange ROAD WORK AHEAD sign is visible on the right sidewalk/roadside. The street ahead appears to have a centerline and open pavement in both apparent lane areas at this distance.\", \"image_reference\": \"camera0\", \"timestamp_seconds\": 61.1}, {\"description\": \"The ROAD WORK AHEAD sign is closer on the right. The double yellow centerline and two apparent roadway sides are visible; no longitudinal cone line is yet prominent in the foreground.\", \"image_reference\": \"camera0\", \"timestamp_seconds\": 62.7}, {\"description\": \"The roadway continues between a park-like open area on the left and buildings on the right. Pavement markings and the centerline remain visible.\", \"image_reference\": \"camera0\", \"timestamp_seconds\": 65.9}, {\"description\": \"A marked pedestrian crossing spans the roadway ahead. The apparent travel path remains open in the ego direction.\", \"image_reference\": \"camera0\", \"timestamp_seconds\": 70.7}, {\"description\": \"A concentrated group of orange channelizers is visible farther ahead near the intersection, primarily on the left/opposing side of the roadway.\", \"image_reference\": \"camera0\", \"timestamp_seconds\": 75.4}, {\"description\": \"The channelizer group is more distinct and forms a longitudinal line along the opposing-side portion of the street. The ego-side path remains visible to the right.\", \"image_reference\": \"camera0\", \"timestamp_seconds\": 77.0}, {\"description\": \"Multiple orange-and-white channelizers occupy and delineate the opposing-side work area. An orange work-zone sign is visible on the right near the approach.\", \"image_reference\": \"camera0\", \"timestamp_seconds\": 78.6}, {\"description\": \"The channelizers form a substantial line or taper ahead, with the open ego-direction path continuing along the right side. A cross street and STOP signs are visible beyond the work-zone line.\", \"image_reference\": \"camera0\", \"timestamp_seconds\": 80.2}, {\"description\": \"The camera approaches the channelizer line. Closely spaced cones/drums/delineators extend along the centerline-side boundary and occupy the opposing lane area.\", \"image_reference\": \"camera0\", \"timestamp_seconds\": 81.8}, {\"description\": \"The channelizers are alongside the left side of the ego path and continue toward the intersection. Several STOP signs and the cross street are clearly visible.\", \"image_reference\": \"camera0\", \"timestamp_seconds\": 83.4}, {\"description\": \"The camera is at the intersection. The channelizer line and its end/taper remain on the left/opposing side, while the ego-direction lane passes on the right. An orange ROAD WORK AHEAD sign is visible low at the left foreground, and additional orange work-zone signage is visible ahead.\", \"image_reference\": \"camera0\", \"timestamp_seconds\": 85.0}]}, \"visual_scene_description_provenance\": \"Model derived from 16 current 61–85 s images; raw request and response in scene_understanding_final_61_85. Explicit user facts take precedence.\", \"work_duration_category\": null, \"work_duration_days_less_than\": 3, \"work_duration_description\": \"User: less than three days; subcategory unknown\"}, \"scene_id\": \"scene-CATS-15\"}"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "type": "function",
+      "name": "search_manual",
+      "description": "Search every prebuilt MUTCD section and Typical Application with structured BM25; page through results as needed.",
+      "strict": true,
+      "parameters": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "query": {
+            "type": "string"
+          },
+          "page_size": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 12
+          },
+          "continuation_token": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "query",
+          "page_size",
+          "continuation_token"
+        ]
+      }
+    },
+    {
+      "type": "function",
+      "name": "expand_source_unit",
+      "description": "Read atomic source nodes for a retrieved section or Typical Application and optional region.",
+      "strict": true,
+      "parameters": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "source_unit_code": {
+            "type": "string"
+          },
+          "region": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "page_size": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 12
+          },
+          "continuation_token": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "source_unit_code",
+          "region",
+          "page_size",
+          "continuation_token"
+        ]
+      }
+    },
+    {
+      "type": "function",
+      "name": "follow_cross_reference",
+      "description": "Traverse only an explicit cross-reference edge found in the manual graph.",
+      "strict": true,
+      "parameters": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "from_source_unit_code": {
+            "type": "string"
+          },
+          "to_source_unit_code": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "from_source_unit_code",
+          "to_source_unit_code"
+        ]
+      }
+    },
+    {
+      "type": "function",
+      "name": "read_source_node",
+      "description": "Read one source-hash node previously surfaced by the full-manual index.",
+      "strict": true,
+      "parameters": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "source_node_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "source_node_id"
+        ]
+      }
+    }
+  ],
+  "tool_choice": "required",
+  "parallel_tool_calls": false,
+  "reasoning": {
+    "effort": "medium"
+  },
+  "max_output_tokens": 5000,
+  "store": false,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "name": "stage0_layout_selection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "scene_id",
+          "layout_selection_status",
+          "selected_layouts",
+          "missing_scene_fields",
+          "selection_reason"
+        ],
+        "properties": {
+          "scene_id": {
+            "type": "string"
+          },
+          "layout_selection_status": {
+            "enum": [
+              "determined",
+              "indeterminate"
+            ]
+          },
+          "selected_layouts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "layout_code",
+                "layout_role",
+                "source_locator",
+                "matched_scene_facts",
+                "conflicting_scene_facts"
+              ],
+              "properties": {
+                "layout_code": {
+                  "type": "string",
+                  "enum": [
+                    "TA-1",
+                    "TA-2",
+                    "TA-3",
+                    "TA-4",
+                    "TA-5",
+                    "TA-6",
+                    "TA-7",
+                    "TA-8",
+                    "TA-9",
+                    "TA-10",
+                    "TA-11",
+                    "TA-12",
+                    "TA-13",
+                    "TA-14",
+                    "TA-15",
+                    "TA-16",
+                    "TA-17",
+                    "TA-18",
+                    "TA-19",
+                    "TA-20",
+                    "TA-21",
+                    "TA-22",
+                    "TA-23",
+                    "TA-24",
+                    "TA-25",
+                    "TA-26",
+                    "TA-27",
+                    "TA-28",
+                    "TA-29",
+                    "TA-30",
+                    "TA-31",
+                    "TA-32",
+                    "TA-33",
+                    "TA-34",
+                    "TA-35",
+                    "TA-36",
+                    "TA-37",
+                    "TA-38",
+                    "TA-39",
+                    "TA-40",
+                    "TA-41",
+                    "TA-42",
+                    "TA-43",
+                    "TA-44",
+                    "TA-45",
+                    "TA-46",
+                    "TA-47",
+                    "TA-48",
+                    "TA-49",
+                    "TA-50",
+                    "TA-51",
+                    "TA-52",
+                    "TA-53",
+                    "TA-54"
+                  ]
+                },
+                "layout_role": {
+                  "enum": [
+                    "primary_applicable",
+                    "cross_reference_only"
+                  ]
+                },
+                "source_locator": {
+                  "type": "string"
+                },
+                "matched_scene_facts": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "conflicting_scene_facts": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "missing_scene_fields": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "selection_reason": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

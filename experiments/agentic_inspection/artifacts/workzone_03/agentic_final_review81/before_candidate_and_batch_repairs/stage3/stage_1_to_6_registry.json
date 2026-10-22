@@ -1,0 +1,2160 @@
+{
+  "scene_id": "scene-CATS-15",
+  "selected_layouts": [
+    {
+      "layout_code": "TA-19",
+      "layout_role": "primary_applicable",
+      "source_locator": "TA-19, Figure 6P-19, PDF page 937 / printed page 897; source unit expanded from the full-manual index",
+      "matched_scene_facts": [
+        "Opposing traffic is explicitly prohibited from entering the closed direction and detours via other roads.",
+        "The ego-direction lane remains open; alternating one-way operation is not occurring.",
+        "The scene is an urban two-way street with one apparent lane in each direction.",
+        "The opposing-direction roadway portion is fully closed and separated by channelizing devices."
+      ],
+      "conflicting_scene_facts": [
+        "The exact off-site detour route and its signing are outside the camera scope.",
+        "Whether the street has a posted route number is unresolved; TA-19 guidance addresses streets without posted route numbers.",
+        "The precise local intersection geometry and limits of the closure are unresolved, but those facts are not needed to establish the directional-detour operation."
+      ]
+    },
+    {
+      "layout_code": "TA-24",
+      "layout_role": "cross_reference_only",
+      "source_locator": "TA-24, Figure 6P-24, PDF page 947 / printed page 907; source unit expanded from the full-manual index",
+      "matched_scene_facts": [
+        "One roadway direction is closed while the other direction remains open.",
+        "Channelizing devices approach and taper near a cross-street intersection."
+      ],
+      "conflicting_scene_facts": [
+        "The defining far-side condition of TA-24 is not established. The channelizer line may end at the intersection, continue beyond it, or turn into the cross street.",
+        "The precise work-space location and longitudinal limits of the opposing-direction closure are unresolved."
+      ]
+    },
+    {
+      "layout_code": "TA-8",
+      "layout_role": "cross_reference_only",
+      "source_locator": "TA-8, Figure 6P-8, PDF page 915 / printed page 875; source unit expanded from the full-manual index",
+      "matched_scene_facts": [
+        "An off-site detour for opposing traffic is explicitly confirmed.",
+        "The closure is associated with an intersection."
+      ],
+      "conflicting_scene_facts": [
+        "TA-8 depicts a road closure with an off-site detour, whereas the confirmed operation closes only one travel direction and leaves the ego-direction lane open.",
+        "The complete TA-8 road-closure and detour-signing arrangement is not established."
+      ]
+    },
+    {
+      "layout_code": "TA-20",
+      "layout_role": "cross_reference_only",
+      "source_locator": "TA-20, Figure 6P-20, PDF page 939 / printed page 899; source unit expanded from the full-manual index",
+      "matched_scene_facts": [
+        "An off-site detour for opposing traffic is explicitly confirmed.",
+        "The closure is near an intersection."
+      ],
+      "conflicting_scene_facts": [
+        "TA-20 addresses detour signing for a closed street, not the confirmed directional closure with the other travel direction remaining open.",
+        "Whether the street has a posted route number is unresolved, and the specific TA-20 signing arrangement is not covered."
+      ]
+    }
+  ],
+  "phase": "measurement",
+  "region_coverage": {
+    "lane_closure_layout": {
+      "status": "screened",
+      "reason": "All retrieved lane-closure candidates were screened; retained predicates are registered and no unresolved Stage-2 candidate remains.",
+      "requirement_keys": [
+        "req_72d15edd230d1568",
+        "req_6cba0e7128bd99e4"
+      ]
+    },
+    "advance_warning_sign_system": {
+      "status": "screened",
+      "reason": "All retrieved advance-warning candidates were screened; retained predicates are registered and no unresolved Stage-2 candidate remains.",
+      "requirement_keys": [
+        "req_7f7323bcd37c5b84",
+        "req_81896520e0b032a5",
+        "req_d305824bda78ee20",
+        "req_d0158fecf5f63d40",
+        "req_994faca8507061a8",
+        "req_12b10ac1c3f92d53",
+        "req_07b36381ff33c89f",
+        "req_09c763900319cba8",
+        "req_f704cd7a2a19ed90",
+        "req_e33565395f6e7972",
+        "req_c22e4cc97e27c3e0",
+        "req_b027f3d259231de3",
+        "req_cba25d328142060c",
+        "req_cb1dccef74232ff1",
+        "req_6510f42c7262c82d",
+        "req_134633b407c8f805"
+      ]
+    },
+    "channelization_system": {
+      "status": "skipped_no_inspectable_candidate",
+      "reason": "No applicable additional channelization predicate is inspectable and unresolved for this scoped scene.",
+      "requirement_keys": []
+    },
+    "transition_and_taper_geometry": {
+      "status": "skipped_no_inspectable_candidate",
+      "reason": "No applicable additional transition or taper predicate is inspectable and unresolved for this scoped scene.",
+      "requirement_keys": []
+    },
+    "conditional_active_devices": {
+      "status": "skipped_no_inspectable_candidate",
+      "reason": "No applicable active-device predicate is established for this scene.",
+      "requirement_keys": []
+    },
+    "conditional_termination_area": {
+      "status": "skipped_no_inspectable_candidate",
+      "reason": "No applicable termination-area predicate is established for this scene.",
+      "requirement_keys": []
+    }
+  },
+  "requirements": [
+    {
+      "region": "lane_closure_layout",
+      "required_inputs": [
+        "Field inventory of existing intersection traffic-control devices",
+        "Closure and intersection limits"
+      ],
+      "source_node_ids": [
+        "src_0adab6a573f859041c12"
+      ],
+      "registration_event_index": 2,
+      "registration_timestamp": "2026-10-22T02:58:40.332783+00:00",
+      "modality": "shall",
+      "source_locator": "SEC-6N.11 paragraph 14; PDF page 888",
+      "applicability_conditions": [
+        "A directional roadway is closed",
+        "An intersection lies within the temporary two-lane/two-way operations or closure area"
+      ],
+      "source_span": "When a directional roadway is closed, inapplicable WRONG WAY signs and markings, and other existing traffic control devices at intersections within the temporary two-lane, two-way operations section shall be covered, removed, or obliterated.",
+      "discovered_requirement_key": "req_72d15edd230d1568",
+      "subject": "Existing WRONG WAY signs, markings, and other conflicting traffic-control devices at intersections within the closed directional roadway",
+      "threshold": "No inapplicable conflicting device remains exposed within the temporary closure/intersection area",
+      "relation": "shall be covered, removed, or obliterated",
+      "requirement_fingerprint": "72d15edd230d1568d983c03046defefcfeee69a91618ac8cf759115d31b46704",
+      "candidate_label": "Cover conflicting intersection devices in a closed directional roadway",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "data_availability_record": {
+        "discovered_requirement_key": "req_72d15edd230d1568",
+        "condition_data_complete": true,
+        "available_inputs": [],
+        "missing_inputs": [
+          "Field inventory of existing intersection traffic-control devices",
+          "Closure and intersection limits"
+        ],
+        "data_availability": "not_attempted",
+        "basis_evidence_ids": [
+          "scene_facts.opposing_direction_lane_fully_closed",
+          "scene_facts.visual_scene_description"
+        ],
+        "reason": "Applicability is resolved by the frozen facts confirming a directional closure and a cross-street intersection, but neither the field inventory nor complete closure/intersection limits is directly available.",
+        "planned_tools": [
+          "inspect_temporal_images",
+          "inspect_observation_images",
+          "measure_longitudinal_distance"
+        ],
+        "planned_evidence_strategy": "Inspect scoped temporal images and accepted observations for existing intersection devices, then establish the closure and intersection limits from image-supported roadway landmarks and trajectory.",
+        "planned_decision_rule": "Assess compliance only if the inventory and limits can identify every applicable existing device within the closure/intersection area; otherwise report unresolved.",
+        "availability_event_index": 45,
+        "availability_timestamp": "2026-10-22T03:00:16.287495+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "region": "advance_warning_sign_system",
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "model_extracted_source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "source_node_ids": [
+        "src_772e91e4ee914179c320"
+      ],
+      "registration_event_index": 3,
+      "registration_timestamp": "2026-10-22T02:58:54.199429+00:00",
+      "modality": "should",
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:M4-10R; Guidance basis SEC-6P.01 paragraph 02",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "discovered_requirement_key": "req_7f7323bcd37c5b84",
+      "subject": "M4-10R sign in TA-19",
+      "threshold": "M4-10R is at the position and in the sequence shown in the figure.",
+      "relation": "is_depicted_at_figure_position",
+      "requirement_fingerprint": "7f7323bcd37c5b841bd101e6c58c630af7301f6b285236b3873c3786da507b51",
+      "candidate_label": "TA-19 figure:sign:M4-10R: M4-10R sign in TA-19",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "data_availability_record": {
+        "discovered_requirement_key": "req_7f7323bcd37c5b84",
+        "condition_data_complete": true,
+        "available_inputs": [
+          "accepted_bbox_observations"
+        ],
+        "missing_inputs": [
+          "raw_images"
+        ],
+        "data_availability": "partial",
+        "basis_evidence_ids": [
+          "scene_facts.selected_layouts.TA-19",
+          "scene_manifest.accepted_bbox_observations"
+        ],
+        "reason": "TA-19 selection and accepted bbox inventory are frozen, but raw images are required to interpret whether the depicted M4-10R sign is present at the figure position and sequence.",
+        "planned_tools": [
+          "inspect_temporal_images"
+        ],
+        "planned_evidence_strategy": "Inspect the scoped temporal images for M4-10R legend, direction, position, and sequence relative to the TA-19 layout.",
+        "planned_decision_rule": "Mark compliant only with clear image evidence of the specified sign at the applicable TA-19 position and sequence; otherwise unresolved or noncompliant as supported.",
+        "availability_event_index": 46,
+        "availability_timestamp": "2026-10-22T03:00:16.287511+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "region": "advance_warning_sign_system",
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "model_extracted_source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "source_node_ids": [
+        "src_cdc47d0d2384b1278442"
+      ],
+      "registration_event_index": 4,
+      "registration_timestamp": "2026-10-22T02:58:54.199506+00:00",
+      "modality": "should",
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:M4-8a; Guidance basis SEC-6P.01 paragraph 02",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "discovered_requirement_key": "req_81896520e0b032a5",
+      "subject": "M4-8a sign in TA-19",
+      "threshold": "M4-8a is at the position and in the sequence shown in the figure.",
+      "relation": "is_depicted_at_figure_position",
+      "requirement_fingerprint": "81896520e0b032a5e2557df7730d43f4342fd257c71109d8c349a006185aa6ae",
+      "candidate_label": "TA-19 figure:sign:M4-8a: M4-8a sign in TA-19",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "data_availability_record": {
+        "discovered_requirement_key": "req_81896520e0b032a5",
+        "condition_data_complete": true,
+        "available_inputs": [
+          "accepted_bbox_observations"
+        ],
+        "missing_inputs": [
+          "raw_images"
+        ],
+        "data_availability": "partial",
+        "basis_evidence_ids": [
+          "scene_facts.selected_layouts.TA-19",
+          "scene_manifest.accepted_bbox_observations"
+        ],
+        "reason": "TA-19 selection and bbox inventory are available, but raw images are needed to identify M4-8a and evaluate its figure position and sequence.",
+        "planned_tools": [
+          "inspect_temporal_images"
+        ],
+        "planned_evidence_strategy": "Inspect temporal images for the M4-8a legend and its placement in the TA-19 sign sequence.",
+        "planned_decision_rule": "Require clear visual identification and position/sequence evidence; otherwise leave the predicate unresolved.",
+        "availability_event_index": 47,
+        "availability_timestamp": "2026-10-22T03:00:16.287516+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "region": "advance_warning_sign_system",
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "model_extracted_source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "source_node_ids": [
+        "src_2978fd365bf247168e56"
+      ],
+      "registration_event_index": 5,
+      "registration_timestamp": "2026-10-22T02:58:54.199568+00:00",
+      "modality": "should",
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:M4-9L; Guidance basis SEC-6P.01 paragraph 02",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "discovered_requirement_key": "req_d305824bda78ee20",
+      "subject": "M4-9L sign in TA-19",
+      "threshold": "M4-9L is at the position and in the sequence shown in the figure.",
+      "relation": "is_depicted_at_figure_position",
+      "requirement_fingerprint": "d305824bda78ee202ef743e949571a64734dfb7656f087ec1a667018f222892b",
+      "candidate_label": "TA-19 figure:sign:M4-9L: M4-9L sign in TA-19",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "data_availability_record": {
+        "discovered_requirement_key": "req_d305824bda78ee20",
+        "condition_data_complete": true,
+        "available_inputs": [
+          "accepted_bbox_observations"
+        ],
+        "missing_inputs": [
+          "raw_images"
+        ],
+        "data_availability": "partial",
+        "basis_evidence_ids": [
+          "scene_facts.selected_layouts.TA-19",
+          "scene_manifest.accepted_bbox_observations"
+        ],
+        "reason": "TA-19 is selected and bbox observations exist, but raw images are needed to interpret M4-9L placement and sequence.",
+        "planned_tools": [
+          "inspect_temporal_images"
+        ],
+        "planned_evidence_strategy": "Inspect temporal images for M4-9L and compare its position and sequence with Figure 6P-19.",
+        "planned_decision_rule": "Findings require clear legend and positional evidence; absent or ambiguous evidence remains unresolved.",
+        "availability_event_index": 48,
+        "availability_timestamp": "2026-10-22T03:00:16.287519+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "region": "advance_warning_sign_system",
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "model_extracted_source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "source_node_ids": [
+        "src_25fdba13ca2e4d09742f"
+      ],
+      "registration_event_index": 6,
+      "registration_timestamp": "2026-10-22T02:58:54.199625+00:00",
+      "modality": "should",
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:M4-9R; Guidance basis SEC-6P.01 paragraph 02",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "discovered_requirement_key": "req_d0158fecf5f63d40",
+      "subject": "M4-9R sign in TA-19",
+      "threshold": "M4-9R is at the position and in the sequence shown in the figure.",
+      "relation": "is_depicted_at_figure_position",
+      "requirement_fingerprint": "d0158fecf5f63d404c6a8f06f9a50327c83851d81c72661a4391913a2530719e",
+      "candidate_label": "TA-19 figure:sign:M4-9R: M4-9R sign in TA-19",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "data_availability_record": {
+        "discovered_requirement_key": "req_d0158fecf5f63d40",
+        "condition_data_complete": true,
+        "available_inputs": [
+          "accepted_bbox_observations"
+        ],
+        "missing_inputs": [
+          "raw_images"
+        ],
+        "data_availability": "partial",
+        "basis_evidence_ids": [
+          "scene_facts.selected_layouts.TA-19",
+          "scene_manifest.accepted_bbox_observations"
+        ],
+        "reason": "TA-19 applicability and bbox inventory are available, but image inspection is required to identify M4-9R and its sequence position.",
+        "planned_tools": [
+          "inspect_temporal_images"
+        ],
+        "planned_evidence_strategy": "Inspect temporal images for M4-9R legend, orientation, and placement relative to the detour signing sequence.",
+        "planned_decision_rule": "Require unambiguous visual evidence at the prescribed TA-19 position; otherwise unresolved.",
+        "availability_event_index": 49,
+        "availability_timestamp": "2026-10-22T03:00:16.287522+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "region": "advance_warning_sign_system",
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "model_extracted_source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "source_node_ids": [
+        "src_5bbe78f326fb3bf0f71f"
+      ],
+      "registration_event_index": 7,
+      "registration_timestamp": "2026-10-22T02:58:54.199679+00:00",
+      "modality": "should",
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R11-2; Guidance basis SEC-6P.01 paragraph 02",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "discovered_requirement_key": "req_994faca8507061a8",
+      "subject": "R11-2 sign in TA-19",
+      "threshold": "R11-2 is at the position and in the sequence shown in the figure.",
+      "relation": "is_depicted_at_figure_position",
+      "requirement_fingerprint": "994faca8507061a84ce9864396f1eca72f70caa83bcbdd60dcb941f248355db5",
+      "candidate_label": "TA-19 figure:sign:R11-2: R11-2 sign in TA-19",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "data_availability_record": {
+        "discovered_requirement_key": "req_994faca8507061a8",
+        "condition_data_complete": true,
+        "available_inputs": [
+          "accepted_bbox_observations"
+        ],
+        "missing_inputs": [
+          "raw_images"
+        ],
+        "data_availability": "partial",
+        "basis_evidence_ids": [
+          "scene_facts.selected_layouts.TA-19",
+          "scene_manifest.accepted_bbox_observations"
+        ],
+        "reason": "TA-19 is selected and bbox observations are inventoried, but raw images are needed to identify R11-2 and its figure position.",
+        "planned_tools": [
+          "inspect_temporal_images"
+        ],
+        "planned_evidence_strategy": "Inspect images for R11-2 and compare its location and sequence with Figure 6P-19.",
+        "planned_decision_rule": "Conclude only from clear sign-legend and placement evidence; otherwise unresolved.",
+        "availability_event_index": 50,
+        "availability_timestamp": "2026-10-22T03:00:16.287526+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "region": "advance_warning_sign_system",
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "model_extracted_source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "source_node_ids": [
+        "src_4e4a614234c55ae69bb4"
+      ],
+      "registration_event_index": 8,
+      "registration_timestamp": "2026-10-22T02:58:54.199732+00:00",
+      "modality": "should",
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R11-4; Guidance basis SEC-6P.01 paragraph 02",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "discovered_requirement_key": "req_12b10ac1c3f92d53",
+      "subject": "R11-4 sign in TA-19",
+      "threshold": "R11-4 is at the position and in the sequence shown in the figure.",
+      "relation": "is_depicted_at_figure_position",
+      "requirement_fingerprint": "12b10ac1c3f92d53beebe30f2778c947a22547a7372cce58e1504b349178fb2b",
+      "candidate_label": "TA-19 figure:sign:R11-4: R11-4 sign in TA-19",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "data_availability_record": {
+        "discovered_requirement_key": "req_12b10ac1c3f92d53",
+        "condition_data_complete": true,
+        "available_inputs": [
+          "accepted_bbox_observations"
+        ],
+        "missing_inputs": [
+          "raw_images"
+        ],
+        "data_availability": "partial",
+        "basis_evidence_ids": [
+          "scene_facts.selected_layouts.TA-19",
+          "scene_manifest.accepted_bbox_observations"
+        ],
+        "reason": "TA-19 selection and bbox inventory are available, but raw images are required to identify R11-4 and assess its sequence position.",
+        "planned_tools": [
+          "inspect_temporal_images"
+        ],
+        "planned_evidence_strategy": "Inspect temporal images for R11-4 and its placement in the TA-19 arrangement.",
+        "planned_decision_rule": "Require clear visual evidence of the specified sign and position; otherwise unresolved.",
+        "availability_event_index": 51,
+        "availability_timestamp": "2026-10-22T03:00:16.287529+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "region": "advance_warning_sign_system",
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "model_extracted_source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "source_node_ids": [
+        "src_a8822f2af49c09edf7fb"
+      ],
+      "registration_event_index": 9,
+      "registration_timestamp": "2026-10-22T02:58:54.199786+00:00",
+      "modality": "should",
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R3-1; Guidance basis SEC-6P.01 paragraph 02",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "discovered_requirement_key": "req_07b36381ff33c89f",
+      "subject": "R3-1 sign in TA-19",
+      "threshold": "R3-1 is at the position and in the sequence shown in the figure.",
+      "relation": "is_depicted_at_figure_position",
+      "requirement_fingerprint": "07b36381ff33c89f58177e4229d18fd0622d7d5f9d3af0f19834a6eefe04267e",
+      "candidate_label": "TA-19 figure:sign:R3-1: R3-1 sign in TA-19",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "data_availability_record": {
+        "discovered_requirement_key": "req_07b36381ff33c89f",
+        "condition_data_complete": true,
+        "available_inputs": [
+          "accepted_bbox_observations"
+        ],
+        "missing_inputs": [
+          "raw_images"
+        ],
+        "data_availability": "partial",
+        "basis_evidence_ids": [
+          "scene_facts.selected_layouts.TA-19",
+          "scene_manifest.accepted_bbox_observations"
+        ],
+        "reason": "TA-19 selection and accepted bbox inventory are available, but raw images are needed to interpret R3-1 and its position/sequence.",
+        "planned_tools": [
+          "inspect_temporal_images"
+        ],
+        "planned_evidence_strategy": "Inspect images for R3-1 legend and compare its placement to Figure 6P-19.",
+        "planned_decision_rule": "Require unambiguous legend and positional evidence; otherwise unresolved.",
+        "availability_event_index": 52,
+        "availability_timestamp": "2026-10-22T03:00:16.287532+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "region": "advance_warning_sign_system",
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "model_extracted_source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "source_node_ids": [
+        "src_ee3d6350ed5f6c524113"
+      ],
+      "registration_event_index": 10,
+      "registration_timestamp": "2026-10-22T02:58:54.199839+00:00",
+      "modality": "should",
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R3-2; Guidance basis SEC-6P.01 paragraph 02",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "discovered_requirement_key": "req_09c763900319cba8",
+      "subject": "R3-2 sign in TA-19",
+      "threshold": "R3-2 is at the position and in the sequence shown in the figure.",
+      "relation": "is_depicted_at_figure_position",
+      "requirement_fingerprint": "09c763900319cba88da70900116e7a60a132abf2c01d04d37c7fc11837d2e91b",
+      "candidate_label": "TA-19 figure:sign:R3-2: R3-2 sign in TA-19",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "data_availability_record": {
+        "discovered_requirement_key": "req_09c763900319cba8",
+        "condition_data_complete": true,
+        "available_inputs": [
+          "accepted_bbox_observations"
+        ],
+        "missing_inputs": [
+          "raw_images"
+        ],
+        "data_availability": "partial",
+        "basis_evidence_ids": [
+          "scene_facts.selected_layouts.TA-19",
+          "scene_manifest.accepted_bbox_observations"
+        ],
+        "reason": "TA-19 selection and bbox inventory are available, but raw images are needed to identify R3-2 and evaluate its placement.",
+        "planned_tools": [
+          "inspect_temporal_images"
+        ],
+        "planned_evidence_strategy": "Inspect temporal images for R3-2 and its position in the TA-19 sequence.",
+        "planned_decision_rule": "Require clear visual sign identification and sequence evidence; otherwise unresolved.",
+        "availability_event_index": 53,
+        "availability_timestamp": "2026-10-22T03:00:16.287535+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "region": "advance_warning_sign_system",
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "model_extracted_source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "source_node_ids": [
+        "src_0fff811036aadbfbf3d1"
+      ],
+      "registration_event_index": 11,
+      "registration_timestamp": "2026-10-22T02:58:54.199890+00:00",
+      "modality": "should",
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R5-1; Guidance basis SEC-6P.01 paragraph 02",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "discovered_requirement_key": "req_f704cd7a2a19ed90",
+      "subject": "R5-1 sign in TA-19",
+      "threshold": "R5-1 is at the position and in the sequence shown in the figure.",
+      "relation": "is_depicted_at_figure_position",
+      "requirement_fingerprint": "f704cd7a2a19ed902aa0331a61ed64d190816809d2a8d474fe432817fd26908b",
+      "candidate_label": "TA-19 figure:sign:R5-1: R5-1 sign in TA-19",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "data_availability_record": {
+        "discovered_requirement_key": "req_f704cd7a2a19ed90",
+        "condition_data_complete": true,
+        "available_inputs": [
+          "accepted_bbox_observations"
+        ],
+        "missing_inputs": [
+          "raw_images"
+        ],
+        "data_availability": "partial",
+        "basis_evidence_ids": [
+          "scene_facts.selected_layouts.TA-19",
+          "scene_manifest.accepted_bbox_observations"
+        ],
+        "reason": "TA-19 selection and bbox inventory are available, but raw images are required to identify R5-1 and its figure position.",
+        "planned_tools": [
+          "inspect_temporal_images"
+        ],
+        "planned_evidence_strategy": "Inspect images for R5-1 and compare its placement with Figure 6P-19.",
+        "planned_decision_rule": "Require clear sign legend and position evidence; otherwise unresolved.",
+        "availability_event_index": 54,
+        "availability_timestamp": "2026-10-22T03:00:16.287538+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "region": "advance_warning_sign_system",
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "model_extracted_source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "source_node_ids": [
+        "src_07444b821fab297359c8"
+      ],
+      "registration_event_index": 12,
+      "registration_timestamp": "2026-10-22T02:58:54.199943+00:00",
+      "modality": "should",
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:R6-1R; Guidance basis SEC-6P.01 paragraph 02",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "discovered_requirement_key": "req_e33565395f6e7972",
+      "subject": "R6-1R sign in TA-19",
+      "threshold": "R6-1R is at the position and in the sequence shown in the figure.",
+      "relation": "is_depicted_at_figure_position",
+      "requirement_fingerprint": "e33565395f6e79726b9db057570f91b26f82b652b18827dd17720236b1263cf7",
+      "candidate_label": "TA-19 figure:sign:R6-1R: R6-1R sign in TA-19",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "data_availability_record": {
+        "discovered_requirement_key": "req_e33565395f6e7972",
+        "condition_data_complete": true,
+        "available_inputs": [
+          "accepted_bbox_observations"
+        ],
+        "missing_inputs": [
+          "raw_images"
+        ],
+        "data_availability": "partial",
+        "basis_evidence_ids": [
+          "scene_facts.selected_layouts.TA-19",
+          "scene_manifest.accepted_bbox_observations"
+        ],
+        "reason": "TA-19 selection and bbox inventory are available, but raw images are needed to identify R6-1R and its sequence position.",
+        "planned_tools": [
+          "inspect_temporal_images"
+        ],
+        "planned_evidence_strategy": "Inspect temporal images for R6-1R legend, direction, and placement in the TA-19 sequence.",
+        "planned_decision_rule": "Require unambiguous visual evidence at the figure position; otherwise unresolved.",
+        "availability_event_index": 55,
+        "availability_timestamp": "2026-10-22T03:00:16.287541+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "region": "advance_warning_sign_system",
+      "required_inputs": [
+        "raw_images"
+      ],
+      "model_extracted_source_span": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions, should be located in advance of the work space or any detour, on the road where the work is taking place.",
+      "source_node_ids": [
+        "src_26bd048211769b2b09e8"
+      ],
+      "registration_event_index": 13,
+      "registration_timestamp": "2026-10-22T02:59:09.689563+00:00",
+      "modality": "should",
+      "source_locator": "SEC-6H.03 paragraph 01; PDF page 842",
+      "applicability_conditions": [],
+      "source_span": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions, should be located in advance of the work space or any detour, on the road where the work is taking place.",
+      "discovered_requirement_key": "req_c22e4cc97e27c3e0",
+      "subject": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions,",
+      "threshold": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions, should be located in advance of the work space or any detour, on the road where the work is taking place.",
+      "relation": "should_comply",
+      "requirement_fingerprint": "c22e4cc97e27c3e0a72da27932c79e3b77c63b1242c38dee02db36c93f241311",
+      "candidate_label": "SEC-6H.03 01: The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "data_availability_record": {
+        "discovered_requirement_key": "req_c22e4cc97e27c3e0",
+        "condition_data_complete": true,
+        "available_inputs": [],
+        "missing_inputs": [
+          "raw_images"
+        ],
+        "data_availability": "not_attempted",
+        "basis_evidence_ids": [
+          "scene_facts.visual_scene_description"
+        ],
+        "reason": "The requirement has no unresolved applicability condition, but raw images are required to assess W20-1 location relative to the work space or detour.",
+        "planned_tools": [
+          "inspect_temporal_images",
+          "measure_longitudinal_distance"
+        ],
+        "planned_evidence_strategy": "Inspect and, if possible, measure the visible ROAD WORK AHEAD signs relative to the established work-space or detour reference.",
+        "planned_decision_rule": "Assess location only when both sign identity and its advance relationship to the work space/detour are evidenced; otherwise unresolved.",
+        "availability_event_index": 56,
+        "availability_timestamp": "2026-10-22T03:00:16.287544+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "region": "advance_warning_sign_system",
+      "required_inputs": [
+        "raw_images"
+      ],
+      "model_extracted_source_span": "The DETOUR (W20-2) sign (see Figure 6H-1) should be used in advance of a road user detour over a different roadway or route.",
+      "source_node_ids": [
+        "src_68cb61fa49e358701720"
+      ],
+      "registration_event_index": 14,
+      "registration_timestamp": "2026-10-22T02:59:09.689638+00:00",
+      "modality": "should",
+      "source_locator": "SEC-6H.04 paragraph 01; PDF page 842",
+      "applicability_conditions": [],
+      "source_span": "The DETOUR (W20-2) sign (see Figure 6H-1) should be used in advance of a road user detour over a different roadway or route.",
+      "discovered_requirement_key": "req_b027f3d259231de3",
+      "subject": "The DETOUR (W20-2) sign (see Figure 6H-1)",
+      "threshold": "The DETOUR (W20-2) sign (see Figure 6H-1) should be used in advance of a road user detour over a different roadway or route.",
+      "relation": "should_comply",
+      "requirement_fingerprint": "b027f3d259231de33a93f4378cc797b41218f6da0438a7072e6c517187b2e682",
+      "candidate_label": "SEC-6H.04 01: The DETOUR (W20-2) sign (see Figure 6H-1)",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "data_availability_record": {
+        "discovered_requirement_key": "req_b027f3d259231de3",
+        "condition_data_complete": true,
+        "available_inputs": [],
+        "missing_inputs": [
+          "raw_images"
+        ],
+        "data_availability": "not_attempted",
+        "basis_evidence_ids": [
+          "scene_facts.opposing_traffic_detour_confirmed",
+          "scene_facts.opposing_traffic_control_description"
+        ],
+        "reason": "The user-confirmed off-site detour resolves applicability; the required raw images have not yet been inspected for a W20-2 sign.",
+        "planned_tools": [
+          "inspect_temporal_images"
+        ],
+        "planned_evidence_strategy": "Inspect the scoped temporal images for a DETOUR (W20-2) sign and determine whether it is used in advance of the confirmed off-site detour; note that the off-site route itself is outside camera scope.",
+        "planned_decision_rule": "Report compliant only if image evidence clearly shows the required W20-2 use in advance of the applicable detour; otherwise report unresolved or unsupported, not inferred from detour confirmation alone.",
+        "availability_event_index": 57,
+        "availability_timestamp": "2026-10-22T03:00:25.326353+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "region": "advance_warning_sign_system",
+      "required_inputs": [
+        "roadway_configuration",
+        "posted_speed_mph",
+        "traffic_sign_observations",
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "model_extracted_source_span": "Table 6B-1. Recommended Advance Warning Sign Minimum Spacing. Urban (low speed): 100 feet, 100 feet, 100 feet. Urban (high speed): 350 feet, 350 feet, 350 feet. Rural: 500 feet, 500 feet, 500 feet. Expressway / Freeway: 1,000 feet, 1,500 feet, 2,640 feet. The column headings A, B, and C are the dimensions shown in Figures 6P-1 through 6P-54.",
+      "source_node_ids": [
+        "src_6ee70d9c1617acd549c4"
+      ],
+      "registration_event_index": 15,
+      "registration_timestamp": "2026-10-22T02:59:09.689715+00:00",
+      "modality": "should",
+      "source_locator": "TABLE-6B-1; PDF page 813",
+      "applicability_conditions": [
+        "road type and agency-determined speed category"
+      ],
+      "source_span": "Table 6B-1. Recommended Advance Warning Sign Minimum Spacing. Urban (low speed): 100 feet, 100 feet, 100 feet. Urban (high speed): 350 feet, 350 feet, 350 feet. Rural: 500 feet, 500 feet, 500 feet. Expressway / Freeway: 1,000 feet, 1,500 feet, 2,640 feet. The column headings A, B, and C are the dimensions shown in Figures 6P-1 through 6P-54.",
+      "discovered_requirement_key": "req_cba25d328142060c",
+      "subject": "advance warning sign dimensions A, B, and C",
+      "threshold": "Urban low speed: A=100 ft, B=100 ft, C=100 ft; urban high speed: A=350 ft, B=350 ft, C=350 ft; rural: A=500 ft, B=500 ft, C=500 ft; expressway/freeway: A=1,000 ft, B=1,500 ft, C=2,640 ft. A is restriction-to-first-sign distance, B first-to-second, and C second-to-third.",
+      "relation": "recommended_minimum_spacing",
+      "requirement_fingerprint": "cba25d328142060cd9ffabc07ef979f11e2cd5f9f334d7c6480afb64cec9a826",
+      "candidate_label": "TABLE-6B-1 table: advance warning sign dimensions A, B, and C",
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_sign_spacing",
+        "quantity": "spacing between successive advance warning signs",
+        "thresholds": [
+          {
+            "condition": "urban low-speed advance warning sign spacing",
+            "value": 100,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "data_availability_record": {
+        "discovered_requirement_key": "req_cba25d328142060c",
+        "condition_data_complete": false,
+        "available_inputs": [
+          "posted_speed_mph"
+        ],
+        "missing_inputs": [
+          "roadway_configuration",
+          "traffic_sign_observations",
+          "ego_trajectory",
+          "lidar_points"
+        ],
+        "data_availability": "partial",
+        "basis_evidence_ids": [
+          "scene_facts.posted_speed_mph",
+          "scene_facts.visual_scene_description"
+        ],
+        "reason": "The posted speed is directly frozen at 20 mph. Roadway configuration and agency speed-category applicability are not frozen as a structured fact, and the sign observations, trajectory, and lidar inputs required for spacing measurement have not been acquired as semantic measurement inputs.",
+        "planned_tools": [
+          "inspect_temporal_images",
+          "measure_sign_spacing"
+        ],
+        "planned_evidence_strategy": "Inspect temporal images to establish sign identities and sequence, then measure longitudinal spacing using the ego trajectory and lidar-supported sign positions where available; classify the roadway and applicable Table 6B-1 category only from supported facts.",
+        "planned_decision_rule": "Apply the urban low-speed 100-foot criterion only if roadway type/category and successive applicable signs are established; otherwise leave the spacing predicate unresolved.",
+        "availability_event_index": 58,
+        "availability_timestamp": "2026-10-22T03:00:25.326368+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "region": "lane_closure_layout",
+      "required_inputs": [
+        "raw_images"
+      ],
+      "model_extracted_source_span": "When used, the Street Name sign shall be placed above the Detour sign. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 897",
+      "source_node_ids": [
+        "src_aca54136fd0666f6678c"
+      ],
+      "registration_event_index": 16,
+      "registration_timestamp": "2026-10-22T02:59:09.689807+00:00",
+      "modality": "shall",
+      "source_locator": "TA-19 paragraph 08; PDF page 936",
+      "applicability_conditions": [],
+      "source_span": "When used, the Street Name sign shall be placed above the Detour sign. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 897",
+      "discovered_requirement_key": "req_6cba0e7128bd99e4",
+      "subject": "When used, the Street Name sign",
+      "threshold": "When used, the Street Name sign shall be placed above the Detour sign. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 897",
+      "relation": "shall_comply",
+      "requirement_fingerprint": "6cba0e7128bd99e49fd2dadd42743d978841c2c808bf23df4848de28c5ea4d4d",
+      "candidate_label": "TA-19 08: When used, the Street Name sign",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "data_availability_record": {
+        "discovered_requirement_key": "req_6cba0e7128bd99e4",
+        "condition_data_complete": true,
+        "available_inputs": [],
+        "missing_inputs": [
+          "raw_images"
+        ],
+        "data_availability": "not_attempted",
+        "basis_evidence_ids": [
+          "scene_facts.selected_layouts.TA-19"
+        ],
+        "reason": "TA-19 applicability is directly frozen, but raw images have not been inspected to determine whether a Street Name sign is used and, if so, whether it is above the Detour sign.",
+        "planned_tools": [
+          "inspect_temporal_images"
+        ],
+        "planned_evidence_strategy": "Inspect the scoped images for any Street Name sign and any Detour sign, then evaluate their vertical arrangement when both are present.",
+        "planned_decision_rule": "If a Street Name sign is clearly used, require it to be above the Detour sign; if no Street Name sign is used, treat the conditional placement as not applicable; ambiguous imagery remains unresolved.",
+        "availability_event_index": 59,
+        "availability_timestamp": "2026-10-22T03:00:25.326373+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "region": "advance_warning_sign_system",
+      "required_inputs": [
+        "raw_images"
+      ],
+      "model_extracted_source_span": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+      "source_node_ids": [
+        "src_eafd02c3dbce3f8109a1"
+      ],
+      "registration_event_index": 17,
+      "registration_timestamp": "2026-10-22T02:59:09.689888+00:00",
+      "modality": "should",
+      "source_locator": "SEC-6H.02 paragraph 02; PDF page 838",
+      "applicability_conditions": [],
+      "source_span": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+      "discovered_requirement_key": "req_cb1dccef74232ff1",
+      "subject": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign",
+      "threshold": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+      "relation": "should_comply",
+      "requirement_fingerprint": "cb1dccef74232ff1b0c8c2e1f2c0b92e12117b87f5905eb17ed9bedc438b4a58",
+      "candidate_label": "SEC-6H.02 02: Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "data_availability_record": {
+        "discovered_requirement_key": "req_cb1dccef74232ff1",
+        "condition_data_complete": true,
+        "available_inputs": [],
+        "missing_inputs": [
+          "raw_images"
+        ],
+        "data_availability": "not_attempted",
+        "basis_evidence_ids": [
+          "scene_facts.visual_scene_description"
+        ],
+        "reason": "The requirement has no unresolved applicability condition, but raw images have not been inspected to determine the first advance-warning sign encountered by road users.",
+        "planned_tools": [
+          "inspect_temporal_images"
+        ],
+        "planned_evidence_strategy": "Inspect the time-ordered approach images for all advance-warning signs and establish their encounter order, with particular attention to ROAD WORK AHEAD (W20-1).",
+        "planned_decision_rule": "Find compliance only when multiple advance-warning signs and their first-encounter order are visually established; otherwise report unresolved.",
+        "availability_event_index": 60,
+        "availability_timestamp": "2026-10-22T03:00:25.326376+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "region": "advance_warning_sign_system",
+      "required_inputs": [
+        "raw_images",
+        "posted_speed_mph",
+        "accepted_bbox_observations",
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "model_extracted_source_span": "Where highway conditions permit, warning signs should be placed in advance of the transition and activity areas at varying distances depending on roadway type, condition, and posted speed. Table 6B-1 contains information regarding the spacing of advance warning signs. Where a series of two or more advance warning signs is used, the closest sign to the transition and activity areas should be placed approximately 100 feet for low-speed urban streets to 1,000 feet or more for freeways and expressways.",
+      "source_node_ids": [
+        "src_7a245af2a19d44b87030"
+      ],
+      "registration_event_index": 18,
+      "registration_timestamp": "2026-10-22T02:59:20.063141+00:00",
+      "modality": "should",
+      "source_locator": "SEC-6H.02 paragraph 01; PDF page 838",
+      "applicability_conditions": [],
+      "source_span": "Where highway conditions permit, warning signs should be placed in advance of the transition and activity areas at varying distances depending on roadway type, condition, and posted speed. Table 6B-1 contains information regarding the spacing of advance warning signs. Where a series of two or more advance warning signs is used, the closest sign to the transition and activity areas should be placed approximately 100 feet for low-speed urban streets to 1,000 feet or more for freeways and expressways.",
+      "discovered_requirement_key": "req_6510f42c7262c82d",
+      "subject": "Where highway conditions permit, warning signs",
+      "threshold": "Where highway conditions permit, warning signs should be placed in advance of the transition and activity areas at varying distances depending on roadway type, condition, and posted speed. Table 6B-1 contains information regarding the spacing of advance warning signs. Where a series of two or more advance warning signs is used, the closest sign to the transition and activity areas should be placed approximately 100 feet for low-speed urban streets to 1,000 feet or more for freeways and expressways.",
+      "relation": "should_comply",
+      "requirement_fingerprint": "6510f42c7262c82d10b76bc471cc0c4d38c3beff99d69f0330151cce182a901d",
+      "candidate_label": "SEC-6H.02 01: Where highway conditions permit, warning signs",
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_longitudinal_distance",
+        "quantity": "longitudinal distance from the closest advance-warning sign to the transition/activity area",
+        "thresholds": [
+          {
+            "condition": "closest advance-warning sign before an established transition/activity area",
+            "value": 100,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "data_availability_record": {
+        "discovered_requirement_key": "req_6510f42c7262c82d",
+        "condition_data_complete": true,
+        "available_inputs": [
+          "posted_speed_mph",
+          "accepted_bbox_observations"
+        ],
+        "missing_inputs": [
+          "raw_images",
+          "ego_trajectory",
+          "lidar_points"
+        ],
+        "data_availability": "partial",
+        "basis_evidence_ids": [
+          "scene_facts.posted_speed_mph",
+          "scene_manifest.accepted_bbox_observations"
+        ],
+        "reason": "Posted speed and accepted bbox observations are directly available, but raw images, trajectory, and lidar-supported semantic positions have not been acquired for measuring the closest advance-warning sign to the transition/activity area.",
+        "planned_tools": [
+          "inspect_temporal_images",
+          "measure_longitudinal_distance"
+        ],
+        "planned_evidence_strategy": "Inspect the approach images to identify the closest advance-warning sign and establish the transition/activity reference, then measure their longitudinal separation using trajectory and lidar-supported positions.",
+        "planned_decision_rule": "Use the approximately 100-foot low-speed urban criterion only when the closest sign and transition/activity area are both established; otherwise leave unresolved.",
+        "availability_event_index": 61,
+        "availability_timestamp": "2026-10-22T03:00:25.326379+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "region": "advance_warning_sign_system",
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "model_extracted_source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "source_node_ids": [
+        "src_ff58c5005260c2206d6f"
+      ],
+      "registration_event_index": 19,
+      "registration_timestamp": "2026-10-22T02:59:20.063224+00:00",
+      "modality": "should",
+      "source_locator": "Figure 6P-19 (TA-19); PDF page 937; component sign:W20-2; Guidance basis SEC-6P.01 paragraph 02",
+      "applicability_conditions": [
+        "TA-19 is selected for the scene"
+      ],
+      "source_span": "Figure 6P-19. Detour for One Travel Direction (TA-19) W20-3 M4-9L (modified) M4-10R R11-2 W20-1 (modified) B R3-2 M4-9R A (modified) W20-2 R5-1 R3-1 M4-10R R6-1R R11-2 W20-1 R11-4 M4-10R R6-1R M4-9L (modified) 100 ft M4-9R (modified) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a W20-1 See Table 6B-1 for the meanings of the letter codes used in this figure. Typical Application 19",
+      "discovered_requirement_key": "req_134633b407c8f805",
+      "subject": "W20-2 sign in TA-19",
+      "threshold": "W20-2 is at the position and in the sequence shown in the figure.",
+      "relation": "is_depicted_at_figure_position",
+      "requirement_fingerprint": "134633b407c8f805f5de67fa806da1398a0595a368bfd466b17454d212a53d08",
+      "candidate_label": "TA-19 figure:sign:W20-2: W20-2 sign in TA-19",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "data_availability_record": {
+        "discovered_requirement_key": "req_134633b407c8f805",
+        "condition_data_complete": true,
+        "available_inputs": [
+          "accepted_bbox_observations"
+        ],
+        "missing_inputs": [
+          "raw_images"
+        ],
+        "data_availability": "partial",
+        "basis_evidence_ids": [
+          "scene_facts.selected_layouts.TA-19",
+          "scene_manifest.accepted_bbox_observations"
+        ],
+        "reason": "TA-19 applicability and accepted bbox observations are frozen, but raw images are required to identify W20-2 and verify its figure position and sequence.",
+        "planned_tools": [
+          "inspect_temporal_images"
+        ],
+        "planned_evidence_strategy": "Inspect the scoped temporal images for W20-2 and compare its identity, direction, and position with the TA-19 figure sequence.",
+        "planned_decision_rule": "Require clear visual identification and sequence evidence for the depicted W20-2; otherwise leave the predicate unresolved.",
+        "availability_event_index": 62,
+        "availability_timestamp": "2026-10-22T03:00:25.326382+00:00"
+      },
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    }
+  ],
+  "data_availability": {
+    "req_72d15edd230d1568": {
+      "discovered_requirement_key": "req_72d15edd230d1568",
+      "condition_data_complete": true,
+      "available_inputs": [],
+      "missing_inputs": [
+        "Field inventory of existing intersection traffic-control devices",
+        "Closure and intersection limits"
+      ],
+      "data_availability": "not_attempted",
+      "basis_evidence_ids": [
+        "scene_facts.opposing_direction_lane_fully_closed",
+        "scene_facts.visual_scene_description"
+      ],
+      "reason": "Applicability is resolved by the frozen facts confirming a directional closure and a cross-street intersection, but neither the field inventory nor complete closure/intersection limits is directly available.",
+      "planned_tools": [
+        "inspect_temporal_images",
+        "inspect_observation_images",
+        "measure_longitudinal_distance"
+      ],
+      "planned_evidence_strategy": "Inspect scoped temporal images and accepted observations for existing intersection devices, then establish the closure and intersection limits from image-supported roadway landmarks and trajectory.",
+      "planned_decision_rule": "Assess compliance only if the inventory and limits can identify every applicable existing device within the closure/intersection area; otherwise report unresolved.",
+      "availability_event_index": 45,
+      "availability_timestamp": "2026-10-22T03:00:16.287495+00:00"
+    },
+    "req_7f7323bcd37c5b84": {
+      "discovered_requirement_key": "req_7f7323bcd37c5b84",
+      "condition_data_complete": true,
+      "available_inputs": [
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "data_availability": "partial",
+      "basis_evidence_ids": [
+        "scene_facts.selected_layouts.TA-19",
+        "scene_manifest.accepted_bbox_observations"
+      ],
+      "reason": "TA-19 selection and accepted bbox inventory are frozen, but raw images are required to interpret whether the depicted M4-10R sign is present at the figure position and sequence.",
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect the scoped temporal images for M4-10R legend, direction, position, and sequence relative to the TA-19 layout.",
+      "planned_decision_rule": "Mark compliant only with clear image evidence of the specified sign at the applicable TA-19 position and sequence; otherwise unresolved or noncompliant as supported.",
+      "availability_event_index": 46,
+      "availability_timestamp": "2026-10-22T03:00:16.287511+00:00"
+    },
+    "req_81896520e0b032a5": {
+      "discovered_requirement_key": "req_81896520e0b032a5",
+      "condition_data_complete": true,
+      "available_inputs": [
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "data_availability": "partial",
+      "basis_evidence_ids": [
+        "scene_facts.selected_layouts.TA-19",
+        "scene_manifest.accepted_bbox_observations"
+      ],
+      "reason": "TA-19 selection and bbox inventory are available, but raw images are needed to identify M4-8a and evaluate its figure position and sequence.",
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect temporal images for the M4-8a legend and its placement in the TA-19 sign sequence.",
+      "planned_decision_rule": "Require clear visual identification and position/sequence evidence; otherwise leave the predicate unresolved.",
+      "availability_event_index": 47,
+      "availability_timestamp": "2026-10-22T03:00:16.287516+00:00"
+    },
+    "req_d305824bda78ee20": {
+      "discovered_requirement_key": "req_d305824bda78ee20",
+      "condition_data_complete": true,
+      "available_inputs": [
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "data_availability": "partial",
+      "basis_evidence_ids": [
+        "scene_facts.selected_layouts.TA-19",
+        "scene_manifest.accepted_bbox_observations"
+      ],
+      "reason": "TA-19 is selected and bbox observations exist, but raw images are needed to interpret M4-9L placement and sequence.",
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect temporal images for M4-9L and compare its position and sequence with Figure 6P-19.",
+      "planned_decision_rule": "Findings require clear legend and positional evidence; absent or ambiguous evidence remains unresolved.",
+      "availability_event_index": 48,
+      "availability_timestamp": "2026-10-22T03:00:16.287519+00:00"
+    },
+    "req_d0158fecf5f63d40": {
+      "discovered_requirement_key": "req_d0158fecf5f63d40",
+      "condition_data_complete": true,
+      "available_inputs": [
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "data_availability": "partial",
+      "basis_evidence_ids": [
+        "scene_facts.selected_layouts.TA-19",
+        "scene_manifest.accepted_bbox_observations"
+      ],
+      "reason": "TA-19 applicability and bbox inventory are available, but image inspection is required to identify M4-9R and its sequence position.",
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect temporal images for M4-9R legend, orientation, and placement relative to the detour signing sequence.",
+      "planned_decision_rule": "Require unambiguous visual evidence at the prescribed TA-19 position; otherwise unresolved.",
+      "availability_event_index": 49,
+      "availability_timestamp": "2026-10-22T03:00:16.287522+00:00"
+    },
+    "req_994faca8507061a8": {
+      "discovered_requirement_key": "req_994faca8507061a8",
+      "condition_data_complete": true,
+      "available_inputs": [
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "data_availability": "partial",
+      "basis_evidence_ids": [
+        "scene_facts.selected_layouts.TA-19",
+        "scene_manifest.accepted_bbox_observations"
+      ],
+      "reason": "TA-19 is selected and bbox observations are inventoried, but raw images are needed to identify R11-2 and its figure position.",
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect images for R11-2 and compare its location and sequence with Figure 6P-19.",
+      "planned_decision_rule": "Conclude only from clear sign-legend and placement evidence; otherwise unresolved.",
+      "availability_event_index": 50,
+      "availability_timestamp": "2026-10-22T03:00:16.287526+00:00"
+    },
+    "req_12b10ac1c3f92d53": {
+      "discovered_requirement_key": "req_12b10ac1c3f92d53",
+      "condition_data_complete": true,
+      "available_inputs": [
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "data_availability": "partial",
+      "basis_evidence_ids": [
+        "scene_facts.selected_layouts.TA-19",
+        "scene_manifest.accepted_bbox_observations"
+      ],
+      "reason": "TA-19 selection and bbox inventory are available, but raw images are required to identify R11-4 and assess its sequence position.",
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect temporal images for R11-4 and its placement in the TA-19 arrangement.",
+      "planned_decision_rule": "Require clear visual evidence of the specified sign and position; otherwise unresolved.",
+      "availability_event_index": 51,
+      "availability_timestamp": "2026-10-22T03:00:16.287529+00:00"
+    },
+    "req_07b36381ff33c89f": {
+      "discovered_requirement_key": "req_07b36381ff33c89f",
+      "condition_data_complete": true,
+      "available_inputs": [
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "data_availability": "partial",
+      "basis_evidence_ids": [
+        "scene_facts.selected_layouts.TA-19",
+        "scene_manifest.accepted_bbox_observations"
+      ],
+      "reason": "TA-19 selection and accepted bbox inventory are available, but raw images are needed to interpret R3-1 and its position/sequence.",
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect images for R3-1 legend and compare its placement to Figure 6P-19.",
+      "planned_decision_rule": "Require unambiguous legend and positional evidence; otherwise unresolved.",
+      "availability_event_index": 52,
+      "availability_timestamp": "2026-10-22T03:00:16.287532+00:00"
+    },
+    "req_09c763900319cba8": {
+      "discovered_requirement_key": "req_09c763900319cba8",
+      "condition_data_complete": true,
+      "available_inputs": [
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "data_availability": "partial",
+      "basis_evidence_ids": [
+        "scene_facts.selected_layouts.TA-19",
+        "scene_manifest.accepted_bbox_observations"
+      ],
+      "reason": "TA-19 selection and bbox inventory are available, but raw images are needed to identify R3-2 and evaluate its placement.",
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect temporal images for R3-2 and its position in the TA-19 sequence.",
+      "planned_decision_rule": "Require clear visual sign identification and sequence evidence; otherwise unresolved.",
+      "availability_event_index": 53,
+      "availability_timestamp": "2026-10-22T03:00:16.287535+00:00"
+    },
+    "req_f704cd7a2a19ed90": {
+      "discovered_requirement_key": "req_f704cd7a2a19ed90",
+      "condition_data_complete": true,
+      "available_inputs": [
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "data_availability": "partial",
+      "basis_evidence_ids": [
+        "scene_facts.selected_layouts.TA-19",
+        "scene_manifest.accepted_bbox_observations"
+      ],
+      "reason": "TA-19 selection and bbox inventory are available, but raw images are required to identify R5-1 and its figure position.",
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect images for R5-1 and compare its placement with Figure 6P-19.",
+      "planned_decision_rule": "Require clear sign legend and position evidence; otherwise unresolved.",
+      "availability_event_index": 54,
+      "availability_timestamp": "2026-10-22T03:00:16.287538+00:00"
+    },
+    "req_e33565395f6e7972": {
+      "discovered_requirement_key": "req_e33565395f6e7972",
+      "condition_data_complete": true,
+      "available_inputs": [
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "data_availability": "partial",
+      "basis_evidence_ids": [
+        "scene_facts.selected_layouts.TA-19",
+        "scene_manifest.accepted_bbox_observations"
+      ],
+      "reason": "TA-19 selection and bbox inventory are available, but raw images are needed to identify R6-1R and its sequence position.",
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect temporal images for R6-1R legend, direction, and placement in the TA-19 sequence.",
+      "planned_decision_rule": "Require unambiguous visual evidence at the figure position; otherwise unresolved.",
+      "availability_event_index": 55,
+      "availability_timestamp": "2026-10-22T03:00:16.287541+00:00"
+    },
+    "req_c22e4cc97e27c3e0": {
+      "discovered_requirement_key": "req_c22e4cc97e27c3e0",
+      "condition_data_complete": true,
+      "available_inputs": [],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "data_availability": "not_attempted",
+      "basis_evidence_ids": [
+        "scene_facts.visual_scene_description"
+      ],
+      "reason": "The requirement has no unresolved applicability condition, but raw images are required to assess W20-1 location relative to the work space or detour.",
+      "planned_tools": [
+        "inspect_temporal_images",
+        "measure_longitudinal_distance"
+      ],
+      "planned_evidence_strategy": "Inspect and, if possible, measure the visible ROAD WORK AHEAD signs relative to the established work-space or detour reference.",
+      "planned_decision_rule": "Assess location only when both sign identity and its advance relationship to the work space/detour are evidenced; otherwise unresolved.",
+      "availability_event_index": 56,
+      "availability_timestamp": "2026-10-22T03:00:16.287544+00:00"
+    },
+    "req_b027f3d259231de3": {
+      "discovered_requirement_key": "req_b027f3d259231de3",
+      "condition_data_complete": true,
+      "available_inputs": [],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "data_availability": "not_attempted",
+      "basis_evidence_ids": [
+        "scene_facts.opposing_traffic_detour_confirmed",
+        "scene_facts.opposing_traffic_control_description"
+      ],
+      "reason": "The user-confirmed off-site detour resolves applicability; the required raw images have not yet been inspected for a W20-2 sign.",
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect the scoped temporal images for a DETOUR (W20-2) sign and determine whether it is used in advance of the confirmed off-site detour; note that the off-site route itself is outside camera scope.",
+      "planned_decision_rule": "Report compliant only if image evidence clearly shows the required W20-2 use in advance of the applicable detour; otherwise report unresolved or unsupported, not inferred from detour confirmation alone.",
+      "availability_event_index": 57,
+      "availability_timestamp": "2026-10-22T03:00:25.326353+00:00"
+    },
+    "req_cba25d328142060c": {
+      "discovered_requirement_key": "req_cba25d328142060c",
+      "condition_data_complete": false,
+      "available_inputs": [
+        "posted_speed_mph"
+      ],
+      "missing_inputs": [
+        "roadway_configuration",
+        "traffic_sign_observations",
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "data_availability": "partial",
+      "basis_evidence_ids": [
+        "scene_facts.posted_speed_mph",
+        "scene_facts.visual_scene_description"
+      ],
+      "reason": "The posted speed is directly frozen at 20 mph. Roadway configuration and agency speed-category applicability are not frozen as a structured fact, and the sign observations, trajectory, and lidar inputs required for spacing measurement have not been acquired as semantic measurement inputs.",
+      "planned_tools": [
+        "inspect_temporal_images",
+        "measure_sign_spacing"
+      ],
+      "planned_evidence_strategy": "Inspect temporal images to establish sign identities and sequence, then measure longitudinal spacing using the ego trajectory and lidar-supported sign positions where available; classify the roadway and applicable Table 6B-1 category only from supported facts.",
+      "planned_decision_rule": "Apply the urban low-speed 100-foot criterion only if roadway type/category and successive applicable signs are established; otherwise leave the spacing predicate unresolved.",
+      "availability_event_index": 58,
+      "availability_timestamp": "2026-10-22T03:00:25.326368+00:00"
+    },
+    "req_6cba0e7128bd99e4": {
+      "discovered_requirement_key": "req_6cba0e7128bd99e4",
+      "condition_data_complete": true,
+      "available_inputs": [],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "data_availability": "not_attempted",
+      "basis_evidence_ids": [
+        "scene_facts.selected_layouts.TA-19"
+      ],
+      "reason": "TA-19 applicability is directly frozen, but raw images have not been inspected to determine whether a Street Name sign is used and, if so, whether it is above the Detour sign.",
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect the scoped images for any Street Name sign and any Detour sign, then evaluate their vertical arrangement when both are present.",
+      "planned_decision_rule": "If a Street Name sign is clearly used, require it to be above the Detour sign; if no Street Name sign is used, treat the conditional placement as not applicable; ambiguous imagery remains unresolved.",
+      "availability_event_index": 59,
+      "availability_timestamp": "2026-10-22T03:00:25.326373+00:00"
+    },
+    "req_cb1dccef74232ff1": {
+      "discovered_requirement_key": "req_cb1dccef74232ff1",
+      "condition_data_complete": true,
+      "available_inputs": [],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "data_availability": "not_attempted",
+      "basis_evidence_ids": [
+        "scene_facts.visual_scene_description"
+      ],
+      "reason": "The requirement has no unresolved applicability condition, but raw images have not been inspected to determine the first advance-warning sign encountered by road users.",
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect the time-ordered approach images for all advance-warning signs and establish their encounter order, with particular attention to ROAD WORK AHEAD (W20-1).",
+      "planned_decision_rule": "Find compliance only when multiple advance-warning signs and their first-encounter order are visually established; otherwise report unresolved.",
+      "availability_event_index": 60,
+      "availability_timestamp": "2026-10-22T03:00:25.326376+00:00"
+    },
+    "req_6510f42c7262c82d": {
+      "discovered_requirement_key": "req_6510f42c7262c82d",
+      "condition_data_complete": true,
+      "available_inputs": [
+        "posted_speed_mph",
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images",
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "data_availability": "partial",
+      "basis_evidence_ids": [
+        "scene_facts.posted_speed_mph",
+        "scene_manifest.accepted_bbox_observations"
+      ],
+      "reason": "Posted speed and accepted bbox observations are directly available, but raw images, trajectory, and lidar-supported semantic positions have not been acquired for measuring the closest advance-warning sign to the transition/activity area.",
+      "planned_tools": [
+        "inspect_temporal_images",
+        "measure_longitudinal_distance"
+      ],
+      "planned_evidence_strategy": "Inspect the approach images to identify the closest advance-warning sign and establish the transition/activity reference, then measure their longitudinal separation using trajectory and lidar-supported positions.",
+      "planned_decision_rule": "Use the approximately 100-foot low-speed urban criterion only when the closest sign and transition/activity area are both established; otherwise leave unresolved.",
+      "availability_event_index": 61,
+      "availability_timestamp": "2026-10-22T03:00:25.326379+00:00"
+    },
+    "req_134633b407c8f805": {
+      "discovered_requirement_key": "req_134633b407c8f805",
+      "condition_data_complete": true,
+      "available_inputs": [
+        "accepted_bbox_observations"
+      ],
+      "missing_inputs": [
+        "raw_images"
+      ],
+      "data_availability": "partial",
+      "basis_evidence_ids": [
+        "scene_facts.selected_layouts.TA-19",
+        "scene_manifest.accepted_bbox_observations"
+      ],
+      "reason": "TA-19 applicability and accepted bbox observations are frozen, but raw images are required to identify W20-2 and verify its figure position and sequence.",
+      "planned_tools": [
+        "inspect_temporal_images"
+      ],
+      "planned_evidence_strategy": "Inspect the scoped temporal images for W20-2 and compare its identity, direction, and position with the TA-19 figure sequence.",
+      "planned_decision_rule": "Require clear visual identification and sequence evidence for the depicted W20-2; otherwise leave the predicate unresolved.",
+      "availability_event_index": 62,
+      "availability_timestamp": "2026-10-22T03:00:25.326382+00:00"
+    }
+  },
+  "evidence_records": {},
+  "stage4_plan": null,
+  "inspection_bundles": {},
+  "acquisition_attempts": {},
+  "measurement_records": {},
+  "stage4_readiness": null,
+  "stage5_plan": null,
+  "conclusion_drafts": {},
+  "stage5_readiness": null,
+  "tool_calls": [],
+  "event_history": [
+    {
+      "event_index": 1,
+      "timestamp": "2026-10-22T02:58:31.024180+00:00",
+      "event_type": "phase_transition",
+      "phase": "requirement_discovery",
+      "from_phase": "requirement_discovery",
+      "to_phase": "requirement_registration"
+    },
+    {
+      "event_index": 2,
+      "timestamp": "2026-10-22T02:58:40.332783+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_72d15edd230d1568",
+      "candidate_label": "Cover conflicting intersection devices in a closed directional roadway",
+      "region": "lane_closure_layout",
+      "requirement_fingerprint": "72d15edd230d1568d983c03046defefcfeee69a91618ac8cf759115d31b46704"
+    },
+    {
+      "event_index": 3,
+      "timestamp": "2026-10-22T02:58:54.199429+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_7f7323bcd37c5b84",
+      "candidate_label": "TA-19 figure:sign:M4-10R: M4-10R sign in TA-19",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "7f7323bcd37c5b841bd101e6c58c630af7301f6b285236b3873c3786da507b51"
+    },
+    {
+      "event_index": 4,
+      "timestamp": "2026-10-22T02:58:54.199506+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_81896520e0b032a5",
+      "candidate_label": "TA-19 figure:sign:M4-8a: M4-8a sign in TA-19",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "81896520e0b032a5e2557df7730d43f4342fd257c71109d8c349a006185aa6ae"
+    },
+    {
+      "event_index": 5,
+      "timestamp": "2026-10-22T02:58:54.199568+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_d305824bda78ee20",
+      "candidate_label": "TA-19 figure:sign:M4-9L: M4-9L sign in TA-19",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "d305824bda78ee202ef743e949571a64734dfb7656f087ec1a667018f222892b"
+    },
+    {
+      "event_index": 6,
+      "timestamp": "2026-10-22T02:58:54.199625+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_d0158fecf5f63d40",
+      "candidate_label": "TA-19 figure:sign:M4-9R: M4-9R sign in TA-19",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "d0158fecf5f63d404c6a8f06f9a50327c83851d81c72661a4391913a2530719e"
+    },
+    {
+      "event_index": 7,
+      "timestamp": "2026-10-22T02:58:54.199679+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_994faca8507061a8",
+      "candidate_label": "TA-19 figure:sign:R11-2: R11-2 sign in TA-19",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "994faca8507061a84ce9864396f1eca72f70caa83bcbdd60dcb941f248355db5"
+    },
+    {
+      "event_index": 8,
+      "timestamp": "2026-10-22T02:58:54.199732+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_12b10ac1c3f92d53",
+      "candidate_label": "TA-19 figure:sign:R11-4: R11-4 sign in TA-19",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "12b10ac1c3f92d53beebe30f2778c947a22547a7372cce58e1504b349178fb2b"
+    },
+    {
+      "event_index": 9,
+      "timestamp": "2026-10-22T02:58:54.199786+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_07b36381ff33c89f",
+      "candidate_label": "TA-19 figure:sign:R3-1: R3-1 sign in TA-19",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "07b36381ff33c89f58177e4229d18fd0622d7d5f9d3af0f19834a6eefe04267e"
+    },
+    {
+      "event_index": 10,
+      "timestamp": "2026-10-22T02:58:54.199839+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_09c763900319cba8",
+      "candidate_label": "TA-19 figure:sign:R3-2: R3-2 sign in TA-19",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "09c763900319cba88da70900116e7a60a132abf2c01d04d37c7fc11837d2e91b"
+    },
+    {
+      "event_index": 11,
+      "timestamp": "2026-10-22T02:58:54.199890+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_f704cd7a2a19ed90",
+      "candidate_label": "TA-19 figure:sign:R5-1: R5-1 sign in TA-19",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "f704cd7a2a19ed902aa0331a61ed64d190816809d2a8d474fe432817fd26908b"
+    },
+    {
+      "event_index": 12,
+      "timestamp": "2026-10-22T02:58:54.199943+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_e33565395f6e7972",
+      "candidate_label": "TA-19 figure:sign:R6-1R: R6-1R sign in TA-19",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "e33565395f6e79726b9db057570f91b26f82b652b18827dd17720236b1263cf7"
+    },
+    {
+      "event_index": 13,
+      "timestamp": "2026-10-22T02:59:09.689563+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_c22e4cc97e27c3e0",
+      "candidate_label": "SEC-6H.03 01: The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "c22e4cc97e27c3e0a72da27932c79e3b77c63b1242c38dee02db36c93f241311"
+    },
+    {
+      "event_index": 14,
+      "timestamp": "2026-10-22T02:59:09.689638+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_b027f3d259231de3",
+      "candidate_label": "SEC-6H.04 01: The DETOUR (W20-2) sign (see Figure 6H-1)",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "b027f3d259231de33a93f4378cc797b41218f6da0438a7072e6c517187b2e682"
+    },
+    {
+      "event_index": 15,
+      "timestamp": "2026-10-22T02:59:09.689715+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_cba25d328142060c",
+      "candidate_label": "TABLE-6B-1 table: advance warning sign dimensions A, B, and C",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "cba25d328142060cd9ffabc07ef979f11e2cd5f9f334d7c6480afb64cec9a826"
+    },
+    {
+      "event_index": 16,
+      "timestamp": "2026-10-22T02:59:09.689807+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_6cba0e7128bd99e4",
+      "candidate_label": "TA-19 08: When used, the Street Name sign",
+      "region": "lane_closure_layout",
+      "requirement_fingerprint": "6cba0e7128bd99e49fd2dadd42743d978841c2c808bf23df4848de28c5ea4d4d"
+    },
+    {
+      "event_index": 17,
+      "timestamp": "2026-10-22T02:59:09.689888+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_cb1dccef74232ff1",
+      "candidate_label": "SEC-6H.02 02: Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "cb1dccef74232ff1b0c8c2e1f2c0b92e12117b87f5905eb17ed9bedc438b4a58"
+    },
+    {
+      "event_index": 18,
+      "timestamp": "2026-10-22T02:59:20.063141+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_6510f42c7262c82d",
+      "candidate_label": "SEC-6H.02 01: Where highway conditions permit, warning signs",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "6510f42c7262c82d10b76bc471cc0c4d38c3beff99d69f0330151cce182a901d"
+    },
+    {
+      "event_index": 19,
+      "timestamp": "2026-10-22T02:59:20.063224+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_134633b407c8f805",
+      "candidate_label": "TA-19 figure:sign:W20-2: W20-2 sign in TA-19",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "134633b407c8f805f5de67fa806da1398a0595a368bfd466b17454d212a53d08"
+    },
+    {
+      "event_index": 20,
+      "timestamp": "2026-10-22T02:59:26.976325+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "lane_closure_layout",
+      "status": "screened"
+    },
+    {
+      "event_index": 21,
+      "timestamp": "2026-10-22T02:59:26.976348+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "advance_warning_sign_system",
+      "status": "screened"
+    },
+    {
+      "event_index": 22,
+      "timestamp": "2026-10-22T02:59:26.976353+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "channelization_system",
+      "status": "skipped_no_inspectable_candidate"
+    },
+    {
+      "event_index": 23,
+      "timestamp": "2026-10-22T02:59:26.976357+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "transition_and_taper_geometry",
+      "status": "skipped_no_inspectable_candidate"
+    },
+    {
+      "event_index": 24,
+      "timestamp": "2026-10-22T02:59:26.976361+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "conditional_active_devices",
+      "status": "skipped_no_inspectable_candidate"
+    },
+    {
+      "event_index": 25,
+      "timestamp": "2026-10-22T02:59:26.976364+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "conditional_termination_area",
+      "status": "skipped_no_inspectable_candidate"
+    },
+    {
+      "event_index": 26,
+      "timestamp": "2026-10-22T02:59:31.565408+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "lane_closure_layout",
+      "status": "screened"
+    },
+    {
+      "event_index": 27,
+      "timestamp": "2026-10-22T02:59:31.565422+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "advance_warning_sign_system",
+      "status": "screened"
+    },
+    {
+      "event_index": 28,
+      "timestamp": "2026-10-22T02:59:31.565427+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "channelization_system",
+      "status": "skipped_no_inspectable_candidate"
+    },
+    {
+      "event_index": 29,
+      "timestamp": "2026-10-22T02:59:31.565430+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "transition_and_taper_geometry",
+      "status": "skipped_no_inspectable_candidate"
+    },
+    {
+      "event_index": 30,
+      "timestamp": "2026-10-22T02:59:31.565433+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "conditional_active_devices",
+      "status": "skipped_no_inspectable_candidate"
+    },
+    {
+      "event_index": 31,
+      "timestamp": "2026-10-22T02:59:31.565436+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "conditional_termination_area",
+      "status": "skipped_no_inspectable_candidate"
+    },
+    {
+      "event_index": 32,
+      "timestamp": "2026-10-22T02:59:35.790562+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "lane_closure_layout",
+      "status": "screened"
+    },
+    {
+      "event_index": 33,
+      "timestamp": "2026-10-22T02:59:35.790579+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "advance_warning_sign_system",
+      "status": "screened"
+    },
+    {
+      "event_index": 34,
+      "timestamp": "2026-10-22T02:59:35.790584+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "channelization_system",
+      "status": "skipped_no_inspectable_candidate"
+    },
+    {
+      "event_index": 35,
+      "timestamp": "2026-10-22T02:59:35.790587+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "transition_and_taper_geometry",
+      "status": "skipped_no_inspectable_candidate"
+    },
+    {
+      "event_index": 36,
+      "timestamp": "2026-10-22T02:59:35.790591+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "conditional_active_devices",
+      "status": "skipped_no_inspectable_candidate"
+    },
+    {
+      "event_index": 37,
+      "timestamp": "2026-10-22T02:59:35.790594+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "conditional_termination_area",
+      "status": "skipped_no_inspectable_candidate"
+    },
+    {
+      "event_index": 38,
+      "timestamp": "2026-10-22T02:59:41.144997+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "lane_closure_layout",
+      "status": "screened"
+    },
+    {
+      "event_index": 39,
+      "timestamp": "2026-10-22T02:59:41.145013+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "advance_warning_sign_system",
+      "status": "screened"
+    },
+    {
+      "event_index": 40,
+      "timestamp": "2026-10-22T02:59:41.145017+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "channelization_system",
+      "status": "skipped_no_inspectable_candidate"
+    },
+    {
+      "event_index": 41,
+      "timestamp": "2026-10-22T02:59:41.145020+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "transition_and_taper_geometry",
+      "status": "skipped_no_inspectable_candidate"
+    },
+    {
+      "event_index": 42,
+      "timestamp": "2026-10-22T02:59:41.145024+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "conditional_active_devices",
+      "status": "skipped_no_inspectable_candidate"
+    },
+    {
+      "event_index": 43,
+      "timestamp": "2026-10-22T02:59:41.145027+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "conditional_termination_area",
+      "status": "skipped_no_inspectable_candidate"
+    },
+    {
+      "event_index": 44,
+      "timestamp": "2026-10-22T02:59:44.282247+00:00",
+      "event_type": "phase_transition",
+      "phase": "requirement_registration",
+      "from_phase": "requirement_registration",
+      "to_phase": "data_availability"
+    },
+    {
+      "event_index": 45,
+      "timestamp": "2026-10-22T03:00:16.287495+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_72d15edd230d1568",
+      "data_availability": "not_attempted"
+    },
+    {
+      "event_index": 46,
+      "timestamp": "2026-10-22T03:00:16.287511+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_7f7323bcd37c5b84",
+      "data_availability": "partial"
+    },
+    {
+      "event_index": 47,
+      "timestamp": "2026-10-22T03:00:16.287516+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_81896520e0b032a5",
+      "data_availability": "partial"
+    },
+    {
+      "event_index": 48,
+      "timestamp": "2026-10-22T03:00:16.287519+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_d305824bda78ee20",
+      "data_availability": "partial"
+    },
+    {
+      "event_index": 49,
+      "timestamp": "2026-10-22T03:00:16.287522+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_d0158fecf5f63d40",
+      "data_availability": "partial"
+    },
+    {
+      "event_index": 50,
+      "timestamp": "2026-10-22T03:00:16.287526+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_994faca8507061a8",
+      "data_availability": "partial"
+    },
+    {
+      "event_index": 51,
+      "timestamp": "2026-10-22T03:00:16.287529+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_12b10ac1c3f92d53",
+      "data_availability": "partial"
+    },
+    {
+      "event_index": 52,
+      "timestamp": "2026-10-22T03:00:16.287532+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_07b36381ff33c89f",
+      "data_availability": "partial"
+    },
+    {
+      "event_index": 53,
+      "timestamp": "2026-10-22T03:00:16.287535+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_09c763900319cba8",
+      "data_availability": "partial"
+    },
+    {
+      "event_index": 54,
+      "timestamp": "2026-10-22T03:00:16.287538+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_f704cd7a2a19ed90",
+      "data_availability": "partial"
+    },
+    {
+      "event_index": 55,
+      "timestamp": "2026-10-22T03:00:16.287541+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_e33565395f6e7972",
+      "data_availability": "partial"
+    },
+    {
+      "event_index": 56,
+      "timestamp": "2026-10-22T03:00:16.287544+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_c22e4cc97e27c3e0",
+      "data_availability": "not_attempted"
+    },
+    {
+      "event_index": 57,
+      "timestamp": "2026-10-22T03:00:25.326353+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_b027f3d259231de3",
+      "data_availability": "not_attempted"
+    },
+    {
+      "event_index": 58,
+      "timestamp": "2026-10-22T03:00:25.326368+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_cba25d328142060c",
+      "data_availability": "partial"
+    },
+    {
+      "event_index": 59,
+      "timestamp": "2026-10-22T03:00:25.326373+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_6cba0e7128bd99e4",
+      "data_availability": "not_attempted"
+    },
+    {
+      "event_index": 60,
+      "timestamp": "2026-10-22T03:00:25.326376+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_cb1dccef74232ff1",
+      "data_availability": "not_attempted"
+    },
+    {
+      "event_index": 61,
+      "timestamp": "2026-10-22T03:00:25.326379+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_6510f42c7262c82d",
+      "data_availability": "partial"
+    },
+    {
+      "event_index": 62,
+      "timestamp": "2026-10-22T03:00:25.326382+00:00",
+      "event_type": "data_availability_recorded",
+      "phase": "data_availability",
+      "discovered_requirement_key": "req_134633b407c8f805",
+      "data_availability": "partial"
+    },
+    {
+      "event_index": 63,
+      "timestamp": "2026-10-22T03:00:27.278716+00:00",
+      "event_type": "phase_transition",
+      "phase": "data_availability",
+      "from_phase": "data_availability",
+      "to_phase": "measurement"
+    }
+  ],
+  "completion": null,
+  "finalized": false,
+  "review_checkpoint": {
+    "status": "awaiting_user_requirement_review",
+    "stopped_before_measurement": true,
+    "measurement_tool_calls": 0
+  }
+}

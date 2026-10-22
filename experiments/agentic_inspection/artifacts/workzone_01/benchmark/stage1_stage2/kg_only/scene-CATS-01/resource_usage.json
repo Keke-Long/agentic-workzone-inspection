@@ -1,0 +1,87 @@
+{
+  "regulation_retrieval_calls": 0,
+  "retrieval_queries": [],
+  "retrieved_chunks_nodes": 0,
+  "retrieved_characters": 0,
+  "point_cloud_frames_processed": 0,
+  "points_processed": 0,
+  "geometry_tool_calls": 0,
+  "map_web_lookup_calls": 0,
+  "image_files_returned": 0,
+  "cpu_seconds": 0.0,
+  "measurements_saved": 0,
+  "speed_evidence_saved": 0,
+  "external_query_sources": [],
+  "external_queries": [],
+  "tool_calls_total": 13,
+  "tool_failures": 2,
+  "resumed_tool_calls": 0,
+  "session_tool_calls": 13,
+  "resumed_tool_failures": 0,
+  "session_tool_failures": 2,
+  "tool_retries": 0,
+  "high_confidence_disposition_gap_count": 7,
+  "high_confidence_disposition_gaps": [
+    {
+      "domain": "lane_closure_layout",
+      "source_node_id": "src_6f34a3d46536b52c8def",
+      "source_locator": "TA-30 paragraph 01; PDF page 958",
+      "subject": "This information applies to low-speed, low-volume urban streets. Where speed or volume is higher, additional signing such as LEFT LANE CLOSED XX FT"
+    },
+    {
+      "domain": "advance_warning_sign_system",
+      "source_node_id": "src_6f34a3d46536b52c8def",
+      "source_locator": "TA-30 paragraph 01; PDF page 958",
+      "subject": "This information applies to low-speed, low-volume urban streets. Where speed or volume is higher, additional signing such as LEFT LANE CLOSED XX FT"
+    },
+    {
+      "domain": "advance_warning_sign_system",
+      "source_node_id": "src_f4754637d8b58f23e636",
+      "source_locator": "Figure 6P-30 (TA-30); PDF page 959; component sign:W4-2L",
+      "subject": "W4-2L sign in TA-30"
+    },
+    {
+      "domain": "channelization_system",
+      "source_node_id": "src_c20be98384c5d0b17a53",
+      "source_locator": "SEC-6K.01 paragraph 14; PDF page 855",
+      "subject": "Particular attention"
+    },
+    {
+      "domain": "transition_and_taper_geometry",
+      "source_node_id": "src_84bd10c92c883edc52f8",
+      "source_locator": "TABLE-6B-4; PDF page 815",
+      "subject": "taper length L"
+    },
+    {
+      "domain": "conditional_active_devices",
+      "source_node_id": "src_7662572d8b0e293f54e4",
+      "source_locator": "SEC-6L.06 paragraph 04; PDF page 873",
+      "subject": "An arrow board"
+    },
+    {
+      "domain": "conditional_active_devices",
+      "source_node_id": "src_7ef08d9dba4ab38ffa40",
+      "source_locator": "SEC-6L.06 paragraph 03; PDF page 873",
+      "subject": "If used, an arrow board"
+    }
+  ],
+  "input_tokens": 143379,
+  "output_tokens": 5800,
+  "total_tokens": 149179,
+  "cached_tokens": 0,
+  "controller_turns": 13,
+  "model_api_calls": 13,
+  "wall_clock_seconds": 61.12437123688869,
+  "gpu_seconds": null,
+  "image_tokens_or_processed_pixels": null,
+  "actual_model_api_cost_usd": 0.0356358,
+  "model_pricing_usd_per_million": {
+    "input": 0.2,
+    "cached_input": 0.02,
+    "output": 1.2,
+    "pricing_scope": "recorded checkpoint pricing"
+  },
+  "model_api_retries": 0,
+  "estimated_external_api_cost_usd": 0.0,
+  "emergency_ceiling_triggered": false
+}

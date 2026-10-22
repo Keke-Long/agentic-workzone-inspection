@@ -1,0 +1,119 @@
+{
+  "schema": "case18_user_directed_ta22_camera0_pilot_v1",
+  "status": "stage1_to3_complete_pending_reviewed_perception_and_independent_requirement_audit",
+  "source_case": "Case_18",
+  "scene_id": "scene-CATS-19",
+  "processed_root": "/home/data/workzone/klong23_agentic_inspection/case_18_camera0",
+  "manual": "MUTCD 11th Edition (December 2023)",
+  "primary_layout": "TA-22",
+  "context_only_layouts": [
+    "TA-33"
+  ],
+  "layout_selection_origin": "user_directed",
+  "autonomous_stage0_evaluation": false,
+  "camera_policy": {
+    "raw_cameras": [
+      "camera0"
+    ],
+    "channels": [
+      "CAM_FRONT"
+    ],
+    "source": "User explicitly requested retaining only camera0 because other cameras have poor quality.",
+    "selection_manifest": "/home/data/workzone/klong23_agentic_inspection/case_18_camera0/camera_selection.json"
+  },
+  "confirmed_context": {
+    "posted_speed_mph": 25,
+    "work_duration_category": "long_term_more_than_three_days",
+    "source": "User explicitly confirmed 25 mph and long-term work exceeding three days on 2026-10-20.",
+    "intersection_present": true,
+    "layout_instruction": "我认为应该选TA-22，因为考虑到有交叉口，但其实现场是结合了TA22和TA33的，你先用TA22做吧"
+  },
+  "registered_requirements": 13,
+  "requirement_domain_counts": {
+    "advance_warning_sign_system": 6,
+    "channelization_system": 3,
+    "transition_and_taper_geometry": 4
+  },
+  "availability_states": {
+    "not_attempted": 8,
+    "partial": 5
+  },
+  "sensor_validation": {
+    "passed": true,
+    "scene_id": "scene-CATS-19",
+    "files_hash_checked": 1264,
+    "raw_files_unmodified": true,
+    "counts": {
+      "CAM_FRONT": 632,
+      "LIDAR_TOP": 632
+    },
+    "point_count": 253272386,
+    "metadata_references_and_dimensions_valid": true,
+    "all_sensor_outputs_finite": true,
+    "reference_parity": {
+      "undistorted_jpeg_bytes": "exact, one middle frame per camera",
+      "deskew_float32_points": "exact, first/middle/last LiDAR frames",
+      "ego_pose": "all per-sensor timestamps, linear ENU + SLERP"
+    },
+    "limitations": [
+      "Calibration inherited from black vehicle by user confirmation, not a new calibration accuracy audit.",
+      "Human bbox review and independent applicability reference remain pending."
+    ]
+  },
+  "input_consistency_audit": {
+    "passed": true,
+    "camera_frames_by_channel": {
+      "CAM_FRONT": 632
+    },
+    "accepted_bbox_count": 0,
+    "unsupported_available_bbox_claim_count": 0,
+    "layout_selection_origin": "user_directed",
+    "primary_layout": "TA-22",
+    "context_only_layouts": [
+      "TA-33"
+    ],
+    "stage0_model_selection_executed": false
+  },
+  "stage3_evaluation": {
+    "schema_version": "stage3_availability_evaluation_v1",
+    "passed": true,
+    "registered_requirement_count": 13,
+    "availability_record_count": 13,
+    "exact_partition_count": 13,
+    "consistent_state_count": 13,
+    "tool_complete_plan_count": 13,
+    "strategy_and_rule_complete_count": 13,
+    "semantic_acquisition_boundary_violation_count": 0,
+    "condition_data_complete_true_count": 13,
+    "condition_data_complete_false_count": 0,
+    "premature_normative_measurement_tools": [],
+    "session_tool_calls": 11,
+    "session_tool_failures": 6
+  },
+  "execution_diagnostics": {
+    "stage1_stage2_api_calls": 38,
+    "stage1_stage2_rejected_tool_calls": 11,
+    "stage3_api_calls": 11,
+    "stage3_rejected_tool_calls": 6,
+    "stage1_stage2_status": "awaiting_stage1_stage2_evaluation",
+    "stage3_status": "awaiting_user_requirement_review"
+  },
+  "stages4_to6_executed": false,
+  "compliance_conclusions_produced": false,
+  "formal_ground_truth_scoring_performed": false,
+  "limitations": [
+    "No human-reviewed bbox observations are available.",
+    "Only camera0 is admitted; side and rear camera observations are unavailable.",
+    "TA-22 is the user-selected working layout for a site reported to combine TA-22 and TA-33 features.",
+    "An independent requirement-applicability reference is pending."
+  ],
+  "artifacts": {
+    "scene": "/home/klong23/workzone/experiments/agentic_inspection/cases/workzone_18/scene_ta22_user_selected.json",
+    "layout_selection": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_18/ta22_user_selected/stage1_stage2/scene-CATS-19/stage_0_layout_selection.json",
+    "stage1_result": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_18/ta22_user_selected/stage1_stage2/scene-CATS-19/result.json",
+    "stage3_result": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_18/ta22_user_selected/stage3/scene-CATS-19/result.json",
+    "stage3_evaluation": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_18/ta22_user_selected/stage3/scene-CATS-19/stage3_availability_evaluation.json",
+    "processed_data": "/home/data/workzone/klong23_agentic_inspection/case_18_camera0",
+    "previous_five_camera_pilot": "/home/klong23/workzone/experiments/agentic_inspection/reports/workzone_18/pilot/report.html"
+  }
+}

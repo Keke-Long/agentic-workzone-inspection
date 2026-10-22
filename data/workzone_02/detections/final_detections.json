@@ -1,0 +1,3607 @@
+{
+  "schema": "final_detection_input_v1",
+  "paper_case": "workzone_02",
+  "camera_scope": [
+    "CAM_FRONT"
+  ],
+  "coordinate_system": "native image pixels, xyxy",
+  "purpose": "fixed perception input for agentic inspection, not detector evaluation",
+  "accepted_observations": [
+    {
+      "observation_id": "C18_F0511_CAM_FRONT_Q009",
+      "frame": 511,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__71199999.jpg",
+      "bbox_xyxy": [
+        1489.0247,
+        1010.8283,
+        1533.1801,
+        1097.1505
+      ],
+      "class": "traffic_sign",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0564_CAM_FRONT_Q005",
+      "frame": 564,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__76499999.jpg",
+      "bbox_xyxy": [
+        3622.7559,
+        962.5692,
+        3664.1289,
+        1060.0393
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0132_CAM_FRONT_Q015",
+      "frame": 132,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__33299999.jpg",
+      "bbox_xyxy": [
+        2191.9924,
+        1086.0562,
+        2273.1443,
+        1198.5321
+      ],
+      "class": "merging_sign",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0390_CAM_FRONT_Q014",
+      "frame": 390,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__59099999.jpg",
+      "bbox_xyxy": [
+        2065.064,
+        1132.6106,
+        2096.26,
+        1200.3246
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0152_CAM_FRONT_Q015",
+      "frame": 152,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__35299999.jpg",
+      "bbox_xyxy": [
+        2668.3381,
+        1005.2133,
+        2932.6619,
+        1365.3243
+      ],
+      "class": "merging_sign",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0501_CAM_FRONT_Q003",
+      "frame": 501,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__70199999.jpg",
+      "bbox_xyxy": [
+        2058.0613,
+        1144.3013,
+        2100.6421,
+        1260.8811
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0430_CAM_FRONT_Q021",
+      "frame": 430,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__63099999.jpg",
+      "bbox_xyxy": [
+        2005.9248,
+        1139.0459,
+        2033.212,
+        1184.3447
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0426_CAM_FRONT_Q014",
+      "frame": 426,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__62699999.jpg",
+      "bbox_xyxy": [
+        2002.5414,
+        1135.5994,
+        2031.8159,
+        1186.4486
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0386_CAM_FRONT_Q022",
+      "frame": 386,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__58699999.jpg",
+      "bbox_xyxy": [
+        2043.1073,
+        1135.7166,
+        2076.5437,
+        1199.9016
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0470_CAM_FRONT_Q014",
+      "frame": 470,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__67099999.jpg",
+      "bbox_xyxy": [
+        2019.7051,
+        1157.0072,
+        2046.3967,
+        1211.7681
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0372_CAM_FRONT_Q018",
+      "frame": 372,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__57299999.jpg",
+      "bbox_xyxy": [
+        2329.094,
+        1108.8945,
+        2379.0635,
+        1226.1613
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0482_CAM_FRONT_Q011",
+      "frame": 482,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__68299999.jpg",
+      "bbox_xyxy": [
+        2022.646,
+        1160.229,
+        2055.0107,
+        1216.123
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0454_CAM_FRONT_Q008",
+      "frame": 454,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__65499999.jpg",
+      "bbox_xyxy": [
+        2022.2378,
+        1147.678,
+        2051.533,
+        1209.0342
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0407_CAM_FRONT_Q018",
+      "frame": 407,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__60799999.jpg",
+      "bbox_xyxy": [
+        2004.581,
+        1157.325,
+        2014.547,
+        1198.025
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0405_CAM_FRONT_Q024",
+      "frame": 405,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__60599999.jpg",
+      "bbox_xyxy": [
+        2002.221,
+        1149.19,
+        2010.628,
+        1189.417
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0512_CAM_FRONT_Q004",
+      "frame": 512,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__71299999.jpg",
+      "bbox_xyxy": [
+        2162.6204,
+        1143.6836,
+        2224.9858,
+        1359.0629
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0392_CAM_FRONT_Q016",
+      "frame": 392,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__59299999.jpg",
+      "bbox_xyxy": [
+        2071.6909,
+        1133.9012,
+        2104.3711,
+        1191.3005
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0329_CAM_FRONT_Q031",
+      "frame": 329,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__52999990.jpg",
+      "bbox_xyxy": [
+        2005.215,
+        1146.623,
+        2019.991,
+        1177.597
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0334_CAM_FRONT_Q022",
+      "frame": 334,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__53499999.jpg",
+      "bbox_xyxy": [
+        2004.408,
+        1150.7,
+        2020.663,
+        1181.751
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0329_CAM_FRONT_Q032",
+      "frame": 329,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__52999990.jpg",
+      "bbox_xyxy": [
+        2017.9447,
+        1141.6215,
+        2044.6447,
+        1178.5813
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0547_CAM_FRONT_Q816",
+      "frame": 547,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__74799999.jpg",
+      "bbox_xyxy": [
+        2833.7236,
+        1140.8794,
+        2951.8601,
+        1814.7349
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0517_CAM_FRONT_Q108",
+      "frame": 517,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__71799999.jpg",
+      "bbox_xyxy": [
+        2349.3879,
+        1139.0447,
+        2542.0618,
+        1614.4397
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0534_CAM_FRONT_Q007",
+      "frame": 534,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__73499999.jpg",
+      "bbox_xyxy": [
+        2157.8352,
+        1177.9916,
+        2203.7375,
+        1297.5338
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0327_CAM_FRONT_Q005",
+      "frame": 327,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__52799999.jpg",
+      "bbox_xyxy": [
+        2038.3864,
+        1139.272,
+        2067.1917,
+        1179.6802
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0413_CAM_FRONT_Q010",
+      "frame": 413,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__61399999.jpg",
+      "bbox_xyxy": [
+        3357.0547,
+        1305.1635,
+        3834.6497,
+        2115.512
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0491_CAM_FRONT_Q008",
+      "frame": 491,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__69199999.jpg",
+      "bbox_xyxy": [
+        2018.3922,
+        1149.9503,
+        2049.592,
+        1217.6857
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0362_CAM_FRONT_Q033",
+      "frame": 362,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__56299999.jpg",
+      "bbox_xyxy": [
+        2174.6921,
+        1138.58,
+        2209.4021,
+        1209.2157
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0499_CAM_FRONT_Q028",
+      "frame": 499,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__69999989.jpg",
+      "bbox_xyxy": [
+        2192.5044,
+        1160.5643,
+        2439.8296,
+        1541.7628
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0424_CAM_FRONT_Q094",
+      "frame": 424,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__62499999.jpg",
+      "bbox_xyxy": [
+        2014.573,
+        1152.5814,
+        2037.366,
+        1194.3176
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0404_CAM_FRONT_Q037",
+      "frame": 404,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__60499999.jpg",
+      "bbox_xyxy": [
+        1983.3372,
+        1136.5245,
+        2016.9983,
+        1192.228
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0462_CAM_FRONT_Q004",
+      "frame": 462,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__66299999.jpg",
+      "bbox_xyxy": [
+        2061.158,
+        1171.2938,
+        2099.7563,
+        1257.1014
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0213_CAM_FRONT_Q014",
+      "frame": 213,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__41399999.jpg",
+      "bbox_xyxy": [
+        2038.8151,
+        1127.4485,
+        2068.9084,
+        1170.4177
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0475_CAM_FRONT_Q195",
+      "frame": 475,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__67599999.jpg",
+      "bbox_xyxy": [
+        2470.9517,
+        1116.4424,
+        2711.6106,
+        1814.267
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0421_CAM_FRONT_Q016",
+      "frame": 421,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__62199999.jpg",
+      "bbox_xyxy": [
+        1992.8362,
+        1141.5643,
+        2019.8231,
+        1184.6726
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0486_CAM_FRONT_Q009",
+      "frame": 486,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__68699999.jpg",
+      "bbox_xyxy": [
+        2052.958,
+        1125.5682,
+        2095.6526,
+        1250.1316
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0493_CAM_FRONT_Q011",
+      "frame": 493,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__69399999.jpg",
+      "bbox_xyxy": [
+        2270.8093,
+        1139.2888,
+        2310.4277,
+        1228.1439
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0463_CAM_FRONT_Q009",
+      "frame": 463,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__66399999.jpg",
+      "bbox_xyxy": [
+        1987.2034,
+        1136.0323,
+        2012.146,
+        1182.4069
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0370_CAM_FRONT_Q007",
+      "frame": 370,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__57099999.jpg",
+      "bbox_xyxy": [
+        2323.5986,
+        1129.8707,
+        2375.5959,
+        1237.9932
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0503_CAM_FRONT_Q014",
+      "frame": 503,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__70399999.jpg",
+      "bbox_xyxy": [
+        2032.4312,
+        1153.9048,
+        2060.9819,
+        1216.1697
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0470_CAM_FRONT_Q020",
+      "frame": 470,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__67099999.jpg",
+      "bbox_xyxy": [
+        2089.0862,
+        1146.7827,
+        2167.9814,
+        1306.7301
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0425_CAM_FRONT_Q035",
+      "frame": 425,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__62599999.jpg",
+      "bbox_xyxy": [
+        1995.7821,
+        1138.1237,
+        2025.1243,
+        1184.686
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0350_CAM_FRONT_Q019",
+      "frame": 350,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__55099999.jpg",
+      "bbox_xyxy": [
+        2138.1101,
+        1156.5165,
+        2170.6169,
+        1211.6525
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0443_CAM_FRONT_Q009",
+      "frame": 443,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__64399999.jpg",
+      "bbox_xyxy": [
+        2036.0472,
+        1154.6136,
+        2066.0935,
+        1219.1548
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0433_CAM_FRONT_Q028",
+      "frame": 433,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__63399999.jpg",
+      "bbox_xyxy": [
+        2106.1323,
+        1100.3512,
+        2304.6978,
+        1413.3091
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0355_CAM_FRONT_Q009",
+      "frame": 355,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__55599999.jpg",
+      "bbox_xyxy": [
+        2101.4519,
+        1136.8303,
+        2194.4277,
+        1217.0728
+      ],
+      "class": "road_barrier",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0325_CAM_FRONT_Q024",
+      "frame": 325,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__52599999.jpg",
+      "bbox_xyxy": [
+        2021.0266,
+        1135.0896,
+        2049.4111,
+        1174.67
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0010_CAM_FRONT_Q013",
+      "frame": 10,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__21099999.jpg",
+      "bbox_xyxy": [
+        1180.5704,
+        1169.7196,
+        1228.1807,
+        1232.1543
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0478_CAM_FRONT_Q010",
+      "frame": 478,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__67899999.jpg",
+      "bbox_xyxy": [
+        1999.6561,
+        1139.2455,
+        2029.2496,
+        1196.5542
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0432_CAM_FRONT_Q058",
+      "frame": 432,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__63299999.jpg",
+      "bbox_xyxy": [
+        2060.7397,
+        1154.9355,
+        2119.8364,
+        1265.0134
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0141_CAM_FRONT_Q005",
+      "frame": 141,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__34199999.jpg",
+      "bbox_xyxy": [
+        2317.4968,
+        1064.7194,
+        2448.8494,
+        1236.8358
+      ],
+      "class": "merging_sign",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0530_CAM_FRONT_Q035",
+      "frame": 530,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__73099999.jpg",
+      "bbox_xyxy": [
+        2118.4482,
+        1166.9908,
+        2154.7129,
+        1256.3486
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0446_CAM_FRONT_Q013",
+      "frame": 446,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__64699999.jpg",
+      "bbox_xyxy": [
+        2025.0011,
+        1151.5764,
+        2052.7058,
+        1211.3021
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0103_CAM_FRONT_Q005",
+      "frame": 103,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__30399999.jpg",
+      "bbox_xyxy": [
+        2054.7896,
+        1113.8044,
+        2084.3459,
+        1158.5535
+      ],
+      "class": "merging_sign",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0475_CAM_FRONT_Q018",
+      "frame": 475,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__67599999.jpg",
+      "bbox_xyxy": [
+        1994.1504,
+        1131.3347,
+        2022.6403,
+        1186.5277
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0430_CAM_FRONT_Q004",
+      "frame": 430,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__63099999.jpg",
+      "bbox_xyxy": [
+        2283.7502,
+        767.4805,
+        2590.5525,
+        999.8085
+      ],
+      "class": "arrow_board",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0352_CAM_FRONT_Q019",
+      "frame": 352,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__55299999.jpg",
+      "bbox_xyxy": [
+        2146.835,
+        1147.437,
+        2181.697,
+        1215.102
+      ],
+      "class": "road_barrier",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0267_CAM_FRONT_Q013",
+      "frame": 267,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__46799999.jpg",
+      "bbox_xyxy": [
+        2040.5386,
+        1126.8516,
+        2068.9216,
+        1169.0059
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0366_CAM_FRONT_Q030",
+      "frame": 366,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__56699999.jpg",
+      "bbox_xyxy": [
+        2164.69,
+        1135.752,
+        2192.847,
+        1201.175
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0467_CAM_FRONT_Q009",
+      "frame": 467,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__66799999.jpg",
+      "bbox_xyxy": [
+        2001.966,
+        1148.883,
+        2012.733,
+        1191.202
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0468_CAM_FRONT_Q039",
+      "frame": 468,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__66899999.jpg",
+      "bbox_xyxy": [
+        2006.1045,
+        1159.0111,
+        2032.2784,
+        1204.9427
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0344_CAM_FRONT_Q005",
+      "frame": 344,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__54499999.jpg",
+      "bbox_xyxy": [
+        2053.376,
+        1157.883,
+        2073.796,
+        1196.416
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0387_CAM_FRONT_Q014",
+      "frame": 387,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__58799999.jpg",
+      "bbox_xyxy": [
+        1987.125,
+        1146.232,
+        1994.845,
+        1185.906
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0403_CAM_FRONT_Q059",
+      "frame": 403,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__60399999.jpg",
+      "bbox_xyxy": [
+        2004.305,
+        1159.671,
+        2016.117,
+        1197.057
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0474_CAM_FRONT_Q018",
+      "frame": 474,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__67499999.jpg",
+      "bbox_xyxy": [
+        2035.062,
+        1143.331,
+        2053.606,
+        1219.034
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0346_CAM_FRONT_Q003",
+      "frame": 346,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__54699999.jpg",
+      "bbox_xyxy": [
+        2128.396,
+        1153.206,
+        2159.219,
+        1206.116
+      ],
+      "class": "barricade",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0354_CAM_FRONT_Q049",
+      "frame": 354,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__55499999.jpg",
+      "bbox_xyxy": [
+        1966.181,
+        1149.146,
+        1977.684,
+        1175.966
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0425_CAM_FRONT_Q090",
+      "frame": 425,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__62599999.jpg",
+      "bbox_xyxy": [
+        2058.2019,
+        1150.8739,
+        2119.9985,
+        1264.7047
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0350_CAM_FRONT_Q032",
+      "frame": 350,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__55099999.jpg",
+      "bbox_xyxy": [
+        1988.688,
+        1154.012,
+        2005.693,
+        1187.451
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0432_CAM_FRONT_Q031",
+      "frame": 432,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__63299999.jpg",
+      "bbox_xyxy": [
+        2032.639,
+        1138.823,
+        2046.838,
+        1206.017
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0367_CAM_FRONT_Q019",
+      "frame": 367,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__56799999.jpg",
+      "bbox_xyxy": [
+        2273.154,
+        1132.72,
+        2316.853,
+        1230.917
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0463_CAM_FRONT_Q007",
+      "frame": 463,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__66399999.jpg",
+      "bbox_xyxy": [
+        2977.0608,
+        1237.9951,
+        3151.6387,
+        1978.0657
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0136_CAM_FRONT_Q041",
+      "frame": 136,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__33699999.jpg",
+      "bbox_xyxy": [
+        2217.3101,
+        1050.4434,
+        2359.209,
+        1223.7623
+      ],
+      "class": "merging_sign",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0339_CAM_FRONT_Q005",
+      "frame": 339,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__53999989.jpg",
+      "bbox_xyxy": [
+        2041.29,
+        1152.1031,
+        2070.8767,
+        1198.7891
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0494_CAM_FRONT_Q013",
+      "frame": 494,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__69499999.jpg",
+      "bbox_xyxy": [
+        2017.787,
+        1131.459,
+        2032.769,
+        1194.64
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0270_CAM_FRONT_Q009",
+      "frame": 270,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__47099999.jpg",
+      "bbox_xyxy": [
+        2039.3309,
+        1126.6741,
+        2068.7312,
+        1169.6644
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0492_CAM_FRONT_Q016",
+      "frame": 492,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__69299999.jpg",
+      "bbox_xyxy": [
+        2016.557,
+        1139.248,
+        2031.29,
+        1198.826
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0328_CAM_FRONT_Q007",
+      "frame": 328,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__52899999.jpg",
+      "bbox_xyxy": [
+        2040.6592,
+        1142.4982,
+        2068.0911,
+        1181.4429
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0339_CAM_FRONT_Q021",
+      "frame": 339,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__53999989.jpg",
+      "bbox_xyxy": [
+        2020.6594,
+        1156.0316,
+        2045.9739,
+        1194.2972
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0349_CAM_FRONT_Q010",
+      "frame": 349,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__54999989.jpg",
+      "bbox_xyxy": [
+        2001.4424,
+        1142.5736,
+        2029.4785,
+        1190.3086
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0479_CAM_FRONT_Q008",
+      "frame": 479,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__67999990.jpg",
+      "bbox_xyxy": [
+        2011.811,
+        1139.425,
+        2029.034,
+        1193.353
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0474_CAM_FRONT_Q008",
+      "frame": 474,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__67499999.jpg",
+      "bbox_xyxy": [
+        2013.715,
+        1142.206,
+        2026.867,
+        1196.493
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0364_CAM_FRONT_Q029",
+      "frame": 364,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__56499999.jpg",
+      "bbox_xyxy": [
+        2183.834,
+        1124.1254,
+        2226.3491,
+        1201.8406
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0501_CAM_FRONT_Q004",
+      "frame": 501,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__70199999.jpg",
+      "bbox_xyxy": [
+        2132.5901,
+        1164.1918,
+        2192.9312,
+        1342.715
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0394_CAM_FRONT_Q014",
+      "frame": 394,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__59499999.jpg",
+      "bbox_xyxy": [
+        2016.3961,
+        1060.7234,
+        2083.5112,
+        1106.4633
+      ],
+      "class": "arrow_board",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0450_CAM_FRONT_Q016",
+      "frame": 450,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__65099999.jpg",
+      "bbox_xyxy": [
+        2042.1201,
+        1166.306,
+        2072.4226,
+        1234.5654
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0374_CAM_FRONT_Q023",
+      "frame": 374,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__57499999.jpg",
+      "bbox_xyxy": [
+        1997.0677,
+        1127.5721,
+        2027.6414,
+        1180.2535
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0386_CAM_FRONT_Q009",
+      "frame": 386,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__58699999.jpg",
+      "bbox_xyxy": [
+        3448.8286,
+        1142.4686,
+        3768.3916,
+        1572.2053
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0390_CAM_FRONT_Q093",
+      "frame": 390,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__59099999.jpg",
+      "bbox_xyxy": [
+        2227.137,
+        1118.019,
+        2349.4268,
+        1298.8722
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0138_CAM_FRONT_Q001",
+      "frame": 138,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__33899999.jpg",
+      "bbox_xyxy": [
+        2276.9685,
+        1080.1873,
+        2365.564,
+        1195.8464
+      ],
+      "class": "merging_sign",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0212_CAM_FRONT_Q012",
+      "frame": 212,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__41299999.jpg",
+      "bbox_xyxy": [
+        2039.8904,
+        1126.1866,
+        2068.6431,
+        1169.6547
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0479_CAM_FRONT_Q025",
+      "frame": 479,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__67999990.jpg",
+      "bbox_xyxy": [
+        2027.3595,
+        1159.1973,
+        2054.9453,
+        1214.5189
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0493_CAM_FRONT_Q035",
+      "frame": 493,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__69399999.jpg",
+      "bbox_xyxy": [
+        2100.3943,
+        1147.0785,
+        2173.0066,
+        1314.9795
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0396_CAM_FRONT_Q014",
+      "frame": 396,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__59699999.jpg",
+      "bbox_xyxy": [
+        2017.9486,
+        1061.5337,
+        2088.8447,
+        1113.3551
+      ],
+      "class": "arrow_board",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0510_CAM_FRONT_Q005",
+      "frame": 510,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__71099999.jpg",
+      "bbox_xyxy": [
+        2043.3158,
+        1159.1882,
+        2073.7769,
+        1228.0238
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0412_CAM_FRONT_Q033",
+      "frame": 412,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__61299999.jpg",
+      "bbox_xyxy": [
+        2672.6377,
+        1089.8207,
+        2762.4587,
+        1171.2617
+      ],
+      "class": "road_barrier",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0374_CAM_FRONT_Q120",
+      "frame": 374,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__57499999.jpg",
+      "bbox_xyxy": [
+        2133.5745,
+        1115.6561,
+        2207.9153,
+        1232.4686
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0435_CAM_FRONT_Q019",
+      "frame": 435,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__63599999.jpg",
+      "bbox_xyxy": [
+        2087.094,
+        1149.3252,
+        2149.9312,
+        1288.6335
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0495_CAM_FRONT_Q012",
+      "frame": 495,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__69599999.jpg",
+      "bbox_xyxy": [
+        2003.6661,
+        1139.2361,
+        2029.6415,
+        1194.4464
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0371_CAM_FRONT_Q015",
+      "frame": 371,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__57199999.jpg",
+      "bbox_xyxy": [
+        2201.9741,
+        1117.5334,
+        2244.7139,
+        1205.2635
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0509_CAM_FRONT_Q009",
+      "frame": 509,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__70999989.jpg",
+      "bbox_xyxy": [
+        2020.1932,
+        1123.5961,
+        2048.1228,
+        1196.2859
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0508_CAM_FRONT_Q003",
+      "frame": 508,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__70899999.jpg",
+      "bbox_xyxy": [
+        2060.9177,
+        1166.1674,
+        2092.55,
+        1240.0885
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0448_CAM_FRONT_Q014",
+      "frame": 448,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__64899999.jpg",
+      "bbox_xyxy": [
+        2029.6335,
+        1149.25,
+        2062.3018,
+        1219.2832
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0536_CAM_FRONT_Q003",
+      "frame": 536,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__73699999.jpg",
+      "bbox_xyxy": [
+        2153.7759,
+        1166.8337,
+        2198.3115,
+        1288.0654
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0458_CAM_FRONT_Q007",
+      "frame": 458,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__65899999.jpg",
+      "bbox_xyxy": [
+        2997.3674,
+        1150.3287,
+        3178.1831,
+        1973.6289
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0325_CAM_FRONT_Q033",
+      "frame": 325,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__52599999.jpg",
+      "bbox_xyxy": [
+        2002.823,
+        1134.3729,
+        2028.3195,
+        1171.7075
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0484_CAM_FRONT_Q008",
+      "frame": 484,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__68499999.jpg",
+      "bbox_xyxy": [
+        2080.0649,
+        1170.1619,
+        2120.7087,
+        1273.2947
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0481_CAM_FRONT_Q098",
+      "frame": 481,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__68199999.jpg",
+      "bbox_xyxy": [
+        2034.9122,
+        1161.3683,
+        2067.5879,
+        1223.7427
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0513_CAM_FRONT_Q010",
+      "frame": 513,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__71399999.jpg",
+      "bbox_xyxy": [
+        2355.356,
+        1144.0574,
+        2398.5271,
+        1276.2952
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0357_CAM_FRONT_Q000",
+      "frame": 357,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__55799999.jpg",
+      "bbox_xyxy": [
+        2066.8438,
+        1149.1304,
+        2096.5525,
+        1204.8979
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0354_CAM_FRONT_Q003",
+      "frame": 354,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__55499999.jpg",
+      "bbox_xyxy": [
+        2151.0232,
+        1146.8527,
+        2187.2659,
+        1213.229
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0360_CAM_FRONT_Q020",
+      "frame": 360,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__56099999.jpg",
+      "bbox_xyxy": [
+        1958.9382,
+        1139.4552,
+        1985.9363,
+        1180.889
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0366_CAM_FRONT_Q027",
+      "frame": 366,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__56699999.jpg",
+      "bbox_xyxy": [
+        2224.6475,
+        1133.5366,
+        2262.1726,
+        1211.8265
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0470_CAM_FRONT_Q005",
+      "frame": 470,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__67099999.jpg",
+      "bbox_xyxy": [
+        2034.6316,
+        1157.4144,
+        2063.9856,
+        1222.3519
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0498_CAM_FRONT_Q014",
+      "frame": 498,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__69899999.jpg",
+      "bbox_xyxy": [
+        2006.8524,
+        1142.7986,
+        2033.0745,
+        1199.4672
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0486_CAM_FRONT_Q005",
+      "frame": 486,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__68699999.jpg",
+      "bbox_xyxy": [
+        2094.6711,
+        1144.8689,
+        2146.1719,
+        1301.394
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0497_CAM_FRONT_Q086",
+      "frame": 497,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__69799999.jpg",
+      "bbox_xyxy": [
+        2165.5857,
+        1208.2765,
+        2285.6931,
+        1413.1351
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0325_CAM_FRONT_Q025",
+      "frame": 325,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__52599999.jpg",
+      "bbox_xyxy": [
+        2038.2032,
+        1135.1938,
+        2065.3047,
+        1175.5166
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0358_CAM_FRONT_Q006",
+      "frame": 358,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__55899999.jpg",
+      "bbox_xyxy": [
+        2171.3699,
+        1148.9646,
+        2212.6011,
+        1223.5461
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0372_CAM_FRONT_Q005",
+      "frame": 372,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__57299999.jpg",
+      "bbox_xyxy": [
+        2363.8259,
+        1119.9613,
+        2427.1282,
+        1248.0865
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0345_CAM_FRONT_Q003",
+      "frame": 345,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__54599999.jpg",
+      "bbox_xyxy": [
+        2125.591,
+        1146.758,
+        2155.81,
+        1207.66
+      ],
+      "class": "barricade",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0349_CAM_FRONT_Q008",
+      "frame": 349,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__54999989.jpg",
+      "bbox_xyxy": [
+        2052.8354,
+        1148.541,
+        2083.1377,
+        1198.7134
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0471_CAM_FRONT_Q003",
+      "frame": 471,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__67199999.jpg",
+      "bbox_xyxy": [
+        2040.6676,
+        1153.9471,
+        2069.8999,
+        1222.6764
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0359_CAM_FRONT_Q003",
+      "frame": 359,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__55999990.jpg",
+      "bbox_xyxy": [
+        2069.8167,
+        1145.1628,
+        2105.9951,
+        1207.0477
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0140_CAM_FRONT_Q005",
+      "frame": 140,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__34099999.jpg",
+      "bbox_xyxy": [
+        2298.2671,
+        1065.922,
+        2424.4341,
+        1236.4121
+      ],
+      "class": "merging_sign",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0333_CAM_FRONT_Q012",
+      "frame": 333,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__53399999.jpg",
+      "bbox_xyxy": [
+        2019.4823,
+        1146.2535,
+        2045.3794,
+        1185.7319
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0371_CAM_FRONT_Q008",
+      "frame": 371,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__57199999.jpg",
+      "bbox_xyxy": [
+        2342.1882,
+        1120.3472,
+        2399.9709,
+        1241.3881
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0449_CAM_FRONT_Q006",
+      "frame": 449,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__64999989.jpg",
+      "bbox_xyxy": [
+        2116.8828,
+        1139.111,
+        2177.0347,
+        1315.6091
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0478_CAM_FRONT_Q034",
+      "frame": 478,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__67899999.jpg",
+      "bbox_xyxy": [
+        2023.613,
+        1161.2229,
+        2051.9431,
+        1216.2744
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0472_CAM_FRONT_Q004",
+      "frame": 472,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__67299999.jpg",
+      "bbox_xyxy": [
+        2045.5944,
+        1158.2792,
+        2077.7542,
+        1228.6896
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0359_CAM_FRONT_Q011",
+      "frame": 359,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__55999990.jpg",
+      "bbox_xyxy": [
+        2185.8655,
+        1152.1556,
+        2223.0149,
+        1225.2146
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0368_CAM_FRONT_Q009",
+      "frame": 368,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__56899999.jpg",
+      "bbox_xyxy": [
+        2225.2275,
+        1129.0175,
+        2268.6384,
+        1212.2142
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0419_CAM_FRONT_Q009",
+      "frame": 419,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__61999989.jpg",
+      "bbox_xyxy": [
+        2836.3118,
+        1055.2994,
+        3190.3379,
+        1188.6849
+      ],
+      "class": "barricade",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0135_CAM_FRONT_Q004",
+      "frame": 135,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__33599999.jpg",
+      "bbox_xyxy": [
+        2220.0142,
+        1069.0566,
+        2325.0864,
+        1210.8193
+      ],
+      "class": "merging_sign",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0366_CAM_FRONT_Q013",
+      "frame": 366,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__56699999.jpg",
+      "bbox_xyxy": [
+        2204.0078,
+        1134.5024,
+        2244.8821,
+        1211.3981
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0487_CAM_FRONT_Q002",
+      "frame": 487,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__68799999.jpg",
+      "bbox_xyxy": [
+        2061.9429,
+        1169.8363,
+        2096.6748,
+        1252.4683
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0507_CAM_FRONT_Q004",
+      "frame": 507,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__70799999.jpg",
+      "bbox_xyxy": [
+        2029.3462,
+        1145.2133,
+        2060.9126,
+        1223.8892
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0366_CAM_FRONT_Q047",
+      "frame": 366,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__56699999.jpg",
+      "bbox_xyxy": [
+        2089.8894,
+        1124.3063,
+        2142.7461,
+        1211.5446
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0365_CAM_FRONT_Q016",
+      "frame": 365,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__56599999.jpg",
+      "bbox_xyxy": [
+        1957.39,
+        1125.471,
+        1963.429,
+        1158.46
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0384_CAM_FRONT_Q010",
+      "frame": 384,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__58499999.jpg",
+      "bbox_xyxy": [
+        3020.0603,
+        1115.8134,
+        3216.6492,
+        1422.1903
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0451_CAM_FRONT_Q012",
+      "frame": 451,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__65199999.jpg",
+      "bbox_xyxy": [
+        2151.505,
+        1132.61,
+        2235.365,
+        1362.157
+      ],
+      "class": "road_barrier",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0372_CAM_FRONT_Q039",
+      "frame": 372,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__57299999.jpg",
+      "bbox_xyxy": [
+        2012.9216,
+        1126.2078,
+        2043.0128,
+        1175.4116
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0446_CAM_FRONT_Q004",
+      "frame": 446,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__64699999.jpg",
+      "bbox_xyxy": [
+        2209.0098,
+        1133.2469,
+        2245.6877,
+        1218.9915
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0414_CAM_FRONT_Q011",
+      "frame": 414,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__61499999.jpg",
+      "bbox_xyxy": [
+        2661.0464,
+        1070.5244,
+        2850.4814,
+        1174.6881
+      ],
+      "class": "barricade",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0359_CAM_FRONT_Q055",
+      "frame": 359,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__55999990.jpg",
+      "bbox_xyxy": [
+        2012.7913,
+        1145.7466,
+        2047.3263,
+        1196.8047
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0482_CAM_FRONT_Q008",
+      "frame": 482,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__68299999.jpg",
+      "bbox_xyxy": [
+        2124.6545,
+        1192.5421,
+        2173.4146,
+        1311.0334
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0370_CAM_FRONT_Q021",
+      "frame": 370,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__57099999.jpg",
+      "bbox_xyxy": [
+        2220.5342,
+        1131.7351,
+        2260.7854,
+        1211.4734
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0473_CAM_FRONT_Q011",
+      "frame": 473,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__67399999.jpg",
+      "bbox_xyxy": [
+        2022.4208,
+        1160.662,
+        2051.2085,
+        1218.42
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0154_CAM_FRONT_Q001",
+      "frame": 154,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__35499999.jpg",
+      "bbox_xyxy": [
+        2823.9978,
+        1022.8252,
+        3044.0288,
+        1301.4368
+      ],
+      "class": "merging_sign",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0451_CAM_FRONT_Q005",
+      "frame": 451,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__65199999.jpg",
+      "bbox_xyxy": [
+        2074.8013,
+        1158.5647,
+        2120.6963,
+        1279.7183
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0503_CAM_FRONT_Q018",
+      "frame": 503,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__70399999.jpg",
+      "bbox_xyxy": [
+        2058.1785,
+        1168.4082,
+        2092.4485,
+        1250.7032
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0138_CAM_FRONT_Q012",
+      "frame": 138,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__33899999.jpg",
+      "bbox_xyxy": [
+        2256.2095,
+        1064.9661,
+        2382.4978,
+        1227.5319
+      ],
+      "class": "merging_sign",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0343_CAM_FRONT_Q018",
+      "frame": 343,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__54399999.jpg",
+      "bbox_xyxy": [
+        2023.3071,
+        1154.379,
+        2049.5701,
+        1195.2703
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0344_CAM_FRONT_Q010",
+      "frame": 344,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__54499999.jpg",
+      "bbox_xyxy": [
+        2000.0328,
+        1144.6208,
+        2028.2284,
+        1191.2852
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0451_CAM_FRONT_Q002",
+      "frame": 451,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__65199999.jpg",
+      "bbox_xyxy": [
+        2046.6582,
+        1163.5231,
+        2077.9788,
+        1239.4547
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0082_CAM_FRONT_Q012",
+      "frame": 82,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__28299999.jpg",
+      "bbox_xyxy": [
+        2028.4417,
+        1133.3016,
+        2050.6543,
+        1167.2069
+      ],
+      "class": "merging_sign",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0137_CAM_FRONT_Q005",
+      "frame": 137,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__33799999.jpg",
+      "bbox_xyxy": [
+        2245.9956,
+        1063.9662,
+        2364.7778,
+        1212.8625
+      ],
+      "class": "merging_sign",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0375_CAM_FRONT_Q022",
+      "frame": 375,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__57599999.jpg",
+      "bbox_xyxy": [
+        1998.8862,
+        1127.7284,
+        2027.7908,
+        1183.0845
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0459_CAM_FRONT_Q007",
+      "frame": 459,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__65999989.jpg",
+      "bbox_xyxy": [
+        2031.726,
+        1153.3971,
+        2062.2163,
+        1221.9922
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0374_CAM_FRONT_Q017",
+      "frame": 374,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__57499999.jpg",
+      "bbox_xyxy": [
+        1976.5981,
+        1114.6221,
+        2009.5035,
+        1170.5374
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0465_CAM_FRONT_Q008",
+      "frame": 465,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__66599999.jpg",
+      "bbox_xyxy": [
+        1988.3862,
+        1125.4271,
+        2014.2823,
+        1174.9529
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0472_CAM_FRONT_Q003",
+      "frame": 472,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__67299999.jpg",
+      "bbox_xyxy": [
+        2021.3207,
+        1157.3702,
+        2047.7273,
+        1213.2668
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0413_CAM_FRONT_Q075",
+      "frame": 413,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__61399999.jpg",
+      "bbox_xyxy": [
+        2204.9446,
+        1139.3572,
+        2295.0083,
+        1271.1318
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0375_CAM_FRONT_Q019",
+      "frame": 375,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__57599999.jpg",
+      "bbox_xyxy": [
+        1980.2074,
+        1070.465,
+        2033.3867,
+        1109.2407
+      ],
+      "class": "arrow_board",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0444_CAM_FRONT_Q005",
+      "frame": 444,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__64499999.jpg",
+      "bbox_xyxy": [
+        2040.3212,
+        1161.4618,
+        2071.7256,
+        1233.4797
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0366_CAM_FRONT_Q029",
+      "frame": 366,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__56699999.jpg",
+      "bbox_xyxy": [
+        2182.49,
+        1138.7416,
+        2216.9211,
+        1204.6464
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0376_CAM_FRONT_Q006",
+      "frame": 376,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__57699999.jpg",
+      "bbox_xyxy": [
+        2491.636,
+        1128.0527,
+        2576.7312,
+        1294.9589
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0443_CAM_FRONT_Q005",
+      "frame": 443,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__64399999.jpg",
+      "bbox_xyxy": [
+        2066.4365,
+        1166.8243,
+        2102.9529,
+        1246.7628
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0157_CAM_FRONT_Q001",
+      "frame": 157,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__35799999.jpg",
+      "bbox_xyxy": [
+        3072.1553,
+        999.3374,
+        3352.3962,
+        1361.4304
+      ],
+      "class": "merging_sign",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0423_CAM_FRONT_Q016",
+      "frame": 423,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__62399999.jpg",
+      "bbox_xyxy": [
+        2030.5583,
+        1156.5637,
+        2058.5264,
+        1214.597
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0364_CAM_FRONT_Q017",
+      "frame": 364,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__56499999.jpg",
+      "bbox_xyxy": [
+        1992.8513,
+        1120.0748,
+        2024.1514,
+        1172.9023
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0429_CAM_FRONT_Q001",
+      "frame": 429,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__62999989.jpg",
+      "bbox_xyxy": [
+        2364.8813,
+        1198.9487,
+        2550.1003,
+        1519.4846
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0134_CAM_FRONT_Q005",
+      "frame": 134,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__33499999.jpg",
+      "bbox_xyxy": [
+        2208.2749,
+        1080.2405,
+        2307.7148,
+        1215.3837
+      ],
+      "class": "merging_sign",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0078_CAM_FRONT_Q001",
+      "frame": 78,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__27899999.jpg",
+      "bbox_xyxy": [
+        2025.6688,
+        1122.9801,
+        2050.6948,
+        1160.2675
+      ],
+      "class": "merging_sign",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0147_CAM_FRONT_Q009",
+      "frame": 147,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__34799999.jpg",
+      "bbox_xyxy": [
+        2459.6587,
+        1027.049,
+        2655.2178,
+        1279.5037
+      ],
+      "class": "merging_sign",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0136_CAM_FRONT_Q002",
+      "frame": 136,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__33699999.jpg",
+      "bbox_xyxy": [
+        2245.9077,
+        1077.4827,
+        2329.5942,
+        1182.2946
+      ],
+      "class": "merging_sign",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0453_CAM_FRONT_Q004",
+      "frame": 453,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__65399999.jpg",
+      "bbox_xyxy": [
+        2054.6558,
+        1152.2178,
+        2090.4141,
+        1235.2029
+      ],
+      "class": "traffic_cone",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0413_CAM_FRONT_Q008",
+      "frame": 413,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__61399999.jpg",
+      "bbox_xyxy": [
+        2705.9238,
+        1084.8552,
+        2802.8833,
+        1171.8124
+      ],
+      "class": "road_barrier",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0414_CAM_FRONT_Q006",
+      "frame": 414,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__61499999.jpg",
+      "bbox_xyxy": [
+        2744.2749,
+        1082.5967,
+        2849.165,
+        1171.7716
+      ],
+      "class": "road_barrier",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0415_CAM_FRONT_Q008",
+      "frame": 415,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__61599999.jpg",
+      "bbox_xyxy": [
+        2786.0674,
+        1077.7319,
+        2901.8167,
+        1175.8521
+      ],
+      "class": "road_barrier",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0416_CAM_FRONT_Q006",
+      "frame": 416,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__61699999.jpg",
+      "bbox_xyxy": [
+        2833.8799,
+        1075.5377,
+        2959.1848,
+        1180.0571
+      ],
+      "class": "road_barrier",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0423_CAM_FRONT_Q003",
+      "frame": 423,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__62399999.jpg",
+      "bbox_xyxy": [
+        3405.886,
+        1037.9929,
+        3729.1921,
+        1204.1504
+      ],
+      "class": "barricade",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0419_CAM_FRONT_Q004",
+      "frame": 419,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__61999989.jpg",
+      "bbox_xyxy": [
+        3010.5479,
+        1060.6497,
+        3189.1824,
+        1181.7915
+      ],
+      "class": "barricade",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0417_CAM_FRONT_Q005",
+      "frame": 417,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__61799999.jpg",
+      "bbox_xyxy": [
+        2886.0645,
+        1068.7012,
+        3025.5415,
+        1180.9558
+      ],
+      "class": "barricade",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0420_CAM_FRONT_Q003",
+      "frame": 420,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__62099999.jpg",
+      "bbox_xyxy": [
+        3088.1309,
+        1053.4492,
+        3290.6287,
+        1184.8451
+      ],
+      "class": "barricade",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0418_CAM_FRONT_Q007",
+      "frame": 418,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__61899999.jpg",
+      "bbox_xyxy": [
+        2943.2705,
+        1061.1277,
+        3102.521,
+        1181.8384
+      ],
+      "class": "road_barrier",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18_F0422_CAM_FRONT_Q003",
+      "frame": 422,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__62299999.jpg",
+      "bbox_xyxy": [
+        3281.6812,
+        1041.1379,
+        3563.0337,
+        1192.6222
+      ],
+      "class": "barricade",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0029_MANUAL001",
+      "frame": 29,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__22999989.jpg",
+      "bbox_xyxy": [
+        3596,
+        987,
+        3840,
+        1380
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0062_P000",
+      "frame": 62,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__26299999.jpg",
+      "bbox_xyxy": [
+        2149,
+        1117,
+        2173,
+        1164
+      ],
+      "class": "right_lane_closed",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0003_P000",
+      "frame": 3,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__20399999.jpg",
+      "bbox_xyxy": [
+        2108,
+        1121,
+        2141,
+        1161
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0002_P000",
+      "frame": 2,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__20299999.jpg",
+      "bbox_xyxy": [
+        2103,
+        1119,
+        2135,
+        1158
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0001_P000",
+      "frame": 1,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__20199999.jpg",
+      "bbox_xyxy": [
+        2098,
+        1118,
+        2129,
+        1155
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0004_P000",
+      "frame": 4,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__20499999.jpg",
+      "bbox_xyxy": [
+        2114,
+        1122,
+        2148,
+        1162
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0006_P000",
+      "frame": 6,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__20699999.jpg",
+      "bbox_xyxy": [
+        2126,
+        1128,
+        2163,
+        1172
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0007_P000",
+      "frame": 7,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__20799999.jpg",
+      "bbox_xyxy": [
+        2134,
+        1128,
+        2172,
+        1176
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0000_P000",
+      "frame": 0,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__20099999.jpg",
+      "bbox_xyxy": [
+        2093,
+        1119,
+        2123,
+        1154
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0005_P000",
+      "frame": 5,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__20599999.jpg",
+      "bbox_xyxy": [
+        2119,
+        1123,
+        2155,
+        1166
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0009_P000",
+      "frame": 9,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__20999989.jpg",
+      "bbox_xyxy": [
+        2153,
+        1124,
+        2192,
+        1175
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0065_P000",
+      "frame": 65,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__26599999.jpg",
+      "bbox_xyxy": [
+        2172,
+        1114,
+        2215,
+        1174
+      ],
+      "class": "right_lane_closed",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0010_P000",
+      "frame": 10,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__21099999.jpg",
+      "bbox_xyxy": [
+        2161,
+        1120,
+        2205,
+        1175
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0008_P000",
+      "frame": 8,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__20899999.jpg",
+      "bbox_xyxy": [
+        2144,
+        1125,
+        2182,
+        1175
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0063_P000",
+      "frame": 63,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__26399999.jpg",
+      "bbox_xyxy": [
+        2154,
+        1117,
+        2193,
+        1168
+      ],
+      "class": "right_lane_closed",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0068_P000",
+      "frame": 68,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__26899999.jpg",
+      "bbox_xyxy": [
+        2207,
+        1114,
+        2257,
+        1179
+      ],
+      "class": "right_lane_closed",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0067_P000",
+      "frame": 67,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__26799999.jpg",
+      "bbox_xyxy": [
+        2195,
+        1112,
+        2242,
+        1173
+      ],
+      "class": "right_lane_closed",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0013_P000",
+      "frame": 13,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__21399999.jpg",
+      "bbox_xyxy": [
+        2196,
+        1130,
+        2248,
+        1193
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0066_P000",
+      "frame": 66,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__26699999.jpg",
+      "bbox_xyxy": [
+        2184,
+        1114,
+        2229,
+        1174
+      ],
+      "class": "right_lane_closed",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0012_P000",
+      "frame": 12,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__21299999.jpg",
+      "bbox_xyxy": [
+        2183,
+        1123,
+        2232,
+        1184
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0064_P000",
+      "frame": 64,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__26499999.jpg",
+      "bbox_xyxy": [
+        2165,
+        1119,
+        2202,
+        1172
+      ],
+      "class": "right_lane_closed",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0071_P000",
+      "frame": 71,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__27199999.jpg",
+      "bbox_xyxy": [
+        2255,
+        1102,
+        2316,
+        1182
+      ],
+      "class": "right_lane_closed",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0014_P000",
+      "frame": 14,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__21499999.jpg",
+      "bbox_xyxy": [
+        2209,
+        1129,
+        2264,
+        1196
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0069_P000",
+      "frame": 69,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__26999989.jpg",
+      "bbox_xyxy": [
+        2222,
+        1112,
+        2275,
+        1183
+      ],
+      "class": "right_lane_closed",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0015_P000",
+      "frame": 15,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__21599999.jpg",
+      "bbox_xyxy": [
+        2225,
+        1122,
+        2284,
+        1195
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0011_P000",
+      "frame": 11,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__21199999.jpg",
+      "bbox_xyxy": [
+        2171,
+        1118,
+        2217,
+        1176
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0017_P000",
+      "frame": 17,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__21799999.jpg",
+      "bbox_xyxy": [
+        2265,
+        1105,
+        2330,
+        1187
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0027_P000",
+      "frame": 27,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__22799999.jpg",
+      "bbox_xyxy": [
+        2927,
+        1050,
+        3164,
+        1308
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0019_P000",
+      "frame": 19,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__21999990.jpg",
+      "bbox_xyxy": [
+        2315,
+        1103,
+        2389,
+        1197
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0016_P000",
+      "frame": 16,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__21699999.jpg",
+      "bbox_xyxy": [
+        2244,
+        1111,
+        2305,
+        1188
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0028_P000",
+      "frame": 28,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__22899999.jpg",
+      "bbox_xyxy": [
+        3179,
+        1030,
+        3519,
+        1354
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0025_P000",
+      "frame": 25,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__22599999.jpg",
+      "bbox_xyxy": [
+        2641,
+        1073,
+        2793,
+        1251
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0070_P000",
+      "frame": 70,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__27099999.jpg",
+      "bbox_xyxy": [
+        2238,
+        1107,
+        2294,
+        1181
+      ],
+      "class": "right_lane_closed",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0083_P000",
+      "frame": 83,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__28399999.jpg",
+      "bbox_xyxy": [
+        3227,
+        986,
+        3740,
+        1383
+      ],
+      "class": "right_lane_closed",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0072_P000",
+      "frame": 72,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__27299999.jpg",
+      "bbox_xyxy": [
+        2274,
+        1098,
+        2342,
+        1188
+      ],
+      "class": "right_lane_closed",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0020_P000",
+      "frame": 20,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__22099999.jpg",
+      "bbox_xyxy": [
+        2347,
+        1104,
+        2428,
+        1207
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0018_P000",
+      "frame": 18,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__21899999.jpg",
+      "bbox_xyxy": [
+        2288,
+        1103,
+        2359,
+        1191
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0076_P000",
+      "frame": 76,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__27699999.jpg",
+      "bbox_xyxy": [
+        2398,
+        1085,
+        2495,
+        1213
+      ],
+      "class": "right_lane_closed",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0026_P000",
+      "frame": 26,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__22699999.jpg",
+      "bbox_xyxy": [
+        2758,
+        1062,
+        2951,
+        1273
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0082_P000",
+      "frame": 82,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__28299999.jpg",
+      "bbox_xyxy": [
+        2959,
+        1013,
+        3307,
+        1326
+      ],
+      "class": "right_lane_closed",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0022_P000",
+      "frame": 22,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__22299999.jpg",
+      "bbox_xyxy": [
+        2426,
+        1096,
+        2530,
+        1220
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0073_P000",
+      "frame": 73,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__27399999.jpg",
+      "bbox_xyxy": [
+        2299,
+        1091,
+        2370,
+        1187
+      ],
+      "class": "right_lane_closed",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0075_P000",
+      "frame": 75,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__27599999.jpg",
+      "bbox_xyxy": [
+        2359,
+        1089,
+        2446,
+        1205
+      ],
+      "class": "right_lane_closed",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0024_P000",
+      "frame": 24,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__22499999.jpg",
+      "bbox_xyxy": [
+        2552,
+        1079,
+        2682,
+        1235
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0021_P000",
+      "frame": 21,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__22199999.jpg",
+      "bbox_xyxy": [
+        2384,
+        1101,
+        2474,
+        1214
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0081_P000",
+      "frame": 81,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__28199999.jpg",
+      "bbox_xyxy": [
+        2802,
+        1029,
+        3084,
+        1281
+      ],
+      "class": "right_lane_closed",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0074_P000",
+      "frame": 74,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__27499999.jpg",
+      "bbox_xyxy": [
+        2327,
+        1089,
+        2405,
+        1193
+      ],
+      "class": "right_lane_closed",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0080_P000",
+      "frame": 80,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__28099999.jpg",
+      "bbox_xyxy": [
+        2678,
+        1043,
+        2890,
+        1252
+      ],
+      "class": "right_lane_closed",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0023_P000",
+      "frame": 23,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__22399999.jpg",
+      "bbox_xyxy": [
+        2482,
+        1086,
+        2599,
+        1227
+      ],
+      "class": "road_work_ahead",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0079_P000",
+      "frame": 79,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__27999990.jpg",
+      "bbox_xyxy": [
+        2577,
+        1059,
+        2731,
+        1245
+      ],
+      "class": "right_lane_closed",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0078_P000",
+      "frame": 78,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__27899999.jpg",
+      "bbox_xyxy": [
+        2503,
+        1068,
+        2632,
+        1228
+      ],
+      "class": "right_lane_closed",
+      "entity_id": null
+    },
+    {
+      "observation_id": "C18S_F0077_P000",
+      "frame": 77,
+      "camera": "CAM_FRONT",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__27799999.jpg",
+      "bbox_xyxy": [
+        2445,
+        1073,
+        2557,
+        1217
+      ],
+      "class": "right_lane_closed",
+      "entity_id": null
+    }
+  ],
+  "semantic_only_observations": [
+    {
+      "observation_id": "C18_F0154_CAM_FRONT_Q021",
+      "frame": 154,
+      "camera": "CAM_FRONT",
+      "class": "merging_sign",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__35499999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0144_CAM_FRONT_Q009",
+      "frame": 144,
+      "camera": "CAM_FRONT",
+      "class": "merging_sign",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__34499999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0095_CAM_FRONT_Q000",
+      "frame": 95,
+      "camera": "CAM_FRONT",
+      "class": "merging_sign",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__29599999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0392_CAM_FRONT_Q010",
+      "frame": 392,
+      "camera": "CAM_FRONT",
+      "class": "arrow_board",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__59299999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0389_CAM_FRONT_Q010",
+      "frame": 389,
+      "camera": "CAM_FRONT",
+      "class": "arrow_board",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__58999989.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0151_CAM_FRONT_Q002",
+      "frame": 151,
+      "camera": "CAM_FRONT",
+      "class": "merging_sign",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__35199999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0148_CAM_FRONT_Q002",
+      "frame": 148,
+      "camera": "CAM_FRONT",
+      "class": "merging_sign",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__34899999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0152_CAM_FRONT_Q000",
+      "frame": 152,
+      "camera": "CAM_FRONT",
+      "class": "merging_sign",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__35299999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0149_CAM_FRONT_Q003",
+      "frame": 149,
+      "camera": "CAM_FRONT",
+      "class": "merging_sign",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__34999989.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0089_CAM_FRONT_Q001",
+      "frame": 89,
+      "camera": "CAM_FRONT",
+      "class": "merging_sign",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__28999990.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0160_CAM_FRONT_Q000",
+      "frame": 160,
+      "camera": "CAM_FRONT",
+      "class": "merging_sign",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__36099999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0158_CAM_FRONT_Q001",
+      "frame": 158,
+      "camera": "CAM_FRONT",
+      "class": "merging_sign",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__35899999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0156_CAM_FRONT_Q004",
+      "frame": 156,
+      "camera": "CAM_FRONT",
+      "class": "merging_sign",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__35699999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0153_CAM_FRONT_Q001",
+      "frame": 153,
+      "camera": "CAM_FRONT",
+      "class": "merging_sign",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__35399999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0150_CAM_FRONT_Q003",
+      "frame": 150,
+      "camera": "CAM_FRONT",
+      "class": "merging_sign",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__35099999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0147_CAM_FRONT_Q002",
+      "frame": 147,
+      "camera": "CAM_FRONT",
+      "class": "merging_sign",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__34799999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0149_CAM_FRONT_Q002",
+      "frame": 149,
+      "camera": "CAM_FRONT",
+      "class": "merging_sign",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__34999989.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0142_CAM_FRONT_Q003",
+      "frame": 142,
+      "camera": "CAM_FRONT",
+      "class": "merging_sign",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__34299999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0159_CAM_FRONT_Q002",
+      "frame": 159,
+      "camera": "CAM_FRONT",
+      "class": "merging_sign",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__35999990.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0380_CAM_FRONT_Q013",
+      "frame": 380,
+      "camera": "CAM_FRONT",
+      "class": "arrow_board",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__58099999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0150_CAM_FRONT_Q002",
+      "frame": 150,
+      "camera": "CAM_FRONT",
+      "class": "merging_sign",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__35099999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0083_CAM_FRONT_Q007",
+      "frame": 83,
+      "camera": "CAM_FRONT",
+      "class": "merging_sign",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__28399999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0431_CAM_FRONT_Q004",
+      "frame": 431,
+      "camera": "CAM_FRONT",
+      "class": "arrow_board",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__63199999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0144_CAM_FRONT_Q001",
+      "frame": 144,
+      "camera": "CAM_FRONT",
+      "class": "merging_sign",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__34499999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0428_CAM_FRONT_Q004",
+      "frame": 428,
+      "camera": "CAM_FRONT",
+      "class": "arrow_board",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__62899999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0146_CAM_FRONT_Q001",
+      "frame": 146,
+      "camera": "CAM_FRONT",
+      "class": "merging_sign",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__34699999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0426_CAM_FRONT_Q010",
+      "frame": 426,
+      "camera": "CAM_FRONT",
+      "class": "arrow_board",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__62699999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0433_CAM_FRONT_Q003",
+      "frame": 433,
+      "camera": "CAM_FRONT",
+      "class": "arrow_board",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__63399999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0376_CAM_FRONT_Q008",
+      "frame": 376,
+      "camera": "CAM_FRONT",
+      "class": "arrow_board",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__57699999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0427_CAM_FRONT_Q006",
+      "frame": 427,
+      "camera": "CAM_FRONT",
+      "class": "arrow_board",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__62799999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0429_CAM_FRONT_Q004",
+      "frame": 429,
+      "camera": "CAM_FRONT",
+      "class": "arrow_board",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__62999989.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    },
+    {
+      "observation_id": "C18_F0434_CAM_FRONT_Q001",
+      "frame": 434,
+      "camera": "CAM_FRONT",
+      "class": "arrow_board",
+      "image": "/home/klong23/workzone/data/workzone_02/processed/scene-CATS-19/CAM_FRONT/cats019-2026-10-06-17-38-48__CAM_FRONT__63499999.jpg",
+      "status": "class_confirmed_box_not_accepted"
+    }
+  ],
+  "counts": {
+    "accepted_boxes": 238,
+    "semantic_only": 32
+  },
+  "source_sha256": "bc428bf91b1687bf2b7d45c0d14b0df19b23b0f6b8c5e44862befbfa1f244e4b",
+  "note": "Final accepted and repaired observations; semantic-only records are not usable boxes."
+}

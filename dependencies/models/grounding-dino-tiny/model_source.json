@@ -1,0 +1,11 @@
+{
+  "model": "IDEA-Research/grounding-dino-tiny",
+  "source": "https://huggingface.co/IDEA-Research/grounding-dino-tiny",
+  "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+  "filename": "model.safetensors",
+  "sha256": "1a2412ef99bd74bcd3c2a246fa1e48581f8889a1300c9051974741314fc042f3",
+  "size_bytes": 689359096,
+  "verification": "Exact SHA-256 match to official Hugging Face LFS metadata; no local weight modifications",
+  "local_weights_removed": true,
+  "restore_command": "hf download IDEA-Research/grounding-dino-tiny model.safetensors --revision a2bb814dd30d776dcf7e30523b00659f4f141c71 --local-dir /home/klong23/workzone/dependencies/models/grounding-dino-tiny"
+}

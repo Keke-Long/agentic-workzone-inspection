@@ -1,0 +1,28 @@
+# Binary evidence and large artifacts use Git LFS.
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.npz filter=lfs diff=lfs merge=lfs -text
+*.sqlite3 filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+bev_full_scene/scene_evidence_current/devices_unresolved.json filter=lfs diff=lfs merge=lfs -text
+bev_full_scene/scene_evidence_current/observation_ledger.jsonl filter=lfs diff=lfs merge=lfs -text
+bev_full_scene/scene_evidence_current/all_mapped_nonbackground_elements.json filter=lfs diff=lfs merge=lfs -text
+
+*.safetensors filter=lfs diff=lfs merge=lfs -text
+"bev_full_scene/scene_evidence_current/devices.json" filter=lfs diff=lfs merge=lfs -text
+"experiments/agentic_inspection/artifacts/workzone_03/agentic_final_review81/before_visual_routing_fix/stage4/payloads/stage_1_to_6_0003.json" filter=lfs diff=lfs merge=lfs -text
+"experiments/agentic_inspection/artifacts/workzone_03/agentic_final_review81/before_visual_routing_fix/stage4/payloads/stage_1_to_6_0007.json" filter=lfs diff=lfs merge=lfs -text
+"experiments/agentic_inspection/artifacts/workzone_03/agentic_final_review81/stage4_before_partial_threshold_fix/payloads/stage_1_to_6_0005.json" filter=lfs diff=lfs merge=lfs -text
+"experiments/agentic_inspection/artifacts/workzone_03/agentic_final_review81/stage4_before_pending_state_fix/payloads/stage_1_to_6_0003.json" filter=lfs diff=lfs merge=lfs -text
+"experiments/agentic_inspection/artifacts/workzone_03/agentic_final_review81/stage4_before_pending_state_fix/payloads/stage_1_to_6_0007.json" filter=lfs diff=lfs merge=lfs -text
+"experiments/agentic_inspection/artifacts/workzone_03/agentic_final_review81/stage4_before_sign_family_and_bev_identity_fix/payloads/stage_1_to_6_0005.json" filter=lfs diff=lfs merge=lfs -text
+"experiments/agentic_inspection/artifacts/workzone_03/scene_understanding/request.json" filter=lfs diff=lfs merge=lfs -text
+"experiments/agentic_inspection/artifacts/workzone_03/scene_understanding_final_61_85/request.json" filter=lfs diff=lfs merge=lfs -text
+"experiments/agentic_inspection/artifacts/workzone_03/scene_understanding_later_area/request.json" filter=lfs diff=lfs merge=lfs -text
+"experiments/agentic_inspection/inputs/mutcd_structure_v1.json" filter=lfs diff=lfs merge=lfs -text
+"experiments/agentic_inspection/reports/workzone_01/bev/bev.html" filter=lfs diff=lfs merge=lfs -text
+"experiments/agentic_inspection/reports/workzone_02/ta22_user_selected/post_review_20261021/bev.html" filter=lfs diff=lfs merge=lfs -text

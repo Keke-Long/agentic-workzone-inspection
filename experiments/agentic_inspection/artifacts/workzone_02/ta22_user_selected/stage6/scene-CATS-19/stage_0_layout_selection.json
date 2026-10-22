@@ -1,0 +1,34 @@
+{
+  "scene_id": "scene-CATS-19",
+  "layout_selection_status": "determined",
+  "selected_layouts": [
+    {
+      "layout_code": "TA-22",
+      "layout_role": "primary_applicable",
+      "source_locator": "MUTCD 11th Edition (December 2023), Figure 6P-22 (TA-22), PDF pages 942-943",
+      "matched_scene_facts": [
+        "User directs TA-22 as the primary application for this pilot because the site includes an intersection.",
+        "Existing provisional visual context shows right-lane channelization beyond a signalized intersection."
+      ],
+      "conflicting_scene_facts": [
+        "User describes the real site as combining TA-22 and TA-33 characteristics; TA-22 alone is the requested working scope, not a claim that the full site exactly matches one diagram."
+      ]
+    }
+  ],
+  "missing_scene_fields": [
+    "roadway_lane_count",
+    "exact closure and crosswalk limits",
+    "crosswalk and sidewalk closure/diversion status",
+    "arrow_board_deployed"
+  ],
+  "selection_reason": "Explicit user direction: use TA-22 first because the site includes an intersection. The user also reports TA-33 characteristics. TA-33 is retained as context only for this run; it is not registered as a second primary or automatically added cross-reference. Conditional cross-references required by TA-22 remain available through the existing retrieval method.",
+  "selection_provenance": {
+    "origin": "user_directed",
+    "user_instruction": "我认为应该选TA-22，因为考虑到有交叉口，但其实现场是结合了TA22和TA33的，你先用TA22做吧",
+    "autonomous_stage0_evaluation": false,
+    "context_only_layouts": [
+      "TA-33"
+    ],
+    "independent_applicability_reference_completed": false
+  }
+}

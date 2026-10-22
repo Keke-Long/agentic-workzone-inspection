@@ -1,0 +1,113 @@
+{
+  "schema": "user_adjudications_v4",
+  "scene_id": "scene-CATS-01",
+  "adjudication_date": "2026-09-21",
+  "authority_order": [
+    "explicit current user decisions",
+    "explicit earlier user decisions in this task",
+    "joint raw-image visual findings",
+    "assistant label recommendations used only as non-authoritative evidence"
+  ],
+  "source_evidence": {
+    "review_zh": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/cases/raw_visual_audit_v3/review_zh.md",
+      "sha256": "4bf50049d26e021fdf9c31c5a0ecbbddc9caa9439c5e8a44c9a385695033d53b",
+      "role": "joint_visual_review_findings_not_blanket_label_approval"
+    },
+    "assistant_adjudication_v3": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/cases/raw_visual_audit_v3/assistant_adjudication_v3.json",
+      "sha256": "5a2e57167667ad7c81e9e1ff8bdbf5557c1e24e59a6c27ef6b3f782aaab8d678",
+      "role": "non_authoritative_recommendations"
+    },
+    "F0316_bbox_correction": {
+      "path": "/home/klong23/workzone/experiments/agentic_inspection/cases/raw_visual_audit_v3/F0316_bbox_correction.json",
+      "sha256": "6851bd9fe713c450b5d4819ab06f8e4850449cf0095b0801c37704991ad1615b",
+      "role": "explicit_user_confirmed_bbox_override"
+    }
+  },
+  "bbox_corrections": [
+    {
+      "observation_id": "F0316_CAM_BACK_LEFT_002",
+      "decision": "user_confirmed",
+      "class_name": "traffic_drum",
+      "bbox": [671.0, 735.1, 831.29, 1002.0],
+      "bbox_scope": "drum_with_light_and_base",
+      "source_image": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/scene-CATS-01/CAM_BACK_LEFT/cats001-2026-04-28-15-30-0500__CAM_BACK_LEFT__41666666.jpg",
+      "reviewer": "user/domain reviewer",
+      "note": "Retain the complete traffic-drum box. This two-dimensional correction supersedes the old message_board semantic opinion.",
+      "xyz": null,
+      "shared_entity_id": null,
+      "geometry_eligible": false,
+      "entity_linkage_eligible": false,
+      "invalidated_old_refined_entity_ids": ["I2284"],
+      "invalidated_old_raw_entity_ids": ["E2284"]
+    },
+    {
+      "observation_id": "F0316_CAM_BACK_LEFT_010",
+      "decision": "user_confirmed",
+      "class_name": "arrow_board",
+      "bbox": [745.0, 387.0, 993.0, 676.0],
+      "bbox_scope": "arrow_board_panel_back_excluding_trailer_and_mast",
+      "source_image": "/home/data/workzone/work_zone_dataset/work_zone_data_nuScenes/scene-CATS-01/CAM_BACK_LEFT/cats001-2026-04-28-15-30-0500__CAM_BACK_LEFT__41666666.jpg",
+      "reviewer": "user/domain reviewer",
+      "note": "User-confirmed Arrow Board panel body. The rear view establishes device identity/presence but not arrow display, operation, orientation compliance, or metric placement.",
+      "xyz": null,
+      "shared_entity_id": null,
+      "geometry_eligible": false,
+      "entity_linkage_eligible": false,
+      "invalidated_old_refined_entity_ids": ["I2284"],
+      "invalidated_old_raw_entity_ids": ["E2285"]
+    }
+  ],
+  "invalidated_shared_entity_ids": ["I2284"],
+  "confirmed_device_condition_findings": [
+    {
+      "requirement_label": "CH-02",
+      "element_id": "I4844",
+      "observation_id": "F0622_CAM_BACK_LEFT_000",
+      "device_class": "traffic_drum",
+      "condition": "large-area retroreflective-band loss",
+      "condition_zh": "反光带大面积脱落、缺失",
+      "decision": "user_confirmed_deficiency",
+      "reviewer": "user/domain reviewer"
+    },
+    {
+      "requirement_label": "CH-02",
+      "element_id": "I5502",
+      "observation_id": "F0616_CAM_FRONT_LEFT_000",
+      "device_class": "traffic_drum",
+      "condition": "multiple retroreflective bands visibly damaged and peeling",
+      "condition_zh": "多条反光带明显破损、剥离",
+      "decision": "user_confirmed_deficiency",
+      "reviewer": "user/domain reviewer"
+    }
+  ],
+  "explicit_prior_user_decisions": [
+    {
+      "topic": "F0437_buffer_activity_boundary",
+      "decision": "The visible barricade serves both Buffer and Activity presence checks."
+    },
+    {
+      "topic": "bbox_source",
+      "decision": "The frozen 4,445-row human bbox review is the common perception source."
+    }
+  ],
+  "final_label_resolutions_that_differ_from_v3_draft": [
+    {
+      "case_id": "CATS01_TRANSITION_IC_01",
+      "resolution": "applicable/compliant",
+      "basis": "The later user-confirmed F0316_010 correction establishes Arrow Board body presence. Operation and placement remain outside this IC_01 presence label."
+    },
+    {
+      "case_id": "CATS01_TRANSITION_SELECT",
+      "resolution": "applicable/compliant with IC_01|IC_04",
+      "basis": "The later Arrow Board presence correction makes IC_01 resolvable in addition to the already scoped IC_04."
+    },
+    {
+      "case_id": "CATS01_TERMINATION_IC_08",
+      "resolution": "insufficient_context/not_observable",
+      "basis": "The applicability of a termination spacing rule outside the Layout-explicit subset remains unresolved, so a broad not_applicable claim is not used."
+    }
+  ],
+  "assistant_v3_blanket_approval": false
+}

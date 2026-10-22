@@ -1,0 +1,12 @@
+{
+  "review_revision": 81,
+  "scene_sha256": "040918c7169946b60fc75c0e3ead8a120e59171c6dc9ea2a7b7b8b4117d32b37",
+  "final_detections": "/home/klong23/workzone/data/workzone_03/detections/final_detections.json",
+  "scope": [
+    61,
+    85
+  ],
+  "manual": "MUTCD 11th Edition (December 2023), same frozen KG+BM25 source as Workzone 1; no Wisconsin manual substitution",
+  "authorization": "User requested entire agentic pipeline after final inspection/BEV; preserve six stage records plus Stage 0 layout selection",
+  "detour_confirmation": "User explicitly confirms opposing traffic is prohibited from entering and detours via other roads; it does not use the remaining ego-direction lane for alternating passage. Exact off-site route and its signs are not covered by camera0."
+}

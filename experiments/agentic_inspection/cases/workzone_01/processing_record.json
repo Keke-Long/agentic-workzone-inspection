@@ -1,0 +1,94 @@
+{
+  "schema": "case_processing_index_v1",
+  "compiled_on": "2026-10-21",
+  "record_type": "retrospective_index_not_original_execution_log",
+  "path_base": "/home/klong23/workzone/experiments/agentic_inspection",
+  "case_id": "workzone_01",
+  "scene_id": "scene-CATS-01",
+  "user_confirmed_camera_scope": [
+    "camera0"
+  ],
+  "README": "cases/workzone_01/README.md",
+  "stages": [
+    {
+      "directory": "artifacts/workzone_01/benchmark/stage1_stage2/kg_plus_bm25/scene-CATS-01",
+      "files": {
+        "request_manifest.json": "artifacts/workzone_01/benchmark/stage1_stage2/kg_plus_bm25/scene-CATS-01/request_manifest.json",
+        "tool_trace.json": "artifacts/workzone_01/benchmark/stage1_stage2/kg_plus_bm25/scene-CATS-01/tool_trace.json",
+        "raw_responses.json": "artifacts/workzone_01/benchmark/stage1_stage2/kg_plus_bm25/scene-CATS-01/raw_responses.json",
+        "result.json": "artifacts/workzone_01/benchmark/stage1_stage2/kg_plus_bm25/scene-CATS-01/result.json",
+        "measurements.json": "artifacts/workzone_01/benchmark/stage1_stage2/kg_plus_bm25/scene-CATS-01/measurements.json",
+        "resource_usage.json": "artifacts/workzone_01/benchmark/stage1_stage2/kg_plus_bm25/scene-CATS-01/resource_usage.json"
+      }
+    },
+    {
+      "directory": "artifacts/workzone_01/pipeline/stage3/scene-CATS-01",
+      "files": {
+        "request_manifest.json": "artifacts/workzone_01/pipeline/stage3/scene-CATS-01/request_manifest.json",
+        "tool_trace.json": "artifacts/workzone_01/pipeline/stage3/scene-CATS-01/tool_trace.json",
+        "raw_responses.json": "artifacts/workzone_01/pipeline/stage3/scene-CATS-01/raw_responses.json",
+        "result.json": "artifacts/workzone_01/pipeline/stage3/scene-CATS-01/result.json",
+        "measurements.json": "artifacts/workzone_01/pipeline/stage3/scene-CATS-01/measurements.json",
+        "resource_usage.json": "artifacts/workzone_01/pipeline/stage3/scene-CATS-01/resource_usage.json"
+      }
+    },
+    {
+      "directory": "artifacts/workzone_01/pipeline/stage4/scene-CATS-01",
+      "files": {
+        "request_manifest.json": "artifacts/workzone_01/pipeline/stage4/scene-CATS-01/request_manifest.json",
+        "tool_trace.json": "artifacts/workzone_01/pipeline/stage4/scene-CATS-01/tool_trace.json",
+        "raw_responses.json": "artifacts/workzone_01/pipeline/stage4/scene-CATS-01/raw_responses.json",
+        "result.json": "artifacts/workzone_01/pipeline/stage4/scene-CATS-01/result.json",
+        "measurements.json": "artifacts/workzone_01/pipeline/stage4/scene-CATS-01/measurements.json",
+        "resource_usage.json": "artifacts/workzone_01/pipeline/stage4/scene-CATS-01/resource_usage.json"
+      }
+    },
+    {
+      "directory": "artifacts/workzone_01/pipeline/stage5/scene-CATS-01",
+      "files": {
+        "request_manifest.json": "artifacts/workzone_01/pipeline/stage5/scene-CATS-01/request_manifest.json",
+        "tool_trace.json": "artifacts/workzone_01/pipeline/stage5/scene-CATS-01/tool_trace.json",
+        "raw_responses.json": "artifacts/workzone_01/pipeline/stage5/scene-CATS-01/raw_responses.json",
+        "result.json": "artifacts/workzone_01/pipeline/stage5/scene-CATS-01/result.json",
+        "measurements.json": "artifacts/workzone_01/pipeline/stage5/scene-CATS-01/measurements.json",
+        "resource_usage.json": "artifacts/workzone_01/pipeline/stage5/scene-CATS-01/resource_usage.json"
+      }
+    },
+    {
+      "directory": "artifacts/workzone_01/pipeline/stage6/scene-CATS-01",
+      "files": {
+        "request_manifest.json": "artifacts/workzone_01/pipeline/stage6/scene-CATS-01/request_manifest.json",
+        "tool_trace.json": "artifacts/workzone_01/pipeline/stage6/scene-CATS-01/tool_trace.json",
+        "raw_responses.json": "artifacts/workzone_01/pipeline/stage6/scene-CATS-01/raw_responses.json",
+        "result.json": "artifacts/workzone_01/pipeline/stage6/scene-CATS-01/result.json",
+        "measurements.json": "artifacts/workzone_01/pipeline/stage6/scene-CATS-01/measurements.json",
+        "resource_usage.json": "artifacts/workzone_01/pipeline/stage6/scene-CATS-01/resource_usage.json"
+      }
+    }
+  ],
+  "status": "historical_results_camera_scope_conflict_pending_audit",
+  "latest_report": "reports/workzone_01/final/stage6_final_report.pdf",
+  "final_detection_input": "/home/klong23/workzone/data/workzone_01/detections/final_detections.json",
+  "detector_review_history_retained": false,
+  "scene_bev": {
+    "artifact": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_01/bev_reconstruction/scene_bev",
+    "report": "/home/klong23/workzone/experiments/agentic_inspection/reports/workzone_01/bev/bev.html",
+    "raw_root": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_00",
+    "counts": {
+      "observations": 930,
+      "objects_with_candidate_position": 108,
+      "multi_frame_supported_objects": 73,
+      "mapped_observations": 905,
+      "unresolved_observations": 25,
+      "object_condition_counts": {
+        "not_reassessed": 108
+      },
+      "uncertain_views_resolved_by_same_object": 0
+    },
+    "raw_frames": 1027,
+    "display_cloud_points": 773512,
+    "status": "rebuilt_from_verified_raw_camera0_geometry_only",
+    "validation": "data and browser checks passed; Workzone 2 browser regression passed"
+  },
+  "user_reconfirmed_duration": "long_term_more_than_three_days"
+}

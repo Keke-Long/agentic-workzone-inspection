@@ -1,0 +1,58 @@
+{
+  "scene_id": "scene-CATS-15",
+  "layout_selection_status": "determined",
+  "selected_layouts": [
+    {
+      "layout_code": "TA-24",
+      "layout_role": "primary_applicable",
+      "source_locator": "TA-24, Figure 6P-24, PDF page 947 / printed page 907; source unit expanded from the full-manual index",
+      "matched_scene_facts": [
+        "Urban two-way street with one apparent lane in each direction",
+        "Full opposing-direction lane is closed while the ego-direction lane remains open",
+        "Closure is on the opposing side and terminates at or near the far side of a cross-street intersection",
+        "Channelizers form the boundary and taper for the closed half of the roadway",
+        "Opposing traffic is prohibited and detours via other roads",
+        "Posted speed is 20 mph and the work duration is less than three days"
+      ],
+      "conflicting_scene_facts": [
+        "Exact longitudinal limits and width of the closed lane are unresolved",
+        "The precise work-space location behind the channelizers is not visible",
+        "Physical traffic-control devices on the unobserved opposing approach cannot be verified"
+      ]
+    },
+    {
+      "layout_code": "TA-8",
+      "layout_role": "cross_reference_only",
+      "source_locator": "TA-8, Figure 6P-8, PDF page 915 / printed page 875; source unit expanded from the full-manual index",
+      "matched_scene_facts": [
+        "Opposing traffic is explicitly confirmed to use an off-site detour",
+        "The closure is associated with an intersection"
+      ],
+      "conflicting_scene_facts": [
+        "TA-8 is titled Road Closure with an Off-Site Detour and depicts road-closure/detour signing rather than the more specific half-road closure on the far side of an intersection",
+        "The observed scene does not establish the complete TA-8 detour signing arrangement"
+      ]
+    },
+    {
+      "layout_code": "TA-20",
+      "layout_role": "cross_reference_only",
+      "source_locator": "TA-20, Figure 6P-20, PDF page 939 / printed page 899; source unit expanded from the full-manual index",
+      "matched_scene_facts": [
+        "Opposing traffic is confirmed to detour via other roads",
+        "The closure is near an intersection"
+      ],
+      "conflicting_scene_facts": [
+        "TA-20 addresses detour signing for a closed street, while the directly observed operation is a half-road closure with the other direction remaining open",
+        "Whether the street has a posted route number is unresolved"
+      ]
+    }
+  ],
+  "missing_scene_fields": [
+    "Exact roadway lane count and configuration beyond the apparent one lane per direction",
+    "Exact longitudinal limits and width of the closed opposing lane",
+    "Specific off-site detour route and its signing",
+    "Complete opposing-approach device arrangement",
+    "Exact work-space location and extent"
+  ],
+  "selection_reason": "TA-24 is the most specific directly applicable Typical Application because the frozen facts establish a half-road closure on the far side of an intersection, with one direction remaining open. TA-8 and TA-20 were retrieved and inspected as detour-related alternatives, but they are broader detour-signing applications and do not better describe the primary traffic operation. The unresolved detour details affect later requirement applicability and augmentation, not selection of the primary TA."
+}

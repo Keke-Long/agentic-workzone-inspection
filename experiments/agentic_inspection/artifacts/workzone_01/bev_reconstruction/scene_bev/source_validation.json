@@ -1,0 +1,11 @@
+{
+  "raw_root": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_00",
+  "metadata_pose_count": 1027,
+  "max_INS_translation_difference_m": 0.0,
+  "camera_scope": [
+    "CAM_FRONT"
+  ],
+  "accepted_observations": 930,
+  "historical_mislabeled_raw_root": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_01",
+  "condition_and_compliance": "not reassessed in this BEV task"
+}

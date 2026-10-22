@@ -1,0 +1,81 @@
+{
+  "schema": "case18_current_run_v1",
+  "status": "post_review_reassessment_complete_with_evidence_gaps",
+  "scene_manifest": "cases/workzone_02/scene_ta22_camera0_final.json",
+  "config_directory": "config/workzone_02/ta22_user_selected",
+  "primary_layout": "TA-22",
+  "layout_selection_origin": "user_directed",
+  "context_only_layouts": [
+    "TA-33"
+  ],
+  "camera_channels": [
+    "CAM_FRONT"
+  ],
+  "processed_root": "/home/klong23/workzone/data/workzone_02/processed",
+  "artifact_root": "artifacts/workzone_02/ta22_user_selected",
+  "report": "/home/klong23/workzone/experiments/agentic_inspection/reports/workzone_02/ta22_user_selected/post_review_20261021/report.html",
+  "registered_requirements": 13,
+  "stage3_evaluation_passed": true,
+  "completed_stages": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "inspection_status_counts": {
+    "supported": 8,
+    "no_visible_defect": 1,
+    "measured_borderline": 2,
+    "not_applicable": 2
+  },
+  "numerical_measurements": 20,
+  "post_review_reassessment": {
+    "status": "completed_with_evidence_gaps",
+    "method": "assistant evidence reassessment with deterministic geometry attempts; frozen Stage3 requirements retained; not a new autonomous Stage4–6 model run",
+    "result": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_02/ta22_user_selected/post_review_20261021/result.json",
+    "report": "/home/klong23/workzone/experiments/agentic_inspection/reports/workzone_02/ta22_user_selected/post_review_20261021/report.html",
+    "status_counts": {
+      "supported": 8,
+      "no_visible_defect": 1,
+      "measured_borderline": 2,
+      "not_applicable": 2
+    },
+    "human_bbox_repairs_remaining": 0,
+    "human_bbox_repairs_saved": 23,
+    "accepted_bbox_observations": 238,
+    "semantic_only_observations": 32,
+    "trusted_numerical_measurements": 19,
+    "provisional_taper_estimates": 1,
+    "full_reassessment": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_02/ta22_user_selected/post_review_20261021/full_reassessment/assessment.json",
+    "geometry_repair_result": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_02/ta22_user_selected/post_review_20261021/sign_geometry_repair/validation_and_measurements.json"
+  },
+  "scene_bev": {
+    "report": "/home/klong23/workzone/experiments/agentic_inspection/reports/workzone_02/ta22_user_selected/post_review_20261021/bev.html",
+    "artifact": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_02/ta22_user_selected/post_review_20261021/scene_bev/objects.json",
+    "counts": {
+      "observations": 270,
+      "objects_with_candidate_position": 48,
+      "multi_frame_supported_objects": 31,
+      "mapped_observations": 254,
+      "unresolved_observations": 16,
+      "object_condition_counts": {
+        "not_condition_target": 5,
+        "supported_serviceable": 25,
+        "uncertain_no_clear_view": 8,
+        "serviceable_view_identity_provisional": 10
+      },
+      "uncertain_views_resolved_by_same_object": 38
+    }
+  },
+  "processing_record": "cases/workzone_02/processing_record.json",
+  "paper_case_id": "workzone_02",
+  "paper_case_name": "Workzone 2",
+  "raw_dataset_case": "Case_18",
+  "stage_index": "cases/workzone_02/stage_0_to_6_index.json",
+  "final_detection_input": "/home/klong23/workzone/data/workzone_02/detections/final_detections.json",
+  "current_reviewed_scene": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_02/ta22_user_selected/post_review_20261021/scene.json",
+  "review_ui_retained": false
+}

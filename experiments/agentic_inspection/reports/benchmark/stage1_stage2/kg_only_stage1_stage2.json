@@ -1,0 +1,112 @@
+{
+  "schema": "case1_active_requirement_evaluation_v2",
+  "passed": false,
+  "expected_count": 15,
+  "discovered_count": 10,
+  "matched_count": 8,
+  "overall_recall": 0.5333333333333333,
+  "activation_precision": 0.8,
+  "stage_metrics": {
+    "stage1_candidate_recall": 1.0,
+    "stage1_surfaced_count": 15,
+    "stage1_missed_expected_ids": [],
+    "stage2_compilation_recall_among_surfaced": 0.5333333333333333,
+    "stage2_compiled_surfaced_count": 8,
+    "end_to_end_registered_recall": 0.5333333333333333
+  },
+  "mandatory": {
+    "expected": 5,
+    "matched": 4,
+    "recall": 0.8
+  },
+  "guidance": {
+    "expected": 10,
+    "matched": 4,
+    "recall": 0.4
+  },
+  "missed_expected_ids": [
+    "AWS-02",
+    "AWS-03",
+    "AWS-04",
+    "AWS-05",
+    "CH-03",
+    "TT-04",
+    "AD-03"
+  ],
+  "invalid_activation_count": 1,
+  "invalid_activations": [
+    {
+      "excluded_id": "AD-02",
+      "discovered_requirement_key": "req_5faae7685bc93cfd",
+      "source_node_id": "src_773f5051c6890e5174a9"
+    }
+  ],
+  "unmatched_prediction_count": 2,
+  "unmatched_prediction_keys": [
+    "req_d48f75785df3bd57",
+    "req_5faae7685bc93cfd"
+  ],
+  "source_integrity": {
+    "passed": true,
+    "verified_count": 10,
+    "failures": []
+  },
+  "matches": [
+    {
+      "expected_id": "LC-01",
+      "discovered_requirement_key": "req_3e17b4b6ec99d5ba",
+      "normative_level": "mandatory",
+      "semantic_score": 0.7273,
+      "source_node_id": "src_25baa4f2f2ea8a767a6a"
+    },
+    {
+      "expected_id": "LC-02",
+      "discovered_requirement_key": "req_73a9ebb6f84c3c57",
+      "normative_level": "mandatory",
+      "semantic_score": 0.7143,
+      "source_node_id": "src_e65583438482e0520dd4"
+    },
+    {
+      "expected_id": "AWS-01",
+      "discovered_requirement_key": "req_c1e765433aad2145",
+      "normative_level": "mandatory",
+      "semantic_score": 0.8333,
+      "source_node_id": "src_3a61a102f3394eb624c4"
+    },
+    {
+      "expected_id": "AWS-06",
+      "discovered_requirement_key": "req_2197fa8fbbaaeeb4",
+      "normative_level": "guidance",
+      "semantic_score": 0.6875,
+      "source_node_id": "src_6ee70d9c1617acd549c4"
+    },
+    {
+      "expected_id": "CH-01",
+      "discovered_requirement_key": "req_b30c1f71cf24c0ef",
+      "normative_level": "guidance",
+      "semantic_score": 0.6,
+      "source_node_id": "src_2afdeb6d23fb7be10144"
+    },
+    {
+      "expected_id": "CH-02",
+      "discovered_requirement_key": "req_79b6180765147f89",
+      "normative_level": "mandatory",
+      "semantic_score": 0.5,
+      "source_node_id": "src_65f8e6d2257292e4b29b"
+    },
+    {
+      "expected_id": "TT-03",
+      "discovered_requirement_key": "req_7f09b0d881cf3b4b",
+      "normative_level": "guidance",
+      "semantic_score": 0.2778,
+      "source_node_id": "src_8830bc798575a0d34908"
+    },
+    {
+      "expected_id": "AD-01",
+      "discovered_requirement_key": "req_6ca446c69dddd387",
+      "normative_level": "guidance",
+      "semantic_score": 1.0,
+      "source_node_id": "src_221a2387ff9abfa9e69e"
+    }
+  ]
+}

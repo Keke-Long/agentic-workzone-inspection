@@ -1,0 +1,102 @@
+{
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "image_sha256": "0b1aae58bd7f2ff407916f752f3e6cdb1bddfbce07aefaae41f2e6e2cf179459",
+  "response": {
+    "model": "qwen3-vl:4b-instruct",
+    "created_at": "2026-10-21T14:48:54.889795248Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"items\": [\n    {\n      \"id\": 1,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"The cone is upright, shows no visible breakage or missing major parts, stripes are intact and clearly visible, and it appears to be in standard serviceable condition.\"\n    },\n    {\n      \"id\": 2,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"The cones are upright with clear, undamaged stripes; no signs of collapse, severe breakage, or missing major parts. They appear functional and visible.\"\n    },\n    {\n      \"id\": 3,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"The cone is standing upright with full, intact stripes and no obvious damage or missing components. It appears serviceable based on visual evidence.\"\n    },\n    {\n      \"id\": 4,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"The cones are upright, show no visible structural damage, and their stripes are clearly distinguishable. No functional defects are evident from the image.\"\n    },\n    {\n      \"id\": 5,\n      \"status\": \"visible_unserviceable\",\n      \"reason\": \"The cone appears to be leaning significantly and is partially obscured by blur; its orientation suggests instability or collapse, which likely prevents proper function as a channelizing device.\"\n    },\n    {\n      \"id\": 6,\n      \"status\": \"uncertain\",\n      \"reason\": \"The image is too blurry and distant to discern any specific defects. The cones are indistinct and cannot be evaluated for serviceability based on visible evidence alone.\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 3913984482,
+    "load_duration": 165781406,
+    "prompt_eval_count": 1299,
+    "prompt_eval_duration": 472638000,
+    "eval_count": 343,
+    "eval_duration": 3093023000
+  },
+  "observations": [
+    {
+      "observation_id": "C18_F0371_CAM_FRONT_Q008",
+      "frame": 371,
+      "native_bbox": [
+        2342.1882,
+        1120.3472,
+        2399.9709,
+        1241.3881
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "The cone is upright, shows no visible breakage or missing major parts, stripes are intact and clearly visible, and it appears to be in standard serviceable condition."
+    },
+    {
+      "observation_id": "C18_F0371_CAM_FRONT_Q015",
+      "frame": 371,
+      "native_bbox": [
+        2201.9741,
+        1117.5334,
+        2244.7139,
+        1205.2635
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "The cones are upright with clear, undamaged stripes; no signs of collapse, severe breakage, or missing major parts. They appear functional and visible."
+    },
+    {
+      "observation_id": "C18_F0372_CAM_FRONT_Q005",
+      "frame": 372,
+      "native_bbox": [
+        2363.8259,
+        1119.9613,
+        2427.1282,
+        1248.0865
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "The cone is standing upright with full, intact stripes and no obvious damage or missing components. It appears serviceable based on visual evidence."
+    },
+    {
+      "observation_id": "C18_F0372_CAM_FRONT_Q018",
+      "frame": 372,
+      "native_bbox": [
+        2329.094,
+        1108.8945,
+        2379.0635,
+        1226.1613
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "The cones are upright, show no visible structural damage, and their stripes are clearly distinguishable. No functional defects are evident from the image."
+    },
+    {
+      "observation_id": "C18_F0372_CAM_FRONT_Q039",
+      "frame": 372,
+      "native_bbox": [
+        2012.9216,
+        1126.2078,
+        2043.0128,
+        1175.4116
+      ],
+      "id": 5,
+      "status": "visible_unserviceable",
+      "reason": "The cone appears to be leaning significantly and is partially obscured by blur; its orientation suggests instability or collapse, which likely prevents proper function as a channelizing device."
+    },
+    {
+      "observation_id": "C18_F0374_CAM_FRONT_Q017",
+      "frame": 374,
+      "native_bbox": [
+        1976.5981,
+        1114.6221,
+        2009.5035,
+        1170.5374
+      ],
+      "id": 6,
+      "status": "uncertain",
+      "reason": "The image is too blurry and distant to discern any specific defects. The cones are indistinct and cannot be evaluated for serviceability based on visible evidence alone."
+    }
+  ],
+  "human_confirmed_condition": false
+}

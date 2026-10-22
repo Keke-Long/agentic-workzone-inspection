@@ -1,0 +1,35 @@
+{
+  "schema": "mutcd_dense_gap_index_v1",
+  "model_id": "intfloat/e5-large-v2",
+  "embedding_dimension": 1024,
+  "normalized_embeddings": true,
+  "passage_prefix": "passage: ",
+  "query_prefix": "query: ",
+  "provision_count": 904,
+  "query_domains": [
+    "lane_closure_layout",
+    "advance_warning_sign_system",
+    "channelization_system",
+    "transition_and_taper_geometry",
+    "conditional_active_devices",
+    "conditional_termination_area"
+  ],
+  "domain_queries": {
+    "lane_closure_layout": "temporary traffic control lane closure layout and traffic path",
+    "advance_warning_sign_system": "temporary traffic control advance warning sign system",
+    "channelization_system": "temporary traffic control channelization system",
+    "transition_and_taper_geometry": "temporary traffic control transition and taper geometry",
+    "conditional_active_devices": "temporary traffic control active devices",
+    "conditional_termination_area": "temporary traffic control termination area"
+  },
+  "source_structure_sha256": "40c96734b42baaae8ace0fa2764184cd20e3a9ddb787bce48d56e1f932b8e904",
+  "knowledge_graph_sha256": "d2d24b2b4f76996f8a0efbdf22941cc8b86543cc1227e9489b251c7963c6f384",
+  "index_path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_dense_gap_e5_large_v2.npz",
+  "index_sha256": "330324f54baf153224f80d9f09f5d5e841855300c7868932db3370736855276e",
+  "build_policy": {
+    "scene_manifest_read": false,
+    "hidden_reference_read": false,
+    "outcome_labels_read": false,
+    "passage_unit": "MUTCD normative atomic provision"
+  }
+}

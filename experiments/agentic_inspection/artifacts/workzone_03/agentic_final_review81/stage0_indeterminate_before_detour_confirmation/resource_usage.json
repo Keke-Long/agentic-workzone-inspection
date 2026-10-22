@@ -1,0 +1,75 @@
+{
+  "regulation_retrieval_calls": 7,
+  "retrieval_queries": [
+    {
+      "operation": "search_manual",
+      "query": "Typical Application two-lane urban roadway one direction lane closed opposing lane closed channelizing devices intersection detour opposing traffic ROAD WORK AHEAD short duration"
+    },
+    {
+      "operation": "search_manual",
+      "query": "Typical Application TA road closure detour two-lane road one direction traffic remains open opposing lane closed intersection channelizing devices Figure 6P"
+    },
+    {
+      "operation": "search_manual",
+      "query": "Typical Application lane closure on two-lane road opposing direction closed traffic detour no alternating traffic Figure 6P-8 6P-9 6P-10"
+    },
+    {
+      "operation": "search_manual",
+      "query": "Typical Application \"one lane\" \"two-lane road\" closure flagger TA-9 TA-10 TA-11"
+    },
+    {
+      "operation": "search_manual",
+      "query": "Typical Application closed opposing lane detour one direction remains open urban two-lane street channelizing devices intersection \"lane closure\" detour"
+    },
+    {
+      "operation": "expand_source_unit",
+      "query": "TA-10|applicability"
+    },
+    {
+      "operation": "expand_source_unit",
+      "query": "TA-10|general_notes"
+    }
+  ],
+  "retrieved_chunks_nodes": 68,
+  "retrieved_characters": 104390,
+  "point_cloud_frames_processed": 0,
+  "points_processed": 0,
+  "geometry_tool_calls": 0,
+  "map_web_lookup_calls": 0,
+  "image_files_returned": 0,
+  "cpu_seconds": 0.0,
+  "measurements_saved": 0,
+  "speed_evidence_saved": 0,
+  "external_query_sources": [],
+  "external_queries": [],
+  "tool_calls_total": 7,
+  "tool_failures": 0,
+  "resumed_tool_calls": 0,
+  "session_tool_calls": 7,
+  "resumed_tool_failures": 0,
+  "session_tool_failures": 0,
+  "tool_retries": 0,
+  "high_confidence_disposition_gap_count": 0,
+  "high_confidence_disposition_gaps": [],
+  "stage2_candidate_audit_calls": 0,
+  "stage2_audited_candidate_count": 0,
+  "stage2_structured_decision_count": 0,
+  "stage2_structured_decisions": {},
+  "stage2_decision_revision": 0,
+  "stage2_audit_revision": null,
+  "stage2_verification_unresolved_count": 0,
+  "stage2_verification_unresolved": [],
+  "input_tokens": 160919,
+  "output_tokens": 1775,
+  "total_tokens": 162694,
+  "cached_tokens": 128700,
+  "model_api_calls": 8,
+  "model_api_retries": 0,
+  "actual_model_api_cost_usd": 0.0111478,
+  "model_pricing_usd_per_million": {
+    "input": 0.2,
+    "cached_input": 0.02,
+    "output": 1.2,
+    "pricing_scope": "recorded checkpoint pricing"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "regulation_retrieval_calls": 7,
+  "retrieval_queries": [
+    {
+      "operation": "search_manual",
+      "query": "Typical Application opposing direction lane fully closed detour one lane closure two-way roadway intersection short duration work zone"
+    },
+    {
+      "operation": "search_manual",
+      "query": "Typical Application two-lane roadway one direction lane closed opposing traffic detour closed roadway intersection"
+    },
+    {
+      "operation": "search_manual",
+      "query": "Typical Application closure of one direction of a two-lane street opposing traffic detour on-site detour road closure intersection"
+    },
+    {
+      "operation": "expand_source_unit",
+      "query": "TA-8|applicability"
+    },
+    {
+      "operation": "expand_source_unit",
+      "query": "TA-8|general_notes"
+    },
+    {
+      "operation": "search_manual",
+      "query": "TA-7 TA-8 TA-9 two-lane highway road closure diversion closed section opposing direction"
+    },
+    {
+      "operation": "expand_source_unit",
+      "query": "TA-7|general_notes"
+    }
+  ],
+  "retrieved_chunks_nodes": 59,
+  "retrieved_characters": 87702,
+  "point_cloud_frames_processed": 0,
+  "points_processed": 0,
+  "geometry_tool_calls": 0,
+  "map_web_lookup_calls": 0,
+  "image_files_returned": 0,
+  "cpu_seconds": 0.0,
+  "measurements_saved": 0,
+  "speed_evidence_saved": 0,
+  "external_query_sources": [],
+  "external_queries": [],
+  "tool_calls_total": 7,
+  "tool_failures": 0,
+  "resumed_tool_calls": 0,
+  "session_tool_calls": 7,
+  "resumed_tool_failures": 0,
+  "session_tool_failures": 0,
+  "tool_retries": 0,
+  "high_confidence_disposition_gap_count": 0,
+  "high_confidence_disposition_gaps": [],
+  "stage2_candidate_audit_calls": 0,
+  "stage2_audited_candidate_count": 0,
+  "stage2_structured_decision_count": 0,
+  "stage2_structured_decisions": {},
+  "stage2_decision_revision": 0,
+  "stage2_audit_revision": null,
+  "stage2_verification_unresolved_count": 0,
+  "stage2_verification_unresolved": [],
+  "input_tokens": 130003,
+  "output_tokens": 1717,
+  "total_tokens": 131720,
+  "cached_tokens": 103475,
+  "model_api_calls": 8,
+  "model_api_retries": 0,
+  "actual_model_api_cost_usd": 0.0094355,
+  "model_pricing_usd_per_million": {
+    "input": 0.2,
+    "cached_input": 0.02,
+    "output": 1.2,
+    "pricing_scope": "recorded checkpoint pricing"
+  }
+}

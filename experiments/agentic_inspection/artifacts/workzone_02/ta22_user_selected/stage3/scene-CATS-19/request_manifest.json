@@ -1,0 +1,125 @@
+{
+  "experiment_id": "workzone_18_ta22_user_selected_stage3",
+  "method_id": "kg_plus_bm25",
+  "run": 1,
+  "method_role": "primary_proposed_method",
+  "method_definition_version": "stage1_stage2_methods_v1",
+  "stage2_policy": {
+    "mode": "structured_candidate_decision_v1",
+    "candidate_scope": "initial_compilation_plus_unresolved_deterministic_kg_candidates",
+    "canonical_predicate_binding": true,
+    "explicit_candidate_disposition_required": true
+  },
+  "single_method_development_test": true,
+  "cross_method_comparison_valid": false,
+  "layout_selection_record_sha256": "901f014b2fcd396c3a0635a73fd8e159799919cdab32c03e04d4de84056f936a",
+  "layout_selection_origin": "user_directed",
+  "correct_layout_page_region_or_target_supplied": true,
+  "hidden_requirement_id_supplied": false,
+  "scene_view": {
+    "scene_id": "scene-CATS-19",
+    "scene_facts": {
+      "active_work": null,
+      "available_width_ft": null,
+      "closed_lane": "right",
+      "inspection_period": "daytime",
+      "lanes_closed": 1,
+      "opposite_direction_image_coverage": null,
+      "pcms_deployed": null,
+      "posted_speed_mph": 25,
+      "roadway_configuration": "multilane_divided",
+      "roadway_lane_count": null,
+      "work_duration_category": "long_term_more_than_three_days",
+      "work_ended": null,
+      "arrow_board_deployed": null,
+      "arrow_board_operating": null,
+      "arrow_board_display_mode": null,
+      "arrow_board_direction": null,
+      "arrow_board_at_merging_taper_start": null,
+      "fact_provenance": "Assistant visual interpretation of Case_18 camera0 at 54.999999/59.999999/64.999999/69.999999 s: a right curb lane is channelized beside building work beyond a signalized intersection; median separates opposing traffic. Provisional scene context, not human-verified ground truth. Null means unknown. User confirmed intersection context and requested TA-22 first; only camera0 is admitted as visual input in this run.",
+      "scene_context": "Urban arterial with a signalized intersection; right curb lane channelized by drums and cones alongside building construction; pedestrian sidewalk adjacent. Full lane count is unknown. User confirmed 25 mph and long-term work exceeding three days. User describes the site as combining TA-22 and TA-33 characteristics and directs TA-22 as the primary layout for this run. Only camera0 (CAM_FRONT) is available to this run; the user excluded all other cameras due to poor image quality.",
+      "posted_speed_provenance": "explicit_user_confirmation_2026-10-20",
+      "work_duration_provenance": "explicit_user_confirmation_2026-10-20"
+    },
+    "scene_data_manifest": {
+      "scene_id": "scene-CATS-19",
+      "scene_description_redacted": true,
+      "available_direct": [
+        "scene_facts"
+      ],
+      "derivable_local": [
+        "full_temporal_images",
+        "lidar_points",
+        "ego_trajectory",
+        "sensor_calibration",
+        "device_global_position",
+        "longitudinal_distance",
+        "device_spacing",
+        "taper_length",
+        "buffer_length",
+        "sign_spacing",
+        "available_width",
+        "rule_based_channelizer_spacing_audit",
+        "posted_speed_from_visible_sign"
+      ],
+      "retrievable_external": [
+        "posted_speed_if_road_segment_can_be_geolocated"
+      ],
+      "counts": {
+        "samples": 632,
+        "lidar_frames": 632,
+        "camera_frames": 632,
+        "camera_frames_by_channel": {
+          "CAM_FRONT": 632
+        },
+        "ego_poses": 1264,
+        "calibrated_sensors": 2,
+        "accepted_bbox_observations": 0,
+        "accepted_bbox_observations_by_class": {},
+        "accepted_pcms_observations": 0,
+        "accepted_arrow_board_observations": 0
+      },
+      "derived_scene_facts": {
+        "pcms_deployed": null,
+        "pcms_deployed_provenance": [],
+        "arrow_board_deployed": null,
+        "arrow_board_deployed_provenance": []
+      },
+      "trajectory": {
+        "start_timestamp_us": 20000161,
+        "end_timestamp_us": 83100092,
+        "path_length_m": 530.9848822576151
+      },
+      "location": {
+        "dataset_location": "madison-wi-usa",
+        "road_name": null,
+        "latitude_longitude": null,
+        "external_speed_lookup_ready": false,
+        "reason": "Metadata identifies Madison, Wisconsin but contains no road name or geodetic coordinates."
+      },
+      "forbidden_metadata_removed": [
+        "scene.description"
+      ]
+    },
+    "accepted_bbox_count": 0,
+    "perception_evidence_policy": "human_decision_correct_plus_explicit_expert_or_user_2d_confirmation"
+  },
+  "config_path": "/home/klong23/workzone/experiments/agentic_inspection/config/workzone_18/ta22_user_selected/stage3.json",
+  "config_sha256": "9a58c2db55d0f571a785361d81dabc1aaf64d27d7f1163f9f77b560176ce1bcd",
+  "model": "gpt-5.6-luna",
+  "reasoning_effort": "medium",
+  "resume_stage0_record": "artifacts/workzone_18/ta22_user_selected/stage1_stage2/scene-CATS-19/stage_0_layout_selection.json",
+  "resume_registry_checkpoint": "artifacts/workzone_18/ta22_user_selected/stage1_stage2/scene-CATS-19/stage_1_to_6_registry.json",
+  "stage0_prompt_sha256": "40b9015e38204ee9b89ab5257f7122358481c41426cad29b73afd395ab3fbd64",
+  "workflow_prompt_template_sha256": "a28c7118f4a0858e5acc262fb94bb8451a5795e96045488d945f5113e3ed1b24",
+  "scoped_stage1_stage2_test": true,
+  "simplified_inspection_checks": true,
+  "stage1c_gap_retrieval": {
+    "architecture": "kg_plus_retrieval",
+    "method": "bm25",
+    "candidate_selection": "top_k",
+    "candidate_limit_per_domain": 18
+  },
+  "stage1_architecture": "kg_plus_retrieval",
+  "executed": true
+}

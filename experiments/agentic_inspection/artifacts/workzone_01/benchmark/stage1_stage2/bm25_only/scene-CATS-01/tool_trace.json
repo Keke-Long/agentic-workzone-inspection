@@ -1,0 +1,2371 @@
+[
+  {
+    "step": 1,
+    "phase": "requirement_discovery",
+    "tool": "load_domain_gap_candidates",
+    "arguments": {
+      "domain": "lane_closure_layout"
+    },
+    "result": {
+      "layer": "stage1_retrieval_only",
+      "domain": "lane_closure_layout",
+      "query": "temporary traffic control lane closure layout and traffic path",
+      "covered_node_count": 0,
+      "uncovered_corpus_count": 904,
+      "uncovered_candidate_count": 15,
+      "ranking_policy": {
+        "type": "bm25_top_k",
+        "relative_to_domain_top_score": 0.5,
+        "top_score": 17.775214,
+        "minimum_eligible_score": 8.887607,
+        "zero_score_nodes_excluded": true,
+        "candidate_count_cap": 18
+      },
+      "internal_page_count": 2,
+      "has_more": false,
+      "continuation_token": null,
+      "items": [
+        {
+          "source_node_id": "src_7a66c4b9571cc402cc79",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "03",
+          "modality": "shall",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "A temporary traffic control signal that is used to control traffic through a one-lane, two-way section of roadway shall comply with the provisions of Section 4O.02.",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 17.775214
+        },
+        {
+          "source_node_id": "src_14995069759acceb0640",
+          "source_unit_code": "TA-12",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals shall be installed and operated in accordance with the provisions of Part 4. Temporary traffic control signals shall meet the physical display and operational requirements of conventional traffic control signals.",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 17.411161
+        },
+        {
+          "source_node_id": "src_6f7e4baadad0f4428bd8",
+          "source_unit_code": "TA-14",
+          "paragraph": "08",
+          "modality": "shall",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The temporary traffic control signals shall control both the highway and the haul road and shall meet the physical display and operational requirements of conventional traffic control signals as described in Part 4. Traffic control signal timing shall be established by authorized officials.",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 16.883468
+        },
+        {
+          "source_node_id": "src_248f026b1e13960c2d5c",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "07",
+          "modality": "should",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals should only be used in situations where temporary traffic control signals are preferable to other means of traffic control, such as changing the work staging or work zone size to eliminate one-way vehicular traffic movements, using flaggers to control one-way or crossing movements, using STOP or YIELD signs, and using warning devices alone.",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 16.555599
+        },
+        {
+          "source_node_id": "src_586d1639348f00b7b529",
+          "source_unit_code": "SEC-6B.05",
+          "paragraph": "02",
+          "modality": "shall",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Except for mobile operations, when redirection of the road users’ normal path is required, road users shall be directed from the normal path to a new path with appropriate channelizing devices, traffic control devices, and/or TTC methods.",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 16.526266
+        },
+        {
+          "source_node_id": "src_72c34a3d153fa4d560d4",
+          "source_unit_code": "TA-12",
+          "paragraph": "02",
+          "modality": "shall",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signal timing shall be established by authorized officials. Durations of red clearance intervals shall be adequate to clear the one-lane section of conflicting vehicles.",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 16.300178
+        },
+        {
+          "source_node_id": "src_dbb2acee17a8ace3a65f",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "04",
+          "modality": "should",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When temporary traffic control signals are used, conflict monitors typical of traditional traffic control signal operations should be used.",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 16.229223
+        },
+        {
+          "source_node_id": "src_0adab6a573f859041c12",
+          "source_unit_code": "SEC-6N.11",
+          "paragraph": "14",
+          "modality": "shall",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When a directional roadway is closed, inapplicable WRONG WAY signs and markings, and other existing traffic control devices at intersections within the temporary two-lane, two-way operations section shall be covered, removed, or obliterated.",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 16.131153
+        },
+        {
+          "source_node_id": "src_b54332b30b202e7f6ec8",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "12",
+          "modality": "should",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "If a temporary traffic control signal is located within ½ mile of an adjacent traffic control signal, consideration should be given to interconnected operation.",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 15.963464
+        },
+        {
+          "source_node_id": "src_9d9ef4bfdcbe9561ec13",
+          "source_unit_code": "SEC-2H.13",
+          "paragraph": "05",
+          "modality": "shall",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Acknowledgment signs shall not be installed at any of the following locations: A. On the front or back of, adjacent to, or around any other traffic control device, including traffic signs, highway traffic signals, and changeable message signs; B. On the front or back of, adjacent to, or around the supports or structures of other traffic control devices, or bridge piers; or C. At key decision points where a road user’",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 15.88233
+        },
+        {
+          "source_node_id": "src_ab41a5a2af6588f67419",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "11",
+          "modality": "should",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals not in use should be covered or removed.",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 15.546843
+        },
+        {
+          "source_node_id": "src_f2c69c93ced8d3551027",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "13",
+          "modality": "shall",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals shall not be located within 200 feet of a grade crossing unless the temporary traffic control signal is provided with preemption in accordance with Sections 4F.18, 4F.19, and 8D.09, or unless a uniformed officer or flagger is provided at the crossing to prevent vehicles from stopping within the crossing.",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 15.333441
+        },
+        {
+          "source_node_id": "src_83a6d30a5006e7746b9c",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals (see Section 4D.11) used to control road user movements through TTC zones and in other TTC situations shall comply with the applicable provisions of Part 4.",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 15.237441
+        },
+        {
+          "source_node_id": "src_78a3af790d8cd9d68b7d",
+          "source_unit_code": "SEC-6L.02",
+          "paragraph": "07",
+          "modality": "shall",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Because AFADs are not traffic control signals, they shall not be used as a substitute for or a replacement for a continuously operating temporary traffic control signal as described in Section 6L.01.",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 14.879713
+        },
+        {
+          "source_node_id": "src_666c8016f45a380aceaf",
+          "source_unit_code": "TA-12",
+          "paragraph": "04",
+          "modality": "shall",
+          "domains": [
+            "lane_closure_layout"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Stop lines shall be installed with temporary traffic control signals for long-term closures. Existing conflicting pavement markings and raised pavement marker reflectors between the activity area and each stop line shall be removed. After the temporary traffic control signal is removed, the stop lines and other temporary pavement markings shall be removed and the permanent pavement markings restored.",
+          "graph_paths": [
+            [
+              "lane_closure_layout provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 14.862982
+        }
+      ]
+    }
+  },
+  {
+    "step": 2,
+    "phase": "requirement_discovery",
+    "tool": "load_domain_gap_candidates",
+    "arguments": {
+      "domain": "advance_warning_sign_system"
+    },
+    "result": {
+      "layer": "stage1_retrieval_only",
+      "domain": "advance_warning_sign_system",
+      "query": "temporary traffic control advance warning sign system",
+      "covered_node_count": 0,
+      "uncovered_corpus_count": 904,
+      "uncovered_candidate_count": 16,
+      "ranking_policy": {
+        "type": "bm25_top_k",
+        "relative_to_domain_top_score": 0.5,
+        "top_score": 18.355519,
+        "minimum_eligible_score": 9.177759,
+        "zero_score_nodes_excluded": true,
+        "candidate_count_cap": 18
+      },
+      "internal_page_count": 2,
+      "has_more": false,
+      "continuation_token": null,
+      "items": [
+        {
+          "source_node_id": "src_4350c13d31818723857c",
+          "source_unit_code": "SEC-6L.05",
+          "paragraph": "24",
+          "modality": "shall",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The control system shall include a display screen upon which messages can be reviewed before being displayed on the message sign. The control system shall be capable of maintaining memory when power is unavailable.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 18.355519
+        },
+        {
+          "source_node_id": "src_248f026b1e13960c2d5c",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "07",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals should only be used in situations where temporary traffic control signals are preferable to other means of traffic control, such as changing the work staging or work zone size to eliminate one-way vehicular traffic movements, using flaggers to control one-way or crossing movements, using STOP or YIELD signs, and using warning devices alone.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 15.521657
+        },
+        {
+          "source_node_id": "src_954e7e72c1c215bc571b",
+          "source_unit_code": "SEC-6H.03",
+          "paragraph": "02",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Where traffic can enter a TTC zone from a crossroad or a major (high-volume) driveway, an advance warning sign should be used on the crossroad or major driveway.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 13.203722
+        },
+        {
+          "source_node_id": "src_14995069759acceb0640",
+          "source_unit_code": "TA-12",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals shall be installed and operated in accordance with the provisions of Part 4. Temporary traffic control signals shall meet the physical display and operational requirements of conventional traffic control signals.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.81606
+        },
+        {
+          "source_node_id": "src_dbb2acee17a8ace3a65f",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "04",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When temporary traffic control signals are used, conflict monitors typical of traditional traffic control signal operations should be used.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.650307
+        },
+        {
+          "source_node_id": "src_b54332b30b202e7f6ec8",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "12",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "If a temporary traffic control signal is located within ½ mile of an adjacent traffic control signal, consideration should be given to interconnected operation.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.436672
+        },
+        {
+          "source_node_id": "src_6f7e4baadad0f4428bd8",
+          "source_unit_code": "TA-14",
+          "paragraph": "08",
+          "modality": "shall",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The temporary traffic control signals shall control both the highway and the haul road and shall meet the physical display and operational requirements of conventional traffic control signals as described in Part 4. Traffic control signal timing shall be established by authorized officials.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.325987
+        },
+        {
+          "source_node_id": "src_ab41a5a2af6588f67419",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "11",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals not in use should be covered or removed.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.201548
+        },
+        {
+          "source_node_id": "src_7a66c4b9571cc402cc79",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "03",
+          "modality": "shall",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "A temporary traffic control signal that is used to control traffic through a one-lane, two-way section of roadway shall comply with the provisions of Section 4O.02.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.097195
+        },
+        {
+          "source_node_id": "src_081b1d04984243b55b22",
+          "source_unit_code": "SEC-6N.06",
+          "paragraph": "02",
+          "modality": "shall",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When paved shoulders having a width of 8 feet or more are closed, at least one advance warning sign shall be used. In addition, channelizing devices shall be used to close the shoulder in advance to delineate the beginning of the work space and direct motor vehicle traffic to remain within the traveled way.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.000238
+        },
+        {
+          "source_node_id": "src_78a3af790d8cd9d68b7d",
+          "source_unit_code": "SEC-6L.02",
+          "paragraph": "07",
+          "modality": "shall",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Because AFADs are not traffic control signals, they shall not be used as a substitute for or a replacement for a continuously operating temporary traffic control signal as described in Section 6L.01.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.530196
+        },
+        {
+          "source_node_id": "src_9c319c52e57dbf9c8e21",
+          "source_unit_code": "TA-3",
+          "paragraph": "08",
+          "modality": "shall",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When paved shoulders having a width of 8 feet or more are closed, at least one advance warning sign shall be used. In addition, channelizing devices shall be used to close the shoulder in advance to delineate the beginning of the work space and to direct vehicular traffic to remain within the traveled way. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 865",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.495087
+        },
+        {
+          "source_node_id": "src_eafd02c3dbce3f8109a1",
+          "source_unit_code": "SEC-6H.02",
+          "paragraph": "02",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.481941
+        },
+        {
+          "source_node_id": "src_f2c69c93ced8d3551027",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "13",
+          "modality": "shall",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals shall not be located within 200 feet of a grade crossing unless the temporary traffic control signal is provided with preemption in accordance with Sections 4F.18, 4F.19, and 8D.09, or unless a uniformed officer or flagger is provided at the crossing to prevent vehicles from stopping within the crossing.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.456313
+        },
+        {
+          "source_node_id": "src_83a6d30a5006e7746b9c",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals (see Section 4D.11) used to control road user movements through TTC zones and in other TTC situations shall comply with the applicable provisions of Part 4.",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.433132
+        },
+        {
+          "source_node_id": "src_391a43c620acde265a5f",
+          "source_unit_code": "SEC-6N.06",
+          "paragraph": "04",
+          "modality": "should",
+          "domains": [
+            "advance_warning_sign_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When an improved shoulder is closed on a high-speed roadway, it should be treated as a closure of a portion of the road system because road users expect to be able to use it in emergencies. Road users should be given ample advance warning that shoulders are closed for use as refuge areas throughout a specified length of the approaching TTC zone. The sign(s) should read SHOULDER CLOSED (W21-5a) with distances indicate",
+          "graph_paths": [
+            [
+              "advance_warning_sign_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.384763
+        }
+      ]
+    }
+  },
+  {
+    "step": 3,
+    "phase": "requirement_discovery",
+    "tool": "load_domain_gap_candidates",
+    "arguments": {
+      "domain": "channelization_system"
+    },
+    "result": {
+      "layer": "stage1_retrieval_only",
+      "domain": "channelization_system",
+      "query": "temporary traffic control channelization system",
+      "covered_node_count": 0,
+      "uncovered_corpus_count": 904,
+      "uncovered_candidate_count": 15,
+      "ranking_policy": {
+        "type": "bm25_top_k",
+        "relative_to_domain_top_score": 0.5,
+        "top_score": 17.096061,
+        "minimum_eligible_score": 8.54803,
+        "zero_score_nodes_excluded": true,
+        "candidate_count_cap": 18
+      },
+      "internal_page_count": 2,
+      "has_more": false,
+      "continuation_token": null,
+      "items": [
+        {
+          "source_node_id": "src_4350c13d31818723857c",
+          "source_unit_code": "SEC-6L.05",
+          "paragraph": "24",
+          "modality": "shall",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The control system shall include a display screen upon which messages can be reviewed before being displayed on the message sign. The control system shall be capable of maintaining memory when power is unavailable.",
+          "graph_paths": [
+            [
+              "channelization_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 17.096061
+        },
+        {
+          "source_node_id": "src_14995069759acceb0640",
+          "source_unit_code": "TA-12",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals shall be installed and operated in accordance with the provisions of Part 4. Temporary traffic control signals shall meet the physical display and operational requirements of conventional traffic control signals.",
+          "graph_paths": [
+            [
+              "channelization_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.81606
+        },
+        {
+          "source_node_id": "src_dbb2acee17a8ace3a65f",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "04",
+          "modality": "should",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When temporary traffic control signals are used, conflict monitors typical of traditional traffic control signal operations should be used.",
+          "graph_paths": [
+            [
+              "channelization_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.650307
+        },
+        {
+          "source_node_id": "src_b54332b30b202e7f6ec8",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "12",
+          "modality": "should",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "If a temporary traffic control signal is located within ½ mile of an adjacent traffic control signal, consideration should be given to interconnected operation.",
+          "graph_paths": [
+            [
+              "channelization_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.436672
+        },
+        {
+          "source_node_id": "src_248f026b1e13960c2d5c",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "07",
+          "modality": "should",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals should only be used in situations where temporary traffic control signals are preferable to other means of traffic control, such as changing the work staging or work zone size to eliminate one-way vehicular traffic movements, using flaggers to control one-way or crossing movements, using STOP or YIELD signs, and using warning devices alone.",
+          "graph_paths": [
+            [
+              "channelization_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.357946
+        },
+        {
+          "source_node_id": "src_6f7e4baadad0f4428bd8",
+          "source_unit_code": "TA-14",
+          "paragraph": "08",
+          "modality": "shall",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The temporary traffic control signals shall control both the highway and the haul road and shall meet the physical display and operational requirements of conventional traffic control signals as described in Part 4. Traffic control signal timing shall be established by authorized officials.",
+          "graph_paths": [
+            [
+              "channelization_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.325987
+        },
+        {
+          "source_node_id": "src_ab41a5a2af6588f67419",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "11",
+          "modality": "should",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals not in use should be covered or removed.",
+          "graph_paths": [
+            [
+              "channelization_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.201548
+        },
+        {
+          "source_node_id": "src_7a66c4b9571cc402cc79",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "03",
+          "modality": "shall",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "A temporary traffic control signal that is used to control traffic through a one-lane, two-way section of roadway shall comply with the provisions of Section 4O.02.",
+          "graph_paths": [
+            [
+              "channelization_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.097195
+        },
+        {
+          "source_node_id": "src_78a3af790d8cd9d68b7d",
+          "source_unit_code": "SEC-6L.02",
+          "paragraph": "07",
+          "modality": "shall",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Because AFADs are not traffic control signals, they shall not be used as a substitute for or a replacement for a continuously operating temporary traffic control signal as described in Section 6L.01.",
+          "graph_paths": [
+            [
+              "channelization_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.530196
+        },
+        {
+          "source_node_id": "src_f2c69c93ced8d3551027",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "13",
+          "modality": "shall",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals shall not be located within 200 feet of a grade crossing unless the temporary traffic control signal is provided with preemption in accordance with Sections 4F.18, 4F.19, and 8D.09, or unless a uniformed officer or flagger is provided at the crossing to prevent vehicles from stopping within the crossing.",
+          "graph_paths": [
+            [
+              "channelization_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.456313
+        },
+        {
+          "source_node_id": "src_83a6d30a5006e7746b9c",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals (see Section 4D.11) used to control road user movements through TTC zones and in other TTC situations shall comply with the applicable provisions of Part 4.",
+          "graph_paths": [
+            [
+              "channelization_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.433132
+        },
+        {
+          "source_node_id": "src_410959bb3c2e1280fb48",
+          "source_unit_code": "TA-14",
+          "paragraph": "09",
+          "modality": "shall",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Stop lines shall be used on existing highways with temporary traffic control signals.",
+          "graph_paths": [
+            [
+              "channelization_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.227385
+        },
+        {
+          "source_node_id": "src_72c34a3d153fa4d560d4",
+          "source_unit_code": "TA-12",
+          "paragraph": "02",
+          "modality": "shall",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signal timing shall be established by authorized officials. Durations of red clearance intervals shall be adequate to clear the one-lane section of conflicting vehicles.",
+          "graph_paths": [
+            [
+              "channelization_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.172573
+        },
+        {
+          "source_node_id": "src_6b5400eaf346050a079a",
+          "source_unit_code": "TA-12",
+          "paragraph": "03",
+          "modality": "shall",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When the temporary traffic control signal is changed to the flashing mode, either manually or automatically, red signal indications shall be flashed to both approaches.",
+          "graph_paths": [
+            [
+              "channelization_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 10.926846
+        },
+        {
+          "source_node_id": "src_666c8016f45a380aceaf",
+          "source_unit_code": "TA-12",
+          "paragraph": "04",
+          "modality": "shall",
+          "domains": [
+            "channelization_system"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Stop lines shall be installed with temporary traffic control signals for long-term closures. Existing conflicting pavement markings and raised pavement marker reflectors between the activity area and each stop line shall be removed. After the temporary traffic control signal is removed, the stop lines and other temporary pavement markings shall be removed and the permanent pavement markings restored.",
+          "graph_paths": [
+            [
+              "channelization_system provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 10.862007
+        }
+      ]
+    }
+  },
+  {
+    "step": 4,
+    "phase": "requirement_discovery",
+    "tool": "load_domain_gap_candidates",
+    "arguments": {
+      "domain": "lane_closure_layout"
+    },
+    "result": {
+      "status": "failure",
+      "failure_reason": "simplified graph-gap audit already completed for lane_closure_layout",
+      "tool": "load_domain_gap_candidates"
+    }
+  },
+  {
+    "step": 5,
+    "phase": "requirement_discovery",
+    "tool": "load_domain_gap_candidates",
+    "arguments": {
+      "domain": "transition_and_taper_geometry"
+    },
+    "result": {
+      "layer": "stage1_retrieval_only",
+      "domain": "transition_and_taper_geometry",
+      "query": "temporary traffic control transition and taper geometry",
+      "covered_node_count": 0,
+      "uncovered_corpus_count": 904,
+      "uncovered_candidate_count": 16,
+      "ranking_policy": {
+        "type": "bm25_top_k",
+        "relative_to_domain_top_score": 0.5,
+        "top_score": 17.533828,
+        "minimum_eligible_score": 8.766914,
+        "zero_score_nodes_excluded": true,
+        "candidate_count_cap": 18
+      },
+      "internal_page_count": 2,
+      "has_more": false,
+      "continuation_token": null,
+      "items": [
+        {
+          "source_node_id": "src_9d9ef4bfdcbe9561ec13",
+          "source_unit_code": "SEC-2H.13",
+          "paragraph": "05",
+          "modality": "shall",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Acknowledgment signs shall not be installed at any of the following locations: A. On the front or back of, adjacent to, or around any other traffic control device, including traffic signs, highway traffic signals, and changeable message signs; B. On the front or back of, adjacent to, or around the supports or structures of other traffic control devices, or bridge piers; or C. At key decision points where a road user’",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 17.533828
+        },
+        {
+          "source_node_id": "src_14995069759acceb0640",
+          "source_unit_code": "TA-12",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals shall be installed and operated in accordance with the provisions of Part 4. Temporary traffic control signals shall meet the physical display and operational requirements of conventional traffic control signals.",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 13.848521
+        },
+        {
+          "source_node_id": "src_6f7e4baadad0f4428bd8",
+          "source_unit_code": "TA-14",
+          "paragraph": "08",
+          "modality": "shall",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The temporary traffic control signals shall control both the highway and the haul road and shall meet the physical display and operational requirements of conventional traffic control signals as described in Part 4. Traffic control signal timing shall be established by authorized officials.",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 13.413214
+        },
+        {
+          "source_node_id": "src_248f026b1e13960c2d5c",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "07",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals should only be used in situations where temporary traffic control signals are preferable to other means of traffic control, such as changing the work staging or work zone size to eliminate one-way vehicular traffic movements, using flaggers to control one-way or crossing movements, using STOP or YIELD signs, and using warning devices alone.",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 13.067331
+        },
+        {
+          "source_node_id": "src_efd418222a3f416f1e38",
+          "source_unit_code": "TABLE-6B-3",
+          "paragraph": "table",
+          "modality": "guidance",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Table 6B-3. Taper Length Criteria for Temporary Traffic Control Zones. Merging Taper: at least L. Shifting Taper: at least 0.5 L. Shoulder Taper: at least 0.33 L. One-Lane, Two-Way Traffic Taper: 50 feet minimum, 100 feet maximum. Downstream Taper: 50 feet minimum, 100 feet maximum.",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.940759
+        },
+        {
+          "source_node_id": "src_dbb2acee17a8ace3a65f",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "04",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When temporary traffic control signals are used, conflict monitors typical of traditional traffic control signal operations should be used.",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.650307
+        },
+        {
+          "source_node_id": "src_b54332b30b202e7f6ec8",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "12",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "If a temporary traffic control signal is located within ½ mile of an adjacent traffic control signal, consideration should be given to interconnected operation.",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.436672
+        },
+        {
+          "source_node_id": "src_83a6d30a5006e7746b9c",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals (see Section 4D.11) used to control road user movements through TTC zones and in other TTC situations shall comply with the applicable provisions of Part 4.",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.360281
+        },
+        {
+          "source_node_id": "src_ab41a5a2af6588f67419",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "11",
+          "modality": "should",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals not in use should be covered or removed.",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.201548
+        },
+        {
+          "source_node_id": "src_f2c69c93ced8d3551027",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "13",
+          "modality": "shall",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals shall not be located within 200 feet of a grade crossing unless the temporary traffic control signal is provided with preemption in accordance with Sections 4F.18, 4F.19, and 8D.09, or unless a uniformed officer or flagger is provided at the crossing to prevent vehicles from stopping within the crossing.",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.192468
+        },
+        {
+          "source_node_id": "src_7a66c4b9571cc402cc79",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "03",
+          "modality": "shall",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "A temporary traffic control signal that is used to control traffic through a one-lane, two-way section of roadway shall comply with the provisions of Section 4O.02.",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.097195
+        },
+        {
+          "source_node_id": "src_666c8016f45a380aceaf",
+          "source_unit_code": "TA-12",
+          "paragraph": "04",
+          "modality": "shall",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Stop lines shall be installed with temporary traffic control signals for long-term closures. Existing conflicting pavement markings and raised pavement marker reflectors between the activity area and each stop line shall be removed. After the temporary traffic control signal is removed, the stop lines and other temporary pavement markings shall be removed and the permanent pavement markings restored.",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.96569
+        },
+        {
+          "source_node_id": "src_78a3af790d8cd9d68b7d",
+          "source_unit_code": "SEC-6L.02",
+          "paragraph": "07",
+          "modality": "shall",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Because AFADs are not traffic control signals, they shall not be used as a substitute for or a replacement for a continuously operating temporary traffic control signal as described in Section 6L.01.",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.530196
+        },
+        {
+          "source_node_id": "src_410959bb3c2e1280fb48",
+          "source_unit_code": "TA-14",
+          "paragraph": "09",
+          "modality": "shall",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Stop lines shall be used on existing highways with temporary traffic control signals.",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.227385
+        },
+        {
+          "source_node_id": "src_0adab6a573f859041c12",
+          "source_unit_code": "SEC-6N.11",
+          "paragraph": "14",
+          "modality": "shall",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When a directional roadway is closed, inapplicable WRONG WAY signs and markings, and other existing traffic control devices at intersections within the temporary two-lane, two-way operations section shall be covered, removed, or obliterated.",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.223057
+        },
+        {
+          "source_node_id": "src_72c34a3d153fa4d560d4",
+          "source_unit_code": "TA-12",
+          "paragraph": "02",
+          "modality": "shall",
+          "domains": [
+            "transition_and_taper_geometry"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signal timing shall be established by authorized officials. Durations of red clearance intervals shall be adequate to clear the one-lane section of conflicting vehicles.",
+          "graph_paths": [
+            [
+              "transition_and_taper_geometry provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.172573
+        }
+      ]
+    }
+  },
+  {
+    "step": 6,
+    "phase": "requirement_discovery",
+    "tool": "load_domain_gap_candidates",
+    "arguments": {
+      "domain": "conditional_active_devices"
+    },
+    "result": {
+      "layer": "stage1_retrieval_only",
+      "domain": "conditional_active_devices",
+      "query": "temporary traffic control active devices",
+      "covered_node_count": 0,
+      "uncovered_corpus_count": 904,
+      "uncovered_candidate_count": 13,
+      "ranking_policy": {
+        "type": "bm25_top_k",
+        "relative_to_domain_top_score": 0.5,
+        "top_score": 14.943884,
+        "minimum_eligible_score": 7.471942,
+        "zero_score_nodes_excluded": true,
+        "candidate_count_cap": 18
+      },
+      "internal_page_count": 2,
+      "has_more": false,
+      "continuation_token": null,
+      "items": [
+        {
+          "source_node_id": "src_248f026b1e13960c2d5c",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "07",
+          "modality": "should",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals should only be used in situations where temporary traffic control signals are preferable to other means of traffic control, such as changing the work staging or work zone size to eliminate one-way vehicular traffic movements, using flaggers to control one-way or crossing movements, using STOP or YIELD signs, and using warning devices alone.",
+          "graph_paths": [
+            [
+              "conditional_active_devices provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 14.943884
+        },
+        {
+          "source_node_id": "src_0adab6a573f859041c12",
+          "source_unit_code": "SEC-6N.11",
+          "paragraph": "14",
+          "modality": "shall",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When a directional roadway is closed, inapplicable WRONG WAY signs and markings, and other existing traffic control devices at intersections within the temporary two-lane, two-way operations section shall be covered, removed, or obliterated.",
+          "graph_paths": [
+            [
+              "conditional_active_devices provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 13.413434
+        },
+        {
+          "source_node_id": "src_9d9ef4bfdcbe9561ec13",
+          "source_unit_code": "SEC-2H.13",
+          "paragraph": "05",
+          "modality": "shall",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Acknowledgment signs shall not be installed at any of the following locations: A. On the front or back of, adjacent to, or around any other traffic control device, including traffic signs, highway traffic signals, and changeable message signs; B. On the front or back of, adjacent to, or around the supports or structures of other traffic control devices, or bridge piers; or C. At key decision points where a road user’",
+          "graph_paths": [
+            [
+              "conditional_active_devices provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 13.068673
+        },
+        {
+          "source_node_id": "src_143733509a7193cd4ffd",
+          "source_unit_code": "TA-8",
+          "paragraph": "01",
+          "modality": "should",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Regulatory traffic control devices should be modified as needed for the duration of the detour.",
+          "graph_paths": [
+            [
+              "conditional_active_devices provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 13.0407
+        },
+        {
+          "source_node_id": "src_14995069759acceb0640",
+          "source_unit_code": "TA-12",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals shall be installed and operated in accordance with the provisions of Part 4. Temporary traffic control signals shall meet the physical display and operational requirements of conventional traffic control signals.",
+          "graph_paths": [
+            [
+              "conditional_active_devices provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.81606
+        },
+        {
+          "source_node_id": "src_dbb2acee17a8ace3a65f",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "04",
+          "modality": "should",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When temporary traffic control signals are used, conflict monitors typical of traditional traffic control signal operations should be used.",
+          "graph_paths": [
+            [
+              "conditional_active_devices provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.650307
+        },
+        {
+          "source_node_id": "src_b54332b30b202e7f6ec8",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "12",
+          "modality": "should",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "If a temporary traffic control signal is located within ½ mile of an adjacent traffic control signal, consideration should be given to interconnected operation.",
+          "graph_paths": [
+            [
+              "conditional_active_devices provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.436672
+        },
+        {
+          "source_node_id": "src_6f7e4baadad0f4428bd8",
+          "source_unit_code": "TA-14",
+          "paragraph": "08",
+          "modality": "shall",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The temporary traffic control signals shall control both the highway and the haul road and shall meet the physical display and operational requirements of conventional traffic control signals as described in Part 4. Traffic control signal timing shall be established by authorized officials.",
+          "graph_paths": [
+            [
+              "conditional_active_devices provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.325987
+        },
+        {
+          "source_node_id": "src_ab41a5a2af6588f67419",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "11",
+          "modality": "should",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals not in use should be covered or removed.",
+          "graph_paths": [
+            [
+              "conditional_active_devices provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.201548
+        },
+        {
+          "source_node_id": "src_7a66c4b9571cc402cc79",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "03",
+          "modality": "shall",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "A temporary traffic control signal that is used to control traffic through a one-lane, two-way section of roadway shall comply with the provisions of Section 4O.02.",
+          "graph_paths": [
+            [
+              "conditional_active_devices provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.097195
+        },
+        {
+          "source_node_id": "src_78a3af790d8cd9d68b7d",
+          "source_unit_code": "SEC-6L.02",
+          "paragraph": "07",
+          "modality": "shall",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Because AFADs are not traffic control signals, they shall not be used as a substitute for or a replacement for a continuously operating temporary traffic control signal as described in Section 6L.01.",
+          "graph_paths": [
+            [
+              "conditional_active_devices provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.530196
+        },
+        {
+          "source_node_id": "src_f2c69c93ced8d3551027",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "13",
+          "modality": "shall",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals shall not be located within 200 feet of a grade crossing unless the temporary traffic control signal is provided with preemption in accordance with Sections 4F.18, 4F.19, and 8D.09, or unless a uniformed officer or flagger is provided at the crossing to prevent vehicles from stopping within the crossing.",
+          "graph_paths": [
+            [
+              "conditional_active_devices provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.456313
+        },
+        {
+          "source_node_id": "src_83a6d30a5006e7746b9c",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "conditional_active_devices"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals (see Section 4D.11) used to control road user movements through TTC zones and in other TTC situations shall comply with the applicable provisions of Part 4.",
+          "graph_paths": [
+            [
+              "conditional_active_devices provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.433132
+        }
+      ]
+    }
+  },
+  {
+    "step": 7,
+    "phase": "requirement_discovery",
+    "tool": "load_domain_gap_candidates",
+    "arguments": {
+      "domain": "conditional_termination_area"
+    },
+    "result": {
+      "layer": "stage1_retrieval_only",
+      "domain": "conditional_termination_area",
+      "query": "temporary traffic control termination area",
+      "covered_node_count": 0,
+      "uncovered_corpus_count": 904,
+      "uncovered_candidate_count": 15,
+      "ranking_policy": {
+        "type": "bm25_top_k",
+        "relative_to_domain_top_score": 0.5,
+        "top_score": 15.301924,
+        "minimum_eligible_score": 7.650962,
+        "zero_score_nodes_excluded": true,
+        "candidate_count_cap": 18
+      },
+      "internal_page_count": 2,
+      "has_more": false,
+      "continuation_token": null,
+      "items": [
+        {
+          "source_node_id": "src_666c8016f45a380aceaf",
+          "source_unit_code": "TA-12",
+          "paragraph": "04",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Stop lines shall be installed with temporary traffic control signals for long-term closures. Existing conflicting pavement markings and raised pavement marker reflectors between the activity area and each stop line shall be removed. After the temporary traffic control signal is removed, the stop lines and other temporary pavement markings shall be removed and the permanent pavement markings restored.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 15.301924
+        },
+        {
+          "source_node_id": "src_14995069759acceb0640",
+          "source_unit_code": "TA-12",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals shall be installed and operated in accordance with the provisions of Part 4. Temporary traffic control signals shall meet the physical display and operational requirements of conventional traffic control signals.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.81606
+        },
+        {
+          "source_node_id": "src_dbb2acee17a8ace3a65f",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "04",
+          "modality": "should",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When temporary traffic control signals are used, conflict monitors typical of traditional traffic control signal operations should be used.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.650307
+        },
+        {
+          "source_node_id": "src_b54332b30b202e7f6ec8",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "12",
+          "modality": "should",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "If a temporary traffic control signal is located within ½ mile of an adjacent traffic control signal, consideration should be given to interconnected operation.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.436672
+        },
+        {
+          "source_node_id": "src_248f026b1e13960c2d5c",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "07",
+          "modality": "should",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals should only be used in situations where temporary traffic control signals are preferable to other means of traffic control, such as changing the work staging or work zone size to eliminate one-way vehicular traffic movements, using flaggers to control one-way or crossing movements, using STOP or YIELD signs, and using warning devices alone.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.357946
+        },
+        {
+          "source_node_id": "src_6f7e4baadad0f4428bd8",
+          "source_unit_code": "TA-14",
+          "paragraph": "08",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "The temporary traffic control signals shall control both the highway and the haul road and shall meet the physical display and operational requirements of conventional traffic control signals as described in Part 4. Traffic control signal timing shall be established by authorized officials.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.325987
+        },
+        {
+          "source_node_id": "src_ab41a5a2af6588f67419",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "11",
+          "modality": "should",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals not in use should be covered or removed.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.201548
+        },
+        {
+          "source_node_id": "src_7a66c4b9571cc402cc79",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "03",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "A temporary traffic control signal that is used to control traffic through a one-lane, two-way section of roadway shall comply with the provisions of Section 4O.02.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 12.097195
+        },
+        {
+          "source_node_id": "src_78a3af790d8cd9d68b7d",
+          "source_unit_code": "SEC-6L.02",
+          "paragraph": "07",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Because AFADs are not traffic control signals, they shall not be used as a substitute for or a replacement for a continuously operating temporary traffic control signal as described in Section 6L.01.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.530196
+        },
+        {
+          "source_node_id": "src_f2c69c93ced8d3551027",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "13",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals shall not be located within 200 feet of a grade crossing unless the temporary traffic control signal is provided with preemption in accordance with Sections 4F.18, 4F.19, and 8D.09, or unless a uniformed officer or flagger is provided at the crossing to prevent vehicles from stopping within the crossing.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.456313
+        },
+        {
+          "source_node_id": "src_83a6d30a5006e7746b9c",
+          "source_unit_code": "SEC-6L.01",
+          "paragraph": "01",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signals (see Section 4D.11) used to control road user movements through TTC zones and in other TTC situations shall comply with the applicable provisions of Part 4.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.433132
+        },
+        {
+          "source_node_id": "src_dc059d71207986173490",
+          "source_unit_code": "SEC-6H.36",
+          "paragraph": "01",
+          "modality": "should",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When used, the END ROAD WORK (G20-2) sign (see Figure 6H-1) should be placed near the downstream end of the termination area, as determined by engineering judgment.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.389121
+        },
+        {
+          "source_node_id": "src_410959bb3c2e1280fb48",
+          "source_unit_code": "TA-14",
+          "paragraph": "09",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Stop lines shall be used on existing highways with temporary traffic control signals.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.227385
+        },
+        {
+          "source_node_id": "src_72c34a3d153fa4d560d4",
+          "source_unit_code": "TA-12",
+          "paragraph": "02",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "Temporary traffic control signal timing shall be established by authorized officials. Durations of red clearance intervals shall be adequate to clear the one-lane section of conflicting vehicles.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 11.172573
+        },
+        {
+          "source_node_id": "src_6b5400eaf346050a079a",
+          "source_unit_code": "TA-12",
+          "paragraph": "03",
+          "modality": "shall",
+          "domains": [
+            "conditional_termination_area"
+          ],
+          "layers": [
+            "stage1_retrieval_only"
+          ],
+          "disposition_priority": "review",
+          "source_excerpt": "When the temporary traffic control signal is changed to the flashing mode, either manually or automatically, red signal indications shall be flashed to both approaches.",
+          "graph_paths": [
+            [
+              "conditional_termination_area provision found by full-corpus retrieval"
+            ]
+          ],
+          "gap_bm25_score": 10.926846
+        }
+      ]
+    }
+  },
+  {
+    "step": 8,
+    "phase": "requirement_discovery",
+    "tool": "load_domain_gap_candidates",
+    "arguments": {
+      "domain": "lane_closure_layout"
+    },
+    "result": {
+      "status": "failure",
+      "failure_reason": "simplified graph-gap audit already completed for lane_closure_layout",
+      "tool": "load_domain_gap_candidates"
+    }
+  },
+  {
+    "step": 9,
+    "phase": "requirement_registration",
+    "tool": "begin_requirement_registration",
+    "arguments": {},
+    "result": {
+      "phase": "requirement_registration",
+      "transition_event_index": 1
+    }
+  },
+  {
+    "step": 10,
+    "phase": "requirement_registration",
+    "tool": "complete_region_batch",
+    "arguments": {
+      "regions": [
+        {
+          "region": "lane_closure_layout",
+          "status": "screened",
+          "reason": "Registered a field check for directing road users from the normal path to the new path with appropriate TTC devices/methods under SEC-6B.05 paragraph 02."
+        },
+        {
+          "region": "advance_warning_sign_system",
+          "status": "screened",
+          "reason": "Registered a conditional field check for advance warning when a paved shoulder at least 8 feet wide is closed under SEC-6N.06 paragraph 02."
+        },
+        {
+          "region": "channelization_system",
+          "status": "screened",
+          "reason": "Registered a conditional field check for channelizing devices used to close an 8-foot-or-wider paved shoulder in advance under SEC-6N.06 paragraph 02."
+        },
+        {
+          "region": "transition_and_taper_geometry",
+          "status": "screened",
+          "reason": "Registered the downstream-taper length check from Table 6B-3."
+        },
+        {
+          "region": "conditional_active_devices",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "Retrieved candidates concern directional-roadway device covering, detours, acknowledgment signs, or signal/AFAD operation; no applicable inspectable active-device predicate is established for this scene."
+        },
+        {
+          "region": "conditional_termination_area",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "All retrieved termination candidates are conditional on temporary signals, AFADs, grade crossings, or an END ROAD WORK sign; none is established as present or applicable in the scene."
+        }
+      ]
+    },
+    "result": {
+      "status": "failure",
+      "failure_reason": "applicable domains require at least one inspection check before completion: ['advance_warning_sign_system', 'channelization_system', 'lane_closure_layout', 'transition_and_taper_geometry']",
+      "tool": "complete_region_batch"
+    }
+  },
+  {
+    "step": 11,
+    "phase": "requirement_registration",
+    "tool": "submit_inspection_check_batch",
+    "arguments": {
+      "domain": "lane_closure_layout",
+      "requirements": [
+        {
+          "candidate_label": "Normal-path redirection uses appropriate TTC treatment",
+          "subject": "Road-user path through the left-lane closure",
+          "relation": "is directed from the normal path to the new path with appropriate channelizing devices, traffic control devices, and/or TTC methods",
+          "threshold": "Appropriate redirection treatment is present wherever redirection is required; no numeric threshold",
+          "applicability_conditions": [
+            "A non-mobile TTC operation requires redirection of road users’ normal path",
+            "Scene has one left lane closed on the four-lane undivided roadway"
+          ],
+          "required_inputs": [
+            "Field observation of the lane-closure path and installed TTC treatment"
+          ],
+          "source_node_id": "src_586d1639348f00b7b529",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "activation_basis": {
+            "type": "selected_ta",
+            "fact_keys": [
+              "closed_lane",
+              "lanes_closed",
+              "roadway_configuration",
+              "work_duration_category"
+            ],
+            "evidence_source_node_ids": [
+              "src_586d1639348f00b7b529"
+            ],
+            "explanation": "TA-30 is the selected applicable layout for the known one-lane closure on a multilane undivided roadway; the source predicate applies when normal-path redirection is required."
+          }
+        }
+      ]
+    },
+    "result": {
+      "accepted_requirements": [
+        {
+          "candidate_label": "Normal-path redirection uses appropriate TTC treatment",
+          "discovered_requirement_key": "req_af2b490f58803b02",
+          "registration_event_index": 2,
+          "requirement_fingerprint": "af2b490f58803b028e2ac5dffa13a45886d55cfff81aa509eff1647f47100fa2"
+        }
+      ],
+      "accepted_requirement_keys": [
+        "req_af2b490f58803b02"
+      ],
+      "rejected_requirements": [],
+      "registry_requirement_count": 1
+    }
+  },
+  {
+    "step": 12,
+    "phase": "requirement_registration",
+    "tool": "submit_inspection_check_batch",
+    "arguments": {
+      "domain": "transition_and_taper_geometry",
+      "requirements": [
+        {
+          "candidate_label": "Downstream taper length is within the temporary-TTC range",
+          "subject": "Downstream taper",
+          "relation": "has a length",
+          "threshold": "At least 50 ft and no more than 100 ft",
+          "applicability_conditions": [
+            "A downstream taper is present in the selected TA-30 lane-closure layout",
+            "The downstream taper is inspectable"
+          ],
+          "required_inputs": [
+            "Measured downstream taper length"
+          ],
+          "source_node_id": "src_efd418222a3f416f1e38",
+          "measurement_spec": {
+            "required": true,
+            "tool": "measure_downstream_taper",
+            "quantity": "downstream taper length",
+            "thresholds": [
+              {
+                "condition": "all applicable cases",
+                "value": 50,
+                "unit": "ft",
+                "violation_when": "below_minimum",
+                "formula_parameter": null,
+                "multiplier": null
+              },
+              {
+                "condition": "all applicable cases",
+                "value": 100,
+                "unit": "ft",
+                "violation_when": "above_maximum",
+                "formula_parameter": null,
+                "multiplier": null
+              }
+            ]
+          },
+          "activation_basis": {
+            "type": "selected_ta",
+            "fact_keys": [
+              "closed_lane",
+              "lanes_closed",
+              "roadway_configuration",
+              "work_duration_category"
+            ],
+            "evidence_source_node_ids": [
+              "src_efd418222a3f416f1e38"
+            ],
+            "explanation": "The selected TA-30 lane-closure treatment includes a downstream taper when that layout element is present; Table 6B-3 supplies the executable 50–100 ft range."
+          }
+        }
+      ]
+    },
+    "result": {
+      "accepted_requirements": [
+        {
+          "candidate_label": "Downstream taper length is within the temporary-TTC range",
+          "discovered_requirement_key": "req_675187fe77b70b1e",
+          "registration_event_index": 3,
+          "requirement_fingerprint": "675187fe77b70b1e8e41c8bd6da5edf0dfdbe74adb0fa4c24fac7fa0943314d0"
+        }
+      ],
+      "accepted_requirement_keys": [
+        "req_675187fe77b70b1e"
+      ],
+      "rejected_requirements": [],
+      "registry_requirement_count": 2
+    }
+  },
+  {
+    "step": 13,
+    "phase": "requirement_registration",
+    "tool": "submit_inspection_check_batch",
+    "arguments": {
+      "domain": "advance_warning_sign_system",
+      "requirements": [
+        {
+          "candidate_label": "ROAD WORK AHEAD is first when multiple advance-warning signs are used",
+          "subject": "Advance warning sign sequence on the approach to the transition and activity area",
+          "relation": "has ROAD WORK AHEAD (W20-1) as the first sign encountered by road users",
+          "threshold": "ROAD WORK AHEAD is first whenever multiple advance warning signs are needed",
+          "applicability_conditions": [
+            "Multiple advance warning signs are installed on the approach to the transition and activity area",
+            "The sign sequence is inspectable"
+          ],
+          "required_inputs": [
+            "Observed order of advance warning signs along the approach"
+          ],
+          "source_node_id": "src_eafd02c3dbce3f8109a1",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "activation_basis": {
+            "type": "selected_ta",
+            "fact_keys": [
+              "closed_lane",
+              "roadway_configuration",
+              "work_duration_category"
+            ],
+            "evidence_source_node_ids": [
+              "src_eafd02c3dbce3f8109a1"
+            ],
+            "explanation": "The selected long-term lane-closure treatment has an approach to a transition and activity area; this check applies only if multiple advance warning signs are actually needed and installed."
+          }
+        }
+      ]
+    },
+    "result": {
+      "accepted_requirements": [
+        {
+          "candidate_label": "ROAD WORK AHEAD is first when multiple advance-warning signs are used",
+          "discovered_requirement_key": "req_93efa667aaf6a09f",
+          "registration_event_index": 4,
+          "requirement_fingerprint": "93efa667aaf6a09f9146663421e1183b816c97561de8d7e95e0c29d25a578736"
+        }
+      ],
+      "accepted_requirement_keys": [
+        "req_93efa667aaf6a09f"
+      ],
+      "rejected_requirements": [],
+      "registry_requirement_count": 3
+    }
+  },
+  {
+    "step": 14,
+    "phase": "requirement_registration",
+    "tool": "submit_inspection_check_batch",
+    "arguments": {
+      "domain": "conditional_termination_area",
+      "requirements": [
+        {
+          "candidate_label": "END ROAD WORK sign is near the downstream end when used",
+          "subject": "END ROAD WORK (G20-2) sign",
+          "relation": "is placed near the downstream end of the termination area",
+          "threshold": "Near downstream end; exact placement determined by engineering judgment",
+          "applicability_conditions": [
+            "An END ROAD WORK (G20-2) sign is used",
+            "The termination area is inspectable"
+          ],
+          "required_inputs": [
+            "Observed END ROAD WORK sign location relative to the termination area"
+          ],
+          "source_node_id": "src_dc059d71207986173490",
+          "measurement_spec": {
+            "required": false,
+            "tool": null,
+            "quantity": null,
+            "thresholds": []
+          },
+          "activation_basis": {
+            "type": "selected_ta",
+            "fact_keys": [
+              "closed_lane",
+              "roadway_configuration",
+              "work_duration_category"
+            ],
+            "evidence_source_node_ids": [
+              "src_dc059d71207986173490"
+            ],
+            "explanation": "The selected long-term lane-closure treatment has a downstream termination area; this conditional check applies if the END ROAD WORK sign is used."
+          }
+        }
+      ]
+    },
+    "result": {
+      "status": "failure",
+      "failure_reason": "atomic batch for conditional_termination_area rejected: END ROAD WORK sign is near the downstream end when used: conditional termination requirements need an explicit true downstream-taper or termination-sign presence fact; none is established in the frozen scene",
+      "tool": "submit_inspection_check_batch"
+    }
+  },
+  {
+    "step": 15,
+    "phase": "requirement_registration",
+    "tool": "complete_region_batch",
+    "arguments": {
+      "regions": [
+        {
+          "region": "lane_closure_layout",
+          "status": "screened",
+          "reason": "Existing registered check covers the applicable normal-path redirection predicate for the selected TA-30 left-lane closure."
+        },
+        {
+          "region": "advance_warning_sign_system",
+          "status": "screened",
+          "reason": "Existing registered check covers the applicable advance-warning sign sequence predicate when multiple signs are used."
+        },
+        {
+          "region": "channelization_system",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "Retrieved candidates were not an applicable, source-grounded field-inspection predicate for the selected TA-30 scene."
+        },
+        {
+          "region": "transition_and_taper_geometry",
+          "status": "screened",
+          "reason": "Existing registered check covers the applicable downstream-taper length range for TA-30."
+        },
+        {
+          "region": "conditional_active_devices",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "The scene does not establish an applicable active-device predicate with inspectable operational facts beyond the deployed arrow board."
+        },
+        {
+          "region": "conditional_termination_area",
+          "status": "skipped_no_inspectable_candidate",
+          "reason": "The scene does not establish the required downstream-taper or termination-sign presence fact for a termination-area check."
+        }
+      ]
+    },
+    "result": {
+      "completed_regions": [
+        {
+          "region": "lane_closure_layout",
+          "status": "screened"
+        },
+        {
+          "region": "advance_warning_sign_system",
+          "status": "screened"
+        },
+        {
+          "region": "channelization_system",
+          "status": "skipped_no_inspectable_candidate"
+        },
+        {
+          "region": "transition_and_taper_geometry",
+          "status": "screened"
+        },
+        {
+          "region": "conditional_active_devices",
+          "status": "skipped_no_inspectable_candidate"
+        },
+        {
+          "region": "conditional_termination_area",
+          "status": "skipped_no_inspectable_candidate"
+        }
+      ]
+    }
+  },
+  {
+    "step": 16,
+    "phase": "data_availability",
+    "tool": "seal_requirement_registration",
+    "arguments": {},
+    "result": {
+      "phase": "data_availability",
+      "transition_event_index": 11,
+      "frozen_requirement_count": 3
+    }
+  }
+]

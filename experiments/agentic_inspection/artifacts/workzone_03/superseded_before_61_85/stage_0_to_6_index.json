@@ -1,0 +1,70 @@
+{
+  "workzone_id": "workzone_03",
+  "scene_id": "scene-CATS-15",
+  "method": "Workzone 1 KG+BM25 staged method",
+  "scene_preparation": {
+    "status": "complete",
+    "request": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/scene_understanding/request.json",
+    "raw_response": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/scene_understanding/raw_response.json",
+    "result": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/scene_understanding/result.json",
+    "scoped_result": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/scene_understanding_later_area/result.json"
+  },
+  "stages": [
+    {
+      "stage": 0,
+      "status": "executed_indeterminate_routing_unconfirmed",
+      "request": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/benchmark/stage1_stage2/kg_plus_bm25/scene-CATS-15/request_manifest.json",
+      "model_response": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/benchmark/stage1_stage2/kg_plus_bm25/scene-CATS-15/raw_responses.json",
+      "tool_trace": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/benchmark/stage1_stage2/kg_plus_bm25/scene-CATS-15/tool_trace.json",
+      "report": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/benchmark/stage1_stage2/kg_plus_bm25/scene-CATS-15/stage_0_layout_selection.json"
+    },
+    {
+      "stage": 1,
+      "status": "not_started_pending_stage0",
+      "request": null,
+      "model_response": null,
+      "tool_trace": null,
+      "report": null
+    },
+    {
+      "stage": 2,
+      "status": "not_started_pending_stage0",
+      "request": null,
+      "model_response": null,
+      "tool_trace": null,
+      "report": null
+    },
+    {
+      "stage": 3,
+      "status": "not_started_pending_stage0",
+      "request": null,
+      "model_response": null,
+      "tool_trace": null,
+      "report": null
+    },
+    {
+      "stage": 4,
+      "status": "not_started_pending_stage0",
+      "request": null,
+      "model_response": null,
+      "tool_trace": null,
+      "report": null
+    },
+    {
+      "stage": 5,
+      "status": "not_started_pending_stage0",
+      "request": null,
+      "model_response": null,
+      "tool_trace": null,
+      "report": null
+    },
+    {
+      "stage": 6,
+      "status": "not_started_pending_stage0",
+      "request": null,
+      "model_response": null,
+      "tool_trace": null,
+      "report": null
+    }
+  ]
+}

@@ -1,0 +1,3193 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Action completed."
+    }
+  ],
+  "structuredContent": {
+    "documentId": "1e3KD9OhqH2JJFUhKSBKqXsOFD_YIzEOtp8wBPTfjZeQ",
+    "title": "workzone论文",
+    "revisionId": "AHj4eMThwia-GERxQZuwHHYvMREG0ryBWISIxFph4gkiSdHbxL7KbZvS4XmAaArcm-UAmhwkQXYKK6jRCPC8dflCYmYDknlkFPHVxNIzuTs",
+    "suggestionsViewMode": "SUGGESTIONS_INLINE",
+    "url": null,
+    "body": null,
+    "tabs": [
+      {
+        "tabId": "t.0",
+        "title": "Tab 1",
+        "parentTabId": null,
+        "index": 0,
+        "nestingLevel": null,
+        "iconEmoji": null,
+        "body": {
+          "content": [
+            {
+              "endIndex": 1,
+              "sectionBreak": {
+                "sectionStyle": {
+                  "columnSeparatorStyle": "NONE",
+                  "contentDirection": "LEFT_TO_RIGHT",
+                  "sectionType": "CONTINUOUS"
+                }
+              }
+            },
+            {
+              "startIndex": 1,
+              "endIndex": 77,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1,
+                    "endIndex": 76,
+                    "textRun": {
+                      "content": "Automatic Agentic VLM Inspection of Work Zones Using Connected Vehicle Data",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 76,
+                    "endIndex": 77,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {
+                        "fontSize": {
+                          "magnitude": 14,
+                          "unit": "PT"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.goneuttfdzt1",
+                  "namedStyleType": "TITLE",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 77,
+              "endIndex": 78,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 77,
+                    "endIndex": 78,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.9oxvoag4rqg8",
+                  "namedStyleType": "SUBTITLE",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 78,
+              "endIndex": 87,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 78,
+                    "endIndex": 86,
+                    "textRun": {
+                      "content": "Abstract",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 86,
+                    "endIndex": 87,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {
+                        "bold": true,
+                        "fontSize": {
+                          "magnitude": 12,
+                          "unit": "PT"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.88xu8ehf89gh",
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 87,
+              "endIndex": 1410,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 87,
+                    "endIndex": 1410,
+                    "textRun": {
+                      "content": "Work-zone traffic control devices must be deployed and maintained in accordance with context-dependent requirements, yet field inspection is labor-intensive and difficult to conduct continuously. Connected vehicles can collect synchronized roadway imagery, LiDAR point clouds, and positioning data during routine travel, creating an opportunity to support recurring inspection without requiring a dedicated survey for every visit. The challenge is not only to detect objects, but also to determine which requirements apply to a given work-zone scene, identify which inspection questions are observable from the available data, coordinate specialized analysis tools, and preserve the evidence supporting each conclusion. This paper develops a structure-guided agentic workflow that connects work-zone manuals with multimodal connected-vehicle data. The manual structure guides regulatory retrieval, while an agent dynamically selects inspection tasks, plans tool calls, responds to intermediate results or failures, and assembles evidence-grounded inspection records. The workflow is evaluated on real work-zone traversals using human-established ground truth at the tool, inspection, and system levels. Quantitative results and the final inspection scope will be inserted after data auditing and experiments are completed.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 1410,
+              "endIndex": 1550,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1410,
+                    "endIndex": 1550,
+                    "textRun": {
+                      "content": "Keywords: work-zone inspection; agentic AI; connected vehicles; multimodal sensing; retrieval-augmented generation; traffic control devices\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 1550,
+              "endIndex": 1566,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1550,
+                    "endIndex": 1566,
+                    "textRun": {
+                      "content": "1. Introduction\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.sz1ilrkms2kj",
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 1566,
+              "endIndex": 2350,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 1566,
+                    "endIndex": 1741,
+                    "textRun": {
+                      "content": "Work-zone safety is a persistent transportation challenge. Work zones were reported to account for more than 2% of all fatal crashes in the United States each year since 2016 ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 1741,
+                    "endIndex": 1764,
+                    "textRun": {
+                      "content": "(Finley & Ullman, 2023)",
+                      "textStyle": {
+                        "link": {
+                          "url": "https://rosap.ntl.bts.gov/view/dot/72451"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 1764,
+                    "endIndex": 1894,
+                    "textRun": {
+                      "content": ". The burden extends beyond fatal events: a work-zone crash occurred approximately every five minutes nationwide during 2015–2019 ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 1894,
+                    "endIndex": 1913,
+                    "textRun": {
+                      "content": "(Qian et al., 2024)",
+                      "textStyle": {
+                        "link": {
+                          "url": "https://rosap.ntl.bts.gov/view/dot/77512"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 1913,
+                    "endIndex": 2062,
+                    "textRun": {
+                      "content": ". Crashes also impose substantial economic losses. The average economic cost of a property-damage-only crash is estimated at $18,100 in 2024 dollars ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 2062,
+                    "endIndex": 2074,
+                    "textRun": {
+                      "content": "(FHWA, 2025)",
+                      "textStyle": {
+                        "link": {
+                          "url": "https://highways.fhwa.dot.gov/sites/fhwa.dot.gov/files/2025-10/CrashCostFactSheet_508_OCT2025.pdf"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 2074,
+                    "endIndex": 2350,
+                    "textRun": {
+                      "content": ". These safety and economic burdens motivate timely inspection of temporary traffic-control facilities. As work progresses and traffic arrangements change, agencies need to identify deficient, displaced, or obscured devices and refer potential problems for corrective action.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2350,
+              "endIndex": 2351,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2350,
+                    "endIndex": 2351,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 2351,
+              "endIndex": 3056,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 2351,
+                    "endIndex": 2753,
+                    "textRun": {
+                      "content": "Conventional work-zone inspection relies on field visits and manual review of imagery and records. Staff time and travel requirements constrain how frequently geographically dispersed work zones can be inspected. Geotagged images collected by commercial trucks during routine travel can support repeated remote review of sign placement, lane configurations, maintenance closures, and pavement markings ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 2753,
+                    "endIndex": 2775,
+                    "textRun": {
+                      "content": "(Overall et al., 2026)",
+                      "textStyle": {
+                        "link": {
+                          "url": "https://doi.org/10.4236/jtts.2026.161006"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 2775,
+                    "endIndex": 3056,
+                    "textRun": {
+                      "content": ". This establishes a practical opportunity to use passing vehicles as an information source for inspection. Where instrumented vehicles also provide synchronized LiDAR and positioning data, their observations may support selected spatial measurements in addition to visual review.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3056,
+              "endIndex": 3057,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3056,
+                    "endIndex": 3057,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3057,
+              "endIndex": 3671,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3057,
+                    "endIndex": 3433,
+                    "textRun": {
+                      "content": "Existing vehicle-based inspection systems have already automated data collection. Traffic-sign tracking, tilt and occlusion assessment, and geolocated reporting have been integrated into a monitoring workflow, with mobile LiDAR used to validate geometric estimates. This workflow converts roadway observations into actionable asset records for predefined sign-condition tasks ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 3433,
+                    "endIndex": 3454,
+                    "textRun": {
+                      "content": "(Dwairi et al., 2026)",
+                      "textStyle": {
+                        "link": {
+                          "url": "https://doi.org/10.1007/s41062-026-02676-0"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 3454,
+                    "endIndex": 3647,
+                    "textRun": {
+                      "content": ". In a demonstrated work-zone application, an AI experiment screened images for the presence of a work zone, while the assessment of traffic-control practices still relied on manual inspection ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 3647,
+                    "endIndex": 3669,
+                    "textRun": {
+                      "content": "(Overall et al., 2026)",
+                      "textStyle": {
+                        "link": {
+                          "url": "https://doi.org/10.4236/jtts.2026.161006"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 3669,
+                    "endIndex": 3671,
+                    "textRun": {
+                      "content": ".\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3671,
+              "endIndex": 3672,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3671,
+                    "endIndex": 3672,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 3672,
+              "endIndex": 4460,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 3672,
+                    "endIndex": 4127,
+                    "textRun": {
+                      "content": "Across engineering domains, there is a shared need to automate the assessment of whether designs, assets, and site conditions conform to applicable requirements. Automated compliance checking addresses this need by organizing regulatory requirements, information about the object under review, and specialized analysis tools into workflows that produce conformance judgments and review reports. Such workflows have been applied to BIM-based design review ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 4127,
+                    "endIndex": 4145,
+                    "textRun": {
+                      "content": "(Peng & Liu, 2023)",
+                      "textStyle": {
+                        "link": {
+                          "url": "https://doi.org/10.1038/s41598-023-34342-1"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 4145,
+                    "endIndex": 4191,
+                    "textRun": {
+                      "content": ", integrated construction compliance checking ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 4191,
+                    "endIndex": 4211,
+                    "textRun": {
+                      "content": "(Beach et al., 2024)",
+                      "textStyle": {
+                        "link": {
+                          "url": "https://doi.org/10.1016/j.aei.2023.102288"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 4211,
+                    "endIndex": 4247,
+                    "textRun": {
+                      "content": ", and building operation assessment ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 4247,
+                    "endIndex": 4267,
+                    "textRun": {
+                      "content": "(Beach et al., 2025)",
+                      "textStyle": {
+                        "link": {
+                          "url": "https://doi.org/10.1080/15623599.2024.2366727"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 4267,
+                    "endIndex": 4325,
+                    "textRun": {
+                      "content": ". LLMs have also been incorporated into BIM code checking ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 4325,
+                    "endIndex": 4349,
+                    "textRun": {
+                      "content": "(Madireddy et al., 2025)",
+                      "textStyle": {
+                        "link": {
+                          "url": "https://doi.org/10.3390/electronics14112146"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 4349,
+                    "endIndex": 4374,
+                    "textRun": {
+                      "content": ", adaptive design review ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 4374,
+                    "endIndex": 4397,
+                    "textRun": {
+                      "content": "(Alnuzha & Bloch, 2026)",
+                      "textStyle": {
+                        "link": {
+                          "url": "https://doi.org/10.36680/j.itcon.2026.038"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 4397,
+                    "endIndex": 4439,
+                    "textRun": {
+                      "content": ", and construction-site safety monitoring ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 4439,
+                    "endIndex": 4458,
+                    "textRun": {
+                      "content": "(Chan et al., 2025)",
+                      "textStyle": {
+                        "link": {
+                          "url": "https://doi.org/10.1016/j.autcon.2025.106305"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 4458,
+                    "endIndex": 4460,
+                    "textRun": {
+                      "content": ".\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4460,
+              "endIndex": 4461,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4460,
+                    "endIndex": 4461,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 4461,
+              "endIndex": 5211,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 4461,
+                    "endIndex": 5211,
+                    "textRun": {
+                      "content": "However, automated compliance checking remains underexplored in work-zone inspection using vehicle-collected data. The vehicle-based studies above do not demonstrate this capability, while the cross-domain systems address different objects, information structures, and inspection tasks. In a work zone, a requirement may depend on roadway type, speed, closure configuration, and work duration. The available observations may reveal a device without establishing its condition or its spacing relative to another device. Applying the checking paradigm therefore requires the system to associate the scene with the relevant requirement, obtain the evidence needed for that particular check, and recognize when the traversal cannot support a conclusion.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5211,
+              "endIndex": 5212,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5211,
+                    "endIndex": 5212,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 5212,
+              "endIndex": 6064,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 5212,
+                    "endIndex": 6064,
+                    "textRun": {
+                      "content": "This study develops a structure-guided agentic workflow for that purpose. It links connected-vehicle imagery, LiDAR, and positioning data with temporary-traffic-control manuals and specialized analysis tools. Structure-guided retrieval-augmented generation (RAG) uses the manual's organization of conditions, typical configurations, device requirements, tables, and notes to narrow the retrieval scope and retain the context needed to interpret a requirement. The design addresses the possibility that a textually relevant passage is not applicable to the observed scene. An agent then selects inspection items, coordinates tool execution, and responds to intermediate evidence or failures. The output connects each inspection status with its regulatory source and observed evidence, including referral for human review when a judgment is unsupported.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6064,
+              "endIndex": 6065,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6064,
+                    "endIndex": 6065,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6065,
+              "endIndex": 6427,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6065,
+                    "endIndex": 6427,
+                    "textRun": {
+                      "content": "The paper makes two contributions. First, it develops an agentic work-zone inspection workflow that combines multimodal vehicle data with structure-guided RAG to produce inspection reports grounded in traffic-control requirements and observed evidence. Second, it evaluates the workflow on real work-zone data to assess its accuracy and practical applicability.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6427,
+              "endIndex": 6442,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6427,
+                    "endIndex": 6442,
+                    "textRun": {
+                      "content": "2. Methodology\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.2xkeh954aaqz",
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 6442,
+              "endIndex": 6462,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6442,
+                    "endIndex": 6462,
+                    "textRun": {
+                      "content": "2.1 System Overview\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.xhiee1gnn2c7",
+                  "namedStyleType": "HEADING_2",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": true
+                }
+              }
+            },
+            {
+              "startIndex": 6462,
+              "endIndex": 7121,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 6462,
+                    "endIndex": 7121,
+                    "textRun": {
+                      "content": "The proposed framework converts connected-vehicle observations into work-zone inspection records through four stages: layout selection, regulation-grounded inspection planning, tool-assisted inspection and assessment, and inspection report synthesis (Fig. 1). The sensing inputs are vehicle-mounted camera imagery and LiDAR point clouds, with the calibration and synchronization information needed by the analysis tools. Telematics data are not an input to the framework. A multimodal agent connects these observations with a structured representation of the Manual on Uniform Traffic Control Devices (MUTCD), 11th Edition, and a set of scene-evidence tools.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 7121,
+              "endIndex": 7799,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7121,
+                    "endIndex": 7799,
+                    "textRun": {
+                      "content": "The framework separates deciding what should be inspected from establishing what the observations can support. Stage 1 selects a source-supported Typical Application (TA). Stage 2 uses structure-guided retrieval-augmented generation (RAG) to identify candidate provisions, construct explicit inspection requirements, and plan evidence acquisition. Stage 3 executes the plan and forms evidence-supported judgments. Stage 4 assembles the results into a report that links each requirement to its normative source, observations, measurements, and assessment rationale. Evidence-insufficient items remain visible as not_assessed rather than being omitted or treated as satisfactory.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 7799,
+              "endIndex": 7801,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7799,
+                    "endIndex": 7800,
+                    "inlineObjectElement": {
+                      "inlineObjectId": "kix.qile3ot6k6yg",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 7800,
+                    "endIndex": 7801,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "alignment": "CENTER",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 7801,
+              "endIndex": 7802,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7801,
+                    "endIndex": 7802,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "alignment": "CENTER",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": true
+                }
+              }
+            },
+            {
+              "startIndex": 7802,
+              "endIndex": 7865,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7802,
+                    "endIndex": 7865,
+                    "textRun": {
+                      "content": "Fig. 1. Four-stage framework for agentic work-zone inspection.\n",
+                      "textStyle": {
+                        "italic": true,
+                        "fontSize": {
+                          "magnitude": 10,
+                          "unit": "PT"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 7865,
+              "endIndex": 7895,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7865,
+                    "endIndex": 7895,
+                    "textRun": {
+                      "content": "2.2 Stage 1: Layout Selection\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.1ujkdjs3blge",
+                  "namedStyleType": "HEADING_2",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": true
+                }
+              }
+            },
+            {
+              "startIndex": 7895,
+              "endIndex": 8424,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 7895,
+                    "endIndex": 8424,
+                    "textRun": {
+                      "content": "Layout selection establishes the traffic-control configuration that organizes subsequent regulatory retrieval. The agent uses the available scene context to distinguish features such as the closed lane, direction of traffic, merging transition, lane shift, and presence of conditional devices. Known facts are recorded with their provenance; an unknown condition remains unknown rather than being interpreted as false. Camera observations provide visual context, while geometric information is used where available and relevant.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 8424,
+              "endIndex": 8880,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 8424,
+                    "endIndex": 8880,
+                    "textRun": {
+                      "content": "The agent searches the MUTCD Typical Applications and examines their source descriptions, diagrams, and associated notes before selecting the applicable layout. The output is a TA identifier, the supporting source references, and a scene-based selection rationale. Selecting a TA narrows the regulatory search space. The selected TA and scene facts are passed to Stage 2 so that both layout-specific and condition-dependent requirements can be considered.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 8880,
+              "endIndex": 8933,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 8880,
+                    "endIndex": 8933,
+                    "textRun": {
+                      "content": "2.3 Stage 2: Regulation-Grounded Inspection Planning\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.4ralu2nejcud",
+                  "namedStyleType": "HEADING_2",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": true
+                }
+              }
+            },
+            {
+              "startIndex": 8933,
+              "endIndex": 9332,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 8933,
+                    "endIndex": 9332,
+                    "textRun": {
+                      "content": "This stage transforms regulatory knowledge into an executable inspection plan. Its methodological contribution is the explicit connection between the manual's structure, scene-conditioned requirement activation, and the evidence needed to evaluate each requirement. It comprises three modules: structured regulatory retrieval, applicable requirement construction, and evidence acquisition planning.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 9332,
+              "endIndex": 9370,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 9332,
+                    "endIndex": 9370,
+                    "textRun": {
+                      "content": "2.3.1 Structured Regulatory Retrieval\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.dc6p3z94qibe",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": true
+                }
+              }
+            },
+            {
+              "startIndex": 9370,
+              "endIndex": 9915,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 9370,
+                    "endIndex": 9915,
+                    "textRun": {
+                      "content": "The regulatory representation preserves the MUTCD's source organization, including sections, Typical Applications, clauses, figure components, tables, notes, and explicit cross-references. A knowledge graph (KG) connects source units and their relevant relationships, while retained source locators and text spans allow retrieved information to be checked against the manual. This representation is constructed independently of the evaluation answers; benchmark requirement identifiers and expected inspection outcomes are not retrieval inputs.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 9915,
+              "endIndex": 10617,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 9915,
+                    "endIndex": 10617,
+                    "textRun": {
+                      "content": "Candidate generation combines three complementary layers. First, a TA-core layer retrieves provisions connected to the selected Typical Application, including relevant components and referenced material. Second, a scene-condition layer activates additional KG candidates using the recorded scene facts and identified components. Third, a gap-retrieval layer searches for potentially relevant provisions beyond the graph-derived candidate set. The primary method uses BM25 for this supplementary search; a dense retriever is a method variant. The two graph layers supply deterministic candidates, while supplementary retrieval broadens the candidate pool without replacing the graph-derived provisions.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 10617,
+              "endIndex": 11180,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 10617,
+                    "endIndex": 11180,
+                    "textRun": {
+                      "content": "The candidate set can be expressed as C = C_TA ∪ C_scene ∪ C_gap, where C_TA denotes the TA-core candidates, C_scene denotes candidates activated by scene conditions, and C_gap denotes supplementary retrieval results. Candidate retrieval is organized around six inspection domains: lane-closure layout, advance-warning signs, channelization, transition and taper geometry, conditional active devices, and the conditional termination area. These domains bound the current inspection scope; the framework does not claim exhaustive coverage of all MUTCD provisions.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 11180,
+              "endIndex": 11703,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 11180,
+                    "endIndex": 11703,
+                    "textRun": {
+                      "content": "The structure-guided RAG contribution therefore lies in preserving the relationship between a retrieved provision, its governing context, and the observed configuration. A textually similar passage is treated as a candidate, not immediately as an applicable requirement. The graph-based and supplementary results are passed together to the next module, where applicability is explicitly resolved and recorded. This separation also permits retrieval coverage and requirement-selection quality to be evaluated independently.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 11703,
+              "endIndex": 11745,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 11703,
+                    "endIndex": 11745,
+                    "textRun": {
+                      "content": "2.3.2 Applicable Requirement Construction\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.1jkpm26r1cbo",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": true
+                }
+              }
+            },
+            {
+              "startIndex": 11745,
+              "endIndex": 12330,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 11745,
+                    "endIndex": 12330,
+                    "textRun": {
+                      "content": "The agent converts the candidate pool into atomic requirements that can be assessed separately. For every deterministic KG candidate, it records a structured decision comprising the activation state (established, false, or unknown), whether the candidate represents an independently violable requirement, any duplicate source relationship, the retain-or-exclude action, the decision basis, and the measurement specification. An initial compilation may be followed by a candidate audit, but unresolved KG candidates must receive a decision before the requirement registry is finalized.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 12330,
+              "endIndex": 12961,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 12330,
+                    "endIndex": 12961,
+                    "textRun": {
+                      "content": "For each retained item, the system binds the inspected subject, required relation or condition, threshold where specified, normative modality, applicability conditions, required evidence inputs, and authoritative source locator and span. Mandatory provisions and guidance retain their different normative force. Unknown activation conditions remain explicit in the decision record; retaining an item is not evidence that all of its preconditions have been established. Each requirement receives a run-local key for linking planning, evidence, and conclusions, while the MUTCD locator remains the authoritative regulatory citation.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 12961,
+              "endIndex": 13412,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 12961,
+                    "endIndex": 13412,
+                    "textRun": {
+                      "content": "This structured compilation limits the loss of conditions and source context that can occur when retrieved passages are summarized into free-form inspection questions. It also distinguishes requirement applicability from observability: a requirement cannot be excluded solely because the available traversal lacks the evidence needed to assess it. Such limitations are carried forward to evidence planning and, if unresolved, to the final assessment.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 13412,
+              "endIndex": 13448,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 13412,
+                    "endIndex": 13448,
+                    "textRun": {
+                      "content": "2.3.3 Evidence Acquisition Planning\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.njvir94vy6q",
+                  "namedStyleType": "HEADING_3",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": true
+                }
+              }
+            },
+            {
+              "startIndex": 13448,
+              "endIndex": 13963,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 13448,
+                    "endIndex": 13963,
+                    "textRun": {
+                      "content": "For each registered requirement, the agent identifies the observations or measurements needed to support a judgment and checks their availability in the scene data. The planning record distinguishes information already available, information that is only partially available, and acquisition that has not yet been attempted. It specifies the relevant tool family, target objects or frames, required inputs, and the measurement or observation to be returned. No compliance conclusion is produced during this module.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 13963,
+              "endIndex": 14549,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 13963,
+                    "endIndex": 14549,
+                    "textRun": {
+                      "content": "The plan follows the semantics of the requirement. A device-condition check requires visual evidence of the relevant device and its condition; a spacing or taper check requires suitable geometric observations and any inputs needed to instantiate the registered threshold. Detecting a device alone does not establish its condition, position, or spacing. When an input is unavailable, the limitation is recorded explicitly rather than replaced with an assumed value. Stage 2 ends with a source-linked requirement registry and an evidence acquisition plan that guide execution in Stage 3.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 14549,
+              "endIndex": 14602,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 14549,
+                    "endIndex": 14602,
+                    "textRun": {
+                      "content": "2.4 Stage 3: Tool-Assisted Inspection and Assessment\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.cp7jq4gbyagg",
+                  "namedStyleType": "HEADING_2",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": true
+                }
+              }
+            },
+            {
+              "startIndex": 14602,
+              "endIndex": 15223,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 14602,
+                    "endIndex": 15223,
+                    "textRun": {
+                      "content": "The agent executes the acquisition plan through the available scene-evidence tools. These tools expose accepted object observations, image references, device attributes, and geometric measurements where the sensor data support them. Each returned result is attached to the corresponding requirement key, together with its provenance, such as the frame, object identifier, bounding box, measurement inputs, and validity information. The language model coordinates tool use and interprets returned evidence; numerical measurements are obtained through the measurement tools rather than invented from the narrative context.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 15223,
+              "endIndex": 15759,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 15223,
+                    "endIndex": 15759,
+                    "textRun": {
+                      "content": "Execution is informed by intermediate results. When evidence is incomplete, the agent can request further available observations or measurements before finalizing the evidence record. Tool failures and unresolved inputs are retained as acquisition limitations. This process is constrained by the available tools and data: repeated requests do not justify assuming that missing evidence exists. Before assessment, the evidence record accounts for the required inputs of each registered item, including inputs that could not be obtained.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 15759,
+              "endIndex": 16352,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 15759,
+                    "endIndex": 16352,
+                    "textRun": {
+                      "content": "The assessment then compares the bound evidence with the registered requirement. An item is satisfied when sufficient valid evidence supports the specified condition, deficient when sufficient valid evidence supports a departure from that condition, and not_assessed when the available evidence does not support either conclusion. Numeric checks use the registered relation, threshold or formula, units, and required contextual inputs. Qualitative checks cite the observations that support the judgment. An acquisition failure or an unobserved device is not, by itself, proof of a deficiency.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 16352,
+              "endIndex": 16864,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 16352,
+                    "endIndex": 16864,
+                    "textRun": {
+                      "content": "Although acquisition and assessment form one stage in the conceptual framework, evidence recording precedes conclusion formation. Each registered requirement receives one final status with a rationale and evidence references. The assessment preserves the distinction between a mandatory requirement and guidance, so that a reported departure is interpreted with the normative force of its source. Requirements and source bindings established in Stage 2 are not silently rewritten to fit downstream observations.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 16864,
+              "endIndex": 16905,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 16864,
+                    "endIndex": 16905,
+                    "textRun": {
+                      "content": "2.5 Stage 4: Inspection Report Synthesis\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.rpwazthjw4ep",
+                  "namedStyleType": "HEADING_2",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": true
+                }
+              }
+            },
+            {
+              "startIndex": 16905,
+              "endIndex": 17453,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 16905,
+                    "endIndex": 17453,
+                    "textRun": {
+                      "content": "The final stage converts the structured assessment records into a readable inspection report. The report begins with the scene identifier, selected layout, inspection scope, and a summary of assessed and unassessed requirements. A requirement-level results table presents the inspected condition, normative class, MUTCD source, outcome, and associated issue or evidence references. Detailed evidence records provide the supporting images or image regions, relevant measurements, and the explanation connecting those observations to the conclusion.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "magnitude": 6,
+                    "unit": "PT"
+                  },
+                  "keepWithNext": false
+                }
+              }
+            },
+            {
+              "startIndex": 17453,
+              "endIndex": 17757,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 17453,
+                    "endIndex": 17757,
+                    "textRun": {
+                      "content": "Findings concerning the same physical defect are grouped while retaining requirement-level conclusions. Items marked not_assessed are listed separately with the missing evidence or measurement inputs. Report synthesis preserves the finalized judgments and their links to regulatory sources and evidence.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.68hwocj3sctg",
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 17757,
+              "endIndex": 17771,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 17757,
+                    "endIndex": 17771,
+                    "textRun": {
+                      "content": "3. Experiment\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.q7agbovfvi9i",
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 17771,
+              "endIndex": 17787,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 17771,
+                    "endIndex": 17787,
+                    "textRun": {
+                      "content": "3.1 Data Source\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.lt4tiuxunssj",
+                  "namedStyleType": "HEADING_2",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 17787,
+              "endIndex": 17906,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 17787,
+                    "endIndex": 17906,
+                    "textRun": {
+                      "content": "Data were collected at two work zones in Madison, Wisconsin, using our laboratory's Level 3 automated driving vehicle.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 17906,
+              "endIndex": 17936,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 17906,
+                    "endIndex": 17936,
+                    "textRun": {
+                      "content": "解释我们的数据来源，麦迪逊的地点，Neuscense的数据\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 17936,
+              "endIndex": 17995,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 17936,
+                    "endIndex": 17995,
+                    "textRun": {
+                      "content": "[Camera and LiDAR models and dataset details to be added.]\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 17995,
+              "endIndex": 18015,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 17995,
+                    "endIndex": 18015,
+                    "textRun": {
+                      "content": "3.2 Compared method\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.u07nvo3einhr",
+                  "namedStyleType": "HEADING_2",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 18015,
+              "endIndex": 18048,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 18015,
+                    "endIndex": 18048,
+                    "textRun": {
+                      "content": "3.3 Tool-Level Evaluation result\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.aw52ld8y4b6x",
+                  "namedStyleType": "HEADING_2",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 18048,
+              "endIndex": 18062,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 18048,
+                    "endIndex": 18062,
+                    "textRun": {
+                      "content": "Stage 2的结果对比。\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 18062,
+              "endIndex": 18063,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 18062,
+                    "endIndex": 18063,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 18063,
+              "endIndex": 18098,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 18063,
+                    "endIndex": 18098,
+                    "textRun": {
+                      "content": "3.4 System-Level Evaluation result\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.md1pdi6g3k6w",
+                  "namedStyleType": "HEADING_2",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 18098,
+              "endIndex": 18106,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 18098,
+                    "endIndex": 18106,
+                    "textRun": {
+                      "content": "整个结果的展示\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 18106,
+              "endIndex": 18125,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 18106,
+                    "endIndex": 18125,
+                    "textRun": {
+                      "content": "这里要展示我们的产品截图，弄一个网站\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 18125,
+              "endIndex": 18140,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 18125,
+                    "endIndex": 18140,
+                    "textRun": {
+                      "content": "4. Conclusions\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.7l70mxr31h9h",
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 18140,
+              "endIndex": 18493,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 18140,
+                    "endIndex": 18493,
+                    "textRun": {
+                      "content": "This study develops a structure-guided agentic workflow for converting connected-vehicle observations into traceable work-zone inspection records. The final conclusion will be written after experiments establish the reliability of the component tools, the value of dynamic orchestration, the supported inspection scope, and the principal failure modes.\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 18493,
+              "endIndex": 18504,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 18493,
+                    "endIndex": 18504,
+                    "textRun": {
+                      "content": "References\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "headingId": "h.gphc5ttd2m86",
+                  "namedStyleType": "HEADING_1",
+                  "direction": "LEFT_TO_RIGHT"
+                }
+              }
+            },
+            {
+              "startIndex": 18504,
+              "endIndex": 18734,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 18504,
+                    "endIndex": 18620,
+                    "textRun": {
+                      "content": "Alnuzha, M., & Bloch, T. (2026). Integrating large language models and knowledge graphs for adaptive design review. ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 18620,
+                    "endIndex": 18681,
+                    "textRun": {
+                      "content": "Journal of Information Technology in Construction (ITcon), 31",
+                      "textStyle": {
+                        "italic": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 18681,
+                    "endIndex": 18692,
+                    "textRun": {
+                      "content": ", 888–916. ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 18692,
+                    "endIndex": 18733,
+                    "textRun": {
+                      "content": "https://doi.org/10.36680/j.itcon.2026.038",
+                      "textStyle": {
+                        "link": {
+                          "url": "https://doi.org/10.36680/j.itcon.2026.038"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 18733,
+                    "endIndex": 18734,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 100,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 18734,
+              "endIndex": 19035,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 18734,
+                    "endIndex": 18923,
+                    "textRun": {
+                      "content": "Beach, T., Yeung, J., Ghoroghi, A., & Rezgui, Y. (2025). Moving automated compliance checking to the operational phase of the building life-cycle: Analysis and feasibility study in the UK. ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 18923,
+                    "endIndex": 18975,
+                    "textRun": {
+                      "content": "International Journal of Construction Management, 25",
+                      "textStyle": {
+                        "italic": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 18975,
+                    "endIndex": 18989,
+                    "textRun": {
+                      "content": "(7), 840–849. ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 18989,
+                    "endIndex": 19034,
+                    "textRun": {
+                      "content": "https://doi.org/10.1080/15623599.2024.2366727",
+                      "textStyle": {
+                        "link": {
+                          "url": "https://doi.org/10.1080/15623599.2024.2366727"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 19034,
+                    "endIndex": 19035,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 100,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 19035,
+              "endIndex": 19318,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 19035,
+                    "endIndex": 19222,
+                    "textRun": {
+                      "content": "Beach, T., Yeung, J., Nisbet, N., & Rezgui, Y. (2024). Digital approaches to construction compliance checking: Validating the suitability of an ecosystem approach to compliance checking. ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 19222,
+                    "endIndex": 19258,
+                    "textRun": {
+                      "content": "Advanced Engineering Informatics, 59",
+                      "textStyle": {
+                        "italic": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 19258,
+                    "endIndex": 19276,
+                    "textRun": {
+                      "content": ", Article 102288. ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 19276,
+                    "endIndex": 19317,
+                    "textRun": {
+                      "content": "https://doi.org/10.1016/j.aei.2023.102288",
+                      "textStyle": {
+                        "link": {
+                          "url": "https://doi.org/10.1016/j.aei.2023.102288"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 19317,
+                    "endIndex": 19318,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 100,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 19318,
+              "endIndex": 19634,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 19318,
+                    "endIndex": 19540,
+                    "textRun": {
+                      "content": "Chan, C. F., Wong, K. Y., Guo, X., Cheng, J. C. P., Chan, J. P. C., Leung, P. H., & Tao, X. (2025). Context-aware vision-language model agent enriched with domain-specific ontology for construction site safety monitoring. ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 19540,
+                    "endIndex": 19571,
+                    "textRun": {
+                      "content": "Automation in Construction, 177",
+                      "textStyle": {
+                        "italic": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 19571,
+                    "endIndex": 19589,
+                    "textRun": {
+                      "content": ", Article 106305. ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 19589,
+                    "endIndex": 19633,
+                    "textRun": {
+                      "content": "https://doi.org/10.1016/j.autcon.2025.106305",
+                      "textStyle": {
+                        "link": {
+                          "url": "https://doi.org/10.1016/j.autcon.2025.106305"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 19633,
+                    "endIndex": 19634,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 100,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 19634,
+              "endIndex": 19860,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 19634,
+                    "endIndex": 19763,
+                    "textRun": {
+                      "content": "Dwairi, M., Manasreh, D., Melhem, M., & Nazzal, M. D. (2026). Automated traffic signs condition monitoring using machine vision. ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 19763,
+                    "endIndex": 19802,
+                    "textRun": {
+                      "content": "Innovative Infrastructure Solutions, 11",
+                      "textStyle": {
+                        "italic": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 19802,
+                    "endIndex": 19817,
+                    "textRun": {
+                      "content": ", Article 325. ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 19817,
+                    "endIndex": 19859,
+                    "textRun": {
+                      "content": "https://doi.org/10.1007/s41062-026-02676-0",
+                      "textStyle": {
+                        "link": {
+                          "url": "https://doi.org/10.1007/s41062-026-02676-0"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 19859,
+                    "endIndex": 19860,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 100,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 19860,
+              "endIndex": 20075,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 19860,
+                    "endIndex": 19900,
+                    "textRun": {
+                      "content": "Federal Highway Administration. (2025). ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 19900,
+                    "endIndex": 19947,
+                    "textRun": {
+                      "content": "Updated crash costs for highway safety analysis",
+                      "textStyle": {
+                        "italic": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 19947,
+                    "endIndex": 19977,
+                    "textRun": {
+                      "content": " (Report No. FHWA-SA-25-021). ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 19977,
+                    "endIndex": 20074,
+                    "textRun": {
+                      "content": "https://highways.fhwa.dot.gov/sites/fhwa.dot.gov/files/2025-10/CrashCostFactSheet_508_OCT2025.pdf",
+                      "textStyle": {
+                        "link": {
+                          "url": "https://highways.fhwa.dot.gov/sites/fhwa.dot.gov/files/2025-10/CrashCostFactSheet_508_OCT2025.pdf"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 20074,
+                    "endIndex": 20075,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 100,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 20075,
+              "endIndex": 20284,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 20075,
+                    "endIndex": 20114,
+                    "textRun": {
+                      "content": "Finley, M. D., & Ullman, G. L. (2023). ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 20114,
+                    "endIndex": 20180,
+                    "textRun": {
+                      "content": "Commercial motor vehicle safety in work zones targeted action plan",
+                      "textStyle": {
+                        "italic": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 20180,
+                    "endIndex": 20243,
+                    "textRun": {
+                      "content": " (Report No. FHWA-HOP-20-027). Federal Highway Administration. ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 20243,
+                    "endIndex": 20283,
+                    "textRun": {
+                      "content": "https://rosap.ntl.bts.gov/view/dot/72451",
+                      "textStyle": {
+                        "link": {
+                          "url": "https://rosap.ntl.bts.gov/view/dot/72451"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 20283,
+                    "endIndex": 20284,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 100,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 20284,
+              "endIndex": 20534,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 20284,
+                    "endIndex": 20455,
+                    "textRun": {
+                      "content": "Madireddy, S., Gao, L., Din, Z., Kim, K., Senouci, A., Han, Z., & Zhang, Y. (2025). Large language model-driven code compliance checking in building information modeling. ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 20455,
+                    "endIndex": 20470,
+                    "textRun": {
+                      "content": "Electronics, 14",
+                      "textStyle": {
+                        "italic": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 20470,
+                    "endIndex": 20490,
+                    "textRun": {
+                      "content": "(11), Article 2146. ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 20490,
+                    "endIndex": 20533,
+                    "textRun": {
+                      "content": "https://doi.org/10.3390/electronics14112146",
+                      "textStyle": {
+                        "link": {
+                          "url": "https://doi.org/10.3390/electronics14112146"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 20533,
+                    "endIndex": 20534,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 100,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 20534,
+              "endIndex": 20808,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 20534,
+                    "endIndex": 20712,
+                    "textRun": {
+                      "content": "Overall, M. W., Mukai, J., Sakhare, R. S., Desai, J., Horton, D., & Bullock, D. M. (2026). Applications of commercial truck dash cameras for work zone inspection and monitoring. ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 20712,
+                    "endIndex": 20754,
+                    "textRun": {
+                      "content": "Journal of Transportation Technologies, 16",
+                      "textStyle": {
+                        "italic": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 20754,
+                    "endIndex": 20767,
+                    "textRun": {
+                      "content": "(1), 95–114. ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 20767,
+                    "endIndex": 20807,
+                    "textRun": {
+                      "content": "https://doi.org/10.4236/jtts.2026.161006",
+                      "textStyle": {
+                        "link": {
+                          "url": "https://doi.org/10.4236/jtts.2026.161006"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 20807,
+                    "endIndex": 20808,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 100,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 20808,
+              "endIndex": 20995,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 20808,
+                    "endIndex": 20914,
+                    "textRun": {
+                      "content": "Peng, J., & Liu, X. (2023). Automated code compliance checking research based on BIM and knowledge graph. ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 20914,
+                    "endIndex": 20936,
+                    "textRun": {
+                      "content": "Scientific Reports, 13",
+                      "textStyle": {
+                        "italic": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 20936,
+                    "endIndex": 20952,
+                    "textRun": {
+                      "content": ", Article 7065. ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 20952,
+                    "endIndex": 20994,
+                    "textRun": {
+                      "content": "https://doi.org/10.1038/s41598-023-34342-1",
+                      "textStyle": {
+                        "link": {
+                          "url": "https://doi.org/10.1038/s41598-023-34342-1"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 20994,
+                    "endIndex": 20995,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 100,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 20995,
+              "endIndex": 21259,
+              "paragraph": {
+                "elements": [
+                  {
+                    "startIndex": 20995,
+                    "endIndex": 21039,
+                    "textRun": {
+                      "content": "Qian, S., Guengerich, Q., & Tao, T. (2024). ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 21039,
+                    "endIndex": 21124,
+                    "textRun": {
+                      "content": "Mitigating crash risks in work zones: Causal inference and crash modification factors",
+                      "textStyle": {
+                        "italic": true
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 21124,
+                    "endIndex": 21218,
+                    "textRun": {
+                      "content": ". Carnegie Mellon University, Traffic21 Institute, Safety21 University Transportation Center. ",
+                      "textStyle": {}
+                    }
+                  },
+                  {
+                    "startIndex": 21218,
+                    "endIndex": 21258,
+                    "textRun": {
+                      "content": "https://rosap.ntl.bts.gov/view/dot/77512",
+                      "textStyle": {
+                        "link": {
+                          "url": "https://rosap.ntl.bts.gov/view/dot/77512"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "startIndex": 21258,
+                    "endIndex": 21259,
+                    "textRun": {
+                      "content": "\n",
+                      "textStyle": {}
+                    }
+                  }
+                ],
+                "paragraphStyle": {
+                  "namedStyleType": "NORMAL_TEXT",
+                  "lineSpacing": 100,
+                  "direction": "LEFT_TO_RIGHT",
+                  "spaceAbove": {
+                    "unit": "PT"
+                  },
+                  "spaceBelow": {
+                    "unit": "PT"
+                  },
+                  "indentFirstLine": {
+                    "unit": "PT"
+                  },
+                  "indentStart": {
+                    "magnitude": 36,
+                    "unit": "PT"
+                  },
+                  "indentEnd": {
+                    "unit": "PT"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "headers": null,
+        "footers": null,
+        "footnotes": null,
+        "documentStyle": {
+          "background": {
+            "color": {}
+          },
+          "pageNumberStart": 1,
+          "marginTop": {
+            "magnitude": 72,
+            "unit": "PT"
+          },
+          "marginBottom": {
+            "magnitude": 72,
+            "unit": "PT"
+          },
+          "marginRight": {
+            "magnitude": 72,
+            "unit": "PT"
+          },
+          "marginLeft": {
+            "magnitude": 72,
+            "unit": "PT"
+          },
+          "pageSize": {
+            "height": {
+              "magnitude": 792,
+              "unit": "PT"
+            },
+            "width": {
+              "magnitude": 612,
+              "unit": "PT"
+            }
+          },
+          "marginHeader": {
+            "magnitude": 36,
+            "unit": "PT"
+          },
+          "marginFooter": {
+            "magnitude": 36,
+            "unit": "PT"
+          },
+          "useCustomHeaderFooterMargins": true,
+          "documentFormat": {
+            "documentMode": "PAGES"
+          }
+        },
+        "suggestedDocumentStyleChanges": null,
+        "namedStyles": {
+          "styles": [
+            {
+              "namedStyleType": "NORMAL_TEXT",
+              "textStyle": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "strikethrough": false,
+                "smallCaps": false,
+                "backgroundColor": {},
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {}
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 11,
+                  "unit": "PT"
+                },
+                "weightedFontFamily": {
+                  "fontFamily": "Arial",
+                  "weight": 400
+                },
+                "baselineOffset": "NONE"
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "alignment": "START",
+                "lineSpacing": 115,
+                "direction": "LEFT_TO_RIGHT",
+                "spacingMode": "COLLAPSE_LISTS",
+                "spaceAbove": {
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "unit": "PT"
+                },
+                "borderBetween": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderTop": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderBottom": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderLeft": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "borderRight": {
+                  "color": {},
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "padding": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID"
+                },
+                "indentFirstLine": {
+                  "unit": "PT"
+                },
+                "indentStart": {
+                  "unit": "PT"
+                },
+                "indentEnd": {
+                  "unit": "PT"
+                },
+                "keepLinesTogether": false,
+                "keepWithNext": false,
+                "avoidWidowAndOrphan": true,
+                "shading": {
+                  "backgroundColor": {}
+                },
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_1",
+              "textStyle": {
+                "bold": true,
+                "fontSize": {
+                  "magnitude": 12,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "headingId": "h.88xu8ehf89gh",
+                "namedStyleType": "HEADING_1",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 20,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 6,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true
+              }
+            },
+            {
+              "namedStyleType": "HEADING_2",
+              "textStyle": {
+                "bold": false,
+                "fontSize": {
+                  "magnitude": 16,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 18,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 6,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_3",
+              "textStyle": {
+                "bold": false,
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.2627451,
+                      "green": 0.2627451,
+                      "blue": 0.2627451
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 14,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 16,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 4,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_4",
+              "textStyle": {
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.4,
+                      "green": 0.4,
+                      "blue": 0.4
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 12,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 14,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 4,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_5",
+              "textStyle": {
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.4,
+                      "green": 0.4,
+                      "blue": 0.4
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 11,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 12,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 4,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "HEADING_6",
+              "textStyle": {
+                "italic": true,
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.4,
+                      "green": 0.4,
+                      "blue": 0.4
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 11,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "magnitude": 12,
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 4,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            },
+            {
+              "namedStyleType": "TITLE",
+              "textStyle": {
+                "fontSize": {
+                  "magnitude": 14,
+                  "unit": "PT"
+                }
+              },
+              "paragraphStyle": {
+                "headingId": "h.goneuttfdzt1",
+                "namedStyleType": "TITLE",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceBelow": {
+                  "magnitude": 3,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true
+              }
+            },
+            {
+              "namedStyleType": "SUBTITLE",
+              "textStyle": {
+                "italic": false,
+                "foregroundColor": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 0.4,
+                      "green": 0.4,
+                      "blue": 0.4
+                    }
+                  }
+                },
+                "fontSize": {
+                  "magnitude": 15,
+                  "unit": "PT"
+                },
+                "weightedFontFamily": {
+                  "fontFamily": "Arial",
+                  "weight": 400
+                }
+              },
+              "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "direction": "LEFT_TO_RIGHT",
+                "spaceAbove": {
+                  "unit": "PT"
+                },
+                "spaceBelow": {
+                  "magnitude": 16,
+                  "unit": "PT"
+                },
+                "keepLinesTogether": true,
+                "keepWithNext": true,
+                "pageBreakBefore": false
+              }
+            }
+          ]
+        },
+        "suggestedNamedStylesChanges": null,
+        "lists": null,
+        "namedRanges": null,
+        "inlineObjects": {
+          "kix.qile3ot6k6yg": {
+            "objectId": "kix.qile3ot6k6yg",
+            "inlineObjectProperties": {
+              "embeddedObject": {
+                "imageProperties": {
+                  "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXf1acoDwwzeWFkuk3_8BYjm4F5JPlRhO3dVjRrzHyhoPvGCqtBOYXRwqBt8suN-Y_cfXaRfWoeTj2NIyognluNfXfzsxyeUZ3-LNwOleUXXvHingnN8YB6rt6ykhF5GJsn9s5kgqFvcjK91OsWCiKozqCySSaI6XQOTrFUPn3WiBJbl=s2048?key=e_qB-yeUDuYOazJ_p6Os2g",
+                  "cropProperties": {}
+                },
+                "embeddedObjectBorder": {
+                  "color": {
+                    "color": {
+                      "rgbColor": {}
+                    }
+                  },
+                  "width": {
+                    "unit": "PT"
+                  },
+                  "dashStyle": "SOLID",
+                  "propertyState": "NOT_RENDERED"
+                },
+                "size": {
+                  "height": {
+                    "magnitude": 234,
+                    "unit": "PT"
+                  },
+                  "width": {
+                    "magnitude": 468,
+                    "unit": "PT"
+                  }
+                },
+                "marginTop": {
+                  "magnitude": 9,
+                  "unit": "PT"
+                },
+                "marginBottom": {
+                  "magnitude": 9,
+                  "unit": "PT"
+                },
+                "marginRight": {
+                  "magnitude": 9,
+                  "unit": "PT"
+                },
+                "marginLeft": {
+                  "magnitude": 9,
+                  "unit": "PT"
+                }
+              }
+            }
+          }
+        },
+        "positionedObjects": null,
+        "documentId": "1e3KD9OhqH2JJFUhKSBKqXsOFD_YIzEOtp8wBPTfjZeQ",
+        "document_url": "https://docs.google.com/document/d/1e3KD9OhqH2JJFUhKSBKqXsOFD_YIzEOtp8wBPTfjZeQ"
+      }
+    ],
+    "document_url": "https://docs.google.com/document/d/1e3KD9OhqH2JJFUhKSBKqXsOFD_YIzEOtp8wBPTfjZeQ"
+  },
+  "isError": false
+}

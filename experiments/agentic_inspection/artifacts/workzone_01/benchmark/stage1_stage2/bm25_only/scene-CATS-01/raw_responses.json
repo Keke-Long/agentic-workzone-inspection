@@ -1,0 +1,4108 @@
+[
+  {
+    "id": "resp_08a8c04de8312ca6016ab326fefa8087d19766266761436ec0",
+    "object": "response",
+    "created_at": 1790125823,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1790125824,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "SIMPLIFIED STAGE 1 — Call load_domain_gap_candidates exactly once for each of the six domains. No Knowledge Graph traversal is available. Begin registration after all six domain retrievals load. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 2 is sealed; no Stage 3 call is permitted.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_08a8c04de8312ca6016ab32700127887d19abc28149bdc439c",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqsycAhzHZl2vaiMefBieU_PtvdD25xI6KriMLfSMXxVsXbUX2L9e1qzUUbTtwOcv1pgBd_Mg7Z9X1xiB99iR4KXTyUudtrTC3HhFIGAC8QW6kp5qEYEBWD5iX4Au58olVGfc9Ah5XmL9Vai0bCTuoVsV0qIBtCy18OoyuRaeCPz_H4kHnZJ147WDsMk43g85Kff9CU2QqsTVBAD1WDSXOy6zSuFZsR5Is0GYzJI-xixh5QV6t7qDSTdruifZne_ZuTIvnW25GVEsMKk6Oi6I-bKpw80hUlh7ST2I1Xrcu5Ye2zg7zF_fOeOC9aRbB7JqIKbitwDjFxbvaoGFNU9sCDV-ari92ZJScRw-DhUanxnDnEOte3holaa8wzSi15xCNh2HLjLPiXPxPTo3yT6tCDgLOdydGU-fD7vDxdFJOwjWDOZtyz4cZWUFD-_saz9CFWPu2BU1DDIHH8ETq3AWY7DCiAkI8Womie4CmGXXNSo5OX6ua00uREsjzSb-oyLAIH8-fhh8sxZsv-HTF60ymuXJrdw6jY5Js2kbxyfY37XTyb0oL2VTNz2wOhK2TTGBAsjBKhyMhDKmXLc0JrP1fztC9FeE_S3NtU6SWVgBJvDl2--y9puoS2aPsHMnVfLdexj5T7EdFBxojst9SdvO1ZpcuVgN7lj3tSla6Fg9uNuqKIQ2m1A87UpQLH2Hgs_5LSgyILxLcrQBU0dxek31TNKQqX8dKx77zF1Azw2-e1USf1EojxNU4VwI3QpRaE_a9_80M8x4TLC_uo8lcqy8pl-qW0eQ7uZ6C1AnBOWVaISAF9GwRfxlE78VJu-cuVyifhuX_SEU46jq9VegI0PiGvA1km6TPvBdMzKdC6KUkQ_tl7km8IglGE0jahSd3FYxGNYYIL-i3Wy7_Yheqz1TOIG9aX2DBsJJRWjmqWSGAuUzTxH8a0OIvju2g24JLiN6siBkF3HOqvxPbNVAa4LLwyh49iiBT0fs_ntGpIyOUOiEkpJUuG80COj1om-53XHOpnepDhOn3cyKMQEe--ECvAir6QWVwBfQvBBGFk0CYG3A-1MaQ3ylcxZPu3UJ8BMg5GExeXWztTTV5BdN_Mx5Cw5e78hp4Ejw1PNtqSaLe6yABExDU7TaAcJdrplkKdO-HucIzbD0RJaqVhIqehfwNKQIi_glL-q_ZftcOj3RhOvbvPHEUctQhm2chmOGuIrSYkBsouILWufTJtsUPOR-c3f_CF7PSJgIwhFo-XS8N0UEFhVKmPM7upolBMawcgq2Nn6PkBNjD4OOBKgkF9tZ8EJQSMto1KK1njOMhD41XwA6bF8sQygMblvgIZJHLzcyuG_6lUQBchMpNZS20dSQqZ7-eShFpSovALraJPkTjdvBt0Tw=",
+        "summary": []
+      },
+      {
+        "id": "fc_08a8c04de8312ca6016ab32700826c87d1aeb3de4e39d105da",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"domain\":\"lane_closure_layout\"}",
+        "call_id": "call_5kNS7G0ZKH9YpBIbLjf7Nw5p",
+        "name": "load_domain_gap_candidates"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "End manual discovery and begin registering the retained requirements.",
+        "name": "begin_requirement_registration",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Simplified Stage 1C: in one call, return the configured retriever's bounded graph-gap candidates for one inspection domain; no model-controlled pagination.",
+        "name": "load_domain_gap_candidates",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "enum": [
+                "lane_closure_layout",
+                "advance_warning_sign_system",
+                "channelization_system",
+                "transition_and_taper_geometry",
+                "conditional_active_devices",
+                "conditional_termination_area"
+              ]
+            }
+          },
+          "required": [
+            "domain"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1568,
+      "input_tokens_details": {
+        "cache_write_tokens": 1565,
+        "cached_tokens": 0
+      },
+      "output_tokens": 59,
+      "output_tokens_details": {
+        "reasoning_tokens": 34
+      },
+      "total_tokens": 1627
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_08a8c04de8312ca6016ab32700e97c87d1b054e33493aba5a9",
+    "object": "response",
+    "created_at": 1790125824,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1790125826,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "SIMPLIFIED STAGE 1 — Call load_domain_gap_candidates exactly once for each of the six domains. No Knowledge Graph traversal is available. Begin registration after all six domain retrievals load. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 2 is sealed; no Stage 3 call is permitted.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_08a8c04de8312ca6016ab32701c53487d1a52e5c446b3d8419",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqsycCC6okD_6tmRYDKTrb4F-UcniHf0dPahwxHIz458E1AGs6qT5SP9VR215OAP7NeAIt8mFowjLGkx1inWg09_7gsHKJcPxgh0YlfTo5cT0BL8_2RGEyv9nj0sPx02k-a_-PJdgX1TqYOLx6Vnn82X1A0jwVAcQ0GZuF8pC83DFbY-G2-yKSVYJJW3EuLvcHa9nlcU7TcANq31p9WjQJLTZnMqZIwfTTCTgS3i3Vx8RkPCIKqPqFBDetYwYUaXeCgbik6ZaEaj5o_qW33HTw6S6PEpfS5S2CPrzYXQiaQEMVUaq4FQvZ5znZ2zv76M-6eHPnORy2RWpq4OHfSVWCeIIUjZJ0svU2AKYYY6FrO2W_elpVZsQ-UYDyYMnKPu9hmQDmvmwiUhgEWUU1O6y_FRSaokeP6gyc4ArJ-kaTRNizy97-PqVl9CsyyTi1PcTEkvg6AnazF8alf460vspWEYrmLHU-8hwdf1fk91RqwaK3rMC0MeamfoeU2wrNtQlM4IcELzuipWdEQzZ0qNB2i6gmcUPDYtSx2vcRVXiTgSSNElywUCASCrl9p8hcjatcQhXwj2fZr92doybJ6p_Dc1Eln8vGm_rItJge2w9n5oc7G-SQDyg-MSgJuyqH28a5-6bQtjkaw4LAAn9AnMUffCumimTkVCOFulAiEqr-vEdqM6oUfAikZfKlDyKK3cq46FaDkI_o-ap1OlZuKujIASHXbxdxRD-t06RKOj7Y9W9i7-SD0kScNoYXAQAjWZ8SNjY-3kpdcHpHkVhE5efhzXXe7nrt7medow86HZgYdkK75lAqJsbM7tDPcokJ3ZP3y1Jdzsju9QeiAUGbGwrAv1f-fUCkGoRkJyzX1AAznCEbJE4h3PZHIJ3aaBnwCENqWVKkkIcI8KVK4cYbgEvc2h7Gu9pOFYakj77WlszAjrxnpuLTvJ-m_zJNobdvv1XnU38iNkGyUXBWNBxkir3MIUBqe__EKppCluinyZxLufrwevzbLiiZasiQ25yAWIBAJAUuiWUqAPuILrek1dbS-zOYNmb4xU6Yuc-v6s1DEdqU9oGD-mjvhxvlteL7oqKUtSamkutF3uQXbdeQwvd2b8XopPJBuH7H6P3F-wbfHKWkjS_egiqdWh_UxWqVph3XfDUuWKgF8EdCHtfn-o5_KJh0q_fkEWSUvEXZgcPga-yU6dGy9cT4xdbdE-EbE8Ip4I-tzkkRNSlAr_BiAP4k9upXYE0XZfs1Xuya6RUtJZuDNc631KhegXY5llKWw8SOyYXp",
+        "summary": []
+      },
+      {
+        "id": "fc_08a8c04de8312ca6016ab32702030487d1b39ac88c8ec9e1a0",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"domain\":\"advance_warning_sign_system\"}",
+        "call_id": "call_DDHzUT8Jmuolqx2vSDZPJEXt",
+        "name": "load_domain_gap_candidates"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "End manual discovery and begin registering the retained requirements.",
+        "name": "begin_requirement_registration",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Simplified Stage 1C: in one call, return the configured retriever's bounded graph-gap candidates for one inspection domain; no model-controlled pagination.",
+        "name": "load_domain_gap_candidates",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "enum": [
+                "lane_closure_layout",
+                "advance_warning_sign_system",
+                "channelization_system",
+                "transition_and_taper_geometry",
+                "conditional_active_devices",
+                "conditional_termination_area"
+              ]
+            }
+          },
+          "required": [
+            "domain"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 6022,
+      "input_tokens_details": {
+        "cache_write_tokens": 6019,
+        "cached_tokens": 0
+      },
+      "output_tokens": 42,
+      "output_tokens_details": {
+        "reasoning_tokens": 17
+      },
+      "total_tokens": 6064
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_08a8c04de8312ca6016ab32703061887d191ba0aba693e6a5f",
+    "object": "response",
+    "created_at": 1790125827,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1790125828,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "SIMPLIFIED STAGE 1 — Call load_domain_gap_candidates exactly once for each of the six domains. No Knowledge Graph traversal is available. Begin registration after all six domain retrievals load. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 2 is sealed; no Stage 3 call is permitted.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_08a8c04de8312ca6016ab32703c96c87d1a3a0d09d8e07474e",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqsycEaY55CtBsv1c0u0OY1rxXQNm2N4CAbocQsHCMI0yCiw40CzuJ3hOmtf_tNaN7pTYZMfPfbeCQpI5S12jawsbYIgp5yYAdnUjWEBh3SWc5TV2cy4CTfnFsgLoxwXDBSjw129gNjN5RHllcMdwXWRUxlcG5rmpVeyw6jd_50eB9IHEx8T1-pdbAuW28mCNOFfEeEkIUpY4bAXuVhzWX5gypabarCxV86TgiQVXEj5JLPyUf-_-dGCkroo4YtVgjFKfZKJ8-ZTaUTnT0gO7EyoQsuX5Lm2QstnVKgKdvr5MqJtswPQ6i50yIQZ34-lcLrnQ7Rbgoi06WhqK7pKuFFHbqkRn6sZi6mCCLPr6542m01dvKvRkbKe1hqxnYEcBOEJSTZzHxEnLt0OAPNy6YbxGRGbF5eVNjQC8drn0qeQxS6UvoTeAXWVZhbeciGwoMn5jd6jKedfYUzcI6OJ40NDcvZ1YzJWS6V7enOWeIePdYFynyToDbtOdNEKmVz3WrpKJxMIHYtj-0iJLUBCHiTwSIjVayxTEN2iemsQbfYfidlFvcKtNV0OE_Y7O4oNoJve9lKDbqOJF1Xi0SUaRGweGbeUpsydqsROoCqCygyY2U3B9he4SG3iPdMJ4sYbSWN1xDfFjWKh2yKwYalqbB5gMkcY3jU47Dj0xsr8E14IfWcussG0oiTD2HPa3S0BYq4KVAZoJCnoWz9FicCIHByFOhSEtso0rC62Wh1IpyJ4iYQelAWGmH08zYho4yx-fXhUk9GOfDtuEdiyowiOyzkSuJ1e-k-TS_FzMZSZ78xgPlwH_6KQjR9EbG54wBaVq2f88lGBh7_rym-qEz5O1-dYToD6pq4UHof6gvUkzi8BJPncCEOm3q__ynlC-U75Ge81ew_8Vv47_d7aeYRY85NtDa3MGg7NH5RLC-GidALwjKuyxVOPy3ZOsFEjBHiVaITnCIRVoX1f8_ewyJWcSGT_19tHovr75njrq_JjsLzhu_kzqwdVCRbRFn9HxkaRqj6e6Rp__pv0HsxqctUJ3AGTdUvpobj7R9dFwfAJJXUOW0sKQgyCYcEhfu6EyFAvhStpnxA3vW0OTwRoN50xC-f3dqYFWHFAVMopETzjfK-0gMl-8tjR9lBC4QyqgmYUQXbpk9kA9mEx-NzDjXWmW9tQ6MmoFYzpvBOdLmd-Bm2dZ7AFdmlpH5zDHQ_idhPXv0NN_hWYgYxxPATFAktb72fq60yEosfxBYwWgeP0ohMtZ0Ha5nQp8voQKkwOxYRk2llUsph2WN_kp8bzcx_m9u4d-JBI8CphPYCDQnCUB0hiY8WpKer7811MkSJvCMihYXcQo3zpUbWrZBd3YgX7CXB9b1sViNTFg9n7-DC09C781XnLk=",
+        "summary": []
+      },
+      {
+        "id": "fc_08a8c04de8312ca6016ab3270474cc87d1b2380e89e8c5db76",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"domain\":\"channelization_system\"}",
+        "call_id": "call_NfDUXKvLef5Etmr2mo7V1zGr",
+        "name": "load_domain_gap_candidates"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "End manual discovery and begin registering the retained requirements.",
+        "name": "begin_requirement_registration",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Simplified Stage 1C: in one call, return the configured retriever's bounded graph-gap candidates for one inspection domain; no model-controlled pagination.",
+        "name": "load_domain_gap_candidates",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "enum": [
+                "lane_closure_layout",
+                "advance_warning_sign_system",
+                "channelization_system",
+                "transition_and_taper_geometry",
+                "conditional_active_devices",
+                "conditional_termination_area"
+              ]
+            }
+          },
+          "required": [
+            "domain"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 7176,
+      "input_tokens_details": {
+        "cache_write_tokens": 7173,
+        "cached_tokens": 0
+      },
+      "output_tokens": 56,
+      "output_tokens_details": {
+        "reasoning_tokens": 32
+      },
+      "total_tokens": 7232
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_08a8c04de8312ca6016ab327052c1c87d199372c032e02a1b7",
+    "object": "response",
+    "created_at": 1790125829,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1790125830,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "SIMPLIFIED STAGE 1 — Call load_domain_gap_candidates exactly once for each of the six domains. No Knowledge Graph traversal is available. Begin registration after all six domain retrievals load. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 2 is sealed; no Stage 3 call is permitted.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_08a8c04de8312ca6016ab32705f2e487d1b659802328caea8f",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqsycGfMNaUh5JYTUT1V8r7ExaDNfGfnHn2hvi24BRHFzVH4neahZ9E7fWGFU8M_asf7tZV-10J4cLcNaILFtr6mmk1q-_tUEbPK21p0YJF-3OKN5AHRjieSrXAGjEZxjaGqXbpOKgsE8qFkFgCC2AeIXZ5O5GueJLTcXv5pDnPh8AnXt9ac_yFjafh2ledS2Y-mexeessgp0gteLIncAqQC4vAEegB19dFy-SDcZjp1s-9JmA6DK2q7qDaAaOt1X29830zIWQdJNYXIcoc2eDg5NC5RP7U2jTrpIgUqwjb8lFstn4WAVkC-Mx7L6mY0crFhQlK_sFQGOM8MRleK5__56JcycV572_CraSqyZJdCyyFpLJL818oCnEFq3XiVJR-JsB1J-ot0qTOv7y-qhh5qzF4CkyiO6Qp9xMZaFw89EU4Mj9zw4wQpkbjUfjbZzmdcQsrX7odLTk0OGfSP8wzV-4mm5PRPb4R55JFlAQIgia5V5WUHGPFtd_5uocsu1JYzoXitX-xupUmMppV8evHBJQpAD3Bt0B7YYElNyzIf2wiIcY2WpORrkvyZ0pmFC8kE-RcIY2Z4pl_T460A4eVebmN586oOvujtRTLsmbuvYJu4ZK7fO_wmYgZ12S0s0Bq6zjqzECAMnTWPcWtmGdCJ58FRsR7zEwvdx65tFTDAKB8fWhC7-RXOcK_4NuHGflGCKTPljSwmIZBfxTHveNcFNa8vdbGpdR6ANnS8kzW3MEbTI5F2DQZnUwYvKVQT-7igK6Y3t_ECWlL2vxYLrGI92AAmv32WWRPXaR5fbHmdUwbNd2z-3fcz48BKAAtHCM2upKRYWFMwQw1ytZZb5M2qYEaf3Mm1nTbK8CBlQpqnC7pbtAbvCvNL28pfTwjhc1py7Rfkz3seEnR41YtzIKKoRBJTYtBsctRA0vw5DQC6UV_87UZESKxweXMJRsrk3_0g985N50y11H9xlKiCeLhic8DEJWnEMCDW3ctk-Wy-3_slfWCFwuNA2H-GEW_gtbc2tDYELaBmcCHRmTHor4-xPp_6auCUQOM94FTL_6p97GX8Ysc4BpXi_ATOqAD0bLVPyATAXJ2SbnPCaXYYvPSrNC1Pih4MuL4xzQ3op7oqE5TzbuveesLFmrq6U8kb4urF8bvA0JW90VSMJg8gVGvlpSpr2dEuHoQpIwLQllTuGyJi-VGQJUSBr1ihH8Gqg-jybCEQlJKfxKoKH_0B6sV4eFTpt6hl0b_8JhE1ItH0UfzF6hlzWzta98Cr-73o2CyN-rp1qHwR1lVAgm0uW9WjvBphx8qpAFwo2wzKhkk0S1jAs=",
+        "summary": []
+      },
+      {
+        "id": "fc_08a8c04de8312ca6016ab3270647ac87d1a4920e032328c8ff",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"domain\":\"lane_closure_layout\"}",
+        "call_id": "call_bXfFBJaA0lzd79bYKhAu56Co",
+        "name": "load_domain_gap_candidates"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "End manual discovery and begin registering the retained requirements.",
+        "name": "begin_requirement_registration",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Simplified Stage 1C: in one call, return the configured retriever's bounded graph-gap candidates for one inspection domain; no model-controlled pagination.",
+        "name": "load_domain_gap_candidates",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "enum": [
+                "lane_closure_layout",
+                "advance_warning_sign_system",
+                "channelization_system",
+                "transition_and_taper_geometry",
+                "conditional_active_devices",
+                "conditional_termination_area"
+              ]
+            }
+          },
+          "required": [
+            "domain"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 7115,
+      "input_tokens_details": {
+        "cache_write_tokens": 7112,
+        "cached_tokens": 0
+      },
+      "output_tokens": 47,
+      "output_tokens_details": {
+        "reasoning_tokens": 22
+      },
+      "total_tokens": 7162
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_08a8c04de8312ca6016ab32706c9e887d19c6abaf67c6bad94",
+    "object": "response",
+    "created_at": 1790125830,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1790125832,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "SIMPLIFIED STAGE 1 — Call load_domain_gap_candidates exactly once for each of the six domains. No Knowledge Graph traversal is available. Begin registration after all six domain retrievals load. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 2 is sealed; no Stage 3 call is permitted.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_08a8c04de8312ca6016ab327077dd887d18b6aca75ac2e3359",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqsycIBmMqleMCObs2NEgtPBZKWJFZ_gB_5ct4pv-OcQDv6f2QXUfjWvbmtiCk0wd0gIcFajfQg8AympJwPwYCGQIVedhsTpS9ekjFg7PZ94v5X7xs5u-5vd0WfBsZAZW2oqByPFuS8IqrKvDDjzgSjJWqaLJgAdeq3U8zkYdvP7kQARnQ4ygpOWGfruBGAjcNoY1EGTnflnJ4kbbib62EvKBxVE5KqbWOqSgX_t3F0rpAnPYUJYLmvovB0kyVLRrg4SWY3aEZOCO0yMdYRZjvelTdg2Ny3PNziJ6CwI8U6Zgf94zTRS0hfUabxGaXDG3EV35dHf3qeYKq7rnoAYV_BxQkQlOarmuflhvOPQSp5nE019iKSFkEKf5oB1HLx63mhAB8eSqik8HZdAAWTQhIQZyEPv69a7fQGBVo9Mxl8xT8dC684AhqziX9GNV2nqFvAiKlcH7Rs3yjkMW28RIAjKSHjx7Hbr58sug02grvrCOICpMomF6O48l70GZb-0tVXFjsbCD_E1VMCq2XQs48k-MZk7_8MRdL2uvyVL4Xf2d7zE0NX2mICBB5vfeCANFEXH1Zt5SksItnFn4VnyG5psATYNLZqbG5N-jm8NYyP0Wally-TnAS0lQogYFjuYhGiX8-141OLgvUbNJX9CjKxLNkX4wrFOJdPGJ9y8adYsE0YwgxCYj57P4o1Q42xFEj-VkkDKmpg7EazagJx7_DRIujzSlQ4rhmAzeCHlY--bB_ZL99kHe-tGmzxGet081lFCpGMfbtoXT6U1JlCoJNxG24s4rCX4sV_F1l7_cbJPY-nL2CVQC2imupZG_JVG4A1zeofnJZW_dm_X-WzvPx5puasKq6WZFGFsGce1tHnjX-qRKdm6E3OoMXxER6vqT8DOSBkhfKz0TFGFqJ55AniSWYoEk5IsEtEa2Ny2FrzzD9tzZykPuxw0zBPtYH6vWWaxNT6VqHwvTM_gxVKyVforopAAvXMJdj022OP70xiXktYao5YZ4iVcFPmjH3sMghfPB9F0kQEVvthCHCKJ_DJWb5nMtE0JDODYJ9DSXFotLd-zh40urJgryFeIh-n6t04RXSNtSmy9nIWKfWWJdiLQIxVhPj1-fst19L9UV4ScYJ-BPlbMsNm3Kgq-QnGGSynYX-rheYE6sRY-PQOKahGP4DL1wkQKvzL7H2oYagC8fpNmZoDILpBaaxMAKnjw_OsEdelB319NYGT_8SsJfqIYmvmxA-_vzGCYLkp41ajWsgipWbCSQ7EFbkvEsPiE2XWHrBS8VsUOTUgbFxlmr5nnGS7N0KWIymoANYruMPRQuXjvrV8XABHxqatM5WZdYq09-oOXxyRavqNsXlvKnlR8atEX21GPea4YKyiK48ZuEU5vzk-BHs2znxNCwUyUIpLr9vZATlyBw-dzzisfAj_K3L5wB7ghKoy6bKNjMAlYY6zXXzE-W6synGV92fFasX4SFh0JZvhc6gBIQvL-l5BNJ4iFP3eCfdxLTrBs1mIMf3XyQ5vvRG-0F54axJWwCajQmF",
+        "summary": []
+      },
+      {
+        "id": "fc_08a8c04de8312ca6016ab32708366c87d19f4d37c5deb028ab",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"domain\":\"transition_and_taper_geometry\"}",
+        "call_id": "call_j9PVwUH6s39UEqsLtFXmfm18",
+        "name": "load_domain_gap_candidates"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "End manual discovery and begin registering the retained requirements.",
+        "name": "begin_requirement_registration",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Simplified Stage 1C: in one call, return the configured retriever's bounded graph-gap candidates for one inspection domain; no model-controlled pagination.",
+        "name": "load_domain_gap_candidates",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "enum": [
+                "lane_closure_layout",
+                "advance_warning_sign_system",
+                "channelization_system",
+                "transition_and_taper_geometry",
+                "conditional_active_devices",
+                "conditional_termination_area"
+              ]
+            }
+          },
+          "required": [
+            "domain"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 4819,
+      "input_tokens_details": {
+        "cache_write_tokens": 4816,
+        "cached_tokens": 0
+      },
+      "output_tokens": 78,
+      "output_tokens_details": {
+        "reasoning_tokens": 52
+      },
+      "total_tokens": 4897
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_08a8c04de8312ca6016ab32708da4087d1bad46d499a08f701",
+    "object": "response",
+    "created_at": 1790125832,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1790125834,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "SIMPLIFIED STAGE 1 — Call load_domain_gap_candidates exactly once for each of the six domains. No Knowledge Graph traversal is available. Begin registration after all six domain retrievals load. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 2 is sealed; no Stage 3 call is permitted.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_08a8c04de8312ca6016ab32709cbe887d182fc95aa2f0258ff",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqsycKy16m-L152B6VPK2PH9ypUjNt8IXLy5hi_0zOQrx3zAqlVaLF3vyaq_ZVrkGKbI90EuuGfUSGlO-MGN3MxONTzb0Fy7kMr8vawmPJQcBBqsoDc1uEynW4FaFOuvUrbmm6BGt8IA6-Zgytw5cZ2NZ8mffWNGY8TEgpeXY2iujbS9ZDInLfhNnk93pLpsj7nL9ok6buyWb3Jf9PT6N1X6VXcwylw4tv765NrS4vvKcpPvYhp6XCWZ4yzMNNrJWZRQEaReOyFrP6RJtE94mmStZgm9WkNEpm9-r7YFjV1vSh4cA8SgT7pestr8Z3E4GopG1AM1jc8y2-adzHPcqEIJzWaBPN5QFySijnKbIY1kSPDpK_bNbErX78SN8tjTb0NxLR0n75YA8Zh-XHs_vzT5loye_eJFyq9HHEohekYM7lVMaq5YCyKfmVBAxHdZGTRVY5tmsReV5apbX1zd49zjfEm4Ijm3YhcnhW0GKQ8hj4pyYks63cMPU1s107rFKkKcBnrPJ382OJQnh3qHMHogJ_s7NXNT7OcsYfGBKAeubqTIzKHULneJ0GW3R9Y-Otr2VypsroBrjmHz7vofbvWxUoySDN4XD6Ie5in98CXCjAHM2V-qxc2CTrbW7rVTLjzMlZg7dNCHUJsD1SbS049nOWEV6WZUYWmQkuZfXoeisH4Jt--jsHyesLAXpY3m4m4OF1k2E7SUY9JovTxbb8VazkkVwkxGSL1V2rgH5D4ugM8SZegbi1dMG3AhBmgj2Wd4tn3RH8oNSW7w6s6ye_gJcF-kzT6E_k_0WTVWw0LxzVnXOornnTaoORMJzeqqHUQ0lvhntzluqqRyRQ9In-BxdUN8hEOmfwvRov2VlmGrE9Amrf_F8raLPMVdllOCb1HoGsOouJ5vo81WeAY3Jvsm8alnTvV3R9QSMz9AAcdXjfWo7mx7pyhjf1gS8x31ZJHqHp04Feia-LWy6nLNyf8Ur-LNJBGYbvalQQvKZ7vUxSOkrkvXnXwQQh1_8iLgEbQcOPjJLbk5PTBVxUEAJQnHD2_9M1DHyDeBv9M7Zj1B8totE_hpwH6iFsH2gBwYjA666DH5_L2dKN43zOBp6DbBycSCB4qAbBphQ8UThtuLxItHfsmWJdiaCh0eLToQ9G0gndaNY72NyghHjMYSvxm7MMRUAHV57RJMkflyk4oBNscDxJUW4XlBtIp0aS0fQkZ6BY7xgyYuaLBYne4rA7dxTPpqiJDLQOLU0Xttw6hGO9fcutHG44_hy-XP543Yg3IL0LG7xH0FvYDH8FloSqV_GnxTr6D9Qzjouu_uS72GItOG6s7nZPibvQDTnD8DkIbKurPVnKNmMnmi2pMVT6qfNspwQx3u6PLblAZqmYfm06UaIAo6yij5XyKVf9k2lU9i-V",
+        "summary": []
+      },
+      {
+        "id": "fc_08a8c04de8312ca6016ab3270a30c887d1a267d598e3443f07",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"domain\":\"conditional_active_devices\"}",
+        "call_id": "call_tpYiOMmE7SCKjQMLS0B50Edv",
+        "name": "load_domain_gap_candidates"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "End manual discovery and begin registering the retained requirements.",
+        "name": "begin_requirement_registration",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Simplified Stage 1C: in one call, return the configured retriever's bounded graph-gap candidates for one inspection domain; no model-controlled pagination.",
+        "name": "load_domain_gap_candidates",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "enum": [
+                "lane_closure_layout",
+                "advance_warning_sign_system",
+                "channelization_system",
+                "transition_and_taper_geometry",
+                "conditional_active_devices",
+                "conditional_termination_area"
+              ]
+            }
+          },
+          "required": [
+            "domain"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 7771,
+      "input_tokens_details": {
+        "cache_write_tokens": 7768,
+        "cached_tokens": 0
+      },
+      "output_tokens": 59,
+      "output_tokens_details": {
+        "reasoning_tokens": 35
+      },
+      "total_tokens": 7830
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_08a8c04de8312ca6016ab3270ae58887d1ba97f68fe49b5deb",
+    "object": "response",
+    "created_at": 1790125834,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1790125836,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "SIMPLIFIED STAGE 1 — Call load_domain_gap_candidates exactly once for each of the six domains. No Knowledge Graph traversal is available. Begin registration after all six domain retrievals load. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 2 is sealed; no Stage 3 call is permitted.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_08a8c04de8312ca6016ab3270b9f7c87d19f95fcdb52bd191b",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqsycMffFChHAfP5ZHV6m5NlbKB1t1T-bo_x0z5QfeN4_1cKfn5M4OGELwG5fWRX3fSvXXoplZXVH3cpIkwkaO25mUgepBbCcRgM80QAzDbim_MVSzoQS5IAGLVLgWCGMrGrRVsjpPB_mOxuWLPyWf6pefSIvb-TpVWzZUYqh4fzrU-98202w12iJGW31pHQa6oWHPl5G48z-brvhHAFkaPn-8FzyGTVvmNnet_5FrmjVJZAZIj-atmM7QDEvd7w3PNfXwh7dKRzoSPFqR3ikUmd8X4b7aDcO4xBer0r6HoaHRfRy6JprJeSCu5qS5Z48NeRKgkaGAsJukq3Se6J2HHCA1fu-aXi-lcOHLFL46eru-n6TOSJ1TKGtmyf6gBrDpJk_tMq3lyoHRbCI2S7PCOg30MB36u2mDfkDUfocFb6z5aQ4vITPaAArYN-RBy3D1Pi9N2nOMrgbqYmpoB4cH0K2H-DXghbfHMKf9fX0ZCErrro_NyHVcP8Hwy3_v1fO1SVHRYAgyUwU1nx69xEuZG2-aLl9x4nZiijCuTd2A3kjGr7ex8gDvGJRB9Rwf4EdwAoMgkhBsrJTgI1E3FURRZjkW-MXIvgjnoi2mPsCrmOiGpsz579I1o0q_8dqgWAQ-BRvzcwHgSPat4PwMkJvU7VfJ-d-SuQHaffTe66Vu8D2eZGqTsWy5-pr6TTPC8EgW7dKtJcbSvzwfWMHx0SdnwQkoCpe-pGw7I3nyXO5dqT2xeOcKz11J0UMF__xZvmr0m78PR4INtVAJ9eGHlPTWmlp3YEv-ef7KKeK7Px5vPwPlaPHEBylXVfnVxnYTM9uAVCc-Meh2Y0BEBdfQxZFArZHLN6yZ0mCJy9chvHU75czHpE6Djl3qDTGEymkcXFt_tbyO9UOmCpF_hk5n6B_n_nQLPD1WLahejCQ1pqaY_HP6pn2OemdRx6zYMDcXlqMb9Lji7Q10OWNwYOx823hV1h7aAKuhlBCOl1_7azTIONyGdiq9Xt-tp91D65UNcZA_ZYq7S-LNGBu_cYNrdNT3OW8NzMsGC80T9ov8S2RPSimc7oIYT5V09AZfK4BbNTfHaZ8d6rXSBuy26bbzge-U_dFgG8sLQQYOIRPu-YH11mEkS9SZfbu_GG8BkhMUDcuzfm2k5ivQ3RbKy7JCBVAIXtPLgH12cKtnfoz25t4GLc3252UnagSYQuM69QV6f8iYqJAa2-8EPuCRFjcPkRTI0Nm8JEvmwHHnjFbBo6sPgPV4eA0=",
+        "summary": []
+      },
+      {
+        "id": "fc_08a8c04de8312ca6016ab3270be9e887d191f8b352e8b1832e",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"domain\":\"conditional_termination_area\"}",
+        "call_id": "call_Ko871Qg3quW6wKUSJUHlwwzG",
+        "name": "load_domain_gap_candidates"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "End manual discovery and begin registering the retained requirements.",
+        "name": "begin_requirement_registration",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Simplified Stage 1C: in one call, return the configured retriever's bounded graph-gap candidates for one inspection domain; no model-controlled pagination.",
+        "name": "load_domain_gap_candidates",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "enum": [
+                "lane_closure_layout",
+                "advance_warning_sign_system",
+                "channelization_system",
+                "transition_and_taper_geometry",
+                "conditional_active_devices",
+                "conditional_termination_area"
+              ]
+            }
+          },
+          "required": [
+            "domain"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 7327,
+      "input_tokens_details": {
+        "cache_write_tokens": 7324,
+        "cached_tokens": 0
+      },
+      "output_tokens": 41,
+      "output_tokens_details": {
+        "reasoning_tokens": 16
+      },
+      "total_tokens": 7368
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_08a8c04de8312ca6016ab3270c5e7887d1b4107f59219a197b",
+    "object": "response",
+    "created_at": 1790125836,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1790125839,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "SIMPLIFIED STAGE 1 — Call load_domain_gap_candidates exactly once for each of the six domains. No Knowledge Graph traversal is available. Begin registration after all six domain retrievals load. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 2 is sealed; no Stage 3 call is permitted.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_08a8c04de8312ca6016ab3270d0e5887d1a4d4bc626b31ac9a",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqsycPiFRked34Ovl31sIlTAOIvad0cc34PjirsZcf8-FlUppVn3rAsZHydiY3WhLrTYvAhRUVjzrs0Jy3JEcVccFBYLg8eHFl5GDWu8ydsZgsmfE9fwQoeNfzcoqSiEDzw2LoNgeEzpsg9DLex7MLOW8fxgZu8539pI_-cCa2ELKnOm4SCA3P8MlvLp6W-3_bPBvaNXB3LEvu_sQMyzd-4kIIFVTN5O0ofjrwXY7R2Hmw5GkfOrblEYgQlzRctbQPIDYpQT5rgB0l9m8U0ygIUL2i0Xp3Qv2gae9aPc5rIajIMiq5zwaaeq3paeIzwz813u_qLYS5UK5inHRDm69YQ-e3Si4KyIUmGYpeagv9CcIf_J5Yqux5YHQZIgJGjFrA9Xe_bFwT1ViFor1omdvjPizbRq2I6gH42qNNyZwEIuzIBXn5vpnS9BsGvEHJXg7AQiJ60jh9MbsgTEgdzmzse2bM30ZM2Ec7AeMkoLNRZKMa5-QO3RftcKXnoyk9I4v7alDqCmIBq7IINUGxkllI6Jv6SXE7Vc_P_emb1YMvdzZbVQGfJ9j_g-rrFf42dKINJdzSaKLB_KzUZcfeie_czOfo4DS7iKnAwENgTpNVB0bGmMhuepX_bt1P1LIrqeOmn8-a5Dwik49oirQvrOzA9zYVn2l2vB7Jh02JmlzKbgl5U9YAOr2Ik3U7J0aK9dGyjLLiDwt8RnjvtLwfkYArWIfz77HKFTqNIRLTbOsCTi9hd-kYdjL22jcw3lLovYjl0D2PcIqdnwN-yOd_OYEMkwKDtY76gWxi2jE1jMJxWbPKZxSp3s8zOi73crVDsXVkc2I0iMFYKZ6BseU1g8CRa0QLwg4Baiv9--Y6EzjRNKLtuWKoHTB_yjzUM_UMj6fv2oW_W-R80ILzyMwf1Datt4bdstfW7ZYpJQkxxfME6gRa4tRJRrulg5uYguYaL5C4ECdfKwEe1_9oWCDBcwiUF3u55tc7p1dJcI2t512DZ7tG3auwRNZcvGQ7HmTWnTTld3XmCDKC9qXPwXQT-d7cLHgwVWSijnlhwrqfXaK1e-wpaeMHLai_gBBaUDTAMSw_qcfXJQdqbLilyEJF4lgW7rlgDWaP2oBGMRwFDF91JCfuRKtnywrn_9jzVqHLtbJjuU31En88HV0tVyGwElrRT2-M2BCrHDm90OwKJO9t4r5oJlOfpPQhDVs-hEwlhklCUcOIzexlbMBpAhgLMMGXrU4V1TRtMifROm7VtW4OZohgR8sfwaFEP3mOzaQbW7qKIaEq9Gab5G4hg4jo85PNvGMGHHMNBxW5ge0XA3sfPDdkC8CMvAVdms7rN6t1v0N-rIwUbG2H_TXUGi_BGt-qw6RfiaM-VRBCJCI6U9mPAb1ISJlPpc9yQKb-1VF1px3fcED4DaP4G0iyLQEkKyajpExPoXBPe44DJe9l-NUJ2d-C2PWRhOZbJ2zsjGlTU25gYRPcmpYzDS0D4K6xSqUKE3U1dNxTubfrfgAkYjixtAMzKZIyto8ROeEpcEQBC17xzsz4p1cgM1FUR9LmguRpasj0cTuz7whnDtxpkkQFQPKqMxPooY3FcextXpeLL5akkbx4EEW8GsttEqY4M60MWcekOrT1I1hBVezbENPbIMFP2hFh84b_FlzZLwRKMdGpXDi7zSQ-pYOXN3Eboa1hk91eOEfwq4G2-_U2EDKkrsnFg5jEOtk61PmB7UbsiKfV_SX-p9cRZGlU-Tu1Yel9OA4qFmXnB5L5n6k6zm_lkTnFS9ARTdRYX1gaERTSAkVl__WMSNUdJfXqlZPESMPs69IBRO8W065PVHaRrNtOCKPXNNkDuQfm-2MM-kt5K1s2fdlL8u0kM7zhwok6HviGORj3GraJgOJO4d2l9cIkW_6rpZrdyl1q7hAxyGv2xfnCKRdJ2JiN-h7JDn5wRWRSXC5Od_WL6zpt4O2mqdqO_176cQ2k7CflU-OY9-nkj2x99jnRPwqDn_PRl1ao3A80V7aq8HzYV8o8KKT8ZRP62Ai40eZj78OHhgamHYUjhfJcJkiO",
+        "summary": []
+      },
+      {
+        "id": "fc_08a8c04de8312ca6016ab3270f047487d19db8798ec73e3917",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"domain\":\"lane_closure_layout\"}",
+        "call_id": "call_ZrFZ3rZ8y7GXpPoPxRStPsTK",
+        "name": "load_domain_gap_candidates"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "End manual discovery and begin registering the retained requirements.",
+        "name": "begin_requirement_registration",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Simplified Stage 1C: in one call, return the configured retriever's bounded graph-gap candidates for one inspection domain; no model-controlled pagination.",
+        "name": "load_domain_gap_candidates",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "enum": [
+                "lane_closure_layout",
+                "advance_warning_sign_system",
+                "channelization_system",
+                "transition_and_taper_geometry",
+                "conditional_active_devices",
+                "conditional_termination_area"
+              ]
+            }
+          },
+          "required": [
+            "domain"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 7807,
+      "input_tokens_details": {
+        "cache_write_tokens": 7804,
+        "cached_tokens": 0
+      },
+      "output_tokens": 147,
+      "output_tokens_details": {
+        "reasoning_tokens": 122
+      },
+      "total_tokens": 7954
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_08a8c04de8312ca6016ab3270f616c87d1b05ac679909b82cb",
+    "object": "response",
+    "created_at": 1790125839,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1790125841,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "SIMPLIFIED STAGE 1 — Call load_domain_gap_candidates exactly once for each of the six domains. No Knowledge Graph traversal is available. Begin registration after all six domain retrievals load. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 2 is sealed; no Stage 3 call is permitted.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_08a8c04de8312ca6016ab327100cc487d1a4f32b007d7ea1c2",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqsycRPir-FDMiYTwIxBFvB3jSdW3cjjsG1vTMH5TiCmfpdwVmJoqzvPy_HVIrQ7-rzw-6E0IKWpWsqyT5q6T4y-Yn0b_j4NyndIw-9nUwrKoY-ngTLDXBq6gppyLhBZv5lbCQH6jH99Mjc4UUDIJu9P1_HU7nNva9nt0jkifYPfqz0TJbkr_4mVoXHjVtXctHRnJJjZnfYfEpCRgEMHAD7_9_4GKRkHB-p8Ge0rBH96hFIIZPBRtUW61bzplni84vk6PaQ7-Jbmlf9SpBt5_fpGG2al-rYaAFdhg9a5ZBLISdDbq4qlAtPYaZxDQtfTL9tPr2-nJj_Xbhcx8uOIs81MkTtH6ytWgilMEszqwHVPdDHWi8zymh5I2-5iEGQ-cxer_iEvt3i36NsDkNQH2JSngLnz0UrnGDHj2xSmVuEhT0t_4KvVDDcJK2ifP5sY-dIyQarNqoNyGTBDFEbrsiVdIl8Rr0JEWY3hBK8OhUn-lt1cYzNmcslOHn4lAIoH5F9IDfH9aMLXhQG2P-rEnPXL0sECJbFoY7Xm72Rs_BplmbHR9IQ0dQFCnfNWbX49BQMYgNPxJH2DKVUaCWgWCAIpX22fSWsXck3l-EtvOzt2lRT4vFa75MPXtkJjXuNAmBrzvlFkbYmBOgvDoQe6-yHiCa0qxO4ljcbUdyf8V4--k648G3k0U3IFxhh3X2Lu1-6LAd4EOjQgcSonTiRtz6eERZNNQT0_LW5LYo88AjA8QqUgOOC7bSJTWk05JV6BVC0AJi3Xg1IAUGe57B9R9CTTIoVqqoBhSHWCwYJKojv1LrgSh_Y7U_mJuTPJ2OfZ-MEaJh6G-wBg6XokCwS5JhXnSbPX6fPvrEQUHvVcAHDKtvps552848_BxKbwE9qCxxz2XYg99eSqaOSxs4n9AiIbV65pi01pHuu9JJ2vqcV4gdNvzzio2LJ8l2AAoJuqXRhOl0sq810QDlwD8zn3j7ZFrQ1u74o8stLmazkYZdOr6PHiYFzjRApeKtjMqNOJTMNn3bo89thmRlu8HNjElsIeLHOQUbBAHKVbFZBtZxKlKsuqb3lexptEFwm9QAX3seSohqBX_EpJkh8lKXj4RdZ2YCn-JmItwvvmMMZH58WdIWjeVAsLaKfAB3GwmJsBwcLbNzrI7hwq93D5OvyHf8yhDXOytfnmnY28elmYFHsmS0rsAlY0aNHUgemZd_z74pdZGU9T_kuHKHOislBSbehe14zA58JtZaEPg9CLFaubdpB0X9n3qx4W6w06j7MIrsDsvvBqWZpc-jlVoAPLC7QJN8XIc5AI0YCr4Ax3zXwHkq0Oz70Jr2pk1oaYT6YaSed3b2fmUnuZniDPxl8kpZs_fKcTKDDHUZ9xe0EwRFqdetLFUAcsBKaH8CKoVwGYlgV7B25Mp5jgt3Q5FFLIeift0mVdos3KMYBRDAiSNsLHbNRdsfd4DKhuBKyZ7o0RVgPu_5OUO411PPAMj6XTAvqeWQriYAweGjgiR-Aj-ikbuFlJMmKcf__q_r2BXfybr5fWxuzDaiv769PID2sM3n2aE1Hi_oZnfz0juk39sVRFVSGhxEHYQqMtq3STbbdzloMwRtxCetqXN22u3Kgo2Ui1Eb_ws27F4Od7EI-ZlpOrIZi0S80gvaiFw9Bc9TjjZeGv2p_kDJ1AN-MvrBlp-RNTJvTZT_c4GHkh6yjRYPs0SBKC0bs5NdfovbDQI5fa75-gZazcPkjrVmyQm2LoE4KErSoA==",
+        "summary": []
+      },
+      {
+        "id": "fc_08a8c04de8312ca6016ab327112f4487d183f46d3a4eb0c60b",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{}",
+        "call_id": "call_OrvdwP5qymL0e6hJRknWsyH5",
+        "name": "begin_requirement_registration"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "End manual discovery and begin registering the retained requirements.",
+        "name": "begin_requirement_registration",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Simplified Stage 1C: in one call, return the configured retriever's bounded graph-gap candidates for one inspection domain; no model-controlled pagination.",
+        "name": "load_domain_gap_candidates",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "enum": [
+                "lane_closure_layout",
+                "advance_warning_sign_system",
+                "channelization_system",
+                "transition_and_taper_geometry",
+                "conditional_active_devices",
+                "conditional_termination_area"
+              ]
+            }
+          },
+          "required": [
+            "domain"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 5478,
+      "input_tokens_details": {
+        "cache_write_tokens": 5475,
+        "cached_tokens": 0
+      },
+      "output_tokens": 104,
+      "output_tokens_details": {
+        "reasoning_tokens": 87
+      },
+      "total_tokens": 5582
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_08a8c04de8312ca6016ab32711748c87d1980e68de6c0350c1",
+    "object": "response",
+    "created_at": 1790125841,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1790125849,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "SIMPLIFIED STAGE 2 — Use submit_inspection_check_batch to register a concise set of distinct, executable field checks, not a clause inventory. Related branches from one source may remain one check when one observation or tool evaluates them together. Prefer coverage without overlap. Project-excluded scope and canonical provenance are program-enforced. No candidate exclusions are required. Complete all six regions and seal registration. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 2 is sealed; no Stage 3 call is permitted.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_08a8c04de8312ca6016ab327120f7087d1a5946944893b4d37",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqsycZxGstbcfmdyktB467TGRCPmvESLEjteXenwc2fnfdla4bkFTEzWuuTq1O0Z0GjUMF1A_pkqWbaAOFCCsf1m7szQ0roD_opOIDI9r9VKfaKbef5iEEcR_IBg5eQJMeBiHuw6uQc8XN0pu0Lczu43e1P5RgGc7VkG93-u8yVX2Rdoiso2BDDjwUObfXi5Irw9bQNwTxJcA9R_MJ2u3Lzgd3VJnzOaDMpk5tna4bY3BQ-QEIOXAoTwqewpar70GzL5QeqxS6yHR94AB3sy5irZ4TzPI0cUOGo6fe1JcVA2aijeFoPYWQsALd2994DqQ4Ry24dLK5CoBUwdSYLPuByR5FTHRtJVpRxe32CAZtSZ6kipe6ViWtd7ypp42lXzxbM1GCD8yVdkk47UVc1kjzDmN7P6MpFjPqN2I5zfgQP8VefHl3qEh-R0f97G-F0YIzLT8lFAl7ry5iJ163jO6LtUgRoyGm6opi-Y4YcfrcBR66AL7DQmU-V--ZbHVH-AV17okyn2LjZZ1BtGOgy6UqhmYIWnCfLuHjUiImSWkE-P_E5sKgSiPdCFvzZMbzVdioQW55_JKcjBZFFmYdYy3qA3iEKMERp5XGIVr76Mw2b3jmTUXuV7w_JByAuQE5bVuFBxpxGGOX7qb13ebR5ahqSwgZ7npg5sKFGfLbnyL9P89LmoALgfI39v9kP-DGA8e-5u8qDQa90AYX90P5bhviq3wzSthCzMxiucW-wJnJ7xfpPZcGhdBX73THB7uHCKv7OUkejSKlmL2lzo3JvVilRax3095-SZRNK6DkoCOnP6fLBxJFFdSlWkv1Y7AwA8e3hhUaFWlW_MQVt-e9z81mL7a3fm8662_PmzGRpzDmMWXkeWHUXnBXVOFCOmreRRXhf8zMvcc_vGyeLPJ6NWFv6fFXS3GVTYZhqcTqqW-cdNJl9-9UiIP4swUnOYFw8z9EkWZycizDzS7BRRibtBPjI0i9qakApzQ9E6BIKtvyxAR_Ntk_jqfJzkrVOYVYikBLjzjZNgFLidfRhL7onhocetkYrc0BNYj-Vek1VgmFgMowm9EsE-De88Vx7yrp2ATUttf1-2GUEzfUtpl_9SGhZH1bNYHbuQdEf66Je3__cXPhb2s7-o6aIIVWc3udcyOuvQe1S0Nu8j_hCKSDwysoPlmggzP_cEzOfuZFhUq-9qQugevNC7d9vEDwq9WRwZg2HwklHY4BIO52Q4MPz5ySVdDciQ0TleeiOzqbuGQuAP0ikKI_TQNiNPChJ-_RE7bF_GCPIf0SNbcKXCRML9nvE_egEAG5BfSdyl_5y0fmrDkDHq7y0QRmUDmZrg6B5_8cn057O_QcTXVJKSLHmjn6dBbZc_DTQpdP9JBV90a8uXdrBCQzPVigSm6eS2nrgDpbn8eAtVOsKcQqFs3t5GQDw_Mfd61RJLKngYoMbC-tRHxzKcjLKYoogw6F3WMT582ezZkf_kbAkZtU4VWp4Qla8NNlK9RK8qDISf1YEze4uF4nsLQ0TQfO82TD0Pmzga2NnKda5Q7uDmfxdbd1_qLNF0BXJ0Iqru74c-wsOq8zQsPiPIHkDEt9rmbFgSLgfQKp1FrMEKmMphyBSBVx6vYdvHUXT6xse7MVdocjczWszqGxfarFgguodtCfM9AC2kTtobcqk83_sqCeLWEkhWd8NjPzhwBsp-yw9Aox_rZRLc59bqmBqEvijJg_yYC1K_weTxQYnWjbtw4WTtSVskq7TqYkL-xEe1YuDlG2gd0M6_olxqF8W2ceaoyeejmsqCSf5b2T-Md7LH_mesdBtRUFduwZ6TkKKD1Tr-8w5iOjt4MpM2sw5kH78o9QdO9inh3QoAN1gbfWfrWykGToTPY-I5YEiNde6ra1-m83Ct5-p-GH0EalP6yquYLwFXalKec0YNxEBJ_FRmAXwanTBOOAKQFas56wU7zoQXJg2rZse9OSGIR6NZZiBzEugnTJSNhlNY8J4ne7jAt2QAxyTWsLXvFMK_In0TnCMJvlybMth6MiQoE_J_BWpeWwJ8Q4CLElAIz7fKekU70mYCv_Vdu9no8MGEkdrj9CPq5Qte1wki78N2nD7PRXP2kB7th5uvvlegB3rDoiCuoMIeIBEbQFVIXVn24OU87CrF5HCUuxlVuY9bCN6W2bUspfi_qW7WcwUICAbcSLiaq_i2HygS8s-YQUcSIbjWksnJp6mG93hOkbTie9uH33uuG8Pwkm8LruocHxCO6YYyPfhDiRYw4VYr9uQL3tWd4CuigFa3Fces2kYcMzsNFiQch3TCACV0C7w8Ya3ZJOiw6onDA1-aN0OHy6Qtrk6MLt590hV8OJkeXidy9-a66E9496uUKjK4HVJC9VQnFjTmhfqcYzREpg4yIzTGUQnTfKuLWL26dfwZFi1YyvqYPDgWnopOWzXbm4n4cFqIl4Z8WkIxtVmxpoSoNJ8y15bOU4-DBYsNPGe6I8tHDCKQDWQEmE2ieLyNyJMUGLiRaNNdPDH8PbbABuZUQ-b_aQ6UKJwTrCV1mNahZwFsW0F0Id30YB5_etpsG2jWzJyz54iQRDaU6lvIHRM0fZ_xReB51Oo6e0dLz0jJAifEeS5jEM7Q3OtAY6N6ey7yKnq4kGQmtIVOMfvYB-q4uVTlpa5rr0D7l8geXQxGEPjuOpUPutS5DxHHO3acv08Khjw6eg_8JtqxjOExwEpZRfMPKA0VvH8Y3Jg1gg-aPD9-zoVcuPblWe3cqrYRHlXHH4tmesOUyqJPE-Tl-t9Ku_KNObQRJQktlv-503Bc6Dgt6VeZ9o3PDPMZaLPwzpUmp_S77HJb6zOAHCWyK3Kj-i20oYSqjxV9BIeVUYClO_lGDomkMfijLzel4OFeoKXINx0_0ReyQmf-2sMQMxaTsVGHsgt3L0Y_B4aEBKmtBNwe0NemVX9owaPaHFxKGIA5oVyiolHdfZWWZhKdaXEtlUG05JX8j8m45lt8Kkf0nB6aqV3FSwk5T7rwuctM19aGX_XdVEbMRInS3s7bkkrsmhOFPzTldCXNLuWK6y5euImur7wGP1pM6m8Gx-K8nUZTCohr3T4_hp7EGDZhe2V3ABLTamAVGKNc6i-_tL3ANLOFS4kWmvVYxZZ4_VbXJVlGDXjeSYjXIaEYoIgzuNkokFQfPfWSIVPBk_KzIUxlxrv8tAuDbCSX974-uHCVD_U2M-6zqUuexyUOwE-fXR5mgZLy0XBHQR2c9U8LRoxwN1Ssxb-kTd_kfEiIoLkbVCOeAzUnBadxBdeUgTJuwi-acpcmVMfSfG5BsPgF-cv6SXIDZC_bWrvpaavPqC50LJdi3JBiywdEHh7djbfoc0plU5dFuMc0tpFkWlErd1eLVkx9i9eX0ft-6DtUE1EpGuN7vOT0xooatarsWWg5ia2YwO4f6blYsb8m3ySpIS7gbN4ar7jaKzqOdio1289_4VdrPmv_OdR70a4Vzz_To-SD6jiSyy-rbF_KuHk4mEA97fN3fEv_tWXCKKoFDc0Cq3y2U3vUikCNtLPfUl6WeqE1pyPDPtTFwGuJI0RZqzZ5Ab1JPlwNUtDW5KtA4B_J7qicQN7g8_gXh6tUFDzh0jlbPNyQXQI2tTfgsYJR2qwDr9UQGVj6yXftRk0Mdi-0OjjyfdnByd_rbHWFqKmcvkqUiukMLgvVrbf0lqnCzZ39JCBknVUmlsF4CdgpCXvcGZm1E6tWF6YnxtirMXj6DUCru4y5WuEjWQK78UhVUKKjLd6tKk6lH9CHui69r17XLM_VLEBbF5T5Os4h1hHb5t75RlB75HiYycnSI-Rtmbb8fjd7npzZ7jNt7Ueo_HAwghCQ4WorLZm2BZoC1wqYOOUt0qXZNyzQ8W2Btk3fdsv1GZ9UH-YJs-Wi0hnqSUJhDRyYXa9YEGH1eC-MyPHC8Zo5Og-xYPKhEf00t7soHO6GjtvA91CQ1KPH6B6vZ29V6PFnUMq6aIprMiDZhNS72hPw9-2f73R1DvGudIB2GspPvnc3icdidmIut6DzfJ4lIvoLqNkI8O0Srz8OzFn_bxDXdox0K0ItN8gsvpH_GclwbCw4PvGnqcrYLXjDgfBU35kvRWIJ6hm1UBly0TCf48hjeF47NKaTQZf56J0BLeYeIcosMh3LzUg_yNi_MKMdkj1XpVBinyaWyw2zU8Ok8IthyNGkFFydzCvcDPwKweUNXKuA37UUWpp-jlKD2sY1AjaldkvqWDJqqBLBDZybZm6Kay5gEye3L4VHO2uQnEeFhdaRbsoFULrpLxrpuBBh5VISxdEp1ORvNIVnRFgJgwmexRd4gAjQ0p9IAmsyuwCVkuAXgJ6kGBFL2ui90dmqMZlb0qckM5cjZ19HsY5UbH7V9rpNNJTamLULs4eymgYEuKZjgmPcorlZnl7HYMxaBdywBgpxiEqKPPIW75RSNF7NFsIER0Xiz-_0JkZuBM4MTU-9X3_psUVkVsCs8nDDFhLup5tEMZken2JmeIljNmnUukAM1Fvui93MHxxs_kvSniJpKfE07y7A2zKdP_ALVP0LKD59jVmLtPIDqycm976SDLer7ESnPXqbJgt8iWLvr3HFPkIY3n5hp-tuKbYHSh4lSCMuwgnzWoz4QZGjq4IUENTYwSldFwlD8mN3a0ZDH-xuJnSjbJA8P-D25kgdsokC_Hzaotbs-YqpZj6HaAv-xDNiDFDWKGlR1jAxHcnJ6TngeHy2ozNPd2pILOTkiW3lW6qGMOdBzw-fzjZ8pR4Lxl-ynbIkscOXeO0DV5OW64CnvvpyRzUGILUbLpMFNfcYxoS5YrWo4RvoaXQw6HUr9-rg==",
+        "summary": []
+      },
+      {
+        "id": "fc_08a8c04de8312ca6016ab32717407c87d1bb6f6588656c573f",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"regions\":[{\"region\":\"lane_closure_layout\",\"status\":\"screened\",\"reason\":\"Registered a field check for directing road users from the normal path to the new path with appropriate TTC devices/methods under SEC-6B.05 paragraph 02.\"},{\"region\":\"advance_warning_sign_system\",\"status\":\"screened\",\"reason\":\"Registered a conditional field check for advance warning when a paved shoulder at least 8 feet wide is closed under SEC-6N.06 paragraph 02.\"},{\"region\":\"channelization_system\",\"status\":\"screened\",\"reason\":\"Registered a conditional field check for channelizing devices used to close an 8-foot-or-wider paved shoulder in advance under SEC-6N.06 paragraph 02.\"},{\"region\":\"transition_and_taper_geometry\",\"status\":\"screened\",\"reason\":\"Registered the downstream-taper length check from Table 6B-3.\"},{\"region\":\"conditional_active_devices\",\"status\":\"skipped_no_inspectable_candidate\",\"reason\":\"Retrieved candidates concern directional-roadway device covering, detours, acknowledgment signs, or signal/AFAD operation; no applicable inspectable active-device predicate is established for this scene.\"},{\"region\":\"conditional_termination_area\",\"status\":\"skipped_no_inspectable_candidate\",\"reason\":\"All retrieved termination candidates are conditional on temporary signals, AFADs, grade crossings, or an END ROAD WORK sign; none is established as present or applicable in the scene.\"}]}",
+        "call_id": "call_8zHCxr9TfIjz0GWeBu6KAhX0",
+        "name": "complete_region_batch"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Record screening status for one to twelve manual regions before requirement registration is sealed.",
+        "name": "complete_region_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "regions"
+          ],
+          "properties": {
+            "regions": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "region",
+                  "status",
+                  "reason"
+                ],
+                "properties": {
+                  "region": {
+                    "enum": [
+                      "lane_closure_layout",
+                      "advance_warning_sign_system",
+                      "channelization_system",
+                      "transition_and_taper_geometry",
+                      "conditional_active_devices",
+                      "conditional_termination_area"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "screened",
+                      "skipped_no_inspectable_candidate"
+                    ]
+                  },
+                  "reason": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Explicitly disposition retrieved candidates that were placed in a domain discovery ledger but are not activated final requirements.",
+        "name": "exclude_discovery_candidate_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "enum": [
+                "lane_closure_layout",
+                "advance_warning_sign_system",
+                "channelization_system",
+                "transition_and_taper_geometry",
+                "conditional_active_devices",
+                "conditional_termination_area"
+              ]
+            },
+            "exclusions": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source_node_id",
+                  "reason_code",
+                  "reason"
+                ],
+                "properties": {
+                  "source_node_id": {
+                    "type": "string"
+                  },
+                  "reason_code": {
+                    "enum": [
+                      "activation_predicate_not_established",
+                      "duplicate_same_compliance_predicate",
+                      "excluded_project_scope",
+                      "non_normative_context",
+                      "not_a_field_inspection_predicate"
+                    ]
+                  },
+                  "reason": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "required": [
+            "domain",
+            "exclusions"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Freeze the registered requirement set and begin data-availability assessment.",
+        "name": "seal_requirement_registration",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Register complete, source-grounded field inspection checks. Keep separately violable predicates separate even when they use the same observation or tool; combine only inseparable branches of one predicate.",
+        "name": "submit_inspection_check_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "enum": [
+                "lane_closure_layout",
+                "advance_warning_sign_system",
+                "channelization_system",
+                "transition_and_taper_geometry",
+                "conditional_active_devices",
+                "conditional_termination_area"
+              ]
+            },
+            "requirements": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "candidate_label",
+                  "subject",
+                  "relation",
+                  "threshold",
+                  "applicability_conditions",
+                  "required_inputs",
+                  "source_node_id",
+                  "activation_basis",
+                  "measurement_spec"
+                ],
+                "properties": {
+                  "candidate_label": {
+                    "type": "string"
+                  },
+                  "subject": {
+                    "type": "string"
+                  },
+                  "relation": {
+                    "type": "string"
+                  },
+                  "threshold": {
+                    "type": "string"
+                  },
+                  "applicability_conditions": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "required_inputs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "source_node_id": {
+                    "type": "string"
+                  },
+                  "measurement_spec": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "required",
+                      "tool",
+                      "quantity",
+                      "thresholds"
+                    ],
+                    "properties": {
+                      "required": {
+                        "type": "boolean"
+                      },
+                      "tool": {
+                        "enum": [
+                          "audit_channelizer_spacing",
+                          "estimate_available_width",
+                          "measure_buffer_length",
+                          "measure_device_spacing",
+                          "measure_downstream_taper",
+                          "measure_longitudinal_distance",
+                          "measure_sign_spacing",
+                          "measure_taper_length",
+                          null
+                        ]
+                      },
+                      "quantity": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "thresholds": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "required": [
+                            "condition",
+                            "value",
+                            "unit",
+                            "violation_when",
+                            "formula_parameter",
+                            "multiplier"
+                          ],
+                          "properties": {
+                            "condition": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": [
+                                "number",
+                                "null"
+                              ]
+                            },
+                            "unit": {
+                              "enum": [
+                                "m",
+                                "ft"
+                              ]
+                            },
+                            "violation_when": {
+                              "enum": [
+                                "below_minimum",
+                                "above_maximum"
+                              ]
+                            },
+                            "formula_parameter": {
+                              "type": [
+                                "string",
+                                "null"
+                              ]
+                            },
+                            "multiplier": {
+                              "type": [
+                                "number",
+                                "null"
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "activation_basis": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "type",
+                      "fact_keys",
+                      "evidence_source_node_ids",
+                      "explanation"
+                    ],
+                    "properties": {
+                      "type": {
+                        "enum": [
+                          "unconditional",
+                          "scene_fact",
+                          "selected_ta",
+                          "combined"
+                        ]
+                      },
+                      "fact_keys": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "evidence_source_node_ids": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "explanation": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "required": [
+            "domain",
+            "requirements"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 7441,
+      "input_tokens_details": {
+        "cache_write_tokens": 7438,
+        "cached_tokens": 0
+      },
+      "output_tokens": 820,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 8261
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_08a8c04de8312ca6016ab32719bcd487d191def2042ad7b4fd",
+    "object": "response",
+    "created_at": 1790125849,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1790125854,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "SIMPLIFIED STAGE 2 — Use submit_inspection_check_batch to register a concise set of distinct, executable field checks, not a clause inventory. Related branches from one source may remain one check when one observation or tool evaluates them together. Prefer coverage without overlap. Project-excluded scope and canonical provenance are program-enforced. No candidate exclusions are required. Complete all six regions and seal registration. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 2 is sealed; no Stage 3 call is permitted.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_08a8c04de8312ca6016ab3271a44ec87d19b3dd89bae140ba8",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqsyceMvtq0At4qlFI-QfRmI0P5SflpUMSSEQkQemU0qfVj6lRuaRSs3AB40E7CQX1FNqJZ7rL3tCm5Mq1Xby07wyR2Ia5x1EJunu3eCL9xa5QTkPmC3ICPT1Dw1IG1-NfIAFu7rOmf7D0n4t9kjuzq4JMXl2NE5mT0PeZBDHf2rJd3GHuCGoksrKUBgFmB_Ogum_5zLkFyrg1mXnFlO-IimnS4ehyiwygWGo_Xwb9esiLLAVwLgk907knhaVAen70JNOk2XqcTUgoxUlAIuSCvP7hG7m5bhN1gmeCwEsmxXeOs3ZTuA4_UR8i2cDIHJQAqt9dQ1OcIeHtwrhdI5JvXh9NsXcxRTVvJiPJBE1h-H73sZuBfVZzn-LDZnk3C4toGX2A25z_wc5wYP3XjP4AooCpglb3L65hHQ1_hRzzcmLMrAv2i6StFx4ZHrq5kSXlBgTGCsnBAFjpmao4r4yZoKadC1jNXHXV-oPz4L8blD1K0Z8Vcggj-NiCPnJGa-CH0D4WCd7IC-sAOklPvLp_vaOEljzjFXGhUJCedsyZs7DJdwg605e-VQ1QgaOU0z3UGu4N6lp6XATg2akdNI3mXaofzAH_B9ZIi7J6ihlI1MvnUzwC4Fe_kugxp1tAm_4ulSi6LC3tMtVgqT69hc6GkzJu13xPVW0ujS4VYg2ZNxJvIDHh9kE4UPFyzxs4txUR380gziCxFIZ5a0U-ykL3mGFfY0StHSM9Ir_6pLrL0fA008WKEm8TB0Zlr2WrAKWmDFjZKee8FPE04yjQ6z6-AdEih3r-MdwLYCBB_HgZ2NGwIB_MJV5--4vxEBO8MfTflrSnIHXPAgcEPOSWGEiYdZ3OXoHtf4ZtybY9jDD1zQQOBo97sahejYezA50AJx5bUhabj7d2wCQBKv13iX00yH0HtS8-D9_3xfvWpus8saQYJnZukHVGveZw1FQT5TMwCiBPMJ5y2W7qJC1nznaxH54AXsVDstaNozkZHD9SSuM-SE_8UGCh6XiZ9qepWL2VHLNH228Te2ly-0cZ4GktGxTa8CHHaxEyL-qXhZm1LUghONISvVEnZImAmQlVJLPhjeiXcV3UUy76-e9LoyY8L1-0v5ZuZ_jkbxUyZUmveRE4IFOWdiFYgKf2h2ZdaIAqybOAV6bIaVa8Vl1Vdw4EHvQLXxxa9WzCVJQyLVvng2pbJzRIFlGdc1pnZ50DDtzQSZaVc5JnO9D7yj3r5d9BfBNTtMPTJuLLV-GRhdJ4nEQxLo973gZiednBSvhAxe30mgzgFNGZ2Z5ucYBdYbB87zgmCr1XIv2cGrsKKdOI8OrLmdkksnHq-X_w7nxyqBQ2Yq2tjOJYU9lK_xPSXFUFp_d2JaSuRVqloxH76BJc7k_CYvPiAfyFkNj_zoJ-V5iVPNLT7qxucfnOIS7VttgCy4SEOYHiHr0LM60m2cS7jHlWTW9TN83h74n_5bZh0WHC-Yjq43auZo6KaidSB_S7YtUqzQwnOSCn3Jy98aUF598IMeg_8X3CdE1xXuYNJ0S1RiAWxlc5dpc8LsGg35o01uI6zLubwTb54ILjbMHUEprxarkL--SGm94DyD0v1tb49G9sQhK394jv2G0VwXMeUQ_HPqF0n7gs1u0_wHZJo390-7A-LFq882WmX8YNmdj2N3Jo8xZZ37B6qU2mOEK8y0zQkrOstjxHvKEV1bcnb2CcqR611FPZxhPJyAcy7HRmRHSZw0Mv0kFFgeC09cwKQFp-KIAnoU9V5GW_v0BQvWXs-h8GdNiPKwT3AJ22Wz1VmoUwJsmL4oAU1L6ZAWq3MsTSoeOI6kE07tmPivmE7kIIqq8mjaWyAT5sljME46xqQ_AysRd4PF1IK9nw_JkfEys3ByC5RxxuthrK30Ca7n43-ivWQpBKimLn7kNO-3PCflPT9KlnHuvdpTyOzmxrWgHOhKB1ccUU4a8v9N4P3xd039R1VljDimxs0KYfuvFHd8QTy2iDYomM6swiPyD3OadoKByfaAjQP715Pi0IqIBjAyPIxbMLf1-D3ErcYk68ANHbe-Sk47yvXHVdR2U_EaWi2g==",
+        "summary": []
+      },
+      {
+        "id": "fc_08a8c04de8312ca6016ab3271ba44c87d1a13d3fc3ee1ae6e9",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"domain\":\"lane_closure_layout\",\"requirements\":[{\"candidate_label\":\"Normal-path redirection uses appropriate TTC treatment\",\"subject\":\"Road-user path through the left-lane closure\",\"relation\":\"is directed from the normal path to the new path with appropriate channelizing devices, traffic control devices, and/or TTC methods\",\"threshold\":\"Appropriate redirection treatment is present wherever redirection is required; no numeric threshold\",\"applicability_conditions\":[\"A non-mobile TTC operation requires redirection of road users’ normal path\",\"Scene has one left lane closed on the four-lane undivided roadway\"],\"required_inputs\":[\"Field observation of the lane-closure path and installed TTC treatment\"],\"source_node_id\":\"src_586d1639348f00b7b529\",\"measurement_spec\":{\"required\":false,\"tool\":null,\"quantity\":null,\"thresholds\":[]},\"activation_basis\":{\"type\":\"selected_ta\",\"fact_keys\":[\"closed_lane\",\"lanes_closed\",\"roadway_configuration\",\"work_duration_category\"],\"evidence_source_node_ids\":[\"src_586d1639348f00b7b529\"],\"explanation\":\"TA-30 is the selected applicable layout for the known one-lane closure on a multilane undivided roadway; the source predicate applies when normal-path redirection is required.\"}}]}",
+        "call_id": "call_P1X55I8w8dwzCVFGfXBFkHkx",
+        "name": "submit_inspection_check_batch"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Record screening status for one to twelve manual regions before requirement registration is sealed.",
+        "name": "complete_region_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "regions"
+          ],
+          "properties": {
+            "regions": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "region",
+                  "status",
+                  "reason"
+                ],
+                "properties": {
+                  "region": {
+                    "enum": [
+                      "lane_closure_layout",
+                      "advance_warning_sign_system",
+                      "channelization_system",
+                      "transition_and_taper_geometry",
+                      "conditional_active_devices",
+                      "conditional_termination_area"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "screened",
+                      "skipped_no_inspectable_candidate"
+                    ]
+                  },
+                  "reason": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Explicitly disposition retrieved candidates that were placed in a domain discovery ledger but are not activated final requirements.",
+        "name": "exclude_discovery_candidate_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "enum": [
+                "lane_closure_layout",
+                "advance_warning_sign_system",
+                "channelization_system",
+                "transition_and_taper_geometry",
+                "conditional_active_devices",
+                "conditional_termination_area"
+              ]
+            },
+            "exclusions": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source_node_id",
+                  "reason_code",
+                  "reason"
+                ],
+                "properties": {
+                  "source_node_id": {
+                    "type": "string"
+                  },
+                  "reason_code": {
+                    "enum": [
+                      "activation_predicate_not_established",
+                      "duplicate_same_compliance_predicate",
+                      "excluded_project_scope",
+                      "non_normative_context",
+                      "not_a_field_inspection_predicate"
+                    ]
+                  },
+                  "reason": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "required": [
+            "domain",
+            "exclusions"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Freeze the registered requirement set and begin data-availability assessment.",
+        "name": "seal_requirement_registration",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Register complete, source-grounded field inspection checks. Keep separately violable predicates separate even when they use the same observation or tool; combine only inseparable branches of one predicate.",
+        "name": "submit_inspection_check_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "enum": [
+                "lane_closure_layout",
+                "advance_warning_sign_system",
+                "channelization_system",
+                "transition_and_taper_geometry",
+                "conditional_active_devices",
+                "conditional_termination_area"
+              ]
+            },
+            "requirements": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "candidate_label",
+                  "subject",
+                  "relation",
+                  "threshold",
+                  "applicability_conditions",
+                  "required_inputs",
+                  "source_node_id",
+                  "activation_basis",
+                  "measurement_spec"
+                ],
+                "properties": {
+                  "candidate_label": {
+                    "type": "string"
+                  },
+                  "subject": {
+                    "type": "string"
+                  },
+                  "relation": {
+                    "type": "string"
+                  },
+                  "threshold": {
+                    "type": "string"
+                  },
+                  "applicability_conditions": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "required_inputs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "source_node_id": {
+                    "type": "string"
+                  },
+                  "measurement_spec": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "required",
+                      "tool",
+                      "quantity",
+                      "thresholds"
+                    ],
+                    "properties": {
+                      "required": {
+                        "type": "boolean"
+                      },
+                      "tool": {
+                        "enum": [
+                          "audit_channelizer_spacing",
+                          "estimate_available_width",
+                          "measure_buffer_length",
+                          "measure_device_spacing",
+                          "measure_downstream_taper",
+                          "measure_longitudinal_distance",
+                          "measure_sign_spacing",
+                          "measure_taper_length",
+                          null
+                        ]
+                      },
+                      "quantity": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "thresholds": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "required": [
+                            "condition",
+                            "value",
+                            "unit",
+                            "violation_when",
+                            "formula_parameter",
+                            "multiplier"
+                          ],
+                          "properties": {
+                            "condition": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": [
+                                "number",
+                                "null"
+                              ]
+                            },
+                            "unit": {
+                              "enum": [
+                                "m",
+                                "ft"
+                              ]
+                            },
+                            "violation_when": {
+                              "enum": [
+                                "below_minimum",
+                                "above_maximum"
+                              ]
+                            },
+                            "formula_parameter": {
+                              "type": [
+                                "string",
+                                "null"
+                              ]
+                            },
+                            "multiplier": {
+                              "type": [
+                                "number",
+                                "null"
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "activation_basis": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "type",
+                      "fact_keys",
+                      "evidence_source_node_ids",
+                      "explanation"
+                    ],
+                    "properties": {
+                      "type": {
+                        "enum": [
+                          "unconditional",
+                          "scene_fact",
+                          "selected_ta",
+                          "combined"
+                        ]
+                      },
+                      "fact_keys": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "evidence_source_node_ids": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "explanation": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "required": [
+            "domain",
+            "requirements"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 7767,
+      "input_tokens_details": {
+        "cache_write_tokens": 7764,
+        "cached_tokens": 0
+      },
+      "output_tokens": 409,
+      "output_tokens_details": {
+        "reasoning_tokens": 128
+      },
+      "total_tokens": 8176
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_08a8c04de8312ca6016ab3271e7cf087d1b3a222d92f884299",
+    "object": "response",
+    "created_at": 1790125854,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1790125860,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "SIMPLIFIED STAGE 2 — Use submit_inspection_check_batch to register a concise set of distinct, executable field checks, not a clause inventory. Related branches from one source may remain one check when one observation or tool evaluates them together. Prefer coverage without overlap. Project-excluded scope and canonical provenance are program-enforced. No candidate exclusions are required. Complete all six regions and seal registration. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 2 is sealed; no Stage 3 call is permitted.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_08a8c04de8312ca6016ab3271f176887d1976e927fa2d1297b",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqsyckkcY7I6wa11Tb2Qk02aXacr_sCA4qWn27ex-W9WRXm3P9Svkm1cnGgfOpKc81CQFpEjS0jqnvFtpJ1rWGH_PUPdlMEYrzLr2VhW_ZuwmaeFp0LyC6eumU8lOBZ9DVVYHTYi8KftgbwgbkJgV8RxVlSQmvtwd7GWeQeZSBqDnB5lVGhpX0FyLx9vKhhcSQOYgeQn4-juJfPZ60YQEWfDSvf5vroF3lGS2jF7QjueZypUurlunyKz0tDuu2OYOxUpYwfb3N-EUmf1kg9K-mOmUnh5OkohRbkpGhlGrf6--RwYBTIRiC0OhVEfXD-DTYwlAVbWykCYMdOrlaiCnhRfainZLEWiKKsPorweekVGgLBCljZ_4Y71yh9DnO-_NSFvrdEqMk2Y2_bBNA4otVPzF0n4Rifgt6Y_Mz86-kIEVy0f77bEBvGhvRmFYD3iz5M37YWQK3I9klhd9o68IGXmGYXPcERzFllPSaiwu9c18ccmdAHcA9jdeGfDYU4zpajKyICgwce4HX6WwXxrMuOQVY5Bj8oEgJ4dA2HWxzqOc_Dlpj8ET12ldnC7cQilu0-lm5ciinqZp4MDwI6pm4rOe69MwYJwaG7cyI1IHzIda8aEu8p8WJbXXY05J_Kb3dhwJCd_B38_daU8FKhxdjmYOXVGcPa_hWLtwpFn-NCl8QfyMH7BzXozMZ5hSSxPY-aUZNO-qYpxxPXC_Azbi0fDdi9G7QP1gq56F1EdmVcXLpHdGeTMXpb4pcjZyIrwalGIfhzGzSBHOUk6Qc3FQe_sRo2AyowLr5bJLk45bIUnKFw85vdIcIysoJ0g3Z9CAhLBNvquNHF2f4-zuiTsntmxbcqyRlPnCasDhjCYnIQePleIAi8MQL8K2NFfiRGIopGOGy72MVSO3r1FzDPRfEqh-PoUSO4CaX9jmUXMU6eIXIcgI4ieSw9AX3wgbb6SmUJCXkWJSecUJi-72PoGrZsBTvGUhAPqSvGBIRFMKHSTMVOaPlSYvxsiflNjieH-ZdzLFyOpcjQYqrMcxvz5S-vchp2oAGvAtkRbtGWumksH5fK38HqXhQTzkaRYB1T671Ki4SSCxwV3vBGYq45Yn-Mj99BeNAIYQUaXEhTT7iQhkT9aoOgmUwS6W1wisqByFBx7to_S1QhhHJn7EyFvOsE_jGBJBx-MSRfaXhWSi55moViPypmd-Aqui0IjJftY6PNNmpgjjjFc926lw6ye6sruQcX9W_AvOzHtN5Nw6bgOw0YhzrgsUKIVdzlBeOIXHBHwmLNEEuApC_IBacgqG38puni6B_vNtQ01AaQfttyUFZQBNIak_6NUhN5-GpJUd_4NE2LcuZBfSQF_makYHRq_m6h5BFs8q32ig6qImq0MEepFzLVZJN6lRGdmdjgahpm7Q2czRnj25RI20X_qgZpI1R9nvhxsxQ_2HuvhBaR1Y5H1RckmNbYhu8r27FzYJNDDqs4NpLG1VNlJM181fmLriFEyiPTxZTN7vCqIdHcwrLDn7s2lJX43833hYaWGvUm_Ukqk1Xw8GES-isXMWC-ZZ4aK5WUUKvJ5d4tqMNLqPaO2JIdS6t9GSC7XwntO0A14HWIbOPkOC1_vylOZV0ioKyD7ntgXc4_7d-swy78i4KiZm32kp8hkorERu00JZb1BkwJRsE_xkLsnBzu-_y_4XPZUAlkVgz79rBkb8zgtRGbEZr-uoEWaEZ9aXTRRrRk5X756bcMPqB2xjVg_nrpoB_u8P7AEuGoKspFIL4ekg1crsvH0Y8dP7zT422cBFOO7H6t-PCiiK4YcWAK5Kgwkb_aGENuKbFWY-ztK2TphaeWEeVJ1Vnfc7sNFWsyssQtt6KZJ7_pu90zoof7HD9NDW3nPhD6pjYgyhGVuHYFANjAkyJz7jC3zWII8BoIAJnQpxwiXVAisKp3mYOG05SKU-PRR7ATyK2Bpre81YwJuhoMMzI2B9IQ0FNYLRePeK_ZPMtJN1-GYO8TwFXQsO2nktQ_iVuq5d780yVJ_-yPfbpPtqOJApAD0VcFnK8zsVdzIe8rlEbiaG7BiZv4o4FxwjY_T41eH0exjbouTB9U8cMPQlk-f9k4xOef_XriHGXsztTj7i5SWZnT67v8uf0f23nYCr5sVTnWfqXDI1vVQmfVHYb-G8UK8auhVu8uGngx9DFIECw1MFd8KXOLkkyC8lRANQV4udGyY3t8yWlY-Ltv4cf8QMkJwmkNQMbau5_I038icxyXTWzqI2SjNWd8y8rLQ7wsW0Na-ARWZqCXJQcplJednypl9FCrJHHCZAi27kLhkJSOqoc9fvz4D3uZ7hH_y049VKjdLtJMShNKp2o6LeL8Q2STZtobhEcFWw_V_D1IM8F5XCi5NsXMLmaZ2XPCgjsQjb2NFKGEcQ8k-I6UqDmOTIPP_mEpuSCnzZ02tYEoQerzirYsppHCpj3-TiNKFdJ-NLgwQIeKHOCXhhd1e4ui37wDyI5YPSd5B3SZ6N57ThGlVhXzpTjR9ThTrbZ5SXgVHVNM3NNVQAXA7_EzMQipAR-jXKqESLDoa5q4HZEBJuFXwjii9xXSju9fyhUZGAbui0TG3KnXGoJ6BRPqBFpeuHxEHMfKfXJThZ-LkpgtwyP3exKu5dtl4QCK7vzuZVRUO4Lc4B2xTDQdqYtl0X-aKpIjJ4fHqOoYDnRhPLB_cAmDKRTVqCaLEHlIC85Ivfo-9h7Ft8SrvIlbo_Go_UweHH6gZBGQVxDMVYo_lkDaxjD1NuPWliV30s3LiXGY4UT-jjD6TYy5X9SZvanb7qUX0Al51fXgwYzZCo2tuWvGxe-eg1V30Wak-A4KG-KOzWEZ6q9leqi42WsLEDAFBwMRhFTMhRmMVfhStKSSIJYTBTVJDqVyaaMMaci2J9PPkwbjiORQ97uC9Ci-ACO05-xRn36L3ZfNR4QqugGl8vd597DB3vsEPC2lxMfVF1yIR0KRrJAia2RzLJ0-CW7Rsdyqf2RgWFsrTSVchxGUFjcfs2q3zuMjCGByfzvHwLlK6i1uDWI9I_LVC_M59qrAqwcl2xec8bqH9vuGFN44VqdHV-u1q_-v9gu7VqUidrLmvlQaNb9R_huCKAFGM67CrM=",
+        "summary": []
+      },
+      {
+        "id": "fc_08a8c04de8312ca6016ab3272229c487d1a086eb6472e87dd4",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"domain\":\"transition_and_taper_geometry\",\"requirements\":[{\"candidate_label\":\"Downstream taper length is within the temporary-TTC range\",\"subject\":\"Downstream taper\",\"relation\":\"has a length\",\"threshold\":\"At least 50 ft and no more than 100 ft\",\"applicability_conditions\":[\"A downstream taper is present in the selected TA-30 lane-closure layout\",\"The downstream taper is inspectable\"],\"required_inputs\":[\"Measured downstream taper length\"],\"source_node_id\":\"src_efd418222a3f416f1e38\",\"measurement_spec\":{\"required\":true,\"tool\":\"measure_downstream_taper\",\"quantity\":\"downstream taper length\",\"thresholds\":[{\"condition\":\"all applicable cases\",\"value\":50,\"unit\":\"ft\",\"violation_when\":\"below_minimum\",\"formula_parameter\":null,\"multiplier\":null},{\"condition\":\"all applicable cases\",\"value\":100,\"unit\":\"ft\",\"violation_when\":\"above_maximum\",\"formula_parameter\":null,\"multiplier\":null}]},\"activation_basis\":{\"type\":\"selected_ta\",\"fact_keys\":[\"closed_lane\",\"lanes_closed\",\"roadway_configuration\",\"work_duration_category\"],\"evidence_source_node_ids\":[\"src_efd418222a3f416f1e38\"],\"explanation\":\"The selected TA-30 lane-closure treatment includes a downstream taper when that layout element is present; Table 6B-3 supplies the executable 50–100 ft range.\"}}]}",
+        "call_id": "call_jyPhWP7nJ7QGUZxuLdzjeXZU",
+        "name": "submit_inspection_check_batch"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Record screening status for one to twelve manual regions before requirement registration is sealed.",
+        "name": "complete_region_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "regions"
+          ],
+          "properties": {
+            "regions": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "region",
+                  "status",
+                  "reason"
+                ],
+                "properties": {
+                  "region": {
+                    "enum": [
+                      "lane_closure_layout",
+                      "advance_warning_sign_system",
+                      "channelization_system",
+                      "transition_and_taper_geometry",
+                      "conditional_active_devices",
+                      "conditional_termination_area"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "screened",
+                      "skipped_no_inspectable_candidate"
+                    ]
+                  },
+                  "reason": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Explicitly disposition retrieved candidates that were placed in a domain discovery ledger but are not activated final requirements.",
+        "name": "exclude_discovery_candidate_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "enum": [
+                "lane_closure_layout",
+                "advance_warning_sign_system",
+                "channelization_system",
+                "transition_and_taper_geometry",
+                "conditional_active_devices",
+                "conditional_termination_area"
+              ]
+            },
+            "exclusions": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source_node_id",
+                  "reason_code",
+                  "reason"
+                ],
+                "properties": {
+                  "source_node_id": {
+                    "type": "string"
+                  },
+                  "reason_code": {
+                    "enum": [
+                      "activation_predicate_not_established",
+                      "duplicate_same_compliance_predicate",
+                      "excluded_project_scope",
+                      "non_normative_context",
+                      "not_a_field_inspection_predicate"
+                    ]
+                  },
+                  "reason": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "required": [
+            "domain",
+            "exclusions"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Freeze the registered requirement set and begin data-availability assessment.",
+        "name": "seal_requirement_registration",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Register complete, source-grounded field inspection checks. Keep separately violable predicates separate even when they use the same observation or tool; combine only inseparable branches of one predicate.",
+        "name": "submit_inspection_check_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "enum": [
+                "lane_closure_layout",
+                "advance_warning_sign_system",
+                "channelization_system",
+                "transition_and_taper_geometry",
+                "conditional_active_devices",
+                "conditional_termination_area"
+              ]
+            },
+            "requirements": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "candidate_label",
+                  "subject",
+                  "relation",
+                  "threshold",
+                  "applicability_conditions",
+                  "required_inputs",
+                  "source_node_id",
+                  "activation_basis",
+                  "measurement_spec"
+                ],
+                "properties": {
+                  "candidate_label": {
+                    "type": "string"
+                  },
+                  "subject": {
+                    "type": "string"
+                  },
+                  "relation": {
+                    "type": "string"
+                  },
+                  "threshold": {
+                    "type": "string"
+                  },
+                  "applicability_conditions": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "required_inputs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "source_node_id": {
+                    "type": "string"
+                  },
+                  "measurement_spec": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "required",
+                      "tool",
+                      "quantity",
+                      "thresholds"
+                    ],
+                    "properties": {
+                      "required": {
+                        "type": "boolean"
+                      },
+                      "tool": {
+                        "enum": [
+                          "audit_channelizer_spacing",
+                          "estimate_available_width",
+                          "measure_buffer_length",
+                          "measure_device_spacing",
+                          "measure_downstream_taper",
+                          "measure_longitudinal_distance",
+                          "measure_sign_spacing",
+                          "measure_taper_length",
+                          null
+                        ]
+                      },
+                      "quantity": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "thresholds": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "required": [
+                            "condition",
+                            "value",
+                            "unit",
+                            "violation_when",
+                            "formula_parameter",
+                            "multiplier"
+                          ],
+                          "properties": {
+                            "condition": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": [
+                                "number",
+                                "null"
+                              ]
+                            },
+                            "unit": {
+                              "enum": [
+                                "m",
+                                "ft"
+                              ]
+                            },
+                            "violation_when": {
+                              "enum": [
+                                "below_minimum",
+                                "above_maximum"
+                              ]
+                            },
+                            "formula_parameter": {
+                              "type": [
+                                "string",
+                                "null"
+                              ]
+                            },
+                            "multiplier": {
+                              "type": [
+                                "number",
+                                "null"
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "activation_basis": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "type",
+                      "fact_keys",
+                      "evidence_source_node_ids",
+                      "explanation"
+                    ],
+                    "properties": {
+                      "type": {
+                        "enum": [
+                          "unconditional",
+                          "scene_fact",
+                          "selected_ta",
+                          "combined"
+                        ]
+                      },
+                      "fact_keys": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "evidence_source_node_ids": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "explanation": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "required": [
+            "domain",
+            "requirements"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 8236,
+      "input_tokens_details": {
+        "cache_write_tokens": 8233,
+        "cached_tokens": 0
+      },
+      "output_tokens": 572,
+      "output_tokens_details": {
+        "reasoning_tokens": 262
+      },
+      "total_tokens": 8808
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_08a8c04de8312ca6016ab32724952887d1873e72cb0ef0857c",
+    "object": "response",
+    "created_at": 1790125860,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1790125865,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "SIMPLIFIED STAGE 2 — Use submit_inspection_check_batch to register a concise set of distinct, executable field checks, not a clause inventory. Related branches from one source may remain one check when one observation or tool evaluates them together. Prefer coverage without overlap. Project-excluded scope and canonical provenance are program-enforced. No candidate exclusions are required. Complete all six regions and seal registration. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 2 is sealed; no Stage 3 call is permitted.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_08a8c04de8312ca6016ab32725654487d1932a55a4a029db7d",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqsycpYIrgIVMK4vc0yKgKVZrrZhT4H-3MCzsBcdsWuDK6oAzOm58waDbOEqc5SPSnqFgnaInh7eXe4X9QWjLB51_sbmtkE4AgASEuOJ0kFnksrc_uzhEzxNna4eMQB6QLitSXzaeouJ2BXjap3CASRiuiXfmsNI_fRaOA_m7Djpqt4Ft1i8o8Bb7AMKGy4jGYp4WBiggRMGUxOd6OtyBV5QW5niuEK3IVHMzfuAlK7s4bDXYKxi1OocDmnPiJ9G81-GlRuPog_vJb5BSWKJ3HCdch5jsMj4bmLzJ6djcelpgMmxVRcgokRc1LeUo-ay4YNpnt3Z5Mrab7bieeXBsh8gDRG_aPAV1kaeCyAa8ZBwd-eGY2tn4G_7e1guNVrJoBDzbrh2NHZL2bFtrIOQBMY6bj7S4KjtrzPSF35RdZD6qC1f3Bw__owifjlNtuUTwDIE9uACD64EhhN_08CfU2y8W3XzYMwf7Ew7AES7yPhe7dh68EGOVmjfNVv4NlvlVl4YoetdsF6uoE1uAzGfWsRA3aB-toGICElWJCMnR72dS1io7TnVrYfElOKM3541qX6fziShxSy6jRUh1MmZCW27pOE-4oCY9cGig51VavN7YoyoR2E1TJHX13pCS51nt19-ABv_tRDmiufR4pWV80d6-iBINRRknlDz8Rc3JkGmTdOXw2pk7nq0s_kK9cSqK1Pr7zWolW5FISC5T0GaOXCutfWVo9UmYG2aKbnp0bTdW2MEhh4oKtpVxNnJd6ScH31Kd18NKgnyFQrLpBifAI9fZHaeLNLFtuvawDRiCzASC4iFGzChoTqY9q-v281L50pbihNOqqaF-nGjsaQuDrHZT3N83meTpQjSKlx9BUXptlsY22aieaasAlfDNkl5cS_5Rl_x7_FyJM2H6k8n8gwoQj54ch9kZMp5gvKQXU81smujJkfCt9-R1lQR6OOuCmbfDOurp3UbjeYfYPPYx_640t3Vvhu6JyfUFVqu9tuH9B7hJDeDbbIwz9QwSNs81jJwUNZBK4oKdv-ME5lvj_pxS5ALDR5VIT7QbkSNJdTBy9VL78JxKOD8VhveIqF-z37NgU0iEfV76ERvQu8RaQw0X_QhIilYUwIcUeDGqqSI4zzilRItYCUqBwcwiIoLuMhKol680dcXZ1KMLMVhIkIaokkffCu0jYvbbiVcmbYTbxj2r-FyO6XDnJ5c1siAxNSjb8z2IIZ3ibLSctnrB15BE19A0fuDszoeXD4NsFjhGElDEQV0hGLZOWBe5pDrWfArnAYSqSs4N4RisaQKfrIYwnm08oJUjVoN3oKojHEnfYFeZqo4M0eo1pIqIBkizuO-kOf3eJjqf3BQiOMZjGKvnUCOGfRzWsBdxuurCVU4d8Q-occaU_s4o_uj83wbXnPtALAq_BL-EuuBYkWwdijVGC8euX6X40R6sjy-HMfmAdtOs-481Dg6APyN1xYlvOCVe03eigh-GsafnV6opDgn3k93m2NLJ3DhzRANngpsTGBPaTdy2WrAf9859-WKgAyWQzNf4KjjvfF6O1KLbxilENsaD3l4NJbjdUT_P2vtBG_mjSOyKUsIasp6NGs7fH_ZU-jPwOecT4mwdc9rj-h-aLNd05OscYqmGmGerdRT0hSddDFJz3V6ILqPzP1D-gp7UXvvYjI1CTjOFD1Me_12B5jUUWL_OXIZc9Ll3oCAneRb_reixx0MQZzY00rVTBuIhDZZGCvBGu7Y5TXaLyEby1yqiPW7JS3SdKkSdTodjnX_AJu4fZG1DCIdeIC1PnyY5CLeXDxZP7ET246dNkEcw9jDOv8TdSZyxgUM8-WJ1O4rCeMV78xZ7lxyMY-NZmWp0uj0T4PfCEou7zsOsppl7kADmUCzdwqQCj98ddQngxtns4tsn79uCeuxUJm0M-xTyE-39Izd94QpT4TGme7tSD5GPdh_x8t4s1m2vT4jxz3ouaVJ9Tpua5mUyVcDCXeZGnRQSx8daIt7nO0vMutiMunGTQfqbXf00uTqxGZPOP3E1rSwpJXgRmSAm7Wi0SBZJf5y0oeCpvUQNIkiYSQJYKtqrC41AWfIrO1AFJdCx1C4gLn2mRLvzLyf5T3U35FbORjrOE_myEgkXGMmZmsQaMfnRs7LdX3AF_3C5fTmZd7a5B96iWS-nMpePAjKk7NOkeMvA_odU7RsZi2sibQYMTvKdXKM_FDyvwo_9sI8zGAK5-7mTnnm5oPT96T3_UdURX2lVW0cu79XwJZQg420sTr5HwLQ2Gcu4FlMRNbORY5pINdGAblM2xrUjAcDngEOAvCsLPn3FwOTJoK4N0MwVzn2BaA7WGTYJ8bE7rIWXrVqhguZYs0FgStUoeqc6UkUSPJHDAfUvj6W7Rel7lO0z3t4DiWbyDc5YkJn_yC3BtbK9t0PSz5dM4Ywnm6PeDnviN1W-N6EW95D9WUHZUthdGggHOqB9H7ZRXHGY2iSOegqDwRX3IlYUyshQOJE6M6L07_5rTKm5Y4AxBksl5S8YYGACcgPOycX4KZgymHtaPlmoWGIkdgrhGBqIx0Ed1ZPtZxG79Gq-rrgjXn8K_-rRF-OA04VvBsaOB2yhy4O536huxyFugTRCF1LVE48QLTII70DFZbqybKQVLjvid6eY0gHqsQx5To3aHiO62twvBTBnfrvVGTx_HYrWBwIha48paKR9Ei13Mo88XgmUejMwqkRHWXNiisDDAWlxI0iJhXfxWATRsc76Dnc2tYmx21YgW018rIG4EWIIIftQDPUhN_NKMmXzw3WSkk1TiUPFO56RtwhdoZTL-YwNXDAj2SuxhKUesUJCcbCT4xO6Hl76V2auZKERtVMESbeALBR0IeWRgscqIiLivN1GcKrPB2kHL",
+        "summary": []
+      },
+      {
+        "id": "fc_08a8c04de8312ca6016ab32727cc5887d1942b8742d15370b6",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"domain\":\"advance_warning_sign_system\",\"requirements\":[{\"candidate_label\":\"ROAD WORK AHEAD is first when multiple advance-warning signs are used\",\"subject\":\"Advance warning sign sequence on the approach to the transition and activity area\",\"relation\":\"has ROAD WORK AHEAD (W20-1) as the first sign encountered by road users\",\"threshold\":\"ROAD WORK AHEAD is first whenever multiple advance warning signs are needed\",\"applicability_conditions\":[\"Multiple advance warning signs are installed on the approach to the transition and activity area\",\"The sign sequence is inspectable\"],\"required_inputs\":[\"Observed order of advance warning signs along the approach\"],\"source_node_id\":\"src_eafd02c3dbce3f8109a1\",\"measurement_spec\":{\"required\":false,\"tool\":null,\"quantity\":null,\"thresholds\":[]},\"activation_basis\":{\"type\":\"selected_ta\",\"fact_keys\":[\"closed_lane\",\"roadway_configuration\",\"work_duration_category\"],\"evidence_source_node_ids\":[\"src_eafd02c3dbce3f8109a1\"],\"explanation\":\"The selected long-term lane-closure treatment has an approach to a transition and activity area; this check applies only if multiple advance warning signs are actually needed and installed.\"}}]}",
+        "call_id": "call_eShZpnratl4UN19wqhALaQNE",
+        "name": "submit_inspection_check_batch"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Record screening status for one to twelve manual regions before requirement registration is sealed.",
+        "name": "complete_region_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "regions"
+          ],
+          "properties": {
+            "regions": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "region",
+                  "status",
+                  "reason"
+                ],
+                "properties": {
+                  "region": {
+                    "enum": [
+                      "lane_closure_layout",
+                      "advance_warning_sign_system",
+                      "channelization_system",
+                      "transition_and_taper_geometry",
+                      "conditional_active_devices",
+                      "conditional_termination_area"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "screened",
+                      "skipped_no_inspectable_candidate"
+                    ]
+                  },
+                  "reason": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Explicitly disposition retrieved candidates that were placed in a domain discovery ledger but are not activated final requirements.",
+        "name": "exclude_discovery_candidate_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "enum": [
+                "lane_closure_layout",
+                "advance_warning_sign_system",
+                "channelization_system",
+                "transition_and_taper_geometry",
+                "conditional_active_devices",
+                "conditional_termination_area"
+              ]
+            },
+            "exclusions": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source_node_id",
+                  "reason_code",
+                  "reason"
+                ],
+                "properties": {
+                  "source_node_id": {
+                    "type": "string"
+                  },
+                  "reason_code": {
+                    "enum": [
+                      "activation_predicate_not_established",
+                      "duplicate_same_compliance_predicate",
+                      "excluded_project_scope",
+                      "non_normative_context",
+                      "not_a_field_inspection_predicate"
+                    ]
+                  },
+                  "reason": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "required": [
+            "domain",
+            "exclusions"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Freeze the registered requirement set and begin data-availability assessment.",
+        "name": "seal_requirement_registration",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Register complete, source-grounded field inspection checks. Keep separately violable predicates separate even when they use the same observation or tool; combine only inseparable branches of one predicate.",
+        "name": "submit_inspection_check_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "enum": [
+                "lane_closure_layout",
+                "advance_warning_sign_system",
+                "channelization_system",
+                "transition_and_taper_geometry",
+                "conditional_active_devices",
+                "conditional_termination_area"
+              ]
+            },
+            "requirements": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "candidate_label",
+                  "subject",
+                  "relation",
+                  "threshold",
+                  "applicability_conditions",
+                  "required_inputs",
+                  "source_node_id",
+                  "activation_basis",
+                  "measurement_spec"
+                ],
+                "properties": {
+                  "candidate_label": {
+                    "type": "string"
+                  },
+                  "subject": {
+                    "type": "string"
+                  },
+                  "relation": {
+                    "type": "string"
+                  },
+                  "threshold": {
+                    "type": "string"
+                  },
+                  "applicability_conditions": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "required_inputs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "source_node_id": {
+                    "type": "string"
+                  },
+                  "measurement_spec": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "required",
+                      "tool",
+                      "quantity",
+                      "thresholds"
+                    ],
+                    "properties": {
+                      "required": {
+                        "type": "boolean"
+                      },
+                      "tool": {
+                        "enum": [
+                          "audit_channelizer_spacing",
+                          "estimate_available_width",
+                          "measure_buffer_length",
+                          "measure_device_spacing",
+                          "measure_downstream_taper",
+                          "measure_longitudinal_distance",
+                          "measure_sign_spacing",
+                          "measure_taper_length",
+                          null
+                        ]
+                      },
+                      "quantity": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "thresholds": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "required": [
+                            "condition",
+                            "value",
+                            "unit",
+                            "violation_when",
+                            "formula_parameter",
+                            "multiplier"
+                          ],
+                          "properties": {
+                            "condition": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": [
+                                "number",
+                                "null"
+                              ]
+                            },
+                            "unit": {
+                              "enum": [
+                                "m",
+                                "ft"
+                              ]
+                            },
+                            "violation_when": {
+                              "enum": [
+                                "below_minimum",
+                                "above_maximum"
+                              ]
+                            },
+                            "formula_parameter": {
+                              "type": [
+                                "string",
+                                "null"
+                              ]
+                            },
+                            "multiplier": {
+                              "type": [
+                                "number",
+                                "null"
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "activation_basis": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "type",
+                      "fact_keys",
+                      "evidence_source_node_ids",
+                      "explanation"
+                    ],
+                    "properties": {
+                      "type": {
+                        "enum": [
+                          "unconditional",
+                          "scene_fact",
+                          "selected_ta",
+                          "combined"
+                        ]
+                      },
+                      "fact_keys": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "evidence_source_node_ids": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "explanation": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "required": [
+            "domain",
+            "requirements"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 8752,
+      "input_tokens_details": {
+        "cache_write_tokens": 8749,
+        "cached_tokens": 0
+      },
+      "output_tokens": 492,
+      "output_tokens_details": {
+        "reasoning_tokens": 226
+      },
+      "total_tokens": 9244
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_08a8c04de8312ca6016ab32729c0f487d1b68354443a552c0a",
+    "object": "response",
+    "created_at": 1790125865,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1790125870,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "SIMPLIFIED STAGE 2 — Use submit_inspection_check_batch to register a concise set of distinct, executable field checks, not a clause inventory. Related branches from one source may remain one check when one observation or tool evaluates them together. Prefer coverage without overlap. Project-excluded scope and canonical provenance are program-enforced. No candidate exclusions are required. Complete all six regions and seal registration. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 2 is sealed; no Stage 3 call is permitted.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_08a8c04de8312ca6016ab3272a481887d1bde305e6996932a2",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqsycuqcENKduNk53q0SXUCXs9y-wFldwL-kHj2SNd6DjlR4sPsX1vGnvW0PakJnHBgQaJWhZFCa8_pdJhUp6SdiVLjhW8oHWLgqw9h2dmXhfY7f_lMzHUIP_TdZV_yTRam6YMJ0GCbILpqI0V4s6mutGNeZ7i8f3W0wPGS_2n_gu3WCDm4J4rpNA7iLuIOMFCXT7KO4zIRAfUmAatbivTTuSd4xK-2vaueKup84wVe2hwX5Ypw92nlRXgJTWb0u-JO5_vK_4Ec8024SwmMTvVdxX8HgBZ8dHUH3ScK_GpIzJioINFfQsRR-NFZJdF15OZXNPnnq80pCnvU6dNI2WnZGtL-RjKmh4ejM9sr1guYWcB6WFxED1B8yo0F8fpk4OzPAEOme8eVk3nCYG5nbLAwmIEqGaD76LsCT_zXGK9QLn_HSj1_rou6Zs2nbRE2ZUQ1IexNw-HdLME85xvao4WAVpwMEiI7Fc_tQ3l7cmf9Z3Ea8j9I9tLwIQjIbv1pIr09STag8GPSJI1ecLHRjK77gomzOwBu3iSaPKEYIazGGKQ59AyxneGdpULaoPBrnXa7Hey-ey-rGL5kbcsRTXic-9lB2WCYuJnrjT5Mbxr_q8F7WKR5fLza0fAyD9uHyNIsTgM9SoxCdYymx2DyxZnydlu71bcGFKXDTas755kRHtt-71lLKJaxR79Z8m9umdi8pYBSWzyesRkkVkEsJ6XZQRS8_4SxcQmxokpmkoefXZYI0FhA9Lb8ro8WcMSY0FufUdeWfwj_8bymvaFduFGvqzThA5POY3Z6rWyIGUQ0AXje74_9Eg-TNFesLgqwuX2Pgg64AwnQ2psRZxQX8ZpC7x57XH0FVynjkYfZPZd1f_AAyWbzVj_pGxW-ttiU4hW8kngDXJPYcAFW188QASW-VM4gEyLN9CITJ_l9nRuoqub_2dEyf8LXj7spLfppFFld4BVCdxnIE8B02qOT3a-Nv-Y0pIQfAKyzC8Dna3cmCA63af55xqho19PSXacUuzqrVM-36gI-dIrwpw1nmLTeDD4wQ3nfyWZWObkZbNDj_-tHpScyZWVuFFezGVGRL3qJkn8sqbwJNGiqDpovP3w6mte8U2M5lOHSq8WbxtZPMSDmQkIBYNS363MENLBSEELFsga2y5HVnfPKjgRZP5zR7X3mXAlx_Pn8U-5cuKNvMFRljQM2_XI9zi2_GzdqNQwulK-npf0h-TsiCGyOeVf5X_17PkqeJ3u2FR0wOt0OSzFRCP9POe-bhbfK7yONaW7bFMHRaGHg8Qg_2ygYCFl53AoN7t0FJ2IftzPoYXtYcO4aEkixjfTlicfICYGl9IoB2K3kWEHvLa5BvkWS2fgnzDDnwsfS3denhOVoF08eipBETwaT75c6iO6S-HwRtbaC1KQjMvZTUVuiQjv8aCFz2sC-Ea8omZCTklAeJ1jod0bLNhh6sxdju22tFfsYBoDzO43fz8G5AlmdECc9dTcxrE2C_rrJUgBSQYUFUwpyf6gjo9E25dVE6-XC2M5ppzDzyx8Fjbi08A2RTc6dh53paFrkEBYXh-o3O6nnKpImDE9E_sEBxNuPrwBN2Beqj0Cw5MHKnl6AzHz3RJ0p_iSvzTjIKuNVE0D9n9o4szDwjnJg-MT6Fq9tgzDwlI4tFxRnoSQoWGdV6txSVxmsIKZXCjOcjNHM2WNM5d5BZbXYR1lTxMG683OG-PAEkaI1U2FB4WPG_jgaoPBvj2lHOnPJBKCk3wPW2X7Tvk9pG2lOsjiOzp_4e9t4cd7oCTJvOwvABHJ4uqDx1SrEgq_2fs1r5C7HbN67N283RFEWDgbPV9CWHaEQ45yDESNEtFCT8i-XJC0CPmFhQlq5nc246347qLji1-qyyscj52IjUguJX_yq-kA9MQe4BTuAS2p-cO_nvKxpWUu3zNDI27O2RnOpbuldE80HV8SUcl3RTbTAkiRDW3uxo7dUi7OF9cS2uPCbv1M458A6iL_efVgilYbY3cxQi-SlsxEp3lAmCSblv_7yq0r89b2RayOGZXZzTcyMf-KWXglX-LKQGKGpGxwTz0PKYnAdwd8TvpJBLTnLy1P_Wix2hdBTquGFljDkIBXUZlumnYajXvdiD5qXmuYU4KMNsKfElCl5bU_5XrttvOOhem_MIS8313oUsKYqy7LZjLZ9a_YKzruQ4iGEZDFHFnQPJv3XfoE6sHUif8dU7IljpPhSd9q956sG00cUOX1cMAsTKq2VogWgRM9mELmY1rOMY21l-4MRHtcogBKMOy3N4CDdc7jCg6B4aaHeOl_MCzX21w1yPDq1KVIHaB928TFqV_eqg-LPIGGJkh-k9nCKNJhJ_-sghyZKu9V0BwnFtP_SGkHnyv1pX38ePNPttrMgrYI5EZ6sy8yhcqJPZCBShB_LjnEclaPpFbk-OBeDPNyzFzzrJw9Ld-9MKf-iEeHhWlen3fh3GRjqRY9tMoYWMjrTjGXZrugl632R-0IbBDjB8Dbx14BwbOKmPx_mWihX-wiRL_Jos8EsD93SI8nLSarUGDhxHCl7HncT8oGch8cdOj5kiHnFwXsgNf8b-Icp0fnB22N2zp8LY78U8qw-nx0Z6k5Z5UMykL-16V_SJcUd2EPDAu5mKe76qKO5kdl0yQ5KgIq9TK4OuDxDCFcRZHOc0lc96VJ2-O3yTsjnWrXRVz-AvLpzqmKn5WqSz6-mvRxdeM5TZgNAxmnzt5BetTCGwE0GD4DL32U_FSFzRx2TL-l-Iy91jA5JfyZVvwRL52nZW7Q70CCgkcSi_vig_07Ck656gOzkORrcew-91Q1HiELTzoWQ06CNjybtwRE0lM0UAmqgYkI5eLr1VqelSAaV4xs3TfI7cfGsWTi_SXntXlw2ZtucmswjNovocOvQDwHe-3nnGP_U7bGhZCDXD8Jjh1mbjCN25JvVZCAv5BwThX1hjGUjsnbTCBNEXM-E3BXjY1spOZM7YT2JOghcMQpPvYoe7KZhMkqv5ZxkWFAj-ciGMb128yQeppvQFHdVaOnGO4Ge7-4ELxQq41t3_s=",
+        "summary": []
+      },
+      {
+        "id": "fc_08a8c04de8312ca6016ab3272d4a2c87d1a8d5e8528f0e82ac",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"domain\":\"conditional_termination_area\",\"requirements\":[{\"candidate_label\":\"END ROAD WORK sign is near the downstream end when used\",\"subject\":\"END ROAD WORK (G20-2) sign\",\"relation\":\"is placed near the downstream end of the termination area\",\"threshold\":\"Near downstream end; exact placement determined by engineering judgment\",\"applicability_conditions\":[\"An END ROAD WORK (G20-2) sign is used\",\"The termination area is inspectable\"],\"required_inputs\":[\"Observed END ROAD WORK sign location relative to the termination area\"],\"source_node_id\":\"src_dc059d71207986173490\",\"measurement_spec\":{\"required\":false,\"tool\":null,\"quantity\":null,\"thresholds\":[]},\"activation_basis\":{\"type\":\"selected_ta\",\"fact_keys\":[\"closed_lane\",\"roadway_configuration\",\"work_duration_category\"],\"evidence_source_node_ids\":[\"src_dc059d71207986173490\"],\"explanation\":\"The selected long-term lane-closure treatment has a downstream termination area; this conditional check applies if the END ROAD WORK sign is used.\"}}]}",
+        "call_id": "call_wEB5pamChujnyPsqlM8RWm9c",
+        "name": "submit_inspection_check_batch"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Record screening status for one to twelve manual regions before requirement registration is sealed.",
+        "name": "complete_region_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "regions"
+          ],
+          "properties": {
+            "regions": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "region",
+                  "status",
+                  "reason"
+                ],
+                "properties": {
+                  "region": {
+                    "enum": [
+                      "lane_closure_layout",
+                      "advance_warning_sign_system",
+                      "channelization_system",
+                      "transition_and_taper_geometry",
+                      "conditional_active_devices",
+                      "conditional_termination_area"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "screened",
+                      "skipped_no_inspectable_candidate"
+                    ]
+                  },
+                  "reason": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Explicitly disposition retrieved candidates that were placed in a domain discovery ledger but are not activated final requirements.",
+        "name": "exclude_discovery_candidate_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "enum": [
+                "lane_closure_layout",
+                "advance_warning_sign_system",
+                "channelization_system",
+                "transition_and_taper_geometry",
+                "conditional_active_devices",
+                "conditional_termination_area"
+              ]
+            },
+            "exclusions": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source_node_id",
+                  "reason_code",
+                  "reason"
+                ],
+                "properties": {
+                  "source_node_id": {
+                    "type": "string"
+                  },
+                  "reason_code": {
+                    "enum": [
+                      "activation_predicate_not_established",
+                      "duplicate_same_compliance_predicate",
+                      "excluded_project_scope",
+                      "non_normative_context",
+                      "not_a_field_inspection_predicate"
+                    ]
+                  },
+                  "reason": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "required": [
+            "domain",
+            "exclusions"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Freeze the registered requirement set and begin data-availability assessment.",
+        "name": "seal_requirement_registration",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Register complete, source-grounded field inspection checks. Keep separately violable predicates separate even when they use the same observation or tool; combine only inseparable branches of one predicate.",
+        "name": "submit_inspection_check_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "enum": [
+                "lane_closure_layout",
+                "advance_warning_sign_system",
+                "channelization_system",
+                "transition_and_taper_geometry",
+                "conditional_active_devices",
+                "conditional_termination_area"
+              ]
+            },
+            "requirements": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "candidate_label",
+                  "subject",
+                  "relation",
+                  "threshold",
+                  "applicability_conditions",
+                  "required_inputs",
+                  "source_node_id",
+                  "activation_basis",
+                  "measurement_spec"
+                ],
+                "properties": {
+                  "candidate_label": {
+                    "type": "string"
+                  },
+                  "subject": {
+                    "type": "string"
+                  },
+                  "relation": {
+                    "type": "string"
+                  },
+                  "threshold": {
+                    "type": "string"
+                  },
+                  "applicability_conditions": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "required_inputs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "source_node_id": {
+                    "type": "string"
+                  },
+                  "measurement_spec": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "required",
+                      "tool",
+                      "quantity",
+                      "thresholds"
+                    ],
+                    "properties": {
+                      "required": {
+                        "type": "boolean"
+                      },
+                      "tool": {
+                        "enum": [
+                          "audit_channelizer_spacing",
+                          "estimate_available_width",
+                          "measure_buffer_length",
+                          "measure_device_spacing",
+                          "measure_downstream_taper",
+                          "measure_longitudinal_distance",
+                          "measure_sign_spacing",
+                          "measure_taper_length",
+                          null
+                        ]
+                      },
+                      "quantity": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "thresholds": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "required": [
+                            "condition",
+                            "value",
+                            "unit",
+                            "violation_when",
+                            "formula_parameter",
+                            "multiplier"
+                          ],
+                          "properties": {
+                            "condition": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": [
+                                "number",
+                                "null"
+                              ]
+                            },
+                            "unit": {
+                              "enum": [
+                                "m",
+                                "ft"
+                              ]
+                            },
+                            "violation_when": {
+                              "enum": [
+                                "below_minimum",
+                                "above_maximum"
+                              ]
+                            },
+                            "formula_parameter": {
+                              "type": [
+                                "string",
+                                "null"
+                              ]
+                            },
+                            "multiplier": {
+                              "type": [
+                                "number",
+                                "null"
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "activation_basis": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "type",
+                      "fact_keys",
+                      "evidence_source_node_ids",
+                      "explanation"
+                    ],
+                    "properties": {
+                      "type": {
+                        "enum": [
+                          "unconditional",
+                          "scene_fact",
+                          "selected_ta",
+                          "combined"
+                        ]
+                      },
+                      "fact_keys": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "evidence_source_node_ids": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "explanation": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "required": [
+            "domain",
+            "requirements"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 9114,
+      "input_tokens_details": {
+        "cache_write_tokens": 9111,
+        "cached_tokens": 0
+      },
+      "output_tokens": 490,
+      "output_tokens_details": {
+        "reasoning_tokens": 257
+      },
+      "total_tokens": 9604
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_08a8c04de8312ca6016ab3272f33fc87d1a4ff69cd278250ce",
+    "object": "response",
+    "created_at": 1790125871,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1790125877,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "SIMPLIFIED STAGE 2 — Use submit_inspection_check_batch to register a concise set of distinct, executable field checks, not a clause inventory. Related branches from one source may remain one check when one observation or tool evaluates them together. Prefer coverage without overlap. Project-excluded scope and canonical provenance are program-enforced. No candidate exclusions are required. Complete all six regions and seal registration. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 2 is sealed; no Stage 3 call is permitted.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_08a8c04de8312ca6016ab3272fc66487d1b5b18c33e3708cef",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqsyc1s6pbYBNU8a367bTFiikE1tkQyQC0R_DKvVDe84-gO__el2kkytFfBucVr6Axu1jhlbkUibGXGrpOtLFq1CXGsrtAxQy3Td9fEu79cnr9EWm9NsHkWgJiAeAj5owwfQx2Fff8eqUAV1MZo7w94FkYAlfQgFbBdAQHrtjDGOzqcLFxA_SruLRSE6m4IJKzJjPN0gcTxp-PCs-aTWUYGqRidww25kIpOaCDV0_V7y3IBbKlElKoIKRlSBEiNwwIakuz8GJVvqfq5q7r0gYBIo2zU6hWKVfOoDgvEdBduprwRtA-oHRidkiAR9gXhNRl5R7oy5wLltEWXQDUXyT4ZmVuxjBMSIVa93H5a_UjQ6W0KNNFXMkUdnrXBx8ljpQJnC2EjBILu6ayuKRvg2bf15jH5fO6qEDB2dQvYATNEAnLJJChgYhZs9fb33CRbksOYoB3wfk3DCmoSFG1Lzj34x-AOr3O_1AWHgRYGU4Qh89fVZzuiA1TO6kO6-d1J3pHouiSdVpLct-xMJfe6Hhx5xuKkCZUDiQMOvgFqWv_3wfl9kGNu8jh635ZXeXEsiENDdNxhW84CDIy3-Jhm3Lu_nJ9GEUNw04ZMy1dXz2_1itqiGAf0vPuJFQBmx-hTwxMqO7O1nxg7SKZyTwRXwfAH88PmY3JYbNiNHJ5UMHZW79spGNZ9gV63FVuTEPS52VTQsHQYbb8jk1i2XqgkxCzL555dY5x3KKhLJa71aJ0CyvFgeS27r_kO_2aazRO2ebhtNteV1qvzdypZm5Kq0PDjQRFWOZtpK-fb_LcMvZTBjOTqxuicTwCJadGr-phVwELKhwKF4HeeD5SruBLPDm1YOL1brfR0d6t7NPuznTaMYZXIDecpmMxYVhl_xuOuuMAwTZ05lzDcCi4a77n3tZ8gs5eZUQF8VQw0pFe4IOHXKgZebPtML6IedVooAWmVvCl1PqG9RhDdo_8DdyGNJKyN9iyJhGLug_3UaN8Pl6ihTVDjRpM6KKg3tBIuBZqWV-D-FQzCASHfgGT4HI6bc-1t_HU_44PxhYq0F3fuqkDWm02jNPY73aMiSdWFeyDKn0rWZHlTRE6QP6EwQSVpSF2LGPVHLoPEMcFS424AMb8Aezb4p5qyHfM93-iPGoCN-0AyugdgwcVHMGB9qAlj4gvEBvbTAQaj7AUXbDCDW9VMo1GIixXCY040F56lPd98Py_KJUw_aFE1U7Ui5nGAhJ2zO9_HTYOxWjvxR7GhweVzGBxtGNJhk9Rsz_dUgD8otCz6CSKzOApYEXR4NG4Tl_pAiKoYeppzAUlHaDTp0GseKSgvdKoYaVtUsk81RcBwYIXAFm0uBx-iMI43OK4TIYXzFfNSyJUJCBNmdzJaYhuUzblwvDwa_-sZOv8X0KktmFE33NgfPF7yAKL3MOsdRBuqe_fo-NTqmcb924CzAfmLJ6jcYAQs0IGUDDsDS9zhqodWNkNdd0_QfpNeb0KWKoxPfLBXHwKRjhqDRGeMklfkgPyxfkdv6uwTTPaYQmsQ09OJLpRggPF0FqRK2AiOTIvbQbMxKzANiBfzwQgmwcFqEFA_EMc008qbPTKLQb11ElFUl_scVj5JreT0DSiwYkG-rhad9jniMFvYUxfGb_XsdoZpfj_j905Ruz9rPjBR9cx7jiM-WR9Nz5Q3qwtqUFqN9q1KWHr_-wcOZs8TaQMH4j30Lqk1tkNrdEjXsBHuNihrSWXaAM0HfjBqeQT_B2UIyYTA15PVGgnq6i-MJJmjXG5ok1jrI34iWg5cX03OS0_yA-hV081yiJt7mthXbfRtTHvRxJy1UqjVt7PcgRDCNaWU0vZslfd6thnh39-w-jTYFdr1p-EmBxtHzBNDjzXDob98ezrY8MP-BVYFnvbJtXLUph_AHNGqepQDIxeAwDrYOoheeZ57p8dVk_14OutAtJhhpJFWmACarUgv4rTfg6yjQ4DMNPeEUWeCOr48bhI1DRg5gDRxB4Kp2hJ78w5bT91kOUvdESJxW_LwRdM-UqzrxYhOZIgRiK_YXUP3yG4RyLzG-Cr07yW9vYD2fo1BPZ0fI9lg0N5lILgcb6OUR9sTLf-TaYTIRN43S_N6Xk4Ej9SyLT7J2fUf9hfgiwJKtfpkq1Xc6vxVpILaIu4F9A4IQGmeB2OtKn_5VDgMUTaLbxXC-QU4kNqI6-fQjQow_HRMPMh_x92uhXzLahWTv__ioDzO4PcErdtlU0RzKc0h-SU2GegXvLkl_uyCd8_GIlCGZCn9Fclti6QB-Fs-gAhBWk2UVi2Y9yuaPE5QX6Y43MHAKlY6_QcxmByTqBWktRvvNEfo3tmRJywQMb2Gg6mG6q83w-i2AwAF4uXO1zg-9TbTbw8CFtqljLoxN6Q0V6Ir7WnOcyHhjtcx0IYnsnWZWhMO8v_bwBLG1EadmAmonO5NKqDwhkfsSz16_vmOoYM5wJLtWH0BQSmO9q8hIDP1rhFsj96WvHhZKudhfIButZwwQV74j-CE0FrcepJJYJn-9-aAzD606QWwDLcJovxJrgH1hY8WAb6Hz8zXYOfdwXRNKVDmva4kMb8HLiy4vN6Iggwutr6hwWD4bR8zaDAOClVIKVyU2RVHFM3HumadWuzj3Lx7A1xM5AtjGUmobfg_WeIAV-Uu0mo2_6VN0gS-7fpkimoyDMNIR_J6SWAY_GmsAt_YNGanmkV2oPkJgMU72T9nrW7WKc_Zk5zi2_RI65ZPQhinYyR3hhQkpM9_OQvs1jyBbohVdN0KqDr8WJ_q3_TKQlJLHvhr8MCqUx6U6M6_5K-6pge5VJUrmiuG_tH_AjXawYF8cb-WxtFkoxIrAwsEQz4J_AvcEPRzARm3BICmF9X9kA0U0VGiTsWeqjVO9gnrARtdrnVX8jl5exEgptxNkwBkd_YnXYJR3odCncq-Q_OeZGq_JkzugMjAJz9wjdl3RxBbJ_L92er5GBhwu0tccPeNZSIWXV-8Bi41SFveqxVAKbEzzuISc1dHkyimDQBOUA4fmu4B8Pxhl1Aog==",
+        "summary": []
+      },
+      {
+        "id": "fc_08a8c04de8312ca6016ab32732f18487d1b707ade400a15181",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"regions\":[{\"region\":\"lane_closure_layout\",\"status\":\"screened\",\"reason\":\"Existing registered check covers the applicable normal-path redirection predicate for the selected TA-30 left-lane closure.\"},{\"region\":\"advance_warning_sign_system\",\"status\":\"screened\",\"reason\":\"Existing registered check covers the applicable advance-warning sign sequence predicate when multiple signs are used.\"},{\"region\":\"channelization_system\",\"status\":\"skipped_no_inspectable_candidate\",\"reason\":\"Retrieved candidates were not an applicable, source-grounded field-inspection predicate for the selected TA-30 scene.\"},{\"region\":\"transition_and_taper_geometry\",\"status\":\"screened\",\"reason\":\"Existing registered check covers the applicable downstream-taper length range for TA-30.\"},{\"region\":\"conditional_active_devices\",\"status\":\"skipped_no_inspectable_candidate\",\"reason\":\"The scene does not establish an applicable active-device predicate with inspectable operational facts beyond the deployed arrow board.\"},{\"region\":\"conditional_termination_area\",\"status\":\"skipped_no_inspectable_candidate\",\"reason\":\"The scene does not establish the required downstream-taper or termination-sign presence fact for a termination-area check.\"}]}",
+        "call_id": "call_FpwcLIeFFtsTBDphcoxCe0vY",
+        "name": "complete_region_batch"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Record screening status for one to twelve manual regions before requirement registration is sealed.",
+        "name": "complete_region_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "regions"
+          ],
+          "properties": {
+            "regions": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "region",
+                  "status",
+                  "reason"
+                ],
+                "properties": {
+                  "region": {
+                    "enum": [
+                      "lane_closure_layout",
+                      "advance_warning_sign_system",
+                      "channelization_system",
+                      "transition_and_taper_geometry",
+                      "conditional_active_devices",
+                      "conditional_termination_area"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "screened",
+                      "skipped_no_inspectable_candidate"
+                    ]
+                  },
+                  "reason": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Explicitly disposition retrieved candidates that were placed in a domain discovery ledger but are not activated final requirements.",
+        "name": "exclude_discovery_candidate_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "enum": [
+                "lane_closure_layout",
+                "advance_warning_sign_system",
+                "channelization_system",
+                "transition_and_taper_geometry",
+                "conditional_active_devices",
+                "conditional_termination_area"
+              ]
+            },
+            "exclusions": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source_node_id",
+                  "reason_code",
+                  "reason"
+                ],
+                "properties": {
+                  "source_node_id": {
+                    "type": "string"
+                  },
+                  "reason_code": {
+                    "enum": [
+                      "activation_predicate_not_established",
+                      "duplicate_same_compliance_predicate",
+                      "excluded_project_scope",
+                      "non_normative_context",
+                      "not_a_field_inspection_predicate"
+                    ]
+                  },
+                  "reason": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "required": [
+            "domain",
+            "exclusions"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Freeze the registered requirement set and begin data-availability assessment.",
+        "name": "seal_requirement_registration",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Register complete, source-grounded field inspection checks. Keep separately violable predicates separate even when they use the same observation or tool; combine only inseparable branches of one predicate.",
+        "name": "submit_inspection_check_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "enum": [
+                "lane_closure_layout",
+                "advance_warning_sign_system",
+                "channelization_system",
+                "transition_and_taper_geometry",
+                "conditional_active_devices",
+                "conditional_termination_area"
+              ]
+            },
+            "requirements": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "candidate_label",
+                  "subject",
+                  "relation",
+                  "threshold",
+                  "applicability_conditions",
+                  "required_inputs",
+                  "source_node_id",
+                  "activation_basis",
+                  "measurement_spec"
+                ],
+                "properties": {
+                  "candidate_label": {
+                    "type": "string"
+                  },
+                  "subject": {
+                    "type": "string"
+                  },
+                  "relation": {
+                    "type": "string"
+                  },
+                  "threshold": {
+                    "type": "string"
+                  },
+                  "applicability_conditions": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "required_inputs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "source_node_id": {
+                    "type": "string"
+                  },
+                  "measurement_spec": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "required",
+                      "tool",
+                      "quantity",
+                      "thresholds"
+                    ],
+                    "properties": {
+                      "required": {
+                        "type": "boolean"
+                      },
+                      "tool": {
+                        "enum": [
+                          "audit_channelizer_spacing",
+                          "estimate_available_width",
+                          "measure_buffer_length",
+                          "measure_device_spacing",
+                          "measure_downstream_taper",
+                          "measure_longitudinal_distance",
+                          "measure_sign_spacing",
+                          "measure_taper_length",
+                          null
+                        ]
+                      },
+                      "quantity": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "thresholds": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "required": [
+                            "condition",
+                            "value",
+                            "unit",
+                            "violation_when",
+                            "formula_parameter",
+                            "multiplier"
+                          ],
+                          "properties": {
+                            "condition": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": [
+                                "number",
+                                "null"
+                              ]
+                            },
+                            "unit": {
+                              "enum": [
+                                "m",
+                                "ft"
+                              ]
+                            },
+                            "violation_when": {
+                              "enum": [
+                                "below_minimum",
+                                "above_maximum"
+                              ]
+                            },
+                            "formula_parameter": {
+                              "type": [
+                                "string",
+                                "null"
+                              ]
+                            },
+                            "multiplier": {
+                              "type": [
+                                "number",
+                                "null"
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "activation_basis": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "type",
+                      "fact_keys",
+                      "evidence_source_node_ids",
+                      "explanation"
+                    ],
+                    "properties": {
+                      "type": {
+                        "enum": [
+                          "unconditional",
+                          "scene_fact",
+                          "selected_ta",
+                          "combined"
+                        ]
+                      },
+                      "fact_keys": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "evidence_source_node_ids": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "explanation": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "required": [
+            "domain",
+            "requirements"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 9018,
+      "input_tokens_details": {
+        "cache_write_tokens": 9015,
+        "cached_tokens": 0
+      },
+      "output_tokens": 498,
+      "output_tokens_details": {
+        "reasoning_tokens": 254
+      },
+      "total_tokens": 9516
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_08a8c04de8312ca6016ab32735563887d1a4e45ab112783fc0",
+    "object": "response",
+    "created_at": 1790125877,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1790125878,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "SIMPLIFIED STAGE 2 — Use submit_inspection_check_batch to register a concise set of distinct, executable field checks, not a clause inventory. Related branches from one source may remain one check when one observation or tool evaluates them together. Prefer coverage without overlap. Project-excluded scope and canonical provenance are program-enforced. No candidate exclusions are required. Complete all six regions and seal registration. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 2 is sealed; no Stage 3 call is permitted.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_08a8c04de8312ca6016ab32736615887d189c2f1cfec290626",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqsyc2zTnXEIEtv4h72C85RJCzACgF_NxW0fLfPs45S7e1Zi-8T73dN6IipP2UtDg1Li5r8BogkisuDRCnNcknmcOekl5fO9_cTYpBU2uGhcFv0oeF16KylsQDKrmEGMhifjAvPt_Hvzd-l7xcMzTkyDr22fC8nEv2Y-8zb8jcuo6VtA5FTJhjixnxSZpwtrmp2PtYYOgcD3C09ZWIDtP68tQD_PE3aVgXK5fEhBro7H4cKsKoYrXvr1d2EAB_ACzwdt5uIePJsenuTwR2I6TUg5N_qRxwVC8tdlUqfnPtBix9Jiw4cUoVkBXXbe6Bqe_nDgT9AvGyMxC7gg-AG02YoqNcEbf6HAWNS244RetM-zHi4tt77W6sujskt9B4KAGd5g7AUAByNBL7VBlWi9nTGm43FWqrJKhtsjEZSqK5Q7URYSrTqNuCA163fBlCW2RgTWCm8T6El2PocBskp4Ntv1BNjy6zZmn4M-9Kr0FqLtT1ipXyZNxHwpddjH6xPO5cN-k9-sTJ6xfR63bnmIlLHRmAIH3iAelGiaEqBe3E_m-GRlW2fQgyrRq0BV8DkNq_QaJqn4P0bFvcTiUbILODMkNkNlxGa7Q8spMtibA4tbVSvuBMdEeBtiEFaam1SQ8IYx1PrD9mJW7atvj_W8lT_w06m-GG554QzzxyLTrGreF9GFUKVU5iYn41DtI-h1n-WnJoq6IUsE0ICreSCc0EVX6Fjm24v-1pPd2emyVbVHH1fvWejDZC0oB6Mx2ecgP7GnsWLyQ0Cx7eewjASbnpCoEW-5RTWXBbAcHEqUa60Ev0jPUw5B8vnpJ3NSdIG8Ij2Hw9ETrOFDJsw4D_rMZhVxIUBS1R5NvtRQ0YRG9q0p71888TdJxXpQK0lM8D99MocJgv5nbsQSuZGpV_EphfQB_ABqDZKFs2eCUUr9KJiNmNXYJ0mJ-cmqjfR761u5eEUWI7146zBwDOF9FmhAuxWymiZwtd8HvKeYbP3YqDFvXbL4oXR5SHikDkST6CfktOR6qV8R06wFdXk9UgODkbRUG4c186qiqTLAjK6tq36s1E6t6ZsTEAvXnBtkVfE64F3a_PSxTZjr7_-z-FGoDR3bwUKVP9_ErqU2L1Mi83uy_ow1ASKD_twTxPoJlVS9tcyfROZthtTTYFnUE_MXfGWvSfJy7AhfoRkfXn-N8L-u2GfZY5qkkx0AIRDgFZbQMh5f_bbQhG0k4AMdDWluRxwaF7oFv3R-jRbBCmP9NW6-QowOsHRY6ZTrKlX0InR66ldxkzr2E6CIY8mqbKBi0Ar0_0OWKR_Chsl-YhodW9Cm92_bwKTLdfDom1atqlEiO0x6IfsoOlWBmUjjuFVFC1clOkU03kSw-PlGF5jHbJytBDJ_jPrrhFlnsBl0KvmDKilWuYV_I13yDSOt65lboPoc2F2voRCdS8zZTRU-bcB5ddjnSs-_yWd_5NNnWDdUQKl5PJm2jL1H2ZlrAkB2VnefXSAg==",
+        "summary": []
+      },
+      {
+        "id": "fc_08a8c04de8312ca6016ab32736dc4087d1af48aa36315197db",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{}",
+        "call_id": "call_tvr2pAv8cYMlhMayz2nZUVkN",
+        "name": "seal_requirement_registration"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Record screening status for one to twelve manual regions before requirement registration is sealed.",
+        "name": "complete_region_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "regions"
+          ],
+          "properties": {
+            "regions": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "region",
+                  "status",
+                  "reason"
+                ],
+                "properties": {
+                  "region": {
+                    "enum": [
+                      "lane_closure_layout",
+                      "advance_warning_sign_system",
+                      "channelization_system",
+                      "transition_and_taper_geometry",
+                      "conditional_active_devices",
+                      "conditional_termination_area"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "screened",
+                      "skipped_no_inspectable_candidate"
+                    ]
+                  },
+                  "reason": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Explicitly disposition retrieved candidates that were placed in a domain discovery ledger but are not activated final requirements.",
+        "name": "exclude_discovery_candidate_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "enum": [
+                "lane_closure_layout",
+                "advance_warning_sign_system",
+                "channelization_system",
+                "transition_and_taper_geometry",
+                "conditional_active_devices",
+                "conditional_termination_area"
+              ]
+            },
+            "exclusions": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source_node_id",
+                  "reason_code",
+                  "reason"
+                ],
+                "properties": {
+                  "source_node_id": {
+                    "type": "string"
+                  },
+                  "reason_code": {
+                    "enum": [
+                      "activation_predicate_not_established",
+                      "duplicate_same_compliance_predicate",
+                      "excluded_project_scope",
+                      "non_normative_context",
+                      "not_a_field_inspection_predicate"
+                    ]
+                  },
+                  "reason": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "required": [
+            "domain",
+            "exclusions"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Freeze the registered requirement set and begin data-availability assessment.",
+        "name": "seal_requirement_registration",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Register complete, source-grounded field inspection checks. Keep separately violable predicates separate even when they use the same observation or tool; combine only inseparable branches of one predicate.",
+        "name": "submit_inspection_check_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "enum": [
+                "lane_closure_layout",
+                "advance_warning_sign_system",
+                "channelization_system",
+                "transition_and_taper_geometry",
+                "conditional_active_devices",
+                "conditional_termination_area"
+              ]
+            },
+            "requirements": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "candidate_label",
+                  "subject",
+                  "relation",
+                  "threshold",
+                  "applicability_conditions",
+                  "required_inputs",
+                  "source_node_id",
+                  "activation_basis",
+                  "measurement_spec"
+                ],
+                "properties": {
+                  "candidate_label": {
+                    "type": "string"
+                  },
+                  "subject": {
+                    "type": "string"
+                  },
+                  "relation": {
+                    "type": "string"
+                  },
+                  "threshold": {
+                    "type": "string"
+                  },
+                  "applicability_conditions": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "required_inputs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "source_node_id": {
+                    "type": "string"
+                  },
+                  "measurement_spec": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "required",
+                      "tool",
+                      "quantity",
+                      "thresholds"
+                    ],
+                    "properties": {
+                      "required": {
+                        "type": "boolean"
+                      },
+                      "tool": {
+                        "enum": [
+                          "audit_channelizer_spacing",
+                          "estimate_available_width",
+                          "measure_buffer_length",
+                          "measure_device_spacing",
+                          "measure_downstream_taper",
+                          "measure_longitudinal_distance",
+                          "measure_sign_spacing",
+                          "measure_taper_length",
+                          null
+                        ]
+                      },
+                      "quantity": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "thresholds": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "required": [
+                            "condition",
+                            "value",
+                            "unit",
+                            "violation_when",
+                            "formula_parameter",
+                            "multiplier"
+                          ],
+                          "properties": {
+                            "condition": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": [
+                                "number",
+                                "null"
+                              ]
+                            },
+                            "unit": {
+                              "enum": [
+                                "m",
+                                "ft"
+                              ]
+                            },
+                            "violation_when": {
+                              "enum": [
+                                "below_minimum",
+                                "above_maximum"
+                              ]
+                            },
+                            "formula_parameter": {
+                              "type": [
+                                "string",
+                                "null"
+                              ]
+                            },
+                            "multiplier": {
+                              "type": [
+                                "number",
+                                "null"
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "activation_basis": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "type",
+                      "fact_keys",
+                      "evidence_source_node_ids",
+                      "explanation"
+                    ],
+                    "properties": {
+                      "type": {
+                        "enum": [
+                          "unconditional",
+                          "scene_fact",
+                          "selected_ta",
+                          "combined"
+                        ]
+                      },
+                      "fact_keys": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "evidence_source_node_ids": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "explanation": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "required": [
+            "domain",
+            "requirements"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 9216,
+      "input_tokens_details": {
+        "cache_write_tokens": 9213,
+        "cached_tokens": 0
+      },
+      "output_tokens": 67,
+      "output_tokens_details": {
+        "reasoning_tokens": 49
+      },
+      "total_tokens": 9283
+    },
+    "user": null,
+    "metadata": {}
+  }
+]

@@ -1,0 +1,224 @@
+{
+  "schema": "workzone_processing_record_v1",
+  "paper_case_name": "Workzone 3",
+  "workzone_id": "workzone_03",
+  "scene_id": "scene-CATS-15",
+  "raw_dataset_case": "Case_14",
+  "raw_root": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_14/",
+  "status": "agentic_stage0_to_6_complete_with_evidence_limitations",
+  "selection_manifest": "/home/klong23/workzone/data/workzone_03/selection_manifest.json",
+  "excluded_interval_s": null,
+  "retained_camera0_images": 240,
+  "retained_lidar_frames": 240,
+  "primary_method": "kg_plus_bm25",
+  "layout_selection": "pending_case_specific_stage0",
+  "posted_speed_mph": 20,
+  "work_duration_category": null,
+  "calibration": "black",
+  "completed_stages": [],
+  "stage_records": [
+    {
+      "stage": 0,
+      "status": "superseded_input_scope_changed",
+      "request": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/benchmark/stage1_stage2/kg_plus_bm25/scene-CATS-15/request_manifest.json",
+      "model_response": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/benchmark/stage1_stage2/kg_plus_bm25/scene-CATS-15/raw_responses.json",
+      "tool_trace": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/benchmark/stage1_stage2/kg_plus_bm25/scene-CATS-15/tool_trace.json",
+      "report": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/benchmark/stage1_stage2/kg_plus_bm25/scene-CATS-15/stage_0_layout_selection.json"
+    },
+    {
+      "stage": 1,
+      "status": "not_started_pending_stage0",
+      "request": null,
+      "model_response": null,
+      "tool_trace": null,
+      "report": null
+    },
+    {
+      "stage": 2,
+      "status": "not_started_pending_stage0",
+      "request": null,
+      "model_response": null,
+      "tool_trace": null,
+      "report": null
+    },
+    {
+      "stage": 3,
+      "status": "not_started_pending_stage0",
+      "request": null,
+      "model_response": null,
+      "tool_trace": null,
+      "report": null
+    },
+    {
+      "stage": 4,
+      "status": "not_started_pending_stage0",
+      "request": null,
+      "model_response": null,
+      "tool_trace": null,
+      "report": null
+    },
+    {
+      "stage": 5,
+      "status": "not_started_pending_stage0",
+      "request": null,
+      "model_response": null,
+      "tool_trace": null,
+      "report": null
+    },
+    {
+      "stage": 6,
+      "status": "not_started_pending_stage0",
+      "request": null,
+      "model_response": null,
+      "tool_trace": null,
+      "report": null
+    }
+  ],
+  "notes": [
+    "Raw sources unchanged; only camera0 selected.",
+    "No earlier case observations, scene parameters, measurements or conclusions reused.",
+    "Detections, BEV and compliance conclusions have not been produced.",
+    "Last camera frame has nearest LiDAR reference delta 100.010444 ms, flagged for synchronization validation."
+  ],
+  "work_duration_days_upper_bound": 3,
+  "work_duration_upper_bound_exclusive": true,
+  "user_confirmed_facts": {
+    "vehicle": "black",
+    "posted_speed_mph": 20,
+    "work_duration": "less_than_3_days",
+    "duration_subcategory": "unknown; less than three days alone does not distinguish short-term from intermediate-term",
+    "opposing_direction_lane_fully_closed": true
+  },
+  "prepared_root": "/home/klong23/workzone/data/workzone_03/processed",
+  "configuration_directory": "/home/klong23/workzone/experiments/agentic_inspection/config/workzone_03",
+  "scene_understanding": null,
+  "preflight": {
+    "status": "previous_scope_preflight_superseded"
+  },
+  "pending_scope": null,
+  "bev_status": "reviewed_objects_and_trajectory_complete",
+  "implementation_notes": [
+    "Prepared images use reference undistortion; corrected NovAtel Y-forward ego rotation, not legacy xyz Euler mapping.",
+    "Preflight removed a hash dependency on deleted legacy materialize_current_scene.py; materialized scene and live implementation files remain frozen."
+  ],
+  "inspection_scope": "Only 61–85 seconds",
+  "approach_context_time_range_s": [
+    61,
+    85
+  ],
+  "primary_work_area_approximate_time_range_s": [
+    78,
+    85
+  ],
+  "sensor_bev": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev",
+  "invalid_attempt_record": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/diagnostics/invalid_capture_vehicle_inference/invalidation.json",
+  "stage0_outcome": "Previous wider-window result superseded; scoped rerun pending",
+  "missing_scene_fields": [
+    "Confirmed opposing-traffic routing: on-site temporary diversion, off-site detour, or another treatment",
+    "Whether a temporary roadway or alignment exists within or adjacent to the right-of-way",
+    "Whether the closure extends to the entire roadway/route or only the opposing-direction lane",
+    "Exact work-area limits relative to the all-way-stop intersection, if an intersection-specific Typical Application is intended"
+  ],
+  "status_report": "/home/klong23/workzone/experiments/agentic_inspection/reports/workzone_03/preparation_status.html",
+  "tentative_user_facts": {
+    "opposing_traffic_detour": "expected, unconfirmed"
+  },
+  "stage0_quality_note": "Selected references TA-7/TA-8 are alternatives, not an approved primary layout. Scope remains single opposing-direction lane; do not infer whole-road closure.",
+  "object_detection": {
+    "status": "final_human_retained_representatives_materialized",
+    "detector": "IDEA-Research/grounding-dino-tiny",
+    "classification_model": "gpt-5.6-luna",
+    "frame_count": 240,
+    "scope_time_range_s": [
+      61,
+      85
+    ],
+    "candidate_root": "/home/klong23/workzone/data/workzone_03/detections",
+    "policy": "unreviewed model predictions; no accepted observations or normative conclusions updated",
+    "viewer_route": "/workzone3/detections",
+    "current_result": "/home/klong23/workzone/data/workzone_03/detections/current_detections.json",
+    "summary": {
+      "schema": "workzone_model_reviewed_tracklet_candidates_v1",
+      "workzone_id": "workzone_03",
+      "frame_count": 240,
+      "raw_candidate_count": 5824,
+      "tracklet_count": 3206,
+      "classification_model": "gpt-5.6-luna",
+      "model_classified_representatives": 295,
+      "filter_group_counts": {
+        "unverified": 2911,
+        "background": 113,
+        "target": 40,
+        "other_sign": 35,
+        "uncertain": 53,
+        "box_review": 54
+      },
+      "target_class_counts": {
+        "traffic_sign": 19,
+        "road_barrier": 2,
+        "barricade": 4,
+        "worker": 1,
+        "traffic_cone": 14
+      },
+      "policy": "Provisional 2D tracklets, not physical object counts. One representative classified for tracklets with >=3 observations; other frames remain inferred/unreviewed. Raw/background/uncertain candidates retained. No human acceptance, 3D verification, or normative findings. Earlier Qwen classification failed spot-check and is not used. Default target view additionally requires model-rated single-object bbox. Multi-object, truncated or unclear boxes have a separate box_review group; no detections deleted.",
+      "box_review_class_counts": {
+        "traffic_cone": 40,
+        "barricade": 10,
+        "traffic_sign": 3,
+        "vertical_panel": 1
+      }
+    },
+    "viewer_report": "/home/klong23/workzone/experiments/agentic_inspection/reports/workzone_03/detections.html",
+    "browser_validation": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/detection_verification/viewer_validation.json",
+    "excluded_classifier": "qwen3-vl:4b-instruct failed visual spot-check; not used in current results",
+    "final_result": "/home/klong23/workzone/data/workzone_03/detections/final_detections.json"
+  },
+  "input_window_s": [
+    61,
+    85
+  ],
+  "excluded_time_policy": "t<61 or t>85",
+  "limitations": [
+    "Model candidates are not human accepted or associated with 3D objects.",
+    "Opposing traffic routing remains unconfirmed."
+  ],
+  "input_recrop_audit": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/input_recrop_61_85.json",
+  "human_review": {
+    "status": "completed_user_confirmed",
+    "route": "/workzone3/cone-review",
+    "database": "/home/klong23/workzone/data/workzone_03/detections/human_review.sqlite3",
+    "scope": "representative_only",
+    "page_size": 50,
+    "unselected_on_submit": "no_web_submission",
+    "validation": "artifacts/workzone_03/detection_verification/viewer_validation.json",
+    "review_mode": "read_only_gallery_chat_corrections",
+    "selected_default": null,
+    "reviewed_records_editable": true,
+    "web_writes_enabled": false,
+    "review_revision": 81,
+    "pending_bbox_corrections": 0,
+    "corrected_boxes": 41
+  },
+  "final_detections": "/home/klong23/workzone/data/workzone_03/detections/final_detections.json",
+  "bev_validation": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/validation.json",
+  "bev_counts": {
+    "observations": 241,
+    "objects_with_candidate_position": 31,
+    "multi_frame_supported_objects": 22,
+    "mapped_observations": 166,
+    "unresolved_observations": 75,
+    "object_condition_counts": {
+      "not_reassessed": 31
+    },
+    "uncertain_views_resolved_by_same_object": 0
+  },
+  "active_agentic_run": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/agentic_final_review81",
+  "final_report": "/home/klong23/workzone/experiments/agentic_inspection/reports/workzone_03/final/report.html",
+  "final_result_counts": {
+    "not_assessed": 2,
+    "satisfied": 9
+  },
+  "layout": "TA-19",
+  "layout_origin": "model source review followed by explicit user confirmation",
+  "method_repairs": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/agentic_final_review81/pipeline_repair_notes.json"
+}

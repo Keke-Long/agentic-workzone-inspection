@@ -1,0 +1,3418 @@
+{
+  "schema": "case18_bev_objects_v1",
+  "objects": [
+    {
+      "object_id": "C18_OBJ_001",
+      "family": "arrow_board",
+      "classes": [
+        "arrow_board"
+      ],
+      "world_xyz_m": [
+        -448.6643877936456,
+        -423.92410580055355,
+        0.7017081482168978
+      ],
+      "local_xy_m": [
+        315.24697795353023,
+        -1.8113973888376522
+      ],
+      "station_m": 315.22300146642453,
+      "independent_geometry_frames": 12,
+      "world_xy_max_radius_m": 0.5273992001874915,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0389_CAM_FRONT_Q010",
+        "C18_F0392_CAM_FRONT_Q010",
+        "C18_F0394_CAM_FRONT_Q014",
+        "C18_F0396_CAM_FRONT_Q014",
+        "C18_F0426_CAM_FRONT_Q010",
+        "C18_F0427_CAM_FRONT_Q006",
+        "C18_F0428_CAM_FRONT_Q004",
+        "C18_F0429_CAM_FRONT_Q004",
+        "C18_F0430_CAM_FRONT_Q004",
+        "C18_F0431_CAM_FRONT_Q004",
+        "C18_F0433_CAM_FRONT_Q003",
+        "C18_F0434_CAM_FRONT_Q001"
+      ],
+      "observation_ids": [
+        "C18_F0389_CAM_FRONT_Q010",
+        "C18_F0392_CAM_FRONT_Q010",
+        "C18_F0394_CAM_FRONT_Q014",
+        "C18_F0396_CAM_FRONT_Q014",
+        "C18_F0426_CAM_FRONT_Q010",
+        "C18_F0427_CAM_FRONT_Q006",
+        "C18_F0428_CAM_FRONT_Q004",
+        "C18_F0429_CAM_FRONT_Q004",
+        "C18_F0430_CAM_FRONT_Q004",
+        "C18_F0431_CAM_FRONT_Q004",
+        "C18_F0433_CAM_FRONT_Q003",
+        "C18_F0434_CAM_FRONT_Q001",
+        "C18_F0375_CAM_FRONT_Q019",
+        "C18_F0376_CAM_FRONT_Q008",
+        "C18_F0380_CAM_FRONT_Q013"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_condition_target",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 15
+    },
+    {
+      "object_id": "C18_OBJ_002",
+      "family": "channelizer",
+      "classes": [
+        "road_barrier",
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -465.6706221989379,
+        -443.7902714451559,
+        -1.1533764221174791
+      ],
+      "local_xy_m": [
+        341.249846365797,
+        0.9858781512723895
+      ],
+      "station_m": 341.349907422689,
+      "independent_geometry_frames": 4,
+      "world_xy_max_radius_m": 0.2828520938901763,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0432_CAM_FRONT_Q031",
+        "C18_F0443_CAM_FRONT_Q005",
+        "C18_F0449_CAM_FRONT_Q006",
+        "C18_F0451_CAM_FRONT_Q012"
+      ],
+      "observation_ids": [
+        "C18_F0432_CAM_FRONT_Q031",
+        "C18_F0443_CAM_FRONT_Q005",
+        "C18_F0449_CAM_FRONT_Q006",
+        "C18_F0451_CAM_FRONT_Q012"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0443_CAM_FRONT_Q005",
+        "C18_F0449_CAM_FRONT_Q006",
+        "C18_F0451_CAM_FRONT_Q012"
+      ],
+      "uncertain_observation_ids": [
+        "C18_F0432_CAM_FRONT_Q031"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [
+        "C18_F0432_CAM_FRONT_Q031"
+      ],
+      "observation_count": 4
+    },
+    {
+      "object_id": "C18_OBJ_003",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -467.4107116635521,
+        -443.6080897901203,
+        -1.6843932503635584
+      ],
+      "local_xy_m": [
+        342.39113217295204,
+        -0.3399882219040697
+      ],
+      "station_m": 342.4667128958115,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "C18_F0458_CAM_FRONT_Q007"
+      ],
+      "observation_ids": [
+        "C18_F0458_CAM_FRONT_Q007"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "uncertain_no_clear_view",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [
+        "C18_F0458_CAM_FRONT_Q007"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    },
+    {
+      "object_id": "C18_OBJ_004",
+      "family": "channelizer",
+      "classes": [
+        "barricade",
+        "road_barrier"
+      ],
+      "world_xyz_m": [
+        -453.1570032007267,
+        -411.06085778362626,
+        -0.9561070165859946
+      ],
+      "local_xy_m": [
+        309.6974714817344,
+        -14.254551342437125
+      ],
+      "station_m": 309.24686154602017,
+      "independent_geometry_frames": 3,
+      "world_xy_max_radius_m": 0.44735333583858683,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0413_CAM_FRONT_Q008",
+        "C18_F0414_CAM_FRONT_Q011",
+        "C18_F0419_CAM_FRONT_Q004"
+      ],
+      "observation_ids": [
+        "C18_F0413_CAM_FRONT_Q008",
+        "C18_F0414_CAM_FRONT_Q011",
+        "C18_F0419_CAM_FRONT_Q004",
+        "C18_F0412_CAM_FRONT_Q033",
+        "C18_F0414_CAM_FRONT_Q006",
+        "C18_F0415_CAM_FRONT_Q008",
+        "C18_F0416_CAM_FRONT_Q006",
+        "C18_F0417_CAM_FRONT_Q005",
+        "C18_F0419_CAM_FRONT_Q009",
+        "C18_F0420_CAM_FRONT_Q003",
+        "C18_F0422_CAM_FRONT_Q003",
+        "C18_F0423_CAM_FRONT_Q003"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0413_CAM_FRONT_Q008",
+        "C18_F0419_CAM_FRONT_Q004",
+        "C18_F0412_CAM_FRONT_Q033",
+        "C18_F0420_CAM_FRONT_Q003",
+        "C18_F0422_CAM_FRONT_Q003"
+      ],
+      "uncertain_observation_ids": [
+        "C18_F0414_CAM_FRONT_Q011",
+        "C18_F0414_CAM_FRONT_Q006",
+        "C18_F0415_CAM_FRONT_Q008",
+        "C18_F0416_CAM_FRONT_Q006",
+        "C18_F0417_CAM_FRONT_Q005",
+        "C18_F0419_CAM_FRONT_Q009",
+        "C18_F0423_CAM_FRONT_Q003"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [
+        "C18_F0414_CAM_FRONT_Q011",
+        "C18_F0414_CAM_FRONT_Q006",
+        "C18_F0415_CAM_FRONT_Q008",
+        "C18_F0416_CAM_FRONT_Q006",
+        "C18_F0417_CAM_FRONT_Q005",
+        "C18_F0419_CAM_FRONT_Q009",
+        "C18_F0423_CAM_FRONT_Q003"
+      ],
+      "observation_count": 12
+    },
+    {
+      "object_id": "C18_OBJ_005",
+      "family": "channelizer",
+      "classes": [
+        "road_barrier"
+      ],
+      "world_xyz_m": [
+        -451.0314325624714,
+        -410.35197460283325,
+        -0.7736758985955399
+      ],
+      "local_xy_m": [
+        307.66428672583044,
+        -13.312890230049032
+      ],
+      "station_m": 307.22636570811386,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "C18_F0418_CAM_FRONT_Q007"
+      ],
+      "observation_ids": [
+        "C18_F0418_CAM_FRONT_Q007"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "serviceable_view_identity_provisional",
+      "clear_serviceable_observation_ids": [
+        "C18_F0418_CAM_FRONT_Q007"
+      ],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    },
+    {
+      "object_id": "C18_OBJ_006",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -420.6355293948901,
+        -393.96220990123044,
+        -2.245331693493907
+      ],
+      "local_xy_m": [
+        274.3017488928592,
+        -4.397937303058924
+      ],
+      "station_m": 274.22132833310695,
+      "independent_geometry_frames": 2,
+      "world_xy_max_radius_m": 0.10657535558687233,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0327_CAM_FRONT_Q005",
+        "C18_F0366_CAM_FRONT_Q047"
+      ],
+      "observation_ids": [
+        "C18_F0327_CAM_FRONT_Q005",
+        "C18_F0366_CAM_FRONT_Q047"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0327_CAM_FRONT_Q005",
+        "C18_F0366_CAM_FRONT_Q047"
+      ],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 2
+    },
+    {
+      "object_id": "C18_OBJ_007",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -421.67567758945995,
+        -394.51520844407463,
+        -1.9140882498859184
+      ],
+      "local_xy_m": [
+        275.4467695071953,
+        -4.722055322944678
+      ],
+      "station_m": 275.355622114305,
+      "independent_geometry_frames": 11,
+      "world_xy_max_radius_m": 0.24624002416129806,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0212_CAM_FRONT_Q012",
+        "C18_F0213_CAM_FRONT_Q014",
+        "C18_F0267_CAM_FRONT_Q013",
+        "C18_F0270_CAM_FRONT_Q009",
+        "C18_F0325_CAM_FRONT_Q025",
+        "C18_F0328_CAM_FRONT_Q007",
+        "C18_F0339_CAM_FRONT_Q005",
+        "C18_F0344_CAM_FRONT_Q005",
+        "C18_F0349_CAM_FRONT_Q008",
+        "C18_F0357_CAM_FRONT_Q000",
+        "C18_F0359_CAM_FRONT_Q003"
+      ],
+      "observation_ids": [
+        "C18_F0212_CAM_FRONT_Q012",
+        "C18_F0213_CAM_FRONT_Q014",
+        "C18_F0267_CAM_FRONT_Q013",
+        "C18_F0270_CAM_FRONT_Q009",
+        "C18_F0325_CAM_FRONT_Q025",
+        "C18_F0328_CAM_FRONT_Q007",
+        "C18_F0339_CAM_FRONT_Q005",
+        "C18_F0344_CAM_FRONT_Q005",
+        "C18_F0349_CAM_FRONT_Q008",
+        "C18_F0357_CAM_FRONT_Q000",
+        "C18_F0359_CAM_FRONT_Q003"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0212_CAM_FRONT_Q012",
+        "C18_F0213_CAM_FRONT_Q014",
+        "C18_F0267_CAM_FRONT_Q013",
+        "C18_F0270_CAM_FRONT_Q009",
+        "C18_F0325_CAM_FRONT_Q025",
+        "C18_F0328_CAM_FRONT_Q007",
+        "C18_F0339_CAM_FRONT_Q005",
+        "C18_F0344_CAM_FRONT_Q005",
+        "C18_F0349_CAM_FRONT_Q008",
+        "C18_F0357_CAM_FRONT_Q000",
+        "C18_F0359_CAM_FRONT_Q003"
+      ],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 11
+    },
+    {
+      "object_id": "C18_OBJ_008",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -420.805181776813,
+        -395.0598245649548,
+        -2.3012671883441356
+      ],
+      "local_xy_m": [
+        275.17791832022,
+        -3.71539278782702
+      ],
+      "station_m": 275.1199542829351,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "C18_F0325_CAM_FRONT_Q024"
+      ],
+      "observation_ids": [
+        "C18_F0325_CAM_FRONT_Q024"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "serviceable_view_identity_provisional",
+      "clear_serviceable_observation_ids": [
+        "C18_F0325_CAM_FRONT_Q024"
+      ],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    },
+    {
+      "object_id": "C18_OBJ_009",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -432.7301776305468,
+        -409.1914770887366,
+        -1.7311987978863619
+      ],
+      "local_xy_m": [
+        293.54815686872394,
+        -1.6074400285049464
+      ],
+      "station_m": 293.52550397043535,
+      "independent_geometry_frames": 2,
+      "world_xy_max_radius_m": 0.022128782878862833,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0374_CAM_FRONT_Q023",
+        "C18_F0375_CAM_FRONT_Q022"
+      ],
+      "observation_ids": [
+        "C18_F0374_CAM_FRONT_Q023",
+        "C18_F0375_CAM_FRONT_Q022",
+        "C18_F0360_CAM_FRONT_Q020",
+        "C18_F0392_CAM_FRONT_Q016"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0374_CAM_FRONT_Q023",
+        "C18_F0375_CAM_FRONT_Q022",
+        "C18_F0392_CAM_FRONT_Q016"
+      ],
+      "uncertain_observation_ids": [
+        "C18_F0360_CAM_FRONT_Q020"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [
+        "C18_F0360_CAM_FRONT_Q020"
+      ],
+      "observation_count": 4
+    },
+    {
+      "object_id": "C18_OBJ_010",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -429.65370322587853,
+        -405.4482095051705,
+        -1.7771634706013901
+      ],
+      "local_xy_m": [
+        288.7420379395736,
+        -2.222230890195381
+      ],
+      "station_m": 288.71090937984405,
+      "independent_geometry_frames": 4,
+      "world_xy_max_radius_m": 0.4849504978437582,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0350_CAM_FRONT_Q032",
+        "C18_F0364_CAM_FRONT_Q017",
+        "C18_F0372_CAM_FRONT_Q039",
+        "C18_F0386_CAM_FRONT_Q022"
+      ],
+      "observation_ids": [
+        "C18_F0350_CAM_FRONT_Q032",
+        "C18_F0364_CAM_FRONT_Q017",
+        "C18_F0372_CAM_FRONT_Q039",
+        "C18_F0386_CAM_FRONT_Q022",
+        "C18_F0413_CAM_FRONT_Q010"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0364_CAM_FRONT_Q017",
+        "C18_F0386_CAM_FRONT_Q022"
+      ],
+      "uncertain_observation_ids": [
+        "C18_F0350_CAM_FRONT_Q032",
+        "C18_F0372_CAM_FRONT_Q039",
+        "C18_F0413_CAM_FRONT_Q010"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [
+        "C18_F0350_CAM_FRONT_Q032",
+        "C18_F0372_CAM_FRONT_Q039",
+        "C18_F0413_CAM_FRONT_Q010"
+      ],
+      "observation_count": 5
+    },
+    {
+      "object_id": "C18_OBJ_011",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -532.7077807552246,
+        -507.9727889387385,
+        -1.4971563223789777
+      ],
+      "local_xy_m": [
+        434.05486082544144,
+        1.7294508271097704
+      ],
+      "station_m": 434.22320675483303,
+      "independent_geometry_frames": 2,
+      "world_xy_max_radius_m": 0.026744612892973533,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0530_CAM_FRONT_Q035",
+        "C18_F0534_CAM_FRONT_Q007"
+      ],
+      "observation_ids": [
+        "C18_F0530_CAM_FRONT_Q035",
+        "C18_F0534_CAM_FRONT_Q007"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "uncertain_no_clear_view",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [
+        "C18_F0530_CAM_FRONT_Q035",
+        "C18_F0534_CAM_FRONT_Q007"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 2
+    },
+    {
+      "object_id": "C18_OBJ_012",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -534.6845330949961,
+        -509.75708160653704,
+        -1.4280020057743497
+      ],
+      "local_xy_m": [
+        436.7171932676278,
+        1.6725640585802661
+      ],
+      "station_m": 436.8991656290909,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "C18_F0536_CAM_FRONT_Q003"
+      ],
+      "observation_ids": [
+        "C18_F0536_CAM_FRONT_Q003"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "uncertain_no_clear_view",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [
+        "C18_F0536_CAM_FRONT_Q003"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    },
+    {
+      "object_id": "C18_OBJ_013",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -536.0204003068393,
+        -509.75292122058784,
+        -1.8351408843579322
+      ],
+      "local_xy_m": [
+        437.68663292377886,
+        0.7534638085691139
+      ],
+      "station_m": 437.8788956111775,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "C18_F0547_CAM_FRONT_Q816"
+      ],
+      "observation_ids": [
+        "C18_F0547_CAM_FRONT_Q816"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "serviceable_view_identity_provisional",
+      "clear_serviceable_observation_ids": [
+        "C18_F0547_CAM_FRONT_Q816"
+      ],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    },
+    {
+      "object_id": "C18_OBJ_014",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -528.8518516649187,
+        -504.1281213546555,
+        -1.459897484806093
+      ],
+      "local_xy_m": [
+        428.6118913405923,
+        1.5753691326532253
+      ],
+      "station_m": 428.76929165816153,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "C18_F0509_CAM_FRONT_Q009"
+      ],
+      "observation_ids": [
+        "C18_F0509_CAM_FRONT_Q009"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "serviceable_view_identity_provisional",
+      "clear_serviceable_observation_ids": [
+        "C18_F0509_CAM_FRONT_Q009"
+      ],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    },
+    {
+      "object_id": "C18_OBJ_015",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -506.552332901082,
+        -483.30495784514693,
+        -1.224450781473053
+      ],
+      "local_xy_m": [
+        398.10148814252466,
+        1.7114304314160196
+      ],
+      "station_m": 398.2064109406231,
+      "independent_geometry_frames": 3,
+      "world_xy_max_radius_m": 0.2678056319116725,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0474_CAM_FRONT_Q008",
+        "C18_F0479_CAM_FRONT_Q008",
+        "C18_F0501_CAM_FRONT_Q004"
+      ],
+      "observation_ids": [
+        "C18_F0474_CAM_FRONT_Q008",
+        "C18_F0479_CAM_FRONT_Q008",
+        "C18_F0501_CAM_FRONT_Q004",
+        "C18_F0482_CAM_FRONT_Q011"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0501_CAM_FRONT_Q004",
+        "C18_F0482_CAM_FRONT_Q011"
+      ],
+      "uncertain_observation_ids": [
+        "C18_F0474_CAM_FRONT_Q008",
+        "C18_F0479_CAM_FRONT_Q008"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [
+        "C18_F0474_CAM_FRONT_Q008",
+        "C18_F0479_CAM_FRONT_Q008"
+      ],
+      "observation_count": 4
+    },
+    {
+      "object_id": "C18_OBJ_016",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -521.4758029153236,
+        -497.7332854483041,
+        -1.6410243725917257
+      ],
+      "local_xy_m": [
+        418.8708466905663,
+        1.9791076664129974
+      ],
+      "station_m": 418.9972134347272,
+      "independent_geometry_frames": 3,
+      "world_xy_max_radius_m": 0.1398428760656349,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0498_CAM_FRONT_Q014",
+        "C18_F0507_CAM_FRONT_Q004",
+        "C18_F0510_CAM_FRONT_Q005"
+      ],
+      "observation_ids": [
+        "C18_F0498_CAM_FRONT_Q014",
+        "C18_F0507_CAM_FRONT_Q004",
+        "C18_F0510_CAM_FRONT_Q005"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0507_CAM_FRONT_Q004",
+        "C18_F0510_CAM_FRONT_Q005"
+      ],
+      "uncertain_observation_ids": [
+        "C18_F0498_CAM_FRONT_Q014"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [
+        "C18_F0498_CAM_FRONT_Q014"
+      ],
+      "observation_count": 3
+    },
+    {
+      "object_id": "C18_OBJ_017",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -519.4642061361722,
+        -495.4055227642202,
+        -1.5941577725725244
+      ],
+      "local_xy_m": [
+        415.7774977779156,
+        1.6643318371791866
+      ],
+      "station_m": 415.8888704234249,
+      "independent_geometry_frames": 5,
+      "world_xy_max_radius_m": 0.13260977364262402,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0492_CAM_FRONT_Q016",
+        "C18_F0494_CAM_FRONT_Q013",
+        "C18_F0495_CAM_FRONT_Q012",
+        "C18_F0503_CAM_FRONT_Q014",
+        "C18_F0508_CAM_FRONT_Q003"
+      ],
+      "observation_ids": [
+        "C18_F0492_CAM_FRONT_Q016",
+        "C18_F0494_CAM_FRONT_Q013",
+        "C18_F0495_CAM_FRONT_Q012",
+        "C18_F0503_CAM_FRONT_Q014",
+        "C18_F0508_CAM_FRONT_Q003"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0503_CAM_FRONT_Q014",
+        "C18_F0508_CAM_FRONT_Q003"
+      ],
+      "uncertain_observation_ids": [
+        "C18_F0492_CAM_FRONT_Q016",
+        "C18_F0494_CAM_FRONT_Q013",
+        "C18_F0495_CAM_FRONT_Q012"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [
+        "C18_F0492_CAM_FRONT_Q016",
+        "C18_F0494_CAM_FRONT_Q013",
+        "C18_F0495_CAM_FRONT_Q012"
+      ],
+      "observation_count": 5
+    },
+    {
+      "object_id": "C18_OBJ_018",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -522.1164807120526,
+        -492.7448383992809,
+        -1.670407481813241
+      ],
+      "local_xy_m": [
+        415.90354712358766,
+        -2.091010549943695
+      ],
+      "station_m": 415.96713737434294,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "C18_F0513_CAM_FRONT_Q010"
+      ],
+      "observation_ids": [
+        "C18_F0513_CAM_FRONT_Q010"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "uncertain_no_clear_view",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [
+        "C18_F0513_CAM_FRONT_Q010"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    },
+    {
+      "object_id": "C18_OBJ_019",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -571.7472627387165,
+        -514.2877596962005,
+        -0.034448429912063754
+      ],
+      "local_xy_m": [
+        466.79970983547713,
+        -20.445644945331715
+      ],
+      "station_m": 465.7235289439242,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "C18_F0564_CAM_FRONT_Q005"
+      ],
+      "observation_ids": [
+        "C18_F0564_CAM_FRONT_Q005"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "uncertain_no_clear_view",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [
+        "C18_F0564_CAM_FRONT_Q005"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    },
+    {
+      "object_id": "C18_OBJ_020",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -416.64963663634774,
+        -388.61061899293884,
+        -1.5672502477036474
+      ],
+      "local_xy_m": [
+        267.7308130763769,
+        -5.559689784433074
+      ],
+      "station_m": 267.62506542190704,
+      "independent_geometry_frames": 3,
+      "world_xy_max_radius_m": 0.2662504438166813,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0364_CAM_FRONT_Q029",
+        "C18_F0366_CAM_FRONT_Q013",
+        "C18_F0366_CAM_FRONT_Q029",
+        "C18_F0368_CAM_FRONT_Q009"
+      ],
+      "observation_ids": [
+        "C18_F0364_CAM_FRONT_Q029",
+        "C18_F0366_CAM_FRONT_Q013",
+        "C18_F0366_CAM_FRONT_Q029",
+        "C18_F0368_CAM_FRONT_Q009"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0364_CAM_FRONT_Q029",
+        "C18_F0366_CAM_FRONT_Q013",
+        "C18_F0366_CAM_FRONT_Q029",
+        "C18_F0368_CAM_FRONT_Q009"
+      ],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 4
+    },
+    {
+      "object_id": "C18_OBJ_021",
+      "family": "channelizer",
+      "classes": [
+        "barricade",
+        "road_barrier",
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -413.6849608848647,
+        -385.73757344202454,
+        -1.5826167887156841
+      ],
+      "local_xy_m": [
+        263.5776216240704,
+        -5.613768860805957
+      ],
+      "station_m": 263.4839544342778,
+      "independent_geometry_frames": 13,
+      "world_xy_max_radius_m": 0.20608830336292552,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0345_CAM_FRONT_Q003",
+        "C18_F0346_CAM_FRONT_Q003",
+        "C18_F0350_CAM_FRONT_Q019",
+        "C18_F0352_CAM_FRONT_Q019",
+        "C18_F0354_CAM_FRONT_Q003",
+        "C18_F0355_CAM_FRONT_Q009",
+        "C18_F0358_CAM_FRONT_Q006",
+        "C18_F0359_CAM_FRONT_Q011",
+        "C18_F0367_CAM_FRONT_Q019",
+        "C18_F0370_CAM_FRONT_Q007",
+        "C18_F0371_CAM_FRONT_Q008",
+        "C18_F0372_CAM_FRONT_Q005",
+        "C18_F0376_CAM_FRONT_Q006"
+      ],
+      "observation_ids": [
+        "C18_F0345_CAM_FRONT_Q003",
+        "C18_F0346_CAM_FRONT_Q003",
+        "C18_F0350_CAM_FRONT_Q019",
+        "C18_F0352_CAM_FRONT_Q019",
+        "C18_F0354_CAM_FRONT_Q003",
+        "C18_F0355_CAM_FRONT_Q009",
+        "C18_F0358_CAM_FRONT_Q006",
+        "C18_F0359_CAM_FRONT_Q011",
+        "C18_F0367_CAM_FRONT_Q019",
+        "C18_F0370_CAM_FRONT_Q007",
+        "C18_F0371_CAM_FRONT_Q008",
+        "C18_F0372_CAM_FRONT_Q005",
+        "C18_F0376_CAM_FRONT_Q006"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0345_CAM_FRONT_Q003",
+        "C18_F0346_CAM_FRONT_Q003",
+        "C18_F0350_CAM_FRONT_Q019",
+        "C18_F0352_CAM_FRONT_Q019",
+        "C18_F0354_CAM_FRONT_Q003",
+        "C18_F0355_CAM_FRONT_Q009",
+        "C18_F0358_CAM_FRONT_Q006",
+        "C18_F0359_CAM_FRONT_Q011",
+        "C18_F0367_CAM_FRONT_Q019",
+        "C18_F0370_CAM_FRONT_Q007",
+        "C18_F0371_CAM_FRONT_Q008",
+        "C18_F0372_CAM_FRONT_Q005",
+        "C18_F0376_CAM_FRONT_Q006"
+      ],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 13
+    },
+    {
+      "object_id": "C18_OBJ_022",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -474.46740963508375,
+        -452.3030572808235,
+        -1.442017679033977
+      ],
+      "local_xy_m": [
+        353.4910925400591,
+        1.1482028132039932
+      ],
+      "station_m": 353.5889657880083,
+      "independent_geometry_frames": 5,
+      "world_xy_max_radius_m": 0.0773319298604832,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0446_CAM_FRONT_Q013",
+        "C18_F0448_CAM_FRONT_Q014",
+        "C18_F0450_CAM_FRONT_Q016",
+        "C18_F0451_CAM_FRONT_Q002",
+        "C18_F0453_CAM_FRONT_Q004"
+      ],
+      "observation_ids": [
+        "C18_F0446_CAM_FRONT_Q013",
+        "C18_F0448_CAM_FRONT_Q014",
+        "C18_F0450_CAM_FRONT_Q016",
+        "C18_F0451_CAM_FRONT_Q002",
+        "C18_F0453_CAM_FRONT_Q004"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0446_CAM_FRONT_Q013",
+        "C18_F0448_CAM_FRONT_Q014"
+      ],
+      "uncertain_observation_ids": [
+        "C18_F0450_CAM_FRONT_Q016",
+        "C18_F0451_CAM_FRONT_Q002",
+        "C18_F0453_CAM_FRONT_Q004"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [
+        "C18_F0450_CAM_FRONT_Q016",
+        "C18_F0451_CAM_FRONT_Q002",
+        "C18_F0453_CAM_FRONT_Q004"
+      ],
+      "observation_count": 5
+    },
+    {
+      "object_id": "C18_OBJ_023",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -484.3097665409665,
+        -461.8089154948832,
+        -1.350147458086882
+      ],
+      "local_xy_m": [
+        367.17211067620536,
+        1.3186909231745254
+      ],
+      "station_m": 367.27317297408297,
+      "independent_geometry_frames": 2,
+      "world_xy_max_radius_m": 0.10825609387148921,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0459_CAM_FRONT_Q007",
+        "C18_F0470_CAM_FRONT_Q020"
+      ],
+      "observation_ids": [
+        "C18_F0459_CAM_FRONT_Q007",
+        "C18_F0470_CAM_FRONT_Q020"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0459_CAM_FRONT_Q007",
+        "C18_F0470_CAM_FRONT_Q020"
+      ],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 2
+    },
+    {
+      "object_id": "C18_OBJ_024",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -480.92892662596637,
+        -458.67264677995286,
+        -1.4684923783848502
+      ],
+      "local_xy_m": [
+        362.56071351397827,
+        1.3544147991272155
+      ],
+      "station_m": 362.66182737927784,
+      "independent_geometry_frames": 3,
+      "world_xy_max_radius_m": 0.13078759860462288,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0454_CAM_FRONT_Q008",
+        "C18_F0462_CAM_FRONT_Q004",
+        "C18_F0475_CAM_FRONT_Q195"
+      ],
+      "observation_ids": [
+        "C18_F0454_CAM_FRONT_Q008",
+        "C18_F0462_CAM_FRONT_Q004",
+        "C18_F0475_CAM_FRONT_Q195"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0454_CAM_FRONT_Q008",
+        "C18_F0462_CAM_FRONT_Q004",
+        "C18_F0475_CAM_FRONT_Q195"
+      ],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 3
+    },
+    {
+      "object_id": "C18_OBJ_025",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -501.94195399235184,
+        -478.8532275186011,
+        -1.464107046684883
+      ],
+      "local_xy_m": [
+        391.7322440891455,
+        1.6085579346229093
+      ],
+      "station_m": 391.8451564878102,
+      "independent_geometry_frames": 9,
+      "world_xy_max_radius_m": 0.27488826600142396,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0463_CAM_FRONT_Q009",
+        "C18_F0465_CAM_FRONT_Q008",
+        "C18_F0478_CAM_FRONT_Q034",
+        "C18_F0479_CAM_FRONT_Q025",
+        "C18_F0481_CAM_FRONT_Q098",
+        "C18_F0486_CAM_FRONT_Q009",
+        "C18_F0487_CAM_FRONT_Q002",
+        "C18_F0493_CAM_FRONT_Q035",
+        "C18_F0497_CAM_FRONT_Q086"
+      ],
+      "observation_ids": [
+        "C18_F0463_CAM_FRONT_Q009",
+        "C18_F0465_CAM_FRONT_Q008",
+        "C18_F0478_CAM_FRONT_Q034",
+        "C18_F0479_CAM_FRONT_Q025",
+        "C18_F0481_CAM_FRONT_Q098",
+        "C18_F0486_CAM_FRONT_Q009",
+        "C18_F0487_CAM_FRONT_Q002",
+        "C18_F0493_CAM_FRONT_Q035",
+        "C18_F0497_CAM_FRONT_Q086",
+        "C18_F0467_CAM_FRONT_Q009",
+        "C18_F0499_CAM_FRONT_Q028"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0465_CAM_FRONT_Q008",
+        "C18_F0478_CAM_FRONT_Q034",
+        "C18_F0479_CAM_FRONT_Q025",
+        "C18_F0481_CAM_FRONT_Q098",
+        "C18_F0486_CAM_FRONT_Q009",
+        "C18_F0487_CAM_FRONT_Q002",
+        "C18_F0493_CAM_FRONT_Q035",
+        "C18_F0497_CAM_FRONT_Q086",
+        "C18_F0499_CAM_FRONT_Q028"
+      ],
+      "uncertain_observation_ids": [
+        "C18_F0463_CAM_FRONT_Q009",
+        "C18_F0467_CAM_FRONT_Q009"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [
+        "C18_F0463_CAM_FRONT_Q009",
+        "C18_F0467_CAM_FRONT_Q009"
+      ],
+      "observation_count": 11
+    },
+    {
+      "object_id": "C18_OBJ_026",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -511.59330039421656,
+        -488.2054631349835,
+        -1.462940445694702
+      ],
+      "local_xy_m": [
+        405.13151376351163,
+        1.8213479562795576
+      ],
+      "station_m": 405.2355458162348,
+      "independent_geometry_frames": 2,
+      "world_xy_max_radius_m": 0.08078307046781132,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0491_CAM_FRONT_Q008",
+        "C18_F0501_CAM_FRONT_Q003"
+      ],
+      "observation_ids": [
+        "C18_F0491_CAM_FRONT_Q008",
+        "C18_F0501_CAM_FRONT_Q003"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "uncertain_no_clear_view",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [
+        "C18_F0491_CAM_FRONT_Q008",
+        "C18_F0501_CAM_FRONT_Q003"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 2
+    },
+    {
+      "object_id": "C18_OBJ_027",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -513.9362248428915,
+        -490.6911065157873,
+        -1.3445282426075351
+      ],
+      "local_xy_m": [
+        408.5466795050748,
+        2.0238268328259092
+      ],
+      "station_m": 408.65270959959014,
+      "independent_geometry_frames": 3,
+      "world_xy_max_radius_m": 0.11139127991263342,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0503_CAM_FRONT_Q018",
+        "C18_F0512_CAM_FRONT_Q004",
+        "C18_F0517_CAM_FRONT_Q108"
+      ],
+      "observation_ids": [
+        "C18_F0503_CAM_FRONT_Q018",
+        "C18_F0512_CAM_FRONT_Q004",
+        "C18_F0517_CAM_FRONT_Q108"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0503_CAM_FRONT_Q018",
+        "C18_F0512_CAM_FRONT_Q004"
+      ],
+      "uncertain_observation_ids": [
+        "C18_F0517_CAM_FRONT_Q108"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [
+        "C18_F0517_CAM_FRONT_Q108"
+      ],
+      "observation_count": 3
+    },
+    {
+      "object_id": "C18_OBJ_028",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -419.48720882893605,
+        -391.4773879641529,
+        -1.6521540129878036
+      ],
+      "local_xy_m": [
+        271.7619905739754,
+        -5.419019015183491
+      ],
+      "station_m": 271.6560599016991,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "C18_F0366_CAM_FRONT_Q030"
+      ],
+      "observation_ids": [
+        "C18_F0366_CAM_FRONT_Q030"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "serviceable_view_identity_provisional",
+      "clear_serviceable_observation_ids": [
+        "C18_F0366_CAM_FRONT_Q030"
+      ],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    },
+    {
+      "object_id": "C18_OBJ_029",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -418.0034689296946,
+        -390.36888884431244,
+        -1.272182847199875
+      ],
+      "local_xy_m": [
+        269.9219165283802,
+        -5.2083489081079355
+      ],
+      "station_m": 269.83370087896117,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "C18_F0371_CAM_FRONT_Q015"
+      ],
+      "observation_ids": [
+        "C18_F0371_CAM_FRONT_Q015"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "serviceable_view_identity_provisional",
+      "clear_serviceable_observation_ids": [
+        "C18_F0371_CAM_FRONT_Q015"
+      ],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    },
+    {
+      "object_id": "C18_OBJ_030",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -423.61167554961685,
+        -397.48745580298055,
+        -1.882589891761274
+      ],
+      "local_xy_m": [
+        278.8853367111143,
+        -3.87303034516612
+      ],
+      "station_m": 278.8174482145783,
+      "independent_geometry_frames": 5,
+      "world_xy_max_radius_m": 0.6934372399551187,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0329_CAM_FRONT_Q032",
+        "C18_F0333_CAM_FRONT_Q012",
+        "C18_F0339_CAM_FRONT_Q021",
+        "C18_F0343_CAM_FRONT_Q018",
+        "C18_F0390_CAM_FRONT_Q093"
+      ],
+      "observation_ids": [
+        "C18_F0329_CAM_FRONT_Q032",
+        "C18_F0333_CAM_FRONT_Q012",
+        "C18_F0339_CAM_FRONT_Q021",
+        "C18_F0343_CAM_FRONT_Q018",
+        "C18_F0390_CAM_FRONT_Q093"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0329_CAM_FRONT_Q032",
+        "C18_F0333_CAM_FRONT_Q012",
+        "C18_F0339_CAM_FRONT_Q021",
+        "C18_F0343_CAM_FRONT_Q018",
+        "C18_F0390_CAM_FRONT_Q093"
+      ],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 5
+    },
+    {
+      "object_id": "C18_OBJ_031",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -426.46420201964986,
+        -401.1912549495843,
+        -1.816530765941734
+      ],
+      "local_xy_m": [
+        283.4538000247043,
+        -3.09835683438225
+      ],
+      "station_m": 283.3858015765453,
+      "independent_geometry_frames": 3,
+      "world_xy_max_radius_m": 0.20271027666058697,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0334_CAM_FRONT_Q022",
+        "C18_F0344_CAM_FRONT_Q010",
+        "C18_F0349_CAM_FRONT_Q010"
+      ],
+      "observation_ids": [
+        "C18_F0334_CAM_FRONT_Q022",
+        "C18_F0344_CAM_FRONT_Q010",
+        "C18_F0349_CAM_FRONT_Q010",
+        "C18_F0325_CAM_FRONT_Q033",
+        "C18_F0329_CAM_FRONT_Q031"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0334_CAM_FRONT_Q022",
+        "C18_F0344_CAM_FRONT_Q010",
+        "C18_F0349_CAM_FRONT_Q010",
+        "C18_F0325_CAM_FRONT_Q033"
+      ],
+      "uncertain_observation_ids": [
+        "C18_F0329_CAM_FRONT_Q031"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [
+        "C18_F0329_CAM_FRONT_Q031"
+      ],
+      "observation_count": 5
+    },
+    {
+      "object_id": "C18_OBJ_032",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -425.2880487304281,
+        -400.16090369057054,
+        -2.2013051343250285
+      ],
+      "local_xy_m": [
+        281.93878130895774,
+        -3.0767723863969727
+      ],
+      "station_m": 281.8819085661082,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "C18_F0359_CAM_FRONT_Q055"
+      ],
+      "observation_ids": [
+        "C18_F0359_CAM_FRONT_Q055"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "serviceable_view_identity_provisional",
+      "clear_serviceable_observation_ids": [
+        "C18_F0359_CAM_FRONT_Q055"
+      ],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    },
+    {
+      "object_id": "C18_OBJ_033",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -440.78874994100784,
+        -417.1931689993339,
+        -1.80109359101768
+      ],
+      "local_xy_m": [
+        304.9006458904099,
+        -1.3096915985366577
+      ],
+      "station_m": 304.8900116561376,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "C18_F0374_CAM_FRONT_Q017"
+      ],
+      "observation_ids": [
+        "C18_F0374_CAM_FRONT_Q017"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "uncertain_no_clear_view",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [
+        "C18_F0374_CAM_FRONT_Q017"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    },
+    {
+      "object_id": "C18_OBJ_034",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -441.7717730473694,
+        -416.2144569816469,
+        -1.4941089752370509
+      ],
+      "local_xy_m": [
+        304.9449731209558,
+        -2.6961427292433324
+      ],
+      "station_m": 304.88241183646954,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "C18_F0413_CAM_FRONT_Q075"
+      ],
+      "observation_ids": [
+        "C18_F0413_CAM_FRONT_Q075"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "serviceable_view_identity_provisional",
+      "clear_serviceable_observation_ids": [
+        "C18_F0413_CAM_FRONT_Q075"
+      ],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    },
+    {
+      "object_id": "C18_OBJ_035",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -444.0861202907123,
+        -421.774007147274,
+        -1.3261322725163085
+      ],
+      "local_xy_m": [
+        310.4419056916538,
+        -0.2367660764930443
+      ],
+      "station_m": 310.47640790211466,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "C18_F0429_CAM_FRONT_Q001"
+      ],
+      "observation_ids": [
+        "C18_F0429_CAM_FRONT_Q001"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "serviceable_view_identity_provisional",
+      "clear_serviceable_observation_ids": [
+        "C18_F0429_CAM_FRONT_Q001"
+      ],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    },
+    {
+      "object_id": "C18_OBJ_036",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -450.6734378306086,
+        -428.4667676048825,
+        -1.7394124902559192
+      ],
+      "local_xy_m": [
+        319.8259611406246,
+        0.1172088449270966
+      ],
+      "station_m": 319.8737864199546,
+      "independent_geometry_frames": 2,
+      "world_xy_max_radius_m": 0.1761055164349217,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0403_CAM_FRONT_Q059",
+        "C18_F0425_CAM_FRONT_Q090"
+      ],
+      "observation_ids": [
+        "C18_F0403_CAM_FRONT_Q059",
+        "C18_F0425_CAM_FRONT_Q090",
+        "C18_F0405_CAM_FRONT_Q024",
+        "C18_F0433_CAM_FRONT_Q028"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0425_CAM_FRONT_Q090",
+        "C18_F0433_CAM_FRONT_Q028"
+      ],
+      "uncertain_observation_ids": [
+        "C18_F0403_CAM_FRONT_Q059",
+        "C18_F0405_CAM_FRONT_Q024"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [
+        "C18_F0403_CAM_FRONT_Q059",
+        "C18_F0405_CAM_FRONT_Q024"
+      ],
+      "observation_count": 4
+    },
+    {
+      "object_id": "C18_OBJ_037",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -460.5248760086441,
+        -438.59890439140213,
+        -1.0096307387501529
+      ],
+      "local_xy_m": [
+        333.9443175508528,
+        0.7361129652633025
+      ],
+      "station_m": 334.0387731941546,
+      "independent_geometry_frames": 2,
+      "world_xy_max_radius_m": 0.14339492322714245,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0424_CAM_FRONT_Q094",
+        "C18_F0446_CAM_FRONT_Q004"
+      ],
+      "observation_ids": [
+        "C18_F0424_CAM_FRONT_Q094",
+        "C18_F0446_CAM_FRONT_Q004"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0424_CAM_FRONT_Q094"
+      ],
+      "uncertain_observation_ids": [
+        "C18_F0446_CAM_FRONT_Q004"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [
+        "C18_F0446_CAM_FRONT_Q004"
+      ],
+      "observation_count": 2
+    },
+    {
+      "object_id": "C18_OBJ_038",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -456.10391466691544,
+        -434.161058579327,
+        -1.6214911732587465
+      ],
+      "local_xy_m": [
+        327.685402119348,
+        0.5358085910840832
+      ],
+      "station_m": 327.76499827614657,
+      "independent_geometry_frames": 3,
+      "world_xy_max_radius_m": 0.5920396444116381,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0407_CAM_FRONT_Q018",
+        "C18_F0432_CAM_FRONT_Q058",
+        "C18_F0435_CAM_FRONT_Q019"
+      ],
+      "observation_ids": [
+        "C18_F0407_CAM_FRONT_Q018",
+        "C18_F0432_CAM_FRONT_Q058",
+        "C18_F0435_CAM_FRONT_Q019",
+        "C18_F0423_CAM_FRONT_Q016"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0423_CAM_FRONT_Q016"
+      ],
+      "uncertain_observation_ids": [
+        "C18_F0407_CAM_FRONT_Q018",
+        "C18_F0432_CAM_FRONT_Q058",
+        "C18_F0435_CAM_FRONT_Q019"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [
+        "C18_F0407_CAM_FRONT_Q018",
+        "C18_F0432_CAM_FRONT_Q058",
+        "C18_F0435_CAM_FRONT_Q019"
+      ],
+      "observation_count": 4
+    },
+    {
+      "object_id": "C18_OBJ_039",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -414.5442574185068,
+        -386.83346062190753,
+        -1.2804300662275125
+      ],
+      "local_xy_m": [
+        264.98926785949374,
+        -5.4313845941884535
+      ],
+      "station_m": 264.89417626705534,
+      "independent_geometry_frames": 3,
+      "world_xy_max_radius_m": 0.04950970643532282,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0362_CAM_FRONT_Q033",
+        "C18_F0366_CAM_FRONT_Q027",
+        "C18_F0384_CAM_FRONT_Q010"
+      ],
+      "observation_ids": [
+        "C18_F0362_CAM_FRONT_Q033",
+        "C18_F0366_CAM_FRONT_Q027",
+        "C18_F0384_CAM_FRONT_Q010",
+        "C18_F0386_CAM_FRONT_Q009"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0366_CAM_FRONT_Q027"
+      ],
+      "uncertain_observation_ids": [
+        "C18_F0362_CAM_FRONT_Q033",
+        "C18_F0384_CAM_FRONT_Q010",
+        "C18_F0386_CAM_FRONT_Q009"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [
+        "C18_F0362_CAM_FRONT_Q033",
+        "C18_F0384_CAM_FRONT_Q010",
+        "C18_F0386_CAM_FRONT_Q009"
+      ],
+      "observation_count": 4
+    },
+    {
+      "object_id": "C18_OBJ_040",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -413.47461347847286,
+        -386.0984100741418,
+        -1.2443935229674021
+      ],
+      "local_xy_m": [
+        263.6971664001085,
+        -5.210891568046736
+      ],
+      "station_m": 263.613883216696,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "C18_F0372_CAM_FRONT_Q018"
+      ],
+      "observation_ids": [
+        "C18_F0372_CAM_FRONT_Q018"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "serviceable_view_identity_provisional",
+      "clear_serviceable_observation_ids": [
+        "C18_F0372_CAM_FRONT_Q018"
+      ],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    },
+    {
+      "object_id": "C18_OBJ_041",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -469.8783392531426,
+        -447.7232375924228,
+        -1.4651690821049275
+      ],
+      "local_xy_m": [
+        347.01606434568384,
+        0.9629878249363817
+      ],
+      "station_m": 347.11869600530713,
+      "independent_geometry_frames": 6,
+      "world_xy_max_radius_m": 0.28394458282440943,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0421_CAM_FRONT_Q016",
+        "C18_F0425_CAM_FRONT_Q035",
+        "C18_F0430_CAM_FRONT_Q021",
+        "C18_F0443_CAM_FRONT_Q009",
+        "C18_F0444_CAM_FRONT_Q005",
+        "C18_F0451_CAM_FRONT_Q005"
+      ],
+      "observation_ids": [
+        "C18_F0421_CAM_FRONT_Q016",
+        "C18_F0425_CAM_FRONT_Q035",
+        "C18_F0430_CAM_FRONT_Q021",
+        "C18_F0443_CAM_FRONT_Q009",
+        "C18_F0444_CAM_FRONT_Q005",
+        "C18_F0451_CAM_FRONT_Q005"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0443_CAM_FRONT_Q009",
+        "C18_F0444_CAM_FRONT_Q005",
+        "C18_F0451_CAM_FRONT_Q005"
+      ],
+      "uncertain_observation_ids": [
+        "C18_F0421_CAM_FRONT_Q016",
+        "C18_F0425_CAM_FRONT_Q035",
+        "C18_F0430_CAM_FRONT_Q021"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [
+        "C18_F0421_CAM_FRONT_Q016",
+        "C18_F0425_CAM_FRONT_Q035",
+        "C18_F0430_CAM_FRONT_Q021"
+      ],
+      "observation_count": 6
+    },
+    {
+      "object_id": "C18_OBJ_042",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -471.7689976538071,
+        -447.7596903546239,
+        -1.6981579195800636
+      ],
+      "local_xy_m": [
+        348.41021481742956,
+        -0.30700127010544864
+      ],
+      "station_m": 348.4911742221235,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "C18_F0463_CAM_FRONT_Q007"
+      ],
+      "observation_ids": [
+        "C18_F0463_CAM_FRONT_Q007"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "uncertain_no_clear_view",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [
+        "C18_F0463_CAM_FRONT_Q007"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    },
+    {
+      "object_id": "C18_OBJ_043",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -493.3747069557111,
+        -470.51846171520026,
+        -1.4318889367660739
+      ],
+      "local_xy_m": [
+        379.7591383861055,
+        1.4415235588735626
+      ],
+      "station_m": 379.8799835980822,
+      "independent_geometry_frames": 4,
+      "world_xy_max_radius_m": 0.1502688508279009,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0470_CAM_FRONT_Q005",
+        "C18_F0471_CAM_FRONT_Q003",
+        "C18_F0472_CAM_FRONT_Q004",
+        "C18_F0482_CAM_FRONT_Q008"
+      ],
+      "observation_ids": [
+        "C18_F0470_CAM_FRONT_Q005",
+        "C18_F0471_CAM_FRONT_Q003",
+        "C18_F0472_CAM_FRONT_Q004",
+        "C18_F0482_CAM_FRONT_Q008"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0470_CAM_FRONT_Q005",
+        "C18_F0471_CAM_FRONT_Q003",
+        "C18_F0472_CAM_FRONT_Q004",
+        "C18_F0482_CAM_FRONT_Q008"
+      ],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 4
+    },
+    {
+      "object_id": "C18_OBJ_044",
+      "family": "channelizer",
+      "classes": [
+        "traffic_cone"
+      ],
+      "world_xyz_m": [
+        -497.2289616330115,
+        -474.32439433929886,
+        -1.4067871670928331
+      ],
+      "local_xy_m": [
+        385.1518968760442,
+        1.5685607737533425
+      ],
+      "station_m": 385.2734860441868,
+      "independent_geometry_frames": 6,
+      "world_xy_max_radius_m": 0.2438067570479605,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0468_CAM_FRONT_Q039",
+        "C18_F0470_CAM_FRONT_Q014",
+        "C18_F0473_CAM_FRONT_Q011",
+        "C18_F0474_CAM_FRONT_Q018",
+        "C18_F0484_CAM_FRONT_Q008",
+        "C18_F0486_CAM_FRONT_Q005"
+      ],
+      "observation_ids": [
+        "C18_F0468_CAM_FRONT_Q039",
+        "C18_F0470_CAM_FRONT_Q014",
+        "C18_F0473_CAM_FRONT_Q011",
+        "C18_F0474_CAM_FRONT_Q018",
+        "C18_F0484_CAM_FRONT_Q008",
+        "C18_F0486_CAM_FRONT_Q005",
+        "C18_F0472_CAM_FRONT_Q003"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "supported_serviceable",
+      "clear_serviceable_observation_ids": [
+        "C18_F0468_CAM_FRONT_Q039",
+        "C18_F0473_CAM_FRONT_Q011",
+        "C18_F0474_CAM_FRONT_Q018",
+        "C18_F0484_CAM_FRONT_Q008",
+        "C18_F0486_CAM_FRONT_Q005",
+        "C18_F0472_CAM_FRONT_Q003"
+      ],
+      "uncertain_observation_ids": [
+        "C18_F0470_CAM_FRONT_Q014"
+      ],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [
+        "C18_F0470_CAM_FRONT_Q014"
+      ],
+      "observation_count": 7
+    },
+    {
+      "object_id": "C18_OBJ_045",
+      "family": "merging_sign",
+      "classes": [
+        "merging_sign"
+      ],
+      "world_xyz_m": [
+        -382.5719952823789,
+        -355.88010528879136,
+        -0.9121312602907677
+      ],
+      "local_xy_m": [
+        220.47924209521142,
+        -6.01129666763482
+      ],
+      "station_m": 220.4629712856432,
+      "independent_geometry_frames": 25,
+      "world_xy_max_radius_m": 0.6634875199946715,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18_F0103_CAM_FRONT_Q005",
+        "C18_F0132_CAM_FRONT_Q015",
+        "C18_F0134_CAM_FRONT_Q005",
+        "C18_F0135_CAM_FRONT_Q004",
+        "C18_F0136_CAM_FRONT_Q041",
+        "C18_F0136_CAM_FRONT_Q002",
+        "C18_F0137_CAM_FRONT_Q005",
+        "C18_F0138_CAM_FRONT_Q001",
+        "C18_F0138_CAM_FRONT_Q012",
+        "C18_F0140_CAM_FRONT_Q005",
+        "C18_F0141_CAM_FRONT_Q005",
+        "C18_F0142_CAM_FRONT_Q003",
+        "C18_F0144_CAM_FRONT_Q009",
+        "C18_F0144_CAM_FRONT_Q001",
+        "C18_F0146_CAM_FRONT_Q001",
+        "C18_F0147_CAM_FRONT_Q009",
+        "C18_F0147_CAM_FRONT_Q002",
+        "C18_F0148_CAM_FRONT_Q002",
+        "C18_F0149_CAM_FRONT_Q003",
+        "C18_F0149_CAM_FRONT_Q002",
+        "C18_F0150_CAM_FRONT_Q003",
+        "C18_F0150_CAM_FRONT_Q002",
+        "C18_F0151_CAM_FRONT_Q002",
+        "C18_F0152_CAM_FRONT_Q015",
+        "C18_F0152_CAM_FRONT_Q000",
+        "C18_F0153_CAM_FRONT_Q001",
+        "C18_F0154_CAM_FRONT_Q001",
+        "C18_F0154_CAM_FRONT_Q021",
+        "C18_F0156_CAM_FRONT_Q004",
+        "C18_F0157_CAM_FRONT_Q001",
+        "C18_F0158_CAM_FRONT_Q001",
+        "C18_F0159_CAM_FRONT_Q002",
+        "C18_F0160_CAM_FRONT_Q000"
+      ],
+      "observation_ids": [
+        "C18_F0103_CAM_FRONT_Q005",
+        "C18_F0132_CAM_FRONT_Q015",
+        "C18_F0134_CAM_FRONT_Q005",
+        "C18_F0135_CAM_FRONT_Q004",
+        "C18_F0136_CAM_FRONT_Q041",
+        "C18_F0136_CAM_FRONT_Q002",
+        "C18_F0137_CAM_FRONT_Q005",
+        "C18_F0138_CAM_FRONT_Q001",
+        "C18_F0138_CAM_FRONT_Q012",
+        "C18_F0140_CAM_FRONT_Q005",
+        "C18_F0141_CAM_FRONT_Q005",
+        "C18_F0142_CAM_FRONT_Q003",
+        "C18_F0144_CAM_FRONT_Q009",
+        "C18_F0144_CAM_FRONT_Q001",
+        "C18_F0146_CAM_FRONT_Q001",
+        "C18_F0147_CAM_FRONT_Q009",
+        "C18_F0147_CAM_FRONT_Q002",
+        "C18_F0148_CAM_FRONT_Q002",
+        "C18_F0149_CAM_FRONT_Q003",
+        "C18_F0149_CAM_FRONT_Q002",
+        "C18_F0150_CAM_FRONT_Q003",
+        "C18_F0150_CAM_FRONT_Q002",
+        "C18_F0151_CAM_FRONT_Q002",
+        "C18_F0152_CAM_FRONT_Q015",
+        "C18_F0152_CAM_FRONT_Q000",
+        "C18_F0153_CAM_FRONT_Q001",
+        "C18_F0154_CAM_FRONT_Q001",
+        "C18_F0154_CAM_FRONT_Q021",
+        "C18_F0156_CAM_FRONT_Q004",
+        "C18_F0157_CAM_FRONT_Q001",
+        "C18_F0158_CAM_FRONT_Q001",
+        "C18_F0159_CAM_FRONT_Q002",
+        "C18_F0160_CAM_FRONT_Q000",
+        "C18_F0095_CAM_FRONT_Q000"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_condition_target",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 34
+    },
+    {
+      "object_id": "C18_OBJ_046",
+      "family": "right_lane_closed",
+      "classes": [
+        "right_lane_closed"
+      ],
+      "world_xyz_m": [
+        -325.41539669365886,
+        -301.5938212223506,
+        -0.7115071778530397
+      ],
+      "local_xy_m": [
+        141.66146844614255,
+        -6.323239628166779
+      ],
+      "station_m": 141.72929208679443,
+      "independent_geometry_frames": 21,
+      "world_xy_max_radius_m": 0.1605124307639332,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18S_F0063_P000",
+        "C18S_F0064_P000",
+        "C18S_F0065_P000",
+        "C18S_F0066_P000",
+        "C18S_F0067_P000",
+        "C18S_F0068_P000",
+        "C18S_F0069_P000",
+        "C18S_F0070_P000",
+        "C18S_F0071_P000",
+        "C18S_F0072_P000",
+        "C18S_F0073_P000",
+        "C18S_F0074_P000",
+        "C18S_F0075_P000",
+        "C18S_F0076_P000",
+        "C18S_F0077_P000",
+        "C18S_F0078_P000",
+        "C18S_F0079_P000",
+        "C18S_F0080_P000",
+        "C18S_F0081_P000",
+        "C18S_F0082_P000",
+        "C18S_F0083_P000"
+      ],
+      "observation_ids": [
+        "C18S_F0063_P000",
+        "C18S_F0064_P000",
+        "C18S_F0065_P000",
+        "C18S_F0066_P000",
+        "C18S_F0067_P000",
+        "C18S_F0068_P000",
+        "C18S_F0069_P000",
+        "C18S_F0070_P000",
+        "C18S_F0071_P000",
+        "C18S_F0072_P000",
+        "C18S_F0073_P000",
+        "C18S_F0074_P000",
+        "C18S_F0075_P000",
+        "C18S_F0076_P000",
+        "C18S_F0077_P000",
+        "C18S_F0078_P000",
+        "C18S_F0079_P000",
+        "C18S_F0080_P000",
+        "C18S_F0081_P000",
+        "C18S_F0082_P000",
+        "C18S_F0083_P000",
+        "C18S_F0062_P000"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_condition_target",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 22
+    },
+    {
+      "object_id": "C18_OBJ_047",
+      "family": "road_work_ahead",
+      "classes": [
+        "road_work_ahead"
+      ],
+      "world_xyz_m": [
+        -263.4435171720959,
+        -241.2838210569914,
+        -0.9650305401340834
+      ],
+      "local_xy_m": [
+        55.19561581521423,
+        -7.724778348327078
+      ],
+      "station_m": 55.07330472890046,
+      "independent_geometry_frames": 29,
+      "world_xy_max_radius_m": 0.3461757112472691,
+      "position_status": "multi_frame_supported",
+      "geometry_observation_ids": [
+        "C18S_F0000_P000",
+        "C18S_F0001_P000",
+        "C18S_F0002_P000",
+        "C18S_F0003_P000",
+        "C18S_F0004_P000",
+        "C18S_F0005_P000",
+        "C18S_F0006_P000",
+        "C18S_F0007_P000",
+        "C18S_F0008_P000",
+        "C18S_F0009_P000",
+        "C18S_F0010_P000",
+        "C18S_F0011_P000",
+        "C18S_F0012_P000",
+        "C18S_F0013_P000",
+        "C18S_F0014_P000",
+        "C18S_F0015_P000",
+        "C18S_F0016_P000",
+        "C18S_F0017_P000",
+        "C18S_F0018_P000",
+        "C18S_F0019_P000",
+        "C18S_F0020_P000",
+        "C18S_F0021_P000",
+        "C18S_F0022_P000",
+        "C18S_F0023_P000",
+        "C18S_F0024_P000",
+        "C18S_F0025_P000",
+        "C18S_F0026_P000",
+        "C18S_F0027_P000",
+        "C18S_F0028_P000"
+      ],
+      "observation_ids": [
+        "C18S_F0000_P000",
+        "C18S_F0001_P000",
+        "C18S_F0002_P000",
+        "C18S_F0003_P000",
+        "C18S_F0004_P000",
+        "C18S_F0005_P000",
+        "C18S_F0006_P000",
+        "C18S_F0007_P000",
+        "C18S_F0008_P000",
+        "C18S_F0009_P000",
+        "C18S_F0010_P000",
+        "C18S_F0011_P000",
+        "C18S_F0012_P000",
+        "C18S_F0013_P000",
+        "C18S_F0014_P000",
+        "C18S_F0015_P000",
+        "C18S_F0016_P000",
+        "C18S_F0017_P000",
+        "C18S_F0018_P000",
+        "C18S_F0019_P000",
+        "C18S_F0020_P000",
+        "C18S_F0021_P000",
+        "C18S_F0022_P000",
+        "C18S_F0023_P000",
+        "C18S_F0024_P000",
+        "C18S_F0025_P000",
+        "C18S_F0026_P000",
+        "C18S_F0027_P000",
+        "C18S_F0028_P000",
+        "C18S_F0029_MANUAL001"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_condition_target",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 30
+    },
+    {
+      "object_id": "C18_OBJ_048",
+      "family": "traffic_sign",
+      "classes": [
+        "traffic_sign"
+      ],
+      "world_xyz_m": [
+        -517.8403064270624,
+        -513.1085779150659,
+        0.7889556211468736
+      ],
+      "local_xy_m": [
+        426.7556453835814,
+        15.66284866257114
+      ],
+      "station_m": 426.9048079773085,
+      "independent_geometry_frames": 1,
+      "world_xy_max_radius_m": 0.0,
+      "position_status": "single_frame_or_ambiguous",
+      "geometry_observation_ids": [
+        "C18_F0511_CAM_FRONT_Q009"
+      ],
+      "observation_ids": [
+        "C18_F0511_CAM_FRONT_Q009"
+      ],
+      "same_frame_identity_conflict": false,
+      "condition_status": "not_condition_target",
+      "clear_serviceable_observation_ids": [],
+      "uncertain_observation_ids": [],
+      "defect_observation_ids": [],
+      "uncertain_views_resolved_by_same_object": [],
+      "observation_count": 1
+    }
+  ],
+  "observation_mapping": {
+    "C18_F0389_CAM_FRONT_Q010": {
+      "object_id": "C18_OBJ_001",
+      "method": "world_cluster"
+    },
+    "C18_F0392_CAM_FRONT_Q010": {
+      "object_id": "C18_OBJ_001",
+      "method": "world_cluster"
+    },
+    "C18_F0394_CAM_FRONT_Q014": {
+      "object_id": "C18_OBJ_001",
+      "method": "world_cluster"
+    },
+    "C18_F0396_CAM_FRONT_Q014": {
+      "object_id": "C18_OBJ_001",
+      "method": "world_cluster"
+    },
+    "C18_F0426_CAM_FRONT_Q010": {
+      "object_id": "C18_OBJ_001",
+      "method": "world_cluster"
+    },
+    "C18_F0427_CAM_FRONT_Q006": {
+      "object_id": "C18_OBJ_001",
+      "method": "world_cluster"
+    },
+    "C18_F0428_CAM_FRONT_Q004": {
+      "object_id": "C18_OBJ_001",
+      "method": "world_cluster"
+    },
+    "C18_F0429_CAM_FRONT_Q004": {
+      "object_id": "C18_OBJ_001",
+      "method": "world_cluster"
+    },
+    "C18_F0430_CAM_FRONT_Q004": {
+      "object_id": "C18_OBJ_001",
+      "method": "world_cluster"
+    },
+    "C18_F0431_CAM_FRONT_Q004": {
+      "object_id": "C18_OBJ_001",
+      "method": "world_cluster"
+    },
+    "C18_F0433_CAM_FRONT_Q003": {
+      "object_id": "C18_OBJ_001",
+      "method": "world_cluster"
+    },
+    "C18_F0434_CAM_FRONT_Q001": {
+      "object_id": "C18_OBJ_001",
+      "method": "world_cluster"
+    },
+    "C18_F0432_CAM_FRONT_Q031": {
+      "object_id": "C18_OBJ_002",
+      "method": "world_cluster"
+    },
+    "C18_F0443_CAM_FRONT_Q005": {
+      "object_id": "C18_OBJ_002",
+      "method": "world_cluster"
+    },
+    "C18_F0449_CAM_FRONT_Q006": {
+      "object_id": "C18_OBJ_002",
+      "method": "world_cluster"
+    },
+    "C18_F0451_CAM_FRONT_Q012": {
+      "object_id": "C18_OBJ_002",
+      "method": "world_cluster"
+    },
+    "C18_F0458_CAM_FRONT_Q007": {
+      "object_id": "C18_OBJ_003",
+      "method": "world_cluster"
+    },
+    "C18_F0413_CAM_FRONT_Q008": {
+      "object_id": "C18_OBJ_004",
+      "method": "world_cluster"
+    },
+    "C18_F0414_CAM_FRONT_Q011": {
+      "object_id": "C18_OBJ_004",
+      "method": "world_cluster"
+    },
+    "C18_F0419_CAM_FRONT_Q004": {
+      "object_id": "C18_OBJ_004",
+      "method": "world_cluster"
+    },
+    "C18_F0418_CAM_FRONT_Q007": {
+      "object_id": "C18_OBJ_005",
+      "method": "world_cluster"
+    },
+    "C18_F0327_CAM_FRONT_Q005": {
+      "object_id": "C18_OBJ_006",
+      "method": "world_cluster"
+    },
+    "C18_F0366_CAM_FRONT_Q047": {
+      "object_id": "C18_OBJ_006",
+      "method": "world_cluster"
+    },
+    "C18_F0212_CAM_FRONT_Q012": {
+      "object_id": "C18_OBJ_007",
+      "method": "world_cluster"
+    },
+    "C18_F0213_CAM_FRONT_Q014": {
+      "object_id": "C18_OBJ_007",
+      "method": "world_cluster"
+    },
+    "C18_F0267_CAM_FRONT_Q013": {
+      "object_id": "C18_OBJ_007",
+      "method": "world_cluster"
+    },
+    "C18_F0270_CAM_FRONT_Q009": {
+      "object_id": "C18_OBJ_007",
+      "method": "world_cluster"
+    },
+    "C18_F0325_CAM_FRONT_Q025": {
+      "object_id": "C18_OBJ_007",
+      "method": "world_cluster"
+    },
+    "C18_F0328_CAM_FRONT_Q007": {
+      "object_id": "C18_OBJ_007",
+      "method": "world_cluster"
+    },
+    "C18_F0339_CAM_FRONT_Q005": {
+      "object_id": "C18_OBJ_007",
+      "method": "world_cluster"
+    },
+    "C18_F0344_CAM_FRONT_Q005": {
+      "object_id": "C18_OBJ_007",
+      "method": "world_cluster"
+    },
+    "C18_F0349_CAM_FRONT_Q008": {
+      "object_id": "C18_OBJ_007",
+      "method": "world_cluster"
+    },
+    "C18_F0357_CAM_FRONT_Q000": {
+      "object_id": "C18_OBJ_007",
+      "method": "world_cluster"
+    },
+    "C18_F0359_CAM_FRONT_Q003": {
+      "object_id": "C18_OBJ_007",
+      "method": "world_cluster"
+    },
+    "C18_F0325_CAM_FRONT_Q024": {
+      "object_id": "C18_OBJ_008",
+      "method": "world_cluster"
+    },
+    "C18_F0374_CAM_FRONT_Q023": {
+      "object_id": "C18_OBJ_009",
+      "method": "world_cluster"
+    },
+    "C18_F0375_CAM_FRONT_Q022": {
+      "object_id": "C18_OBJ_009",
+      "method": "world_cluster"
+    },
+    "C18_F0350_CAM_FRONT_Q032": {
+      "object_id": "C18_OBJ_010",
+      "method": "world_cluster"
+    },
+    "C18_F0364_CAM_FRONT_Q017": {
+      "object_id": "C18_OBJ_010",
+      "method": "world_cluster"
+    },
+    "C18_F0372_CAM_FRONT_Q039": {
+      "object_id": "C18_OBJ_010",
+      "method": "world_cluster"
+    },
+    "C18_F0386_CAM_FRONT_Q022": {
+      "object_id": "C18_OBJ_010",
+      "method": "world_cluster"
+    },
+    "C18_F0530_CAM_FRONT_Q035": {
+      "object_id": "C18_OBJ_011",
+      "method": "world_cluster"
+    },
+    "C18_F0534_CAM_FRONT_Q007": {
+      "object_id": "C18_OBJ_011",
+      "method": "world_cluster"
+    },
+    "C18_F0536_CAM_FRONT_Q003": {
+      "object_id": "C18_OBJ_012",
+      "method": "world_cluster"
+    },
+    "C18_F0547_CAM_FRONT_Q816": {
+      "object_id": "C18_OBJ_013",
+      "method": "world_cluster"
+    },
+    "C18_F0509_CAM_FRONT_Q009": {
+      "object_id": "C18_OBJ_014",
+      "method": "world_cluster"
+    },
+    "C18_F0474_CAM_FRONT_Q008": {
+      "object_id": "C18_OBJ_015",
+      "method": "world_cluster"
+    },
+    "C18_F0479_CAM_FRONT_Q008": {
+      "object_id": "C18_OBJ_015",
+      "method": "world_cluster"
+    },
+    "C18_F0501_CAM_FRONT_Q004": {
+      "object_id": "C18_OBJ_015",
+      "method": "world_cluster"
+    },
+    "C18_F0498_CAM_FRONT_Q014": {
+      "object_id": "C18_OBJ_016",
+      "method": "world_cluster"
+    },
+    "C18_F0507_CAM_FRONT_Q004": {
+      "object_id": "C18_OBJ_016",
+      "method": "world_cluster"
+    },
+    "C18_F0510_CAM_FRONT_Q005": {
+      "object_id": "C18_OBJ_016",
+      "method": "world_cluster"
+    },
+    "C18_F0492_CAM_FRONT_Q016": {
+      "object_id": "C18_OBJ_017",
+      "method": "world_cluster"
+    },
+    "C18_F0494_CAM_FRONT_Q013": {
+      "object_id": "C18_OBJ_017",
+      "method": "world_cluster"
+    },
+    "C18_F0495_CAM_FRONT_Q012": {
+      "object_id": "C18_OBJ_017",
+      "method": "world_cluster"
+    },
+    "C18_F0503_CAM_FRONT_Q014": {
+      "object_id": "C18_OBJ_017",
+      "method": "world_cluster"
+    },
+    "C18_F0508_CAM_FRONT_Q003": {
+      "object_id": "C18_OBJ_017",
+      "method": "world_cluster"
+    },
+    "C18_F0513_CAM_FRONT_Q010": {
+      "object_id": "C18_OBJ_018",
+      "method": "world_cluster"
+    },
+    "C18_F0564_CAM_FRONT_Q005": {
+      "object_id": "C18_OBJ_019",
+      "method": "world_cluster"
+    },
+    "C18_F0364_CAM_FRONT_Q029": {
+      "object_id": "C18_OBJ_020",
+      "method": "world_cluster"
+    },
+    "C18_F0366_CAM_FRONT_Q013": {
+      "object_id": "C18_OBJ_020",
+      "method": "world_cluster"
+    },
+    "C18_F0366_CAM_FRONT_Q029": {
+      "object_id": "C18_OBJ_020",
+      "method": "world_cluster"
+    },
+    "C18_F0368_CAM_FRONT_Q009": {
+      "object_id": "C18_OBJ_020",
+      "method": "world_cluster"
+    },
+    "C18_F0345_CAM_FRONT_Q003": {
+      "object_id": "C18_OBJ_021",
+      "method": "world_cluster"
+    },
+    "C18_F0346_CAM_FRONT_Q003": {
+      "object_id": "C18_OBJ_021",
+      "method": "world_cluster"
+    },
+    "C18_F0350_CAM_FRONT_Q019": {
+      "object_id": "C18_OBJ_021",
+      "method": "world_cluster"
+    },
+    "C18_F0352_CAM_FRONT_Q019": {
+      "object_id": "C18_OBJ_021",
+      "method": "world_cluster"
+    },
+    "C18_F0354_CAM_FRONT_Q003": {
+      "object_id": "C18_OBJ_021",
+      "method": "world_cluster"
+    },
+    "C18_F0355_CAM_FRONT_Q009": {
+      "object_id": "C18_OBJ_021",
+      "method": "world_cluster"
+    },
+    "C18_F0358_CAM_FRONT_Q006": {
+      "object_id": "C18_OBJ_021",
+      "method": "world_cluster"
+    },
+    "C18_F0359_CAM_FRONT_Q011": {
+      "object_id": "C18_OBJ_021",
+      "method": "world_cluster"
+    },
+    "C18_F0367_CAM_FRONT_Q019": {
+      "object_id": "C18_OBJ_021",
+      "method": "world_cluster"
+    },
+    "C18_F0370_CAM_FRONT_Q007": {
+      "object_id": "C18_OBJ_021",
+      "method": "world_cluster"
+    },
+    "C18_F0371_CAM_FRONT_Q008": {
+      "object_id": "C18_OBJ_021",
+      "method": "world_cluster"
+    },
+    "C18_F0372_CAM_FRONT_Q005": {
+      "object_id": "C18_OBJ_021",
+      "method": "world_cluster"
+    },
+    "C18_F0376_CAM_FRONT_Q006": {
+      "object_id": "C18_OBJ_021",
+      "method": "world_cluster"
+    },
+    "C18_F0446_CAM_FRONT_Q013": {
+      "object_id": "C18_OBJ_022",
+      "method": "world_cluster"
+    },
+    "C18_F0448_CAM_FRONT_Q014": {
+      "object_id": "C18_OBJ_022",
+      "method": "world_cluster"
+    },
+    "C18_F0450_CAM_FRONT_Q016": {
+      "object_id": "C18_OBJ_022",
+      "method": "world_cluster"
+    },
+    "C18_F0451_CAM_FRONT_Q002": {
+      "object_id": "C18_OBJ_022",
+      "method": "world_cluster"
+    },
+    "C18_F0453_CAM_FRONT_Q004": {
+      "object_id": "C18_OBJ_022",
+      "method": "world_cluster"
+    },
+    "C18_F0459_CAM_FRONT_Q007": {
+      "object_id": "C18_OBJ_023",
+      "method": "world_cluster"
+    },
+    "C18_F0470_CAM_FRONT_Q020": {
+      "object_id": "C18_OBJ_023",
+      "method": "world_cluster"
+    },
+    "C18_F0454_CAM_FRONT_Q008": {
+      "object_id": "C18_OBJ_024",
+      "method": "world_cluster"
+    },
+    "C18_F0462_CAM_FRONT_Q004": {
+      "object_id": "C18_OBJ_024",
+      "method": "world_cluster"
+    },
+    "C18_F0475_CAM_FRONT_Q195": {
+      "object_id": "C18_OBJ_024",
+      "method": "world_cluster"
+    },
+    "C18_F0463_CAM_FRONT_Q009": {
+      "object_id": "C18_OBJ_025",
+      "method": "world_cluster"
+    },
+    "C18_F0465_CAM_FRONT_Q008": {
+      "object_id": "C18_OBJ_025",
+      "method": "world_cluster"
+    },
+    "C18_F0478_CAM_FRONT_Q034": {
+      "object_id": "C18_OBJ_025",
+      "method": "world_cluster"
+    },
+    "C18_F0479_CAM_FRONT_Q025": {
+      "object_id": "C18_OBJ_025",
+      "method": "world_cluster"
+    },
+    "C18_F0481_CAM_FRONT_Q098": {
+      "object_id": "C18_OBJ_025",
+      "method": "world_cluster"
+    },
+    "C18_F0486_CAM_FRONT_Q009": {
+      "object_id": "C18_OBJ_025",
+      "method": "world_cluster"
+    },
+    "C18_F0487_CAM_FRONT_Q002": {
+      "object_id": "C18_OBJ_025",
+      "method": "world_cluster"
+    },
+    "C18_F0493_CAM_FRONT_Q035": {
+      "object_id": "C18_OBJ_025",
+      "method": "world_cluster"
+    },
+    "C18_F0497_CAM_FRONT_Q086": {
+      "object_id": "C18_OBJ_025",
+      "method": "world_cluster"
+    },
+    "C18_F0491_CAM_FRONT_Q008": {
+      "object_id": "C18_OBJ_026",
+      "method": "world_cluster"
+    },
+    "C18_F0501_CAM_FRONT_Q003": {
+      "object_id": "C18_OBJ_026",
+      "method": "world_cluster"
+    },
+    "C18_F0503_CAM_FRONT_Q018": {
+      "object_id": "C18_OBJ_027",
+      "method": "world_cluster"
+    },
+    "C18_F0512_CAM_FRONT_Q004": {
+      "object_id": "C18_OBJ_027",
+      "method": "world_cluster"
+    },
+    "C18_F0517_CAM_FRONT_Q108": {
+      "object_id": "C18_OBJ_027",
+      "method": "world_cluster"
+    },
+    "C18_F0366_CAM_FRONT_Q030": {
+      "object_id": "C18_OBJ_028",
+      "method": "world_cluster"
+    },
+    "C18_F0371_CAM_FRONT_Q015": {
+      "object_id": "C18_OBJ_029",
+      "method": "world_cluster"
+    },
+    "C18_F0329_CAM_FRONT_Q032": {
+      "object_id": "C18_OBJ_030",
+      "method": "world_cluster"
+    },
+    "C18_F0333_CAM_FRONT_Q012": {
+      "object_id": "C18_OBJ_030",
+      "method": "world_cluster"
+    },
+    "C18_F0339_CAM_FRONT_Q021": {
+      "object_id": "C18_OBJ_030",
+      "method": "world_cluster"
+    },
+    "C18_F0343_CAM_FRONT_Q018": {
+      "object_id": "C18_OBJ_030",
+      "method": "world_cluster"
+    },
+    "C18_F0390_CAM_FRONT_Q093": {
+      "object_id": "C18_OBJ_030",
+      "method": "world_cluster"
+    },
+    "C18_F0334_CAM_FRONT_Q022": {
+      "object_id": "C18_OBJ_031",
+      "method": "world_cluster"
+    },
+    "C18_F0344_CAM_FRONT_Q010": {
+      "object_id": "C18_OBJ_031",
+      "method": "world_cluster"
+    },
+    "C18_F0349_CAM_FRONT_Q010": {
+      "object_id": "C18_OBJ_031",
+      "method": "world_cluster"
+    },
+    "C18_F0359_CAM_FRONT_Q055": {
+      "object_id": "C18_OBJ_032",
+      "method": "world_cluster"
+    },
+    "C18_F0374_CAM_FRONT_Q017": {
+      "object_id": "C18_OBJ_033",
+      "method": "world_cluster"
+    },
+    "C18_F0413_CAM_FRONT_Q075": {
+      "object_id": "C18_OBJ_034",
+      "method": "world_cluster"
+    },
+    "C18_F0429_CAM_FRONT_Q001": {
+      "object_id": "C18_OBJ_035",
+      "method": "world_cluster"
+    },
+    "C18_F0403_CAM_FRONT_Q059": {
+      "object_id": "C18_OBJ_036",
+      "method": "world_cluster"
+    },
+    "C18_F0425_CAM_FRONT_Q090": {
+      "object_id": "C18_OBJ_036",
+      "method": "world_cluster"
+    },
+    "C18_F0424_CAM_FRONT_Q094": {
+      "object_id": "C18_OBJ_037",
+      "method": "world_cluster"
+    },
+    "C18_F0446_CAM_FRONT_Q004": {
+      "object_id": "C18_OBJ_037",
+      "method": "world_cluster"
+    },
+    "C18_F0407_CAM_FRONT_Q018": {
+      "object_id": "C18_OBJ_038",
+      "method": "world_cluster"
+    },
+    "C18_F0432_CAM_FRONT_Q058": {
+      "object_id": "C18_OBJ_038",
+      "method": "world_cluster"
+    },
+    "C18_F0435_CAM_FRONT_Q019": {
+      "object_id": "C18_OBJ_038",
+      "method": "world_cluster"
+    },
+    "C18_F0362_CAM_FRONT_Q033": {
+      "object_id": "C18_OBJ_039",
+      "method": "world_cluster"
+    },
+    "C18_F0366_CAM_FRONT_Q027": {
+      "object_id": "C18_OBJ_039",
+      "method": "world_cluster"
+    },
+    "C18_F0384_CAM_FRONT_Q010": {
+      "object_id": "C18_OBJ_039",
+      "method": "world_cluster"
+    },
+    "C18_F0372_CAM_FRONT_Q018": {
+      "object_id": "C18_OBJ_040",
+      "method": "world_cluster"
+    },
+    "C18_F0421_CAM_FRONT_Q016": {
+      "object_id": "C18_OBJ_041",
+      "method": "world_cluster"
+    },
+    "C18_F0425_CAM_FRONT_Q035": {
+      "object_id": "C18_OBJ_041",
+      "method": "world_cluster"
+    },
+    "C18_F0430_CAM_FRONT_Q021": {
+      "object_id": "C18_OBJ_041",
+      "method": "world_cluster"
+    },
+    "C18_F0443_CAM_FRONT_Q009": {
+      "object_id": "C18_OBJ_041",
+      "method": "world_cluster"
+    },
+    "C18_F0444_CAM_FRONT_Q005": {
+      "object_id": "C18_OBJ_041",
+      "method": "world_cluster"
+    },
+    "C18_F0451_CAM_FRONT_Q005": {
+      "object_id": "C18_OBJ_041",
+      "method": "world_cluster"
+    },
+    "C18_F0463_CAM_FRONT_Q007": {
+      "object_id": "C18_OBJ_042",
+      "method": "world_cluster"
+    },
+    "C18_F0470_CAM_FRONT_Q005": {
+      "object_id": "C18_OBJ_043",
+      "method": "world_cluster"
+    },
+    "C18_F0471_CAM_FRONT_Q003": {
+      "object_id": "C18_OBJ_043",
+      "method": "world_cluster"
+    },
+    "C18_F0472_CAM_FRONT_Q004": {
+      "object_id": "C18_OBJ_043",
+      "method": "world_cluster"
+    },
+    "C18_F0482_CAM_FRONT_Q008": {
+      "object_id": "C18_OBJ_043",
+      "method": "world_cluster"
+    },
+    "C18_F0468_CAM_FRONT_Q039": {
+      "object_id": "C18_OBJ_044",
+      "method": "world_cluster"
+    },
+    "C18_F0470_CAM_FRONT_Q014": {
+      "object_id": "C18_OBJ_044",
+      "method": "world_cluster"
+    },
+    "C18_F0473_CAM_FRONT_Q011": {
+      "object_id": "C18_OBJ_044",
+      "method": "world_cluster"
+    },
+    "C18_F0474_CAM_FRONT_Q018": {
+      "object_id": "C18_OBJ_044",
+      "method": "world_cluster"
+    },
+    "C18_F0484_CAM_FRONT_Q008": {
+      "object_id": "C18_OBJ_044",
+      "method": "world_cluster"
+    },
+    "C18_F0486_CAM_FRONT_Q005": {
+      "object_id": "C18_OBJ_044",
+      "method": "world_cluster"
+    },
+    "C18_F0103_CAM_FRONT_Q005": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0132_CAM_FRONT_Q015": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0134_CAM_FRONT_Q005": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0135_CAM_FRONT_Q004": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0136_CAM_FRONT_Q041": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0136_CAM_FRONT_Q002": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0137_CAM_FRONT_Q005": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0138_CAM_FRONT_Q001": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0138_CAM_FRONT_Q012": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0140_CAM_FRONT_Q005": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0141_CAM_FRONT_Q005": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0142_CAM_FRONT_Q003": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0144_CAM_FRONT_Q009": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0144_CAM_FRONT_Q001": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0146_CAM_FRONT_Q001": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0147_CAM_FRONT_Q009": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0147_CAM_FRONT_Q002": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0148_CAM_FRONT_Q002": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0149_CAM_FRONT_Q003": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0149_CAM_FRONT_Q002": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0150_CAM_FRONT_Q003": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0150_CAM_FRONT_Q002": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0151_CAM_FRONT_Q002": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0152_CAM_FRONT_Q015": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0152_CAM_FRONT_Q000": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0153_CAM_FRONT_Q001": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0154_CAM_FRONT_Q001": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0154_CAM_FRONT_Q021": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0156_CAM_FRONT_Q004": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0157_CAM_FRONT_Q001": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0158_CAM_FRONT_Q001": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0159_CAM_FRONT_Q002": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18_F0160_CAM_FRONT_Q000": {
+      "object_id": "C18_OBJ_045",
+      "method": "world_cluster"
+    },
+    "C18S_F0063_P000": {
+      "object_id": "C18_OBJ_046",
+      "method": "world_cluster"
+    },
+    "C18S_F0064_P000": {
+      "object_id": "C18_OBJ_046",
+      "method": "world_cluster"
+    },
+    "C18S_F0065_P000": {
+      "object_id": "C18_OBJ_046",
+      "method": "world_cluster"
+    },
+    "C18S_F0066_P000": {
+      "object_id": "C18_OBJ_046",
+      "method": "world_cluster"
+    },
+    "C18S_F0067_P000": {
+      "object_id": "C18_OBJ_046",
+      "method": "world_cluster"
+    },
+    "C18S_F0068_P000": {
+      "object_id": "C18_OBJ_046",
+      "method": "world_cluster"
+    },
+    "C18S_F0069_P000": {
+      "object_id": "C18_OBJ_046",
+      "method": "world_cluster"
+    },
+    "C18S_F0070_P000": {
+      "object_id": "C18_OBJ_046",
+      "method": "world_cluster"
+    },
+    "C18S_F0071_P000": {
+      "object_id": "C18_OBJ_046",
+      "method": "world_cluster"
+    },
+    "C18S_F0072_P000": {
+      "object_id": "C18_OBJ_046",
+      "method": "world_cluster"
+    },
+    "C18S_F0073_P000": {
+      "object_id": "C18_OBJ_046",
+      "method": "world_cluster"
+    },
+    "C18S_F0074_P000": {
+      "object_id": "C18_OBJ_046",
+      "method": "world_cluster"
+    },
+    "C18S_F0075_P000": {
+      "object_id": "C18_OBJ_046",
+      "method": "world_cluster"
+    },
+    "C18S_F0076_P000": {
+      "object_id": "C18_OBJ_046",
+      "method": "world_cluster"
+    },
+    "C18S_F0077_P000": {
+      "object_id": "C18_OBJ_046",
+      "method": "world_cluster"
+    },
+    "C18S_F0078_P000": {
+      "object_id": "C18_OBJ_046",
+      "method": "world_cluster"
+    },
+    "C18S_F0079_P000": {
+      "object_id": "C18_OBJ_046",
+      "method": "world_cluster"
+    },
+    "C18S_F0080_P000": {
+      "object_id": "C18_OBJ_046",
+      "method": "world_cluster"
+    },
+    "C18S_F0081_P000": {
+      "object_id": "C18_OBJ_046",
+      "method": "world_cluster"
+    },
+    "C18S_F0082_P000": {
+      "object_id": "C18_OBJ_046",
+      "method": "world_cluster"
+    },
+    "C18S_F0083_P000": {
+      "object_id": "C18_OBJ_046",
+      "method": "world_cluster"
+    },
+    "C18S_F0000_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0001_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0002_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0003_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0004_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0005_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0006_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0007_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0008_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0009_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0010_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0011_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0012_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0013_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0014_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0015_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0016_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0017_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0018_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0019_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0020_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0021_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0022_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0023_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0024_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0025_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0026_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0027_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18S_F0028_P000": {
+      "object_id": "C18_OBJ_047",
+      "method": "world_cluster"
+    },
+    "C18_F0511_CAM_FRONT_Q009": {
+      "object_id": "C18_OBJ_048",
+      "method": "world_cluster"
+    },
+    "C18S_F0029_MANUAL001": {
+      "object_id": "C18_OBJ_047",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18S_F0062_P000": {
+      "object_id": "C18_OBJ_046",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0095_CAM_FRONT_Q000": {
+      "object_id": "C18_OBJ_045",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0325_CAM_FRONT_Q033": {
+      "object_id": "C18_OBJ_031",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0329_CAM_FRONT_Q031": {
+      "object_id": "C18_OBJ_031",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0360_CAM_FRONT_Q020": {
+      "object_id": "C18_OBJ_009",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0375_CAM_FRONT_Q019": {
+      "object_id": "C18_OBJ_001",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0376_CAM_FRONT_Q008": {
+      "object_id": "C18_OBJ_001",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0380_CAM_FRONT_Q013": {
+      "object_id": "C18_OBJ_001",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0386_CAM_FRONT_Q009": {
+      "object_id": "C18_OBJ_039",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0392_CAM_FRONT_Q016": {
+      "object_id": "C18_OBJ_009",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0405_CAM_FRONT_Q024": {
+      "object_id": "C18_OBJ_036",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0412_CAM_FRONT_Q033": {
+      "object_id": "C18_OBJ_004",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0413_CAM_FRONT_Q010": {
+      "object_id": "C18_OBJ_010",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0414_CAM_FRONT_Q006": {
+      "object_id": "C18_OBJ_004",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0415_CAM_FRONT_Q008": {
+      "object_id": "C18_OBJ_004",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0416_CAM_FRONT_Q006": {
+      "object_id": "C18_OBJ_004",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0417_CAM_FRONT_Q005": {
+      "object_id": "C18_OBJ_004",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0419_CAM_FRONT_Q009": {
+      "object_id": "C18_OBJ_004",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0420_CAM_FRONT_Q003": {
+      "object_id": "C18_OBJ_004",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0422_CAM_FRONT_Q003": {
+      "object_id": "C18_OBJ_004",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0423_CAM_FRONT_Q016": {
+      "object_id": "C18_OBJ_038",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0423_CAM_FRONT_Q003": {
+      "object_id": "C18_OBJ_004",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0433_CAM_FRONT_Q028": {
+      "object_id": "C18_OBJ_036",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0467_CAM_FRONT_Q009": {
+      "object_id": "C18_OBJ_025",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0472_CAM_FRONT_Q003": {
+      "object_id": "C18_OBJ_044",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0482_CAM_FRONT_Q011": {
+      "object_id": "C18_OBJ_015",
+      "method": "unique_reprojection_of_multiframe_object"
+    },
+    "C18_F0499_CAM_FRONT_Q028": {
+      "object_id": "C18_OBJ_025",
+      "method": "unique_reprojection_of_multiframe_object"
+    }
+  },
+  "unresolved_observations": [
+    {
+      "observation_id": "C18_F0010_CAM_FRONT_Q013",
+      "class": "traffic_cone",
+      "frame": 10,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "C18_F0078_CAM_FRONT_Q001",
+      "class": "merging_sign",
+      "frame": 78,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "C18_F0082_CAM_FRONT_Q012",
+      "class": "merging_sign",
+      "frame": 82,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "C18_F0083_CAM_FRONT_Q007",
+      "class": "merging_sign",
+      "frame": 83,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "C18_F0089_CAM_FRONT_Q001",
+      "class": "merging_sign",
+      "frame": 89,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "C18_F0354_CAM_FRONT_Q049",
+      "class": "traffic_cone",
+      "frame": 354,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "C18_F0365_CAM_FRONT_Q016",
+      "class": "traffic_cone",
+      "frame": 365,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "C18_F0370_CAM_FRONT_Q021",
+      "class": "traffic_cone",
+      "frame": 370,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "C18_F0374_CAM_FRONT_Q120",
+      "class": "traffic_cone",
+      "frame": 374,
+      "reason": "ambiguous_reprojection",
+      "candidate_objects": [
+        "C18_OBJ_006",
+        "C18_OBJ_007"
+      ]
+    },
+    {
+      "observation_id": "C18_F0387_CAM_FRONT_Q014",
+      "class": "traffic_cone",
+      "frame": 387,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "C18_F0390_CAM_FRONT_Q014",
+      "class": "traffic_cone",
+      "frame": 390,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    },
+    {
+      "observation_id": "C18_F0404_CAM_FRONT_Q037",
+      "class": "traffic_cone",
+      "frame": 404,
+      "reason": "ambiguous_reprojection",
+      "candidate_objects": [
+        "C18_OBJ_036",
+        "C18_OBJ_037",
+        "C18_OBJ_038"
+      ]
+    },
+    {
+      "observation_id": "C18_F0426_CAM_FRONT_Q014",
+      "class": "traffic_cone",
+      "frame": 426,
+      "reason": "ambiguous_reprojection",
+      "candidate_objects": [
+        "C18_OBJ_002",
+        "C18_OBJ_022",
+        "C18_OBJ_041"
+      ]
+    },
+    {
+      "observation_id": "C18_F0475_CAM_FRONT_Q018",
+      "class": "traffic_cone",
+      "frame": 475,
+      "reason": "ambiguous_reprojection",
+      "candidate_objects": [
+        "C18_OBJ_015",
+        "C18_OBJ_017",
+        "C18_OBJ_026",
+        "C18_OBJ_027"
+      ]
+    },
+    {
+      "observation_id": "C18_F0478_CAM_FRONT_Q010",
+      "class": "traffic_cone",
+      "frame": 478,
+      "reason": "ambiguous_reprojection",
+      "candidate_objects": [
+        "C18_OBJ_015",
+        "C18_OBJ_017",
+        "C18_OBJ_026"
+      ]
+    },
+    {
+      "observation_id": "C18_F0493_CAM_FRONT_Q011",
+      "class": "traffic_cone",
+      "frame": 493,
+      "reason": "no_reliable_3d_or_unique_identity",
+      "candidate_objects": []
+    }
+  ],
+  "identity_conflicts": [
+    [
+      "C18_F0372_CAM_FRONT_Q018",
+      "C18_F0372_CAM_FRONT_Q005"
+    ]
+  ],
+  "counts": {
+    "observations": 270,
+    "objects_with_candidate_position": 48,
+    "multi_frame_supported_objects": 31,
+    "mapped_observations": 254,
+    "unresolved_observations": 16,
+    "object_condition_counts": {
+      "not_condition_target": 5,
+      "supported_serviceable": 25,
+      "uncertain_no_clear_view": 8,
+      "serviceable_view_identity_provisional": 10
+    },
+    "uncertain_views_resolved_by_same_object": 38
+  },
+  "identity_policy": "Complete-link XY clustering maximum 1m diameter, class family compatible; same-frame disjoint boxes prevent merge; at least 2 independent frames and an accepted bbox required for stable location. Weak views attach only through unique reprojection into their box. These are inferred identities, not manually verified physical IDs.",
+  "condition_policy": "At least one clear serviceable observation plus no conflicting clear defect supports object-level visible serviceability; uncertain images do not negate that. Propagation requires multiframe-supported identity."
+}

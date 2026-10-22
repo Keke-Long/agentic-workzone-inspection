@@ -1,0 +1,25 @@
+{
+  "authorization": "User restricts all video and LiDAR inputs to 61–85 seconds",
+  "input_window_s": [
+    61,
+    85
+  ],
+  "raw_modified": false,
+  "camera_frames": 240,
+  "lidar_frames": 240,
+  "raw_candidates_before": 10972,
+  "raw_candidates_after": 5824,
+  "reused_classifications": 286,
+  "new_classifications": 9,
+  "point_filter_counts": {
+    "excluded_outside_window": 187,
+    "excluded_invalid": 0
+  },
+  "retired_scope_provenance": "superseded_before_61_85",
+  "current_validations": [
+    "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/detection_verification/data_validation.json",
+    "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/detection_verification/viewer_validation.json",
+    "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/bev_reconstruction/scene_bev/validation.json"
+  ],
+  "cleanup": "Removed out-of-window processed camera images, candidate frame JSON, obsolete scoped metadata, old crops and wide-window preview sheets; original raw files unchanged."
+}

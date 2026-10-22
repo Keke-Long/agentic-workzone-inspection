@@ -1,0 +1,27 @@
+{
+  "counts": {
+    "bbox_review": {
+      "other_object": 4637,
+      "correct": 186,
+      "class_only": 32
+    },
+    "warning_sign_review": {
+      "correct": 52,
+      "class_only": 0
+    }
+  },
+  "accepted_classes": {
+    "traffic_sign": 1,
+    "traffic_cone": 146,
+    "merging_sign": 17,
+    "road_barrier": 9,
+    "arrow_board": 4,
+    "barricade": 9,
+    "road_work_ahead": 30,
+    "right_lane_closed": 22
+  },
+  "semantic_only_classes": {
+    "merging_sign": 21,
+    "arrow_board": 11
+  }
+}

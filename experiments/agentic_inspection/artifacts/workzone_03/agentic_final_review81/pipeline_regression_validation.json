@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "channelizing_device_count": 227,
+  "stage4_requirement_count": 18,
+  "plan_status": "constructed",
+  "evidence_records": 15,
+  "legacy_tests": {
+    "data_availability_batch_is_atomic": "passed",
+    "orchestrated_stage4_plan_tools_provenance_and_readiness_close_without_retries": "failed: expects >=1 confirmed device-condition evidence from historical fixture; observed 0. Workzone 3 regression uses actual 18-requirement checkpoint and passed."
+  }
+}

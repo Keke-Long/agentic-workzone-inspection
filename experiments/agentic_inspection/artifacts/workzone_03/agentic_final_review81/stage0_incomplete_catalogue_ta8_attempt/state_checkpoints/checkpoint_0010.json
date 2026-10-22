@@ -1,0 +1,137 @@
+{
+  "scene_id": "scene-CATS-15",
+  "selected_layouts": [
+    {
+      "layout_code": "TA-8",
+      "layout_role": "primary_applicable",
+      "source_locator": "TA-8, Figure 6P-8, Road Closure with an Off-Site Detour, PDF pages 914–915 / printed pages 874–875; TA-8 paragraph 01",
+      "matched_scene_facts": [
+        "The opposing-direction lane is explicitly confirmed fully closed.",
+        "Opposing traffic is prohibited from entering the closed route and detours via other roads.",
+        "The work zone is adjacent to an intersection.",
+        "Channelizing devices define the closed-route boundary and taper.",
+        "The work duration is less than three days.",
+        "The roadway is an urban two-way street with the ego-direction path remaining open."
+      ],
+      "conflicting_scene_facts": [
+        "TA-8 depicts road-closure and off-site-detour controls, while the observed closure is direction-specific: the opposing lane is closed and the ego-direction lane remains open. This requires interpreting the TA-8 closure treatment for the affected direction rather than treating the entire cross-section as closed."
+      ]
+    }
+  ],
+  "phase": "requirement_registration",
+  "region_coverage": {
+    "lane_closure_layout": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "advance_warning_sign_system": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": [
+        "req_7e482c21edee1a71"
+      ]
+    },
+    "channelization_system": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "transition_and_taper_geometry": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "conditional_active_devices": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "conditional_termination_area": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    }
+  },
+  "requirements": [
+    {
+      "candidate_label": "ROAD WORK AHEAD sign precedes the closure/activity",
+      "subject": "ROAD WORK AHEAD (W20-1) warning sign",
+      "relation": "is located in advance of",
+      "threshold": "the work space or any detour",
+      "applicability_conditions": [
+        "The observed TTC zone has a roadway obstruction or restriction.",
+        "A ROAD WORK AHEAD sign is used."
+      ],
+      "required_inputs": [
+        "sign locations",
+        "work-space or detour start location"
+      ],
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "activation_basis": {
+        "type": "scene_fact",
+        "fact_keys": [
+          "opposing_direction_lane_fully_closed",
+          "opposing_traffic_detour_confirmed"
+        ],
+        "evidence_source_node_ids": [],
+        "explanation": "The scoped closure/restriction activates advance warning; the check is limited to the observable approach."
+      },
+      "source_node_ids": [
+        "src_26bd048211769b2b09e8"
+      ],
+      "modality": "should",
+      "source_locator": "SEC-6H.03 paragraph 01; PDF page 842",
+      "source_span": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions, should be located in advance of the work space or any detour, on the road where the work is taking place.",
+      "discovered_requirement_key": "req_7e482c21edee1a71",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "7e482c21edee1a718eff9f40a30a22bf5305e8be950eed34d002d5718c66ca79",
+      "registration_event_index": 2,
+      "registration_timestamp": "2026-10-22T02:52:51.552969+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    }
+  ],
+  "data_availability": {},
+  "evidence_records": {},
+  "stage4_plan": null,
+  "inspection_bundles": {},
+  "acquisition_attempts": {},
+  "measurement_records": {},
+  "stage4_readiness": null,
+  "stage5_plan": null,
+  "conclusion_drafts": {},
+  "stage5_readiness": null,
+  "tool_calls": [],
+  "event_history": [
+    {
+      "event_index": 1,
+      "timestamp": "2026-10-22T02:52:46.003793+00:00",
+      "event_type": "phase_transition",
+      "phase": "requirement_discovery",
+      "from_phase": "requirement_discovery",
+      "to_phase": "requirement_registration"
+    },
+    {
+      "event_index": 2,
+      "timestamp": "2026-10-22T02:52:51.552969+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_7e482c21edee1a71",
+      "candidate_label": "ROAD WORK AHEAD sign precedes the closure/activity",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "7e482c21edee1a718eff9f40a30a22bf5305e8be950eed34d002d5718c66ca79"
+    }
+  ],
+  "completion": null,
+  "finalized": false
+}

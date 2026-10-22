@@ -1,0 +1,936 @@
+{
+  "schema_version": "stage4_evidence_evaluation_v2",
+  "structural_passed": true,
+  "stable_execution_passed": true,
+  "full_traceability_passed": true,
+  "ready_for_stage5_with_caveats": true,
+  "status": "awaiting_stage4_evaluation",
+  "phase": "inspection_conclusion",
+  "registered_requirement_count": 19,
+  "evidence_record_count": 36,
+  "requirements_with_evidence": 19,
+  "requirements_with_exact_input_accounting": 19,
+  "evidence_kind_counts": {
+    "acquisition_failure": 4,
+    "direct_fact": 14,
+    "visual_observation": 17,
+    "measurement_context": 1
+  },
+  "coverage": {
+    "traffic_sign_representatives_inventoried": 23,
+    "traffic_sign_representatives_inspected": 23,
+    "all_inventoried_traffic_signs_inspected": true,
+    "arrow_board_representatives_inventoried": 1,
+    "arrow_board_representatives_inspected": 1,
+    "all_inventoried_arrow_boards_inspected": true,
+    "present_channelizer_classes": [
+      "barricade",
+      "channelizing_device",
+      "traffic_cone",
+      "traffic_drum"
+    ],
+    "inspected_channelizer_classes": [
+      "barricade",
+      "channelizing_device",
+      "traffic_cone",
+      "traffic_drum"
+    ],
+    "all_present_channelizer_classes_sampled": true,
+    "cam_front_temporal_frame_count": 8,
+    "cam_front_temporal_span_ratio": 0.9961013645224172,
+    "temporal_coverage_passed": true
+  },
+  "measurements": {
+    "saved_count": 2,
+    "channelizer_spacing_usable": true,
+    "channelizer_gaps_evaluated": 30,
+    "channelizer_clear_exceedance_count": 0,
+    "channelizer_violation_run_count": 0,
+    "channelizer_deficiency_supported": false,
+    "taper_value_m": null,
+    "taper_geometry_usable": false,
+    "taper_threshold_status": null,
+    "invalid_taper_remained_unresolved": true
+  },
+  "stage_boundary_passed": true,
+  "conclusion_leakage": [],
+  "session_tool_calls": 8,
+  "session_tool_failures": 0,
+  "model_api_calls": 8,
+  "total_tokens": 386614,
+  "wall_clock_seconds": 22.937248011119664,
+  "failed_calls": [],
+  "traceability": {
+    "channelizer_visual_requirement_count": 3,
+    "temporal_evidence_record_count": 16,
+    "warnings": []
+  },
+  "requirements": [
+    {
+      "candidate_label": "Left-lane closure channelizing alignment",
+      "discovered_requirement_key": "req_8909b3bebda2c320",
+      "region": "lane_closure_layout",
+      "required_inputs": [
+        "field view of center line and adjacent lane boundaries"
+      ],
+      "measurement_tool": null,
+      "evidence_record_count": 1,
+      "evidence_kinds": [
+        "visual_observation"
+      ],
+      "required_inputs_accounted": true,
+      "acquired_unresolved_overlap": [],
+      "acquired_inputs": [
+        "field view of center line and adjacent lane boundaries"
+      ],
+      "unresolved_inputs": [],
+      "source_ids": [
+        "F0004_CAM_FRONT_009",
+        "F0316_CAM_BACK_LEFT_010",
+        "F0410_CAM_FRONT_019",
+        "F0437_CAM_FRONT_004",
+        "F0457_CAM_BACK_002",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__10033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__112233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__24633333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__39233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__53833333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__68433333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__83033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__97633333"
+      ]
+    },
+    {
+      "candidate_label": "Required merging transition",
+      "discovered_requirement_key": "req_b8a3cfc4703bff69",
+      "region": "lane_closure_layout",
+      "required_inputs": [
+        "visible lane-closure transition"
+      ],
+      "measurement_tool": null,
+      "evidence_record_count": 1,
+      "evidence_kinds": [
+        "visual_observation"
+      ],
+      "required_inputs_accounted": true,
+      "acquired_unresolved_overlap": [],
+      "acquired_inputs": [
+        "visible lane-closure transition"
+      ],
+      "unresolved_inputs": [],
+      "source_ids": [
+        "F0004_CAM_FRONT_009",
+        "F0316_CAM_BACK_LEFT_010",
+        "F0410_CAM_FRONT_019",
+        "F0437_CAM_FRONT_004",
+        "F0457_CAM_BACK_002",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__10033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__112233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__24633333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__39233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__53833333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__68433333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__83033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__97633333"
+      ]
+    },
+    {
+      "candidate_label": "TA-30 figure:sign:W4-2L: W4-2L sign in TA-30",
+      "discovered_requirement_key": "req_5081859b24526a1e",
+      "region": "advance_warning_sign_system",
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "measurement_tool": null,
+      "evidence_record_count": 2,
+      "evidence_kinds": [
+        "direct_fact",
+        "visual_observation"
+      ],
+      "required_inputs_accounted": true,
+      "acquired_unresolved_overlap": [],
+      "acquired_inputs": [
+        "accepted_bbox_observations",
+        "raw_images"
+      ],
+      "unresolved_inputs": [],
+      "source_ids": [
+        "F0020_CAM_FRONT_008",
+        "F0030_CAM_FRONT_007",
+        "F0035_CAM_FRONT_007",
+        "F0037_CAM_FRONT_S000",
+        "F0038_CAM_FRONT_S000",
+        "F0051_CAM_BACK_014",
+        "F0051_CAM_FRONT_RIGHT_008",
+        "F0059_CAM_FRONT_LEFT_003",
+        "F0059_CAM_FRONT_LEFT_004",
+        "F0060_CAM_BACK_014",
+        "F0061_CAM_BACK_014",
+        "F0061_CAM_FRONT_010",
+        "F0070_CAM_FRONT_RIGHT_004",
+        "F0074_CAM_FRONT_RIGHT_004",
+        "F0094_CAM_FRONT_008",
+        "F0095_CAM_FRONT_006",
+        "F0096_CAM_FRONT_LEFT_001",
+        "F0097_CAM_FRONT_000",
+        "F0098_CAM_FRONT_S000",
+        "F0113_CAM_BACK_005",
+        "F0184_CAM_FRONT_012",
+        "F0185_CAM_FRONT_000",
+        "F1011_CAM_FRONT_S000",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__10033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__112233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__24633333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__39233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__53833333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__68433333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__83033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__97633333",
+        "scene_manifest.accepted_bbox_observations",
+        "selected_layout.TA-30"
+      ]
+    },
+    {
+      "candidate_label": "TABLE-6B-1 table: advance warning sign dimensions A, B, and C",
+      "discovered_requirement_key": "req_38c3702227f46f58",
+      "region": "advance_warning_sign_system",
+      "required_inputs": [
+        "roadway_configuration",
+        "posted_speed_mph",
+        "traffic_sign_observations",
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "measurement_tool": "measure_sign_spacing",
+      "evidence_record_count": 3,
+      "evidence_kinds": [
+        "acquisition_failure",
+        "direct_fact",
+        "visual_observation"
+      ],
+      "required_inputs_accounted": true,
+      "acquired_unresolved_overlap": [],
+      "acquired_inputs": [
+        "posted_speed_mph",
+        "roadway_configuration",
+        "traffic_sign_observations"
+      ],
+      "unresolved_inputs": [
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "source_ids": [
+        "F0020_CAM_FRONT_008",
+        "F0030_CAM_FRONT_007",
+        "F0035_CAM_FRONT_007",
+        "F0037_CAM_FRONT_S000",
+        "F0038_CAM_FRONT_S000",
+        "F0051_CAM_BACK_014",
+        "F0051_CAM_FRONT_RIGHT_008",
+        "F0059_CAM_FRONT_LEFT_003",
+        "F0059_CAM_FRONT_LEFT_004",
+        "F0060_CAM_BACK_014",
+        "F0061_CAM_BACK_014",
+        "F0061_CAM_FRONT_010",
+        "F0070_CAM_FRONT_RIGHT_004",
+        "F0074_CAM_FRONT_RIGHT_004",
+        "F0094_CAM_FRONT_008",
+        "F0095_CAM_FRONT_006",
+        "F0096_CAM_FRONT_LEFT_001",
+        "F0097_CAM_FRONT_000",
+        "F0098_CAM_FRONT_S000",
+        "F0113_CAM_BACK_005",
+        "F0184_CAM_FRONT_012",
+        "F0185_CAM_FRONT_000",
+        "F1011_CAM_FRONT_S000",
+        "attempt_64b2b02d5fd916401b11",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__10033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__112233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__24633333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__39233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__53833333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__68433333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__83033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__97633333",
+        "scene_facts.posted_speed_mph",
+        "scene_facts.roadway_configuration"
+      ]
+    },
+    {
+      "candidate_label": "SEC-6K.01 04: spacing between cones, tubular markers, vertical panels, drums, and barricades",
+      "discovered_requirement_key": "req_b93cf081b51794cc",
+      "region": "channelization_system",
+      "required_inputs": [
+        "posted_speed_mph",
+        "accepted_bbox_observations",
+        "ego_trajectory",
+        "lidar_points",
+        "channelization_region"
+      ],
+      "measurement_tool": "audit_channelizer_spacing",
+      "evidence_record_count": 3,
+      "evidence_kinds": [
+        "direct_fact",
+        "measurement_context",
+        "visual_observation"
+      ],
+      "required_inputs_accounted": true,
+      "acquired_unresolved_overlap": [],
+      "acquired_inputs": [
+        "accepted_bbox_observations",
+        "channelization_region",
+        "ego_trajectory",
+        "lidar_points",
+        "posted_speed_mph"
+      ],
+      "unresolved_inputs": [],
+      "source_ids": [
+        "F0004_CAM_FRONT_009",
+        "F0316_CAM_BACK_LEFT_010",
+        "F0410_CAM_FRONT_019",
+        "F0437_CAM_FRONT_004",
+        "F0457_CAM_BACK_002",
+        "measurement_9600065ddcb95df76f49",
+        "scene_facts.posted_speed_mph",
+        "scene_manifest.accepted_bbox_observations"
+      ]
+    },
+    {
+      "candidate_label": "SEC-6K.01 14: Particular attention",
+      "discovered_requirement_key": "req_9684dd549b406cb8",
+      "region": "channelization_system",
+      "required_inputs": [
+        "raw_images"
+      ],
+      "measurement_tool": null,
+      "evidence_record_count": 1,
+      "evidence_kinds": [
+        "direct_fact"
+      ],
+      "required_inputs_accounted": true,
+      "acquired_unresolved_overlap": [],
+      "acquired_inputs": [
+        "raw_images"
+      ],
+      "unresolved_inputs": [],
+      "source_ids": [
+        "F0616_CAM_FRONT_LEFT_000",
+        "F0622_CAM_BACK_LEFT_000"
+      ]
+    },
+    {
+      "candidate_label": "SEC-6K.01 15: Channelizing devices that are no longer serviceable (see definition in Section 1C.02)",
+      "discovered_requirement_key": "req_f5310b80856ddc62",
+      "region": "channelization_system",
+      "required_inputs": [
+        "raw_images"
+      ],
+      "measurement_tool": null,
+      "evidence_record_count": 1,
+      "evidence_kinds": [
+        "direct_fact"
+      ],
+      "required_inputs_accounted": true,
+      "acquired_unresolved_overlap": [],
+      "acquired_inputs": [
+        "raw_images"
+      ],
+      "unresolved_inputs": [],
+      "source_ids": [
+        "F0616_CAM_FRONT_LEFT_000",
+        "F0622_CAM_BACK_LEFT_000"
+      ]
+    },
+    {
+      "candidate_label": "TABLE-6B-4 table: taper length L",
+      "discovered_requirement_key": "req_cafd11ed818bb74c",
+      "region": "transition_and_taper_geometry",
+      "required_inputs": [
+        "posted_speed_mph",
+        "lateral_offset_width_ft",
+        "accepted_bbox_observations",
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "measurement_tool": "measure_taper_length",
+      "evidence_record_count": 4,
+      "evidence_kinds": [
+        "acquisition_failure",
+        "direct_fact",
+        "visual_observation"
+      ],
+      "required_inputs_accounted": true,
+      "acquired_unresolved_overlap": [],
+      "acquired_inputs": [
+        "accepted_bbox_observations",
+        "posted_speed_mph"
+      ],
+      "unresolved_inputs": [
+        "ego_trajectory",
+        "lateral_offset_width_ft",
+        "lidar_points"
+      ],
+      "source_ids": [
+        "F0004_CAM_FRONT_009",
+        "F0316_CAM_BACK_LEFT_010",
+        "F0410_CAM_FRONT_019",
+        "F0437_CAM_FRONT_004",
+        "F0457_CAM_BACK_002",
+        "attempt_2e62567ea4da121f63b1",
+        "attempt_a3c9825574276d695401",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__10033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__112233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__24633333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__39233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__53833333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__68433333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__83033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__97633333",
+        "scene_facts.posted_speed_mph",
+        "selected_layout.TA-30"
+      ]
+    },
+    {
+      "candidate_label": "SEC-6L.06 03: If used, an arrow board",
+      "discovered_requirement_key": "req_a8c93c0420630ba5",
+      "region": "conditional_active_devices",
+      "required_inputs": [
+        "raw_images"
+      ],
+      "measurement_tool": null,
+      "evidence_record_count": 1,
+      "evidence_kinds": [
+        "visual_observation"
+      ],
+      "required_inputs_accounted": true,
+      "acquired_unresolved_overlap": [],
+      "acquired_inputs": [
+        "raw_images"
+      ],
+      "unresolved_inputs": [],
+      "source_ids": [
+        "F0004_CAM_FRONT_009",
+        "F0316_CAM_BACK_LEFT_010",
+        "F0410_CAM_FRONT_019",
+        "F0437_CAM_FRONT_004",
+        "F0457_CAM_BACK_002",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__10033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__112233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__24633333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__39233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__53833333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__68433333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__83033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__97633333"
+      ]
+    },
+    {
+      "candidate_label": "SEC-6L.06 04: An arrow board",
+      "discovered_requirement_key": "req_23c001f1e68a3929",
+      "region": "conditional_active_devices",
+      "required_inputs": [
+        "raw_images",
+        "closed_lane",
+        "roadway_configuration"
+      ],
+      "measurement_tool": null,
+      "evidence_record_count": 2,
+      "evidence_kinds": [
+        "direct_fact",
+        "visual_observation"
+      ],
+      "required_inputs_accounted": true,
+      "acquired_unresolved_overlap": [],
+      "acquired_inputs": [
+        "closed_lane",
+        "raw_images",
+        "roadway_configuration"
+      ],
+      "unresolved_inputs": [],
+      "source_ids": [
+        "F0004_CAM_FRONT_009",
+        "F0316_CAM_BACK_LEFT_010",
+        "F0410_CAM_FRONT_019",
+        "F0437_CAM_FRONT_004",
+        "F0457_CAM_BACK_002",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__10033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__112233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__24633333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__39233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__53833333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__68433333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__83033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__97633333",
+        "scene_facts.closed_lane",
+        "scene_facts.roadway_configuration"
+      ]
+    },
+    {
+      "candidate_label": "SEC-6L.06 17: An arrow board in the arrow or chevron mode",
+      "discovered_requirement_key": "req_5f4e38b58f191dd6",
+      "region": "conditional_active_devices",
+      "required_inputs": [
+        "raw_images",
+        "closed_lane",
+        "roadway_configuration"
+      ],
+      "measurement_tool": null,
+      "evidence_record_count": 2,
+      "evidence_kinds": [
+        "direct_fact",
+        "visual_observation"
+      ],
+      "required_inputs_accounted": true,
+      "acquired_unresolved_overlap": [],
+      "acquired_inputs": [
+        "closed_lane",
+        "raw_images",
+        "roadway_configuration"
+      ],
+      "unresolved_inputs": [],
+      "source_ids": [
+        "F0004_CAM_FRONT_009",
+        "F0316_CAM_BACK_LEFT_010",
+        "F0410_CAM_FRONT_019",
+        "F0437_CAM_FRONT_004",
+        "F0457_CAM_BACK_002",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__10033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__112233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__24633333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__39233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__53833333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__68433333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__83033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__97633333",
+        "scene_facts.closed_lane",
+        "scene_facts.roadway_configuration"
+      ]
+    },
+    {
+      "candidate_label": "SEC-6L.06 19: For a stationary lane closure, the arrow board",
+      "discovered_requirement_key": "req_2d715deec0e3e838",
+      "region": "conditional_active_devices",
+      "required_inputs": [
+        "raw_images",
+        "closed_lane",
+        "roadway_configuration"
+      ],
+      "measurement_tool": null,
+      "evidence_record_count": 2,
+      "evidence_kinds": [
+        "direct_fact",
+        "visual_observation"
+      ],
+      "required_inputs_accounted": true,
+      "acquired_unresolved_overlap": [],
+      "acquired_inputs": [
+        "closed_lane",
+        "raw_images",
+        "roadway_configuration"
+      ],
+      "unresolved_inputs": [],
+      "source_ids": [
+        "F0004_CAM_FRONT_009",
+        "F0316_CAM_BACK_LEFT_010",
+        "F0410_CAM_FRONT_019",
+        "F0437_CAM_FRONT_004",
+        "F0457_CAM_BACK_002",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__10033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__112233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__24633333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__39233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__53833333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__68433333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__83033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__97633333",
+        "scene_facts.closed_lane",
+        "scene_facts.roadway_configuration"
+      ]
+    },
+    {
+      "candidate_label": "SEC-6H.03 01: The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions",
+      "discovered_requirement_key": "req_1f5b96171b9b31be",
+      "region": "advance_warning_sign_system",
+      "required_inputs": [
+        "raw_images"
+      ],
+      "measurement_tool": null,
+      "evidence_record_count": 1,
+      "evidence_kinds": [
+        "visual_observation"
+      ],
+      "required_inputs_accounted": true,
+      "acquired_unresolved_overlap": [],
+      "acquired_inputs": [
+        "raw_images"
+      ],
+      "unresolved_inputs": [],
+      "source_ids": [
+        "F0020_CAM_FRONT_008",
+        "F0030_CAM_FRONT_007",
+        "F0035_CAM_FRONT_007",
+        "F0037_CAM_FRONT_S000",
+        "F0038_CAM_FRONT_S000",
+        "F0051_CAM_BACK_014",
+        "F0051_CAM_FRONT_RIGHT_008",
+        "F0059_CAM_FRONT_LEFT_003",
+        "F0059_CAM_FRONT_LEFT_004",
+        "F0060_CAM_BACK_014",
+        "F0061_CAM_BACK_014",
+        "F0061_CAM_FRONT_010",
+        "F0070_CAM_FRONT_RIGHT_004",
+        "F0074_CAM_FRONT_RIGHT_004",
+        "F0094_CAM_FRONT_008",
+        "F0095_CAM_FRONT_006",
+        "F0096_CAM_FRONT_LEFT_001",
+        "F0097_CAM_FRONT_000",
+        "F0098_CAM_FRONT_S000",
+        "F0113_CAM_BACK_005",
+        "F0184_CAM_FRONT_012",
+        "F0185_CAM_FRONT_000",
+        "F1011_CAM_FRONT_S000",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__10033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__112233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__24633333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__39233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__53833333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__68433333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__83033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__97633333"
+      ]
+    },
+    {
+      "candidate_label": "SEC-6H.07 02: For a single lane closure, the Lane Closed (W20-5) sign (see Figure 6H-1)",
+      "discovered_requirement_key": "req_1064e96c372ac190",
+      "region": "advance_warning_sign_system",
+      "required_inputs": [
+        "raw_images",
+        "closed_lane",
+        "roadway_configuration"
+      ],
+      "measurement_tool": null,
+      "evidence_record_count": 2,
+      "evidence_kinds": [
+        "direct_fact",
+        "visual_observation"
+      ],
+      "required_inputs_accounted": true,
+      "acquired_unresolved_overlap": [],
+      "acquired_inputs": [
+        "closed_lane",
+        "raw_images",
+        "roadway_configuration"
+      ],
+      "unresolved_inputs": [],
+      "source_ids": [
+        "F0020_CAM_FRONT_008",
+        "F0030_CAM_FRONT_007",
+        "F0035_CAM_FRONT_007",
+        "F0037_CAM_FRONT_S000",
+        "F0038_CAM_FRONT_S000",
+        "F0051_CAM_BACK_014",
+        "F0051_CAM_FRONT_RIGHT_008",
+        "F0059_CAM_FRONT_LEFT_003",
+        "F0059_CAM_FRONT_LEFT_004",
+        "F0060_CAM_BACK_014",
+        "F0061_CAM_BACK_014",
+        "F0061_CAM_FRONT_010",
+        "F0070_CAM_FRONT_RIGHT_004",
+        "F0074_CAM_FRONT_RIGHT_004",
+        "F0094_CAM_FRONT_008",
+        "F0095_CAM_FRONT_006",
+        "F0096_CAM_FRONT_LEFT_001",
+        "F0097_CAM_FRONT_000",
+        "F0098_CAM_FRONT_S000",
+        "F0113_CAM_BACK_005",
+        "F0184_CAM_FRONT_012",
+        "F0185_CAM_FRONT_000",
+        "F1011_CAM_FRONT_S000",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__10033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__112233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__24633333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__39233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__53833333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__68433333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__83033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__97633333",
+        "scene_facts.closed_lane",
+        "scene_facts.roadway_configuration"
+      ]
+    },
+    {
+      "candidate_label": "TA-30 figure:sign:W20-5L: W20-5L sign in TA-30",
+      "discovered_requirement_key": "req_37a99d2885c5d190",
+      "region": "advance_warning_sign_system",
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "measurement_tool": null,
+      "evidence_record_count": 2,
+      "evidence_kinds": [
+        "direct_fact",
+        "visual_observation"
+      ],
+      "required_inputs_accounted": true,
+      "acquired_unresolved_overlap": [],
+      "acquired_inputs": [
+        "accepted_bbox_observations",
+        "raw_images"
+      ],
+      "unresolved_inputs": [],
+      "source_ids": [
+        "F0020_CAM_FRONT_008",
+        "F0030_CAM_FRONT_007",
+        "F0035_CAM_FRONT_007",
+        "F0037_CAM_FRONT_S000",
+        "F0038_CAM_FRONT_S000",
+        "F0051_CAM_BACK_014",
+        "F0051_CAM_FRONT_RIGHT_008",
+        "F0059_CAM_FRONT_LEFT_003",
+        "F0059_CAM_FRONT_LEFT_004",
+        "F0060_CAM_BACK_014",
+        "F0061_CAM_BACK_014",
+        "F0061_CAM_FRONT_010",
+        "F0070_CAM_FRONT_RIGHT_004",
+        "F0074_CAM_FRONT_RIGHT_004",
+        "F0094_CAM_FRONT_008",
+        "F0095_CAM_FRONT_006",
+        "F0096_CAM_FRONT_LEFT_001",
+        "F0097_CAM_FRONT_000",
+        "F0098_CAM_FRONT_S000",
+        "F0113_CAM_BACK_005",
+        "F0184_CAM_FRONT_012",
+        "F0185_CAM_FRONT_000",
+        "F1011_CAM_FRONT_S000",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__10033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__112233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__24633333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__39233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__53833333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__68433333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__83033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__97633333",
+        "scene_manifest.accepted_bbox_observations",
+        "selected_layout.TA-30"
+      ]
+    },
+    {
+      "candidate_label": "SEC-6L.06 25: Arrow boards",
+      "discovered_requirement_key": "req_b9abfc9121b3344e",
+      "region": "conditional_active_devices",
+      "required_inputs": [
+        "raw_images",
+        "closed_lane",
+        "roadway_configuration"
+      ],
+      "measurement_tool": null,
+      "evidence_record_count": 2,
+      "evidence_kinds": [
+        "direct_fact",
+        "visual_observation"
+      ],
+      "required_inputs_accounted": true,
+      "acquired_unresolved_overlap": [],
+      "acquired_inputs": [
+        "closed_lane",
+        "raw_images",
+        "roadway_configuration"
+      ],
+      "unresolved_inputs": [],
+      "source_ids": [
+        "F0004_CAM_FRONT_009",
+        "F0316_CAM_BACK_LEFT_010",
+        "F0410_CAM_FRONT_019",
+        "F0437_CAM_FRONT_004",
+        "F0457_CAM_BACK_002",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__10033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__112233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__24633333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__39233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__53833333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__68433333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__83033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__97633333",
+        "scene_facts.closed_lane",
+        "scene_facts.roadway_configuration"
+      ]
+    },
+    {
+      "candidate_label": "SEC-6H.02 01: Where highway conditions permit, warning signs",
+      "discovered_requirement_key": "req_3ff5962a4759ea94",
+      "region": "advance_warning_sign_system",
+      "required_inputs": [
+        "raw_images",
+        "posted_speed_mph",
+        "accepted_bbox_observations",
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "measurement_tool": "measure_sign_spacing",
+      "evidence_record_count": 3,
+      "evidence_kinds": [
+        "acquisition_failure",
+        "direct_fact",
+        "visual_observation"
+      ],
+      "required_inputs_accounted": true,
+      "acquired_unresolved_overlap": [],
+      "acquired_inputs": [
+        "accepted_bbox_observations",
+        "posted_speed_mph",
+        "raw_images"
+      ],
+      "unresolved_inputs": [
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "source_ids": [
+        "F0020_CAM_FRONT_008",
+        "F0030_CAM_FRONT_007",
+        "F0035_CAM_FRONT_007",
+        "F0037_CAM_FRONT_S000",
+        "F0038_CAM_FRONT_S000",
+        "F0051_CAM_BACK_014",
+        "F0051_CAM_FRONT_RIGHT_008",
+        "F0059_CAM_FRONT_LEFT_003",
+        "F0059_CAM_FRONT_LEFT_004",
+        "F0060_CAM_BACK_014",
+        "F0061_CAM_BACK_014",
+        "F0061_CAM_FRONT_010",
+        "F0070_CAM_FRONT_RIGHT_004",
+        "F0074_CAM_FRONT_RIGHT_004",
+        "F0094_CAM_FRONT_008",
+        "F0095_CAM_FRONT_006",
+        "F0096_CAM_FRONT_LEFT_001",
+        "F0097_CAM_FRONT_000",
+        "F0098_CAM_FRONT_S000",
+        "F0113_CAM_BACK_005",
+        "F0184_CAM_FRONT_012",
+        "F0185_CAM_FRONT_000",
+        "F1011_CAM_FRONT_S000",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__10033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__112233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__24633333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__39233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__53833333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__68433333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__83033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__97633333",
+        "measurement_55530ef277083ea152ea",
+        "scene_facts.posted_speed_mph",
+        "scene_manifest.accepted_bbox_observations"
+      ]
+    },
+    {
+      "candidate_label": "TA-30 figure:sign:W20-1: W20-1 sign in TA-30",
+      "discovered_requirement_key": "req_ac9833c628610286",
+      "region": "advance_warning_sign_system",
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "measurement_tool": null,
+      "evidence_record_count": 2,
+      "evidence_kinds": [
+        "direct_fact",
+        "visual_observation"
+      ],
+      "required_inputs_accounted": true,
+      "acquired_unresolved_overlap": [],
+      "acquired_inputs": [
+        "accepted_bbox_observations",
+        "raw_images"
+      ],
+      "unresolved_inputs": [],
+      "source_ids": [
+        "F0020_CAM_FRONT_008",
+        "F0030_CAM_FRONT_007",
+        "F0035_CAM_FRONT_007",
+        "F0037_CAM_FRONT_S000",
+        "F0038_CAM_FRONT_S000",
+        "F0051_CAM_BACK_014",
+        "F0051_CAM_FRONT_RIGHT_008",
+        "F0059_CAM_FRONT_LEFT_003",
+        "F0059_CAM_FRONT_LEFT_004",
+        "F0060_CAM_BACK_014",
+        "F0061_CAM_BACK_014",
+        "F0061_CAM_FRONT_010",
+        "F0070_CAM_FRONT_RIGHT_004",
+        "F0074_CAM_FRONT_RIGHT_004",
+        "F0094_CAM_FRONT_008",
+        "F0095_CAM_FRONT_006",
+        "F0096_CAM_FRONT_LEFT_001",
+        "F0097_CAM_FRONT_000",
+        "F0098_CAM_FRONT_S000",
+        "F0113_CAM_BACK_005",
+        "F0184_CAM_FRONT_012",
+        "F0185_CAM_FRONT_000",
+        "F1011_CAM_FRONT_S000",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__10033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__112233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__24633333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__39233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__53833333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__68433333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__83033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__97633333",
+        "scene_manifest.accepted_bbox_observations",
+        "selected_layout.TA-30"
+      ]
+    },
+    {
+      "candidate_label": "SEC-6H.02 02: Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (",
+      "discovered_requirement_key": "req_0d85e7ab52067b1a",
+      "region": "advance_warning_sign_system",
+      "required_inputs": [
+        "raw_images"
+      ],
+      "measurement_tool": null,
+      "evidence_record_count": 1,
+      "evidence_kinds": [
+        "visual_observation"
+      ],
+      "required_inputs_accounted": true,
+      "acquired_unresolved_overlap": [],
+      "acquired_inputs": [
+        "raw_images"
+      ],
+      "unresolved_inputs": [],
+      "source_ids": [
+        "F0020_CAM_FRONT_008",
+        "F0030_CAM_FRONT_007",
+        "F0035_CAM_FRONT_007",
+        "F0037_CAM_FRONT_S000",
+        "F0038_CAM_FRONT_S000",
+        "F0051_CAM_BACK_014",
+        "F0051_CAM_FRONT_RIGHT_008",
+        "F0059_CAM_FRONT_LEFT_003",
+        "F0059_CAM_FRONT_LEFT_004",
+        "F0060_CAM_BACK_014",
+        "F0061_CAM_BACK_014",
+        "F0061_CAM_FRONT_010",
+        "F0070_CAM_FRONT_RIGHT_004",
+        "F0074_CAM_FRONT_RIGHT_004",
+        "F0094_CAM_FRONT_008",
+        "F0095_CAM_FRONT_006",
+        "F0096_CAM_FRONT_LEFT_001",
+        "F0097_CAM_FRONT_000",
+        "F0098_CAM_FRONT_S000",
+        "F0113_CAM_BACK_005",
+        "F0184_CAM_FRONT_012",
+        "F0185_CAM_FRONT_000",
+        "F1011_CAM_FRONT_S000",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__10033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__112233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__24633333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__39233333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__53833333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__68433333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__83033333",
+        "cats001-2026-04-28-15-30-0500__CAM_FRONT__97633333"
+      ]
+    }
+  ]
+}

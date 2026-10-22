@@ -1,0 +1,15 @@
+{
+  "elapsed_seconds": 34.247596903005615,
+  "usage": {
+    "input_tokens": 14336,
+    "input_tokens_details": {
+      "cache_write_tokens": 14333,
+      "cached_tokens": 0
+    },
+    "output_tokens": 4073,
+    "output_tokens_details": {
+      "reasoning_tokens": 3106
+    },
+    "total_tokens": 18409
+  }
+}

@@ -1,0 +1,19 @@
+40/240 raw frames; 18/242 observations
+80/240 raw frames; 18/242 observations
+120/240 raw frames; 22/242 observations
+160/240 raw frames; 36/242 observations
+200/240 raw frames; 62/242 observations
+240/240 raw frames; 242/242 observations
+COMPLETE 242 191120
+{
+  "observations": 242,
+  "objects_with_candidate_position": 32,
+  "multi_frame_supported_objects": 22,
+  "mapped_observations": 167,
+  "unresolved_observations": 75,
+  "object_condition_counts": {
+    "not_condition_target": 32
+  },
+  "uncertain_views_resolved_by_same_object": 0
+}
+{"excluded_outside_window": 187, "excluded_invalid": 0}

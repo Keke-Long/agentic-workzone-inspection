@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "raw_source_verified_all_poses": true,
+  "raw_lidar_frames": 1027,
+  "camera0_observations": 930,
+  "display_points": 773512,
+  "object_counts": {
+    "observations": 930,
+    "objects_with_candidate_position": 108,
+    "multi_frame_supported_objects": 73,
+    "mapped_observations": 905,
+    "unresolved_observations": 25,
+    "object_condition_counts": {
+      "not_reassessed": 108
+    },
+    "uncertain_views_resolved_by_same_object": 0
+  },
+  "maximum_abs_camera_lidar_reference_difference_s": 0.033479531999994094,
+  "classes_and_boxes_unchanged": true,
+  "condition_not_reassessed": true,
+  "limitations": "Identity and geometry are inferred candidates; no survey accuracy or revised compliance claimed."
+}

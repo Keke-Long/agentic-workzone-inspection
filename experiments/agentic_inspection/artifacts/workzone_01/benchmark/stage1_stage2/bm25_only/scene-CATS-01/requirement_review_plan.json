@@ -1,0 +1,120 @@
+{
+  "status": "awaiting_stage1_stage2_evaluation",
+  "stopped_after_requirement_registration": true,
+  "stopped_before_measurement": true,
+  "registered_requirement_count": 3,
+  "planned_inspection_count": 0,
+  "planned_normative_measurement_count": 0,
+  "requirements": [
+    {
+      "discovered_requirement_key": "req_af2b490f58803b02",
+      "candidate_label": "Normal-path redirection uses appropriate TTC treatment",
+      "subject": "Road-user path through the left-lane closure",
+      "modality": "shall",
+      "relation": "is directed from the normal path to the new path with appropriate channelizing devices, traffic control devices, and/or TTC methods",
+      "threshold": "Appropriate redirection treatment is present wherever redirection is required; no numeric threshold",
+      "applicability_conditions": [
+        "A non-mobile TTC operation requires redirection of road users’ normal path",
+        "Scene has one left lane closed on the four-lane undivided roadway"
+      ],
+      "required_inputs": [
+        "Field observation of the lane-closure path and installed TTC treatment"
+      ],
+      "source_locator": "SEC-6B.05 paragraph 02; PDF page 811",
+      "source_span": "Except for mobile operations, when redirection of the road users’ normal path is required, road users shall be directed from the normal path to a new path with appropriate channelizing devices, traffic control devices, and/or TTC methods.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_675187fe77b70b1e",
+      "candidate_label": "Downstream taper length is within the temporary-TTC range",
+      "subject": "Downstream taper",
+      "modality": "should",
+      "relation": "has a length",
+      "threshold": "At least 50 ft and no more than 100 ft",
+      "applicability_conditions": [
+        "A downstream taper is present in the selected TA-30 lane-closure layout",
+        "The downstream taper is inspectable"
+      ],
+      "required_inputs": [
+        "Measured downstream taper length"
+      ],
+      "source_locator": "TABLE-6B-3; PDF page 815",
+      "source_span": "Table 6B-3. Taper Length Criteria for Temporary Traffic Control Zones. Merging Taper: at least L. Shifting Taper: at least 0.5 L. Shoulder Taper: at least 0.33 L. One-Lane, Two-Way Traffic Taper: 50 feet minimum, 100 feet maximum. Downstream Taper: 50 feet minimum, 100 feet maximum.",
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_downstream_taper",
+        "quantity": "downstream taper length",
+        "thresholds": [
+          {
+            "condition": "all applicable cases",
+            "value": 50,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          },
+          {
+            "condition": "all applicable cases",
+            "value": 100,
+            "unit": "ft",
+            "violation_when": "above_maximum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_93efa667aaf6a09f",
+      "candidate_label": "ROAD WORK AHEAD is first when multiple advance-warning signs are used",
+      "subject": "Advance warning sign sequence on the approach to the transition and activity area",
+      "modality": "should",
+      "relation": "has ROAD WORK AHEAD (W20-1) as the first sign encountered by road users",
+      "threshold": "ROAD WORK AHEAD is first whenever multiple advance warning signs are needed",
+      "applicability_conditions": [
+        "Multiple advance warning signs are installed on the approach to the transition and activity area",
+        "The sign sequence is inspectable"
+      ],
+      "required_inputs": [
+        "Observed order of advance warning signs along the approach"
+      ],
+      "source_locator": "SEC-6H.02 paragraph 02; PDF page 838",
+      "source_span": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    }
+  ]
+}

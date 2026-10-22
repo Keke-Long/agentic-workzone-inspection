@@ -1,0 +1,13 @@
+{
+  "unique_observations": 164,
+  "batch_calls": 28,
+  "single_image_rechecks": 31,
+  "final_counts": {
+    "uncertain": 56,
+    "visible_serviceable": 108
+  },
+  "only_requirement_5_changed": true,
+  "frozen_requirements_preserved": true,
+  "live_report_verified": true,
+  "human_review_database_untouched": true
+}

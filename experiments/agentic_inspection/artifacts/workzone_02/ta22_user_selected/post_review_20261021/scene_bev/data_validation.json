@@ -1,0 +1,8 @@
+{
+  "all_270_observations_accounted_for": true,
+  "unique_object_membership": true,
+  "uncertain_views_resolved_only_with_reliable_identity_and_clear_evidence": 38,
+  "frozen_requirements_unchanged": true,
+  "only_requirement_5_condition_aggregation_updated": true,
+  "human_boxes_and_classes_not_modified": true
+}

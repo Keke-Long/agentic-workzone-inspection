@@ -1,0 +1,15 @@
+{
+  "schema": "current_processed_storage_v1",
+  "available": [
+    "camera0 undistorted images",
+    "sensor/calibration/timestamp/trajectory metadata"
+  ],
+  "preprocessed_lidar_files_present": false,
+  "removed_lidar_files": 632,
+  "removed_bytes": 5065447720,
+  "raw_lidar_source": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/lidar",
+  "raw_ins_source": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_18/ins/gnss.csv",
+  "reason": "Final Workzone 2 reconstruction reads original PCD and recomputes corrected per-point geometry; initial deskewed binary clouds superseded.",
+  "metadata_note": "LIDAR sample_data and ego_pose entries retained for timestamps, calibration and trajectory; their legacy binary filenames are not available files.",
+  "original_processing_manifest": "processing_manifest.json describes historical generation, not current file availability."
+}

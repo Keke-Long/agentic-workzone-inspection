@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-21",
+  "status": "completed",
+  "physical_directory": "/home/klong23/workzone",
+  "physical_directory_is_symlink": false,
+  "legacy_compatibility_link": "/home/data/workzone/klong23_agentic_ai_workzone",
+  "legacy_link_target": null,
+  "pip_cache_removed_MB": 11694,
+  "home_free_bytes_after_cache_purge": 20741455872,
+  "verification": "rsync -aHnci --delete produced no differences before switch; all three BEV pages and workzone3 detections HTTP 200 after server restart",
+  "old_duplicate_removed": true,
+  "raw_data_modified": false,
+  "server_pid": 3356756,
+  "home_free_bytes_after_migration": 15494443008,
+  "legacy_compatibility_link_removed": true,
+  "legacy_link_status": "Removed at user request; canonical project directory retained"
+}

@@ -1,0 +1,17 @@
+{
+  "raw_root": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_00",
+  "raw_ins_sha256": "a80918bf6d92d8371b1a82d531433dfe2426fc2e913097120d2f2d9b17e414c7",
+  "used_metadata_and_detection_sha256": {
+    "/home/klong23/workzone/data/workzone_01/detections/final_detections.json": "7fb51e5f191100550e9dbca31f1adbb2c1a2bf7b55861cc1017da65599c0c67f",
+    "/home/klong23/workzone/data/workzone_01/processed/CATS_v1.0/calibrated_sensor.json": "3775411523517c9533e74731c8e322f26ee02bc1238cf3f69c4933f3ca42162c",
+    "/home/klong23/workzone/data/workzone_01/processed/CATS_v1.0/ego_pose.json": "61703ce739f05cffdcd9344754d72b3fcf2f444a97e1156fb86a04df71f8388f"
+  },
+  "scripts_sha256": {
+    "workzone1_build_bev.py": "94b8232a0c8b4622feb353deb5adb4a5bad9f3f4ae788c13ad659d6829b9b54b",
+    "case18_build_bev.py": "4b5787137a91774705599f35783916493adab9bd8c69dd6f24de3f0a58d12e69",
+    "case18_sign_geometry.py": "f3b82de322148554f66c9e97363374ff0ef15a03f0130377ef2f2520fd5664f6",
+    "case18_bev_objects.py": "ad806d12f0b06d7bf539e76766b9130abea718ae1138e5821e3ad5fa19f90139",
+    "workzone1_render_bev.py": "31d87cf30f4348e22b44272811800459bdfe0df31fe40d60df00e378c340ce97",
+    "case18_render_bev.py": "729a648676123b7dd6c21f1895dbb836897bcee53494902698978ebd6b4fe5bf"
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "schema": "case18_remaining_requirements_reassessment_v1",
+  "osm_used": false,
+  "tool_attempt": {
+    "measurement_id": "measurement_3e307fd8e0ff60084934",
+    "scanned_observations": 114,
+    "evaluated_gaps": 23,
+    "false_gap_claims_vetoed": 1,
+    "deficiency_supported": false,
+    "inventory": "/home/data/workzone/klong23_agentic_ai_workzone/experiments/agentic_inspection/artifacts/workzone_18/ta22_user_selected/post_review_20261021/full_reassessment/device_inventory.csv"
+  },
+  "tangent_spacing": {
+    "status": "supported",
+    "scope_station_m": [
+      319.8737864199546,
+      434.22320675483303
+    ],
+    "gaps": [
+      {
+        "from": "C18_OBJ_036",
+        "to": "C18_OBJ_038",
+        "distance_m": 7.868610320209397,
+        "sensitivity_envelope_m": [
+          6.868610320209397,
+          8.868610320209397
+        ],
+        "threshold_m": 15.24,
+        "supported_below_maximum": true,
+        "contains_single_frame_anchor": false
+      },
+      {
+        "from": "C18_OBJ_038",
+        "to": "C18_OBJ_037",
+        "distance_m": 6.264133989372531,
+        "sensitivity_envelope_m": [
+          5.264133989372531,
+          7.264133989372531
+        ],
+        "threshold_m": 15.24,
+        "supported_below_maximum": true,
+        "contains_single_frame_anchor": false
+      },
+      {
+        "from": "C18_OBJ_037",
+        "to": "C18_OBJ_002",
+        "distance_m": 7.3095140564693475,
+        "sensitivity_envelope_m": [
+          6.3095140564693475,
+          8.309514056469347
+        ],
+        "threshold_m": 15.24,
+        "supported_below_maximum": true,
+        "contains_single_frame_anchor": false
+      },
+      {
+        "from": "C18_OBJ_002",
+        "to": "C18_OBJ_041",
+        "distance_m": 5.759609841281987,
+        "sensitivity_envelope_m": [
+          4.759609841281987,
+          6.759609841281987
+        ],
+        "threshold_m": 15.24,
+        "supported_below_maximum": true,
+        "contains_single_frame_anchor": false
+      },
+      {
+        "from": "C18_OBJ_041",
+        "to": "C18_OBJ_022",
+        "distance_m": 6.483387644485908,
+        "sensitivity_envelope_m": [
+          5.483387644485908,
+          7.483387644485908
+        ],
+        "threshold_m": 15.24,
+        "supported_below_maximum": true,
+        "contains_single_frame_anchor": false
+      },
+      {
+        "from": "C18_OBJ_022",
+        "to": "C18_OBJ_024",
+        "distance_m": 9.073195259162208,
+        "sensitivity_envelope_m": [
+          8.073195259162208,
+          10.073195259162208
+        ],
+        "threshold_m": 15.24,
+        "supported_below_maximum": true,
+        "contains_single_frame_anchor": false
+      },
+      {
+        "from": "C18_OBJ_024",
+        "to": "C18_OBJ_023",
+        "distance_m": 4.6115355341912885,
+        "sensitivity_envelope_m": [
+          3.6115355341912885,
+          5.6115355341912885
+        ],
+        "threshold_m": 15.24,
+        "supported_below_maximum": true,
+        "contains_single_frame_anchor": false
+      },
+      {
+        "from": "C18_OBJ_023",
+        "to": "C18_OBJ_043",
+        "distance_m": 12.57097212178552,
+        "sensitivity_envelope_m": [
+          11.57097212178552,
+          13.57097212178552
+        ],
+        "threshold_m": 15.24,
+        "supported_below_maximum": true,
+        "contains_single_frame_anchor": false
+      },
+      {
+        "from": "C18_OBJ_043",
+        "to": "C18_OBJ_044",
+        "distance_m": 5.416678157013802,
+        "sensitivity_envelope_m": [
+          4.416678157013802,
+          6.416678157013802
+        ],
+        "threshold_m": 15.24,
+        "supported_below_maximum": true,
+        "contains_single_frame_anchor": false
+      },
+      {
+        "from": "C18_OBJ_044",
+        "to": "C18_OBJ_025",
+        "distance_m": 6.536254810298407,
+        "sensitivity_envelope_m": [
+          5.536254810298407,
+          7.536254810298407
+        ],
+        "threshold_m": 15.24,
+        "supported_below_maximum": true,
+        "contains_single_frame_anchor": false
+      },
+      {
+        "from": "C18_OBJ_025",
+        "to": "C18_OBJ_015",
+        "distance_m": 6.4088607866259615,
+        "sensitivity_envelope_m": [
+          5.4088607866259615,
+          7.4088607866259615
+        ],
+        "threshold_m": 15.24,
+        "supported_below_maximum": true,
+        "contains_single_frame_anchor": false
+      },
+      {
+        "from": "C18_OBJ_015",
+        "to": "C18_OBJ_026",
+        "distance_m": 7.030384439172257,
+        "sensitivity_envelope_m": [
+          6.030384439172257,
+          8.030384439172257
+        ],
+        "threshold_m": 15.24,
+        "supported_below_maximum": true,
+        "contains_single_frame_anchor": false
+      },
+      {
+        "from": "C18_OBJ_026",
+        "to": "C18_OBJ_027",
+        "distance_m": 3.415804149645076,
+        "sensitivity_envelope_m": [
+          2.415804149645076,
+          4.415804149645076
+        ],
+        "threshold_m": 15.24,
+        "supported_below_maximum": true,
+        "contains_single_frame_anchor": false
+      },
+      {
+        "from": "C18_OBJ_027",
+        "to": "C18_OBJ_017",
+        "distance_m": 7.265280293446976,
+        "sensitivity_envelope_m": [
+          6.265280293446976,
+          8.265280293446976
+        ],
+        "threshold_m": 15.24,
+        "supported_below_maximum": true,
+        "contains_single_frame_anchor": false
+      },
+      {
+        "from": "C18_OBJ_017",
+        "to": "C18_OBJ_016",
+        "distance_m": 3.076524128835311,
+        "sensitivity_envelope_m": [
+          2.076524128835311,
+          4.076524128835311
+        ],
+        "threshold_m": 15.24,
+        "supported_below_maximum": true,
+        "contains_single_frame_anchor": false
+      },
+      {
+        "from": "C18_OBJ_016",
+        "to": "C18_OBJ_014",
+        "distance_m": 9.762172986869526,
+        "sensitivity_envelope_m": [
+          8.262172986869526,
+          11.262172986869526
+        ],
+        "threshold_m": 15.24,
+        "supported_below_maximum": true,
+        "contains_single_frame_anchor": true
+      },
+      {
+        "from": "C18_OBJ_014",
+        "to": "C18_OBJ_011",
+        "distance_m": 5.445149950328788,
+        "sensitivity_envelope_m": [
+          3.945149950328788,
+          6.945149950328788
+        ],
+        "threshold_m": 15.24,
+        "supported_below_maximum": true,
+        "contains_single_frame_anchor": true
+      }
+    ],
+    "maximum_distance_m": 12.57097212178552,
+    "maximum_upper_bound_m": 13.57097212178552,
+    "single_frame_intervener": "C18_OBJ_014",
+    "evidence_ids": [
+      "C18_F0403_CAM_FRONT_Q059",
+      "C18_F0405_CAM_FRONT_Q024",
+      "C18_F0407_CAM_FRONT_Q018",
+      "C18_F0421_CAM_FRONT_Q016",
+      "C18_F0423_CAM_FRONT_Q016",
+      "C18_F0424_CAM_FRONT_Q094",
+      "C18_F0425_CAM_FRONT_Q035",
+      "C18_F0425_CAM_FRONT_Q090",
+      "C18_F0430_CAM_FRONT_Q021",
+      "C18_F0432_CAM_FRONT_Q031",
+      "C18_F0432_CAM_FRONT_Q058",
+      "C18_F0433_CAM_FRONT_Q028",
+      "C18_F0435_CAM_FRONT_Q019",
+      "C18_F0443_CAM_FRONT_Q005",
+      "C18_F0443_CAM_FRONT_Q009",
+      "C18_F0444_CAM_FRONT_Q005",
+      "C18_F0446_CAM_FRONT_Q004",
+      "C18_F0446_CAM_FRONT_Q013",
+      "C18_F0448_CAM_FRONT_Q014",
+      "C18_F0449_CAM_FRONT_Q006",
+      "C18_F0450_CAM_FRONT_Q016",
+      "C18_F0451_CAM_FRONT_Q002",
+      "C18_F0451_CAM_FRONT_Q005",
+      "C18_F0451_CAM_FRONT_Q012",
+      "C18_F0453_CAM_FRONT_Q004",
+      "C18_F0454_CAM_FRONT_Q008",
+      "C18_F0459_CAM_FRONT_Q007",
+      "C18_F0462_CAM_FRONT_Q004",
+      "C18_F0463_CAM_FRONT_Q009",
+      "C18_F0465_CAM_FRONT_Q008",
+      "C18_F0467_CAM_FRONT_Q009",
+      "C18_F0468_CAM_FRONT_Q039",
+      "C18_F0470_CAM_FRONT_Q005",
+      "C18_F0470_CAM_FRONT_Q014",
+      "C18_F0470_CAM_FRONT_Q020",
+      "C18_F0471_CAM_FRONT_Q003",
+      "C18_F0472_CAM_FRONT_Q003",
+      "C18_F0472_CAM_FRONT_Q004",
+      "C18_F0473_CAM_FRONT_Q011",
+      "C18_F0474_CAM_FRONT_Q008",
+      "C18_F0474_CAM_FRONT_Q018",
+      "C18_F0475_CAM_FRONT_Q195",
+      "C18_F0478_CAM_FRONT_Q034",
+      "C18_F0479_CAM_FRONT_Q008",
+      "C18_F0479_CAM_FRONT_Q025",
+      "C18_F0481_CAM_FRONT_Q098",
+      "C18_F0482_CAM_FRONT_Q008",
+      "C18_F0482_CAM_FRONT_Q011",
+      "C18_F0484_CAM_FRONT_Q008",
+      "C18_F0486_CAM_FRONT_Q005",
+      "C18_F0486_CAM_FRONT_Q009",
+      "C18_F0487_CAM_FRONT_Q002",
+      "C18_F0491_CAM_FRONT_Q008",
+      "C18_F0492_CAM_FRONT_Q016",
+      "C18_F0493_CAM_FRONT_Q035",
+      "C18_F0494_CAM_FRONT_Q013",
+      "C18_F0495_CAM_FRONT_Q012",
+      "C18_F0497_CAM_FRONT_Q086",
+      "C18_F0498_CAM_FRONT_Q014",
+      "C18_F0499_CAM_FRONT_Q028",
+      "C18_F0501_CAM_FRONT_Q003",
+      "C18_F0501_CAM_FRONT_Q004",
+      "C18_F0503_CAM_FRONT_Q014",
+      "C18_F0503_CAM_FRONT_Q018",
+      "C18_F0507_CAM_FRONT_Q004",
+      "C18_F0508_CAM_FRONT_Q003",
+      "C18_F0509_CAM_FRONT_Q009",
+      "C18_F0510_CAM_FRONT_Q005",
+      "C18_F0512_CAM_FRONT_Q004",
+      "C18_F0517_CAM_FRONT_Q108",
+      "C18_F0530_CAM_FRONT_Q035",
+      "C18_F0534_CAM_FRONT_Q007"
+    ],
+    "limitation": "Observed straight run only; provisional interior anchor explicit. No extrapolation to unseen facilities or transition spacing."
+  },
+  "taper": {
+    "model": "continuous linear taper followed by constant lateral channelizer line in trajectory coordinates",
+    "objects": [
+      "C18_OBJ_021",
+      "C18_OBJ_039",
+      "C18_OBJ_020",
+      "C18_OBJ_006",
+      "C18_OBJ_007",
+      "C18_OBJ_030",
+      "C18_OBJ_031",
+      "C18_OBJ_010",
+      "C18_OBJ_009",
+      "C18_OBJ_036",
+      "C18_OBJ_038",
+      "C18_OBJ_037",
+      "C18_OBJ_002",
+      "C18_OBJ_041",
+      "C18_OBJ_022",
+      "C18_OBJ_024",
+      "C18_OBJ_023",
+      "C18_OBJ_043",
+      "C18_OBJ_044",
+      "C18_OBJ_025",
+      "C18_OBJ_015",
+      "C18_OBJ_026",
+      "C18_OBJ_027"
+    ],
+    "start_station_m": 263.4839544342778,
+    "change_station_m": 304.5,
+    "length_m": 41.01604556572221,
+    "lateral_offset_estimate_m": 4.277538767983571,
+    "required_length_m_at_25mph": 44.55769549982886,
+    "length_sensitivity_envelope_m": [
+      38.01604556572221,
+      44.01604556572221
+    ],
+    "offset_sensitivity_envelope_m": [
+      3.527538767983571,
+      5.027538767983571
+    ],
+    "required_length_sensitivity_envelope_m": [
+      36.74519549982886,
+      52.37019549982886
+    ],
+    "fit_rmse_m": 0.15968825773616346,
+    "status": "measured_borderline",
+    "note": "W is the estimated channelizer lateral shift relative to driven trajectory, not an independently surveyed lane width. L uses fitted transition endpoint; full lane-edge/endpoint semantics and systematic uncertainty prevent a definitive pass/fail when envelopes overlap. Sensitivity ranges are not calibrated confidence intervals."
+  },
+  "termination_visual_review": {
+    "frames": [
+      500,
+      520,
+      530,
+      540,
+      550,
+      560,
+      564,
+      570,
+      575,
+      580,
+      600,
+      620,
+      631
+    ],
+    "finding": "Observed posts end alongside the work-space boundary; later clear frames show the lane reopened without a channelizer sequence guiding traffic back to its original lane. No downstream taper identified in captured termination.",
+    "status": "not_applicable",
+    "scope": "captured main approach only; no claim about other approaches"
+  },
+  "remaining_requirements_all_attempted": true
+}

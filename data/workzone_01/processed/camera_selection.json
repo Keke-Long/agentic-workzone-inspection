@@ -1,0 +1,48 @@
+{
+  "reason": "User confirmed Workzone 1 camera0-only scope; non-front project images removed, original data unchanged",
+  "kept_channels": [
+    "CAM_FRONT",
+    "LIDAR_TOP"
+  ],
+  "remaining_sample_data": 2054,
+  "removed": [
+    {
+      "directory": "/home/klong23/workzone/data/workzone_01/processed/scene-CATS-01/CAM_BACK",
+      "files": 1027,
+      "bytes": 1944680531
+    },
+    {
+      "directory": "/home/klong23/workzone/data/workzone_01/processed/scene-CATS-01/CAM_BACK_LEFT",
+      "files": 1027,
+      "bytes": 616471962
+    },
+    {
+      "directory": "/home/klong23/workzone/data/workzone_01/processed/scene-CATS-01/CAM_BACK_RIGHT",
+      "files": 1027,
+      "bytes": 688019834
+    },
+    {
+      "directory": "/home/klong23/workzone/data/workzone_01/processed/scene-CATS-01/CAM_FRONT_LEFT",
+      "files": 1027,
+      "bytes": 606065492
+    },
+    {
+      "directory": "/home/klong23/workzone/data/workzone_01/processed/scene-CATS-01/CAM_FRONT_RIGHT",
+      "files": 1027,
+      "bytes": 676138612
+    }
+  ],
+  "freed_bytes": 4531376431,
+  "metadata_before_sha256": {
+    "scene.json": "9c2cb010d04c8ae0b58e13bdd30440c01d3574580eed25c315d2101c829ea810",
+    "map.json": "5a5089e35c66470b117904a03e8c235991c6a52a71ddead00711ad462f6dc378",
+    "ego_pose.json": "25c759ab5514046747b39e56bc177cff321be3cc8276fc4ae01977c8e6437a3c",
+    "sensor.json": "4103b41449436e1f025b99ef9cf234fb12662946131a402a73c0eeaaf3e9d1bc",
+    "sample_data.json": "3dc6f1579b9a4c35ad55ce774329da7f880136bcaa7507b5849ef6a627584ea5",
+    "calibrated_sensor.json": "2b9216af298ddfa08917f5eb1e9097b8395e9fe86b4095baf9ae6a42d3b40156",
+    "log.json": "2c6e5288cec6d54aaec7304b2d91885622c6fc52ed2c96e8ffd0aaaab1ed629a",
+    "sample.json": "1a656b9a515c490e19cd5664d4ead7e148c62ef2eb7c3ff1c72b2c91de24514d"
+  },
+  "validation": "all retained sample_data files exist; prev/next references remain valid",
+  "historical_reports": "Not reevaluated; references to removed non-front evidence are obsolete and do not support current camera0-only results."
+}

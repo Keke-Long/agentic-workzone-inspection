@@ -1,0 +1,118 @@
+{
+  "scene_facts": [
+    {
+      "fact": "The scoped roadway is an urban two-way street with one apparent lane in each direction, bounded by curbs and sidewalks.",
+      "basis": "Visual observation; images 61.1-85.0 seconds."
+    },
+    {
+      "fact": "A double yellow centerline is visible through much of the roadway and continues toward the intersection.",
+      "basis": "Visual observation; images 62.7, 65.9, 72.3, 77.0, 80.2, 84.99999 seconds."
+    },
+    {
+      "fact": "The full opposing-direction lane is closed as an explicit scoped user fact; the ego-direction lane remains open.",
+      "basis": "Explicit user fact."
+    },
+    {
+      "fact": "The apparent channelizer line is formed by closely spaced orange-and-white cones, drums, and delineators, represented in the review as 227 merged traffic_cone observations rather than 227 confirmed independent objects.",
+      "basis": "Reviewed labels and visual arrangement."
+    },
+    {
+      "fact": "The channelizers become prominent ahead in the opposing-side portion of the roadway, extend longitudinally toward the intersection, and form a tapered or narrowing end near the crossing.",
+      "basis": "Inferred roadway geometry from images 76.99999-84.99999 seconds."
+    },
+    {
+      "fact": "The channelizer alignment separates the open ego-direction path on the right side of the centerline from the closed opposing-side area on the left side of the roadway, as viewed in the direction of travel.",
+      "basis": "Inferred geometry from images 80.2-84.99999 seconds."
+    },
+    {
+      "fact": "The work zone is adjacent to or terminates at a signalized/stop-controlled-looking cross street intersection with multiple visible STOP signs.",
+      "basis": "Visual observation; images 80.2-84.99999 seconds."
+    },
+    {
+      "fact": "ROAD WORK AHEAD signs are visible on the right side earlier in the approach and again near the work-zone area; the reviewed total is 14 observations, not 14 confirmed independent signs.",
+      "basis": "Reviewed labels and images 61.1, 62.7, 78.6, 80.2, 81.8, 83.4, and 84.99999 seconds."
+    },
+    {
+      "fact": "The roadway remains visually passable in the ego direction through the observed approach, including the channelized section near the intersection.",
+      "basis": "Visual observation; images 80.2-84.99999 seconds."
+    },
+    {
+      "fact": "Opposing traffic is expected to detour, but the actual detour route and the control method for opposing traffic are unconfirmed.",
+      "basis": "Explicit user fact."
+    },
+    {
+      "fact": "The black sensor car is not construction or surveying activity.",
+      "basis": "Explicit user fact."
+    },
+    {
+      "fact": "The scoped work-zone duration is less than three days and the sensor-car speed is 20 mph.",
+      "basis": "Explicit user facts."
+    }
+  ],
+  "visible_features": [
+    {
+      "timestamp_seconds": 61.1,
+      "image_reference": "camera0",
+      "description": "An orange ROAD WORK AHEAD sign is visible on the right sidewalk/roadside. The street ahead appears to have a centerline and open pavement in both apparent lane areas at this distance."
+    },
+    {
+      "timestamp_seconds": 62.7,
+      "image_reference": "camera0",
+      "description": "The ROAD WORK AHEAD sign is closer on the right. The double yellow centerline and two apparent roadway sides are visible; no longitudinal cone line is yet prominent in the foreground."
+    },
+    {
+      "timestamp_seconds": 65.9,
+      "image_reference": "camera0",
+      "description": "The roadway continues between a park-like open area on the left and buildings on the right. Pavement markings and the centerline remain visible."
+    },
+    {
+      "timestamp_seconds": 70.7,
+      "image_reference": "camera0",
+      "description": "A marked pedestrian crossing spans the roadway ahead. The apparent travel path remains open in the ego direction."
+    },
+    {
+      "timestamp_seconds": 75.4,
+      "image_reference": "camera0",
+      "description": "A concentrated group of orange channelizers is visible farther ahead near the intersection, primarily on the left/opposing side of the roadway."
+    },
+    {
+      "timestamp_seconds": 77.0,
+      "image_reference": "camera0",
+      "description": "The channelizer group is more distinct and forms a longitudinal line along the opposing-side portion of the street. The ego-side path remains visible to the right."
+    },
+    {
+      "timestamp_seconds": 78.6,
+      "image_reference": "camera0",
+      "description": "Multiple orange-and-white channelizers occupy and delineate the opposing-side work area. An orange work-zone sign is visible on the right near the approach."
+    },
+    {
+      "timestamp_seconds": 80.2,
+      "image_reference": "camera0",
+      "description": "The channelizers form a substantial line or taper ahead, with the open ego-direction path continuing along the right side. A cross street and STOP signs are visible beyond the work-zone line."
+    },
+    {
+      "timestamp_seconds": 81.8,
+      "image_reference": "camera0",
+      "description": "The camera approaches the channelizer line. Closely spaced cones/drums/delineators extend along the centerline-side boundary and occupy the opposing lane area."
+    },
+    {
+      "timestamp_seconds": 83.4,
+      "image_reference": "camera0",
+      "description": "The channelizers are alongside the left side of the ego path and continue toward the intersection. Several STOP signs and the cross street are clearly visible."
+    },
+    {
+      "timestamp_seconds": 85.0,
+      "image_reference": "camera0",
+      "description": "The camera is at the intersection. The channelizer line and its end/taper remain on the left/opposing side, while the ego-direction lane passes on the right. An orange ROAD WORK AHEAD sign is visible low at the left foreground, and additional orange work-zone signage is visible ahead."
+    }
+  ],
+  "unresolved_layout_questions": [
+    "The precise longitudinal limits and width of the closed opposing lane are not established from these frames.",
+    "It is unresolved whether the channelizer line continues beyond the intersection, turns into the cross street, or ends at the intersection.",
+    "The exact location and extent of the work activity behind the channelizers are not visible.",
+    "The specific opposing-traffic detour route is not visible or confirmed.",
+    "The method used to control or prevent opposing traffic from entering the closed lane is not confirmed by the scoped images.",
+    "The purpose of the visible STOP signs relative to the work-zone routing and intersection operations is not established.",
+    "No alternating-traffic operation, temporary roadway, or confirmed detour route is inferred from the absence or presence of vehicles in these images."
+  ]
+}

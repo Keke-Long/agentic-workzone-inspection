@@ -1,0 +1,102 @@
+{
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "image_sha256": "db67c71334309adb5095f7a37a8274fbb275058ee5030177e49567f752de1729",
+  "response": {
+    "model": "qwen3-vl:4b-instruct",
+    "created_at": "2026-10-21T14:48:41.909540865Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"items\": [\n    {\n      \"id\": 1,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Red and white stripes are intact and clearly visible; no obvious damage or missing parts; device appears upright and functional.\"\n    },\n    {\n      \"id\": 2,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Stripes are clear and undamaged; base is stable; no signs of collapse, breakage, or major wear that would impair function.\"\n    },\n    {\n      \"id\": 3,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Stripes are intact and visible; device appears to be standing upright with no obvious structural damage or missing components.\"\n    },\n    {\n      \"id\": 4,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Multiple devices are visible, all with clear red and white stripes; no apparent breakage or collapse; appear functional in context.\"\n    },\n    {\n      \"id\": 5,\n      \"status\": \"visible_unserviceable\",\n      \"reason\": \"Devices are heavily blurred and out of focus; it is impossible to discern if stripes are intact, if there's damage, or if the device is collapsed. Visibility is insufficient to assess serviceability.\"\n    },\n    {\n      \"id\": 6,\n      \"status\": \"visible_unserviceable\",\n      \"reason\": \"Image is too blurry and low resolution to determine if stripes are missing, damaged, or if the devices have collapsed; cannot confirm functional integrity.\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 8239266751,
+    "load_duration": 158473881,
+    "prompt_eval_count": 1299,
+    "prompt_eval_duration": 1050941000,
+    "eval_count": 327,
+    "eval_duration": 6852484000
+  },
+  "observations": [
+    {
+      "observation_id": "C18_F0358_CAM_FRONT_Q006",
+      "frame": 358,
+      "native_bbox": [
+        2171.3699,
+        1148.9646,
+        2212.6011,
+        1223.5461
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "Red and white stripes are intact and clearly visible; no obvious damage or missing parts; device appears upright and functional."
+    },
+    {
+      "observation_id": "C18_F0359_CAM_FRONT_Q003",
+      "frame": 359,
+      "native_bbox": [
+        2069.8167,
+        1145.1628,
+        2105.9951,
+        1207.0477
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "Stripes are clear and undamaged; base is stable; no signs of collapse, breakage, or major wear that would impair function."
+    },
+    {
+      "observation_id": "C18_F0359_CAM_FRONT_Q011",
+      "frame": 359,
+      "native_bbox": [
+        2185.8655,
+        1152.1556,
+        2223.0149,
+        1225.2146
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "Stripes are intact and visible; device appears to be standing upright with no obvious structural damage or missing components."
+    },
+    {
+      "observation_id": "C18_F0359_CAM_FRONT_Q055",
+      "frame": 359,
+      "native_bbox": [
+        2012.7913,
+        1145.7466,
+        2047.3263,
+        1196.8047
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "Multiple devices are visible, all with clear red and white stripes; no apparent breakage or collapse; appear functional in context."
+    },
+    {
+      "observation_id": "C18_F0360_CAM_FRONT_Q020",
+      "frame": 360,
+      "native_bbox": [
+        1958.9382,
+        1139.4552,
+        1985.9363,
+        1180.889
+      ],
+      "id": 5,
+      "status": "visible_unserviceable",
+      "reason": "Devices are heavily blurred and out of focus; it is impossible to discern if stripes are intact, if there's damage, or if the device is collapsed. Visibility is insufficient to assess serviceability."
+    },
+    {
+      "observation_id": "C18_F0362_CAM_FRONT_Q033",
+      "frame": 362,
+      "native_bbox": [
+        2174.6921,
+        1138.58,
+        2209.4021,
+        1209.2157
+      ],
+      "id": 6,
+      "status": "visible_unserviceable",
+      "reason": "Image is too blurry and low resolution to determine if stripes are missing, damaged, or if the devices have collapsed; cannot confirm functional integrity."
+    }
+  ],
+  "human_confirmed_condition": false
+}

@@ -1,0 +1,72 @@
+{
+  "status": "awaiting_stage1_stage2_evaluation",
+  "stopped_after_requirement_registration": true,
+  "stopped_before_measurement": true,
+  "registered_requirement_count": 2,
+  "planned_inspection_count": 0,
+  "planned_normative_measurement_count": 0,
+  "requirements": [
+    {
+      "discovered_requirement_key": "req_22663f19aca4c09a",
+      "candidate_label": "ROAD WORK AHEAD first sign",
+      "subject": "multiple advance warning signs approaching a transition/activity area",
+      "modality": "should",
+      "relation": "has ROAD WORK AHEAD (W20-1) as the first sign encountered by road users",
+      "threshold": "W20-1 is first in approach order",
+      "applicability_conditions": [
+        "multiple advance warning signs are used on the approach"
+      ],
+      "required_inputs": [
+        "identities and approach order of advance warning signs"
+      ],
+      "source_locator": "SEC-6H.02 paragraph 02; PDF page 838",
+      "source_span": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_9732095f29b92b84",
+      "candidate_label": "Merging taper directs traffic to one lane",
+      "subject": "merging taper for the closed left lane on the multilane roadway",
+      "modality": "shall",
+      "relation": "directs vehicular traffic into either the right-hand or left-hand lane, but not both",
+      "threshold": "one receiving lane only",
+      "applicability_conditions": [
+        "one lane is closed on a multilane road",
+        "the closure is not a mobile operation",
+        "a merging taper is present"
+      ],
+      "required_inputs": [
+        "observed taper path and receiving lane"
+      ],
+      "source_locator": "TA-21 paragraph 01; PDF page 940",
+      "source_span": "The merging taper shall direct vehicular traffic into either the right-hand or left-hand lane, but not both.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    }
+  ]
+}

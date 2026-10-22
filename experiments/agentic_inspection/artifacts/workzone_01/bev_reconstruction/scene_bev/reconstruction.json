@@ -1,0 +1,25 @@
+{
+  "raw_lidar_frames": 1027,
+  "raw_points_processed": 368304752,
+  "display_voxel_points": 773512,
+  "observations": 930,
+  "origin_enu_m": [
+    137.9022269747849,
+    0.6731547897888674,
+    0.7574912495286683
+  ],
+  "display_basis_columns_enu": [
+    [
+      0.9999882740875716,
+      -0.004842694225296261
+    ],
+    [
+      0.004842694225296261,
+      0.9999882740875716
+    ]
+  ],
+  "coordinates": "rigid local metric view: x initial forward, y left; not a flattened station-lateral plot",
+  "point_cloud_warning": "Downsampled accumulation includes moving traffic and occlusion artifacts; not an exclusively static semantic map.",
+  "pose_convention": "Rz(-azimuth) Rx(pitch) Ry(roll), Y forward",
+  "geometry_policy": "Each raw point transformed with interpolated INS pose at its timestamp; camera nearest cloud and full pose time compensation; human classes unchanged."
+}

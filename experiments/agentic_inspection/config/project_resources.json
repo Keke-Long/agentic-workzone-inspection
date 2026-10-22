@@ -1,0 +1,54 @@
+{
+  "scene": {
+    "active_manifest": "cases/workzone_01/scene.json",
+    "public_manifest": "cases/workzone_01/scene.json",
+    "hidden_reference": "ground_truth/autonomous_scene_v4_reference.json",
+    "reference_manifest": "ground_truth/autonomous_scene_v4_reference_manifest.json"
+  },
+  "current_result": {
+    "stage6_result": "artifacts/workzone_01/pipeline/final_evaluated/scene-CATS-01/result.json",
+    "stage6_report": "reports/workzone_01/final/stage6_final_report.html",
+    "active_requirements_manifest": "ground_truth/workzone_01/active_requirements_manifest.json"
+  },
+  "geometry_policy": {
+    "station_confidence_percentiles": [5, 95],
+    "lateral_residual_warning_m": 12.0,
+    "lateral_residual_reject_m": 30.0,
+    "width_max_longitudinal_offset_m": 10.0,
+    "width_normal_dominance_ratio": 1.0,
+    "deficiency_requires_entire_confidence_interval_beyond_threshold": true
+  },
+  "retrieval": {
+    "corpus_scope": "entire_MUTCD_11th_Edition_2023",
+    "manual_structure_index": "inputs/mutcd_structure_v1.json",
+    "manual_structure_manifest": "inputs/mutcd_structure_v1_manifest.json",
+    "mutcd_knowledge_graph": "inputs/mutcd_knowledge_graph_v2.json",
+    "top_k": 8,
+    "graph_rag": {
+      "implementation": "microsoft/graphrag",
+      "package": "graphrag==3.1.2",
+      "index_method": "standard",
+      "query_method": "local",
+      "retrieval_adapter": "official LocalSearchMixedContext.build_context",
+      "manual_only_index_root": "inputs/graphrag_v4",
+      "official_repository": "https://github.com/microsoft/graphrag"
+    }
+  },
+  "source": {
+    "normative_authority": "MUTCD_11th_Edition_2023",
+    "manual_pdf": "inputs/manuals/MUTCD_11th_Edition_2023_Hotlinks.pdf",
+    "auxiliary_reference_pdfs": [
+      {
+        "path": "inputs/manuals/AASHTO_Maintenance_Manual_for_Roadways.pdf",
+        "sha256": "5f931cbb4b31aa440be53b167bfd0022ec2f53fde30a8b40a636054303018fbe",
+        "formal_retrieval_corpus": false,
+        "reason": "Frozen for provenance only; the current inspection's normative authority is MUTCD."
+      }
+    ],
+    "observation_ledger": "/home/klong23/workzone/bev_full_scene/scene_evidence_current/observation_ledger.jsonl",
+    "reviewed_bboxes": "/home/klong23/workzone/bev_full_scene/scene_evidence_current/bbox_review_decisions.csv",
+    "expert_evidence_confirmations": "config/expert_evidence_confirmations.json",
+    "user_adjudications": "config/user_adjudications.json"
+  },
+  "credential_config": "~/.config/workzone/openai_credentials.json"
+}

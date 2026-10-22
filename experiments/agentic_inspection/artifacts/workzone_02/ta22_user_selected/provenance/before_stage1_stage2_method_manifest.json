@@ -1,0 +1,214 @@
+{
+  "schema": "stage1_stage2_method_manifest_v1",
+  "status": "frozen_for_current_study",
+  "frozen_on": "2026-09-24",
+  "post_freeze_amendments": [
+    {
+      "date": "2026-09-24",
+      "scope": "downstream_stage4_only",
+      "description": "Persist a failed acquisition attempt when a registered measurement formula cannot be resolved from scene data; Stage 1 retrieval and Stage 2 compilation semantics are unchanged."
+    },
+    {
+      "date": "2026-09-24",
+      "scope": "downstream_stage4_only",
+      "description": "Route canonical visual-input modalities to image inspection so provenance requirements and evidence acquisition use the same general modality mapping; Stage 1 retrieval and Stage 2 compilation semantics are unchanged."
+    },
+    {
+      "date": "2026-09-24",
+      "scope": "downstream_stage4_stage5_only",
+      "description": "Dispatch visual evidence by coverage domain plus input modality and cap runtime batches at the restored registry limit; Stage 1 retrieval and Stage 2 compilation semantics are unchanged."
+    },
+    {
+      "date": "2026-09-24",
+      "scope": "downstream_stage6_preflight_only",
+      "description": "Allow an explicit valid resume phase so Stage 6 can resume from a sealed result-submission checkpoint; Stage 1 retrieval and Stage 2 compilation semantics are unchanged."
+    },
+    {
+      "date": "2026-09-24",
+      "scope": "downstream_stage6_only",
+      "description": "Copy sealed Stage 5 drafts deterministically into Stage 6 final records and program-compose completion metadata; Stage 1 retrieval and Stage 2 compilation semantics are unchanged."
+    },
+    {
+      "date": "2026-09-24",
+      "scope": "downstream_stage4_only",
+      "description": "Bind user/domain-reviewer-confirmed device-condition findings from the sole materialized scene to applicable channelization condition predicates without using benchmark labels; Stage 1 retrieval and Stage 2 compilation semantics are unchanged."
+    },
+    {
+      "date": "2026-09-24",
+      "scope": "downstream_stage4_preflight_only",
+      "description": "Permit recovery from any valid single-action orchestrated Stage 4 checkpoint rather than only the initial acquisition-plan boundary; Stage 1 retrieval and Stage 2 compilation semantics are unchanged."
+    },
+    {
+      "date": "2026-09-24",
+      "scope": "downstream_stage5_only",
+      "description": "Treat explicit user/domain-reviewer-confirmed current-scene deficiencies as binding Stage 5 evidence when applicability is true and required inputs are resolved; Stage 1 retrieval and Stage 2 compilation semantics are unchanged."
+    },
+    {
+      "date": "2026-10-20",
+      "scope": "multi_case_preflight_only",
+      "description": "Validate deployment facts against each case inventory, preserve unknown deployment facts, freeze case-specific evidence sources, and allow explicitly unavailable geometry. Retain Work Zone 01 spacing regression. Retrieval, Stage 2 compilation, models, tool schemas and measurement algorithms are unchanged.",
+      "path": "scripts/preflight_srag_bm25_v5.py",
+      "previous_sha256": "3330a765dae361a3d40973eb685b3515da135a179a7e5871967883effd7b56df",
+      "sha256": "1eca152747f3b718130e805047a9a0fffe8b8b96c1e8a19f79abcc27d288d70c"
+    },
+    {
+      "date": "2026-10-20",
+      "scope": "scene_inventory_declaration_and_stage3_validation_only",
+      "description": "An empty accepted bbox inventory is not advertised as directly available, and Stage 3 rejects claims that this missing input is available. Reference scenes with accepted observations are unchanged. Retrieval, Stage 2 compilation, perception preprocessing and geometry algorithms are unchanged. Preserve the first Case_18 pilot with five unsupported claims and rerun Stages 0-3 from fresh outputs.",
+      "files": [
+        {
+          "path": "scripts/srag_bm25_tools_v5.py",
+          "previous_sha256": "928bc0c38b18d84124555102b6e5f5a4409fdb746a4a1722c4ca5f3e5f0eadbd",
+          "sha256": "9e74a247ce7890fa4a147180e6ff04e4796ab586f12b92d28aab7c2f38a1f548"
+        },
+        {
+          "path": "scripts/scene_data_tools_v5.py",
+          "previous_sha256": "823a12f13ad41de98124e82114a3847fe7af506bee7eddc23e2c8ec1c10f5022",
+          "sha256": "e3c63f20c3d3755cdb361ef7f7195d66a1786a6b4099f30f2be234ea56e0e2ed"
+        }
+      ]
+    }
+  ],
+  "scene_id": "scene-CATS-01",
+  "manual": {
+    "edition": "MUTCD 11th Edition (December 2023)",
+    "sha256": "5221404db3c27ec302d04d202c0e4b3b297857acebe94c632933f91c210ff835"
+  },
+  "method_definition": {
+    "path": "docs/METHODS_STAGE1_STAGE2.md",
+    "sha256": "e6a9a0ac3c674e46339cfb16f4bdfa92d8c0b2108c72605d1523fe10c4f0c1a5"
+  },
+  "stage2_policy": {
+    "canonical_for_kg_methods": "structured_candidate_decision_v1",
+    "decision_fields": [
+      "activation_status",
+      "independently_violable",
+      "duplicate_of_source_node_id",
+      "action",
+      "decision_basis",
+      "reason",
+      "measurement_spec"
+    ],
+    "program_bound_fields": [
+      "subject",
+      "relation",
+      "threshold",
+      "modality",
+      "applicability_conditions",
+      "required_inputs",
+      "source_locator",
+      "source_span",
+      "activation_basis"
+    ],
+    "gold_data_read_at_runtime": false,
+    "target_count_exposed": false
+  },
+  "comparison_policy": {
+    "all_five_methods": "Stage 1 candidate recall",
+    "kg_based_methods": "Stage 1 recall plus end-to-end Stage 2 recall and activation precision",
+    "retrieval_only_stage2": "diagnostic only; not a controlled comparison against the KG-dependent structured compiler"
+  },
+  "methods": [
+    {
+      "method_id": "kg_plus_bm25",
+      "role": "primary_proposed_method",
+      "config": "config/workzone_01/stage1_kg_bm25.json",
+      "config_sha256": "277005c7d1d3ab6ea3976e9600d81e5b2584ad964eb935f0786307bc8bdd38a5",
+      "stage1_architecture": "kg_plus_retrieval",
+      "gap_retrieval": "bm25",
+      "stage2_mode": "structured_candidate_decision_v1"
+    },
+    {
+      "method_id": "agentic_kg_dense",
+      "role": "retrieval_variant_of_proposed_method",
+      "config": "config/workzone_01/stage1_kg_dense.json",
+      "config_sha256": "49dd670b569e6a91ddbc3f56ce40c9173573ea46ad2de6e930976d5d13bb30bb",
+      "stage1_architecture": "kg_plus_retrieval",
+      "gap_retrieval": "dense_e5",
+      "stage2_mode": "structured_candidate_decision_v1"
+    },
+    {
+      "method_id": "kg_only",
+      "role": "knowledge_graph_ablation_baseline",
+      "config": "config/workzone_01/stage1_kg_only.json",
+      "config_sha256": "a8b0bc71b9954fe58e679dc02de06aa4d2c0998fcb2fb4c9f61dc01bf4129c5b",
+      "stage1_architecture": "kg_only",
+      "gap_retrieval": null,
+      "stage2_mode": "structured_candidate_decision_v1"
+    },
+    {
+      "method_id": "bm25_only",
+      "role": "retrieval_only_baseline",
+      "config": "config/workzone_01/stage1_bm25_only.json",
+      "config_sha256": "85d2b301cbfc530c7d544f892e8d610a7e44b3f58306dacfed82b9aa63cb2c4e",
+      "stage1_architecture": "retrieval_only",
+      "gap_retrieval": "bm25",
+      "stage2_mode": "free_form_atomic_registration_v1",
+      "primary_comparison_scope": "stage1_retrieval_only"
+    },
+    {
+      "method_id": "dense_only",
+      "role": "retrieval_only_baseline",
+      "config": "config/workzone_01/stage1_dense_only.json",
+      "config_sha256": "231f3cbfd292f86e4059867d01938e71c77b3e8ddc01219258d9a4949364a966",
+      "stage1_architecture": "retrieval_only",
+      "gap_retrieval": "dense_e5",
+      "stage2_mode": "free_form_atomic_registration_v1",
+      "primary_comparison_scope": "stage1_retrieval_only"
+    }
+  ],
+  "frozen_files": [
+    {
+      "path": "scripts/srag_bm25_tools_v5.py",
+      "sha256": "9e74a247ce7890fa4a147180e6ff04e4796ab586f12b92d28aab7c2f38a1f548"
+    },
+    {
+      "path": "scripts/scene_data_tools_v5.py",
+      "sha256": "e3c63f20c3d3755cdb361ef7f7195d66a1786a6b4099f30f2be234ea56e0e2ed"
+    },
+    {
+      "path": "scripts/inspection_registry_v5.py",
+      "sha256": "8426943086457a85b40165d94f62529a162f0df08911291389b95a39131ddc94"
+    },
+    {
+      "path": "scripts/run_srag_bm25_v5.py",
+      "sha256": "7b98a56c018c8e33693f841d1058b0dd8282aa29447ca18b5a9aebbd5138f51c"
+    },
+    {
+      "path": "scripts/preflight_srag_bm25_v5.py",
+      "sha256": "1eca152747f3b718130e805047a9a0fffe8b8b96c1e8a19f79abcc27d288d70c"
+    },
+    {
+      "path": "scripts/mutcd_knowledge_graph_v2.py",
+      "sha256": "6314da55f4f8a2f437775737edaa79d707608842d12633856a199112a1aaa62a"
+    },
+    {
+      "path": "scripts/srag_bm25_retrieval_v5.py",
+      "sha256": "7abeafc88477173981717285b04be9eba00f978d0d495cd1b4e0390a8d5b97a7"
+    },
+    {
+      "path": "inputs/mutcd_structure_v1.json",
+      "sha256": "40c96734b42baaae8ace0fa2764184cd20e3a9ddb787bce48d56e1f932b8e904"
+    },
+    {
+      "path": "inputs/mutcd_knowledge_graph_v2.json",
+      "sha256": "d2d24b2b4f76996f8a0efbdf22941cc8b86543cc1227e9489b251c7963c6f384"
+    },
+    {
+      "path": "inputs/mutcd_dense_gap_e5_large_v2.npz",
+      "sha256": "330324f54baf153224f80d9f09f5d5e841855300c7868932db3370736855276e"
+    },
+    {
+      "path": "inputs/mutcd_dense_gap_e5_large_v2_manifest.json",
+      "sha256": "698f1f6ae2dd5f4f6e57ac184b6af56bc9946bc90daf5f371e710dbf39b6e413"
+    },
+    {
+      "path": "ground_truth/workzone_01/active_requirements.json",
+      "sha256": "9eb1e0f8423c0ee5f18d8c318cf55d67689dff3ffb9578a1fc787ac6f7955896"
+    },
+    {
+      "path": "cases/workzone_01/scene.json",
+      "sha256": "9f8102a996ad178a0ad86f75afaea50c304ada49d7d35c2911d82602d186f957"
+    }
+  ]
+}

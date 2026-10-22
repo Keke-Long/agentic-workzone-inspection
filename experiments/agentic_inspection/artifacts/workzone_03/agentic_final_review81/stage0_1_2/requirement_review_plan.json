@@ -1,0 +1,362 @@
+{
+  "status": "awaiting_stage1_stage2_evaluation",
+  "stopped_after_requirement_registration": true,
+  "stopped_before_measurement": true,
+  "registered_requirement_count": 11,
+  "planned_inspection_count": 0,
+  "planned_normative_measurement_count": 0,
+  "requirements": [
+    {
+      "discovered_requirement_key": "req_ad7a729596b46383",
+      "candidate_label": "Urban low-speed advance-warning spacing",
+      "subject": "successive advance warning signs",
+      "modality": "should",
+      "relation": "are spaced at least",
+      "threshold": "100 ft minimum between each successive sign in the urban low-speed category",
+      "applicability_conditions": [
+        "A series of two or more advance warning signs is used",
+        "Posted speed is 20 mph and the roadway is urban low-speed"
+      ],
+      "required_inputs": [
+        "Measured longitudinal distances between successive advance warning signs",
+        "Roadway category and posted speed"
+      ],
+      "source_locator": "TABLE-6B-1; PDF page 813",
+      "source_span": "Table 6B-1. Recommended Advance Warning Sign Minimum Spacing. Urban (low speed): 100 feet, 100 feet, 100 feet. Urban (high speed): 350 feet, 350 feet, 350 feet. Rural: 500 feet, 500 feet, 500 feet. Expressway / Freeway: 1,000 feet, 1,500 feet, 2,640 feet. The column headings A, B, and C are the dimensions shown in Figures 6P-1 through 6P-54.",
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_sign_spacing",
+        "quantity": "successive advance-warning sign spacing",
+        "thresholds": [
+          {
+            "condition": "each spacing",
+            "value": 100,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_62474d3d964c6426",
+      "candidate_label": "Tangent channelizer spacing",
+      "subject": "tangent channelizing devices",
+      "modality": "should",
+      "relation": "should be spaced no farther apart than",
+      "threshold": "2 times the posted speed limit in feet; at 20 mph, 40 ft maximum",
+      "applicability_conditions": [
+        "Channelizing devices are used in a tangent section"
+      ],
+      "required_inputs": [
+        "Measured spacing between successive tangent channelizing devices",
+        "Posted speed limit"
+      ],
+      "source_locator": "SEC-6K.01 paragraph 04; PDF page 855",
+      "source_span": "The spacing between cones, tubular markers, vertical panels, drums, and barricades should not exceed a distance in feet equal to 1 times the speed limit in mph when used for taper channelization, and should not exceed a distance in feet equal to 2 times the speed limit in mph when used for tangent channelization.",
+      "measurement_spec": {
+        "required": true,
+        "tool": "audit_channelizer_spacing",
+        "quantity": "successive tangent channelizer spacing",
+        "thresholds": [
+          {
+            "condition": "tangent section",
+            "value": 40,
+            "unit": "ft",
+            "violation_when": "above_maximum",
+            "formula_parameter": "posted_speed_mph",
+            "multiplier": 2
+          }
+        ]
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_4b36f1dbdb9f7c39",
+      "candidate_label": "Channelizer serviceability",
+      "subject": "channelizing devices",
+      "modality": "shall",
+      "relation": "shall be",
+      "threshold": "serviceable; devices no longer serviceable shall be replaced",
+      "applicability_conditions": [
+        "Channelizing devices are deployed in the inspected TTC zone"
+      ],
+      "required_inputs": [
+        "Visual inspection of deployed channelizing devices for serviceability"
+      ],
+      "source_locator": "SEC-6K.01 paragraph 15; PDF page 855",
+      "source_span": "Channelizing devices that are no longer serviceable (see definition in Section 1C.02) shall be replaced.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_aa7f07b1d07ed2cb",
+      "candidate_label": "SEC-6K.12 02: Other channelizing devices",
+      "subject": "Other channelizing devices",
+      "modality": "should",
+      "relation": "should_comply",
+      "threshold": "Other channelizing devices should comply with the general size, color, stripe pattern, retroreflection, and placement characteristics established for the devices described in this Chapter. December 2023 Sect. 6K.11 to 6K.12 Page 824 MUTCD 11th Edition CHAPTER 6L. OTHER TTC ZONE TRAFFIC CONTROL DEVICES",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images"
+      ],
+      "source_locator": "SEC-6K.12 paragraph 02; PDF page 863",
+      "source_span": "Other channelizing devices should comply with the general size, color, stripe pattern, retroreflection, and placement characteristics established for the devices described in this Chapter. December 2023 Sect. 6K.11 to 6K.12 Page 824 MUTCD 11th Edition CHAPTER 6L. OTHER TTC ZONE TRAFFIC CONTROL DEVICES",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_47aa373310aaf156",
+      "candidate_label": "SEC-6H.03 01: The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions",
+      "subject": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions,",
+      "modality": "should",
+      "relation": "should_comply",
+      "threshold": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions, should be located in advance of the work space or any detour, on the road where the work is taking place.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images"
+      ],
+      "source_locator": "SEC-6H.03 paragraph 01; PDF page 842",
+      "source_span": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions, should be located in advance of the work space or any detour, on the road where the work is taking place.",
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_longitudinal_distance",
+        "quantity": "distance from ROAD WORK sign to work space or any detour",
+        "thresholds": [
+          {
+            "condition": "sign is not in advance of work space or detour",
+            "value": 0,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_8934040d233c7213",
+      "candidate_label": "SEC-6B.05 02: Except for mobile operations, when redirection of the road users’ normal path is required, road users",
+      "subject": "Except for mobile operations, when redirection of the road users’ normal path is required, road users",
+      "modality": "shall",
+      "relation": "shall_comply",
+      "threshold": "Except for mobile operations, when redirection of the road users’ normal path is required, road users shall be directed from the normal path to a new path with appropriate channelizing devices, traffic control devices, and/or TTC methods.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images"
+      ],
+      "source_locator": "SEC-6B.05 paragraph 02; PDF page 811",
+      "source_span": "Except for mobile operations, when redirection of the road users’ normal path is required, road users shall be directed from the normal path to a new path with appropriate channelizing devices, traffic control devices, and/or TTC methods.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_2aaae0362bf83021",
+      "candidate_label": "SEC-6K.06 01: Drums (see Figure 6K-1) used for road user warning or channelization",
+      "subject": "Drums (see Figure 6K-1) used for road user warning or channelization",
+      "modality": "shall",
+      "relation": "shall_comply",
+      "threshold": "Drums (see Figure 6K-1) used for road user warning or channelization shall be constructed of lightweight, deformable materials. They shall be a minimum of 36 inches in height and have at least an 18-inch minimum width regardless of orientation. Metal drums shall not be used. The markings on drums shall be horizontal, circumferential, alternating orange and white retroreflective stripes 4 to 6 inches wide. Each drum shall have a minimum of two orange and two white stripes with the top stripe being orange. Any non-retroreflectorized spaces between the horizontal orange and white stripes shall not exceed 3 inches wide. Drums shall have closed tops that will not allow collection of construction debris or other debris.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations",
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "source_locator": "SEC-6K.06 paragraph 01; PDF page 860",
+      "source_span": "Drums (see Figure 6K-1) used for road user warning or channelization shall be constructed of lightweight, deformable materials. They shall be a minimum of 36 inches in height and have at least an 18-inch minimum width regardless of orientation. Metal drums shall not be used. The markings on drums shall be horizontal, circumferential, alternating orange and white retroreflective stripes 4 to 6 inches wide. Each drum shall have a minimum of two orange and two white stripes with the top stripe being orange. Any non-retroreflectorized spaces between the horizontal orange and white stripes shall not exceed 3 inches wide. Drums shall have closed tops that will not allow collection of construction debris or other debris.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_403dd72cd3369844",
+      "candidate_label": "TA-19 directional-detour layout",
+      "subject": "directional lane-closure layout",
+      "modality": "should",
+      "relation": "should conform to the selected TA-19 detour-for-one-travel-direction arrangement",
+      "threshold": "opposing traffic is prohibited from the closed direction, the open direction remains available to road users, and the closed direction is routed to an off-site detour",
+      "applicability_conditions": [
+        "TA-19 is the selected applicable layout",
+        "One travel direction is closed while the other remains open"
+      ],
+      "required_inputs": [
+        "Observed lane-closure routing and channelizer layout",
+        "Confirmed opposing-traffic routing",
+        "Selected TA layout"
+      ],
+      "source_locator": "TA-19 paragraph 01; PDF page 936",
+      "source_span": "This plan should be used for streets without posted route numbers.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_38a0c44a191a7475",
+      "candidate_label": "SEC-6H.01 04: Except as provided in Paragraph 5 of this Section, TTC warning signs",
+      "subject": "Except as provided in Paragraph 5 of this Section, TTC warning signs",
+      "modality": "shall",
+      "relation": "shall_comply",
+      "threshold": "Except as provided in Paragraph 5 of this Section, TTC warning signs shall be diamond-shaped with a black legend and border on an orange background, except for the Grade Crossing Advance Warning (W10-1) sign, which shall have a black legend and border on a yellow background.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images"
+      ],
+      "source_locator": "SEC-6H.01 paragraph 04; PDF page 838",
+      "source_span": "Except as provided in Paragraph 5 of this Section, TTC warning signs shall be diamond-shaped with a black legend and border on an orange background, except for the Grade Crossing Advance Warning (W10-1) sign, which shall have a black legend and border on a yellow background.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_9684dd549b406cb8",
+      "candidate_label": "SEC-6K.01 14: Particular attention",
+      "subject": "Particular attention",
+      "modality": "should",
+      "relation": "should_comply",
+      "threshold": "Particular attention should be given to maintaining the channelizing devices to keep them clean, visible, and properly positioned at all times.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images"
+      ],
+      "source_locator": "SEC-6K.01 paragraph 14; PDF page 855",
+      "source_span": "Particular attention should be given to maintaining the channelizing devices to keep them clean, visible, and properly positioned at all times.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_cb1dccef74232ff1",
+      "candidate_label": "SEC-6H.02 02: Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (",
+      "subject": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign",
+      "modality": "should",
+      "relation": "should_comply",
+      "threshold": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images"
+      ],
+      "source_locator": "SEC-6H.02 paragraph 02; PDF page 838",
+      "source_span": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    }
+  ]
+}

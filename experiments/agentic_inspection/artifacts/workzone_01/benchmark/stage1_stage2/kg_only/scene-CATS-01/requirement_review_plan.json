@@ -1,0 +1,377 @@
+{
+  "status": "awaiting_stage1_stage2_evaluation",
+  "stopped_after_requirement_registration": true,
+  "stopped_before_measurement": true,
+  "registered_requirement_count": 10,
+  "planned_inspection_count": 0,
+  "planned_normative_measurement_count": 0,
+  "requirements": [
+    {
+      "discovered_requirement_key": "req_3e17b4b6ec99d5ba",
+      "candidate_label": "Left-lane closure channelization on both boundaries",
+      "subject": "channelizing devices for the closed left lane",
+      "modality": "shall",
+      "relation": "shall be placed along",
+      "threshold": "both the roadway center line and the adjacent lane",
+      "applicability_conditions": [
+        "one lane is closed",
+        "the closed lane is the left lane",
+        "roadway is undivided"
+      ],
+      "required_inputs": [
+        "field observation of device lines"
+      ],
+      "source_locator": "SEC-6N.11 paragraph 10; PDF page 888",
+      "source_span": "When only the left-hand lane is closed on undivided roads, channelizing devices shall be placed along the center line as well as along the adjacent lane.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_73a9ebb6f84c3c57",
+      "candidate_label": "Transition area present for stationary lane closure",
+      "subject": "transition area",
+      "modality": "shall",
+      "relation": "shall contain",
+      "threshold": "a merging taper",
+      "applicability_conditions": [
+        "a lane is closed on a multilane road",
+        "operation is not mobile"
+      ],
+      "required_inputs": [
+        "field observation of the closure transition"
+      ],
+      "source_locator": "SEC-6N.11 paragraph 03; PDF page 887",
+      "source_span": "When a lane is closed on a multi-lane road for other than a mobile operation, a transition area containing a merging taper shall be used.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_c1e765433aad2145",
+      "candidate_label": "Lane Closed sign for the left-lane closure",
+      "subject": "advance warning signing",
+      "modality": "shall",
+      "relation": "shall include",
+      "threshold": "a Lane Closed sign with the legend LEFT LANE CLOSED",
+      "applicability_conditions": [
+        "one through lane of a multilane roadway is closed",
+        "the closed lane is the left lane"
+      ],
+      "required_inputs": [
+        "field observation of advance warning signs and legends"
+      ],
+      "source_locator": "SEC-6H.07 paragraph 01; PDF page 845",
+      "source_span": "The Lane(s) Closed sign (see Figure 6H-1) shall be used in advance of that point where one or more through lanes of a multi-lane roadway are closed.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_2197fa8fbbaaeeb4",
+      "candidate_label": "Advance warning sign spacing for low-speed urban TA-30",
+      "subject": "successive advance warning signs",
+      "modality": "should",
+      "relation": "should be spaced at least",
+      "threshold": "100 ft for each A, B, and C interval",
+      "applicability_conditions": [
+        "TA-30 is the selected layout",
+        "the roadway is treated as an urban low-speed context",
+        "a series of advance warning signs is used"
+      ],
+      "required_inputs": [
+        "field measurements of A, B, and C sign separations"
+      ],
+      "source_locator": "TABLE-6B-1; PDF page 813",
+      "source_span": "Table 6B-1. Recommended Advance Warning Sign Minimum Spacing. Urban (low speed): 100 feet, 100 feet, 100 feet. Urban (high speed): 350 feet, 350 feet, 350 feet. Rural: 500 feet, 500 feet, 500 feet. Expressway / Freeway: 1,000 feet, 1,500 feet, 2,640 feet. The column headings A, B, and C are the dimensions shown in Figures 6P-1 through 6P-54.",
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_sign_spacing",
+        "quantity": "A, B, and C separations between successive advance warning signs",
+        "thresholds": [
+          {
+            "condition": "each A, B, or C interval",
+            "value": 100,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_b30c1f71cf24c0ef",
+      "candidate_label": "Channelizing-device spacing",
+      "subject": "channelizing devices",
+      "modality": "should",
+      "relation": "should have spacing not exceeding",
+      "threshold": "30 ft in taper channelization and 60 ft in tangent channelization",
+      "applicability_conditions": [
+        "channelizing devices are used in the lane-closure TTC zone",
+        "posted speed is 30 mph"
+      ],
+      "required_inputs": [
+        "device locations classified as taper or tangent",
+        "posted speed"
+      ],
+      "source_locator": "SEC-6K.01 paragraph 04; PDF page 855",
+      "source_span": "The spacing between cones, tubular markers, vertical panels, drums, and barricades should not exceed a distance in feet equal to 1 times the speed limit in mph when used for taper channelization, and should not exceed a distance in feet equal to 2 times the speed limit in mph when used for tangent channelization.",
+      "measurement_spec": {
+        "required": true,
+        "tool": "audit_channelizer_spacing",
+        "quantity": "maximum spacing between successive channelizing devices by segment type",
+        "thresholds": [
+          {
+            "condition": "taper channelization",
+            "value": 30,
+            "unit": "ft",
+            "violation_when": "above_maximum",
+            "formula_parameter": null,
+            "multiplier": null
+          },
+          {
+            "condition": "tangent channelization",
+            "value": 60,
+            "unit": "ft",
+            "violation_when": "above_maximum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_79b6180765147f89",
+      "candidate_label": "Channelizing-device condition and visibility",
+      "subject": "channelizing devices",
+      "modality": "shall",
+      "relation": "shall be",
+      "threshold": "serviceable, and should be clean, visible, and properly positioned",
+      "applicability_conditions": [
+        "channelizing devices are deployed in the TTC zone"
+      ],
+      "required_inputs": [
+        "visual inspection of every deployed channelizing device"
+      ],
+      "source_locator": "SEC-6K.01 paragraph 15; PDF page 855",
+      "source_span": "Channelizing devices that are no longer serviceable (see definition in Section 1C.02) shall be replaced.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_7f09b0d881cf3b4b",
+      "candidate_label": "Merging-taper length",
+      "subject": "merging taper",
+      "modality": "should",
+      "relation": "should have length determined by",
+      "threshold": "L = W S² / 60 for speeds 40 mph or less",
+      "applicability_conditions": [
+        "stationary multilane lane closure uses a merging taper",
+        "posted speed is 30 mph"
+      ],
+      "required_inputs": [
+        "measured lateral offset width W",
+        "posted speed S",
+        "measured merging-taper length"
+      ],
+      "source_locator": "SEC-6B.08 paragraph 04; PDF page 815",
+      "source_span": "The appropriate taper length (L) should 60 be determined using the criteria shown in 45 mph or more L = WS Tables 6B-3 and 6B-4. Where: L = taper length in feet Support: W = width of offset in feet A merging taper requires the longest distance S = posted speed limit, or off‑peak 85th‑percentile speed",
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_taper_length",
+        "quantity": "merging-taper length L",
+        "thresholds": [
+          {
+            "condition": "posted speed 40 mph or less",
+            "value": null,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": "W*S^2/60",
+            "multiplier": null
+          }
+        ]
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_d48f75785df3bd57",
+      "candidate_label": "Downstream-taper length when used",
+      "subject": "downstream taper",
+      "modality": "should",
+      "relation": "should have length between",
+      "threshold": "50 ft minimum and 100 ft maximum",
+      "applicability_conditions": [
+        "a downstream taper is used in the TTC zone"
+      ],
+      "required_inputs": [
+        "field determination that a downstream taper is used",
+        "measured downstream-taper length"
+      ],
+      "source_locator": "SEC-6B.08 paragraph 12; PDF page 816",
+      "source_span": "If used, a downstream taper should have a minimum length of 50 feet and a maximum length of 100 feet with devices placed at a spacing of approximately 20 feet.",
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_downstream_taper",
+        "quantity": "downstream-taper length",
+        "thresholds": [
+          {
+            "condition": "downstream taper is used",
+            "value": 50,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          },
+          {
+            "condition": "downstream taper is used",
+            "value": 100,
+            "unit": "ft",
+            "violation_when": "above_maximum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_5faae7685bc93cfd",
+      "candidate_label": "Arrow-board lane-closure indication",
+      "subject": "deployed arrow board",
+      "modality": "shall",
+      "relation": "shall be used only to indicate",
+      "threshold": "a lane closure, not a lane shift",
+      "applicability_conditions": [
+        "an arrow board is deployed",
+        "the work zone is a lane closure"
+      ],
+      "required_inputs": [
+        "arrow-board display mode and directional indication",
+        "field observation of the TTC application"
+      ],
+      "source_locator": "SEC-6L.06 paragraph 25; PDF page 875",
+      "source_span": "Arrow boards shall only be used to indicate a lane closure. Arrow boards shall not be used to indicate a lane shift.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    },
+    {
+      "discovered_requirement_key": "req_6ca446c69dddd387",
+      "candidate_label": "Stationary arrow-board placement",
+      "subject": "arrow board for the stationary lane closure",
+      "modality": "should",
+      "relation": "should be located",
+      "threshold": "on the shoulder at the beginning of the merging taper",
+      "applicability_conditions": [
+        "an arrow board is deployed",
+        "the operation is a stationary lane closure"
+      ],
+      "required_inputs": [
+        "arrow-board location relative to the shoulder and merging-taper start"
+      ],
+      "source_locator": "SEC-6L.06 paragraph 19; PDF page 873",
+      "source_span": "For a stationary lane closure, the arrow board should be located on the shoulder at the beginning of the merging taper.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "condition_data_complete": null,
+      "data_availability": null,
+      "available_inputs": null,
+      "missing_inputs": null,
+      "planned_tools": null,
+      "planned_evidence_strategy": null,
+      "planned_decision_rule": null,
+      "planned_for_inspection_after_review": false
+    }
+  ]
+}

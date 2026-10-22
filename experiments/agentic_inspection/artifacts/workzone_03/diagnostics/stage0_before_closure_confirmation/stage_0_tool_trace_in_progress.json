@@ -1,0 +1,2270 @@
+[
+  {
+    "step": 1,
+    "phase": "requirement_discovery",
+    "tool": "search_manual",
+    "arguments": {
+      "query": "Typical Application short duration stationary work zone two-lane road one lane opposing direction closed channelizing devices work area near intersection daytime no flagger 20 mph less than three days",
+      "page_size": 12,
+      "continuation_token": null
+    },
+    "result": {
+      "operation": "search_manual",
+      "query": "Typical Application short duration stationary work zone two-lane road one lane opposing direction closed channelizing devices work area near intersection daytime no flagger 20 mph less than three days",
+      "corpus_scope": "entire frozen MUTCD 11th Edition structured index",
+      "candidate_source_unit_count": 1013,
+      "items": [
+        {
+          "rank": 1,
+          "score": 73.588435,
+          "source_unit_code": "SEC-6P.01",
+          "unit_type": "section",
+          "title": "Typical Applications",
+          "chapter": "6P",
+          "figure_code": null,
+          "source_pages": [
+            897,
+            898,
+            899,
+            900,
+            901,
+            902,
+            903,
+            904,
+            905,
+            906,
+            907,
+            908,
+            909,
+            910,
+            911,
+            912,
+            913,
+            914,
+            915,
+            916,
+            917,
+            918,
+            919,
+            920,
+            921,
+            922,
+            923,
+            924,
+            925,
+            926,
+            927,
+            928,
+            929,
+            930,
+            931,
+            932,
+            933,
+            934,
+            935,
+            936,
+            937,
+            938,
+            939,
+            940,
+            941,
+            942,
+            943,
+            944,
+            945,
+            946,
+            947,
+            948,
+            949,
+            950,
+            951,
+            952,
+            953,
+            954,
+            955,
+            956,
+            957,
+            958,
+            959,
+            960,
+            961,
+            962,
+            963,
+            964,
+            965,
+            966,
+            967,
+            968,
+            969,
+            970,
+            971,
+            972,
+            973,
+            974,
+            975,
+            976,
+            977,
+            978,
+            979,
+            980,
+            981,
+            982,
+            983,
+            984,
+            985,
+            986,
+            987,
+            988,
+            989,
+            990,
+            991,
+            992,
+            993,
+            994,
+            995,
+            996,
+            997,
+            998,
+            999,
+            1000,
+            1001,
+            1002,
+            1003,
+            1004,
+            1005,
+            1006,
+            1007,
+            1008,
+            1009
+          ],
+          "printed_pages": [
+            857,
+            858,
+            859,
+            860,
+            861,
+            862,
+            863,
+            864,
+            865,
+            866,
+            867,
+            868,
+            869,
+            870,
+            871,
+            872,
+            873,
+            874,
+            875,
+            876,
+            877,
+            878,
+            879,
+            880,
+            881,
+            882,
+            883,
+            884,
+            885,
+            886,
+            887,
+            888,
+            889,
+            890,
+            891,
+            892,
+            893,
+            894,
+            895,
+            896,
+            897,
+            898,
+            899,
+            900,
+            901,
+            902,
+            903,
+            904,
+            905,
+            906,
+            907,
+            908,
+            909,
+            910,
+            911,
+            912,
+            913,
+            914,
+            915,
+            916,
+            917,
+            918,
+            919,
+            920,
+            921,
+            922,
+            923,
+            924,
+            925,
+            926,
+            927,
+            928,
+            929,
+            930,
+            931,
+            932,
+            933,
+            934,
+            935,
+            936,
+            937,
+            938,
+            939,
+            940,
+            941,
+            942,
+            943,
+            944,
+            945,
+            946,
+            947,
+            948,
+            949,
+            950,
+            951,
+            952,
+            953,
+            954,
+            955,
+            956,
+            957,
+            958,
+            959,
+            960,
+            961,
+            962,
+            963,
+            964,
+            965,
+            966,
+            967,
+            968,
+            969
+          ],
+          "available_regions": [
+            "activity",
+            "advance_warning",
+            "applicability",
+            "buffer",
+            "channelizing_devices",
+            "distance_table",
+            "general_notes",
+            "pavement_markings",
+            "transition"
+          ],
+          "source_excerpt": "Support: 01 Chapter 6N contains discussions of typical TTC activities. Section 6A.02 contains discussions on development of TTC plans for the various activities. This Chapter presents typical applications for a variety of situations commonly encountered. While not every situation is addressed, the information illustrated can generally be adapted to a broad range of conditions. In many instances, an appropriate TTC plan is achieved by combining features from various typical applications. For example, work at an intersection might present a near-side TTC zone for one street and a far-side TTC zone for the other street. These treatments are found in two different typical applications, while a third typical application shows how to handle pedestrian crosswalk closures. 02 In general, the procedures illustrated represent minimum solutions for the situations depicted. Except for the notes (which are clearly classified using headings as being Standard, Guidance, Option, or Support), the information presented in the typical applications can generally be regarded as Guidance. Option: 03 TTC plans may deviate from the typical applications described in this Chapter to allow for conditions and"
+        },
+        {
+          "rank": 2,
+          "score": 68.246509,
+          "source_unit_code": "SEC-6N.01",
+          "unit_type": "section",
+          "title": "Work Duration",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            881,
+            882
+          ],
+          "printed_pages": [
+            841,
+            842
+          ],
+          "available_regions": [
+            "advance_warning",
+            "applicability",
+            "channelizing_devices",
+            "general_notes"
+          ],
+          "source_excerpt": "Support: 01 Work duration is a major factor in determining the number and types of devices used in TTC zones. The duration of a TTC zone is defined relative to the length of time a work operation occupies a spot location. Standard: 02 The five categories of work duration and their time at a location shall be defined as follows: A. Long-term stationary is work that occupies a location more than 3 days. B. Intermediate-term stationary is work that occupies a location more than one daylight period up to 3 days, or nighttime work lasting more than 1 hour. C. Short-term stationary is daytime work that occupies a location for more than 1 hour within a single daylight period. D. Short duration is work that occupies a location up to 1 hour. E. Mobile is work that moves intermittently or continuously. Support: 03 At long-term stationary TTC zones, there is ample time to install and realize benefits from the full range of TTC procedures and devices that are available for use. Larger channelizing devices, temporary roadways, and temporary traffic barriers are frequently used. Standard: 04 Since long-term operations extend into nighttime, retroreflective and/or illuminated devices shall be use"
+        },
+        {
+          "rank": 3,
+          "score": 67.262254,
+          "source_unit_code": "SEC-6N.11",
+          "unit_type": "section",
+          "title": "Work within the Traveled Way of a Multi-Lane, Non-Access Controlled Highway",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            887,
+            888
+          ],
+          "printed_pages": [
+            847,
+            848
+          ],
+          "available_regions": [
+            "activity",
+            "channelizing_devices",
+            "general_notes",
+            "pavement_markings",
+            "transition"
+          ],
+          "source_excerpt": "Support: 01 Chapter 6C and Sections 6M.04 and 6N.04 contain additional information regarding the steps to follow when pedestrian or bicycle facilities are affected by the worksite. 02 Work on multi-lane (two or more lanes of moving motor vehicle traffic in one direction) highways is divided into right-lane closures, left-lane closures, interior-lane closures, multiple-lane closures, and closures on five-lane roadways. Standard: 03 When a lane is closed on a multi-lane road for other than a mobile operation, a transition area containing a merging taper shall be used. Guidance: 04 When justified by an engineering study, temporary traffic barriers (see Section 6K.09) should be used to prevent incursions of errant vehicles into hazardous areas or work space. Support: 05 Figure 6P-34 illustrates a lane closure in which temporary traffic barriers are used. Option: 06 When the right-hand lane is closed, TTC similar to that shown in Figure 6P-33 may be used for undivided or divided four-lane roads. December 2023 Sect. 6N.10 to 6N.11 Page 848 MUTCD 11th Edition Guidance: 07 If morning and evening peak hour vehicular traffic volumes in the two directions are uneven and the greater volume is "
+        },
+        {
+          "rank": 4,
+          "score": 62.35518,
+          "source_unit_code": "TA-1",
+          "unit_type": "typical_application",
+          "title": "Work Beyond the Shoulder",
+          "chapter": "6P",
+          "figure_code": "6P-1",
+          "source_pages": [
+            900,
+            901
+          ],
+          "printed_pages": [
+            860,
+            861
+          ],
+          "available_regions": [
+            "advance_warning",
+            "applicability",
+            "general_notes"
+          ],
+          "source_excerpt": "Guidance: 1. If the work space is in the median of a divided highway, an advance warning sign should also be placed on the left-hand side of the directional roadway. Option: 2. The ROAD WORK AHEAD sign may be replaced with other appropriate signs such as the SHOULDER WORK sign. The SHOULDER WORK sign may be used for work adjacent to the shoulder. 3. The ROAD WORK AHEAD sign may be omitted where the work space is behind a barrier, more than 24 inches behind the curb, or 15 feet or more from the edge of any roadway. 4. For short-term, short-duration or mobile operation, all signs and channelizing devices may be eliminated if a vehicle with activated high-intensity rotating, flashing, oscillating, or strobe lights is used. 5. Vehicle hazard warning signals may be used to supplement high-intensity rotating, flashing, oscillating, or strobe lights. Standard: 6. Vehicle hazard warning signals shall not be used instead of the vehicle’s high-intensity rotating, flashing, oscillating, or strobe lights. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 861 Figure 6P-1. Work Beyond the Shoulder (TA-1) W20-1 Note: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B"
+        },
+        {
+          "rank": 5,
+          "score": 62.22465,
+          "source_unit_code": "SEC-6N.12",
+          "unit_type": "section",
+          "title": "Work within the Traveled Way at an Intersection",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            888,
+            889,
+            890
+          ],
+          "printed_pages": [
+            848,
+            849,
+            850
+          ],
+          "available_regions": [
+            "activity",
+            "advance_warning",
+            "general_notes",
+            "transition"
+          ],
+          "source_excerpt": "Support: 01 Chapter 6C and Sections 6M.04 and 6N.04 contain additional information regarding the steps to follow when pedestrian or bicycle facilities are affected by the worksite. 02 The typical applications for intersections are classified according to the location of the work space with respect to the intersection area (as defined by the extension of the curb or edge lines). The three classifications are near side, far side, and in-the-intersection. Work spaces often extend into more than one portion of the intersection. For example, work in one quadrant often creates a near-side work space on one street and a far-side work space on the cross street. In such instances, an appropriate TTC plan is obtained by combining features shown in two or more of the intersection and pedestrian typical applications. 03 TTC zones in the vicinity of intersections might block movements and interfere with normal road user flows. Such conflicts frequently occur at more complex signalized intersections having such features as traffic signal heads over particular lanes, lanes allocated to specific movements, multiple signal phases, signal detectors for actuated control, and accessible pedestrian sig"
+        },
+        {
+          "rank": 6,
+          "score": 61.387987,
+          "source_unit_code": "TA-39",
+          "unit_type": "typical_application",
+          "title": "Median Crossover on a Freeway",
+          "chapter": "6P",
+          "figure_code": "6P-39",
+          "source_pages": [
+            976,
+            977
+          ],
+          "printed_pages": [
+            936,
+            937
+          ],
+          "available_regions": [
+            "advance_warning",
+            "applicability",
+            "channelizing_devices",
+            "distance_table",
+            "general_notes",
+            "transition"
+          ],
+          "source_excerpt": "Standard: 1. Channelizing devices or temporary traffic barriers shall be used to separate opposing vehicular traffic. 2. An arrow board shall be used when a freeway lane is closed. When more than one freeway lane is closed, a separate arrow board shall be used for each closed lane. Guidance: 3. For long-term work on high-speed, high-volume highways, consideration should be given to using a temporary traffic barrier to separate opposing vehicular traffic. Option: 4. When a temporary traffic barrier is used to separate opposing vehicular traffic, the Two-Way Traffic, Do Not Pass, KEEP RIGHT, and DO NOT ENTER signs may be eliminated. 5. The alignment of the crossover may be designed as a reverse curve. Guidance: 6. When the crossover follows a curved alignment, the design criteria contained in the “AASHTO Green Book – A Policy On Geometric Design Of Highways And Streets,” 7th Edition, 2018, AASHTO should be used. 7. When channelizing devices have the potential of leading vehicular traffic out of the intended traffic space, the channelizing devices should be extended a distance in feet of 2 times the speed limit in mph beyond the downstream end of the transition area as depicted. 8. Wh"
+        },
+        {
+          "rank": 7,
+          "score": 61.200821,
+          "source_unit_code": "TA-13",
+          "unit_type": "typical_application",
+          "title": "Temporary Road Closure",
+          "chapter": "6P",
+          "figure_code": "6P-13",
+          "source_pages": [
+            924,
+            925
+          ],
+          "printed_pages": [
+            884,
+            885
+          ],
+          "available_regions": [
+            "advance_warning",
+            "buffer",
+            "distance_table",
+            "general_notes"
+          ],
+          "source_excerpt": "Support: 1. Conditions represented are a planned closure not exceeding 20 minutes during the daytime. Standard: 2. A flagger or uniformed law enforcement officer shall be used for this application. The flagger, if used for this application, shall follow the procedures provided in Sections 6D.05 and 6D.06. Guidance: 3. The uniformed law enforcement officer, if used for this application, should follow the procedures provided in Sections 6D.05 and 6D.06. Option: 4. A BE PREPARED TO STOP sign may be added to the sign series. 5. Positive protection devices may be used per Section 6M.02. 6. Automated Flagger Assistance Devices (see Section 6L.02) may be used in situations where there is only one lane of approaching traffic in the direction to be controlled. Guidance: 7. When used, the BE PREPARED TO STOP sign should be located before the Flagger symbol sign. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 885 Figure 6P-13. Temporary Road Closure (TA-13) W20-1 C W3-4 B (optional) Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in this figure. A W20-7 Buffer space (optional) Buffer space (optional) A W20-"
+        },
+        {
+          "rank": 8,
+          "score": 61.048857,
+          "source_unit_code": "TA-52",
+          "unit_type": "typical_application",
+          "title": "Short-Term or Short-Duration Work in a Circular Intersection",
+          "chapter": "6P",
+          "figure_code": "6P-52",
+          "source_pages": [
+            1002,
+            1003
+          ],
+          "printed_pages": [
+            962,
+            963
+          ],
+          "available_regions": [
+            "advance_warning",
+            "applicability",
+            "channelizing_devices",
+            "distance_table",
+            "general_notes"
+          ],
+          "source_excerpt": "Option: 1. Flashing warning lights and/or flags may be used to call attention to the advance warning signs. A BE PREPARED TO STOP sign may be added to the sign series. 2. If closure continues overnight, warning lights may be used on the channelizing devices. Standard: 3. Where a quadrant of the circular intersection is closed, only one direction of approach traffic shall be released at a time. 4. At night, flagger stations shall be illuminated, except in emergencies. 5. WRONG WAY signs shall be covered. Guidance: 6. When used, the BE PREPARED TO STOP sign should be located between the Flagger sign and the ONE LANE ROAD sign. 7. YIELD, ONE WAY, and Directional arrow signs should be covered or removed. 8. Confusing or misleading guide or lane-use control signs should be covered. Option: 9. Crosswalks may be closed. 10. As an alternative to closing crosswalks, warning signs may be added informing pedestrians that there is traffic coming from the left. Guidance: 11. Since the geometrics of the circular intersection will be temporarily altered, consideration should be given to establishing a truck detour for the duration of the project. 12. For intermediate or long-term work, the circul"
+        },
+        {
+          "rank": 9,
+          "score": 60.544879,
+          "source_unit_code": "TA-3",
+          "unit_type": "typical_application",
+          "title": "Work on the Shoulders",
+          "chapter": "6P",
+          "figure_code": "6P-3",
+          "source_pages": [
+            904,
+            905
+          ],
+          "printed_pages": [
+            864,
+            865
+          ],
+          "available_regions": [
+            "advance_warning",
+            "channelizing_devices",
+            "distance_table",
+            "general_notes",
+            "transition"
+          ],
+          "source_excerpt": "Guidance: 1. A SHOULDER WORK sign should be placed on the left-hand side of the roadway for a divided or one- way street only if the left-hand shoulder is affected. Option: 2. Positive protection devices may be used per Section 6M.02. 3. The Workers symbol signs may be used instead of SHOULDER WORK signs. 4. The SHOULDER WORK sign on an intersecting roadway may be omitted where drivers emerging from that roadway will encounter another advance warning sign prior to this activity area. 5. For short-duration operations of 60 minutes or less, all signs and channelizing devices may be eliminated if a vehicle with activated high-intensity rotating, flashing, oscillating, or strobe lights is used. 6. Vehicle hazard warning signals may be used to supplement high-intensity rotating, flashing, oscillating, or strobe lights. Standard: 7. Vehicle hazard warning signals shall not be used instead of the vehicle’s high-intensity rotating, flashing, oscillating, or strobe lights. 8. When paved shoulders having a width of 8 feet or more are closed, at least one advance warning sign shall be used. In addition, channelizing devices shall be used to close the shoulder in advance to delineate the begin"
+        },
+        {
+          "rank": 10,
+          "score": 60.157244,
+          "source_unit_code": "TA-4",
+          "unit_type": "typical_application",
+          "title": "Short-Duration or Mobile Operation on a Shoulder",
+          "chapter": "6P",
+          "figure_code": "6P-4",
+          "source_pages": [
+            906,
+            907
+          ],
+          "printed_pages": [
+            866,
+            867
+          ],
+          "available_regions": [
+            "activity",
+            "advance_warning",
+            "general_notes",
+            "optional_devices"
+          ],
+          "source_excerpt": "Guidance: 1. In those situations where multiple work locations within a limited distance make it practicable to place stationary signs, the distance between the advance warning sign and the work should not exceed 5 miles. 2. In those situations where the distance between the advance signs and the work is 2 miles to 5 miles, a Supplemental Distance plaque should be used with the ROAD WORK AHEAD sign. Option: 3. Additional positive protection devices may be used per Section 6M.02. 4. The ROAD WORK NEXT XX MILES sign may be used instead of the ROAD WORK AHEAD sign if the work locations occur over a distance of more than 2 miles. 5. Stationary warning signs may be omitted for short-duration or mobile operations if the work vehicle displays high-intensity rotating, flashing, oscillating, or strobe lights. 6. Vehicle hazard warning signals may be used to supplement high-intensity rotating, flashing, oscillating, or strobe lights. Standard: 7. Vehicle hazard warning signals shall not be used instead of the vehicle’s high-intensity rotating, flashing, oscillating, or strobe lights. 8. If an arrow board is used for an operation on the shoulder, the caution mode shall be used. 9. Vehicle-mou"
+        },
+        {
+          "rank": 11,
+          "score": 60.133415,
+          "source_unit_code": "TA-31",
+          "unit_type": "typical_application",
+          "title": "Lane Closure on a Street with Uneven Directional Volumes",
+          "chapter": "6P",
+          "figure_code": "6P-31",
+          "source_pages": [
+            960,
+            961
+          ],
+          "printed_pages": [
+            920,
+            921
+          ],
+          "available_regions": [
+            "advance_warning",
+            "buffer",
+            "distance_table",
+            "general_notes",
+            "transition"
+          ],
+          "source_excerpt": "Standard: 1. The illustrated information shall be used only when the vehicular traffic volume indicates that two lanes of vehicular traffic shall be maintained in the direction of travel for which one lane is closed. Option: 2. The procedure may be used during a peak period of vehicular traffic and then changed to provide two lanes in the other direction for the other peak. Guidance: 3. For high speeds, a LEFT LANE CLOSED XX FT sign should be added for vehicular traffic approaching the lane closure, as shown in Figure 6P-32. 4. Conflicting pavement markings should be removed for long-term projects. For short-term and intermediate-term projects where this is impracticable, the channelizing devices in the area where the pavement markings conflict should be placed at a maximum spacing of ½ S feet where S is the speed in mph. Temporary markings should be installed where needed. 5. If the lane shift has curves with recommended speeds of 30 mph or less, Reverse Turn signs should be used. 6. Where the shifted section is long, a Reverse Curve sign should be used to show the initial shift and a second sign should be used to show the return to the normal alignment. 7. If the tangent distance"
+        },
+        {
+          "rank": 12,
+          "score": 59.214082,
+          "source_unit_code": "SEC-6N.04",
+          "unit_type": "section",
+          "title": "Work Affecting Pedestrian and Bicycle Facilities",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            883,
+            884
+          ],
+          "printed_pages": [
+            843,
+            844
+          ],
+          "available_regions": [
+            "channelizing_devices",
+            "distance_table",
+            "general_notes"
+          ],
+          "source_excerpt": "Support: 01 It is not uncommon, particularly in urban areas, that road work and the associated TTC will affect existing pedestrian or bicycle facilities. It is essential that the needs of all road users, including pedestrians with disabilities, are considered in TTC zones. 02 In addition to specific provisions identified in Sections 6N.05 through 6N.13, there are a number of provisions that might be applicable for all of the types of activities identified in this Chapter. Guidance: 03 Where pedestrian or bicyclist usage is high, the typical applications should be modified by giving particular attention to the provisions set forth in Chapter 6C, this Chapter, Sections 6K.02 and 6M.04, and in other Sections of Part 6 related to accessibility and detectability provisions in TTC zones. 04 Pedestrians should be separated from the worksite by appropriate devices that maintain the accessibility and detectability for pedestrians with disabilities. 05 Bicyclists and pedestrians should not be exposed to unprotected excavations, open utility access, overhanging equipment, or other such conditions. Known 06 Except for - and mobile operations, when a highway shoulder is occupied, a SHOULDER WOR"
+        }
+      ],
+      "continuation_token": "eyJrZXkiOiAiZDczNTYzYzczN2Q0OTI4MmY2NjEwYmYxZWFkNGM4ZWQ0YWJkNGU5OTljYjc4Yjc4NmM3NjUzYjVlZDNlZjI1NCIsICJraW5kIjogInNlYXJjaCIsICJvZmZzZXQiOiAxMn0",
+      "has_more": true,
+      "recognized_manual_source_unit_codes": [],
+      "correct_page_or_application_whitelist": null
+    }
+  },
+  {
+    "step": 2,
+    "phase": "requirement_discovery",
+    "tool": "search_manual",
+    "arguments": {
+      "query": "Typical Application two-lane road one lane closed alternating one-way traffic channelizing devices work area stationary",
+      "page_size": 12,
+      "continuation_token": null
+    },
+    "result": {
+      "operation": "search_manual",
+      "query": "Typical Application two-lane road one lane closed alternating one-way traffic channelizing devices work area stationary",
+      "corpus_scope": "entire frozen MUTCD 11th Edition structured index",
+      "candidate_source_unit_count": 1013,
+      "items": [
+        {
+          "rank": 1,
+          "score": 37.75138,
+          "source_unit_code": "SEC-6P.01",
+          "unit_type": "section",
+          "title": "Typical Applications",
+          "chapter": "6P",
+          "figure_code": null,
+          "source_pages": [
+            897,
+            898,
+            899,
+            900,
+            901,
+            902,
+            903,
+            904,
+            905,
+            906,
+            907,
+            908,
+            909,
+            910,
+            911,
+            912,
+            913,
+            914,
+            915,
+            916,
+            917,
+            918,
+            919,
+            920,
+            921,
+            922,
+            923,
+            924,
+            925,
+            926,
+            927,
+            928,
+            929,
+            930,
+            931,
+            932,
+            933,
+            934,
+            935,
+            936,
+            937,
+            938,
+            939,
+            940,
+            941,
+            942,
+            943,
+            944,
+            945,
+            946,
+            947,
+            948,
+            949,
+            950,
+            951,
+            952,
+            953,
+            954,
+            955,
+            956,
+            957,
+            958,
+            959,
+            960,
+            961,
+            962,
+            963,
+            964,
+            965,
+            966,
+            967,
+            968,
+            969,
+            970,
+            971,
+            972,
+            973,
+            974,
+            975,
+            976,
+            977,
+            978,
+            979,
+            980,
+            981,
+            982,
+            983,
+            984,
+            985,
+            986,
+            987,
+            988,
+            989,
+            990,
+            991,
+            992,
+            993,
+            994,
+            995,
+            996,
+            997,
+            998,
+            999,
+            1000,
+            1001,
+            1002,
+            1003,
+            1004,
+            1005,
+            1006,
+            1007,
+            1008,
+            1009
+          ],
+          "printed_pages": [
+            857,
+            858,
+            859,
+            860,
+            861,
+            862,
+            863,
+            864,
+            865,
+            866,
+            867,
+            868,
+            869,
+            870,
+            871,
+            872,
+            873,
+            874,
+            875,
+            876,
+            877,
+            878,
+            879,
+            880,
+            881,
+            882,
+            883,
+            884,
+            885,
+            886,
+            887,
+            888,
+            889,
+            890,
+            891,
+            892,
+            893,
+            894,
+            895,
+            896,
+            897,
+            898,
+            899,
+            900,
+            901,
+            902,
+            903,
+            904,
+            905,
+            906,
+            907,
+            908,
+            909,
+            910,
+            911,
+            912,
+            913,
+            914,
+            915,
+            916,
+            917,
+            918,
+            919,
+            920,
+            921,
+            922,
+            923,
+            924,
+            925,
+            926,
+            927,
+            928,
+            929,
+            930,
+            931,
+            932,
+            933,
+            934,
+            935,
+            936,
+            937,
+            938,
+            939,
+            940,
+            941,
+            942,
+            943,
+            944,
+            945,
+            946,
+            947,
+            948,
+            949,
+            950,
+            951,
+            952,
+            953,
+            954,
+            955,
+            956,
+            957,
+            958,
+            959,
+            960,
+            961,
+            962,
+            963,
+            964,
+            965,
+            966,
+            967,
+            968,
+            969
+          ],
+          "available_regions": [
+            "activity",
+            "advance_warning",
+            "applicability",
+            "buffer",
+            "channelizing_devices",
+            "distance_table",
+            "general_notes",
+            "pavement_markings",
+            "transition"
+          ],
+          "source_excerpt": "Support: 01 Chapter 6N contains discussions of typical TTC activities. Section 6A.02 contains discussions on development of TTC plans for the various activities. This Chapter presents typical applications for a variety of situations commonly encountered. While not every situation is addressed, the information illustrated can generally be adapted to a broad range of conditions. In many instances, an appropriate TTC plan is achieved by combining features from various typical applications. For example, work at an intersection might present a near-side TTC zone for one street and a far-side TTC zone for the other street. These treatments are found in two different typical applications, while a third typical application shows how to handle pedestrian crosswalk closures. 02 In general, the procedures illustrated represent minimum solutions for the situations depicted. Except for the notes (which are clearly classified using headings as being Standard, Guidance, Option, or Support), the information presented in the typical applications can generally be regarded as Guidance. Option: 03 TTC plans may deviate from the typical applications described in this Chapter to allow for conditions and"
+        },
+        {
+          "rank": 2,
+          "score": 37.083759,
+          "source_unit_code": "SEC-6N.11",
+          "unit_type": "section",
+          "title": "Work within the Traveled Way of a Multi-Lane, Non-Access Controlled Highway",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            887,
+            888
+          ],
+          "printed_pages": [
+            847,
+            848
+          ],
+          "available_regions": [
+            "activity",
+            "channelizing_devices",
+            "general_notes",
+            "pavement_markings",
+            "transition"
+          ],
+          "source_excerpt": "Support: 01 Chapter 6C and Sections 6M.04 and 6N.04 contain additional information regarding the steps to follow when pedestrian or bicycle facilities are affected by the worksite. 02 Work on multi-lane (two or more lanes of moving motor vehicle traffic in one direction) highways is divided into right-lane closures, left-lane closures, interior-lane closures, multiple-lane closures, and closures on five-lane roadways. Standard: 03 When a lane is closed on a multi-lane road for other than a mobile operation, a transition area containing a merging taper shall be used. Guidance: 04 When justified by an engineering study, temporary traffic barriers (see Section 6K.09) should be used to prevent incursions of errant vehicles into hazardous areas or work space. Support: 05 Figure 6P-34 illustrates a lane closure in which temporary traffic barriers are used. Option: 06 When the right-hand lane is closed, TTC similar to that shown in Figure 6P-33 may be used for undivided or divided four-lane roads. December 2023 Sect. 6N.10 to 6N.11 Page 848 MUTCD 11th Edition Guidance: 07 If morning and evening peak hour vehicular traffic volumes in the two directions are uneven and the greater volume is "
+        },
+        {
+          "rank": 3,
+          "score": 37.004012,
+          "source_unit_code": "TA-33",
+          "unit_type": "typical_application",
+          "title": "Stationary Lane Closure on a Divided Highway",
+          "chapter": "6P",
+          "figure_code": "6P-33",
+          "source_pages": [
+            964,
+            965
+          ],
+          "printed_pages": [
+            924,
+            925
+          ],
+          "available_regions": [
+            "activity",
+            "advance_warning",
+            "buffer",
+            "channelizing_devices",
+            "distance_table",
+            "general_notes",
+            "optional_devices",
+            "transition"
+          ],
+          "source_excerpt": "Standard: 1. This information also shall be used when work is being performed in the lane adjacent to the median on a divided highway. In this case, the LEFT LANE CLOSED signs and the corresponding Lane Ends signs shall be substituted. 2. When a side road intersects the highway within the TTC zone, additional TTC devices shall be placed as needed. Guidance: 3. When paved shoulders having a width of 8 feet or more are closed, channelizing devices should be used to close the shoulder in advance of the merging taper to direct vehicular traffic to remain within the traveled way. Option: 4. A truck-mounted attenuator may be used on the work vehicle and/or shadow vehicle. 5. Positive protection devices may be used per Section 6M.02. Support: 6. Where conditions permit, restricting all vehicles, equipment, workers, and their activities to one side of the roadway might be advantageous. Standard: 7. An arrow board shall be used when a freeway lane is closed. When more than one freeway lane is closed, a separate arrow board shall be used for each closed lane. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 925 Figure 6P-33. Stationary Lane Closure on a Divided Highway (TA-33) G20-2 (option"
+        },
+        {
+          "rank": 4,
+          "score": 36.46484,
+          "source_unit_code": "TA-45",
+          "unit_type": "typical_application",
+          "title": "Temporary Reversible Lane Using Movable Barriers",
+          "chapter": "6P",
+          "figure_code": "6P-45",
+          "source_pages": [
+            988,
+            989
+          ],
+          "printed_pages": [
+            948,
+            949
+          ],
+          "available_regions": [
+            "advance_warning",
+            "buffer",
+            "channelizing_devices",
+            "distance_table",
+            "general_notes",
+            "transition"
+          ],
+          "source_excerpt": "Support: 1. This application addresses one of several uses for movable barriers (see Section 6M.02) in highway TTC zones. In this example, one side of a 6-lane divided highway is closed to perform the work operation, and vehicular traffic is carried in both directions on the remaining 3-lane roadway by means of a median crossover. To accommodate unbalanced peak-period vehicular traffic volumes, the direction of travel in the center lane is switched to the direction having the greater volume, with the transfer typically being made twice daily. Thus, there are four vehicular traffic phases described as follows: a. Phase A—two travel lanes northbound and one lane southbound; b. Transition A to B—one travel lane in each direction; c. Phase B—one travel lane northbound and two lanes southbound; and d. Transition B to A—one travel lane in each direction. The typical application on the left illustrates the placement of devices during Phase A. The typical application on the right shows conditions during the transition (Transition A to B) from Phase A to Phase B. Guidance: 2. For the reversible lane situation depicted, the ends of the movable barrier should terminate in a protected area or "
+        },
+        {
+          "rank": 5,
+          "score": 36.415402,
+          "source_unit_code": "SEC-6N.09",
+          "unit_type": "section",
+          "title": "Work within the Traveled Way of a Two-Lane Highway",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            886,
+            887
+          ],
+          "printed_pages": [
+            846,
+            847
+          ],
+          "available_regions": [
+            "general_notes",
+            "pavement_markings"
+          ],
+          "source_excerpt": "Support: 01 Chapter 6C and Sections 6M.04 and 6N.04 contain additional information regarding the steps to follow when pedestrian or bicycle facilities are affected by the worksite. 02 Detour signs are used to direct road users onto another roadway. At diversions, road users are directed onto a temporary roadway or alignment placed within or adjacent to the right-of-way. Typical applications for detouring or diverting road users on two-lane highways are shown in Figures 6P-7, 6P-8, and 6P-9. Figure 6P-7 illustrates the controls around an area where a section of roadway has been closed and a diversion has been constructed. Channelizing devices and pavement markings are used to indicate the transition to the temporary roadway. Guidance: 03 When a detour is long, Detour (M4-8, M4-9) signs should be installed to remind and reassure road users periodically that they are still successfully following the detour. 04 When an entire roadway is closed, as illustrated in Figure 6P-8, a detour should be provided and road users should be warned in advance of the closure, which in this example is a closure 10 miles from the intersection. If local road users are allowed to use the roadway up to the"
+        },
+        {
+          "rank": 6,
+          "score": 36.110625,
+          "source_unit_code": "SEC-6L.06",
+          "unit_type": "section",
+          "title": "Arrow Boards",
+          "chapter": "6L",
+          "figure_code": null,
+          "source_pages": [
+            872,
+            873,
+            874,
+            875
+          ],
+          "printed_pages": [
+            832,
+            833,
+            834,
+            835
+          ],
+          "available_regions": [
+            "channelizing_devices",
+            "distance_table",
+            "general_notes",
+            "transition"
+          ],
+          "source_excerpt": "Standard: 01 An arrow board shall be a sign with a matrix of elements capable of either flashing or sequential displays. This sign shall provide additional warning and directional information to assist in merging and controlling road users through or around a TTC zone. Guidance: 02 An arrow board in the arrow or chevron mode should be used to advise approaching traffic of a lane closure along major multi-lane roadways in situations involving heavy traffic volumes, high speeds, and/or limited sight distances, or at other locations and under other conditions where road users are less likely to expect such lane closures. Sect. 6L.05 to 6L.06 December 2023 MUTCD 11th Edition Page 833 03 If used, an arrow board should be used in combination with appropriate signs, channelizing devices, or other TTC devices. 04 An arrow board should be placed on the shoulder of the roadway or, if practicable, farther from the traveled lane. It should be delineated with retroreflective TTC devices. When an arrow board is not being used, it should be removed; if not removed, it should be shielded; or if the previous two options are not feasible, it should be delineated with retroreflective TTC devices. Sta"
+        },
+        {
+          "rank": 7,
+          "score": 35.622992,
+          "source_unit_code": "SEC-6N.06",
+          "unit_type": "section",
+          "title": "Work on the Shoulder with No Encroachment",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            885,
+            886
+          ],
+          "printed_pages": [
+            845,
+            846
+          ],
+          "available_regions": [
+            "activity",
+            "advance_warning",
+            "applicability",
+            "channelizing_devices",
+            "general_notes"
+          ],
+          "source_excerpt": "Support: 01 The provisions of this Section apply to short-term through long-term stationary operations. Standard: 02 When paved shoulders having a width of 8 feet or more are closed, at least one advance warning sign shall be used. In addition, channelizing devices shall be used to close the shoulder in advance to delineate the beginning of the work space and direct motor vehicle traffic to remain within the traveled way. Guidance: 03 When paved shoulders having a width of 8 feet or more are closed on freeways and expressways, road users should be warned about potential disabled vehicles that cannot get off the traveled way. An initial general warning sign, such as ROAD WORK AHEAD (W20-1), should be used, followed by a RIGHT or LEFT SHOULDER CLOSED (W21-5a) sign. Where the downstream end of the shoulder closure extends beyond the distance that can be perceived by road users, a supplementary plaque bearing the message NEXT XX FEET (W16-4P) or MILES (W7-3aP) should be placed below the SHOULDER CLOSED (W21-5a) sign. On multi-lane, divided highways, signs advising of shoulder work or the condition of the shoulder should be placed only on the side of the affected shoulder. 04 When an im"
+        },
+        {
+          "rank": 8,
+          "score": 35.526754,
+          "source_unit_code": "TA-29",
+          "unit_type": "typical_application",
+          "title": "Crosswalk Closures and Pedestrian Detours",
+          "chapter": "6P",
+          "figure_code": "6P-29",
+          "source_pages": [
+            956,
+            957
+          ],
+          "printed_pages": [
+            916,
+            917
+          ],
+          "available_regions": [
+            "advance_warning",
+            "channelizing_devices",
+            "distance_table",
+            "general_notes"
+          ],
+          "source_excerpt": "Standard: 1. When crosswalks or other pedestrian facilities are closed or relocated, temporary facilities shall be detectable and shall include accessibility features consistent with the features present in the existing pedestrian facility. 2. Curb parking shall be prohibited for at least 50 feet in advance of the midblock crosswalk. 3. SIDEWALK CLOSED CROSS HERE signs shall include audible information devices to provide adequate communication to pedestrians with vision disabilities. 4. Audible information devices shall be provided where midblock sidewalk closings and changed crosswalk areas cause inadequate communication to be provided to pedestrians with vision disabilities. Guidance: 5. Pedestrian traffic signal displays controlling closed crosswalks should be covered or deactivated. Option: 6. Street lighting may be considered. 7. Only the TTC devices related to pedestrians are shown. Other devices, such as lane closure signing or ROAD NARROWS signs, may be used to control vehicular traffic. 8. For nighttime closures, Type A Flashing warning lights may be used on barricades supporting signs and closing sidewalks. 9. Type C Steady-Burn or Type D 360-degree Steady-Burn warning li"
+        },
+        {
+          "rank": 9,
+          "score": 35.226045,
+          "source_unit_code": "TA-34",
+          "unit_type": "typical_application",
+          "title": "Lane Closure with a Temporary Traffic Barrier",
+          "chapter": "6P",
+          "figure_code": "6P-34",
+          "source_pages": [
+            966,
+            967
+          ],
+          "printed_pages": [
+            926,
+            927
+          ],
+          "available_regions": [
+            "advance_warning",
+            "applicability",
+            "buffer",
+            "channelizing_devices",
+            "distance_table",
+            "general_notes",
+            "pavement_markings",
+            "transition"
+          ],
+          "source_excerpt": "Standard: 1. This information also shall be used when work is being performed in the lane adjacent to the median on a divided highway. In this case, the LEFT LANE CLOSED signs and the corresponding Lane Ends signs shall be substituted. Guidance: 2. For long-term lane closures on facilities with permanent edge lines, a temporary edge line should be installed from the upstream end of the merging taper to the downstream end of the downstream taper, and conflicting pavement markings should be removed. 3. The use of a barrier should be based on engineering judgment. Standard: 4. Temporary traffic barriers, if used, shall comply with the provisions of Section 6M.02. 5. The barrier shall not be placed along the merging taper. The lane shall first be closed using channelizing devices and pavement markings. Option: 6. Type C Steady-Burn warning lights may be placed on channelizing devices and the barrier parallel to the edge of pavement for nighttime lane closures. 7. The barrier shown in this typical application is an example of one method that may be used to close a lane for a long-term project. If the work activity permits, a movable barrier may be used and relocated to the shoulder duri"
+        },
+        {
+          "rank": 10,
+          "score": 35.154881,
+          "source_unit_code": "TA-38",
+          "unit_type": "typical_application",
+          "title": "Interior Lane Closure on a Freeway",
+          "chapter": "6P",
+          "figure_code": "6P-38",
+          "source_pages": [
+            974,
+            975
+          ],
+          "printed_pages": [
+            934,
+            935
+          ],
+          "available_regions": [
+            "activity",
+            "advance_warning",
+            "applicability",
+            "buffer",
+            "channelizing_devices",
+            "distance_table",
+            "general_notes",
+            "pavement_markings",
+            "transition"
+          ],
+          "source_excerpt": "Standard: 1. An arrow board shall be used when a freeway lane is closed. When more than one freeway lane is closed, a separate arrow board shall be used for each closed lane. 2. If temporary traffic barriers are installed, they shall comply with the provisions and requirements in Section 6M.02. 3. The barrier shall not be placed along the shifting taper. The lane shall first be shifted using channelizing devices and pavement markings. 4. For long-term stationary work, existing conflicting pavement markings shall be removed and temporary markings shall be installed before traffic patterns are changed. Guidance: 5. For a long-term closure, a barrier should be used to provide additional safety to the operation in the closed interior lane. A buffer space should be used at the upstream end of the closed interior lane. 6. An arrow board displaying an arrow pointing to the right should be placed on the left-hand shoulder at the beginning of the taper. 7. For long-term use, the broken lane lines should be made solid white in the two-lane section. Option: 8. As an alternative to initially closing the left-hand lane, as shown in the typical application, the right-hand lane may be closed in a"
+        },
+        {
+          "rank": 11,
+          "score": 34.891744,
+          "source_unit_code": "TA-3",
+          "unit_type": "typical_application",
+          "title": "Work on the Shoulders",
+          "chapter": "6P",
+          "figure_code": "6P-3",
+          "source_pages": [
+            904,
+            905
+          ],
+          "printed_pages": [
+            864,
+            865
+          ],
+          "available_regions": [
+            "advance_warning",
+            "channelizing_devices",
+            "distance_table",
+            "general_notes",
+            "transition"
+          ],
+          "source_excerpt": "Guidance: 1. A SHOULDER WORK sign should be placed on the left-hand side of the roadway for a divided or one- way street only if the left-hand shoulder is affected. Option: 2. Positive protection devices may be used per Section 6M.02. 3. The Workers symbol signs may be used instead of SHOULDER WORK signs. 4. The SHOULDER WORK sign on an intersecting roadway may be omitted where drivers emerging from that roadway will encounter another advance warning sign prior to this activity area. 5. For short-duration operations of 60 minutes or less, all signs and channelizing devices may be eliminated if a vehicle with activated high-intensity rotating, flashing, oscillating, or strobe lights is used. 6. Vehicle hazard warning signals may be used to supplement high-intensity rotating, flashing, oscillating, or strobe lights. Standard: 7. Vehicle hazard warning signals shall not be used instead of the vehicle’s high-intensity rotating, flashing, oscillating, or strobe lights. 8. When paved shoulders having a width of 8 feet or more are closed, at least one advance warning sign shall be used. In addition, channelizing devices shall be used to close the shoulder in advance to delineate the begin"
+        },
+        {
+          "rank": 12,
+          "score": 34.274333,
+          "source_unit_code": "SEC-6N.13",
+          "unit_type": "section",
+          "title": "Work within the Traveled Way of a Freeway or Expressway",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            890
+          ],
+          "printed_pages": [
+            850
+          ],
+          "available_regions": [
+            "activity",
+            "distance_table",
+            "general_notes",
+            "transition"
+          ],
+          "source_excerpt": "Support: 01 Special conditions encountered where vehicular traffic must be moved through or around TTC zones on high- speed, high-volume roadways can pose challenges to the TTC. Although the general principles outlined in other Sections of this Manual are applicable to all types of highways, high-speed, access-controlled highways need special planning and attention in order to accommodate vehicular traffic while also protecting road users and workers. The traffic volumes, vehicle mix (buses, trucks, cars, and bicycles, if permitted), and speed of vehicles on these facilities require that careful TTC procedures be implemented, for example, to induce critical merging maneuvers well in advance of work spaces and in a manner that creates minimum turbulence and delay in the vehicular traffic stream. 02 When the roadway capacity is reduced as a result of lane closures, the demand might exceed the available capacity and result in either a lengthy stopped or slow moving queue of vehicles that might extend past the normal signs used in the typical advance warning area. Guidance: 03 An assessment of the expected queue length should be a part of the TTC plan design process and adjustments to "
+        }
+      ],
+      "continuation_token": "eyJrZXkiOiAiMDQxMDg3ZDYzNDRiMWU4M2Q3ZDQxMWIzMTVhY2E0MWQxN2EyYjBhYzA1OTIxOTdlMWViNWNkMDY5ZjdiNGU4ZiIsICJraW5kIjogInNlYXJjaCIsICJvZmZzZXQiOiAxMn0",
+      "has_more": true,
+      "recognized_manual_source_unit_codes": [],
+      "correct_page_or_application_whitelist": null
+    }
+  },
+  {
+    "step": 3,
+    "phase": "requirement_discovery",
+    "tool": "search_manual",
+    "arguments": {
+      "query": "TA two-lane road lane closure work within traveled way flagger one lane two-way traffic Figure 6P",
+      "page_size": 12,
+      "continuation_token": null
+    },
+    "result": {
+      "operation": "search_manual",
+      "query": "TA two-lane road lane closure work within traveled way flagger one lane two-way traffic Figure 6P",
+      "corpus_scope": "entire frozen MUTCD 11th Edition structured index",
+      "candidate_source_unit_count": 1013,
+      "items": [
+        {
+          "rank": 1,
+          "score": 49.790755,
+          "source_unit_code": "SEC-6N.12",
+          "unit_type": "section",
+          "title": "Work within the Traveled Way at an Intersection",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            888,
+            889,
+            890
+          ],
+          "printed_pages": [
+            848,
+            849,
+            850
+          ],
+          "available_regions": [
+            "activity",
+            "advance_warning",
+            "general_notes",
+            "transition"
+          ],
+          "source_excerpt": "Support: 01 Chapter 6C and Sections 6M.04 and 6N.04 contain additional information regarding the steps to follow when pedestrian or bicycle facilities are affected by the worksite. 02 The typical applications for intersections are classified according to the location of the work space with respect to the intersection area (as defined by the extension of the curb or edge lines). The three classifications are near side, far side, and in-the-intersection. Work spaces often extend into more than one portion of the intersection. For example, work in one quadrant often creates a near-side work space on one street and a far-side work space on the cross street. In such instances, an appropriate TTC plan is obtained by combining features shown in two or more of the intersection and pedestrian typical applications. 03 TTC zones in the vicinity of intersections might block movements and interfere with normal road user flows. Such conflicts frequently occur at more complex signalized intersections having such features as traffic signal heads over particular lanes, lanes allocated to specific movements, multiple signal phases, signal detectors for actuated control, and accessible pedestrian sig"
+        },
+        {
+          "rank": 2,
+          "score": 49.174713,
+          "source_unit_code": "SEC-6N.09",
+          "unit_type": "section",
+          "title": "Work within the Traveled Way of a Two-Lane Highway",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            886,
+            887
+          ],
+          "printed_pages": [
+            846,
+            847
+          ],
+          "available_regions": [
+            "general_notes",
+            "pavement_markings"
+          ],
+          "source_excerpt": "Support: 01 Chapter 6C and Sections 6M.04 and 6N.04 contain additional information regarding the steps to follow when pedestrian or bicycle facilities are affected by the worksite. 02 Detour signs are used to direct road users onto another roadway. At diversions, road users are directed onto a temporary roadway or alignment placed within or adjacent to the right-of-way. Typical applications for detouring or diverting road users on two-lane highways are shown in Figures 6P-7, 6P-8, and 6P-9. Figure 6P-7 illustrates the controls around an area where a section of roadway has been closed and a diversion has been constructed. Channelizing devices and pavement markings are used to indicate the transition to the temporary roadway. Guidance: 03 When a detour is long, Detour (M4-8, M4-9) signs should be installed to remind and reassure road users periodically that they are still successfully following the detour. 04 When an entire roadway is closed, as illustrated in Figure 6P-8, a detour should be provided and road users should be warned in advance of the closure, which in this example is a closure 10 miles from the intersection. If local road users are allowed to use the roadway up to the"
+        },
+        {
+          "rank": 3,
+          "score": 48.038442,
+          "source_unit_code": "SEC-6N.13",
+          "unit_type": "section",
+          "title": "Work within the Traveled Way of a Freeway or Expressway",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            890
+          ],
+          "printed_pages": [
+            850
+          ],
+          "available_regions": [
+            "activity",
+            "distance_table",
+            "general_notes",
+            "transition"
+          ],
+          "source_excerpt": "Support: 01 Special conditions encountered where vehicular traffic must be moved through or around TTC zones on high- speed, high-volume roadways can pose challenges to the TTC. Although the general principles outlined in other Sections of this Manual are applicable to all types of highways, high-speed, access-controlled highways need special planning and attention in order to accommodate vehicular traffic while also protecting road users and workers. The traffic volumes, vehicle mix (buses, trucks, cars, and bicycles, if permitted), and speed of vehicles on these facilities require that careful TTC procedures be implemented, for example, to induce critical merging maneuvers well in advance of work spaces and in a manner that creates minimum turbulence and delay in the vehicular traffic stream. 02 When the roadway capacity is reduced as a result of lane closures, the demand might exceed the available capacity and result in either a lengthy stopped or slow moving queue of vehicles that might extend past the normal signs used in the typical advance warning area. Guidance: 03 An assessment of the expected queue length should be a part of the TTC plan design process and adjustments to "
+        },
+        {
+          "rank": 4,
+          "score": 47.659737,
+          "source_unit_code": "SEC-6N.10",
+          "unit_type": "section",
+          "title": "Work within the Traveled Way of an Urban Street",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            887
+          ],
+          "printed_pages": [
+            847
+          ],
+          "available_regions": [
+            "channelizing_devices",
+            "general_notes"
+          ],
+          "source_excerpt": "Support: 01 Chapter 6C and Sections 6M.04 and 6N.04 contain additional information regarding the steps to follow when pedestrian or bicycle facilities are affected by the worksite. 02 In urban TTC zones, decisions are needed on how to control vehicular traffic, such as how many lanes are required, whether any turns need to be prohibited at intersections, and how to maintain access to business, industrial, and residential areas. 03 Pedestrian traffic needs separate attention. Chapter 6C contains information regarding pedestrian movements near TTC zones. Standard: 04 If the TTC zone affects the movement of bicyclists, adequate access to the roadway or shared-use paths shall be provided (see Part 9). 05 Where transit stops are affected or relocated because of work activity, both pedestrian and vehicular access to the affected or relocated transit stops shall be provided. Guidance: 06 If a designated bicycle route is closed because of the work being done, a signed alternate route should be provided. Bicyclists should not be directed onto the path used by pedestrians. 07 Worksites within the intersection should be protected against inadvertent pedestrian incursion by providing detectabl"
+        },
+        {
+          "rank": 5,
+          "score": 45.619288,
+          "source_unit_code": "SEC-6N.17",
+          "unit_type": "section",
+          "title": "Work in the Vicinity of a Grade Crossing",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            891
+          ],
+          "printed_pages": [
+            851
+          ],
+          "available_regions": [
+            "general_notes"
+          ],
+          "source_excerpt": "Standard: 01 When grade crossings exist either within or in the vicinity of a TTC zone, lane restrictions, flagging, or other operations shall not create conditions where vehicles can be queued across the tracks. If the queuing of vehicles across the tracks cannot be avoided, a uniformed law enforcement officer or flagger shall be provided at the crossing to prevent vehicles from stopping on the tracks, even if automatic warning devices are in place. Support: 02 Figure 6P-46 shows work in the vicinity of a grade crossing. 03 Section 8A.13 contains additional information regarding TTC zones in the vicinity of grade crossings. Guidance: 04 Early coordination with the railroad company or transit agency should occur before work starts."
+        },
+        {
+          "rank": 6,
+          "score": 44.570435,
+          "source_unit_code": "SEC-6N.04",
+          "unit_type": "section",
+          "title": "Work Affecting Pedestrian and Bicycle Facilities",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            883,
+            884
+          ],
+          "printed_pages": [
+            843,
+            844
+          ],
+          "available_regions": [
+            "channelizing_devices",
+            "distance_table",
+            "general_notes"
+          ],
+          "source_excerpt": "Support: 01 It is not uncommon, particularly in urban areas, that road work and the associated TTC will affect existing pedestrian or bicycle facilities. It is essential that the needs of all road users, including pedestrians with disabilities, are considered in TTC zones. 02 In addition to specific provisions identified in Sections 6N.05 through 6N.13, there are a number of provisions that might be applicable for all of the types of activities identified in this Chapter. Guidance: 03 Where pedestrian or bicyclist usage is high, the typical applications should be modified by giving particular attention to the provisions set forth in Chapter 6C, this Chapter, Sections 6K.02 and 6M.04, and in other Sections of Part 6 related to accessibility and detectability provisions in TTC zones. 04 Pedestrians should be separated from the worksite by appropriate devices that maintain the accessibility and detectability for pedestrians with disabilities. 05 Bicyclists and pedestrians should not be exposed to unprotected excavations, open utility access, overhanging equipment, or other such conditions. Known 06 Except for - and mobile operations, when a highway shoulder is occupied, a SHOULDER WOR"
+        },
+        {
+          "rank": 7,
+          "score": 43.631065,
+          "source_unit_code": "SEC-6N.11",
+          "unit_type": "section",
+          "title": "Work within the Traveled Way of a Multi-Lane, Non-Access Controlled Highway",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            887,
+            888
+          ],
+          "printed_pages": [
+            847,
+            848
+          ],
+          "available_regions": [
+            "activity",
+            "channelizing_devices",
+            "general_notes",
+            "pavement_markings",
+            "transition"
+          ],
+          "source_excerpt": "Support: 01 Chapter 6C and Sections 6M.04 and 6N.04 contain additional information regarding the steps to follow when pedestrian or bicycle facilities are affected by the worksite. 02 Work on multi-lane (two or more lanes of moving motor vehicle traffic in one direction) highways is divided into right-lane closures, left-lane closures, interior-lane closures, multiple-lane closures, and closures on five-lane roadways. Standard: 03 When a lane is closed on a multi-lane road for other than a mobile operation, a transition area containing a merging taper shall be used. Guidance: 04 When justified by an engineering study, temporary traffic barriers (see Section 6K.09) should be used to prevent incursions of errant vehicles into hazardous areas or work space. Support: 05 Figure 6P-34 illustrates a lane closure in which temporary traffic barriers are used. Option: 06 When the right-hand lane is closed, TTC similar to that shown in Figure 6P-33 may be used for undivided or divided four-lane roads. December 2023 Sect. 6N.10 to 6N.11 Page 848 MUTCD 11th Edition Guidance: 07 If morning and evening peak hour vehicular traffic volumes in the two directions are uneven and the greater volume is "
+        },
+        {
+          "rank": 8,
+          "score": 43.429618,
+          "source_unit_code": "TA-1",
+          "unit_type": "typical_application",
+          "title": "Work Beyond the Shoulder",
+          "chapter": "6P",
+          "figure_code": "6P-1",
+          "source_pages": [
+            900,
+            901
+          ],
+          "printed_pages": [
+            860,
+            861
+          ],
+          "available_regions": [
+            "advance_warning",
+            "applicability",
+            "general_notes"
+          ],
+          "source_excerpt": "Guidance: 1. If the work space is in the median of a divided highway, an advance warning sign should also be placed on the left-hand side of the directional roadway. Option: 2. The ROAD WORK AHEAD sign may be replaced with other appropriate signs such as the SHOULDER WORK sign. The SHOULDER WORK sign may be used for work adjacent to the shoulder. 3. The ROAD WORK AHEAD sign may be omitted where the work space is behind a barrier, more than 24 inches behind the curb, or 15 feet or more from the edge of any roadway. 4. For short-term, short-duration or mobile operation, all signs and channelizing devices may be eliminated if a vehicle with activated high-intensity rotating, flashing, oscillating, or strobe lights is used. 5. Vehicle hazard warning signals may be used to supplement high-intensity rotating, flashing, oscillating, or strobe lights. Standard: 6. Vehicle hazard warning signals shall not be used instead of the vehicle’s high-intensity rotating, flashing, oscillating, or strobe lights. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 861 Figure 6P-1. Work Beyond the Shoulder (TA-1) W20-1 Note: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B"
+        },
+        {
+          "rank": 9,
+          "score": 43.219658,
+          "source_unit_code": "SEC-6N.05",
+          "unit_type": "section",
+          "title": "Work Outside of the Shoulder",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            884,
+            885
+          ],
+          "printed_pages": [
+            844,
+            845
+          ],
+          "available_regions": [
+            "advance_warning",
+            "general_notes"
+          ],
+          "source_excerpt": "Support: 01 When work is being performed beyond the shoulders, but within the right-of-way, little or no TTC might be needed. TTC generally is not needed where work is confined to an area 15 feet or more from the edge of the traveled way. However, TTC is appropriate where distracting situations exist, such as vehicles parked on the shoulder, vehicles accessing the worksite via the highway, and equipment traveling on or crossing the roadway to perform the work operations (for example, mowing). A typical application for work beyond the shoulder is shown in Figure 6P-1. Sect. 6N.04 to 6N.05 December 2023 MUTCD 11th Edition Page 845 Guidance: 02 Where the situations described in Paragraph 1 of this Section exist, a single warning sign, such as ROAD WORK AHEAD (W20-1), should be used. If the equipment travels on the roadway, the equipment should be equipped with appropriate flags, high-intensity rotating, flashing, oscillating, or strobe lights, and/or a SLOW MOVING VEHICLE (W21-4) sign. 03 If work vehicles are on the shoulder, a SHOULDER WORK (W21-5) sign should be used. 04 A general warning sign like ROAD MACHINERY AHEAD (W21-3) should be used if workers and equipment must occasionall"
+        },
+        {
+          "rank": 10,
+          "score": 42.233621,
+          "source_unit_code": "SEC-6P.01",
+          "unit_type": "section",
+          "title": "Typical Applications",
+          "chapter": "6P",
+          "figure_code": null,
+          "source_pages": [
+            897,
+            898,
+            899,
+            900,
+            901,
+            902,
+            903,
+            904,
+            905,
+            906,
+            907,
+            908,
+            909,
+            910,
+            911,
+            912,
+            913,
+            914,
+            915,
+            916,
+            917,
+            918,
+            919,
+            920,
+            921,
+            922,
+            923,
+            924,
+            925,
+            926,
+            927,
+            928,
+            929,
+            930,
+            931,
+            932,
+            933,
+            934,
+            935,
+            936,
+            937,
+            938,
+            939,
+            940,
+            941,
+            942,
+            943,
+            944,
+            945,
+            946,
+            947,
+            948,
+            949,
+            950,
+            951,
+            952,
+            953,
+            954,
+            955,
+            956,
+            957,
+            958,
+            959,
+            960,
+            961,
+            962,
+            963,
+            964,
+            965,
+            966,
+            967,
+            968,
+            969,
+            970,
+            971,
+            972,
+            973,
+            974,
+            975,
+            976,
+            977,
+            978,
+            979,
+            980,
+            981,
+            982,
+            983,
+            984,
+            985,
+            986,
+            987,
+            988,
+            989,
+            990,
+            991,
+            992,
+            993,
+            994,
+            995,
+            996,
+            997,
+            998,
+            999,
+            1000,
+            1001,
+            1002,
+            1003,
+            1004,
+            1005,
+            1006,
+            1007,
+            1008,
+            1009
+          ],
+          "printed_pages": [
+            857,
+            858,
+            859,
+            860,
+            861,
+            862,
+            863,
+            864,
+            865,
+            866,
+            867,
+            868,
+            869,
+            870,
+            871,
+            872,
+            873,
+            874,
+            875,
+            876,
+            877,
+            878,
+            879,
+            880,
+            881,
+            882,
+            883,
+            884,
+            885,
+            886,
+            887,
+            888,
+            889,
+            890,
+            891,
+            892,
+            893,
+            894,
+            895,
+            896,
+            897,
+            898,
+            899,
+            900,
+            901,
+            902,
+            903,
+            904,
+            905,
+            906,
+            907,
+            908,
+            909,
+            910,
+            911,
+            912,
+            913,
+            914,
+            915,
+            916,
+            917,
+            918,
+            919,
+            920,
+            921,
+            922,
+            923,
+            924,
+            925,
+            926,
+            927,
+            928,
+            929,
+            930,
+            931,
+            932,
+            933,
+            934,
+            935,
+            936,
+            937,
+            938,
+            939,
+            940,
+            941,
+            942,
+            943,
+            944,
+            945,
+            946,
+            947,
+            948,
+            949,
+            950,
+            951,
+            952,
+            953,
+            954,
+            955,
+            956,
+            957,
+            958,
+            959,
+            960,
+            961,
+            962,
+            963,
+            964,
+            965,
+            966,
+            967,
+            968,
+            969
+          ],
+          "available_regions": [
+            "activity",
+            "advance_warning",
+            "applicability",
+            "buffer",
+            "channelizing_devices",
+            "distance_table",
+            "general_notes",
+            "pavement_markings",
+            "transition"
+          ],
+          "source_excerpt": "Support: 01 Chapter 6N contains discussions of typical TTC activities. Section 6A.02 contains discussions on development of TTC plans for the various activities. This Chapter presents typical applications for a variety of situations commonly encountered. While not every situation is addressed, the information illustrated can generally be adapted to a broad range of conditions. In many instances, an appropriate TTC plan is achieved by combining features from various typical applications. For example, work at an intersection might present a near-side TTC zone for one street and a far-side TTC zone for the other street. These treatments are found in two different typical applications, while a third typical application shows how to handle pedestrian crosswalk closures. 02 In general, the procedures illustrated represent minimum solutions for the situations depicted. Except for the notes (which are clearly classified using headings as being Standard, Guidance, Option, or Support), the information presented in the typical applications can generally be regarded as Guidance. Option: 03 TTC plans may deviate from the typical applications described in this Chapter to allow for conditions and"
+        },
+        {
+          "rank": 11,
+          "score": 40.664402,
+          "source_unit_code": "TA-10",
+          "unit_type": "typical_application",
+          "title": "Lane Closure on a Two-Lane Road Using Flaggers",
+          "chapter": "6P",
+          "figure_code": "6P-10",
+          "source_pages": [
+            918,
+            919
+          ],
+          "printed_pages": [
+            878,
+            879
+          ],
+          "available_regions": [
+            "activity",
+            "advance_warning",
+            "distance_table",
+            "general_notes",
+            "transition"
+          ],
+          "source_excerpt": "Option: 1. Positive protection devices may be used per Section 6M.02. 2. For low-volume situations with short TTC zones on straight roadways where the flagger is visible to road users approaching from both directions, a single flagger, positioned to be visible to road users approaching from both directions, may be used (see Chapter 6D). 3. The ROAD WORK AHEAD and the END ROAD WORK signs may be omitted for short-duration operations. 4. Flashing warning lights and/or flags may be used to call attention to the advance warning signs. A BE PREPARED TO STOP sign may be added to the sign series. 5. Automated Flagger Assistance Devices (see Section 6L.02) may be used in situations where there is only one lane of approaching traffic in the direction to be controlled. Guidance: 6. The buffer space should be extended so that the two-way traffic taper is placed before a horizontal (or crest vertical) curve to provide adequate sight distance for the flagger and a queue of stopped vehicles. Standard: 7. At night, flagger stations shall be illuminated, except in emergencies. Guidance: 8. When used, the BE PREPARED TO STOP sign should be located between the Flagger sign and the ONE LANE ROAD sign."
+        },
+        {
+          "rank": 12,
+          "score": 40.062215,
+          "source_unit_code": "TA-46",
+          "unit_type": "typical_application",
+          "title": "Work in the Vicinity of a Grade Crossing",
+          "chapter": "6P",
+          "figure_code": "6P-46",
+          "source_pages": [
+            990,
+            991
+          ],
+          "printed_pages": [
+            950,
+            951
+          ],
+          "available_regions": [
+            "advance_warning",
+            "buffer",
+            "distance_table",
+            "general_notes"
+          ],
+          "source_excerpt": "Guidance: 1. When grade crossings exist either within or in the vicinity of roadway work activities, extra care should be taken to minimize the probability of conditions being created, by lane restrictions, flagging, or other operations, where vehicles might be stopped within the grade crossing, considered as being 15 feet on either side of the closest and farthest rail. Standard: 2. If the queuing of vehicles across active rail tracks cannot be avoided, a uniformed law enforcement officer or flagger shall be provided at the grade crossing to prevent vehicles from stopping within the grade crossing (as described in Note 1 above), even if automatic warning devices are in place. Guidance: 3. Early coordination with the railroad company or transit agency should occur before work starts. 4. In the example depicted, the buffer space of the activity area should be extended upstream of the grade crossing (as shown) so that a queue created by the flagging operation will not extend across the grade crossing. 5. The DO NOT STOP ON TRACKS sign should be used on all approaches to a grade crossing within the limits of a TTC zone. Option: 6. Positive protection devices may be used per Section 6M"
+        }
+      ],
+      "continuation_token": "eyJrZXkiOiAiYjU0Y2Y2N2MyZjc2YmQzMTM4NjFmNmRiMWFjMTE0MWE3NmQ1OTYxZWEyMTE3NzYxMmFjOTBhZmNlNDQzMmQxNyIsICJraW5kIjogInNlYXJjaCIsICJvZmZzZXQiOiAxMn0",
+      "has_more": true,
+      "recognized_manual_source_unit_codes": [],
+      "correct_page_or_application_whitelist": null
+    }
+  },
+  {
+    "step": 4,
+    "phase": "requirement_discovery",
+    "tool": "expand_source_unit",
+    "arguments": {
+      "source_unit_code": "TA-10",
+      "region": null,
+      "page_size": 12,
+      "continuation_token": null
+    },
+    "result": {
+      "operation": "expand_source_unit",
+      "source_unit_code": "TA-10",
+      "region": null,
+      "source_unit_metadata": {
+        "unit_type": "typical_application",
+        "title": "Lane Closure on a Two-Lane Road Using Flaggers",
+        "chapter": "6P",
+        "figure_code": "6P-10",
+        "source_pages": [
+          918,
+          919
+        ],
+        "printed_pages": [
+          878,
+          879
+        ]
+      },
+      "items": [
+        {
+          "source_node_id": "src_18582905a0a431cddc93",
+          "source_unit_code": "TA-10",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "general_notes",
+          "node_type": "normative_clause",
+          "paragraph": "01",
+          "subject": "Positive protection devices",
+          "modality": "may",
+          "relation": "may_apply",
+          "threshold": "Positive protection devices may be used per Section 6M.02.",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images"
+          ],
+          "scope_tags": [
+            "positive_protection_or_attenuator"
+          ],
+          "source_locator": "TA-10 paragraph 01; PDF page 918",
+          "pdf_page": 918,
+          "printed_page": 878,
+          "source_span": "Positive protection devices may be used per Section 6M.02."
+        },
+        {
+          "source_node_id": "src_07d7a2366f17044987b6",
+          "source_unit_code": "TA-10",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "general_notes",
+          "node_type": "normative_clause",
+          "paragraph": "02",
+          "subject": "For low-volume situations with short TTC zones on straight roadways where the flagger is visible to road users approaching from both directions, a single flagger, positioned to be ",
+          "modality": "may",
+          "relation": "may_apply",
+          "threshold": "For low-volume situations with short TTC zones on straight roadways where the flagger is visible to road users approaching from both directions, a single flagger, positioned to be visible to road users approaching from both directions, may be used (see Chapter 6D).",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images"
+          ],
+          "scope_tags": [],
+          "source_locator": "TA-10 paragraph 02; PDF page 918",
+          "pdf_page": 918,
+          "printed_page": 878,
+          "source_span": "For low-volume situations with short TTC zones on straight roadways where the flagger is visible to road users approaching from both directions, a single flagger, positioned to be visible to road users approaching from both directions, may be used (see Chapter 6D)."
+        },
+        {
+          "source_node_id": "src_ad075d77e0eeff74c960",
+          "source_unit_code": "TA-10",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "advance_warning",
+          "node_type": "normative_clause",
+          "paragraph": "03",
+          "subject": "The ROAD WORK AHEAD and the END ROAD WORK signs",
+          "modality": "may",
+          "relation": "may_apply",
+          "threshold": "The ROAD WORK AHEAD and the END ROAD WORK signs may be omitted for short-duration operations.",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images"
+          ],
+          "scope_tags": [],
+          "source_locator": "TA-10 paragraph 03; PDF page 918",
+          "pdf_page": 918,
+          "printed_page": 878,
+          "source_span": "The ROAD WORK AHEAD and the END ROAD WORK signs may be omitted for short-duration operations."
+        },
+        {
+          "source_node_id": "src_3f35d6238675b3dc9e49",
+          "source_unit_code": "TA-10",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "advance_warning",
+          "node_type": "normative_clause",
+          "paragraph": "04",
+          "subject": "Flashing warning lights and/or flags",
+          "modality": "may",
+          "relation": "may_apply",
+          "threshold": "Flashing warning lights and/or flags may be used to call attention to the advance warning signs. A BE PREPARED TO STOP sign may be added to the sign series.",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images"
+          ],
+          "scope_tags": [],
+          "source_locator": "TA-10 paragraph 04; PDF page 918",
+          "pdf_page": 918,
+          "printed_page": 878,
+          "source_span": "Flashing warning lights and/or flags may be used to call attention to the advance warning signs. A BE PREPARED TO STOP sign may be added to the sign series."
+        },
+        {
+          "source_node_id": "src_e849d6f76e5406d5b43c",
+          "source_unit_code": "TA-10",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "general_notes",
+          "node_type": "normative_clause",
+          "paragraph": "05",
+          "subject": "Automated Flagger Assistance Devices (see Section 6L.02)",
+          "modality": "may",
+          "relation": "may_apply",
+          "threshold": "Automated Flagger Assistance Devices (see Section 6L.02) may be used in situations where there is only one lane of approaching traffic in the direction to be controlled.",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images",
+            "closed_lane",
+            "roadway_configuration"
+          ],
+          "scope_tags": [],
+          "source_locator": "TA-10 paragraph 05; PDF page 918",
+          "pdf_page": 918,
+          "printed_page": 878,
+          "source_span": "Automated Flagger Assistance Devices (see Section 6L.02) may be used in situations where there is only one lane of approaching traffic in the direction to be controlled."
+        },
+        {
+          "source_node_id": "src_388f08b58488f79c8a77",
+          "source_unit_code": "TA-10",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "transition",
+          "node_type": "normative_clause",
+          "paragraph": "06",
+          "subject": "The buffer space",
+          "modality": "should",
+          "relation": "should_comply",
+          "threshold": "The buffer space should be extended so that the two-way traffic taper is placed before a horizontal (or crest vertical) curve to provide adequate sight distance for the flagger and a queue of stopped vehicles.",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images",
+            "accepted_bbox_observations",
+            "ego_trajectory",
+            "lidar_points"
+          ],
+          "scope_tags": [],
+          "source_locator": "TA-10 paragraph 06; PDF page 918",
+          "pdf_page": 918,
+          "printed_page": 878,
+          "source_span": "The buffer space should be extended so that the two-way traffic taper is placed before a horizontal (or crest vertical) curve to provide adequate sight distance for the flagger and a queue of stopped vehicles."
+        },
+        {
+          "source_node_id": "src_10a44b0319a078ace7fb",
+          "source_unit_code": "TA-10",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "general_notes",
+          "node_type": "normative_clause",
+          "paragraph": "07",
+          "subject": "At night, flagger stations",
+          "modality": "shall",
+          "relation": "shall_comply",
+          "threshold": "At night, flagger stations shall be illuminated, except in emergencies.",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images"
+          ],
+          "scope_tags": [],
+          "source_locator": "TA-10 paragraph 07; PDF page 918",
+          "pdf_page": 918,
+          "printed_page": 878,
+          "source_span": "At night, flagger stations shall be illuminated, except in emergencies."
+        },
+        {
+          "source_node_id": "src_64b7ff842fa7e81d7c33",
+          "source_unit_code": "TA-10",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "general_notes",
+          "node_type": "normative_clause",
+          "paragraph": "08",
+          "subject": "When used, the BE PREPARED TO STOP sign",
+          "modality": "should",
+          "relation": "should_comply",
+          "threshold": "When used, the BE PREPARED TO STOP sign should be located between the Flagger sign and the ONE LANE ROAD sign.",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images",
+            "closed_lane",
+            "roadway_configuration"
+          ],
+          "scope_tags": [],
+          "source_locator": "TA-10 paragraph 08; PDF page 918",
+          "pdf_page": 918,
+          "printed_page": 878,
+          "source_span": "When used, the BE PREPARED TO STOP sign should be located between the Flagger sign and the ONE LANE ROAD sign."
+        },
+        {
+          "source_node_id": "src_df678eb91cd703ad8e1e",
+          "source_unit_code": "TA-10",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "transition",
+          "node_type": "normative_clause",
+          "paragraph": "09",
+          "subject": "When a grade crossing exists within or upstream of the transition area and it is anticipated that queues resulting from the lane closure might extend through the grade crossing, th",
+          "modality": "should",
+          "relation": "should_comply",
+          "threshold": "When a grade crossing exists within or upstream of the transition area and it is anticipated that queues resulting from the lane closure might extend through the grade crossing, the TTC zone should be extended so that the transition area precedes the grade crossing.",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images",
+            "closed_lane",
+            "roadway_configuration"
+          ],
+          "scope_tags": [],
+          "source_locator": "TA-10 paragraph 09; PDF page 918",
+          "pdf_page": 918,
+          "printed_page": 878,
+          "source_span": "When a grade crossing exists within or upstream of the transition area and it is anticipated that queues resulting from the lane closure might extend through the grade crossing, the TTC zone should be extended so that the transition area precedes the grade crossing."
+        },
+        {
+          "source_node_id": "src_dd86f6239989044608ba",
+          "source_unit_code": "TA-10",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "activity",
+          "node_type": "normative_clause",
+          "paragraph": "10",
+          "subject": "When a grade crossing equipped with active warning devices exists within the activity area, provisions",
+          "modality": "should",
+          "relation": "should_comply",
+          "threshold": "When a grade crossing equipped with active warning devices exists within the activity area, provisions should be made for keeping flaggers informed as to the activation status of these warning devices.",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images"
+          ],
+          "scope_tags": [
+            "buffer_or_activity_area"
+          ],
+          "source_locator": "TA-10 paragraph 10; PDF page 918",
+          "pdf_page": 918,
+          "printed_page": 878,
+          "source_span": "When a grade crossing equipped with active warning devices exists within the activity area, provisions should be made for keeping flaggers informed as to the activation status of these warning devices."
+        },
+        {
+          "source_node_id": "src_9f4fa6c09bce07b7f8bc",
+          "source_unit_code": "TA-10",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "activity",
+          "node_type": "normative_clause",
+          "paragraph": "11",
+          "subject": "When a grade crossing exists within the activity area, drivers operating on the left-hand side of the normal center line",
+          "modality": "should",
+          "relation": "should_comply",
+          "threshold": "When a grade crossing exists within the activity area, drivers operating on the left-hand side of the normal center line should be provided with comparable warning devices as for drivers operating on the right-hand side of the normal center line.",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images"
+          ],
+          "scope_tags": [
+            "buffer_or_activity_area"
+          ],
+          "source_locator": "TA-10 paragraph 11; PDF page 918",
+          "pdf_page": 918,
+          "printed_page": 878,
+          "source_span": "When a grade crossing exists within the activity area, drivers operating on the left-hand side of the normal center line should be provided with comparable warning devices as for drivers operating on the right-hand side of the normal center line."
+        },
+        {
+          "source_node_id": "src_089a64aae9b31c7ca197",
+          "source_unit_code": "TA-10",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "general_notes",
+          "node_type": "normative_clause",
+          "paragraph": "12",
+          "subject": "Early coordination with the railroad company or transit agency",
+          "modality": "should",
+          "relation": "should_comply",
+          "threshold": "Early coordination with the railroad company or transit agency should occur before work starts.",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images"
+          ],
+          "scope_tags": [],
+          "source_locator": "TA-10 paragraph 12; PDF page 918",
+          "pdf_page": 918,
+          "printed_page": 878,
+          "source_span": "Early coordination with the railroad company or transit agency should occur before work starts."
+        }
+      ],
+      "matching_node_count": 20,
+      "continuation_token": "eyJrZXkiOiAiVEEtMTB8KiIsICJraW5kIjogImV4cGFuZCIsICJvZmZzZXQiOiAxMn0",
+      "has_more": true
+    }
+  },
+  {
+    "step": 5,
+    "phase": "requirement_discovery",
+    "tool": "expand_source_unit",
+    "arguments": {
+      "source_unit_code": "TA-10",
+      "region": "applicability",
+      "page_size": 12,
+      "continuation_token": null
+    },
+    "result": {
+      "operation": "expand_source_unit",
+      "source_unit_code": "TA-10",
+      "region": "applicability",
+      "source_unit_metadata": {
+        "unit_type": "typical_application",
+        "title": "Lane Closure on a Two-Lane Road Using Flaggers",
+        "chapter": "6P",
+        "figure_code": "6P-10",
+        "source_pages": [
+          918,
+          919
+        ],
+        "printed_pages": [
+          878,
+          879
+        ]
+      },
+      "items": [],
+      "matching_node_count": 0,
+      "continuation_token": null,
+      "has_more": false
+    }
+  },
+  {
+    "step": 6,
+    "phase": "requirement_discovery",
+    "tool": "search_manual",
+    "arguments": {
+      "query": "Typical Application \"Lane Closure on a Two-Lane Road\" \"TA-11\" OR \"TA-12\"",
+      "page_size": 12,
+      "continuation_token": null
+    },
+    "result": {
+      "operation": "search_manual",
+      "query": "Typical Application \"Lane Closure on a Two-Lane Road\" \"TA-11\" OR \"TA-12\"",
+      "corpus_scope": "entire frozen MUTCD 11th Edition structured index",
+      "candidate_source_unit_count": 1013,
+      "items": [
+        {
+          "rank": 1,
+          "score": 117.05321,
+          "source_unit_code": "TA-12",
+          "unit_type": "typical_application",
+          "title": "Lane Closure on a Two-Lane Road Using Temporary Traffic Control Signals",
+          "chapter": "6P",
+          "figure_code": "6P-12",
+          "source_pages": [
+            922,
+            923
+          ],
+          "printed_pages": [
+            882,
+            883
+          ],
+          "available_regions": [
+            "activity",
+            "advance_warning",
+            "applicability",
+            "distance_table",
+            "general_notes",
+            "pavement_markings"
+          ],
+          "source_excerpt": "Standard: 1. Temporary traffic control signals shall be installed and operated in accordance with the provisions of Part 4. Temporary traffic control signals shall meet the physical display and operational requirements of conventional traffic control signals. 2. Temporary traffic control signal timing shall be established by authorized officials. Durations of red clearance intervals shall be adequate to clear the one-lane section of conflicting vehicles. 3. When the temporary traffic control signal is changed to the flashing mode, either manually or automatically, red signal indications shall be flashed to both approaches. 4. Stop lines shall be installed with temporary traffic control signals for long-term closures. Existing conflicting pavement markings and raised pavement marker reflectors between the activity area and each stop line shall be removed. After the temporary traffic control signal is removed, the stop lines and other temporary pavement markings shall be removed and the permanent pavement markings restored. 5. Safeguards shall be incorporated to avoid the possibility of conflicting signal indications at each end of the TTC zone. Guidance: 6. Where no-passing lines ar"
+        },
+        {
+          "rank": 2,
+          "score": 115.591881,
+          "source_unit_code": "TA-11",
+          "unit_type": "typical_application",
+          "title": "Lane Closure on a Two-Lane Road with Low Traffic Volumes",
+          "chapter": "6P",
+          "figure_code": "6P-11",
+          "source_pages": [
+            920,
+            921
+          ],
+          "printed_pages": [
+            880,
+            881
+          ],
+          "available_regions": [
+            "advance_warning",
+            "buffer",
+            "distance_table",
+            "general_notes"
+          ],
+          "source_excerpt": "Option: 1. Positive protection devices may be used per Section 6M.02. 2. This TTC zone application may be used as an alternate to the TTC application shown in Figure 6P-10 (using flaggers) when the following conditions exist: a. Vehicular traffic volume is such that sufficient gaps exist for vehicular traffic that must yield. b. Road users from both directions are able to see approaching vehicular traffic through and beyond the worksite and have sufficient visibility of approaching vehicles. 3. The Type B flashing warning lights may be placed on the ROAD WORK AHEAD and the ONE LANE ROAD AHEAD signs whenever a night lane closure is necessary. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 881 Figure 6P-11. Lane Closure on a Two-Lane Road with Low Traffic Volumes (TA-11) W20-1 C G20-2 (optional) (optional) W13-1P (optional) B W20-4 50 to 100 ft (optional) Buffer space (optional) W1-4R Buffer space (optional) 50 to 100 ft Notes: See Table 6P-2 for the meanings of R1-2 the symbols used in this figure. 15 ft See Table 6B-1 for the meanings of the letter codes used in this figure. R1-2aP A (optional) (see Section 3B.19) B (optional) W3-2 W20-4 C W13-1P (optional) G20-2 (optional) (opt"
+        },
+        {
+          "rank": 3,
+          "score": 39.720177,
+          "source_unit_code": "SEC-6N.17",
+          "unit_type": "section",
+          "title": "Work in the Vicinity of a Grade Crossing",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            891
+          ],
+          "printed_pages": [
+            851
+          ],
+          "available_regions": [
+            "general_notes"
+          ],
+          "source_excerpt": "Standard: 01 When grade crossings exist either within or in the vicinity of a TTC zone, lane restrictions, flagging, or other operations shall not create conditions where vehicles can be queued across the tracks. If the queuing of vehicles across the tracks cannot be avoided, a uniformed law enforcement officer or flagger shall be provided at the crossing to prevent vehicles from stopping on the tracks, even if automatic warning devices are in place. Support: 02 Figure 6P-46 shows work in the vicinity of a grade crossing. 03 Section 8A.13 contains additional information regarding TTC zones in the vicinity of grade crossings. Guidance: 04 Early coordination with the railroad company or transit agency should occur before work starts."
+        },
+        {
+          "rank": 4,
+          "score": 38.936359,
+          "source_unit_code": "SEC-6N.05",
+          "unit_type": "section",
+          "title": "Work Outside of the Shoulder",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            884,
+            885
+          ],
+          "printed_pages": [
+            844,
+            845
+          ],
+          "available_regions": [
+            "advance_warning",
+            "general_notes"
+          ],
+          "source_excerpt": "Support: 01 When work is being performed beyond the shoulders, but within the right-of-way, little or no TTC might be needed. TTC generally is not needed where work is confined to an area 15 feet or more from the edge of the traveled way. However, TTC is appropriate where distracting situations exist, such as vehicles parked on the shoulder, vehicles accessing the worksite via the highway, and equipment traveling on or crossing the roadway to perform the work operations (for example, mowing). A typical application for work beyond the shoulder is shown in Figure 6P-1. Sect. 6N.04 to 6N.05 December 2023 MUTCD 11th Edition Page 845 Guidance: 02 Where the situations described in Paragraph 1 of this Section exist, a single warning sign, such as ROAD WORK AHEAD (W20-1), should be used. If the equipment travels on the roadway, the equipment should be equipped with appropriate flags, high-intensity rotating, flashing, oscillating, or strobe lights, and/or a SLOW MOVING VEHICLE (W21-4) sign. 03 If work vehicles are on the shoulder, a SHOULDER WORK (W21-5) sign should be used. 04 A general warning sign like ROAD MACHINERY AHEAD (W21-3) should be used if workers and equipment must occasionall"
+        },
+        {
+          "rank": 5,
+          "score": 38.598824,
+          "source_unit_code": "SEC-6N.09",
+          "unit_type": "section",
+          "title": "Work within the Traveled Way of a Two-Lane Highway",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            886,
+            887
+          ],
+          "printed_pages": [
+            846,
+            847
+          ],
+          "available_regions": [
+            "general_notes",
+            "pavement_markings"
+          ],
+          "source_excerpt": "Support: 01 Chapter 6C and Sections 6M.04 and 6N.04 contain additional information regarding the steps to follow when pedestrian or bicycle facilities are affected by the worksite. 02 Detour signs are used to direct road users onto another roadway. At diversions, road users are directed onto a temporary roadway or alignment placed within or adjacent to the right-of-way. Typical applications for detouring or diverting road users on two-lane highways are shown in Figures 6P-7, 6P-8, and 6P-9. Figure 6P-7 illustrates the controls around an area where a section of roadway has been closed and a diversion has been constructed. Channelizing devices and pavement markings are used to indicate the transition to the temporary roadway. Guidance: 03 When a detour is long, Detour (M4-8, M4-9) signs should be installed to remind and reassure road users periodically that they are still successfully following the detour. 04 When an entire roadway is closed, as illustrated in Figure 6P-8, a detour should be provided and road users should be warned in advance of the closure, which in this example is a closure 10 miles from the intersection. If local road users are allowed to use the roadway up to the"
+        },
+        {
+          "rank": 6,
+          "score": 38.525522,
+          "source_unit_code": "TA-1",
+          "unit_type": "typical_application",
+          "title": "Work Beyond the Shoulder",
+          "chapter": "6P",
+          "figure_code": "6P-1",
+          "source_pages": [
+            900,
+            901
+          ],
+          "printed_pages": [
+            860,
+            861
+          ],
+          "available_regions": [
+            "advance_warning",
+            "applicability",
+            "general_notes"
+          ],
+          "source_excerpt": "Guidance: 1. If the work space is in the median of a divided highway, an advance warning sign should also be placed on the left-hand side of the directional roadway. Option: 2. The ROAD WORK AHEAD sign may be replaced with other appropriate signs such as the SHOULDER WORK sign. The SHOULDER WORK sign may be used for work adjacent to the shoulder. 3. The ROAD WORK AHEAD sign may be omitted where the work space is behind a barrier, more than 24 inches behind the curb, or 15 feet or more from the edge of any roadway. 4. For short-term, short-duration or mobile operation, all signs and channelizing devices may be eliminated if a vehicle with activated high-intensity rotating, flashing, oscillating, or strobe lights is used. 5. Vehicle hazard warning signals may be used to supplement high-intensity rotating, flashing, oscillating, or strobe lights. Standard: 6. Vehicle hazard warning signals shall not be used instead of the vehicle’s high-intensity rotating, flashing, oscillating, or strobe lights. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 861 Figure 6P-1. Work Beyond the Shoulder (TA-1) W20-1 Note: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B"
+        },
+        {
+          "rank": 7,
+          "score": 38.094679,
+          "source_unit_code": "SEC-6N.13",
+          "unit_type": "section",
+          "title": "Work within the Traveled Way of a Freeway or Expressway",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            890
+          ],
+          "printed_pages": [
+            850
+          ],
+          "available_regions": [
+            "activity",
+            "distance_table",
+            "general_notes",
+            "transition"
+          ],
+          "source_excerpt": "Support: 01 Special conditions encountered where vehicular traffic must be moved through or around TTC zones on high- speed, high-volume roadways can pose challenges to the TTC. Although the general principles outlined in other Sections of this Manual are applicable to all types of highways, high-speed, access-controlled highways need special planning and attention in order to accommodate vehicular traffic while also protecting road users and workers. The traffic volumes, vehicle mix (buses, trucks, cars, and bicycles, if permitted), and speed of vehicles on these facilities require that careful TTC procedures be implemented, for example, to induce critical merging maneuvers well in advance of work spaces and in a manner that creates minimum turbulence and delay in the vehicular traffic stream. 02 When the roadway capacity is reduced as a result of lane closures, the demand might exceed the available capacity and result in either a lengthy stopped or slow moving queue of vehicles that might extend past the normal signs used in the typical advance warning area. Guidance: 03 An assessment of the expected queue length should be a part of the TTC plan design process and adjustments to "
+        },
+        {
+          "rank": 8,
+          "score": 37.86782,
+          "source_unit_code": "SEC-6N.10",
+          "unit_type": "section",
+          "title": "Work within the Traveled Way of an Urban Street",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            887
+          ],
+          "printed_pages": [
+            847
+          ],
+          "available_regions": [
+            "channelizing_devices",
+            "general_notes"
+          ],
+          "source_excerpt": "Support: 01 Chapter 6C and Sections 6M.04 and 6N.04 contain additional information regarding the steps to follow when pedestrian or bicycle facilities are affected by the worksite. 02 In urban TTC zones, decisions are needed on how to control vehicular traffic, such as how many lanes are required, whether any turns need to be prohibited at intersections, and how to maintain access to business, industrial, and residential areas. 03 Pedestrian traffic needs separate attention. Chapter 6C contains information regarding pedestrian movements near TTC zones. Standard: 04 If the TTC zone affects the movement of bicyclists, adequate access to the roadway or shared-use paths shall be provided (see Part 9). 05 Where transit stops are affected or relocated because of work activity, both pedestrian and vehicular access to the affected or relocated transit stops shall be provided. Guidance: 06 If a designated bicycle route is closed because of the work being done, a signed alternate route should be provided. Bicyclists should not be directed onto the path used by pedestrians. 07 Worksites within the intersection should be protected against inadvertent pedestrian incursion by providing detectabl"
+        },
+        {
+          "rank": 9,
+          "score": 37.522983,
+          "source_unit_code": "SEC-6N.11",
+          "unit_type": "section",
+          "title": "Work within the Traveled Way of a Multi-Lane, Non-Access Controlled Highway",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            887,
+            888
+          ],
+          "printed_pages": [
+            847,
+            848
+          ],
+          "available_regions": [
+            "activity",
+            "channelizing_devices",
+            "general_notes",
+            "pavement_markings",
+            "transition"
+          ],
+          "source_excerpt": "Support: 01 Chapter 6C and Sections 6M.04 and 6N.04 contain additional information regarding the steps to follow when pedestrian or bicycle facilities are affected by the worksite. 02 Work on multi-lane (two or more lanes of moving motor vehicle traffic in one direction) highways is divided into right-lane closures, left-lane closures, interior-lane closures, multiple-lane closures, and closures on five-lane roadways. Standard: 03 When a lane is closed on a multi-lane road for other than a mobile operation, a transition area containing a merging taper shall be used. Guidance: 04 When justified by an engineering study, temporary traffic barriers (see Section 6K.09) should be used to prevent incursions of errant vehicles into hazardous areas or work space. Support: 05 Figure 6P-34 illustrates a lane closure in which temporary traffic barriers are used. Option: 06 When the right-hand lane is closed, TTC similar to that shown in Figure 6P-33 may be used for undivided or divided four-lane roads. December 2023 Sect. 6N.10 to 6N.11 Page 848 MUTCD 11th Edition Guidance: 07 If morning and evening peak hour vehicular traffic volumes in the two directions are uneven and the greater volume is "
+        },
+        {
+          "rank": 10,
+          "score": 37.150794,
+          "source_unit_code": "SEC-6N.12",
+          "unit_type": "section",
+          "title": "Work within the Traveled Way at an Intersection",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            888,
+            889,
+            890
+          ],
+          "printed_pages": [
+            848,
+            849,
+            850
+          ],
+          "available_regions": [
+            "activity",
+            "advance_warning",
+            "general_notes",
+            "transition"
+          ],
+          "source_excerpt": "Support: 01 Chapter 6C and Sections 6M.04 and 6N.04 contain additional information regarding the steps to follow when pedestrian or bicycle facilities are affected by the worksite. 02 The typical applications for intersections are classified according to the location of the work space with respect to the intersection area (as defined by the extension of the curb or edge lines). The three classifications are near side, far side, and in-the-intersection. Work spaces often extend into more than one portion of the intersection. For example, work in one quadrant often creates a near-side work space on one street and a far-side work space on the cross street. In such instances, an appropriate TTC plan is obtained by combining features shown in two or more of the intersection and pedestrian typical applications. 03 TTC zones in the vicinity of intersections might block movements and interfere with normal road user flows. Such conflicts frequently occur at more complex signalized intersections having such features as traffic signal heads over particular lanes, lanes allocated to specific movements, multiple signal phases, signal detectors for actuated control, and accessible pedestrian sig"
+        },
+        {
+          "rank": 11,
+          "score": 36.96489,
+          "source_unit_code": "TA-16",
+          "unit_type": "typical_application",
+          "title": "Surveying Along the Center Line of a Road with Low Traffic Volumes",
+          "chapter": "6P",
+          "figure_code": "6P-16",
+          "source_pages": [
+            930,
+            931
+          ],
+          "printed_pages": [
+            890,
+            891
+          ],
+          "available_regions": [
+            "advance_warning",
+            "buffer",
+            "channelizing_devices",
+            "distance_table",
+            "general_notes"
+          ],
+          "source_excerpt": "Guidance: 1. The lanes on either side of the center work space should have a minimum width of 10 feet as measured from the near edge of the channelizing devices to the edge of the pavement or the outside edge of the paved shoulder. 2. Cones should be placed 6 to 12 inches on either side of the center line. 3. A flagger should be used to warn workers who cannot watch road users. Standard: 4. For surveying on the center line of a high-volume road, one lane shall be closed using the information illustrated in Figure 6P-10. Option: 5. A high-level warning device may be used to protect a surveying device, such as a target on a tripod. 6. Cones may be omitted for a cross-section survey. 7. ROAD WORK AHEAD signs may be used in place of the SURVEY CREW AHEAD signs. 8. Flags may be used to call attention to the advance warning signs. 9. If the work is along the shoulder, the flagger may be omitted. 10. For a survey along the edge of the road or along the shoulder, cones may be placed along the edge line. 11. A BE PREPARED TO STOP sign may be added to the sign series. 12. Automated Flagger Assistance Devices (see Section 6L.02) may be used in situations where there is only one lane of approa"
+        },
+        {
+          "rank": 12,
+          "score": 36.86483,
+          "source_unit_code": "TABLE-6P-2",
+          "unit_type": "table",
+          "title": "Meaning of Symbols on Typical Application Diagrams",
+          "chapter": "6P",
+          "figure_code": null,
+          "source_pages": [
+            899
+          ],
+          "printed_pages": [
+            859
+          ],
+          "available_regions": [
+            "general_notes"
+          ],
+          "source_excerpt": "Table 6P-2. Meaning of Symbols on Typical Application Diagrams. Arrow board; changeable message sign or support trailer; channelizing device; crash cushion; direction of travel; flagger; longitudinal channelizing device; pavement markings that should be removed for a long-term project; shadow vehicle; sign; temporary barrier; truck-mounted attenuator; Type 3 barricade; work space; work vehicle. Table 6P-2. Meaning of Symbols on Typical Application Diagrams. Arrow board; changeable message sign or support trailer; channelizing device; crash cushion; direction of travel; flagger; longitudinal channelizing device; pavement markings that should be removed for a long-term project; shadow vehicle; sign; temporary barrier; truck-mounted attenuator; Type 3 barricade; work space; work vehicle."
+        }
+      ],
+      "continuation_token": "eyJrZXkiOiAiMzJlZGM0MTg4MDBkMDdjYWU0M2NmMjA3YWI2YjE0ZWI4OGYyNWM4ZTgxMzNhODdjZGM3ZmI0NTI5MjczMTA2YyIsICJraW5kIjogInNlYXJjaCIsICJvZmZzZXQiOiAxMn0",
+      "has_more": true,
+      "recognized_manual_source_unit_codes": [
+        "TA-11",
+        "TA-12"
+      ],
+      "correct_page_or_application_whitelist": null
+    }
+  }
+]

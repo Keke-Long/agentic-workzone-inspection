@@ -1,0 +1,102 @@
+{
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "image_sha256": "bb64147cf9929eba7fc8938320338e1e95653d8e36b210adb695a6b1998ec310",
+  "response": {
+    "model": "qwen3-vl:4b-instruct",
+    "created_at": "2026-10-21T14:48:33.528355414Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"items\": [\n    {\n      \"id\": 1,\n      \"status\": \"uncertain\",\n      \"reason\": \"Image too small and blurred to assess visible condition or serviceability.\"\n    },\n    {\n      \"id\": 2,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Device is fully visible with intact stripes, no obvious damage or missing parts; appears functional for its purpose.\"\n    },\n    {\n      \"id\": 3,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Device shows clear red and white stripes, no visible breakage or major damage; appears serviceable.\"\n    },\n    {\n      \"id\": 4,\n      \"status\": \"uncertain\",\n      \"reason\": \"Image too small and blurred to assess condition reliably; insufficient visual evidence for judgment.\"\n    },\n    {\n      \"id\": 5,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Multiple devices visible with intact stripes, no signs of collapse or major damage; appear serviceable.\"\n    },\n    {\n      \"id\": 6,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Device is clearly visible with distinct stripes and no apparent structural damage or missing parts; appears functional.\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 4694419315,
+    "load_duration": 157455431,
+    "prompt_eval_count": 1299,
+    "prompt_eval_duration": 606324000,
+    "eval_count": 266,
+    "eval_duration": 3746455000
+  },
+  "observations": [
+    {
+      "observation_id": "C18_F0350_CAM_FRONT_Q032",
+      "frame": 350,
+      "native_bbox": [
+        1988.688,
+        1154.012,
+        2005.693,
+        1187.451
+      ],
+      "id": 1,
+      "status": "uncertain",
+      "reason": "Image too small and blurred to assess visible condition or serviceability."
+    },
+    {
+      "observation_id": "C18_F0352_CAM_FRONT_Q019",
+      "frame": 352,
+      "native_bbox": [
+        2146.835,
+        1147.437,
+        2181.697,
+        1215.102
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "Device is fully visible with intact stripes, no obvious damage or missing parts; appears functional for its purpose."
+    },
+    {
+      "observation_id": "C18_F0354_CAM_FRONT_Q003",
+      "frame": 354,
+      "native_bbox": [
+        2151.0232,
+        1146.8527,
+        2187.2659,
+        1213.229
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "Device shows clear red and white stripes, no visible breakage or major damage; appears serviceable."
+    },
+    {
+      "observation_id": "C18_F0354_CAM_FRONT_Q049",
+      "frame": 354,
+      "native_bbox": [
+        1966.181,
+        1149.146,
+        1977.684,
+        1175.966
+      ],
+      "id": 4,
+      "status": "uncertain",
+      "reason": "Image too small and blurred to assess condition reliably; insufficient visual evidence for judgment."
+    },
+    {
+      "observation_id": "C18_F0355_CAM_FRONT_Q009",
+      "frame": 355,
+      "native_bbox": [
+        2101.4519,
+        1136.8303,
+        2194.4277,
+        1217.0728
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "Multiple devices visible with intact stripes, no signs of collapse or major damage; appear serviceable."
+    },
+    {
+      "observation_id": "C18_F0357_CAM_FRONT_Q000",
+      "frame": 357,
+      "native_bbox": [
+        2066.8438,
+        1149.1304,
+        2096.5525,
+        1204.8979
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "Device is clearly visible with distinct stripes and no apparent structural damage or missing parts; appears functional."
+    }
+  ],
+  "human_confirmed_condition": false
+}

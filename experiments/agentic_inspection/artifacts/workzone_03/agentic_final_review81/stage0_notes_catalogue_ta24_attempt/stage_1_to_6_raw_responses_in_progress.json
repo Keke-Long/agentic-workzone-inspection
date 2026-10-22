@@ -1,0 +1,163 @@
+[
+  {
+    "id": "resp_0b2185897b6ddd54016ad97b37d3e487d1a74908735baf3d0e",
+    "object": "response",
+    "created_at": 1792637751,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792637753,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "SIMPLIFIED STAGE 1 — Call load_ta_core_graph, then load_scene_condition_graph, then load_domain_gap_candidates exactly once for each of the six domains. The program handles relevance filtering and paging. Do not create a discovery ledger. Begin registration after all six domains load. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 2 is sealed; no Stage 3 call is permitted.",
+    "max_output_tokens": 5000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0b2185897b6ddd54016ad97b38d39887d1be050bb8cebbea6d",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2Xs5lCSypqGrfQpbBWSNl-odwiRzpjrTKTgGi2xWKuw2uDCpcBWNBKYs6PoUO0RNEXcmVZeJd5QEb2v3bcEDMh_lZic33LOClSXxEnsMRoFVLaK1xUPu0ZwYg4wCm9eB_nIZ87PEJJHlReZyK86gPvvYlqL0tadznIvljlot1sQWxrrOCwYKGcPN96DVblZhDIzxVVm7NCZqeFEwWlZrUSnY9zBurSO-0Q2dCP_Zb6RQLyhWrsDabZsIEodwh2QzFwmn3MlAaNjbaLrjeVW-onXBuqmQF1CutJeWPHZn8YpntWt921kU0c6g2rXn-fJ1bgCzLujeFg6WqnE3RKkrYGxz37JS9P2xJgxJHF3Sowe8xnsqJ97JDul82vCViQvk0sbUjsVsZg06NuRhYgA2efv1N-bfIzL5raV1zm3UOcj9VlR1ZVhP8DLGBqvPaZRIrmFc7svYWJrgHjx210rz4pZEfIpHV61bFkLvrwifXuz4YqyuNf1Jl3gfSog6gafYxgxGe50ghbZFskDhDUkUOEgANBCDjNcOnOr7-x8DiWEWR9CWdTiLMZVf1XSInflXdxXhXAzED-uTasFnw4QzvX_wT2X2DG2Q-QMM4aI7m5J4YQbKlwZ5AVuBSFlUImmpIEeeH6PyL2MixrEOr1HZTnho8nQCDjdIpfShDFVaMXXmIcGW6QBiSAacj9KcLpveGlsUVlquSRyfyBpnqwKRB0NxtOTKjqgXeuIXBjM8iZhW18puDHELw2k6w75k1iVa9eoH-hBKc5aSBOW5iymjiZoCovGinuGTUNMPXqqMo4a5j7cqi-sb6sWpiK1di3e5554S6_axYHVS7wV32SkLpvh8uQSv5frZa3_EQy-8gftcJC-nmw0tBGjB4IFuc2F_ltK0AS_UFddU5TG8xnGnZaX_KPnprXFsXuHCjdlAy9uI1diId1sYpkaN3cXj7oQO8giC1_FNOmneCrB4hGIrbAoLaV77h1UqcXM1fWtWpgt_OFfEQB7HynOcaos1QWtOPe8LXya3EGaQdi04cQuq8toI36lICUqoHUuUBhhmuGb4nyQ4mVtIsffbZGAiK_Y17YjlMMnTifG5ROEN4Ivh-kYIA4D4TnbBhfFCmhasT5DsxAneoj_-YhlrTbS0bi1DF0T2A_ctB7IvLnuoOZYQ4o7VWE1xGMywBCwXs2_uLnuRIqN73fj68FawRXnQfO7t7OoOJY6b2LBP7z21QdSZ7bzEJCJ_EXcmRgmcv0DqUUPw6ICYBspewchxzZMZI1P18ELQU3bUZnhR8hmSJxba8db4_XUp2tjoFSZ-K-VY4Yk-L57AayhmvdxxJF5lYr1YeqXZrJpR5LNgtFaFnTmGcukjW1krOhkcD8lArFyibjzjIXcOQGi9JXtgCyqWi6IpW5TvVerBpTMSkHIo9Zbano6WMg8IsRpD11cgcQg2l2euk1owPWtjjG-EauDn8JbuRSEMGXGiejyMSODmO5Mb7fbe4g7tDmFuHNWHThPQsOAqSVIn8IKWR7k4--X1M9O-_ryy5_VhsGR1cCYtuaa2BJ1DNCkq6PDOUpoKEpiUtJ4jVfEjZSJHNVMHBHwZXgQWFeFm",
+        "summary": []
+      },
+      {
+        "id": "fc_0b2185897b6ddd54016ad97b390e3087d1a7184143da8ab32a",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{}",
+        "call_id": "call_CtGoVF1ls1DN1uXwnsmRsWNq",
+        "name": "load_ta_core_graph"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "End manual discovery and begin registering the retained requirements.",
+        "name": "begin_requirement_registration",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Simplified Stage 1C: in one call, return the configured retriever's bounded graph-gap candidates for one inspection domain; no model-controlled pagination.",
+        "name": "load_domain_gap_candidates",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "domain": {
+              "enum": [
+                "lane_closure_layout",
+                "advance_warning_sign_system",
+                "channelization_system",
+                "transition_and_taper_geometry",
+                "conditional_active_devices",
+                "conditional_termination_area"
+              ]
+            }
+          },
+          "required": [
+            "domain"
+          ]
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Stage 1B deterministic graph query: activate component requirement families from true scene facts, accepted component classes, and TA-core required-device implications.",
+        "name": "load_scene_condition_graph",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      },
+      {
+        "type": "function",
+        "description": "Stage 1A deterministic graph query: load the selected Typical Application's components, explicit references, governing source units, and reachable normative candidates.",
+        "name": "load_ta_core_graph",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 3749,
+      "input_tokens_details": {
+        "cache_write_tokens": 3746,
+        "cached_tokens": 0
+      },
+      "output_tokens": 34,
+      "output_tokens_details": {
+        "reasoning_tokens": 15
+      },
+      "total_tokens": 3783
+    },
+    "user": null,
+    "metadata": {}
+  }
+]

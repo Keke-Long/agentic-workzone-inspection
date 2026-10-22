@@ -1,0 +1,127 @@
+{
+  "scene_facts": {
+    "scope": "Only the later channelized work area visible approximately 78-90 seconds is described. The approach view at 52 seconds is included only for potentially relevant warning-sign evidence; association with the later work area is unconfirmed.",
+    "evidence_status": "Model-derived visual evidence, not human-confirmed ground truth.",
+    "survey_vehicle": "Black survey vehicle, user-confirmed.",
+    "posted_speed": "20 mph, user-confirmed.",
+    "work_duration": "Strictly less than three days, user-confirmed; more precise duration unknown.",
+    "road_geometry": "Urban two-way roadway with one apparent lane in each direction and a centerline visible through much of the approach. The roadway is generally straight in the scoped segment and crosses an all-way-stop intersection near the end of the channelized area.",
+    "traffic_directions": "The survey vehicle travels forward in its apparent right-hand travel lane. Opposing traffic would use the lane to the left of the centerline.",
+    "closure_or_obstruction": "The channelizers appear to delineate a localized work-area obstruction or closure primarily along the left/opposing-direction side of the roadway. The survey vehicle's forward travel lane remains usable through the approach. The images do not establish whether the opposing lane is fully closed for the entire work area.",
+    "intersection_relationship": "The channelized area is encountered immediately before and alongside an all-way-stop-controlled intersection visible around 83.8-90.1 seconds. The exact work-area limits relative to the intersection are uncertain.",
+    "apparent_work_vehicles": "No clearly identifiable work vehicle is visible within the scoped channelized area. Vehicles visible near the intersection and beyond cannot be reliably classified as work vehicles.",
+    "apparent_workers": "No person is clearly identifiable as a worker actively performing traffic control or construction within the scoped area.",
+    "flagger_evidence": "No reliable evidence of a flagger directing traffic. High-visibility orange elements are attached to channelizers and signs; clothing alone would not establish flagger activity.",
+    "bicycle_lane": "A distinct bicycle-lane boundary is not confidently identifiable within the scoped 78-90 second segment. A bicycle marking visible after the scoped area is not used to characterize this work area.",
+    "separately_encountered_work_areas": "One later channelized work area is supported by the images. The orange warning sign visible during the 52-61 second approach may relate to this area, but that association is not assumed."
+  },
+  "visible_features": [
+    {
+      "feature": "Orange-and-white vertical channelizers forming a taper and longitudinal boundary",
+      "image_timestamps": [
+        77.4,
+        80.6,
+        83.8,
+        86.9
+      ],
+      "description": "A dense line of orange-and-white flexible drums/bollards begins ahead and continues along the left side of the survey vehicle's path. The devices appear to separate the usable forward lane from a work or occupied area on the left side, near the apparent opposing-direction lane.",
+      "uncertainty": "High confidence that channelizers are present; moderate uncertainty about the exact boundary and whether the entire opposing lane is closed versus locally occupied."
+    },
+    {
+      "feature": "Centerline",
+      "image_timestamps": [
+        77.4,
+        80.6,
+        83.8,
+        86.9
+      ],
+      "description": "A double-yellow centerline is visible approaching the channelized area. At closer views, the channelizers are positioned generally to the left of the survey vehicle's usable path and near the centerline/opposing-side portion of the roadway.",
+      "uncertainty": "Moderate confidence in the centerline location; pavement repairs, perspective, and channelizers make the precise relationship between the centerline and work boundary uncertain."
+    },
+    {
+      "feature": "Usable travel lane",
+      "image_timestamps": [
+        80.6,
+        83.8,
+        86.9
+      ],
+      "description": "The survey vehicle has a continuous apparent travel path on the right side of the roadway through the channelized area and toward the intersection.",
+      "uncertainty": "High confidence for the survey vehicle's path; the status of the opposing-direction lane is less certain."
+    },
+    {
+      "feature": "Opposing-direction lane or left-side occupied area",
+      "image_timestamps": [
+        80.6,
+        83.8,
+        86.9
+      ],
+      "description": "The channelizer line occupies or separates the left side of the roadway, where the opposing-direction lane would ordinarily be located. No opposing vehicle is shown using the channelized portion in these views.",
+      "uncertainty": "Moderate uncertainty whether this represents a full opposing-lane closure, a partial-width closure, or a localized obstruction."
+    },
+    {
+      "feature": "Orange diamond warning sign with exact legend",
+      "image_timestamps": [
+        52.1,
+        55.3,
+        58.4,
+        61.6,
+        77.4,
+        80.6,
+        86.9,
+        90.1
+      ],
+      "description": "The legible legend is \"ROAD WORK AHEAD.\" The sign is visible on the right side of the roadway on the approach and again near the later channelized area.",
+      "uncertainty": "High confidence in the legible legend; low-to-moderate confidence that the 52-second sign and the later sign belong to the same work activity."
+    },
+    {
+      "feature": "Stop signs and all-way plaques at intersection",
+      "image_timestamps": [
+        83.8,
+        86.9,
+        90.1
+      ],
+      "description": "Multiple stop signs are visible at the cross street/intersection. The supplementary plaques have the exact legible legend \"ALL WAY.\" An overhead stop sign is also visible.",
+      "uncertainty": "High confidence that the intersection is all-way stop controlled; the work area's exact termination relative to the intersection is uncertain."
+    },
+    {
+      "feature": "Crosswalk/intersection pavement markings",
+      "image_timestamps": [
+        83.8,
+        86.9
+      ],
+      "description": "The survey vehicle approaches a marked crossing/intersection area while passing the channelizer taper.",
+      "uncertainty": "Moderate confidence; perspective and pavement wear obscure the exact limits of the crossing markings."
+    },
+    {
+      "feature": "Workers",
+      "image_timestamps": [
+        77.4,
+        80.6,
+        83.8,
+        86.9,
+        90.1
+      ],
+      "description": "No clearly identifiable construction worker or flagger is visible within the scoped channelized work area.",
+      "uncertainty": "This is an observation of the images, not proof that workers were absent."
+    },
+    {
+      "feature": "Work vehicles",
+      "image_timestamps": [
+        83.8,
+        86.9,
+        90.1
+      ],
+      "description": "Vehicles are visible near and beyond the intersection, but none can be confidently identified as a construction or maintenance vehicle.",
+      "uncertainty": "Low confidence in any work-vehicle classification; vehicle type and purpose are unresolved."
+    }
+  ],
+  "unresolved_layout_questions": [
+    "Is the left/opposing-direction lane fully closed, or is only part of it locally occupied or restricted?",
+    "Does the channelizer line lie directly on the centerline, or is it offset into the opposing lane?",
+    "What is the exact longitudinal start and end of the work area relative to the all-way-stop intersection?",
+    "Is any portion of a bicycle lane included in, displaced by, or outside the channelized area?",
+    "Are the visible ROAD WORK AHEAD signs associated with this later work area or with a separate work area farther along the route?",
+    "Were any workers or flaggers present outside the camera's visible field or between the sampled frames?",
+    "Are any vehicles near the intersection work-related, or are they ordinary traffic or parked vehicles?"
+  ]
+}

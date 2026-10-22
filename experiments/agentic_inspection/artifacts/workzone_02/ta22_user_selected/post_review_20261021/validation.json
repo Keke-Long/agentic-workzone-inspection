@@ -1,0 +1,10 @@
+{
+  "frozen_13_requirements_unchanged": true,
+  "supported_rows_have_observation_evidence": true,
+  "review_tables_unchanged_on_restart": true,
+  "report_http_status": 200,
+  "report_rows": 13,
+  "accepted_boxes": 238,
+  "repairs_complete": 23,
+  "measurement_quality_gate_enforced": true
+}

@@ -1,0 +1,102 @@
+{
+  "model": "qwen3-vl:4b-instruct",
+  "model_digest": "ee4b975b58c17ce268cd19d40db35d5edc64603035d2ffc1fee1968eb0947f7b",
+  "image_sha256": "61d0ef6996d15656bc46ef39c6fcf9e7a6e485391de63c1055c1d93465a1ed11",
+  "response": {
+    "model": "qwen3-vl:4b-instruct",
+    "created_at": "2026-10-21T14:48:28.689573265Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"items\": [\n    {\n      \"id\": 1,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Cylindrical shape with clear red and white stripes, no visible breakage or missing parts; appears intact and functional based on visual evidence.\"\n    },\n    {\n      \"id\": 2,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Stripes are clearly visible and intact; no signs of severe damage or collapse. The device maintains its structural integrity as seen in the image.\"\n    },\n    {\n      \"id\": 3,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Red and white stripes are fully visible and undamaged; no obvious functional defects or missing parts observed.\"\n    },\n    {\n      \"id\": 4,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Device shows standard red and white striped pattern, appears structurally sound with no visible breakage or major damage.\"\n    },\n    {\n      \"id\": 5,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Multiple devices are visible; all retain their stripes and structural form without signs of collapse or severe damage.\"\n    },\n    {\n      \"id\": 6,\n      \"status\": \"visible_serviceable\",\n      \"reason\": \"Stripes remain clear and undamaged; no evidence of breakage, missing parts, or heavy dirt obscuring visibility.\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 3894267836,
+    "load_duration": 157563594,
+    "prompt_eval_count": 1299,
+    "prompt_eval_duration": 582511000,
+    "eval_count": 302,
+    "eval_duration": 2982874000
+  },
+  "observations": [
+    {
+      "observation_id": "C18_F0344_CAM_FRONT_Q010",
+      "frame": 344,
+      "native_bbox": [
+        2000.0328,
+        1144.6208,
+        2028.2284,
+        1191.2852
+      ],
+      "id": 1,
+      "status": "visible_serviceable",
+      "reason": "Cylindrical shape with clear red and white stripes, no visible breakage or missing parts; appears intact and functional based on visual evidence."
+    },
+    {
+      "observation_id": "C18_F0345_CAM_FRONT_Q003",
+      "frame": 345,
+      "native_bbox": [
+        2125.591,
+        1146.758,
+        2155.81,
+        1207.66
+      ],
+      "id": 2,
+      "status": "visible_serviceable",
+      "reason": "Stripes are clearly visible and intact; no signs of severe damage or collapse. The device maintains its structural integrity as seen in the image."
+    },
+    {
+      "observation_id": "C18_F0346_CAM_FRONT_Q003",
+      "frame": 346,
+      "native_bbox": [
+        2128.396,
+        1153.206,
+        2159.219,
+        1206.116
+      ],
+      "id": 3,
+      "status": "visible_serviceable",
+      "reason": "Red and white stripes are fully visible and undamaged; no obvious functional defects or missing parts observed."
+    },
+    {
+      "observation_id": "C18_F0349_CAM_FRONT_Q008",
+      "frame": 349,
+      "native_bbox": [
+        2052.8354,
+        1148.541,
+        2083.1377,
+        1198.7134
+      ],
+      "id": 4,
+      "status": "visible_serviceable",
+      "reason": "Device shows standard red and white striped pattern, appears structurally sound with no visible breakage or major damage."
+    },
+    {
+      "observation_id": "C18_F0349_CAM_FRONT_Q010",
+      "frame": 349,
+      "native_bbox": [
+        2001.4424,
+        1142.5736,
+        2029.4785,
+        1190.3086
+      ],
+      "id": 5,
+      "status": "visible_serviceable",
+      "reason": "Multiple devices are visible; all retain their stripes and structural form without signs of collapse or severe damage."
+    },
+    {
+      "observation_id": "C18_F0350_CAM_FRONT_Q019",
+      "frame": 350,
+      "native_bbox": [
+        2138.1101,
+        1156.5165,
+        2170.6169,
+        1211.6525
+      ],
+      "id": 6,
+      "status": "visible_serviceable",
+      "reason": "Stripes remain clear and undamaged; no evidence of breakage, missing parts, or heavy dirt obscuring visibility."
+    }
+  ],
+  "human_confirmed_condition": false
+}

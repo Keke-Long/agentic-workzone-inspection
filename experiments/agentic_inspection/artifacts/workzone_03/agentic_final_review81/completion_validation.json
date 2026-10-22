@@ -1,0 +1,18 @@
+{
+  "completed_utc": "2026-10-22T03:18:53.750061+00:00",
+  "finalized": true,
+  "requirement_count": 11,
+  "counts": {
+    "not_assessed": 2,
+    "satisfied": 9
+  },
+  "stage_artifacts_present": {
+    "stage1_kg_bm25": true,
+    "stage3": true,
+    "stage4": true,
+    "stage5": true,
+    "stage6": true
+  },
+  "stage0_source_review": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_03/agentic_final_review81/stage0_source_review",
+  "interventions_disclosed": true
+}

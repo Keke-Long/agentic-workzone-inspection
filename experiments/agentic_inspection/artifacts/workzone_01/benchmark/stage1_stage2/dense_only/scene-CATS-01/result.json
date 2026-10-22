@@ -1,0 +1,333 @@
+{
+  "method_id": "dense_only",
+  "run": 1,
+  "status": "awaiting_stage1_stage2_evaluation",
+  "failure_reason": null,
+  "stage0": {
+    "scene_id": "scene-CATS-01",
+    "layout_selection_status": "determined",
+    "selected_layouts": [
+      {
+        "layout_code": "TA-30",
+        "layout_role": "primary_applicable",
+        "source_locator": "TA-30, Figure 6P-30, MUTCD 11th Edition, PDF pages 958–959 (printed pages 918–919)",
+        "matched_scene_facts": [
+          "One lane is closed: the left lane",
+          "Four-lane multilane undivided roadway",
+          "Posted speed is 30 mph, consistent with the low-speed street context of TA-30",
+          "Long-term stationary work-zone context",
+          "Daytime inspection period"
+        ],
+        "conflicting_scene_facts": [
+          "Traffic volume is unknown, while TA-30 states that it applies to low-volume urban streets; this does not prevent primary selection because no competing primary TA is better supported by the known roadway configuration and 30 mph speed."
+        ]
+      }
+    ],
+    "missing_scene_fields": [
+      "traffic_volume",
+      "available_width_ft",
+      "active_work"
+    ],
+    "selection_reason": "TA-30 is the directly applicable manual-native Typical Application for an interior lane closure on a multilane street. The scene is not a divided highway, so TA-33 is not primary. The 30 mph posted speed supports the low-speed condition in TA-30; the unknown traffic volume is retained for later applicability or augmentation review rather than blocking selection. The deployed PCMS is an implementation detail and does not displace the lane-closure TA."
+  },
+  "record": {
+    "scene_id": "scene-CATS-01",
+    "selected_layouts": [
+      {
+        "layout_code": "TA-30",
+        "layout_role": "primary_applicable",
+        "source_locator": "TA-30, Figure 6P-30, MUTCD 11th Edition, PDF pages 958–959 (printed pages 918–919)",
+        "matched_scene_facts": [
+          "One lane is closed: the left lane",
+          "Four-lane multilane undivided roadway",
+          "Posted speed is 30 mph, consistent with the low-speed street context of TA-30",
+          "Long-term stationary work-zone context",
+          "Daytime inspection period"
+        ],
+        "conflicting_scene_facts": [
+          "Traffic volume is unknown, while TA-30 states that it applies to low-volume urban streets; this does not prevent primary selection because no competing primary TA is better supported by the known roadway configuration and 30 mph speed."
+        ]
+      }
+    ],
+    "phase": "data_availability",
+    "region_coverage": {
+      "lane_closure_layout": {
+        "status": "skipped_no_inspectable_candidate",
+        "reason": "Retrieved candidates concern excluded layouts (freeway, shoulder/bicycle diversion, directional-roadway closure, or two-lane signal control); no source-grounded inspectable lane-layout predicate matches selected TA-30 and known scene facts.",
+        "requirement_keys": []
+      },
+      "advance_warning_sign_system": {
+        "status": "screened",
+        "reason": "Registered the distinct ROAD WORK AHEAD first-sign sequence check from SEC-6H.02 paragraph 02; applicability is limited to approaches using multiple advance warning signs.",
+        "requirement_keys": [
+          "req_22663f19aca4c09a"
+        ]
+      },
+      "channelization_system": {
+        "status": "skipped_no_inspectable_candidate",
+        "reason": "Retrieved channelization provisions are conditional on temporary lane separators or a documented potential for devices to lead traffic out of the intended space; those scene conditions and device observations are unavailable.",
+        "requirement_keys": []
+      },
+      "transition_and_taper_geometry": {
+        "status": "screened",
+        "reason": "Registered the distinct merging-taper receiving-lane check from TA-21 paragraph 01 for the selected one-lane closure context.",
+        "requirement_keys": [
+          "req_9732095f29b92b84"
+        ]
+      },
+      "conditional_active_devices": {
+        "status": "skipped_no_inspectable_candidate",
+        "reason": "Retrieved provisions concern temporary traffic signals, AFADs, or temporary lane separators; no applicable operating-state predicate is inspectable from the known scene facts.",
+        "requirement_keys": []
+      },
+      "conditional_termination_area": {
+        "status": "skipped_no_inspectable_candidate",
+        "reason": "Retrieved termination candidates are specific to temporary traffic signals, one-lane two-way control, or other excluded layouts; no applicable termination-area predicate is inspectable for selected TA-30.",
+        "requirement_keys": []
+      }
+    },
+    "requirements": [
+      {
+        "candidate_label": "ROAD WORK AHEAD first sign",
+        "subject": "multiple advance warning signs approaching a transition/activity area",
+        "relation": "has ROAD WORK AHEAD (W20-1) as the first sign encountered by road users",
+        "threshold": "W20-1 is first in approach order",
+        "applicability_conditions": [
+          "multiple advance warning signs are used on the approach"
+        ],
+        "required_inputs": [
+          "identities and approach order of advance warning signs"
+        ],
+        "measurement_spec": {
+          "required": false,
+          "tool": null,
+          "quantity": null,
+          "thresholds": []
+        },
+        "activation_basis": {
+          "type": "unconditional",
+          "fact_keys": [],
+          "evidence_source_node_ids": [],
+          "explanation": "This is a direct inspection of the approach sign order whenever a multiple-sign warning series is present."
+        },
+        "source_node_ids": [
+          "src_eafd02c3dbce3f8109a1"
+        ],
+        "modality": "should",
+        "source_locator": "SEC-6H.02 paragraph 02; PDF page 838",
+        "source_span": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+        "discovered_requirement_key": "req_22663f19aca4c09a",
+        "region": "advance_warning_sign_system",
+        "requirement_fingerprint": "22663f19aca4c09ae1ea00117e7792072a6eb61e92b9cd54cca331a0bfd0448e",
+        "registration_event_index": 2,
+        "registration_timestamp": "2026-09-23T01:12:37.769005+00:00",
+        "data_availability_record": null,
+        "final_data_availability": "not_attempted",
+        "image_assessable": false,
+        "inspection_status": "not_assessed",
+        "evidence_ids": [],
+        "inspection_reason": "No inspection batch was submitted for this candidate."
+      },
+      {
+        "candidate_label": "Merging taper directs traffic to one lane",
+        "subject": "merging taper for the closed left lane on the multilane roadway",
+        "relation": "directs vehicular traffic into either the right-hand or left-hand lane, but not both",
+        "threshold": "one receiving lane only",
+        "applicability_conditions": [
+          "one lane is closed on a multilane road",
+          "the closure is not a mobile operation",
+          "a merging taper is present"
+        ],
+        "required_inputs": [
+          "observed taper path and receiving lane"
+        ],
+        "measurement_spec": {
+          "required": false,
+          "tool": null,
+          "quantity": null,
+          "thresholds": []
+        },
+        "activation_basis": {
+          "type": "scene_fact",
+          "fact_keys": [
+            "lanes_closed",
+            "roadway_configuration",
+            "work_duration_category"
+          ],
+          "evidence_source_node_ids": [],
+          "explanation": "The scene establishes one lane closed on a multilane undivided roadway in a long-term stationary work-zone context, which activates the non-mobile lane-closure transition requirement; the field check applies if the required merging taper is present."
+        },
+        "source_node_ids": [
+          "src_8b3466a16684d1104d51"
+        ],
+        "modality": "shall",
+        "source_locator": "TA-21 paragraph 01; PDF page 940",
+        "source_span": "The merging taper shall direct vehicular traffic into either the right-hand or left-hand lane, but not both.",
+        "discovered_requirement_key": "req_9732095f29b92b84",
+        "region": "transition_and_taper_geometry",
+        "requirement_fingerprint": "9732095f29b92b8478c2eb19a1b883f94272826b0212f7046843003ca6307b22",
+        "registration_event_index": 3,
+        "registration_timestamp": "2026-09-23T01:13:07.840704+00:00",
+        "data_availability_record": null,
+        "final_data_availability": "not_attempted",
+        "image_assessable": false,
+        "inspection_status": "not_assessed",
+        "evidence_ids": [],
+        "inspection_reason": "No inspection batch was submitted for this candidate."
+      }
+    ],
+    "data_availability": {},
+    "evidence_records": {},
+    "stage4_plan": null,
+    "inspection_bundles": {},
+    "acquisition_attempts": {},
+    "measurement_records": {},
+    "stage4_readiness": null,
+    "stage5_plan": null,
+    "conclusion_drafts": {},
+    "stage5_readiness": null,
+    "tool_calls": [],
+    "event_history": [
+      {
+        "event_index": 1,
+        "timestamp": "2026-09-23T01:11:45.168631+00:00",
+        "event_type": "phase_transition",
+        "phase": "requirement_discovery",
+        "from_phase": "requirement_discovery",
+        "to_phase": "requirement_registration"
+      },
+      {
+        "event_index": 2,
+        "timestamp": "2026-09-23T01:12:37.769005+00:00",
+        "event_type": "requirement_registered",
+        "phase": "requirement_registration",
+        "discovered_requirement_key": "req_22663f19aca4c09a",
+        "candidate_label": "ROAD WORK AHEAD first sign",
+        "region": "advance_warning_sign_system",
+        "requirement_fingerprint": "22663f19aca4c09ae1ea00117e7792072a6eb61e92b9cd54cca331a0bfd0448e"
+      },
+      {
+        "event_index": 3,
+        "timestamp": "2026-09-23T01:13:07.840704+00:00",
+        "event_type": "requirement_registered",
+        "phase": "requirement_registration",
+        "discovered_requirement_key": "req_9732095f29b92b84",
+        "candidate_label": "Merging taper directs traffic to one lane",
+        "region": "transition_and_taper_geometry",
+        "requirement_fingerprint": "9732095f29b92b8478c2eb19a1b883f94272826b0212f7046843003ca6307b22"
+      },
+      {
+        "event_index": 4,
+        "timestamp": "2026-09-23T01:13:18.141445+00:00",
+        "event_type": "region_screened",
+        "phase": "requirement_registration",
+        "region": "lane_closure_layout",
+        "status": "skipped_no_inspectable_candidate"
+      },
+      {
+        "event_index": 5,
+        "timestamp": "2026-09-23T01:13:18.141460+00:00",
+        "event_type": "region_screened",
+        "phase": "requirement_registration",
+        "region": "advance_warning_sign_system",
+        "status": "screened"
+      },
+      {
+        "event_index": 6,
+        "timestamp": "2026-09-23T01:13:18.141466+00:00",
+        "event_type": "region_screened",
+        "phase": "requirement_registration",
+        "region": "channelization_system",
+        "status": "skipped_no_inspectable_candidate"
+      },
+      {
+        "event_index": 7,
+        "timestamp": "2026-09-23T01:13:18.141470+00:00",
+        "event_type": "region_screened",
+        "phase": "requirement_registration",
+        "region": "transition_and_taper_geometry",
+        "status": "screened"
+      },
+      {
+        "event_index": 8,
+        "timestamp": "2026-09-23T01:13:18.141473+00:00",
+        "event_type": "region_screened",
+        "phase": "requirement_registration",
+        "region": "conditional_active_devices",
+        "status": "skipped_no_inspectable_candidate"
+      },
+      {
+        "event_index": 9,
+        "timestamp": "2026-09-23T01:13:18.141477+00:00",
+        "event_type": "region_screened",
+        "phase": "requirement_registration",
+        "region": "conditional_termination_area",
+        "status": "skipped_no_inspectable_candidate"
+      },
+      {
+        "event_index": 10,
+        "timestamp": "2026-09-23T01:13:20.028413+00:00",
+        "event_type": "phase_transition",
+        "phase": "requirement_registration",
+        "from_phase": "requirement_registration",
+        "to_phase": "data_availability"
+      }
+    ],
+    "completion": null,
+    "finalized": false,
+    "review_checkpoint": {
+      "status": "awaiting_stage1_stage2_evaluation",
+      "stopped_after_requirement_registration": true,
+      "scene_or_measurement_tool_calls": 0
+    }
+  },
+  "resources": {
+    "regulation_retrieval_calls": 0,
+    "retrieval_queries": [],
+    "retrieved_chunks_nodes": 0,
+    "retrieved_characters": 0,
+    "point_cloud_frames_processed": 0,
+    "points_processed": 0,
+    "geometry_tool_calls": 0,
+    "map_web_lookup_calls": 0,
+    "image_files_returned": 0,
+    "cpu_seconds": 0.0,
+    "measurements_saved": 0,
+    "speed_evidence_saved": 0,
+    "external_query_sources": [],
+    "external_queries": [],
+    "tool_calls_total": 17,
+    "tool_failures": 6,
+    "resumed_tool_calls": 0,
+    "session_tool_calls": 17,
+    "resumed_tool_failures": 0,
+    "session_tool_failures": 6,
+    "tool_retries": 0,
+    "high_confidence_disposition_gap_count": 0,
+    "high_confidence_disposition_gaps": [],
+    "input_tokens": 206159,
+    "output_tokens": 8566,
+    "total_tokens": 214725,
+    "cached_tokens": 0,
+    "controller_turns": 17,
+    "model_api_calls": 17,
+    "wall_clock_seconds": 111.58071656990796,
+    "gpu_seconds": null,
+    "image_tokens_or_processed_pixels": null,
+    "actual_model_api_cost_usd": 0.051511,
+    "model_pricing_usd_per_million": {
+      "input": 0.2,
+      "cached_input": 0.02,
+      "output": 1.2,
+      "pricing_scope": "recorded checkpoint pricing"
+    },
+    "model_api_retries": 0,
+    "estimated_external_api_cost_usd": 0.0,
+    "emergency_ceiling_triggered": false
+  },
+  "stopped_before_measurement": false,
+  "stopped_after_measurements": false,
+  "stopped_after_requirement_registration": true,
+  "stopped_after_conclusions": false,
+  "reference_notice": "evaluator-only corrected Case 1 active set"
+}

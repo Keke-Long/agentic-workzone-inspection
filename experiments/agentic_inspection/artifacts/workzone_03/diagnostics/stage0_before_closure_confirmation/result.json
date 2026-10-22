@@ -1,0 +1,134 @@
+{
+  "method_id": "kg_plus_bm25",
+  "run": 1,
+  "status": "method_failure",
+  "failure_reason": "Stage 0 did not determine a primary MUTCD Typical Application",
+  "stage0": {
+    "scene_id": "scene-CATS-15",
+    "layout_selection_status": "indeterminate",
+    "selected_layouts": [
+      {
+        "layout_code": "TA-10",
+        "layout_role": "cross_reference_only",
+        "source_locator": "MUTCD 11th Edition, Figure 6P-10, TA-10, printed pages 878-879; search result and expanded TA-10 source unit",
+        "matched_scene_facts": [
+          "Urban two-way roadway with one apparent lane in each direction",
+          "Channelizers appear to delineate a localized obstruction or closure along the left/opposing-direction side",
+          "Forward travel lane remains usable",
+          "Daytime work lasting less than three days"
+        ],
+        "conflicting_scene_facts": [
+          "No reliable flagger evidence is established",
+          "Whether the opposing lane is fully closed is unresolved",
+          "Roadway configuration and lane count are not confirmed"
+        ]
+      },
+      {
+        "layout_code": "TA-11",
+        "layout_role": "cross_reference_only",
+        "source_locator": "MUTCD 11th Edition, Figure 6P-11, TA-11, printed pages 880-881; structured BM25 search result",
+        "matched_scene_facts": [
+          "Apparent two-way, two-lane urban roadway",
+          "Channelized work area may require one-lane, two-way operation"
+        ],
+        "conflicting_scene_facts": [
+          "The manual describes TA-11 as an alternate for low traffic volumes with sufficient gaps and visibility, neither of which is established",
+          "Whether the opposing lane is fully closed is unresolved"
+        ]
+      },
+      {
+        "layout_code": "TA-12",
+        "layout_role": "cross_reference_only",
+        "source_locator": "MUTCD 11th Edition, Figure 6P-12, TA-12, printed pages 882-883; structured BM25 search result",
+        "matched_scene_facts": [
+          "Apparent one-lane obstruction on a two-way roadway could theoretically require alternating control"
+        ],
+        "conflicting_scene_facts": [
+          "No temporary traffic control signals are identified",
+          "The scene does not establish that signal control is being used or planned"
+        ]
+      }
+    ],
+    "missing_scene_fields": [
+      "Whether the opposing-direction lane is fully closed or only locally occupied/restricted",
+      "Confirmed roadway configuration and lane count",
+      "Traffic-control method for alternating traffic: flaggers, low-volume yield control, temporary traffic control signals, or another method",
+      "Traffic volume or confirmed existence of sufficient gaps for TA-11",
+      "Confirmed sight distance through and beyond the worksite for TA-11",
+      "Exact work-area limits relative to the all-way-stop intersection",
+      "Whether the channelized area is in the traveled way or instead a shoulder/other roadside area"
+    ],
+    "selection_reason": "The retrieved manual evidence identifies TA-10 as the two-lane-road lane-closure application using flaggers, TA-11 as its low-volume alternate when sufficient gaps and visibility exist, and TA-12 as the temporary-signal alternative. The scene supports a possible two-way roadway lane obstruction but does not establish the closure extent or the control method. Those unresolved facts distinguish mutually exclusive primary Typical Applications, so no primary TA can be selected without guessing."
+  },
+  "resources": {
+    "regulation_retrieval_calls": 6,
+    "retrieval_queries": [
+      {
+        "operation": "search_manual",
+        "query": "Typical Application short duration stationary work zone two-lane road one lane opposing direction closed channelizing devices work area near intersection daytime no flagger 20 mph less than three days"
+      },
+      {
+        "operation": "search_manual",
+        "query": "Typical Application two-lane road one lane closed alternating one-way traffic channelizing devices work area stationary"
+      },
+      {
+        "operation": "search_manual",
+        "query": "TA two-lane road lane closure work within traveled way flagger one lane two-way traffic Figure 6P"
+      },
+      {
+        "operation": "expand_source_unit",
+        "query": "TA-10|*"
+      },
+      {
+        "operation": "expand_source_unit",
+        "query": "TA-10|applicability"
+      },
+      {
+        "operation": "search_manual",
+        "query": "Typical Application \"Lane Closure on a Two-Lane Road\" \"TA-11\" OR \"TA-12\""
+      }
+    ],
+    "retrieved_chunks_nodes": 60,
+    "retrieved_characters": 88593,
+    "point_cloud_frames_processed": 0,
+    "points_processed": 0,
+    "geometry_tool_calls": 0,
+    "map_web_lookup_calls": 0,
+    "image_files_returned": 0,
+    "cpu_seconds": 0.0,
+    "measurements_saved": 0,
+    "speed_evidence_saved": 0,
+    "external_query_sources": [],
+    "external_queries": [],
+    "tool_calls_total": 6,
+    "tool_failures": 0,
+    "resumed_tool_calls": 0,
+    "session_tool_calls": 6,
+    "resumed_tool_failures": 0,
+    "session_tool_failures": 0,
+    "tool_retries": 0,
+    "high_confidence_disposition_gap_count": 0,
+    "high_confidence_disposition_gaps": [],
+    "stage2_candidate_audit_calls": 0,
+    "stage2_audited_candidate_count": 0,
+    "stage2_structured_decision_count": 0,
+    "stage2_structured_decisions": {},
+    "stage2_decision_revision": 0,
+    "stage2_audit_revision": null,
+    "stage2_verification_unresolved_count": 0,
+    "stage2_verification_unresolved": [],
+    "input_tokens": 110163,
+    "output_tokens": 1500,
+    "total_tokens": 111663,
+    "cached_tokens": 84042,
+    "model_api_calls": 7,
+    "model_api_retries": 0,
+    "actual_model_api_cost_usd": 0.00870504,
+    "model_pricing_usd_per_million": {
+      "input": 0.2,
+      "cached_input": 0.02,
+      "output": 1.2,
+      "pricing_scope": "recorded checkpoint pricing"
+    }
+  }
+}

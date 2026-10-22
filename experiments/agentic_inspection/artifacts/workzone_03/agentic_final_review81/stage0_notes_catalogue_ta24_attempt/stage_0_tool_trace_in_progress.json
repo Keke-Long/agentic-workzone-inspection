@@ -1,0 +1,1625 @@
+[
+  {
+    "step": 1,
+    "phase": "requirement_discovery",
+    "tool": "search_manual",
+    "arguments": {
+      "query": "two-way urban street one opposing-direction lane fully closed at or on far side of intersection, through traffic prohibited and detoured via other roads; ego-direction lane remains open; short-term work zone",
+      "page_size": 12,
+      "continuation_token": null
+    },
+    "result": {
+      "operation": "search_manual",
+      "query": "two-way urban street one opposing-direction lane fully closed at or on far side of intersection, through traffic prohibited and detoured via other roads; ego-direction lane remains open; short-term work zone",
+      "corpus_scope": "entire frozen MUTCD 11th Edition structured index",
+      "candidate_source_unit_count": 1013,
+      "items": [
+        {
+          "rank": 1,
+          "score": 56.732445,
+          "source_unit_code": "SEC-6N.04",
+          "unit_type": "section",
+          "title": "Work Affecting Pedestrian and Bicycle Facilities",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            883,
+            884
+          ],
+          "printed_pages": [
+            843,
+            844
+          ],
+          "available_regions": [
+            "channelizing_devices",
+            "distance_table",
+            "general_notes"
+          ],
+          "source_excerpt": "Support: 01 It is not uncommon, particularly in urban areas, that road work and the associated TTC will affect existing pedestrian or bicycle facilities. It is essential that the needs of all road users, including pedestrians with disabilities, are considered in TTC zones. 02 In addition to specific provisions identified in Sections 6N.05 through 6N.13, there are a number of provisions that might be applicable for all of the types of activities identified in this Chapter. Guidance: 03 Where pedestrian or bicyclist usage is high, the typical applications should be modified by giving particular attention to the provisions set forth in Chapter 6C, this Chapter, Sections 6K.02 and 6M.04, and in other Sections of Part 6 related to accessibility and detectability provisions in TTC zones. 04 Pedestrians should be separated from the worksite by appropriate devices that maintain the accessibility and detectability for pedestrians with disabilities. 05 Bicyclists and pedestrians should not be exposed to unprotected excavations, open utility access, overhanging equipment, or other such conditions. Known 06 Except for - and mobile operations, when a highway shoulder is occupied, a SHOULDER WOR"
+        },
+        {
+          "rank": 2,
+          "score": 54.143735,
+          "source_unit_code": "SEC-6P.01",
+          "unit_type": "section",
+          "title": "Typical Applications",
+          "chapter": "6P",
+          "figure_code": null,
+          "source_pages": [
+            897,
+            898,
+            899,
+            900,
+            901,
+            902,
+            903,
+            904,
+            905,
+            906,
+            907,
+            908,
+            909,
+            910,
+            911,
+            912,
+            913,
+            914,
+            915,
+            916,
+            917,
+            918,
+            919,
+            920,
+            921,
+            922,
+            923,
+            924,
+            925,
+            926,
+            927,
+            928,
+            929,
+            930,
+            931,
+            932,
+            933,
+            934,
+            935,
+            936,
+            937,
+            938,
+            939,
+            940,
+            941,
+            942,
+            943,
+            944,
+            945,
+            946,
+            947,
+            948,
+            949,
+            950,
+            951,
+            952,
+            953,
+            954,
+            955,
+            956,
+            957,
+            958,
+            959,
+            960,
+            961,
+            962,
+            963,
+            964,
+            965,
+            966,
+            967,
+            968,
+            969,
+            970,
+            971,
+            972,
+            973,
+            974,
+            975,
+            976,
+            977,
+            978,
+            979,
+            980,
+            981,
+            982,
+            983,
+            984,
+            985,
+            986,
+            987,
+            988,
+            989,
+            990,
+            991,
+            992,
+            993,
+            994,
+            995,
+            996,
+            997,
+            998,
+            999,
+            1000,
+            1001,
+            1002,
+            1003,
+            1004,
+            1005,
+            1006,
+            1007,
+            1008,
+            1009
+          ],
+          "printed_pages": [
+            857,
+            858,
+            859,
+            860,
+            861,
+            862,
+            863,
+            864,
+            865,
+            866,
+            867,
+            868,
+            869,
+            870,
+            871,
+            872,
+            873,
+            874,
+            875,
+            876,
+            877,
+            878,
+            879,
+            880,
+            881,
+            882,
+            883,
+            884,
+            885,
+            886,
+            887,
+            888,
+            889,
+            890,
+            891,
+            892,
+            893,
+            894,
+            895,
+            896,
+            897,
+            898,
+            899,
+            900,
+            901,
+            902,
+            903,
+            904,
+            905,
+            906,
+            907,
+            908,
+            909,
+            910,
+            911,
+            912,
+            913,
+            914,
+            915,
+            916,
+            917,
+            918,
+            919,
+            920,
+            921,
+            922,
+            923,
+            924,
+            925,
+            926,
+            927,
+            928,
+            929,
+            930,
+            931,
+            932,
+            933,
+            934,
+            935,
+            936,
+            937,
+            938,
+            939,
+            940,
+            941,
+            942,
+            943,
+            944,
+            945,
+            946,
+            947,
+            948,
+            949,
+            950,
+            951,
+            952,
+            953,
+            954,
+            955,
+            956,
+            957,
+            958,
+            959,
+            960,
+            961,
+            962,
+            963,
+            964,
+            965,
+            966,
+            967,
+            968,
+            969
+          ],
+          "available_regions": [
+            "activity",
+            "advance_warning",
+            "applicability",
+            "buffer",
+            "channelizing_devices",
+            "distance_table",
+            "general_notes",
+            "pavement_markings",
+            "transition"
+          ],
+          "source_excerpt": "Support: 01 Chapter 6N contains discussions of typical TTC activities. Section 6A.02 contains discussions on development of TTC plans for the various activities. This Chapter presents typical applications for a variety of situations commonly encountered. While not every situation is addressed, the information illustrated can generally be adapted to a broad range of conditions. In many instances, an appropriate TTC plan is achieved by combining features from various typical applications. For example, work at an intersection might present a near-side TTC zone for one street and a far-side TTC zone for the other street. These treatments are found in two different typical applications, while a third typical application shows how to handle pedestrian crosswalk closures. 02 In general, the procedures illustrated represent minimum solutions for the situations depicted. Except for the notes (which are clearly classified using headings as being Standard, Guidance, Option, or Support), the information presented in the typical applications can generally be regarded as Guidance. Option: 03 TTC plans may deviate from the typical applications described in this Chapter to allow for conditions and"
+        },
+        {
+          "rank": 3,
+          "score": 52.629326,
+          "source_unit_code": "SEC-6N.10",
+          "unit_type": "section",
+          "title": "Work within the Traveled Way of an Urban Street",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            887
+          ],
+          "printed_pages": [
+            847
+          ],
+          "available_regions": [
+            "channelizing_devices",
+            "general_notes"
+          ],
+          "source_excerpt": "Support: 01 Chapter 6C and Sections 6M.04 and 6N.04 contain additional information regarding the steps to follow when pedestrian or bicycle facilities are affected by the worksite. 02 In urban TTC zones, decisions are needed on how to control vehicular traffic, such as how many lanes are required, whether any turns need to be prohibited at intersections, and how to maintain access to business, industrial, and residential areas. 03 Pedestrian traffic needs separate attention. Chapter 6C contains information regarding pedestrian movements near TTC zones. Standard: 04 If the TTC zone affects the movement of bicyclists, adequate access to the roadway or shared-use paths shall be provided (see Part 9). 05 Where transit stops are affected or relocated because of work activity, both pedestrian and vehicular access to the affected or relocated transit stops shall be provided. Guidance: 06 If a designated bicycle route is closed because of the work being done, a signed alternate route should be provided. Bicyclists should not be directed onto the path used by pedestrians. 07 Worksites within the intersection should be protected against inadvertent pedestrian incursion by providing detectabl"
+        },
+        {
+          "rank": 4,
+          "score": 52.386074,
+          "source_unit_code": "SEC-6N.11",
+          "unit_type": "section",
+          "title": "Work within the Traveled Way of a Multi-Lane, Non-Access Controlled Highway",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            887,
+            888
+          ],
+          "printed_pages": [
+            847,
+            848
+          ],
+          "available_regions": [
+            "activity",
+            "channelizing_devices",
+            "general_notes",
+            "pavement_markings",
+            "transition"
+          ],
+          "source_excerpt": "Support: 01 Chapter 6C and Sections 6M.04 and 6N.04 contain additional information regarding the steps to follow when pedestrian or bicycle facilities are affected by the worksite. 02 Work on multi-lane (two or more lanes of moving motor vehicle traffic in one direction) highways is divided into right-lane closures, left-lane closures, interior-lane closures, multiple-lane closures, and closures on five-lane roadways. Standard: 03 When a lane is closed on a multi-lane road for other than a mobile operation, a transition area containing a merging taper shall be used. Guidance: 04 When justified by an engineering study, temporary traffic barriers (see Section 6K.09) should be used to prevent incursions of errant vehicles into hazardous areas or work space. Support: 05 Figure 6P-34 illustrates a lane closure in which temporary traffic barriers are used. Option: 06 When the right-hand lane is closed, TTC similar to that shown in Figure 6P-33 may be used for undivided or divided four-lane roads. December 2023 Sect. 6N.10 to 6N.11 Page 848 MUTCD 11th Edition Guidance: 07 If morning and evening peak hour vehicular traffic volumes in the two directions are uneven and the greater volume is "
+        },
+        {
+          "rank": 5,
+          "score": 51.770202,
+          "source_unit_code": "SEC-6N.05",
+          "unit_type": "section",
+          "title": "Work Outside of the Shoulder",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            884,
+            885
+          ],
+          "printed_pages": [
+            844,
+            845
+          ],
+          "available_regions": [
+            "advance_warning",
+            "general_notes"
+          ],
+          "source_excerpt": "Support: 01 When work is being performed beyond the shoulders, but within the right-of-way, little or no TTC might be needed. TTC generally is not needed where work is confined to an area 15 feet or more from the edge of the traveled way. However, TTC is appropriate where distracting situations exist, such as vehicles parked on the shoulder, vehicles accessing the worksite via the highway, and equipment traveling on or crossing the roadway to perform the work operations (for example, mowing). A typical application for work beyond the shoulder is shown in Figure 6P-1. Sect. 6N.04 to 6N.05 December 2023 MUTCD 11th Edition Page 845 Guidance: 02 Where the situations described in Paragraph 1 of this Section exist, a single warning sign, such as ROAD WORK AHEAD (W20-1), should be used. If the equipment travels on the roadway, the equipment should be equipped with appropriate flags, high-intensity rotating, flashing, oscillating, or strobe lights, and/or a SLOW MOVING VEHICLE (W21-4) sign. 03 If work vehicles are on the shoulder, a SHOULDER WORK (W21-5) sign should be used. 04 A general warning sign like ROAD MACHINERY AHEAD (W21-3) should be used if workers and equipment must occasionall"
+        },
+        {
+          "rank": 6,
+          "score": 49.778924,
+          "source_unit_code": "TA-52",
+          "unit_type": "typical_application",
+          "title": "Short-Term or Short-Duration Work in a Circular Intersection",
+          "chapter": "6P",
+          "figure_code": "6P-52",
+          "source_pages": [
+            1002,
+            1003
+          ],
+          "printed_pages": [
+            962,
+            963
+          ],
+          "available_regions": [
+            "advance_warning",
+            "applicability",
+            "channelizing_devices",
+            "distance_table",
+            "general_notes"
+          ],
+          "source_excerpt": "Option: 1. Flashing warning lights and/or flags may be used to call attention to the advance warning signs. A BE PREPARED TO STOP sign may be added to the sign series. 2. If closure continues overnight, warning lights may be used on the channelizing devices. Standard: 3. Where a quadrant of the circular intersection is closed, only one direction of approach traffic shall be released at a time. 4. At night, flagger stations shall be illuminated, except in emergencies. 5. WRONG WAY signs shall be covered. Guidance: 6. When used, the BE PREPARED TO STOP sign should be located between the Flagger sign and the ONE LANE ROAD sign. 7. YIELD, ONE WAY, and Directional arrow signs should be covered or removed. 8. Confusing or misleading guide or lane-use control signs should be covered. Option: 9. Crosswalks may be closed. 10. As an alternative to closing crosswalks, warning signs may be added informing pedestrians that there is traffic coming from the left. Guidance: 11. Since the geometrics of the circular intersection will be temporarily altered, consideration should be given to establishing a truck detour for the duration of the project. 12. For intermediate or long-term work, the circul"
+        },
+        {
+          "rank": 7,
+          "score": 49.578728,
+          "source_unit_code": "TA-1",
+          "unit_type": "typical_application",
+          "title": "Work Beyond the Shoulder",
+          "chapter": "6P",
+          "figure_code": "6P-1",
+          "source_pages": [
+            900,
+            901
+          ],
+          "printed_pages": [
+            860,
+            861
+          ],
+          "available_regions": [
+            "advance_warning",
+            "applicability",
+            "general_notes"
+          ],
+          "source_excerpt": "Guidance: 1. If the work space is in the median of a divided highway, an advance warning sign should also be placed on the left-hand side of the directional roadway. Option: 2. The ROAD WORK AHEAD sign may be replaced with other appropriate signs such as the SHOULDER WORK sign. The SHOULDER WORK sign may be used for work adjacent to the shoulder. 3. The ROAD WORK AHEAD sign may be omitted where the work space is behind a barrier, more than 24 inches behind the curb, or 15 feet or more from the edge of any roadway. 4. For short-term, short-duration or mobile operation, all signs and channelizing devices may be eliminated if a vehicle with activated high-intensity rotating, flashing, oscillating, or strobe lights is used. 5. Vehicle hazard warning signals may be used to supplement high-intensity rotating, flashing, oscillating, or strobe lights. Standard: 6. Vehicle hazard warning signals shall not be used instead of the vehicle’s high-intensity rotating, flashing, oscillating, or strobe lights. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 861 Figure 6P-1. Work Beyond the Shoulder (TA-1) W20-1 Note: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B"
+        },
+        {
+          "rank": 8,
+          "score": 48.554939,
+          "source_unit_code": "SEC-6N.09",
+          "unit_type": "section",
+          "title": "Work within the Traveled Way of a Two-Lane Highway",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            886,
+            887
+          ],
+          "printed_pages": [
+            846,
+            847
+          ],
+          "available_regions": [
+            "general_notes",
+            "pavement_markings"
+          ],
+          "source_excerpt": "Support: 01 Chapter 6C and Sections 6M.04 and 6N.04 contain additional information regarding the steps to follow when pedestrian or bicycle facilities are affected by the worksite. 02 Detour signs are used to direct road users onto another roadway. At diversions, road users are directed onto a temporary roadway or alignment placed within or adjacent to the right-of-way. Typical applications for detouring or diverting road users on two-lane highways are shown in Figures 6P-7, 6P-8, and 6P-9. Figure 6P-7 illustrates the controls around an area where a section of roadway has been closed and a diversion has been constructed. Channelizing devices and pavement markings are used to indicate the transition to the temporary roadway. Guidance: 03 When a detour is long, Detour (M4-8, M4-9) signs should be installed to remind and reassure road users periodically that they are still successfully following the detour. 04 When an entire roadway is closed, as illustrated in Figure 6P-8, a detour should be provided and road users should be warned in advance of the closure, which in this example is a closure 10 miles from the intersection. If local road users are allowed to use the roadway up to the"
+        },
+        {
+          "rank": 9,
+          "score": 48.511962,
+          "source_unit_code": "SEC-6N.13",
+          "unit_type": "section",
+          "title": "Work within the Traveled Way of a Freeway or Expressway",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            890
+          ],
+          "printed_pages": [
+            850
+          ],
+          "available_regions": [
+            "activity",
+            "distance_table",
+            "general_notes",
+            "transition"
+          ],
+          "source_excerpt": "Support: 01 Special conditions encountered where vehicular traffic must be moved through or around TTC zones on high- speed, high-volume roadways can pose challenges to the TTC. Although the general principles outlined in other Sections of this Manual are applicable to all types of highways, high-speed, access-controlled highways need special planning and attention in order to accommodate vehicular traffic while also protecting road users and workers. The traffic volumes, vehicle mix (buses, trucks, cars, and bicycles, if permitted), and speed of vehicles on these facilities require that careful TTC procedures be implemented, for example, to induce critical merging maneuvers well in advance of work spaces and in a manner that creates minimum turbulence and delay in the vehicular traffic stream. 02 When the roadway capacity is reduced as a result of lane closures, the demand might exceed the available capacity and result in either a lengthy stopped or slow moving queue of vehicles that might extend past the normal signs used in the typical advance warning area. Guidance: 03 An assessment of the expected queue length should be a part of the TTC plan design process and adjustments to "
+        },
+        {
+          "rank": 10,
+          "score": 48.108995,
+          "source_unit_code": "SEC-6N.17",
+          "unit_type": "section",
+          "title": "Work in the Vicinity of a Grade Crossing",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            891
+          ],
+          "printed_pages": [
+            851
+          ],
+          "available_regions": [
+            "general_notes"
+          ],
+          "source_excerpt": "Standard: 01 When grade crossings exist either within or in the vicinity of a TTC zone, lane restrictions, flagging, or other operations shall not create conditions where vehicles can be queued across the tracks. If the queuing of vehicles across the tracks cannot be avoided, a uniformed law enforcement officer or flagger shall be provided at the crossing to prevent vehicles from stopping on the tracks, even if automatic warning devices are in place. Support: 02 Figure 6P-46 shows work in the vicinity of a grade crossing. 03 Section 8A.13 contains additional information regarding TTC zones in the vicinity of grade crossings. Guidance: 04 Early coordination with the railroad company or transit agency should occur before work starts."
+        },
+        {
+          "rank": 11,
+          "score": 47.335059,
+          "source_unit_code": "SEC-6N.12",
+          "unit_type": "section",
+          "title": "Work within the Traveled Way at an Intersection",
+          "chapter": "6N",
+          "figure_code": null,
+          "source_pages": [
+            888,
+            889,
+            890
+          ],
+          "printed_pages": [
+            848,
+            849,
+            850
+          ],
+          "available_regions": [
+            "activity",
+            "advance_warning",
+            "general_notes",
+            "transition"
+          ],
+          "source_excerpt": "Support: 01 Chapter 6C and Sections 6M.04 and 6N.04 contain additional information regarding the steps to follow when pedestrian or bicycle facilities are affected by the worksite. 02 The typical applications for intersections are classified according to the location of the work space with respect to the intersection area (as defined by the extension of the curb or edge lines). The three classifications are near side, far side, and in-the-intersection. Work spaces often extend into more than one portion of the intersection. For example, work in one quadrant often creates a near-side work space on one street and a far-side work space on the cross street. In such instances, an appropriate TTC plan is obtained by combining features shown in two or more of the intersection and pedestrian typical applications. 03 TTC zones in the vicinity of intersections might block movements and interfere with normal road user flows. Such conflicts frequently occur at more complex signalized intersections having such features as traffic signal heads over particular lanes, lanes allocated to specific movements, multiple signal phases, signal detectors for actuated control, and accessible pedestrian sig"
+        },
+        {
+          "rank": 12,
+          "score": 46.461514,
+          "source_unit_code": "TA-8",
+          "unit_type": "typical_application",
+          "title": "Road Closure with an Off-Site Detour",
+          "chapter": "6P",
+          "figure_code": "6P-8",
+          "source_pages": [
+            914,
+            915
+          ],
+          "printed_pages": [
+            874,
+            875
+          ],
+          "available_regions": [
+            "advance_warning",
+            "channelizing_devices",
+            "general_notes"
+          ],
+          "source_excerpt": "Guidance: 1. Regulatory traffic control devices should be modified as needed for the duration of the detour. Option: 2. If the road is opened for some distance beyond the intersection and/or there are significant origin/ destination points beyond the intersection, the ROAD CLOSED and DETOUR signs on Type 3 Barricades may be located at the edge of the traveled way. 3. A Route Sign Directional assembly may be placed on the far left corner of the intersection to augment or replace the one shown on the near right corner. 4. Flashing warning lights and/or flags may be used to call attention to the advance warning signs. 5. Cardinal direction plaques may be used with route signs. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 875 Figure 6P-8. Road Closure with an Off-Site Detour (TA-8) 500 ft R11-2 500 ft W20-3 W20-3 R11-3a M4-8 M1-5 M3-4 M4-10L 200 ft M4-8 1,000 ft M1-5 M4-8 Note: See Table 6P-2 for the meanings of the symbols used in this figure. M6-1L M1-5 500 ft M5-1L Typical Application 8 W20-2 December 2023 Sect. 6P.01"
+        }
+      ],
+      "continuation_token": "eyJrZXkiOiAiNzM1NDk4NzhjMWFkMzFmOTY3MzRkYjk5OGYzNTEwODVjZjE3ZWEzNDUxMjAxOTMxY2I3M2ZkMTI0YzA3Y2U3YyIsICJraW5kIjogInNlYXJjaCIsICJvZmZzZXQiOiAxMn0",
+      "has_more": true,
+      "recognized_manual_source_unit_codes": [],
+      "correct_page_or_application_whitelist": null
+    }
+  },
+  {
+    "step": 2,
+    "phase": "requirement_discovery",
+    "tool": "expand_source_unit",
+    "arguments": {
+      "source_unit_code": "TA-24",
+      "region": null,
+      "page_size": 12,
+      "continuation_token": null
+    },
+    "result": {
+      "operation": "expand_source_unit",
+      "source_unit_code": "TA-24",
+      "region": null,
+      "source_unit_metadata": {
+        "unit_type": "typical_application",
+        "title": "Half Road Closure on the Far Side of an Intersection",
+        "chapter": "6P",
+        "figure_code": "6P-24",
+        "source_pages": [
+          946,
+          947
+        ],
+        "printed_pages": [
+          906,
+          907
+        ]
+      },
+      "items": [
+        {
+          "source_node_id": "src_e925d34fc05e77c9df3b",
+          "source_unit_code": "TA-24",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "activity",
+          "node_type": "normative_clause",
+          "paragraph": "01",
+          "subject": "If the work space extends across a crosswalk, the crosswalk",
+          "modality": "should",
+          "relation": "should_comply",
+          "threshold": "If the work space extends across a crosswalk, the crosswalk should be closed using the information and devices shown in MUTCD 11th Edition Page 907",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images"
+          ],
+          "scope_tags": [
+            "buffer_or_activity_area"
+          ],
+          "source_locator": "TA-24 paragraph 01; PDF page 946",
+          "pdf_page": 946,
+          "printed_page": 906,
+          "source_span": "If the work space extends across a crosswalk, the crosswalk should be closed using the information and devices shown in MUTCD 11th Edition Page 907"
+        },
+        {
+          "source_node_id": "src_52777aeb8ff55132bad7",
+          "source_unit_code": "TA-24",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "buffer",
+          "node_type": "figure_component",
+          "paragraph": "figure:buffer_space",
+          "subject": "buffer space in TA-24",
+          "modality": "should",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "A buffer space is located as shown in the figure.",
+          "applicability_conditions": [
+            "TA-24 is selected for the scene"
+          ],
+          "required_inputs": [
+            "raw_images",
+            "accepted_bbox_observations",
+            "ego_trajectory",
+            "lidar_points"
+          ],
+          "scope_tags": [
+            "buffer_or_activity_area"
+          ],
+          "source_locator": "Figure 6P-24 (TA-24); PDF page 947; component buffer_space",
+          "pdf_page": 947,
+          "printed_page": 907,
+          "source_span": "Figure 6P-24. Half Road Closure on the Far Side of an Intersection (TA-24) W20-1 C W20-5L B W4-2L A G20-2 (optional) (optional) L (optional) (optional) Buffer space R3-1 R3-2 1/2 L W20-1 (optional) A G20-2 (optional) R4-7c A A R3-7R G20-2 W20-1 (optional) R3-2 L (optional) W4-2R (optional) A G20-2 (optional) W20-5R B Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in this figure. C See Table 6B-4 for formulas for W20-1 calculating taper length (L). Typical Application 24",
+          "normative_basis": {
+            "source_unit_code": "SEC-6P.01",
+            "paragraph": "02",
+            "principle": "Typical Application diagrams are Guidance minimum solutions"
+          },
+          "figure_image_path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-24_pdf_page_0947.jpg"
+        },
+        {
+          "source_node_id": "src_2b2a41dc5372b4aa4f8e",
+          "source_unit_code": "TA-24",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "general_notes",
+          "node_type": "figure_component",
+          "paragraph": "figure:diagram",
+          "subject": "TA-24 diagram",
+          "modality": "should",
+          "relation": "depicts_guidance_minimum_solution",
+          "threshold": "Use the controls, positions, and dimensions depicted in the Typical Application figure, interpreted with its notes and referenced tables.",
+          "applicability_conditions": [
+            "TA-24 is selected for the scene"
+          ],
+          "required_inputs": [
+            "raw_images",
+            "accepted_bbox_observations"
+          ],
+          "scope_tags": [],
+          "source_locator": "Figure 6P-24 (TA-24); PDF page 947; component diagram",
+          "pdf_page": 947,
+          "printed_page": 907,
+          "source_span": "Figure 6P-24. Half Road Closure on the Far Side of an Intersection (TA-24) W20-1 C W20-5L B W4-2L A G20-2 (optional) (optional) L (optional) (optional) Buffer space R3-1 R3-2 1/2 L W20-1 (optional) A G20-2 (optional) R4-7c A A R3-7R G20-2 W20-1 (optional) R3-2 L (optional) W4-2R (optional) A G20-2 (optional) W20-5R B Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in this figure. C See Table 6B-4 for formulas for W20-1 calculating taper length (L). Typical Application 24",
+          "normative_basis": {
+            "source_unit_code": "SEC-6P.01",
+            "paragraph": "02",
+            "principle": "Typical Application diagrams are Guidance minimum solutions"
+          },
+          "figure_image_path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-24_pdf_page_0947.jpg"
+        },
+        {
+          "source_node_id": "src_8ab99cf8d6b8bbf54456",
+          "source_unit_code": "TA-24",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "transition",
+          "node_type": "figure_component",
+          "paragraph": "figure:dimension:L",
+          "subject": "taper dimension L in TA-24",
+          "modality": "should",
+          "relation": "uses_referenced_taper_formula",
+          "threshold": "Resolve L through the taper-criteria and taper-formula tables referenced by the figure.",
+          "applicability_conditions": [
+            "TA-24 is selected for the scene"
+          ],
+          "required_inputs": [
+            "posted_speed_mph",
+            "lateral_offset_width_ft",
+            "accepted_bbox_observations",
+            "ego_trajectory",
+            "lidar_points"
+          ],
+          "scope_tags": [],
+          "source_locator": "Figure 6P-24 (TA-24); PDF page 947; component dimension:L",
+          "pdf_page": 947,
+          "printed_page": 907,
+          "source_span": "Figure 6P-24. Half Road Closure on the Far Side of an Intersection (TA-24) W20-1 C W20-5L B W4-2L A G20-2 (optional) (optional) L (optional) (optional) Buffer space R3-1 R3-2 1/2 L W20-1 (optional) A G20-2 (optional) R4-7c A A R3-7R G20-2 W20-1 (optional) R3-2 L (optional) W4-2R (optional) A G20-2 (optional) W20-5R B Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in this figure. C See Table 6B-4 for formulas for W20-1 calculating taper length (L). Typical Application 24",
+          "normative_basis": {
+            "source_unit_code": "SEC-6P.01",
+            "paragraph": "02",
+            "principle": "Typical Application diagrams are Guidance minimum solutions"
+          },
+          "figure_image_path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-24_pdf_page_0947.jpg"
+        },
+        {
+          "source_node_id": "src_416ee53b1003b0e0f42e",
+          "source_unit_code": "TA-24",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "distance_table",
+          "node_type": "figure_component",
+          "paragraph": "figure:dimensions:A-B-C",
+          "subject": "A, B, C sign-spacing dimensions in TA-24",
+          "modality": "should",
+          "relation": "uses_referenced_table_dimensions",
+          "threshold": "Resolve the depicted A, B, C dimensions through the figure's referenced spacing table.",
+          "applicability_conditions": [
+            "TA-24 is selected for the scene"
+          ],
+          "required_inputs": [
+            "roadway_configuration",
+            "posted_speed_mph",
+            "accepted_bbox_observations",
+            "ego_trajectory",
+            "lidar_points"
+          ],
+          "scope_tags": [],
+          "source_locator": "Figure 6P-24 (TA-24); PDF page 947; component dimensions:A-B-C",
+          "pdf_page": 947,
+          "printed_page": 907,
+          "source_span": "Figure 6P-24. Half Road Closure on the Far Side of an Intersection (TA-24) W20-1 C W20-5L B W4-2L A G20-2 (optional) (optional) L (optional) (optional) Buffer space R3-1 R3-2 1/2 L W20-1 (optional) A G20-2 (optional) R4-7c A A R3-7R G20-2 W20-1 (optional) R3-2 L (optional) W4-2R (optional) A G20-2 (optional) W20-5R B Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in this figure. C See Table 6B-4 for formulas for W20-1 calculating taper length (L). Typical Application 24",
+          "normative_basis": {
+            "source_unit_code": "SEC-6P.01",
+            "paragraph": "02",
+            "principle": "Typical Application diagrams are Guidance minimum solutions"
+          },
+          "figure_image_path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-24_pdf_page_0947.jpg"
+        },
+        {
+          "source_node_id": "src_cd37199b15a53cbdac6e",
+          "source_unit_code": "TA-24",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "advance_warning",
+          "node_type": "figure_component",
+          "paragraph": "figure:sign:G20-2",
+          "subject": "G20-2 sign in TA-24",
+          "modality": "may",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "G20-2 is optional at the position and in the sequence shown in the figure.",
+          "applicability_conditions": [
+            "TA-24 is selected for the scene"
+          ],
+          "required_inputs": [
+            "raw_images",
+            "accepted_bbox_observations"
+          ],
+          "scope_tags": [],
+          "source_locator": "Figure 6P-24 (TA-24); PDF page 947; component sign:G20-2",
+          "pdf_page": 947,
+          "printed_page": 907,
+          "source_span": "Figure 6P-24. Half Road Closure on the Far Side of an Intersection (TA-24) W20-1 C W20-5L B W4-2L A G20-2 (optional) (optional) L (optional) (optional) Buffer space R3-1 R3-2 1/2 L W20-1 (optional) A G20-2 (optional) R4-7c A A R3-7R G20-2 W20-1 (optional) R3-2 L (optional) W4-2R (optional) A G20-2 (optional) W20-5R B Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in this figure. C See Table 6B-4 for formulas for W20-1 calculating taper length (L). Typical Application 24",
+          "figure_image_path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-24_pdf_page_0947.jpg"
+        },
+        {
+          "source_node_id": "src_2f65e653299973ab42ef",
+          "source_unit_code": "TA-24",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "advance_warning",
+          "node_type": "figure_component",
+          "paragraph": "figure:sign:R3-1",
+          "subject": "R3-1 sign in TA-24",
+          "modality": "should",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "R3-1 is at the position and in the sequence shown in the figure.",
+          "applicability_conditions": [
+            "TA-24 is selected for the scene"
+          ],
+          "required_inputs": [
+            "raw_images",
+            "accepted_bbox_observations"
+          ],
+          "scope_tags": [],
+          "source_locator": "Figure 6P-24 (TA-24); PDF page 947; component sign:R3-1",
+          "pdf_page": 947,
+          "printed_page": 907,
+          "source_span": "Figure 6P-24. Half Road Closure on the Far Side of an Intersection (TA-24) W20-1 C W20-5L B W4-2L A G20-2 (optional) (optional) L (optional) (optional) Buffer space R3-1 R3-2 1/2 L W20-1 (optional) A G20-2 (optional) R4-7c A A R3-7R G20-2 W20-1 (optional) R3-2 L (optional) W4-2R (optional) A G20-2 (optional) W20-5R B Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in this figure. C See Table 6B-4 for formulas for W20-1 calculating taper length (L). Typical Application 24",
+          "normative_basis": {
+            "source_unit_code": "SEC-6P.01",
+            "paragraph": "02",
+            "principle": "Typical Application diagrams are Guidance minimum solutions"
+          },
+          "figure_image_path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-24_pdf_page_0947.jpg"
+        },
+        {
+          "source_node_id": "src_64650ba85328066d29e8",
+          "source_unit_code": "TA-24",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "advance_warning",
+          "node_type": "figure_component",
+          "paragraph": "figure:sign:R3-2",
+          "subject": "R3-2 sign in TA-24",
+          "modality": "may",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "R3-2 is optional at the position and in the sequence shown in the figure.",
+          "applicability_conditions": [
+            "TA-24 is selected for the scene"
+          ],
+          "required_inputs": [
+            "raw_images",
+            "accepted_bbox_observations"
+          ],
+          "scope_tags": [],
+          "source_locator": "Figure 6P-24 (TA-24); PDF page 947; component sign:R3-2",
+          "pdf_page": 947,
+          "printed_page": 907,
+          "source_span": "Figure 6P-24. Half Road Closure on the Far Side of an Intersection (TA-24) W20-1 C W20-5L B W4-2L A G20-2 (optional) (optional) L (optional) (optional) Buffer space R3-1 R3-2 1/2 L W20-1 (optional) A G20-2 (optional) R4-7c A A R3-7R G20-2 W20-1 (optional) R3-2 L (optional) W4-2R (optional) A G20-2 (optional) W20-5R B Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in this figure. C See Table 6B-4 for formulas for W20-1 calculating taper length (L). Typical Application 24",
+          "figure_image_path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-24_pdf_page_0947.jpg"
+        },
+        {
+          "source_node_id": "src_99f301bfd7f745df26fd",
+          "source_unit_code": "TA-24",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "advance_warning",
+          "node_type": "figure_component",
+          "paragraph": "figure:sign:R3-7R",
+          "subject": "R3-7R sign in TA-24",
+          "modality": "may",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "R3-7R is optional at the position and in the sequence shown in the figure.",
+          "applicability_conditions": [
+            "TA-24 is selected for the scene"
+          ],
+          "required_inputs": [
+            "raw_images",
+            "accepted_bbox_observations"
+          ],
+          "scope_tags": [],
+          "source_locator": "Figure 6P-24 (TA-24); PDF page 947; component sign:R3-7R",
+          "pdf_page": 947,
+          "printed_page": 907,
+          "source_span": "Figure 6P-24. Half Road Closure on the Far Side of an Intersection (TA-24) W20-1 C W20-5L B W4-2L A G20-2 (optional) (optional) L (optional) (optional) Buffer space R3-1 R3-2 1/2 L W20-1 (optional) A G20-2 (optional) R4-7c A A R3-7R G20-2 W20-1 (optional) R3-2 L (optional) W4-2R (optional) A G20-2 (optional) W20-5R B Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in this figure. C See Table 6B-4 for formulas for W20-1 calculating taper length (L). Typical Application 24",
+          "figure_image_path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-24_pdf_page_0947.jpg"
+        },
+        {
+          "source_node_id": "src_af0ee4357a26d8b4c85d",
+          "source_unit_code": "TA-24",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "advance_warning",
+          "node_type": "figure_component",
+          "paragraph": "figure:sign:R4-7c",
+          "subject": "R4-7c sign in TA-24",
+          "modality": "should",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "R4-7c is at the position and in the sequence shown in the figure.",
+          "applicability_conditions": [
+            "TA-24 is selected for the scene"
+          ],
+          "required_inputs": [
+            "raw_images",
+            "accepted_bbox_observations"
+          ],
+          "scope_tags": [],
+          "source_locator": "Figure 6P-24 (TA-24); PDF page 947; component sign:R4-7c",
+          "pdf_page": 947,
+          "printed_page": 907,
+          "source_span": "Figure 6P-24. Half Road Closure on the Far Side of an Intersection (TA-24) W20-1 C W20-5L B W4-2L A G20-2 (optional) (optional) L (optional) (optional) Buffer space R3-1 R3-2 1/2 L W20-1 (optional) A G20-2 (optional) R4-7c A A R3-7R G20-2 W20-1 (optional) R3-2 L (optional) W4-2R (optional) A G20-2 (optional) W20-5R B Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in this figure. C See Table 6B-4 for formulas for W20-1 calculating taper length (L). Typical Application 24",
+          "normative_basis": {
+            "source_unit_code": "SEC-6P.01",
+            "paragraph": "02",
+            "principle": "Typical Application diagrams are Guidance minimum solutions"
+          },
+          "figure_image_path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-24_pdf_page_0947.jpg"
+        },
+        {
+          "source_node_id": "src_e6c8ee170d5dbb082b18",
+          "source_unit_code": "TA-24",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "advance_warning",
+          "node_type": "figure_component",
+          "paragraph": "figure:sign:W20-1",
+          "subject": "W20-1 sign in TA-24",
+          "modality": "should",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "W20-1 is at the position and in the sequence shown in the figure.",
+          "applicability_conditions": [
+            "TA-24 is selected for the scene"
+          ],
+          "required_inputs": [
+            "raw_images",
+            "accepted_bbox_observations"
+          ],
+          "scope_tags": [],
+          "source_locator": "Figure 6P-24 (TA-24); PDF page 947; component sign:W20-1",
+          "pdf_page": 947,
+          "printed_page": 907,
+          "source_span": "Figure 6P-24. Half Road Closure on the Far Side of an Intersection (TA-24) W20-1 C W20-5L B W4-2L A G20-2 (optional) (optional) L (optional) (optional) Buffer space R3-1 R3-2 1/2 L W20-1 (optional) A G20-2 (optional) R4-7c A A R3-7R G20-2 W20-1 (optional) R3-2 L (optional) W4-2R (optional) A G20-2 (optional) W20-5R B Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in this figure. C See Table 6B-4 for formulas for W20-1 calculating taper length (L). Typical Application 24",
+          "normative_basis": {
+            "source_unit_code": "SEC-6P.01",
+            "paragraph": "02",
+            "principle": "Typical Application diagrams are Guidance minimum solutions"
+          },
+          "figure_image_path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-24_pdf_page_0947.jpg"
+        },
+        {
+          "source_node_id": "src_32ca3e3814c535c86887",
+          "source_unit_code": "TA-24",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "advance_warning",
+          "node_type": "figure_component",
+          "paragraph": "figure:sign:W20-5L",
+          "subject": "W20-5L sign in TA-24",
+          "modality": "should",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "W20-5L is at the position and in the sequence shown in the figure.",
+          "applicability_conditions": [
+            "TA-24 is selected for the scene"
+          ],
+          "required_inputs": [
+            "raw_images",
+            "accepted_bbox_observations"
+          ],
+          "scope_tags": [],
+          "source_locator": "Figure 6P-24 (TA-24); PDF page 947; component sign:W20-5L",
+          "pdf_page": 947,
+          "printed_page": 907,
+          "source_span": "Figure 6P-24. Half Road Closure on the Far Side of an Intersection (TA-24) W20-1 C W20-5L B W4-2L A G20-2 (optional) (optional) L (optional) (optional) Buffer space R3-1 R3-2 1/2 L W20-1 (optional) A G20-2 (optional) R4-7c A A R3-7R G20-2 W20-1 (optional) R3-2 L (optional) W4-2R (optional) A G20-2 (optional) W20-5R B Notes: See Table 6P-2 for the meanings of the symbols used in this figure. See Table 6B-1 for the meanings of the letter codes used in this figure. C See Table 6B-4 for formulas for W20-1 calculating taper length (L). Typical Application 24",
+          "normative_basis": {
+            "source_unit_code": "SEC-6P.01",
+            "paragraph": "02",
+            "principle": "Typical Application diagrams are Guidance minimum solutions"
+          },
+          "figure_image_path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-24_pdf_page_0947.jpg"
+        }
+      ],
+      "matching_node_count": 15,
+      "continuation_token": "eyJrZXkiOiAiVEEtMjR8KiIsICJraW5kIjogImV4cGFuZCIsICJvZmZzZXQiOiAxMn0",
+      "has_more": true
+    }
+  },
+  {
+    "step": 3,
+    "phase": "requirement_discovery",
+    "tool": "expand_source_unit",
+    "arguments": {
+      "source_unit_code": "TA-8",
+      "region": null,
+      "page_size": 12,
+      "continuation_token": null
+    },
+    "result": {
+      "operation": "expand_source_unit",
+      "source_unit_code": "TA-8",
+      "region": null,
+      "source_unit_metadata": {
+        "unit_type": "typical_application",
+        "title": "Road Closure with an Off-Site Detour",
+        "chapter": "6P",
+        "figure_code": "6P-8",
+        "source_pages": [
+          914,
+          915
+        ],
+        "printed_pages": [
+          874,
+          875
+        ]
+      },
+      "items": [
+        {
+          "source_node_id": "src_143733509a7193cd4ffd",
+          "source_unit_code": "TA-8",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "general_notes",
+          "node_type": "normative_clause",
+          "paragraph": "01",
+          "subject": "Regulatory traffic control devices",
+          "modality": "should",
+          "relation": "should_comply",
+          "threshold": "Regulatory traffic control devices should be modified as needed for the duration of the detour.",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images"
+          ],
+          "scope_tags": [],
+          "source_locator": "TA-8 paragraph 01; PDF page 914",
+          "pdf_page": 914,
+          "printed_page": 874,
+          "source_span": "Regulatory traffic control devices should be modified as needed for the duration of the detour."
+        },
+        {
+          "source_node_id": "src_f837d1e08e567e1dfb71",
+          "source_unit_code": "TA-8",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "channelizing_devices",
+          "node_type": "normative_clause",
+          "paragraph": "02",
+          "subject": "If the road is opened for some distance beyond the intersection and/or there are significant origin/ destination points beyond the intersection, the ROAD CLOSED and DETOUR signs on",
+          "modality": "may",
+          "relation": "may_apply",
+          "threshold": "If the road is opened for some distance beyond the intersection and/or there are significant origin/ destination points beyond the intersection, the ROAD CLOSED and DETOUR signs on Type 3 Barricades may be located at the edge of the traveled way.",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images",
+            "accepted_bbox_observations",
+            "ego_trajectory",
+            "lidar_points"
+          ],
+          "scope_tags": [],
+          "source_locator": "TA-8 paragraph 02; PDF page 914",
+          "pdf_page": 914,
+          "printed_page": 874,
+          "source_span": "If the road is opened for some distance beyond the intersection and/or there are significant origin/ destination points beyond the intersection, the ROAD CLOSED and DETOUR signs on Type 3 Barricades may be located at the edge of the traveled way."
+        },
+        {
+          "source_node_id": "src_bfc2047382c505d2555d",
+          "source_unit_code": "TA-8",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "general_notes",
+          "node_type": "normative_clause",
+          "paragraph": "03",
+          "subject": "A Route Sign Directional assembly",
+          "modality": "may",
+          "relation": "may_apply",
+          "threshold": "A Route Sign Directional assembly may be placed on the far left corner of the intersection to augment or replace the one shown on the near right corner.",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images"
+          ],
+          "scope_tags": [],
+          "source_locator": "TA-8 paragraph 03; PDF page 914",
+          "pdf_page": 914,
+          "printed_page": 874,
+          "source_span": "A Route Sign Directional assembly may be placed on the far left corner of the intersection to augment or replace the one shown on the near right corner."
+        },
+        {
+          "source_node_id": "src_f8b326580e9eac709821",
+          "source_unit_code": "TA-8",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "advance_warning",
+          "node_type": "normative_clause",
+          "paragraph": "04",
+          "subject": "Flashing warning lights and/or flags",
+          "modality": "may",
+          "relation": "may_apply",
+          "threshold": "Flashing warning lights and/or flags may be used to call attention to the advance warning signs.",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images"
+          ],
+          "scope_tags": [],
+          "source_locator": "TA-8 paragraph 04; PDF page 914",
+          "pdf_page": 914,
+          "printed_page": 874,
+          "source_span": "Flashing warning lights and/or flags may be used to call attention to the advance warning signs."
+        },
+        {
+          "source_node_id": "src_0b2cc65359d603ed34a5",
+          "source_unit_code": "TA-8",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "general_notes",
+          "node_type": "normative_clause",
+          "paragraph": "05",
+          "subject": "Cardinal direction plaques",
+          "modality": "may",
+          "relation": "may_apply",
+          "threshold": "Cardinal direction plaques may be used with route signs. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 875",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images"
+          ],
+          "scope_tags": [],
+          "source_locator": "TA-8 paragraph 05; PDF page 914",
+          "pdf_page": 914,
+          "printed_page": 874,
+          "source_span": "Cardinal direction plaques may be used with route signs. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 875"
+        },
+        {
+          "source_node_id": "src_fb60e9821d18a2dc5d66",
+          "source_unit_code": "TA-8",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "general_notes",
+          "node_type": "figure_component",
+          "paragraph": "figure:diagram",
+          "subject": "TA-8 diagram",
+          "modality": "should",
+          "relation": "depicts_guidance_minimum_solution",
+          "threshold": "Use the controls, positions, and dimensions depicted in the Typical Application figure, interpreted with its notes and referenced tables.",
+          "applicability_conditions": [
+            "TA-8 is selected for the scene"
+          ],
+          "required_inputs": [
+            "raw_images",
+            "accepted_bbox_observations"
+          ],
+          "scope_tags": [],
+          "source_locator": "Figure 6P-8 (TA-8); PDF page 915; component diagram",
+          "pdf_page": 915,
+          "printed_page": 875,
+          "source_span": "Figure 6P-8. Road Closure with an Off-Site Detour (TA-8) 500 ft R11-2 500 ft W20-3 W20-3 R11-3a M4-8 M1-5 M3-4 M4-10L 200 ft M4-8 1,000 ft M1-5 M4-8 Note: See Table 6P-2 for the meanings of the symbols used in this figure. M6-1L M1-5 500 ft M5-1L Typical Application 8",
+          "normative_basis": {
+            "source_unit_code": "SEC-6P.01",
+            "paragraph": "02",
+            "principle": "Typical Application diagrams are Guidance minimum solutions"
+          },
+          "figure_image_path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-8_pdf_page_0915.jpg"
+        },
+        {
+          "source_node_id": "src_ac1bf5bd60342b45c015",
+          "source_unit_code": "TA-8",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "advance_warning",
+          "node_type": "figure_component",
+          "paragraph": "figure:sign:M1-5",
+          "subject": "M1-5 sign in TA-8",
+          "modality": "should",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "M1-5 is at the position and in the sequence shown in the figure.",
+          "applicability_conditions": [
+            "TA-8 is selected for the scene"
+          ],
+          "required_inputs": [
+            "raw_images",
+            "accepted_bbox_observations"
+          ],
+          "scope_tags": [],
+          "source_locator": "Figure 6P-8 (TA-8); PDF page 915; component sign:M1-5",
+          "pdf_page": 915,
+          "printed_page": 875,
+          "source_span": "Figure 6P-8. Road Closure with an Off-Site Detour (TA-8) 500 ft R11-2 500 ft W20-3 W20-3 R11-3a M4-8 M1-5 M3-4 M4-10L 200 ft M4-8 1,000 ft M1-5 M4-8 Note: See Table 6P-2 for the meanings of the symbols used in this figure. M6-1L M1-5 500 ft M5-1L Typical Application 8",
+          "normative_basis": {
+            "source_unit_code": "SEC-6P.01",
+            "paragraph": "02",
+            "principle": "Typical Application diagrams are Guidance minimum solutions"
+          },
+          "figure_image_path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-8_pdf_page_0915.jpg"
+        },
+        {
+          "source_node_id": "src_3dd855d2057e35e4f22f",
+          "source_unit_code": "TA-8",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "advance_warning",
+          "node_type": "figure_component",
+          "paragraph": "figure:sign:M3-4",
+          "subject": "M3-4 sign in TA-8",
+          "modality": "should",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "M3-4 is at the position and in the sequence shown in the figure.",
+          "applicability_conditions": [
+            "TA-8 is selected for the scene"
+          ],
+          "required_inputs": [
+            "raw_images",
+            "accepted_bbox_observations"
+          ],
+          "scope_tags": [],
+          "source_locator": "Figure 6P-8 (TA-8); PDF page 915; component sign:M3-4",
+          "pdf_page": 915,
+          "printed_page": 875,
+          "source_span": "Figure 6P-8. Road Closure with an Off-Site Detour (TA-8) 500 ft R11-2 500 ft W20-3 W20-3 R11-3a M4-8 M1-5 M3-4 M4-10L 200 ft M4-8 1,000 ft M1-5 M4-8 Note: See Table 6P-2 for the meanings of the symbols used in this figure. M6-1L M1-5 500 ft M5-1L Typical Application 8",
+          "normative_basis": {
+            "source_unit_code": "SEC-6P.01",
+            "paragraph": "02",
+            "principle": "Typical Application diagrams are Guidance minimum solutions"
+          },
+          "figure_image_path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-8_pdf_page_0915.jpg"
+        },
+        {
+          "source_node_id": "src_92365c2532506f43c2c7",
+          "source_unit_code": "TA-8",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "advance_warning",
+          "node_type": "figure_component",
+          "paragraph": "figure:sign:M4-10L",
+          "subject": "M4-10L sign in TA-8",
+          "modality": "should",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "M4-10L is at the position and in the sequence shown in the figure.",
+          "applicability_conditions": [
+            "TA-8 is selected for the scene"
+          ],
+          "required_inputs": [
+            "raw_images",
+            "accepted_bbox_observations"
+          ],
+          "scope_tags": [],
+          "source_locator": "Figure 6P-8 (TA-8); PDF page 915; component sign:M4-10L",
+          "pdf_page": 915,
+          "printed_page": 875,
+          "source_span": "Figure 6P-8. Road Closure with an Off-Site Detour (TA-8) 500 ft R11-2 500 ft W20-3 W20-3 R11-3a M4-8 M1-5 M3-4 M4-10L 200 ft M4-8 1,000 ft M1-5 M4-8 Note: See Table 6P-2 for the meanings of the symbols used in this figure. M6-1L M1-5 500 ft M5-1L Typical Application 8",
+          "normative_basis": {
+            "source_unit_code": "SEC-6P.01",
+            "paragraph": "02",
+            "principle": "Typical Application diagrams are Guidance minimum solutions"
+          },
+          "figure_image_path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-8_pdf_page_0915.jpg"
+        },
+        {
+          "source_node_id": "src_2f7d8468b7ac6116bd96",
+          "source_unit_code": "TA-8",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "advance_warning",
+          "node_type": "figure_component",
+          "paragraph": "figure:sign:M4-8",
+          "subject": "M4-8 sign in TA-8",
+          "modality": "should",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "M4-8 is at the position and in the sequence shown in the figure.",
+          "applicability_conditions": [
+            "TA-8 is selected for the scene"
+          ],
+          "required_inputs": [
+            "raw_images",
+            "accepted_bbox_observations"
+          ],
+          "scope_tags": [],
+          "source_locator": "Figure 6P-8 (TA-8); PDF page 915; component sign:M4-8",
+          "pdf_page": 915,
+          "printed_page": 875,
+          "source_span": "Figure 6P-8. Road Closure with an Off-Site Detour (TA-8) 500 ft R11-2 500 ft W20-3 W20-3 R11-3a M4-8 M1-5 M3-4 M4-10L 200 ft M4-8 1,000 ft M1-5 M4-8 Note: See Table 6P-2 for the meanings of the symbols used in this figure. M6-1L M1-5 500 ft M5-1L Typical Application 8",
+          "normative_basis": {
+            "source_unit_code": "SEC-6P.01",
+            "paragraph": "02",
+            "principle": "Typical Application diagrams are Guidance minimum solutions"
+          },
+          "figure_image_path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-8_pdf_page_0915.jpg"
+        },
+        {
+          "source_node_id": "src_80d42fc3a8f1ded0654a",
+          "source_unit_code": "TA-8",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "advance_warning",
+          "node_type": "figure_component",
+          "paragraph": "figure:sign:M5-1L",
+          "subject": "M5-1L sign in TA-8",
+          "modality": "should",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "M5-1L is at the position and in the sequence shown in the figure.",
+          "applicability_conditions": [
+            "TA-8 is selected for the scene"
+          ],
+          "required_inputs": [
+            "raw_images",
+            "accepted_bbox_observations"
+          ],
+          "scope_tags": [],
+          "source_locator": "Figure 6P-8 (TA-8); PDF page 915; component sign:M5-1L",
+          "pdf_page": 915,
+          "printed_page": 875,
+          "source_span": "Figure 6P-8. Road Closure with an Off-Site Detour (TA-8) 500 ft R11-2 500 ft W20-3 W20-3 R11-3a M4-8 M1-5 M3-4 M4-10L 200 ft M4-8 1,000 ft M1-5 M4-8 Note: See Table 6P-2 for the meanings of the symbols used in this figure. M6-1L M1-5 500 ft M5-1L Typical Application 8",
+          "normative_basis": {
+            "source_unit_code": "SEC-6P.01",
+            "paragraph": "02",
+            "principle": "Typical Application diagrams are Guidance minimum solutions"
+          },
+          "figure_image_path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-8_pdf_page_0915.jpg"
+        },
+        {
+          "source_node_id": "src_bf1ca3c9ca6355bba4f1",
+          "source_unit_code": "TA-8",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "advance_warning",
+          "node_type": "figure_component",
+          "paragraph": "figure:sign:M6-1L",
+          "subject": "M6-1L sign in TA-8",
+          "modality": "should",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "M6-1L is at the position and in the sequence shown in the figure.",
+          "applicability_conditions": [
+            "TA-8 is selected for the scene"
+          ],
+          "required_inputs": [
+            "raw_images",
+            "accepted_bbox_observations"
+          ],
+          "scope_tags": [],
+          "source_locator": "Figure 6P-8 (TA-8); PDF page 915; component sign:M6-1L",
+          "pdf_page": 915,
+          "printed_page": 875,
+          "source_span": "Figure 6P-8. Road Closure with an Off-Site Detour (TA-8) 500 ft R11-2 500 ft W20-3 W20-3 R11-3a M4-8 M1-5 M3-4 M4-10L 200 ft M4-8 1,000 ft M1-5 M4-8 Note: See Table 6P-2 for the meanings of the symbols used in this figure. M6-1L M1-5 500 ft M5-1L Typical Application 8",
+          "normative_basis": {
+            "source_unit_code": "SEC-6P.01",
+            "paragraph": "02",
+            "principle": "Typical Application diagrams are Guidance minimum solutions"
+          },
+          "figure_image_path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-8_pdf_page_0915.jpg"
+        }
+      ],
+      "matching_node_count": 15,
+      "continuation_token": "eyJrZXkiOiAiVEEtOHwqIiwgImtpbmQiOiAiZXhwYW5kIiwgIm9mZnNldCI6IDEyfQ",
+      "has_more": true
+    }
+  },
+  {
+    "step": 4,
+    "phase": "requirement_discovery",
+    "tool": "expand_source_unit",
+    "arguments": {
+      "source_unit_code": "TA-20",
+      "region": null,
+      "page_size": 12,
+      "continuation_token": null
+    },
+    "result": {
+      "operation": "expand_source_unit",
+      "source_unit_code": "TA-20",
+      "region": null,
+      "source_unit_metadata": {
+        "unit_type": "typical_application",
+        "title": "Detour for a Closed Street",
+        "chapter": "6P",
+        "figure_code": "6P-20",
+        "source_pages": [
+          938,
+          939
+        ],
+        "printed_pages": [
+          898,
+          899
+        ]
+      },
+      "items": [
+        {
+          "source_node_id": "src_a6d78e532f52dee593a4",
+          "source_unit_code": "TA-20",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "general_notes",
+          "node_type": "normative_clause",
+          "paragraph": "01",
+          "subject": "This plan",
+          "modality": "should",
+          "relation": "should_comply",
+          "threshold": "This plan should be used for streets without posted route numbers.",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images"
+          ],
+          "scope_tags": [],
+          "source_locator": "TA-20 paragraph 01; PDF page 938",
+          "pdf_page": 938,
+          "printed_page": 898,
+          "source_span": "This plan should be used for streets without posted route numbers."
+        },
+        {
+          "source_node_id": "src_045ba92c28e102c2d35a",
+          "source_unit_code": "TA-20",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "general_notes",
+          "node_type": "normative_clause",
+          "paragraph": "02",
+          "subject": "On multi-lane streets, Detour signs with an Advance Turn Arrow",
+          "modality": "should",
+          "relation": "should_comply",
+          "threshold": "On multi-lane streets, Detour signs with an Advance Turn Arrow should be used in advance of a turn.",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images",
+            "closed_lane",
+            "roadway_configuration"
+          ],
+          "scope_tags": [],
+          "source_locator": "TA-20 paragraph 02; PDF page 938",
+          "pdf_page": 938,
+          "printed_page": 898,
+          "source_span": "On multi-lane streets, Detour signs with an Advance Turn Arrow should be used in advance of a turn."
+        },
+        {
+          "source_node_id": "src_d0bdb9796dfffed538c5",
+          "source_unit_code": "TA-20",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "advance_warning",
+          "node_type": "normative_clause",
+          "paragraph": "03",
+          "subject": "Flashing warning lights and/or flags",
+          "modality": "may",
+          "relation": "may_apply",
+          "threshold": "Flashing warning lights and/or flags may be used to call attention to the advance warning signs.",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images"
+          ],
+          "scope_tags": [],
+          "source_locator": "TA-20 paragraph 03; PDF page 938",
+          "pdf_page": 938,
+          "printed_page": 898,
+          "source_span": "Flashing warning lights and/or flags may be used to call attention to the advance warning signs."
+        },
+        {
+          "source_node_id": "src_9778228618159b51f802",
+          "source_unit_code": "TA-20",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "channelizing_devices",
+          "node_type": "normative_clause",
+          "paragraph": "04",
+          "subject": "Flashing warning lights",
+          "modality": "may",
+          "relation": "may_apply",
+          "threshold": "Flashing warning lights may be used on Type 3 Barricades.",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images"
+          ],
+          "scope_tags": [],
+          "source_locator": "TA-20 paragraph 04; PDF page 938",
+          "pdf_page": 938,
+          "printed_page": 898,
+          "source_span": "Flashing warning lights may be used on Type 3 Barricades."
+        },
+        {
+          "source_node_id": "src_80f5b3ee08e19483e55b",
+          "source_unit_code": "TA-20",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "general_notes",
+          "node_type": "normative_clause",
+          "paragraph": "05",
+          "subject": "Detour signs",
+          "modality": "may",
+          "relation": "may_apply",
+          "threshold": "Detour signs may be located on the far side of intersections. A Detour sign with an advance arrow may be used in advance of a turn.",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images"
+          ],
+          "scope_tags": [],
+          "source_locator": "TA-20 paragraph 05; PDF page 938",
+          "pdf_page": 938,
+          "printed_page": 898,
+          "source_span": "Detour signs may be located on the far side of intersections. A Detour sign with an advance arrow may be used in advance of a turn."
+        },
+        {
+          "source_node_id": "src_6a8a85bd694fd216e624",
+          "source_unit_code": "TA-20",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "general_notes",
+          "node_type": "normative_clause",
+          "paragraph": "06",
+          "subject": "A Street Name sign",
+          "modality": "may",
+          "relation": "may_apply",
+          "threshold": "A Street Name sign may be mounted with the Detour sign. The Street Name sign may be either white on green or black on orange.",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images"
+          ],
+          "scope_tags": [],
+          "source_locator": "TA-20 paragraph 06; PDF page 938",
+          "pdf_page": 938,
+          "printed_page": 898,
+          "source_span": "A Street Name sign may be mounted with the Detour sign. The Street Name sign may be either white on green or black on orange."
+        },
+        {
+          "source_node_id": "src_ecc1e44e348f9b0b9d62",
+          "source_unit_code": "TA-20",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "general_notes",
+          "node_type": "normative_clause",
+          "paragraph": "07",
+          "subject": "When used, the Street Name sign",
+          "modality": "shall",
+          "relation": "shall_comply",
+          "threshold": "When used, the Street Name sign shall be placed above the Detour sign.",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images"
+          ],
+          "scope_tags": [],
+          "source_locator": "TA-20 paragraph 07; PDF page 938",
+          "pdf_page": 938,
+          "printed_page": 898,
+          "source_span": "When used, the Street Name sign shall be placed above the Detour sign."
+        },
+        {
+          "source_node_id": "src_f71534a717a3d1f53ef7",
+          "source_unit_code": "TA-20",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "general_notes",
+          "node_type": "normative_clause",
+          "paragraph": "08",
+          "subject": "Figure 6P-9 contains the information for detouring a numbered highway. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 899",
+          "modality": "support",
+          "relation": "states",
+          "threshold": "Figure 6P-9 contains the information for detouring a numbered highway. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 899",
+          "applicability_conditions": [],
+          "required_inputs": [
+            "raw_images"
+          ],
+          "scope_tags": [],
+          "source_locator": "TA-20 paragraph 08; PDF page 938",
+          "pdf_page": 938,
+          "printed_page": 898,
+          "source_span": "Figure 6P-9 contains the information for detouring a numbered highway. Sect. 6P.01 December 2023 MUTCD 11th Edition Page 899"
+        },
+        {
+          "source_node_id": "src_d927c96e53d922f228a1",
+          "source_unit_code": "TA-20",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "general_notes",
+          "node_type": "figure_component",
+          "paragraph": "figure:diagram",
+          "subject": "TA-20 diagram",
+          "modality": "should",
+          "relation": "depicts_guidance_minimum_solution",
+          "threshold": "Use the controls, positions, and dimensions depicted in the Typical Application figure, interpreted with its notes and referenced tables.",
+          "applicability_conditions": [
+            "TA-20 is selected for the scene"
+          ],
+          "required_inputs": [
+            "raw_images",
+            "accepted_bbox_observations"
+          ],
+          "scope_tags": [],
+          "source_locator": "Figure 6P-20 (TA-20); PDF page 939; component diagram",
+          "pdf_page": 939,
+          "printed_page": 899,
+          "source_span": "Figure 6P-20. Detour for a Closed Street (TA-20) M4-8a W20-3 B M4-9L (modified) R3-2 A W20-2 M4-10R M4-9R (modified) R11-4 R11-2 M4-9R M4-9L M4-9L (modified) (modified) R3-1 (modified) R3-1 M4-9R (modified) R11-2 M4-10L A R3-2 M4-9L (modified) M4-9R (modified) B W20-2 Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a See Table 6B-1 for the meanings of the letter codes used in this figure. W20-3 Typical Application 20",
+          "normative_basis": {
+            "source_unit_code": "SEC-6P.01",
+            "paragraph": "02",
+            "principle": "Typical Application diagrams are Guidance minimum solutions"
+          },
+          "figure_image_path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-20_pdf_page_0939.jpg"
+        },
+        {
+          "source_node_id": "src_e63ccce8edd5355ea7b4",
+          "source_unit_code": "TA-20",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "distance_table",
+          "node_type": "figure_component",
+          "paragraph": "figure:dimensions:A-B",
+          "subject": "A, B sign-spacing dimensions in TA-20",
+          "modality": "should",
+          "relation": "uses_referenced_table_dimensions",
+          "threshold": "Resolve the depicted A, B dimensions through the figure's referenced spacing table.",
+          "applicability_conditions": [
+            "TA-20 is selected for the scene"
+          ],
+          "required_inputs": [
+            "roadway_configuration",
+            "posted_speed_mph",
+            "accepted_bbox_observations",
+            "ego_trajectory",
+            "lidar_points"
+          ],
+          "scope_tags": [],
+          "source_locator": "Figure 6P-20 (TA-20); PDF page 939; component dimensions:A-B",
+          "pdf_page": 939,
+          "printed_page": 899,
+          "source_span": "Figure 6P-20. Detour for a Closed Street (TA-20) M4-8a W20-3 B M4-9L (modified) R3-2 A W20-2 M4-10R M4-9R (modified) R11-4 R11-2 M4-9R M4-9L M4-9L (modified) (modified) R3-1 (modified) R3-1 M4-9R (modified) R11-2 M4-10L A R3-2 M4-9L (modified) M4-9R (modified) B W20-2 Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a See Table 6B-1 for the meanings of the letter codes used in this figure. W20-3 Typical Application 20",
+          "normative_basis": {
+            "source_unit_code": "SEC-6P.01",
+            "paragraph": "02",
+            "principle": "Typical Application diagrams are Guidance minimum solutions"
+          },
+          "figure_image_path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-20_pdf_page_0939.jpg"
+        },
+        {
+          "source_node_id": "src_44aeb734e8c9e61f75e6",
+          "source_unit_code": "TA-20",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "advance_warning",
+          "node_type": "figure_component",
+          "paragraph": "figure:sign:M4-10L",
+          "subject": "M4-10L sign in TA-20",
+          "modality": "should",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "M4-10L is at the position and in the sequence shown in the figure.",
+          "applicability_conditions": [
+            "TA-20 is selected for the scene"
+          ],
+          "required_inputs": [
+            "raw_images",
+            "accepted_bbox_observations"
+          ],
+          "scope_tags": [],
+          "source_locator": "Figure 6P-20 (TA-20); PDF page 939; component sign:M4-10L",
+          "pdf_page": 939,
+          "printed_page": 899,
+          "source_span": "Figure 6P-20. Detour for a Closed Street (TA-20) M4-8a W20-3 B M4-9L (modified) R3-2 A W20-2 M4-10R M4-9R (modified) R11-4 R11-2 M4-9R M4-9L M4-9L (modified) (modified) R3-1 (modified) R3-1 M4-9R (modified) R11-2 M4-10L A R3-2 M4-9L (modified) M4-9R (modified) B W20-2 Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a See Table 6B-1 for the meanings of the letter codes used in this figure. W20-3 Typical Application 20",
+          "normative_basis": {
+            "source_unit_code": "SEC-6P.01",
+            "paragraph": "02",
+            "principle": "Typical Application diagrams are Guidance minimum solutions"
+          },
+          "figure_image_path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-20_pdf_page_0939.jpg"
+        },
+        {
+          "source_node_id": "src_c39cf1f50c4149af91bc",
+          "source_unit_code": "TA-20",
+          "unit_type": "typical_application",
+          "chapter": "6P",
+          "region": "advance_warning",
+          "node_type": "figure_component",
+          "paragraph": "figure:sign:M4-10R",
+          "subject": "M4-10R sign in TA-20",
+          "modality": "should",
+          "relation": "is_depicted_at_figure_position",
+          "threshold": "M4-10R is at the position and in the sequence shown in the figure.",
+          "applicability_conditions": [
+            "TA-20 is selected for the scene"
+          ],
+          "required_inputs": [
+            "raw_images",
+            "accepted_bbox_observations"
+          ],
+          "scope_tags": [],
+          "source_locator": "Figure 6P-20 (TA-20); PDF page 939; component sign:M4-10R",
+          "pdf_page": 939,
+          "printed_page": 899,
+          "source_span": "Figure 6P-20. Detour for a Closed Street (TA-20) M4-8a W20-3 B M4-9L (modified) R3-2 A W20-2 M4-10R M4-9R (modified) R11-4 R11-2 M4-9R M4-9L M4-9L (modified) (modified) R3-1 (modified) R3-1 M4-9R (modified) R11-2 M4-10L A R3-2 M4-9L (modified) M4-9R (modified) B W20-2 Notes: See Table 6P-2 for the meanings of the symbols used in this figure. M4-8a See Table 6B-1 for the meanings of the letter codes used in this figure. W20-3 Typical Application 20",
+          "normative_basis": {
+            "source_unit_code": "SEC-6P.01",
+            "paragraph": "02",
+            "principle": "Typical Application diagrams are Guidance minimum solutions"
+          },
+          "figure_image_path": "/home/klong23/workzone/experiments/agentic_inspection/inputs/mutcd_figure_pages_v1/ta-20_pdf_page_0939.jpg"
+        }
+      ],
+      "matching_node_count": 21,
+      "continuation_token": "eyJrZXkiOiAiVEEtMjB8KiIsICJraW5kIjogImV4cGFuZCIsICJvZmZzZXQiOiAxMn0",
+      "has_more": true
+    }
+  }
+]

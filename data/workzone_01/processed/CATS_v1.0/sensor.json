@@ -1,0 +1,12 @@
+[
+  {
+    "token": "922769fbf5714ad2bb9379d52e327b70",
+    "channel": "LIDAR_TOP",
+    "modality": "lidar"
+  },
+  {
+    "token": "7f0e7d2aef18456489d76ee5b9b7fcbe",
+    "channel": "CAM_FRONT",
+    "modality": "camera"
+  }
+]

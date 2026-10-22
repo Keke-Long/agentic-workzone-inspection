@@ -1,0 +1,32 @@
+{
+  "scene_id": "scene-CATS-19",
+  "layout_selection_status": "determined",
+  "selected_layouts": [
+    {
+      "layout_code": "TA-33",
+      "layout_role": "primary_applicable",
+      "source_locator": "TA-33, Figure 6P-33, PDF pages 964-965; SEC-6N.11 paragraph 06, PDF page 887",
+      "matched_scene_facts": [
+        "One stationary right-lane closure",
+        "Multilane divided roadway",
+        "Long-term work lasting more than three days",
+        "Channelizing devices are used around the closed lane",
+        "Urban arterial context is compatible with the multi-lane roadway treatment",
+        "Posted speed is 25 mph, which can be used later for TA-33 taper and spacing calculations"
+      ],
+      "conflicting_scene_facts": [
+        "The full roadway lane count is unknown",
+        "The exact work-zone relationship to the signalized intersection is not fully established",
+        "Arrow-board deployment is unknown; TA-33's arrow-board requirement is specifically conditional on a freeway lane closure, while this scene is identified as an urban arterial rather than a freeway",
+        "The adjacent sidewalk is present, but its status as open, closed, or relocated is unknown"
+      ]
+    }
+  ],
+  "missing_scene_fields": [
+    "roadway_lane_count",
+    "work-zone limits relative to the signalized intersection",
+    "sidewalk status (open, closed, or relocated)",
+    "arrow_board_deployed and, if deployed, arrow_board_display_mode"
+  ],
+  "selection_reason": "TA-33 is the directly applicable primary Typical Application because the scene identifies a stationary right-lane closure on a multilane divided roadway. SEC-6N.11 paragraph 06 states that when the right-hand lane is closed, TTC similar to Figure 6P-33 may be used for divided roads, and TA-33 is titled Stationary Lane Closure on a Divided Highway. The long-term duration matches the long-term treatment shown in Figure 6P-33. TA-34 was not selected because the scene provides no evidence of a temporary traffic barrier, and TA-29 was not selected as a primary or cross-reference because sidewalk closure or relocation is not established. The missing lane count does not prevent selection among the mutually exclusive primary applications: the roadway is already classified as multilane and divided, and the closed lane is identified as the right lane. Additional intersection or pedestrian treatments may be added later if the unresolved scene facts establish those conditions."
+}

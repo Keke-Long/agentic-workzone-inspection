@@ -1,0 +1,496 @@
+{
+  "regulation_retrieval_calls": 0,
+  "retrieval_queries": [],
+  "retrieved_chunks_nodes": 0,
+  "retrieved_characters": 0,
+  "point_cloud_frames_processed": 0,
+  "points_processed": 0,
+  "geometry_tool_calls": 0,
+  "map_web_lookup_calls": 0,
+  "image_files_returned": 0,
+  "cpu_seconds": 0.0,
+  "measurements_saved": 0,
+  "speed_evidence_saved": 0,
+  "external_query_sources": [],
+  "external_queries": [],
+  "tool_calls_total": 32,
+  "tool_failures": 2,
+  "resumed_tool_calls": 28,
+  "session_tool_calls": 4,
+  "resumed_tool_failures": 2,
+  "session_tool_failures": 0,
+  "tool_retries": 0,
+  "high_confidence_disposition_gap_count": 0,
+  "high_confidence_disposition_gaps": [],
+  "stage2_candidate_audit_calls": 8,
+  "stage2_audited_candidate_count": 25,
+  "stage2_structured_decision_count": 25,
+  "stage2_structured_decisions": {
+    "src_ff92896162b8a01b0836": {
+      "source_node_id": "src_ff92896162b8a01b0836",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "Whether the street lacks a posted route number is unresolved, so the TA-19 route-number condition cannot be established.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "lane_closure_layout",
+      "registered_requirement_key": null
+    },
+    "src_645226502f4c2439e5fe": {
+      "source_node_id": "src_645226502f4c2439e5fe",
+      "activation_status": "false",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "The scoped scene is an urban street with one apparent lane in each direction, not a multi-lane street.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "lane_closure_layout",
+      "registered_requirement_key": null
+    },
+    "src_772e91e4ee914179c320": {
+      "source_node_id": "src_772e91e4ee914179c320",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "TA-19 is the selected primary layout; the M4-10R sign position and sequence are independently inspectable.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": "req_7f7323bcd37c5b84"
+    },
+    "src_cdc47d0d2384b1278442": {
+      "source_node_id": "src_cdc47d0d2384b1278442",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "TA-19 is the selected primary layout; the M4-8a sign position and sequence are independently inspectable.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": "req_81896520e0b032a5"
+    },
+    "src_2978fd365bf247168e56": {
+      "source_node_id": "src_2978fd365bf247168e56",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "TA-19 is the selected primary layout; the M4-9L sign position and sequence are independently inspectable.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": "req_d305824bda78ee20"
+    },
+    "src_25fdba13ca2e4d09742f": {
+      "source_node_id": "src_25fdba13ca2e4d09742f",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "TA-19 is the selected primary layout; the M4-9R sign position and sequence are independently inspectable.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": "req_d0158fecf5f63d40"
+    },
+    "src_5bbe78f326fb3bf0f71f": {
+      "source_node_id": "src_5bbe78f326fb3bf0f71f",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "TA-19 is the selected primary layout; the R11-2 sign position and sequence are independently inspectable.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": "req_994faca8507061a8"
+    },
+    "src_4e4a614234c55ae69bb4": {
+      "source_node_id": "src_4e4a614234c55ae69bb4",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "TA-19 is the selected primary layout; the R11-4 sign position and sequence are independently inspectable.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": "req_12b10ac1c3f92d53"
+    },
+    "src_a8822f2af49c09edf7fb": {
+      "source_node_id": "src_a8822f2af49c09edf7fb",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "TA-19 is the selected primary layout; the R3-1 sign position and sequence are independently inspectable.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": "req_07b36381ff33c89f"
+    },
+    "src_ee3d6350ed5f6c524113": {
+      "source_node_id": "src_ee3d6350ed5f6c524113",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "TA-19 is the selected primary layout; the R3-2 sign position and sequence are independently inspectable.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": "req_09c763900319cba8"
+    },
+    "src_0fff811036aadbfbf3d1": {
+      "source_node_id": "src_0fff811036aadbfbf3d1",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "TA-19 is the selected primary layout; the R5-1 sign position and sequence are independently inspectable.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": "req_f704cd7a2a19ed90"
+    },
+    "src_07444b821fab297359c8": {
+      "source_node_id": "src_07444b821fab297359c8",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "TA-19 is the selected primary layout; the R6-1R sign position and sequence are independently inspectable.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": "req_e33565395f6e7972"
+    },
+    "src_17d12869af1669b6d7f7": {
+      "source_node_id": "src_17d12869af1669b6d7f7",
+      "activation_status": "established",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "not_field_inspectable",
+      "reason": "Coordination with authorities is administrative process guidance, not an independently inspectable field predicate in the scoped imagery and LiDAR.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_26bd048211769b2b09e8": {
+      "source_node_id": "src_26bd048211769b2b09e8",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "The scene has an established work-space restriction and the ROAD WORK sign location relative to the work space is independently inspectable.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": "req_c22e4cc97e27c3e0"
+    },
+    "src_68cb61fa49e358701720": {
+      "source_node_id": "src_68cb61fa49e358701720",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "Opposing traffic is explicitly confirmed to detour over other roads, so presence and placement of the DETOUR sign are an applicable independent field check.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": "req_b027f3d259231de3"
+    },
+    "src_6ee70d9c1617acd549c4": {
+      "source_node_id": "src_6ee70d9c1617acd549c4",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "The urban low-speed condition is established by the scene, and the recommended 100-foot advance-warning spacing is independently measurable between successive signs.",
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_sign_spacing",
+        "quantity": "spacing between successive advance warning signs",
+        "thresholds": [
+          {
+            "condition": "urban low-speed advance warning sign spacing",
+            "value": 100,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": "req_cba25d328142060c"
+    },
+    "src_954e7e72c1c215bc571b": {
+      "source_node_id": "src_954e7e72c1c215bc571b",
+      "activation_status": "unknown",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_unknown",
+      "reason": "Whether traffic can enter the TTC zone from a crossroad or major driveway is not established in the scoped frames, so the antecedent cannot be activated.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_a57d0a34f9651ab2c7d5": {
+      "source_node_id": "src_a57d0a34f9651ab2c7d5",
+      "activation_status": "established",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "not_field_inspectable",
+      "reason": "The figure's A-B dimension labels do not provide a standalone executable predicate without a defined applicable sign sequence and dimensions; the concrete spacing predicate is represented by the retained Table 6B-1 candidate.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_aca54136fd0666f6678c": {
+      "source_node_id": "src_aca54136fd0666f6678c",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "TA-19 is selected and the detour operation is established; a Street Name sign's required placement above the DETOUR sign is an independently inspectable arrangement.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "lane_closure_layout",
+      "registered_requirement_key": "req_6cba0e7128bd99e4"
+    },
+    "src_b48978b224cbded461d4": {
+      "source_node_id": "src_b48978b224cbded461d4",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "The confirmed operation closes only the opposing direction while the ego-direction lane remains open; the roadway is not closed to all or all but local users as required by this sign provision.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_bbff52f9e380a6c8183d": {
+      "source_node_id": "src_bbff52f9e380a6c8183d",
+      "activation_status": "established",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": "src_26bd048211769b2b09e8",
+      "action": "exclude",
+      "decision_basis": "duplicate",
+      "reason": "The TA-19 W20-1 figure component duplicates the independently retained ROAD WORK sign advance-location predicate from SEC-6H.03.01.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_eafd02c3dbce3f8109a1": {
+      "source_node_id": "src_eafd02c3dbce3f8109a1",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "Multiple advance warning signs are visibly present, so the ordering requirement that ROAD WORK AHEAD be first is an independently violable field check distinct from spacing and location.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": "req_cb1dccef74232ff1"
+    },
+    "src_f542d01fac88c3bcd1a5": {
+      "source_node_id": "src_f542d01fac88c3bcd1a5",
+      "activation_status": "false",
+      "independently_violable": false,
+      "duplicate_of_source_node_id": null,
+      "action": "exclude",
+      "decision_basis": "activation_false",
+      "reason": "The confirmed directional closure leaves the ego-direction lane open and therefore does not establish a highway closure to all or all but local road users.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": null
+    },
+    "src_7a245af2a19d44b87030": {
+      "source_node_id": "src_7a245af2a19d44b87030",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "The scene shows a transition/activity area and multiple advance-warning signs. The closest advance-warning sign's longitudinal placement relative to the transition is a distinct field-check from spacing between successive signs and is executable from sign and transition locations.",
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_longitudinal_distance",
+        "quantity": "longitudinal distance from the closest advance-warning sign to the transition/activity area",
+        "thresholds": [
+          {
+            "condition": "closest advance-warning sign before an established transition/activity area",
+            "value": 100,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": "req_6510f42c7262c82d"
+    },
+    "src_ff58c5005260c2206d6f": {
+      "source_node_id": "src_ff58c5005260c2206d6f",
+      "activation_status": "established",
+      "independently_violable": true,
+      "duplicate_of_source_node_id": null,
+      "action": "retain",
+      "decision_basis": "activated_independent",
+      "reason": "TA-19 is the selected primary layout and an off-site detour for opposing traffic is explicitly confirmed. The W20-2 component's presence and placement in the TA-19 detour signing sequence can fail independently of the generic detour-use predicate.",
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "domain": "advance_warning_sign_system",
+      "registered_requirement_key": "req_134633b407c8f805"
+    }
+  },
+  "stage2_decision_revision": 4,
+  "stage2_audit_revision": 4,
+  "stage2_verification_unresolved_count": 0,
+  "stage2_verification_unresolved": [],
+  "input_tokens": 129341,
+  "output_tokens": 3944,
+  "total_tokens": 133285,
+  "cached_tokens": 3255,
+  "controller_turns": 4,
+  "model_api_calls": 4,
+  "wall_clock_seconds": 29.87707667890936,
+  "gpu_seconds": null,
+  "image_tokens_or_processed_pixels": null,
+  "actual_model_api_cost_usd": 0.0300151,
+  "model_pricing_usd_per_million": {
+    "input": 0.2,
+    "cached_input": 0.02,
+    "output": 1.2,
+    "pricing_scope": "recorded checkpoint pricing"
+  },
+  "model_api_retries": 0,
+  "estimated_external_api_cost_usd": 0.0,
+  "emergency_ceiling_triggered": false
+}

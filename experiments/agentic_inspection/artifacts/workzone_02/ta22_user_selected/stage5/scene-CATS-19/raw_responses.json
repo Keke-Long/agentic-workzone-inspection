@@ -1,0 +1,643 @@
+[
+  {
+    "id": "resp_0f9f891cf7fd108f016ad81f5ee71c87d1a65742683eb8bede",
+    "object": "response",
+    "created_at": 1792548702,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792548704,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "ORCHESTRATED STAGE 5 — Form conclusions only from the frozen requirements and bound Stage 4 evidence. Call the only currently exposed tool. First load the conclusion plan. Then submit exactly one conclusion for every pending requirement in the single required batch. The registered modality determines Mandatory versus Guidance and cannot be changed. If any required input is unresolved, or normative applicability is false or indeterminate, inspection_status must be not_assessed. Do not treat an unreadable or unresolved observation as proof of deficiency. If applicability is true and the structured evidence ledger has no unresolved required input, make a definitive satisfied/deficient decision: use satisfied when the relevant setup is observable and no clear material error is established, and deficient only when reliable evidence establishes a clear material violation. Do not create a hidden evidence gap in free-text limitations after Stage 4 marked the corresponding input acquired. Conversely, an explicit user/domain-reviewer-confirmed deficiency in the bound direct evidence is binding and must be reported as deficient when applicability is true. The program binds evidence IDs, measurement IDs, tools, acquisition attempts, and final data availability. Check readiness and seal only when ready is true. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 5 is sealed; no Stage 6 call is permitted.",
+    "max_output_tokens": 7000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0f9f891cf7fd108f016ad81f5fdf0087d1bd47630512028b5c",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2B9gCZ-H6ea34xI1P95FihJpOTWYG29DLJbDubP6eHI1nJAHzJVbbT9qZXVPQ5swYrkTrOiS_BYoUxnVz_QABzIGrl8gp_IiU6IBcczogsZO3DX9acYnsMSX69y0LKCl9CZU0TJ0p-JeRH8Tr601vEhJ1TFJzkrHGPJi-Tcdc9Iz35Ae-06TR9bgWytkhGJKkjXC0mBKOZmj5hRUuI47tFjQVIjvRLe6wJu1cjGpNF1-9Lz8ITGh-yHRYtKB8VHLZCuHiO1aSJ51Pvy8LjKEAb2tYHLGaPWAT6ANzSkn-HvUlvsnypUFD2D7IQem4onBwPkJvz-qvJfA-BovxdfXYHM--Tcn872CaciQWpoR5OlYcJYgYu_BzOpJvuMwv6HbEcQUJ8FbYcFjrUHMLvCs01svpMWnN0BScLVjYJCfCuV_nPjFkWoJoIlva5zIc_Utqtv91_8Bp6TQNv9Hwx6_t5CcCAmhbUC9sdjXYIk0VFXbohgO36sYn84AvHDxCMwU0lRzAI7BNkckRvr_ABrKIfxAZ4gQRPO0j7Kf0DUHSR_f5DAXN7AFj-NLjjVvH3F6jJXxbp4ipEb9cz4lO9iZg_g6xSUNR_86luiDuUZ9ijnYCQIodcmwS1KgCFZDfqkaUvzkRJaGUXXKK1MyX-rf5I8KhHUqNCrF5g3-lau1NoyWDYiU24IyKqWuJ-qpX-bCXc1EBjtcKM4nFlgiVnAkNTuCQUGvBXatLLBpUm5ZId6TyXi2epYK7enkLsQFE0Fn2bg-uaMlw1AZsP5i06Yg5AyUrTP9W20IvBrk5qwGxcU1RnpQJ9RqZPHweoFt7BcEKuP-xYyiYjM3TW_Exv4oWOUVyS0bcxNBN14vftivI6G71-HL0sxVy_p0viYjDpjMEb7OaVEnCMkcBqKEi9T6aqUbEXhHZIpGBr3b8Fyc_ulXRMAIe0eKFdwFg9BIl2HRxkJb893qMkV4HlL0iulWyHJtEsUxdVaxTz6y0d8JFJ0U_9VW8V1vwMRVHRG_cWvYvEU7vA7Gsbi3z6LI0Btwxbm5yjda_k7ZY69j_O8V-x3pE2E-QU71kZCYJ5b4q8vCAI0PpoVd7ZsKgbV82sImCV49NAaPo-n-qVSr4aSV3nJ_T88c7hm82c-UcMzJ7odcQfO2qYLgg0uxAVBP_fpTU5n1HCxTlkTby2BuiRZzZZgnAam0wzZ5uPEP-H9jFfihXbwDelQQ70cd3r66KiMPyYbGJYQ8twQwZ-IVg-OnFg6zidqXg5caZOvyv9qaqgb9wexox-ykMnUk__P_uCJMcmv_PFWDGy3WQVOB_4FrQSdc0ekmqKd17WmUMwoBOPeDxE4OIdSWGrxpkmVQyRh5QGHeOF2zhzJU0jCbdzGDerXE7apwa_of0Z7tswlgmIkMnU4zpxOOrLTZZ1D-9l5dkxQTq_w4rtlY23WYPSjr_nt6QnyUcvAyN8IRUgltSn97X7lXpHgK3BUqZdV7jfGYEkXQ4yC4l4w0g7INEyrFMN43TsVwOuMVpKlzM5XkO10tq917M4sDaWDpeMFLMkl2HcteZCIerIytDJNX0LW0C73qVhE=",
+        "summary": []
+      },
+      {
+        "id": "fc_0f9f891cf7fd108f016ad81f601dd887d18bfe4aad5a4b1800",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{}",
+        "call_id": "call_vO4yyAwvZ4ajzpcqvPFsa7tl",
+        "name": "get_stage5_conclusion_plan"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Freeze the evidence-bound conclusion jobs for every registered requirement.",
+        "name": "get_stage5_conclusion_plan",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 40194,
+      "input_tokens_details": {
+        "cache_write_tokens": 40191,
+        "cached_tokens": 0
+      },
+      "output_tokens": 33,
+      "output_tokens_details": {
+        "reasoning_tokens": 13
+      },
+      "total_tokens": 40227
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_0f9f891cf7fd108f016ad81f61509487d19d5976263fdfe3d0",
+    "object": "response",
+    "created_at": 1792548705,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792548716,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "ORCHESTRATED STAGE 5 — Form conclusions only from the frozen requirements and bound Stage 4 evidence. Call the only currently exposed tool. First load the conclusion plan. Then submit exactly one conclusion for every pending requirement in the single required batch. The registered modality determines Mandatory versus Guidance and cannot be changed. If any required input is unresolved, or normative applicability is false or indeterminate, inspection_status must be not_assessed. Do not treat an unreadable or unresolved observation as proof of deficiency. If applicability is true and the structured evidence ledger has no unresolved required input, make a definitive satisfied/deficient decision: use satisfied when the relevant setup is observable and no clear material error is established, and deficient only when reliable evidence establishes a clear material violation. Do not create a hidden evidence gap in free-text limitations after Stage 4 marked the corresponding input acquired. Conversely, an explicit user/domain-reviewer-confirmed deficiency in the bound direct evidence is binding and must be reported as deficient when applicability is true. The program binds evidence IDs, measurement IDs, tools, acquisition attempts, and final data availability. Check readiness and seal only when ready is true. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 5 is sealed; no Stage 6 call is permitted.",
+    "max_output_tokens": 7000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0f9f891cf7fd108f016ad81f627ed887d1827bd49853cfc678",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2B9s0Y8abvWI8lMxD5ZStGk2U83xFGvsJbn-9ygz2VrbZynOpv7vcxJ1PHLlwYu0sxMWA7sWbUgR2AC1L9_jvlAgCsLvdP-sLJEDnUKYbpv8qeCavtOP2yYvZwE5MdCJkQV5S9I0_UXHn56YA-ZLcoMw2z9Rwl7aXTW1EI1lcxEN9IoDWj9jj7w127KiUSR0x6z4rnhzb8ChX5_vqvPOsDMDdhLLqThpkY8EgQmdSk0HFQ_lrtXAKNf06VLdobG6eEBVIwH2RB6DcuwN84agczrQxqaXI2YSrk0cBR7nIeYZIQe78gZuK9UNTKxBAWio9HTXpgb8LVUfyqiUE1KRakG7P7WSmoHJEXLNfybiCR-Uq4zkAye5d2fGFRbrIiQDf8jLGI3FNl8sROEAV9nJ0NNGNPCw_2caFTisFneDTJx0eJqVx1Tm1cmlwZyGxE-IwjI9kCSOBkd2pykAEXXNG8HIPbAxqifBCfxbjVJqpcTXLQmW8MEB0w0x3jfBk776GeZ8n1ZIbBV2enVDj91dE8K3tugmAqv8tz3dgUPTDCWGIOAJw4JlPOD4Vbuke1YC_gCtTgREIIfPShYL1NZDrxyRnZezZAJ5fx8ILNEnNBZQeE19bp-KeJZCrhwVUCqJWhshRSBV5h-AvxcDZ3YIOW5Mjj6hlxo4KQJxY1v4A6IGHO91VKCYPw-T7sDNvmtyL3jhCnfHS5060Eg6GJLrV5tkjc6Asnm3u0rGOdQOGmDeuxqG4VTYDhk0JoBJkPvgwhFi2YG_S1kcDekPe_ue2q3DNjhYlPcjJglabHYh4hRfExGF3WFNvhtp7V6Ox0nyaPIjppncnnkkMZGBuHy4EPV5ju3bt76TDTYUH7MwLSuKrbK9jX81SzyxYTTlCHbFWYdF8as051S58z_IiDtMWQGj-xTDu9Ttaa-9OJYtYfjUX6p4iQSkV5lixaAmAKglt6emgyj4AZcbWdqXNE7Wzw2ZzfW2Tu3wx9Sr2AGtBJrh2TTQOjJY4oJm8YEON15OtXBiUHXbfU3t6PhsBEWymf6m5kqgQWhlqkb963GBEq50UTQA1gZqvH5z27y8OvOLEKponKrND5NAFR3HK8MGQuoKoKiYI90T5wLvLYhY_vsjmXWCBsvHpiq-ny48ecaV8e_c2roMVaRYO5GCtoBPOcKV5qwsXgPN9-u3n1SM6nDNAcs-4ocM31mNG0iVMH3sgkggq3SwgwTwJCh0aKmlRUURMbMhHkV32TSLJNro0X45E2KsIGKJjB_SkgtpKycMWFRcuhPLnfQ2sAxUawV3OlhsEM5UMhL1MzMarBI25WGweQ7znaVJcmGF5rC6HcOS4mrrnlAoCjdQoTC7Y5fn5d5UXHOlk68NLOzCwgbDu7cXto-4hYY31ctxa1cNUbYrlAxxfgntRy7uSN9x10tNnMJbKWrcAMeW8c4lQcli9QyuA9ntrzMJH373Rapr7J5P6u7fRqwx9lo8KCQ-ppgn103-ADSLDmOa-TadbcPIVtqjvBGl4TRarAsFOM-5DtdCrS5jUb9F9K7fIahE2wxZGlQxy4j3-C64I9evDa2i0Icph2JI_W0FuWv6u4ey2Sz5iYx3lhSoBrHCSq6ECVkmqdB_nkTARz6GMkasH6un4pYUL3OBByhadfOtWACyRvfE1338PPxpyCG0mv8PREuOwQn6IV2TE8iYLJ7iBh4uz8avRfJInzJ_CJ0HVq7RYSuWxV9EeKIDORSDO4IQ6lO1kVY1T-dXr_-ycpiVz-lHEraP-sR86CxNpL3A8OHD36kFU3e2T3sCGJKDldghTgik_UFTYeu_raeFr3UqvihMioJI2hwSpWTqUBU1-uTa9nLYABr6F63IEOfdTWNcgLfVndzPDRggYpm5T08EDfW66IzY7Z8VBmBnZl9ZqE2MTBh2mvNa0Os-NLRdQdEcIgp1IjV-t-aBlm9-mYjgf0ClghRP8mQyhQE6vsH46hISXlRwJFb73q_kwMSStIiovKv5k4MyIuw1R4TbeB1UD2QlI3uL1s7CP6Wa3yP4G7kq6ZRndisjMsnLF-X5gxRnfRCLqJR-bv_ntOByWgDy6ZhOUKJx0z0ovMZm4liS4KQyva08lUArKgRZkvZumgv-k3jMNSJ2XQsr4rWUtqvEXLCUARPE6vyYB0uzAoEtnljEpxpLVhM03CG2p3HppCUMhpvot7au8rmx7wkGI6Ii5a3OFrn88kef7ya5Oq86c6B41HoQBTFN5ru6L_LusEDnmrEQevBHmyjXyExZqhraNPNKUrKCGtRGZBlKXzi7GIZXeU8TeYB454jjI_O5oAj_ZL3Ye1VKIDJN6oQbPju5_m9J2zkaYDUpI20rMNidbK8uy8a42chBdBFL4P5H5faPJxptleaY59av81niVRT4U8rPNtesJZLuOsIbuPTBleRKxaBP0ZgV6E-dnq1tWx9ThP5LTpcfB_I2JHwOZKiIDTQrupnDqVnkhylQRi4d1P4JfMP1Ujfh4DOtqfqu2o_AM_6zhD4DSXZBk_1TTtxec5VEVVV5a2G1ozcAheoHoFpdnP2jsCcu4y6fa9_xTNwK0gpUaHIg6NgYCm1ytAD4xUotYYbO6tdrnFjVfVXmkkzpmiqvEozsAkfRrg_IU4FImgZ8-JGh0fr_HimWFm5M9YfiZBHRhbK6rlduSthsrycOGAYAfKEcm8kxy59xQP_sbDMLuMI5P-NF90d71o2X_2CoO2H7W6uSFO3eomGVRlu_FBFpvoyJcTPMTyNOOcaMLHdQOyZgnEaxPmTIbPJmRTin7YHrMSjdgqxCbGBcYkgeLHHblcMNCFYYnG8fdQdBWweWkBF-5iEnxrmJ6ZEW2ka2fKnyfWBqgFpRmoCE_TWpEeKqE1Fvw2lQn1fQAEIroxu4iVR4Odo7wrslHf4ekLHV6-BAaKX48lpSR4aXKm8Zo2MxaJN_nu7PpdGxM1RexSb7xmYiUiaOevDY7csplsUdcMyTwwJZk5XTNt0EijrfFdyLLNSCAVcuLlc-7qVINZfvYwHO2QCYR_tFac07MqaARDhXLyHhCZB-WFKjySspUXZ5guNINbOvHaUf3LHiA1huZ2ayBfg1CuWgniN2WBy7hgqDnvxzmVTmXNeO2ao0ejqi6kAnlR61EyQiYrLn5BiLgoQVxWryyu2YkdDpVbZtBVumZ_fKcnFac6Xl9yFdcu6nQbMHeU1Bz0rB29OBDK9xIdTDwKMQRopjZ2PldrHeAlEOnqHQaAjUqtDXmvXf4OldnEkpdUsFNgl_QWk60q3XmP-VfPQCNOt8_BUaLcd1-QM5jFkWYg6gL8SVDrZPVTcA6E3wizCc6mpDJdLAgmDUiRAunJHdV5d9XOUT3PLocK7PnXYUf2Bs9LSPc365ys75tK5tX6tD7pM41GrDBz1N27s4Uz-b48OD1oDNLEghEx4-vh_RuesQIKl4U3SaN_AXaqaI_i7inUcHulzOY_z_eTsVUzfcypHk3Ma_MRt32p_V2uQHruFnp9yNhBI-HsPDLW4e2euUtH-BrqmPtSCt8QnYxYeT2zbXyo_JLe4KhSSfu7nsQjXTxez8pgEqt4cocTlXCnaoKdQ5KoppuIgF8fNSxbEtYYefNSZ3QxpM-S0G85zV6q4oJK4ha437U27TJ0UEINN6juqM2n8Qjh8bWQ7za1vndxQ2kTFw6uu_383JiPt_0oRTXv24IJAHfhy_j_COqxAmVJ5fMbxi4TooATvlWk0uuT3Q01hiTO2mHkJA-XYv6tYxKpTT-0_AiP4utCbOJEPmAnUs7Ytw-DwW3HQggwQPKrkgVAD2_8zsoaQ7MavD4-Kx8ysUWLRLRC-KW61lh_mEY6d3ujar25CiwXYlUrXlbM9o15UahyWudEtN2ois2CTw8lKFnUBaUoUflFQHOftZAp7J6P5Cu0NhjRvhTCf9VJvwpDaoAJiMYPhDKUPMFEcCT0DnNkhXcm9fiBONMBCaPtC5D-fN2K3GCV13IPPSycx_8Bs2KDMhKdVDtoCEvmaI0VnpidyJTgWFuq5ihqYsxtQ0d83ZlhmOBZDFTkNGO36IDAE9-9U8HFLJb6ODXhvdMrF8KvZEw_QxrgB-SlMCpkGYs7nsaOkxnANFhPsjeS2b9doOIA6F1sfjGWMNlxcjI9wRpaGWBGlEQmxDq3JtQL1CEv-kC4q3YE7OB3OSNr70afnRlvEmGI5aps0GvtZA1M8-MZlV4BhjMkmg8A7-rOU20o9YKdKdp7ZbTCXBfh3gcsMX_WlE48inXXq3eSszkbaUn5VZsHs09pCrXRqyVzvk4-IJ5xELhp5XGbzzbc5sd1L_zV_mlALD1x7fuuJqUNEvkHK6jlQBxEamE6dKwwq5xpxybEqJZDagzoR-9piUyJiERAcw_NTWcoveiKBsfMceCUeN4xJZxpB63Po0LNiFplqospSSDQZmA79C40flFhfzaHygYwO4uEICP6suGjRDl5ii2G0NqJ0A--ovFFfSxnktipfLDHgL41IZ1-qAwth7KeOdZIPFhMfsOAvIS1_oe6hwLBtmHo_G-QvSdsocR661eH8Cg8HJ0Q0oscX9ojUzAVq6mWj3TBYq1Bj6VUA3VmR1L10Q5bYqA5uc2mGu-x0NJYlQ3ImBx2iBdKzk_iK-UGyK7kLcZoAsOrAs9VLpnz1qqnt0w5Mnc8Hns2vrMoa7ayep3bN3WqfxYwVlsq4DQlovGj3CDBpNWF4rCXcYKiX5wG3m3BkFVOKU9X011H0Y1PFrRptxgOrwOn_Wprho7VQNWix_0b6YSglWv09OeinYgQAnUidI6VrTydeIHMmTQF6SjfW_ZlT7SA8RKPH69hWeFVEGKeihNZM5d6NExnhwKX3Tl6wlxpmfnKh3kJW8Bk8NYipm_7QNMNzzGOW2MXC3l90_ltAhak_u4ZsftcFJv6iPgJyDdy5VodZ4CTHC5Xls1jANXeUmdxGtvQSV0fIKYFt_paI8QThAT1P2g72EcO6tqgCJGWIwrGmO1yf8MvKR5DRyQAM3CGsnB62LV_vbh2ZsPQE=",
+        "summary": []
+      },
+      {
+        "id": "fc_0f9f891cf7fd108f016ad81f657f1c87d1aac50f0e18d10cc4",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"conclusions\":[{\"discovered_requirement_key\":\"req_6815a22fb45fcc9b\",\"normative_applicability\":\"true\",\"inspection_status\":\"not_assessed\",\"inspection_reason\":\"Applicability is established by the frozen multilane roadway and right-lane closure, but the required approach-signing view remains unresolved; the temporal batch does not clearly identify an upstream Lane(s) Closed sign.\"},{\"discovered_requirement_key\":\"req_a3c3142666497ed5\",\"normative_applicability\":\"true\",\"inspection_status\":\"not_assessed\",\"inspection_reason\":\"Applicability is established by the frozen single right-lane closure, but the required W20-5 legend image remains unresolved and the RIGHT LANE CLOSED legend is not readable.\"},{\"discovered_requirement_key\":\"req_58bf494068de5718\",\"normative_applicability\":\"true\",\"inspection_status\":\"not_assessed\",\"inspection_reason\":\"Urban low-speed applicability is established, including the frozen 25 mph speed, but successive sign locations and separations remain unresolved; no accepted endpoints support a spacing decision.\"},{\"discovered_requirement_key\":\"req_68ad827f58b92dd8\",\"normative_applicability\":\"true\",\"inspection_status\":\"not_assessed\",\"inspection_reason\":\"Applicability is established by the observed tangent channelization and frozen 25 mph speed, but adjacent-device spacing remains unresolved and no accepted geometric endpoints support a decision.\"},{\"discovered_requirement_key\":\"req_214d4569ff964d13\",\"normative_applicability\":\"true\",\"inspection_status\":\"not_assessed\",\"inspection_reason\":\"Applicability is established because channelizing devices are deployed, but the required view is unresolved and the sampled frames do not cover every deployed device; no clear serviceability violation is established.\"},{\"discovered_requirement_key\":\"req_10195ba45a03e180\",\"normative_applicability\":\"true\",\"inspection_status\":\"not_assessed\",\"inspection_reason\":\"TA-22 applicability is established, but raw-image sign identity and accepted bounding-box observations needed to establish W4-2R position and sequence remain unresolved.\"},{\"discovered_requirement_key\":\"req_9684dd549b406cb8\",\"normative_applicability\":\"true\",\"inspection_status\":\"not_assessed\",\"inspection_reason\":\"The maintenance guidance applies, but complete raw-image coverage needed to establish cleanliness, visibility, and proper positioning for the deployed devices remains unresolved.\"},{\"discovered_requirement_key\":\"req_24a659011bbd18e3\",\"normative_applicability\":\"true\",\"inspection_status\":\"not_assessed\",\"inspection_reason\":\"A taper using dimension L is within the selected TA-22 geometry scope and the posted speed is acquired, but width, endpoints, trajectory, and lidar inputs remain unresolved, preventing calculation and comparison.\"},{\"discovered_requirement_key\":\"req_ece1d6f6ad0cff05\",\"normative_applicability\":\"indeterminate\",\"inspection_status\":\"not_assessed\",\"inspection_reason\":\"Normative applicability is indeterminate because the bound facts show a right-lane closure on a divided roadway, not one-lane, two-way alternating traffic; required geometry inputs are also unresolved.\"},{\"discovered_requirement_key\":\"req_99662450820aac97\",\"normative_applicability\":\"true\",\"inspection_status\":\"not_assessed\",\"inspection_reason\":\"The requirement is applicable to the work site, but raw-image evidence does not clearly identify W20-1 or establish its placement in advance of the work space.\"},{\"discovered_requirement_key\":\"req_98efd6f104c2c3ef\",\"normative_applicability\":\"true\",\"inspection_status\":\"not_assessed\",\"inspection_reason\":\"The selected scene establishes a right-lane closure and the posted speed, but raw images and accepted geometric inputs do not establish the merging taper or adequate merging distance.\"},{\"discovered_requirement_key\":\"req_fb03ed75e5c167ce\",\"normative_applicability\":\"true\",\"inspection_status\":\"not_assessed\",\"inspection_reason\":\"Applicability is not disproven, but the identities and longitudinal order of multiple advance-warning signs remain unresolved; the evidence cannot establish whether W20-1 is first.\"}]}",
+        "call_id": "call_TswRC1PaX61L2543FxawpMJb",
+        "name": "record_stage5_conclusion_batch"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Record one evidence-grounded conclusion draft per pending requirement. Provenance and availability are program-bound.",
+        "name": "record_stage5_conclusion_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "conclusions": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "discovered_requirement_key",
+                  "normative_applicability",
+                  "inspection_status",
+                  "inspection_reason"
+                ],
+                "properties": {
+                  "discovered_requirement_key": {
+                    "enum": [
+                      "req_10195ba45a03e180",
+                      "req_214d4569ff964d13",
+                      "req_24a659011bbd18e3",
+                      "req_4855efffaf392da0",
+                      "req_58bf494068de5718",
+                      "req_6815a22fb45fcc9b",
+                      "req_68ad827f58b92dd8",
+                      "req_9684dd549b406cb8",
+                      "req_98efd6f104c2c3ef",
+                      "req_99662450820aac97",
+                      "req_a3c3142666497ed5",
+                      "req_ece1d6f6ad0cff05",
+                      "req_fb03ed75e5c167ce"
+                    ]
+                  },
+                  "normative_applicability": {
+                    "enum": [
+                      "true",
+                      "false",
+                      "indeterminate"
+                    ]
+                  },
+                  "inspection_status": {
+                    "enum": [
+                      "satisfied",
+                      "deficient",
+                      "not_assessed"
+                    ]
+                  },
+                  "inspection_reason": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "required": [
+            "conclusions"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 55274,
+      "input_tokens_details": {
+        "cache_write_tokens": 55271,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1149,
+      "output_tokens_details": {
+        "reasoning_tokens": 290
+      },
+      "total_tokens": 56423
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_0f9f891cf7fd108f016ad81f6cf9a487d19ff7c3183f8e95cc",
+    "object": "response",
+    "created_at": 1792548717,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792548719,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "ORCHESTRATED STAGE 5 — Form conclusions only from the frozen requirements and bound Stage 4 evidence. Call the only currently exposed tool. First load the conclusion plan. Then submit exactly one conclusion for every pending requirement in the single required batch. The registered modality determines Mandatory versus Guidance and cannot be changed. If any required input is unresolved, or normative applicability is false or indeterminate, inspection_status must be not_assessed. Do not treat an unreadable or unresolved observation as proof of deficiency. If applicability is true and the structured evidence ledger has no unresolved required input, make a definitive satisfied/deficient decision: use satisfied when the relevant setup is observable and no clear material error is established, and deficient only when reliable evidence establishes a clear material violation. Do not create a hidden evidence gap in free-text limitations after Stage 4 marked the corresponding input acquired. Conversely, an explicit user/domain-reviewer-confirmed deficiency in the bound direct evidence is binding and must be reported as deficient when applicability is true. The program binds evidence IDs, measurement IDs, tools, acquisition attempts, and final data availability. Check readiness and seal only when ready is true. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 5 is sealed; no Stage 6 call is permitted.",
+    "max_output_tokens": 7000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0f9f891cf7fd108f016ad81f6d9e0487d19de4a1612c5b6d78",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2B9vtCGi-aFmBKCMLY63tyFYg_931EZYiMdJjbllo1DcupFHuB72cs-S8d00TcDwwCC39g69qyFv-vKKbcEaEbVx708BQbZolJisZ7QXYOCbCpQo06fAFnWOpSIu8kbZLP5GhZ0sAJYsCzW4xHAkFXkMgtpwz4BgWL2kQfknRUlSziM-05KrjomdUSF7MARCrgtqMpCIDNCZ0qGeqyk5WGdSU1q2DpDmbJ5qE0kEm4oZtsKIHiBBRzPgp97bj-YWEG0OBvyrEWlKH_1Rq0T8L2dAuV0cBC2neBenzmKbS1KRw9_YgtJ6HRGSvn0USEPBkwTwYPdzbFczC_xQLNNu4BIHumtHDzsBrlzBIJShF1aK-4IXCrtGdex4NW9tid2ADQNi40xmCtyGrEeUvX3z10fNZPgMSvYT6uFXDgtxk4N_31LADyvWl79u2P-p7BcQdop6OtQ1rHzOuCwFqnMxowetyNYB8cJY_Lydy4x49KG4Vs17JI842mM0FpHvlXgGfa5syr-TMbuktaaXUi6OGzXHJpk0CBxuE76kmFBDNockeLAOTW9GcxPv-kGijSMLCLKGqoqC78oQevSFSn3-EYBtQeEcf_LcraT0ssbthmfhvJTq4keXgaZJLpZOrqh5jxuq_6ry3S-JWFVO0RSLJVoyj8_a5Z0-8J51kghuGRHoz1DwRZYgwhDYvXZAZRtze1seVVDnGlEt6fM2bQefpw_Qmfv0UW6YMVoMRETVfrB13tQEGZBWzj1SmA1KS0cHJRXAGaCFP7GlSCx4NaV9i-3xi-WLeUfmuUSuuv54Pg26EnXWaDqFC01an8zeSorlTNNBaq0eV7dCHStUagQn_sAXWwftm2NOxxjpjRJCYOEuivMXLwNmEf99Co7f2CFJKwIMgP3fKO99s1nZqI3j6A_31IAqKxz5zZKcF-rfXPy-uTv0lmjJDIfz0ab4_M_DRZtdgP5cMmau08hW17cIU0kyso5xTNs0wRmSZCQpGj9kpDz42QsjHFtfm1YzNLnkKPoDA6SiNe7XOUiBZe_J-MrdzNo1uszmKRlHRpMBtFFCnJuPS6GU7K-dQmUZGb-AEvjvRWyhyIlPKGxQ3uAu6buuvnWa5kLcevFdG3hgc_Lb9iyqJY7H65DFIk36JoK50UzNekbPOdvpty3FnR-gvbIh4KD6QoqJ3t-PuEo-H_FkP2Rbrw1cbzsbO-J3gmMa7rHJ3r7mE88cKbTb7cRvcMHbepmIy-1BgQpeRQdxdA5nw9mRmzQQ-vymOFI6uStHt6cSOokYneA-6Cj6xT4Pg4e3Y24olT-IZ09nuqjOm801Pd5wVV3T16KeykHXtudDZpzY5Q95izPTaVWDfsuWLdEr-MLI8g7brXaBugzamu-XJzOAQqnvTKE7_rtk4tCrUDfZBCYUmGypWRw3HFaBQrzs7MPoqj69zsD-uAY_FI45mr8dy4GoijD5f7nUiLUk0Bxo9W9CI6XGiQ9pPbiyq_12mWjrlGAysjxQVFYYLqDUc87Ehibcj-_Mh6P3VZAXGBUFJo2AryzNvCUYscWZ2zIadzTiOZGSrAFXD8a2dX9YnwFsszfBHhpiH-Ky9qjbv54CaNa-tox7QmN_kajsplsnbdoj4OFN4gMK34Hw9Q1KL0i7EXVAjS75bq0gmGUkQAVJUFYTQnJybaUtp2UyUkuCsu8E_wF9om8kvMLp81kA7-54H29WzNFQ068xH1yvMvcFmKttaIvlD7CjsMKCe3QFnxmk9wtz0IxzgVhC2rbklxPvaM3jAOVSJQZJyIjT9avHgvvwoY_WVfTYEG1Qp9ZCvxzRPpePO5tJ7M1PRIZ-Y72hty5CWuYigxvxqGiD_wZl8ivETQIeRudAeuteNLr4C0oTPfQj8UYr3ECX8waXlpg_w42ZvsUML4W6BN3a4wgbTbkFzDvJwmq3enpelqR3HsbZAB5WYBBekMwKQkIBk571UtVXcaDdeiCODF2gbdRTcmiGAjbXby8HVLNUjWjhifY-4Svj8_vCr7BqPMk3yDrDrsNEQiAMCYQc0QtrFx9mnpjVqiTJ_IS6ABJ3kWH2fhpLarR7stbkOHYT04knbFvnbQtFiDxtTQkMqD6ZfvdRUoCCpU3dPA_ccnZ9WZUcaHaP528EujV1N6EgEfeUKMkQfmRZCd1aRfFyusOI3L1xNwfwk9APz8drcD6o9SDGG05kCTnQwVwSnyTBk5g_YTpt-yZlWA7X5YMh7eF43xEZJRzI0BAw5aEH91EihX7NiYbHQ3d_4fdrDdR1qbfxo9scoB_itl50HZoQmcBia83hkBKmxTxIFEye8UkbdnluIgR2t47AgZISBlvXI2MrUgdS2OKsiIZZb64loKPX7ffZg9PbdH8nbDI92xJbKtLqe9eX-xQeL1qRib6a00SwE3h5fmzqOCs9PUnrx_LxivwiqUFgrOs8uJix5srKZvLffhxidAL972Ib9fjFwyvFXjLD0TQs_5PzYK7f45EULZpZdGjGZeGpiJXWah-r4DOol-VtspP3vtPYW_F86xsh8dfii1HcsvTLyZHVHE9oQlHd0X24B_tmzJzvFPibjYIBk74uh8bgHnxgRFU9lk25qYYK4rKASvHbkhxvfXVshSxYOdyrbNSoL4ORtkBrf6IhQFl8zMfL8GXjPnoI2ww-nJYvEFJeoge9N7qvq7X69Cj1N39jTh3l8NVWwLTCraiyN5W4OcZkoZXdpaxdVmeIQgABdgPPWFuvrgwOhmJFpzz20-FpIVr3ZbuxAToqAlDUFrttQReNcYkz4tTsxUmrB4f1wLgWmy29da8IMo8FD7S-5DJPGK8L0B8WDPFlD7TsOHQ5_Fu0J5LjnDJx1rR6EVH4iFROgYd2Usup_8-2SU6u_OMQFlIimqUDVUiBrK0nG7zh-ZL0AjPTe5_r0DT5isRltN0AK-flUbH8Ys_Fxfar_dg3DWIQVd5qOxCpCsUhrIhZ0o-cvBx5KzZVO3IQvML7cnKAjIg8oLcEXMiWMrdJTcXAS6fRxdkxrPMJ5v_Scp71Y9i9dmrLKgmn6QQKADl4tI1FBsa5nolq4GTawLSc403OjNQyvAJnbF3xXk8E3AagbENQUqIBqzqhh1SaPEY=",
+        "summary": []
+      },
+      {
+        "id": "fc_0f9f891cf7fd108f016ad81f6edd2087d1ad0e7b2504d02fc0",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{\"conclusions\":[{\"discovered_requirement_key\":\"req_4855efffaf392da0\",\"normative_applicability\":\"indeterminate\",\"inspection_status\":\"not_assessed\",\"inspection_reason\":\"Normative applicability is indeterminate because this requirement is conditional on a downstream taper being used, and the bound Stage 4 evidence does not establish downstream-taper use or accepted endpoints.\"}]}",
+        "call_id": "call_lm7shpkDo2qKDclrpNmxURck",
+        "name": "record_stage5_conclusion_batch"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Record one evidence-grounded conclusion draft per pending requirement. Provenance and availability are program-bound.",
+        "name": "record_stage5_conclusion_batch",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "conclusions": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "discovered_requirement_key",
+                  "normative_applicability",
+                  "inspection_status",
+                  "inspection_reason"
+                ],
+                "properties": {
+                  "discovered_requirement_key": {
+                    "enum": [
+                      "req_4855efffaf392da0"
+                    ]
+                  },
+                  "normative_applicability": {
+                    "enum": [
+                      "true",
+                      "false",
+                      "indeterminate"
+                    ]
+                  },
+                  "inspection_status": {
+                    "enum": [
+                      "satisfied",
+                      "deficient",
+                      "not_assessed"
+                    ]
+                  },
+                  "inspection_reason": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "required": [
+            "conclusions"
+          ]
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 51113,
+      "input_tokens_details": {
+        "cache_write_tokens": 51110,
+        "cached_tokens": 0
+      },
+      "output_tokens": 227,
+      "output_tokens_details": {
+        "reasoning_tokens": 131
+      },
+      "total_tokens": 51340
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_0f9f891cf7fd108f016ad81f701af087d1ba1e6dc03b32adce",
+    "object": "response",
+    "created_at": 1792548720,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792548721,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "ORCHESTRATED STAGE 5 — Form conclusions only from the frozen requirements and bound Stage 4 evidence. Call the only currently exposed tool. First load the conclusion plan. Then submit exactly one conclusion for every pending requirement in the single required batch. The registered modality determines Mandatory versus Guidance and cannot be changed. If any required input is unresolved, or normative applicability is false or indeterminate, inspection_status must be not_assessed. Do not treat an unreadable or unresolved observation as proof of deficiency. If applicability is true and the structured evidence ledger has no unresolved required input, make a definitive satisfied/deficient decision: use satisfied when the relevant setup is observable and no clear material error is established, and deficient only when reliable evidence establishes a clear material violation. Do not create a hidden evidence gap in free-text limitations after Stage 4 marked the corresponding input acquired. Conversely, an explicit user/domain-reviewer-confirmed deficiency in the bound direct evidence is binding and must be reported as deficient when applicability is true. The program binds evidence IDs, measurement IDs, tools, acquisition attempts, and final data availability. Check readiness and seal only when ready is true. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 5 is sealed; no Stage 6 call is permitted.",
+    "max_output_tokens": 7000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0f9f891cf7fd108f016ad81f71042c87d1864f7e522f77d5cd",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2B9xlUydTsORbjDmgRH7K9zGh3tm_HDv5a5Hxz1PNZoQA5hBnn8I7lofbBfbjNmhwVKM7r20EO-X_LnRsKC0DytHfBLGZVlpqFJDOlAaYK4ZY_twuMcorcwCTw5tm5MOVE1ig2r_AmTCRcNc3DiVx58kRb7zSnedp98IYY24gJLwcr3qHx1ckAU3yKK6UXw4VrbqMtgfeewU2XSlhgTWOfrHfKXhioU7JPYdDavjfYrkrXGJ3PSDPsB5qGaoxkflXKt_11QPnd0WPmQkBjjbMxfJdBnQPpWK0KHs5LqnG2nAm7F-wjjU12ZolT--D45UDvrfbQFXRpmY68pqivJhkIvxOsoEQL3RM_GrtEEqdltbegPLwLrw7XEaVYjfy-G01SPoLR2Jv1J-Zd33VvHfQzpKt75MdUOLQz6TNfeoEXRNEzoYDKjTvZoiMakukoPgS8shDqS0iZSlJB_8JbKGt5q73IxQWhFMi-sVfqQMx3J2TK1hTU2PcYqOsPYTLROOYqltf-WF6LZ4oYUlECJxKrJIohfc8Es-rbqiy9nr_v3L0lNCbuYx3AiBEQskx3KptcLpGNhXJycSdsTVJgrKkpmh-k_JESnTLp0ZOBPDUFWWQy-CF1eKh3R5aUTpJhfFxI1zhbw7vICpxdOG40lNgjBDYQRT7WrjAPniFcIFJlcVR0KR3zk60qXkaqHfA5eNffSvWbevOn6tc17j1hRIiZ60y9eHEVNbW963o6CuKbjRrfBlwFuIGtvMuU-oeNEpopdR26D1lsa8QEW4VeZKh7M9sW2gMQ1VFIOLCpKuGu8nN7-Apc-bOhqL3yYtj46Eq6rCMaeUDNMHkm6fFrvSFvTVUj5bwnUGkgi6FGw_AIFxjd0Tv04fHE7UC41prIr3PCc864qeXWDvsxkvGRN7lmDL8t_jXwjzwkLVKyKUsw-yOnUwncLsUOz4DGxH0Eq8rzkbfG7anfaDb8kGxmfbX7a5d3eIgMeXNmhJwL18K3R_AhHOTNWuI9g4jziw6tMP8_2PQwOEqedTLQanpyw6Q2i4khqBXq4wmqBuNiaUEW-anjkKp3A7q48zDZeopMVZeoaQgruS1IuhyUBvYKKzcmj_fgfL-ADT_MGiXyTS3VcJ3Xjd4k53nj7_FjDxuwQo-5fK_XUjObO0spZ8-SybxrTX8uRKr-gknPX1H1RsZZxPuf9xlono1QZUKnd__d6ZV3PnDeoFT11Kua_XnbZAk1rmxQpCulVKIzXl9XlDVw6x6IpXy6TutwY8d7H7Gq0g5j-XMQqprsiKu__LIt6ust0jTHlsJo6DOQdSvN7z1udCnLcUr6s4gXe7-R4LXzyfeKso-R0HeU3h9Wr8sQHXOQcYKacMBQduZ5F8JJoygjQzxY6vg-u0Nu2ahLRyqfuO2sSAe3i-eRf8A2MWpnEqjosVB-y01d0c7ht30Dg55fVrkhbnX3wpdFB6it3Fes07ly45u1Tav-m1V3bxIrJvgFWP0D8oONGQSxXFSgG1p6aLnL-Gya03S9JTW324xHmSDYq4r864M6fcQgH89mDlAXAOz-wFd8b8mjhdw-ExC2QaV6oZx7yfENB9qWMOAATAt28YcGjIoqRAFWPXEw-QqpbMyhH91dxsqJfjkv5Cp6k5FoqNjz9g0USO6DgrGXOjEJ8CUOXP3r88PU0JXc7EHsyXpmnEKTtiDtbgtxpRghCQV4dWahFyIdkgvdrPasBYlcQ3zIAV-OTIJjAkHk_1xqqAybc0a9ZRydtFLNjyi1xIjy7uK8zRe2G2FKfuN742BBOMKpKvVXkmJCZTWVqg1IqSl0za1ReA3A0tQtwZC-egJWdO74LjL-4IGKge44gSXH6_",
+        "summary": []
+      },
+      {
+        "id": "fc_0f9f891cf7fd108f016ad81f71606887d1b2dc6ecfe165d421",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{}",
+        "call_id": "call_Ul66pe6RzguwQn1L8aEl9Ri3",
+        "name": "get_stage5_readiness"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Check conclusion completeness, evidence linkage, status constraints, and modality preservation.",
+        "name": "get_stage5_readiness",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 50455,
+      "input_tokens_details": {
+        "cache_write_tokens": 50452,
+        "cached_tokens": 0
+      },
+      "output_tokens": 52,
+      "output_tokens_details": {
+        "reasoning_tokens": 33
+      },
+      "total_tokens": 50507
+    },
+    "user": null,
+    "metadata": {}
+  },
+  {
+    "id": "resp_0f9f891cf7fd108f016ad81f71b04087d1890234b597241616",
+    "object": "response",
+    "created_at": 1792548721,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792548723,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "ORCHESTRATED STAGE 5 — Form conclusions only from the frozen requirements and bound Stage 4 evidence. Call the only currently exposed tool. First load the conclusion plan. Then submit exactly one conclusion for every pending requirement in the single required batch. The registered modality determines Mandatory versus Guidance and cannot be changed. If any required input is unresolved, or normative applicability is false or indeterminate, inspection_status must be not_assessed. Do not treat an unreadable or unresolved observation as proof of deficiency. If applicability is true and the structured evidence ledger has no unresolved required input, make a definitive satisfied/deficient decision: use satisfied when the relevant setup is observable and no clear material error is established, and deficient only when reliable evidence establishes a clear material violation. Do not create a hidden evidence gap in free-text limitations after Stage 4 marked the corresponding input acquired. Conversely, an explicit user/domain-reviewer-confirmed deficiency in the bound direct evidence is binding and must be reported as deficient when applicability is true. The program binds evidence IDs, measurement IDs, tools, acquisition attempts, and final data availability. Check readiness and seal only when ready is true. THIS TEST MUST STOP IMMEDIATELY AFTER Stage 5 is sealed; no Stage 6 call is permitted.",
+    "max_output_tokens": 7000,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0f9f891cf7fd108f016ad81f72836087d1b071cb2bd7f10721",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABq2B9zxAbbS0vjZLyROgr7NVSAUjbOeDrureLrtSii6uJhJozVwUWEeaqXIPotSzDbvh5QxuRXSslyYq0fkIKwyUJygoQG0gvFhSnuyg6JoVG0JgvX1JFMKULldVVFuGKeqItbPvMtos15lHwLvJ7rwQXblFtLebB3Kb8EbKLD0V8enQ30a6b_BsehcxvOamqXQy2DfOGXk1dqCjuOOXd5l1n2ouCG8-R8M5y5UNHa4HQnzci6EZ-vL_u339VSkNIOHigXRzhJSsju7f5KBQisttYO8rtFu_6Wj25icK5XIYcT4rZc1vbVjvjANoZddWlXsiG53ZBljgQKkVlguixJw2so-crcwFKbPvbHexus3yFm3As8JStIP4Heuak4fN2QdAmCcn-o1YPDoN_5LfHAAoEG7NgHnL1wReYIFj2KYqsQeFhOk4w_5KMcarLNVIbtk4N7z6HnGbra2V4LvigeWX8ge4FnoPvq0gxBCmB6Zq2edwwB9_J2OGi0Rpx-iIlB0UHsPmqRfXYbOmid_NjVcq4sn3OYySXZawHXbd-xSLlH3ys1UDKA-uZgpsn-jlbVTinwhGV1Zjgu_RcyXYylrA6BDEMLlhG5F1vD813j0PWPKVUU8dChzdU-cknMMqEaUKUK9pghdtIsPirfHoX_nwMudMlBtJj2FEi9SijY-_alutD5IopwHf6GvIxVdzab25p-ghtuCJVyd3BQR8dZgpIEAeCDxcwftuEtFFyrrRc8AY5GQq_VsExtF7d1pnophkBuAXSPshvj1Zpv6AVmK8U9W8KUH_VuV56i05csXG-BPDrC-0INI449HSk_bmVzFp2HVdXPeVSLtzavxAw2nsrOFmpynzsIUVxrxFmHgg8ADaJX4dqYTofstSL5LKU0LcS1LMrlol7HggBwp3AQtJCPtPRGJgiCDNGkox4iOWoM-e-8TNFn8Rqd3ozq_9CYU6glbWGCyXDaBBM5xpEbaGKDK7kYbA11_Fn4MeVCLgHNvwqU6QPG8xKIQ1oi2d2hXkiTCESYC2FmIubDRii5wUDia12JkyQ8B5G7AQuox-JYwrIY9_RyKYMryO0oNMenHMRZO6lWcmyIXXrStDwWwQz_bmaYoxlAX-AMgB_gwz_C8eXjBnWKstWjX-uelVGQLaUdAyZTiyvt2sA-rTy25a5vQeR-9C3c0OLGL8pL8ZaO5oi0JzgqFJUytShUmPwNL16saYKNBG6v67DX_d5UYFUcq9l_DBhyHF13JZs8cPqjd7sKjS9a_D0iY3J6uRme5Lwa6Jt5CvK7ge33p74H3HnDULm9IqIl9EF7u0lDAnyBFy_zff5OWjjgFYJkUhHmB8yQXh_L_yu0583Qv2wQAMvu-ZLaYPs7FW61hNlMxlb6QMLTFrGniNb7_plCvT1bXmqcmOtJl-S6QV3HfNwY7Q_29M6stJysmZccXggLt-6pE9pFQZqTjb_n5tMuSvhvIx_OXgNwJ5JMjsuGvvAZO4c1LcZeaUeRGP5ZLBD8A5vLnuXHUCEsSmuUDVwL488MmxJFlZEtPCf42NxUzpKPvQyDbtLUrqAh1vJSDV841q_dX50wWPg0bjU3mdQVyDqPR7xkhpW3UwndwlExDJ6D9uDzjZB_QFxMaI2kat3i8kboj-ZGzasNQP_hiGlXdXIEZ3a_3k1WYG5YepIH6xWtiaZn3UdHNMpuwThi4hasjX4vinvUHlxjUz8Eq7GAYOHebLe2Bd3Zl2ZHZOmIwwhSwcjjM-pyW-fZGG7_GNy-sOCoEG9hoGB0JQu7mtYjWNEm5AW_gCs0XbIVD9b4OofYtbf4o0fNzYtj-Ant_thADIGkSJjSvnYtDwxX765r56uYrfP04XBmKHMWM4hnJV98l5V-hA==",
+        "summary": []
+      },
+      {
+        "id": "fc_0f9f891cf7fd108f016ad81f72fed087d1b09897a75a07ed67",
+        "type": "function_call",
+        "status": "completed",
+        "arguments": "{}",
+        "call_id": "call_TwGkwnItODFZwNPiW6rLVJ86",
+        "name": "seal_conclusions"
+      }
+    ],
+    "parallel_tool_calls": false,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "function",
+        "description": "Seal the complete Stage 5 conclusion ledger and enter Stage 6 result submission.",
+        "name": "seal_conclusions",
+        "output_schema": null,
+        "parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {},
+          "required": []
+        },
+        "strict": true
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 50602,
+      "input_tokens_details": {
+        "cache_write_tokens": 50599,
+        "cached_tokens": 0
+      },
+      "output_tokens": 53,
+      "output_tokens_details": {
+        "reasoning_tokens": 35
+      },
+      "total_tokens": 50655
+    },
+    "user": null,
+    "metadata": {}
+  }
+]

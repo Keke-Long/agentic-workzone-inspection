@@ -1,0 +1,362 @@
+{
+  "scene_id": "scene-CATS-15",
+  "selected_layouts": [
+    {
+      "layout_code": "TA-16",
+      "layout_role": "primary_applicable",
+      "source_locator": "TA-16, Figure 6P-16, MUTCD 11th Edition PDF pages 930-931 (printed pages 890-891)",
+      "matched_scene_facts": [
+        "User-confirmed survey vehicle is present.",
+        "The scoped area is a channelized work or obstruction area on an apparent urban two-way roadway.",
+        "The survey vehicle's forward travel lane remains usable while the channelized area is primarily along the left/opposing-direction side.",
+        "The inspection period is daytime, matching the depicted short-duration surveying context.",
+        "The posted speed is 20 mph, consistent with a low-speed roadway context."
+      ],
+      "conflicting_scene_facts": [
+        "The scene does not confirm that the channelizer line is exactly on the centerline.",
+        "The scene does not establish whether the opposing lane is fully closed.",
+        "No accepted detections are available; visual evidence is model-derived and unreviewed.",
+        "The exact work-area limits relative to the intersection are uncertain."
+      ]
+    }
+  ],
+  "phase": "requirement_registration",
+  "region_coverage": {
+    "lane_closure_layout": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": [
+        "req_b54ee5ec89195a65",
+        "req_ccadf7df23284f89"
+      ]
+    },
+    "advance_warning_sign_system": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "channelization_system": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": [
+        "req_43fd1b04b09bc806",
+        "req_1eee397007626eaf"
+      ]
+    },
+    "transition_and_taper_geometry": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "conditional_active_devices": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    },
+    "conditional_termination_area": {
+      "status": "pending",
+      "reason": "",
+      "requirement_keys": []
+    }
+  },
+  "requirements": [
+    {
+      "candidate_label": "Minimum lane width beside center work space",
+      "subject": "lane on either side of the center work space",
+      "relation": "has minimum clear width",
+      "threshold": "at least 10 ft measured from the near edge of channelizing devices to pavement or outside paved shoulder edge",
+      "applicability_conditions": [
+        "TA-16 center-line surveying arrangement is used",
+        "a center work space is present"
+      ],
+      "required_inputs": [
+        "channelizing-device near edge",
+        "pavement or paved-shoulder outside edge"
+      ],
+      "measurement_spec": {
+        "required": true,
+        "tool": "estimate_available_width",
+        "quantity": "clear lane width from channelizer near edge to pavement or outside paved shoulder edge",
+        "thresholds": [
+          {
+            "condition": "always",
+            "value": 10,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_b8ccd683d4e4b6fa18ee"
+        ],
+        "explanation": "TA-16 is selected and the scoped scene is a center-line/channelized surveying arrangement."
+      },
+      "source_node_ids": [
+        "src_b8ccd683d4e4b6fa18ee"
+      ],
+      "modality": "should",
+      "source_locator": "TA-16 paragraph 01; PDF page 930",
+      "source_span": "The lanes on either side of the center work space should have a minimum width of 10 feet as measured from the near edge of the channelizing devices to the edge of the pavement or the outside edge of the paved shoulder.",
+      "discovered_requirement_key": "req_b54ee5ec89195a65",
+      "region": "lane_closure_layout",
+      "requirement_fingerprint": "b54ee5ec89195a6511885fbb16c0c7caa820faeeb3cc92c45154f6487a85b2b9",
+      "registration_event_index": 2,
+      "registration_timestamp": "2026-10-21T21:47:49.579246+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "Cones offset from center line",
+      "subject": "cones used for TA-16 center-line surveying",
+      "relation": "are placed",
+      "threshold": "6 to 12 inches on either side of the center line",
+      "applicability_conditions": [
+        "TA-16 center-line surveying arrangement is used",
+        "cones are the channelizing devices"
+      ],
+      "required_inputs": [
+        "center-line location",
+        "cone locations"
+      ],
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_device_spacing",
+        "quantity": "lateral offset of each cone from center line",
+        "thresholds": [
+          {
+            "condition": "each cone offset",
+            "value": 0.5,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          },
+          {
+            "condition": "each cone offset",
+            "value": 1,
+            "unit": "ft",
+            "violation_when": "above_maximum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_63061b124a732ff83828"
+        ],
+        "explanation": "The selected TA-16 arrangement expressly governs cone placement around the center line."
+      },
+      "source_node_ids": [
+        "src_63061b124a732ff83828"
+      ],
+      "modality": "should",
+      "source_locator": "TA-16 paragraph 02; PDF page 930",
+      "source_span": "Cones should be placed 6 to 12 inches on either side of the center line.",
+      "discovered_requirement_key": "req_ccadf7df23284f89",
+      "region": "lane_closure_layout",
+      "requirement_fingerprint": "ccadf7df23284f89f51166da61d6916f10cc05b97b0f8c7cfe8031f610632056",
+      "registration_event_index": 3,
+      "registration_timestamp": "2026-10-21T21:47:49.579354+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "Channelizer spacing in taper and tangent",
+      "subject": "channelizing devices",
+      "relation": "have spacing no greater than",
+      "threshold": "1 times speed limit in taper channelization and 2 times speed limit in tangent channelization",
+      "applicability_conditions": [
+        "channelizing devices are used",
+        "the segment is taper or tangent channelization"
+      ],
+      "required_inputs": [
+        "device type and locations",
+        "taper versus tangent classification",
+        "posted speed"
+      ],
+      "measurement_spec": {
+        "required": true,
+        "tool": "audit_channelizer_spacing",
+        "quantity": "longitudinal spacing between consecutive channelizing devices",
+        "thresholds": [
+          {
+            "condition": "taper channelization",
+            "value": 1,
+            "unit": "ft",
+            "violation_when": "above_maximum",
+            "formula_parameter": "posted_speed_mph",
+            "multiplier": 1
+          },
+          {
+            "condition": "tangent channelization",
+            "value": 2,
+            "unit": "ft",
+            "violation_when": "above_maximum",
+            "formula_parameter": "posted_speed_mph",
+            "multiplier": 2
+          }
+        ]
+      },
+      "activation_basis": {
+        "type": "scene_fact",
+        "fact_keys": [
+          "posted_speed_mph"
+        ],
+        "evidence_source_node_ids": [],
+        "explanation": "Activated channelizers and confirmed speed make spacing inspectable; taper/tangent classification is recorded in the field."
+      },
+      "source_node_ids": [
+        "src_2afdeb6d23fb7be10144"
+      ],
+      "modality": "should",
+      "source_locator": "SEC-6K.01 paragraph 04; PDF page 855",
+      "source_span": "The spacing between cones, tubular markers, vertical panels, drums, and barricades should not exceed a distance in feet equal to 1 times the speed limit in mph when used for taper channelization, and should not exceed a distance in feet equal to 2 times the speed limit in mph when used for tangent channelization.",
+      "discovered_requirement_key": "req_43fd1b04b09bc806",
+      "region": "channelization_system",
+      "requirement_fingerprint": "43fd1b04b09bc8066a6f855b4666b6e7c5765176a6e7b88b1a651a74828cd639",
+      "registration_event_index": 4,
+      "registration_timestamp": "2026-10-21T21:47:55.802520+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "Downstream extension where devices could lead traffic out of intended space",
+      "subject": "channelizing devices with potential to lead vehicular traffic out of intended space",
+      "relation": "extend beyond the downstream end of the transition area by",
+      "threshold": "2 times the speed limit in feet",
+      "applicability_conditions": [
+        "channelizing devices have potential to lead traffic out of the intended vehicular traffic space",
+        "a downstream transition end is identifiable"
+      ],
+      "required_inputs": [
+        "potential for channelizers to lead traffic out of intended space",
+        "downstream transition end",
+        "device line endpoint",
+        "posted speed"
+      ],
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_downstream_taper",
+        "quantity": "device-line extension beyond downstream transition end",
+        "thresholds": [
+          {
+            "condition": "potential exists",
+            "value": 2,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": "posted_speed_mph",
+            "multiplier": 2
+          }
+        ]
+      },
+      "activation_basis": {
+        "type": "scene_fact",
+        "fact_keys": [
+          "posted_speed_mph"
+        ],
+        "evidence_source_node_ids": [],
+        "explanation": "The activated component and confirmed speed support measurement when field inspection confirms downstream leading-out potential."
+      },
+      "source_node_ids": [
+        "src_a6ee5cf272b8725e60b5"
+      ],
+      "modality": "should",
+      "source_locator": "SEC-6K.01 paragraph 05; PDF page 855",
+      "source_span": "When channelizing devices have the potential of leading vehicular traffic out of the intended vehicular traffic space as shown in Figure 6P-39, the channelizing devices should be extended a distance in feet of 2 times the speed limit in mph beyond the downstream end of the transition area.",
+      "discovered_requirement_key": "req_1eee397007626eaf",
+      "region": "channelization_system",
+      "requirement_fingerprint": "1eee397007626eaf90eb45f0f8eaec7c7020c81ed32363bca61ef0c531a5bdfb",
+      "registration_event_index": 5,
+      "registration_timestamp": "2026-10-21T21:47:55.802636+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    }
+  ],
+  "data_availability": {},
+  "evidence_records": {},
+  "stage4_plan": null,
+  "inspection_bundles": {},
+  "acquisition_attempts": {},
+  "measurement_records": {},
+  "stage4_readiness": null,
+  "stage5_plan": null,
+  "conclusion_drafts": {},
+  "stage5_readiness": null,
+  "tool_calls": [],
+  "event_history": [
+    {
+      "event_index": 1,
+      "timestamp": "2026-10-21T21:47:37.255735+00:00",
+      "event_type": "phase_transition",
+      "phase": "requirement_discovery",
+      "from_phase": "requirement_discovery",
+      "to_phase": "requirement_registration"
+    },
+    {
+      "event_index": 2,
+      "timestamp": "2026-10-21T21:47:49.579246+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_b54ee5ec89195a65",
+      "candidate_label": "Minimum lane width beside center work space",
+      "region": "lane_closure_layout",
+      "requirement_fingerprint": "b54ee5ec89195a6511885fbb16c0c7caa820faeeb3cc92c45154f6487a85b2b9"
+    },
+    {
+      "event_index": 3,
+      "timestamp": "2026-10-21T21:47:49.579354+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_ccadf7df23284f89",
+      "candidate_label": "Cones offset from center line",
+      "region": "lane_closure_layout",
+      "requirement_fingerprint": "ccadf7df23284f89f51166da61d6916f10cc05b97b0f8c7cfe8031f610632056"
+    },
+    {
+      "event_index": 4,
+      "timestamp": "2026-10-21T21:47:55.802520+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_43fd1b04b09bc806",
+      "candidate_label": "Channelizer spacing in taper and tangent",
+      "region": "channelization_system",
+      "requirement_fingerprint": "43fd1b04b09bc8066a6f855b4666b6e7c5765176a6e7b88b1a651a74828cd639"
+    },
+    {
+      "event_index": 5,
+      "timestamp": "2026-10-21T21:47:55.802636+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_1eee397007626eaf",
+      "candidate_label": "Downstream extension where devices could lead traffic out of intended space",
+      "region": "channelization_system",
+      "requirement_fingerprint": "1eee397007626eaf90eb45f0f8eaec7c7020c81ed32363bca61ef0c531a5bdfb"
+    }
+  ],
+  "completion": null,
+  "finalized": false
+}

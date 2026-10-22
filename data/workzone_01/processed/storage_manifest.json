@@ -1,0 +1,21 @@
+{
+  "schema": "current_processed_storage_v1",
+  "available": [
+    "camera0 images",
+    "sensor/calibration/timestamp/trajectory metadata"
+  ],
+  "preprocessed_lidar_files_present": false,
+  "removed_files": 1027,
+  "removed_bytes": 7366095040,
+  "raw_lidar_source": "/home/data/workzone/work_zone_dataset/work_zone_data_raw/Case_00/lidar",
+  "reason": "Legacy point-cloud projection input; final evaluation supplement uses saved xyz, trajectory and measurement records, not binary point-cloud files.",
+  "metadata_note": "Legacy LiDAR filenames retained as timestamp/calibration/trajectory index only; they are not available files.",
+  "reprocessing_note": "Camera0 BEV has now been rebuilt from verified Case_00 raw LiDAR/INS using the corrected convention; old compliance conclusions have not been reassessed.",
+  "preserved_results_sha256": {
+    "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_01/pipeline/final_evaluated/scene-CATS-01/result.json": "fc52c0445e65afe7fffb0afc613c7e6578a1c88546fc9d5d5da0d0e0ff9d3acb",
+    "/home/klong23/workzone/data/workzone_01/detections/final_detections.json": "7fb51e5f191100550e9dbca31f1adbb2c1a2bf7b55861cc1017da65599c0c67f",
+    "/home/klong23/workzone/bev_full_scene/scene_evidence_current/devices.json": "6deb3eba2cecad7040d941c1e34ce4afb2da5da3cbcbb31f52ccd85715462859",
+    "/home/klong23/workzone/bev_full_scene/scene_evidence_current/spacing.json": "2dfeb603b5c8458c87395a953fc73686ef9e2b0db7195179ea48b6501b29c197"
+  },
+  "current_bev": "/home/klong23/workzone/experiments/agentic_inspection/artifacts/workzone_01/bev_reconstruction/scene_bev"
+}

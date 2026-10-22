@@ -1,0 +1,90 @@
+{
+  "schema": "case18_current_run_v1",
+  "status": "pipeline_complete_with_evidence_gaps",
+  "scene_manifest": "cases/workzone_18/scene_ta22_camera0_final.json",
+  "config_directory": "config/workzone_18/ta22_user_selected",
+  "primary_layout": "TA-22",
+  "layout_selection_origin": "user_directed",
+  "context_only_layouts": [
+    "TA-33"
+  ],
+  "camera_channels": [
+    "CAM_FRONT"
+  ],
+  "processed_root": "/home/klong23/workzone/data/workzone_02/processed",
+  "artifact_root": "artifacts/workzone_18/ta22_user_selected",
+  "report": "reports/workzone_18/ta22_user_selected/final/report.html",
+  "registered_requirements": 13,
+  "stage3_evaluation_passed": true,
+  "completed_stages": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "inspection_status_counts": {
+    "not_assessed": 13
+  },
+  "numerical_measurements": 0,
+  "human_bbox_review": {
+    "status": "candidate_triage_complete_geometry_followup_remaining",
+    "url": "http://127.0.0.1:8766/batch",
+    "data_directory": "/home/klong23/workzone/experiments/agentic_inspection/inputs/case_18/bbox_review",
+    "candidate_count": 5063,
+    "camera0_frames": 632,
+    "sort": "confidence_ascending",
+    "report_table": "/home/klong23/workzone/experiments/agentic_inspection/reports/workzone_18/ta22_user_selected/review_handoff/report.html",
+    "mode": "batch_100_crops",
+    "page_size": 100,
+    "previous_decisions_preserved": 387,
+    "arrow_board_audit": {
+      "url": "http://127.0.0.1:8766/arrows",
+      "scope": "original_model_arrow_board_candidates_excluding_explicit_class_corrections",
+      "candidate_count": 657,
+      "page_count": 7,
+      "negative_label": "not_arrow_board",
+      "bbox_decisions_unchanged": true,
+      "excluded_corrected_candidates": 32,
+      "status": "class_audit_complete",
+      "audited_count": 657
+    },
+    "warning_sign_redetection": {
+      "status": "human_review_complete",
+      "url": "http://127.0.0.1:8766/warnings",
+      "data_directory": "/home/klong23/workzone/experiments/agentic_inspection/inputs/case_18/warning_sign_review",
+      "frame_count": 632,
+      "candidate_count": 52,
+      "class_counts": {
+        "road_work_ahead": 30,
+        "right_lane_closed": 22
+      },
+      "original_review_untouched": true,
+      "mode": "batch_100_crops",
+      "sort": "detector_score_ascending_manual_supplement_first",
+      "reviewed_count": 52,
+      "correct_count": 52,
+      "remaining": 0,
+      "completion_record": "/home/klong23/workzone/experiments/agentic_inspection/inputs/case_18/warning_sign_review/review_completion.json"
+    },
+    "untouched_candidates": 0,
+    "bbox_fix_flags": 23,
+    "class_only_corrections_without_bbox_decision": 32,
+    "coverage_audit": "/home/klong23/workzone/experiments/agentic_inspection/inputs/case_18/bbox_review/review_coverage_audit.json",
+    "bbox_editor": {
+      "status": "ready_for_user",
+      "url": "http://127.0.0.1:8766/fix-boxes",
+      "pending_count_at_handoff": 23,
+      "class_counts": {
+        "traffic_cone": 19,
+        "barricade": 2,
+        "road_barrier": 2
+      },
+      "save_action": "save native-pixel box and explicitly confirm correct",
+      "history_table": "bbox_edits",
+      "undo_supported": true
+    }
+  }
+}

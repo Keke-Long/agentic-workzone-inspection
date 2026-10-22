@@ -1,0 +1,1153 @@
+{
+  "scene_id": "scene-CATS-19",
+  "selected_layouts": [
+    {
+      "layout_code": "TA-33",
+      "layout_role": "primary_applicable",
+      "source_locator": "TA-33, Figure 6P-33, PDF pages 964-965; SEC-6N.11 paragraph 06, PDF page 887",
+      "matched_scene_facts": [
+        "One stationary right-lane closure",
+        "Multilane divided roadway",
+        "Long-term work lasting more than three days",
+        "Channelizing devices are used around the closed lane",
+        "Urban arterial context is compatible with the multi-lane roadway treatment",
+        "Posted speed is 25 mph, which can be used later for TA-33 taper and spacing calculations"
+      ],
+      "conflicting_scene_facts": [
+        "The full roadway lane count is unknown",
+        "The exact work-zone relationship to the signalized intersection is not fully established",
+        "Arrow-board deployment is unknown; TA-33's arrow-board requirement is specifically conditional on a freeway lane closure, while this scene is identified as an urban arterial rather than a freeway",
+        "The adjacent sidewalk is present, but its status as open, closed, or relocated is unknown"
+      ]
+    }
+  ],
+  "phase": "data_availability",
+  "region_coverage": {
+    "lane_closure_layout": {
+      "status": "screened",
+      "reason": "Stage 2 screening is complete; activated independent closure-layout checks are registered and non-applicable candidates are dispositioned.",
+      "requirement_keys": [
+        "req_48f75ee8d92c7ccd"
+      ]
+    },
+    "advance_warning_sign_system": {
+      "status": "screened",
+      "reason": "Stage 2 screening is complete; activated independent warning-sign checks are registered and non-applicable or duplicate candidates are dispositioned.",
+      "requirement_keys": [
+        "req_bceba7c23b640928",
+        "req_11f1287cb08981cb",
+        "req_8972cefc2fea882f",
+        "req_60abbbef5be0dbce",
+        "req_624743ab648e44b8",
+        "req_c7b39111ef33fcbb",
+        "req_c3b239ff453da2dc",
+        "req_f7516651a32ae40a",
+        "req_4a8163acba7fb469"
+      ]
+    },
+    "channelization_system": {
+      "status": "screened",
+      "reason": "Stage 2 screening is complete; activated independent channelization checks are registered and non-applicable candidates are dispositioned.",
+      "requirement_keys": [
+        "req_64360b412a82970e",
+        "req_9684dd549b406cb8",
+        "req_f5310b80856ddc62"
+      ]
+    },
+    "transition_and_taper_geometry": {
+      "status": "screened",
+      "reason": "Stage 2 screening is complete; activated independent taper and transition checks are registered and non-applicable or duplicate candidates are dispositioned.",
+      "requirement_keys": [
+        "req_87b634d248ec1f88",
+        "req_9d0358d372de99a6"
+      ]
+    },
+    "conditional_active_devices": {
+      "status": "skipped_no_inspectable_candidate",
+      "reason": "No active device is established in the scene, so no conditional active-device inspection candidate is activated.",
+      "requirement_keys": []
+    },
+    "conditional_termination_area": {
+      "status": "skipped_no_inspectable_candidate",
+      "reason": "No termination-area-specific device or condition is established in the selected TA-33 scene.",
+      "requirement_keys": []
+    }
+  },
+  "requirements": [
+    {
+      "candidate_label": "stationary multi-lane closure transition",
+      "subject": "closed right lane on the multilane roadway",
+      "relation": "shall include",
+      "threshold": "a transition area containing a merging taper",
+      "applicability_conditions": [
+        "one lane is closed on a multi-lane road",
+        "operation is not mobile"
+      ],
+      "required_inputs": [
+        "scene roadway configuration",
+        "closed-lane status",
+        "taper presence"
+      ],
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "activation_basis": {
+        "type": "scene_fact",
+        "fact_keys": [
+          "roadway_configuration",
+          "closed_lane",
+          "lanes_closed"
+        ],
+        "evidence_source_node_ids": [],
+        "explanation": "The scene identifies a stationary right-lane closure on a multilane divided roadway; mobile operation is not established."
+      },
+      "source_node_ids": [
+        "src_e65583438482e0520dd4"
+      ],
+      "modality": "shall",
+      "source_locator": "SEC-6N.11 paragraph 03; PDF page 887",
+      "source_span": "When a lane is closed on a multi-lane road for other than a mobile operation, a transition area containing a merging taper shall be used.",
+      "discovered_requirement_key": "req_48f75ee8d92c7ccd",
+      "region": "lane_closure_layout",
+      "requirement_fingerprint": "48f75ee8d92c7ccd91f25ba7b0b1e967f086e3b0f730e1a3168a1b9ffca12f5b",
+      "registration_event_index": 2,
+      "registration_timestamp": "2026-10-21T00:56:16.901165+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "single-lane closure warning sign present",
+      "subject": "advance warning signing for the closed right lane",
+      "relation": "shall include",
+      "threshold": "a Lane Closed sign in advance of the point where a through lane of a multi-lane roadway is closed",
+      "applicability_conditions": [
+        "one through lane is closed on a multi-lane roadway",
+        "stationary closure treatment TA-33 applies"
+      ],
+      "required_inputs": [
+        "closed-lane status",
+        "presence and location of Lane Closed sign"
+      ],
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "activation_basis": {
+        "type": "scene_fact",
+        "fact_keys": [
+          "closed_lane",
+          "lanes_closed",
+          "roadway_configuration"
+        ],
+        "evidence_source_node_ids": [],
+        "explanation": "The selected TA-33 stationary multilane closure applies and the scene identifies one closed right lane."
+      },
+      "source_node_ids": [
+        "src_3a61a102f3394eb624c4"
+      ],
+      "modality": "shall",
+      "source_locator": "SEC-6H.07 paragraph 01; PDF page 845",
+      "source_span": "The Lane(s) Closed sign (see Figure 6H-1) shall be used in advance of that point where one or more through lanes of a multi-lane roadway are closed.",
+      "discovered_requirement_key": "req_bceba7c23b640928",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "bceba7c23b640928f1a207cf067fe36966b100a2744d7cd7654d6247373217be",
+      "registration_event_index": 3,
+      "registration_timestamp": "2026-10-21T00:56:28.481277+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "right-lane closure sign legend",
+      "subject": "Lane Closed sign for the single closed right lane",
+      "relation": "shall use",
+      "threshold": "the legend RIGHT LANE CLOSED",
+      "applicability_conditions": [
+        "a single lane closure is present",
+        "the Lane Closed sign is used"
+      ],
+      "required_inputs": [
+        "number of closed lanes",
+        "closed-lane side",
+        "sign legend"
+      ],
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "activation_basis": {
+        "type": "scene_fact",
+        "fact_keys": [
+          "closed_lane",
+          "lanes_closed"
+        ],
+        "evidence_source_node_ids": [],
+        "explanation": "The scene establishes one closed lane and identifies it as the right lane."
+      },
+      "source_node_ids": [
+        "src_34c2cf162b6da3a055fe"
+      ],
+      "modality": "shall",
+      "source_locator": "SEC-6H.07 paragraph 02; PDF page 845",
+      "source_span": "For a single lane closure, the Lane Closed (W20-5) sign (see Figure 6H-1) shall use the legend RIGHT (LEFT) LANE CLOSED. Where two or more adjacent lanes are closed, the W20-5a sign (see Figure 6H-1) shall use the legend XX RIGHT (LEFT) LANES CLOSED.",
+      "discovered_requirement_key": "req_11f1287cb08981cb",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "11f1287cb08981cbc7c7ee523eea61e1a2c20f09a7de126713e236cd411eb1fd",
+      "registration_event_index": 4,
+      "registration_timestamp": "2026-10-21T00:56:28.481361+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "TA-33 figure:sign:W4-2R: W4-2R sign in TA-33",
+      "subject": "W4-2R sign in TA-33",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "W4-2R is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-33 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_node_ids": [
+        "src_2f2ac57c300ddcec7c94"
+      ],
+      "source_locator": "Figure 6P-33 (TA-33); PDF page 965; component sign:W4-2R; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-33. Stationary Lane Closure on a Divided Highway (TA-33) G20-2 (optional) 500 ft G20-2 (optional) 100 ft (optional) 500 ft Work vehicle Truck-mounted attenuator (optional) Buffer space (optional) Buffer space (optional) Temporary white edge line L L Shoulder taper Shoulder taper A (see Note 3) A (see Note 3) W4-2R W4-2R B B W20-5R W20-5R C C W20-1 W20-1 Notes: See Table 6P-2 for the meanings of the symbols used in this figure. A – LONG-TERM AND B – SHORT-TERM See Table 6B-1 for the meanings of the letter codes used in this figure. INTERMEDIATE See Table 6B-4 for formulas for calculating taper length (L). Typical Application 33",
+      "model_extracted_source_span": "Figure 6P-33. Stationary Lane Closure on a Divided Highway (TA-33) G20-2 (optional) 500 ft G20-2 (optional) 100 ft (optional) 500 ft Work vehicle Truck-mounted attenuator (optional) Buffer space (optional) Buffer space (optional) Temporary white edge line L L Shoulder taper Shoulder taper A (see Note 3) A (see Note 3) W4-2R W4-2R B B W20-5R W20-5R C C W20-1 W20-1 Notes: See Table 6P-2 for the meanings of the symbols used in this figure. A – LONG-TERM AND B – SHORT-TERM See Table 6B-1 for the meanings of the letter codes used in this figure. INTERMEDIATE See Table 6B-4 for formulas for calculating taper length (L). Typical Application 33",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_2375450329e06fcb6795",
+          "src_2f2ac57c300ddcec7c94",
+          "src_75f1bb7600ed5f908937",
+          "src_9489f0166073c9223819",
+          "src_a036617fa2c603601069",
+          "src_cb0fc28c34bb84177e71",
+          "src_cb7eae86fdd35c059b5d",
+          "src_d7ed527d071f29f3cc3d",
+          "src_dcd7fa4cf259ce109137",
+          "src_fd74405fe5a1c6087102"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "discovered_requirement_key": "req_8972cefc2fea882f",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "8972cefc2fea882ff94efee9fba75761912a456e95d026a452a7e97a648a2019",
+      "registration_event_index": 5,
+      "registration_timestamp": "2026-10-21T00:56:41.861929+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "TABLE-6B-1 table: advance warning sign dimensions A, B, and C",
+      "subject": "advance warning sign dimensions A, B, and C",
+      "modality": "should",
+      "relation": "recommended_minimum_spacing",
+      "threshold": "Urban low speed: A=100 ft, B=100 ft, C=100 ft; urban high speed: A=350 ft, B=350 ft, C=350 ft; rural: A=500 ft, B=500 ft, C=500 ft; expressway/freeway: A=1,000 ft, B=1,500 ft, C=2,640 ft. A is restriction-to-first-sign distance, B first-to-second, and C second-to-third.",
+      "applicability_conditions": [
+        "road type and agency-determined speed category"
+      ],
+      "required_inputs": [
+        "roadway_configuration",
+        "posted_speed_mph",
+        "traffic_sign_observations",
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "source_node_ids": [
+        "src_6ee70d9c1617acd549c4"
+      ],
+      "source_locator": "TABLE-6B-1; PDF page 813",
+      "source_span": "Table 6B-1. Recommended Advance Warning Sign Minimum Spacing. Urban (low speed): 100 feet, 100 feet, 100 feet. Urban (high speed): 350 feet, 350 feet, 350 feet. Rural: 500 feet, 500 feet, 500 feet. Expressway / Freeway: 1,000 feet, 1,500 feet, 2,640 feet. The column headings A, B, and C are the dimensions shown in Figures 6P-1 through 6P-54.",
+      "model_extracted_source_span": "Table 6B-1. Recommended Advance Warning Sign Minimum Spacing. Urban (low speed): 100 feet, 100 feet, 100 feet. Urban (high speed): 350 feet, 350 feet, 350 feet. Rural: 500 feet, 500 feet, 500 feet. Expressway / Freeway: 1,000 feet, 1,500 feet, 2,640 feet. The column headings A, B, and C are the dimensions shown in Figures 6P-1 through 6P-54.",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_2375450329e06fcb6795",
+          "src_2f2ac57c300ddcec7c94",
+          "src_75f1bb7600ed5f908937",
+          "src_9489f0166073c9223819",
+          "src_a036617fa2c603601069",
+          "src_cb0fc28c34bb84177e71",
+          "src_cb7eae86fdd35c059b5d",
+          "src_d7ed527d071f29f3cc3d",
+          "src_dcd7fa4cf259ce109137",
+          "src_fd74405fe5a1c6087102"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_sign_spacing",
+        "quantity": "A, B, and C advance-warning sign spacings",
+        "thresholds": [
+          {
+            "condition": "urban low speed",
+            "value": 100,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": null,
+            "multiplier": null
+          }
+        ]
+      },
+      "discovered_requirement_key": "req_60abbbef5be0dbce",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "60abbbef5be0dbce7925be9f0fe263277b9a430f0e5ffdcb72dceff2754afa93",
+      "registration_event_index": 6,
+      "registration_timestamp": "2026-10-21T00:56:41.862051+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "SEC-6K.01 04: spacing between cones, tubular markers, vertical panels, drums, and barricades",
+      "subject": "spacing between cones, tubular markers, vertical panels, drums, and barricades",
+      "modality": "should",
+      "relation": "does_not_exceed",
+      "threshold": "S ft in taper channelization; 2S ft in tangent channelization, where S is speed limit in mph",
+      "applicability_conditions": [
+        "device is used for taper or tangent channelization"
+      ],
+      "required_inputs": [
+        "posted_speed_mph",
+        "accepted_bbox_observations",
+        "ego_trajectory",
+        "lidar_points",
+        "channelization_region"
+      ],
+      "source_node_ids": [
+        "src_2afdeb6d23fb7be10144"
+      ],
+      "source_locator": "SEC-6K.01 paragraph 04; PDF page 855",
+      "source_span": "The spacing between cones, tubular markers, vertical panels, drums, and barricades should not exceed a distance in feet equal to 1 times the speed limit in mph when used for taper channelization, and should not exceed a distance in feet equal to 2 times the speed limit in mph when used for tangent channelization.",
+      "model_extracted_source_span": "The spacing between cones, tubular markers, vertical panels, drums, and barricades should not exceed a distance in feet equal to 1 times the speed limit in mph when used for taper channelization, and should not exceed a distance in feet equal to 2 times the speed limit in mph when used for tangent channelization.",
+      "activation_basis": {
+        "type": "unconditional",
+        "fact_keys": [],
+        "evidence_source_node_ids": [],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": true,
+        "tool": "audit_channelizer_spacing",
+        "quantity": "spacing between drums/cones in taper and tangent channelization",
+        "thresholds": [
+          {
+            "condition": "taper channelization at 25 mph",
+            "value": 25,
+            "unit": "ft",
+            "violation_when": "above_maximum",
+            "formula_parameter": "posted_speed_mph",
+            "multiplier": 1
+          },
+          {
+            "condition": "tangent channelization at 25 mph",
+            "value": 50,
+            "unit": "ft",
+            "violation_when": "above_maximum",
+            "formula_parameter": "posted_speed_mph",
+            "multiplier": 2
+          }
+        ]
+      },
+      "discovered_requirement_key": "req_64360b412a82970e",
+      "region": "channelization_system",
+      "requirement_fingerprint": "64360b412a82970e518279a5ba5c5847bf75759428b6cf23ef367b04790fde90",
+      "registration_event_index": 7,
+      "registration_timestamp": "2026-10-21T00:56:41.862163+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "SEC-6K.01 14: Particular attention",
+      "subject": "Particular attention",
+      "modality": "should",
+      "relation": "should_comply",
+      "threshold": "Particular attention should be given to maintaining the channelizing devices to keep them clean, visible, and properly positioned at all times.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images"
+      ],
+      "source_node_ids": [
+        "src_c20be98384c5d0b17a53"
+      ],
+      "source_locator": "SEC-6K.01 paragraph 14; PDF page 855",
+      "source_span": "Particular attention should be given to maintaining the channelizing devices to keep them clean, visible, and properly positioned at all times.",
+      "model_extracted_source_span": "Particular attention should be given to maintaining the channelizing devices to keep them clean, visible, and properly positioned at all times.",
+      "activation_basis": {
+        "type": "unconditional",
+        "fact_keys": [],
+        "evidence_source_node_ids": [],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "discovered_requirement_key": "req_9684dd549b406cb8",
+      "region": "channelization_system",
+      "requirement_fingerprint": "9684dd549b406cb85053ef34162a5a4cc7582e13f56980cfe9f635a16b1e8a5d",
+      "registration_event_index": 8,
+      "registration_timestamp": "2026-10-21T00:56:41.862241+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "SEC-6K.01 15: Channelizing devices that are no longer serviceable (see definition in Section 1C.02)",
+      "subject": "Channelizing devices that are no longer serviceable (see definition in Section 1C.02)",
+      "modality": "shall",
+      "relation": "shall_comply",
+      "threshold": "Channelizing devices that are no longer serviceable (see definition in Section 1C.02) shall be replaced.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images"
+      ],
+      "source_node_ids": [
+        "src_65f8e6d2257292e4b29b"
+      ],
+      "source_locator": "SEC-6K.01 paragraph 15; PDF page 855",
+      "source_span": "Channelizing devices that are no longer serviceable (see definition in Section 1C.02) shall be replaced.",
+      "model_extracted_source_span": "Channelizing devices that are no longer serviceable (see definition in Section 1C.02) shall be replaced.",
+      "activation_basis": {
+        "type": "unconditional",
+        "fact_keys": [],
+        "evidence_source_node_ids": [],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "discovered_requirement_key": "req_f5310b80856ddc62",
+      "region": "channelization_system",
+      "requirement_fingerprint": "f5310b80856ddc629f4086c6364c9ed8e2370dd0305246294aab5885cd8ec42a",
+      "registration_event_index": 9,
+      "registration_timestamp": "2026-10-21T00:56:41.862307+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "TABLE-6B-4 table: taper length L",
+      "subject": "taper length L",
+      "modality": "should",
+      "relation": "is_calculated",
+      "threshold": "For S of 40 mph or less, L = W*S^2/60; for S of 45 mph or more, L = W*S.",
+      "applicability_conditions": [
+        "a taper using dimension L is shown or required"
+      ],
+      "required_inputs": [
+        "posted_speed_mph",
+        "lateral_offset_width_ft",
+        "accepted_bbox_observations",
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "source_node_ids": [
+        "src_84bd10c92c883edc52f8"
+      ],
+      "source_locator": "TABLE-6B-4; PDF page 815",
+      "source_span": "Table 6B-4. Formulas for Determining Taper Length. 40 mph or less: L = WS2/60. 45 mph or more: L = WS. Where L is taper length in feet, W is width of offset in feet, and S is posted speed limit, off-peak 85th-percentile speed prior to work starting, or anticipated operating speed in mph.",
+      "model_extracted_source_span": "Table 6B-4. Formulas for Determining Taper Length. 40 mph or less: L = WS2/60. 45 mph or more: L = WS. Where L is taper length in feet, W is width of offset in feet, and S is posted speed limit, off-peak 85th-percentile speed prior to work starting, or anticipated operating speed in mph.",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_2375450329e06fcb6795",
+          "src_2f2ac57c300ddcec7c94",
+          "src_75f1bb7600ed5f908937",
+          "src_9489f0166073c9223819",
+          "src_a036617fa2c603601069",
+          "src_cb0fc28c34bb84177e71",
+          "src_cb7eae86fdd35c059b5d",
+          "src_d7ed527d071f29f3cc3d",
+          "src_dcd7fa4cf259ce109137",
+          "src_fd74405fe5a1c6087102"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": true,
+        "tool": "measure_taper_length",
+        "quantity": "merging or shoulder taper length L",
+        "thresholds": [
+          {
+            "condition": "speed 40 mph or less",
+            "value": null,
+            "unit": "ft",
+            "violation_when": "below_minimum",
+            "formula_parameter": "W*S^2/60",
+            "multiplier": null
+          }
+        ]
+      },
+      "discovered_requirement_key": "req_87b634d248ec1f88",
+      "region": "transition_and_taper_geometry",
+      "requirement_fingerprint": "87b634d248ec1f884ed969abb22187c96080a8dc79fcdf3bcec8e06ea7f342e9",
+      "registration_event_index": 10,
+      "registration_timestamp": "2026-10-21T00:56:41.862404+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "SEC-6H.03 01: The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions",
+      "subject": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions,",
+      "modality": "should",
+      "relation": "should_comply",
+      "threshold": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions, should be located in advance of the work space or any detour, on the road where the work is taking place.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images"
+      ],
+      "source_node_ids": [
+        "src_26bd048211769b2b09e8"
+      ],
+      "source_locator": "SEC-6H.03 paragraph 01; PDF page 842",
+      "source_span": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions, should be located in advance of the work space or any detour, on the road where the work is taking place.",
+      "model_extracted_source_span": "The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions, should be located in advance of the work space or any detour, on the road where the work is taking place.",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_2375450329e06fcb6795",
+          "src_2f2ac57c300ddcec7c94",
+          "src_75f1bb7600ed5f908937",
+          "src_9489f0166073c9223819",
+          "src_a036617fa2c603601069",
+          "src_cb0fc28c34bb84177e71",
+          "src_cb7eae86fdd35c059b5d",
+          "src_d7ed527d071f29f3cc3d",
+          "src_dcd7fa4cf259ce109137",
+          "src_fd74405fe5a1c6087102"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "discovered_requirement_key": "req_624743ab648e44b8",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "624743ab648e44b851f4248867b7b338b390fb4c914b2db239badacb9307dd3a",
+      "registration_event_index": 11,
+      "registration_timestamp": "2026-10-21T00:57:05.239533+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "SEC-6B.08 06: A merging taper",
+      "subject": "A merging taper",
+      "modality": "should",
+      "relation": "should_comply",
+      "threshold": "A merging taper should be long enough to enable merging drivers to have adequate advance warning and sufficient length to adjust their speeds and merge into an adjacent lane before the downstream end of the transition.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images",
+        "posted_speed_mph",
+        "accepted_bbox_observations",
+        "ego_trajectory",
+        "lidar_points",
+        "closed_lane",
+        "roadway_configuration"
+      ],
+      "source_node_ids": [
+        "src_4f2b68c743a6b9bd3723"
+      ],
+      "source_locator": "SEC-6B.08 paragraph 06; PDF page 816",
+      "source_span": "A merging taper should be long enough to enable merging drivers to have adequate advance warning and sufficient length to adjust their speeds and merge into an adjacent lane before the downstream end of the transition.",
+      "model_extracted_source_span": "A merging taper should be long enough to enable merging drivers to have adequate advance warning and sufficient length to adjust their speeds and merge into an adjacent lane before the downstream end of the transition.",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_2375450329e06fcb6795",
+          "src_2f2ac57c300ddcec7c94",
+          "src_75f1bb7600ed5f908937",
+          "src_9489f0166073c9223819",
+          "src_a036617fa2c603601069",
+          "src_cb0fc28c34bb84177e71",
+          "src_cb7eae86fdd35c059b5d",
+          "src_d7ed527d071f29f3cc3d",
+          "src_dcd7fa4cf259ce109137",
+          "src_fd74405fe5a1c6087102"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "discovered_requirement_key": "req_9d0358d372de99a6",
+      "region": "transition_and_taper_geometry",
+      "requirement_fingerprint": "9d0358d372de99a6a8e749933d1c1b27a19124fb2f0b1476877edea62c2f2318",
+      "registration_event_index": 12,
+      "registration_timestamp": "2026-10-21T00:57:05.239633+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "SEC-6H.02 01: Where highway conditions permit, warning signs",
+      "subject": "Where highway conditions permit, warning signs",
+      "modality": "should",
+      "relation": "should_comply",
+      "threshold": "Where highway conditions permit, warning signs should be placed in advance of the transition and activity areas at varying distances depending on roadway type, condition, and posted speed. Table 6B-1 contains information regarding the spacing of advance warning signs. Where a series of two or more advance warning signs is used, the closest sign to the transition and activity areas should be placed approximately 100 feet for low-speed urban streets to 1,000 feet or more for freeways and expressways.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images",
+        "posted_speed_mph",
+        "accepted_bbox_observations",
+        "ego_trajectory",
+        "lidar_points"
+      ],
+      "source_node_ids": [
+        "src_7a245af2a19d44b87030"
+      ],
+      "source_locator": "SEC-6H.02 paragraph 01; PDF page 838",
+      "source_span": "Where highway conditions permit, warning signs should be placed in advance of the transition and activity areas at varying distances depending on roadway type, condition, and posted speed. Table 6B-1 contains information regarding the spacing of advance warning signs. Where a series of two or more advance warning signs is used, the closest sign to the transition and activity areas should be placed approximately 100 feet for low-speed urban streets to 1,000 feet or more for freeways and expressways.",
+      "model_extracted_source_span": "Where highway conditions permit, warning signs should be placed in advance of the transition and activity areas at varying distances depending on roadway type, condition, and posted speed. Table 6B-1 contains information regarding the spacing of advance warning signs. Where a series of two or more advance warning signs is used, the closest sign to the transition and activity areas should be placed approximately 100 feet for low-speed urban streets to 1,000 feet or more for freeways and expressways.",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_2375450329e06fcb6795",
+          "src_2f2ac57c300ddcec7c94",
+          "src_75f1bb7600ed5f908937",
+          "src_9489f0166073c9223819",
+          "src_a036617fa2c603601069",
+          "src_cb0fc28c34bb84177e71",
+          "src_cb7eae86fdd35c059b5d",
+          "src_d7ed527d071f29f3cc3d",
+          "src_dcd7fa4cf259ce109137",
+          "src_fd74405fe5a1c6087102"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "discovered_requirement_key": "req_c7b39111ef33fcbb",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "c7b39111ef33fcbb3c59086c7aa273a7ec1d3aac27c384f81442a90c33c7d4f4",
+      "registration_event_index": 13,
+      "registration_timestamp": "2026-10-21T00:57:05.239708+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "TA-33 figure:sign:W20-5R: W20-5R sign in TA-33",
+      "subject": "W20-5R sign in TA-33",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "W20-5R is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-33 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_node_ids": [
+        "src_cb7eae86fdd35c059b5d"
+      ],
+      "source_locator": "Figure 6P-33 (TA-33); PDF page 965; component sign:W20-5R; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-33. Stationary Lane Closure on a Divided Highway (TA-33) G20-2 (optional) 500 ft G20-2 (optional) 100 ft (optional) 500 ft Work vehicle Truck-mounted attenuator (optional) Buffer space (optional) Buffer space (optional) Temporary white edge line L L Shoulder taper Shoulder taper A (see Note 3) A (see Note 3) W4-2R W4-2R B B W20-5R W20-5R C C W20-1 W20-1 Notes: See Table 6P-2 for the meanings of the symbols used in this figure. A – LONG-TERM AND B – SHORT-TERM See Table 6B-1 for the meanings of the letter codes used in this figure. INTERMEDIATE See Table 6B-4 for formulas for calculating taper length (L). Typical Application 33",
+      "model_extracted_source_span": "Figure 6P-33. Stationary Lane Closure on a Divided Highway (TA-33) G20-2 (optional) 500 ft G20-2 (optional) 100 ft (optional) 500 ft Work vehicle Truck-mounted attenuator (optional) Buffer space (optional) Buffer space (optional) Temporary white edge line L L Shoulder taper Shoulder taper A (see Note 3) A (see Note 3) W4-2R W4-2R B B W20-5R W20-5R C C W20-1 W20-1 Notes: See Table 6P-2 for the meanings of the symbols used in this figure. A – LONG-TERM AND B – SHORT-TERM See Table 6B-1 for the meanings of the letter codes used in this figure. INTERMEDIATE See Table 6B-4 for formulas for calculating taper length (L). Typical Application 33",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_2375450329e06fcb6795",
+          "src_2f2ac57c300ddcec7c94",
+          "src_75f1bb7600ed5f908937",
+          "src_9489f0166073c9223819",
+          "src_a036617fa2c603601069",
+          "src_cb0fc28c34bb84177e71",
+          "src_cb7eae86fdd35c059b5d",
+          "src_d7ed527d071f29f3cc3d",
+          "src_dcd7fa4cf259ce109137",
+          "src_fd74405fe5a1c6087102"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "discovered_requirement_key": "req_c3b239ff453da2dc",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "c3b239ff453da2dc268f3b6d0e0fdbef926ac281d28eba205c91512382524ff5",
+      "registration_event_index": 14,
+      "registration_timestamp": "2026-10-21T00:57:18.636404+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "TA-33 figure:sign:W20-1: W20-1 sign in TA-33",
+      "subject": "W20-1 sign in TA-33",
+      "modality": "should",
+      "relation": "is_depicted_at_figure_position",
+      "threshold": "W20-1 is at the position and in the sequence shown in the figure.",
+      "applicability_conditions": [
+        "TA-33 is selected for the scene"
+      ],
+      "required_inputs": [
+        "raw_images",
+        "accepted_bbox_observations"
+      ],
+      "source_node_ids": [
+        "src_d7ed527d071f29f3cc3d"
+      ],
+      "source_locator": "Figure 6P-33 (TA-33); PDF page 965; component sign:W20-1; Guidance basis SEC-6P.01 paragraph 02",
+      "source_span": "Figure 6P-33. Stationary Lane Closure on a Divided Highway (TA-33) G20-2 (optional) 500 ft G20-2 (optional) 100 ft (optional) 500 ft Work vehicle Truck-mounted attenuator (optional) Buffer space (optional) Buffer space (optional) Temporary white edge line L L Shoulder taper Shoulder taper A (see Note 3) A (see Note 3) W4-2R W4-2R B B W20-5R W20-5R C C W20-1 W20-1 Notes: See Table 6P-2 for the meanings of the symbols used in this figure. A – LONG-TERM AND B – SHORT-TERM See Table 6B-1 for the meanings of the letter codes used in this figure. INTERMEDIATE See Table 6B-4 for formulas for calculating taper length (L). Typical Application 33",
+      "model_extracted_source_span": "Figure 6P-33. Stationary Lane Closure on a Divided Highway (TA-33) G20-2 (optional) 500 ft G20-2 (optional) 100 ft (optional) 500 ft Work vehicle Truck-mounted attenuator (optional) Buffer space (optional) Buffer space (optional) Temporary white edge line L L Shoulder taper Shoulder taper A (see Note 3) A (see Note 3) W4-2R W4-2R B B W20-5R W20-5R C C W20-1 W20-1 Notes: See Table 6P-2 for the meanings of the symbols used in this figure. A – LONG-TERM AND B – SHORT-TERM See Table 6B-1 for the meanings of the letter codes used in this figure. INTERMEDIATE See Table 6B-4 for formulas for calculating taper length (L). Typical Application 33",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_2375450329e06fcb6795",
+          "src_2f2ac57c300ddcec7c94",
+          "src_75f1bb7600ed5f908937",
+          "src_9489f0166073c9223819",
+          "src_a036617fa2c603601069",
+          "src_cb0fc28c34bb84177e71",
+          "src_cb7eae86fdd35c059b5d",
+          "src_d7ed527d071f29f3cc3d",
+          "src_dcd7fa4cf259ce109137",
+          "src_fd74405fe5a1c6087102"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "discovered_requirement_key": "req_f7516651a32ae40a",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "f7516651a32ae40a67c12f5f1430c9973d479267bfb4fc185056f76930776ae1",
+      "registration_event_index": 15,
+      "registration_timestamp": "2026-10-21T00:57:18.636513+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    },
+    {
+      "candidate_label": "SEC-6H.02 02: Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (",
+      "subject": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign",
+      "modality": "should",
+      "relation": "should_comply",
+      "threshold": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+      "applicability_conditions": [],
+      "required_inputs": [
+        "raw_images"
+      ],
+      "source_node_ids": [
+        "src_eafd02c3dbce3f8109a1"
+      ],
+      "source_locator": "SEC-6H.02 paragraph 02; PDF page 838",
+      "source_span": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+      "model_extracted_source_span": "Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (W20-1) sign should be the first advance warning sign encountered by road users.",
+      "activation_basis": {
+        "type": "selected_ta",
+        "fact_keys": [],
+        "evidence_source_node_ids": [
+          "src_2375450329e06fcb6795",
+          "src_2f2ac57c300ddcec7c94",
+          "src_75f1bb7600ed5f908937",
+          "src_9489f0166073c9223819",
+          "src_a036617fa2c603601069",
+          "src_cb0fc28c34bb84177e71",
+          "src_cb7eae86fdd35c059b5d",
+          "src_d7ed527d071f29f3cc3d",
+          "src_dcd7fa4cf259ce109137",
+          "src_fd74405fe5a1c6087102"
+        ],
+        "explanation": "Program-bound activation basis from deterministic Knowledge Graph provenance and frozen scene facts."
+      },
+      "measurement_spec": {
+        "required": false,
+        "tool": null,
+        "quantity": null,
+        "thresholds": []
+      },
+      "discovered_requirement_key": "req_4a8163acba7fb469",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "4a8163acba7fb46907f549f7a5a518d4f0c5e39cbc169f7fb12e435a11e45dd2",
+      "registration_event_index": 16,
+      "registration_timestamp": "2026-10-21T00:57:18.636589+00:00",
+      "data_availability_record": null,
+      "final_data_availability": "not_attempted",
+      "image_assessable": false,
+      "inspection_status": "not_assessed",
+      "evidence_ids": [],
+      "inspection_reason": "No inspection batch was submitted for this candidate."
+    }
+  ],
+  "data_availability": {},
+  "evidence_records": {},
+  "stage4_plan": null,
+  "inspection_bundles": {},
+  "acquisition_attempts": {},
+  "measurement_records": {},
+  "stage4_readiness": null,
+  "stage5_plan": null,
+  "conclusion_drafts": {},
+  "stage5_readiness": null,
+  "tool_calls": [],
+  "event_history": [
+    {
+      "event_index": 1,
+      "timestamp": "2026-10-21T00:56:06.716597+00:00",
+      "event_type": "phase_transition",
+      "phase": "requirement_discovery",
+      "from_phase": "requirement_discovery",
+      "to_phase": "requirement_registration"
+    },
+    {
+      "event_index": 2,
+      "timestamp": "2026-10-21T00:56:16.901165+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_48f75ee8d92c7ccd",
+      "candidate_label": "stationary multi-lane closure transition",
+      "region": "lane_closure_layout",
+      "requirement_fingerprint": "48f75ee8d92c7ccd91f25ba7b0b1e967f086e3b0f730e1a3168a1b9ffca12f5b"
+    },
+    {
+      "event_index": 3,
+      "timestamp": "2026-10-21T00:56:28.481277+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_bceba7c23b640928",
+      "candidate_label": "single-lane closure warning sign present",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "bceba7c23b640928f1a207cf067fe36966b100a2744d7cd7654d6247373217be"
+    },
+    {
+      "event_index": 4,
+      "timestamp": "2026-10-21T00:56:28.481361+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_11f1287cb08981cb",
+      "candidate_label": "right-lane closure sign legend",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "11f1287cb08981cbc7c7ee523eea61e1a2c20f09a7de126713e236cd411eb1fd"
+    },
+    {
+      "event_index": 5,
+      "timestamp": "2026-10-21T00:56:41.861929+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_8972cefc2fea882f",
+      "candidate_label": "TA-33 figure:sign:W4-2R: W4-2R sign in TA-33",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "8972cefc2fea882ff94efee9fba75761912a456e95d026a452a7e97a648a2019"
+    },
+    {
+      "event_index": 6,
+      "timestamp": "2026-10-21T00:56:41.862051+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_60abbbef5be0dbce",
+      "candidate_label": "TABLE-6B-1 table: advance warning sign dimensions A, B, and C",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "60abbbef5be0dbce7925be9f0fe263277b9a430f0e5ffdcb72dceff2754afa93"
+    },
+    {
+      "event_index": 7,
+      "timestamp": "2026-10-21T00:56:41.862163+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_64360b412a82970e",
+      "candidate_label": "SEC-6K.01 04: spacing between cones, tubular markers, vertical panels, drums, and barricades",
+      "region": "channelization_system",
+      "requirement_fingerprint": "64360b412a82970e518279a5ba5c5847bf75759428b6cf23ef367b04790fde90"
+    },
+    {
+      "event_index": 8,
+      "timestamp": "2026-10-21T00:56:41.862241+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_9684dd549b406cb8",
+      "candidate_label": "SEC-6K.01 14: Particular attention",
+      "region": "channelization_system",
+      "requirement_fingerprint": "9684dd549b406cb85053ef34162a5a4cc7582e13f56980cfe9f635a16b1e8a5d"
+    },
+    {
+      "event_index": 9,
+      "timestamp": "2026-10-21T00:56:41.862307+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_f5310b80856ddc62",
+      "candidate_label": "SEC-6K.01 15: Channelizing devices that are no longer serviceable (see definition in Section 1C.02)",
+      "region": "channelization_system",
+      "requirement_fingerprint": "f5310b80856ddc629f4086c6364c9ed8e2370dd0305246294aab5885cd8ec42a"
+    },
+    {
+      "event_index": 10,
+      "timestamp": "2026-10-21T00:56:41.862404+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_87b634d248ec1f88",
+      "candidate_label": "TABLE-6B-4 table: taper length L",
+      "region": "transition_and_taper_geometry",
+      "requirement_fingerprint": "87b634d248ec1f884ed969abb22187c96080a8dc79fcdf3bcec8e06ea7f342e9"
+    },
+    {
+      "event_index": 11,
+      "timestamp": "2026-10-21T00:57:05.239533+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_624743ab648e44b8",
+      "candidate_label": "SEC-6H.03 01: The ROAD (STREET) WORK (W20-1) sign (see Figure 6H-1), which serves as a general warning of obstructions or restrictions",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "624743ab648e44b851f4248867b7b338b390fb4c914b2db239badacb9307dd3a"
+    },
+    {
+      "event_index": 12,
+      "timestamp": "2026-10-21T00:57:05.239633+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_9d0358d372de99a6",
+      "candidate_label": "SEC-6B.08 06: A merging taper",
+      "region": "transition_and_taper_geometry",
+      "requirement_fingerprint": "9d0358d372de99a6a8e749933d1c1b27a19124fb2f0b1476877edea62c2f2318"
+    },
+    {
+      "event_index": 13,
+      "timestamp": "2026-10-21T00:57:05.239708+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_c7b39111ef33fcbb",
+      "candidate_label": "SEC-6H.02 01: Where highway conditions permit, warning signs",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "c7b39111ef33fcbb3c59086c7aa273a7ec1d3aac27c384f81442a90c33c7d4f4"
+    },
+    {
+      "event_index": 14,
+      "timestamp": "2026-10-21T00:57:18.636404+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_c3b239ff453da2dc",
+      "candidate_label": "TA-33 figure:sign:W20-5R: W20-5R sign in TA-33",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "c3b239ff453da2dc268f3b6d0e0fdbef926ac281d28eba205c91512382524ff5"
+    },
+    {
+      "event_index": 15,
+      "timestamp": "2026-10-21T00:57:18.636513+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_f7516651a32ae40a",
+      "candidate_label": "TA-33 figure:sign:W20-1: W20-1 sign in TA-33",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "f7516651a32ae40a67c12f5f1430c9973d479267bfb4fc185056f76930776ae1"
+    },
+    {
+      "event_index": 16,
+      "timestamp": "2026-10-21T00:57:18.636589+00:00",
+      "event_type": "requirement_registered",
+      "phase": "requirement_registration",
+      "discovered_requirement_key": "req_4a8163acba7fb469",
+      "candidate_label": "SEC-6H.02 02: Where multiple advance warning signs are needed on the approach to a transition and activity area, the ROAD WORK AHEAD (",
+      "region": "advance_warning_sign_system",
+      "requirement_fingerprint": "4a8163acba7fb46907f549f7a5a518d4f0c5e39cbc169f7fb12e435a11e45dd2"
+    },
+    {
+      "event_index": 17,
+      "timestamp": "2026-10-21T00:57:22.145026+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "lane_closure_layout",
+      "status": "screened"
+    },
+    {
+      "event_index": 18,
+      "timestamp": "2026-10-21T00:57:22.145042+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "advance_warning_sign_system",
+      "status": "screened"
+    },
+    {
+      "event_index": 19,
+      "timestamp": "2026-10-21T00:57:22.145047+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "channelization_system",
+      "status": "screened"
+    },
+    {
+      "event_index": 20,
+      "timestamp": "2026-10-21T00:57:22.145052+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "transition_and_taper_geometry",
+      "status": "screened"
+    },
+    {
+      "event_index": 21,
+      "timestamp": "2026-10-21T00:57:22.145055+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "conditional_active_devices",
+      "status": "skipped_no_inspectable_candidate"
+    },
+    {
+      "event_index": 22,
+      "timestamp": "2026-10-21T00:57:22.145059+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "conditional_termination_area",
+      "status": "skipped_no_inspectable_candidate"
+    },
+    {
+      "event_index": 23,
+      "timestamp": "2026-10-21T00:57:26.581923+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "lane_closure_layout",
+      "status": "screened"
+    },
+    {
+      "event_index": 24,
+      "timestamp": "2026-10-21T00:57:26.581937+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "advance_warning_sign_system",
+      "status": "screened"
+    },
+    {
+      "event_index": 25,
+      "timestamp": "2026-10-21T00:57:26.581942+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "channelization_system",
+      "status": "screened"
+    },
+    {
+      "event_index": 26,
+      "timestamp": "2026-10-21T00:57:26.581946+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "transition_and_taper_geometry",
+      "status": "screened"
+    },
+    {
+      "event_index": 27,
+      "timestamp": "2026-10-21T00:57:26.581949+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "conditional_active_devices",
+      "status": "skipped_no_inspectable_candidate"
+    },
+    {
+      "event_index": 28,
+      "timestamp": "2026-10-21T00:57:26.581953+00:00",
+      "event_type": "region_screened",
+      "phase": "requirement_registration",
+      "region": "conditional_termination_area",
+      "status": "skipped_no_inspectable_candidate"
+    },
+    {
+      "event_index": 29,
+      "timestamp": "2026-10-21T00:57:29.887187+00:00",
+      "event_type": "phase_transition",
+      "phase": "requirement_registration",
+      "from_phase": "requirement_registration",
+      "to_phase": "data_availability"
+    }
+  ],
+  "completion": null,
+  "finalized": false,
+  "review_checkpoint": {
+    "status": "awaiting_stage1_stage2_evaluation",
+    "stopped_after_requirement_registration": true,
+    "scene_or_measurement_tool_calls": 0
+  }
+}
